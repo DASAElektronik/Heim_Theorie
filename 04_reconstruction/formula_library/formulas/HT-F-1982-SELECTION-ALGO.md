@@ -165,6 +165,7 @@ must be used. If the decimal-place sequence differs from this value, the source 
 - The next heading `Grenzen der Resonanzspektren` and formula `(XXXII)` are not part of this formula entry.
 - The top-line state is preserved as `Q = Q(0)` of `x_v`, not harmonized to `x_{vx}`.
 - The repeated source-local `vx` glyph family is preserved for `W_{vx}`, `a_{vx}`, `b_{vx}`, `Phi_{vx}`, terminal `x_{vx}`, and `M_N(vx)`. This is not a project-wide normalization decision.
+- `NORM-1982-ALGO-VX-SCOPING` resolves this record locally: preserve `x_v` in the top-line state and preserve the later `vx`/`x_vx` family as printed.
 - The printed line-417 distinction `K < 0` is preserved. Any later replacement with `K_4 < 0` must be marked as normalization or interpretation, not source transcription.
 - The final noun in the `Vermerk` is preserved as `Strukturentitäten`.
 

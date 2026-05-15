@@ -49,7 +49,8 @@ Source formatting notes:
 - This is only an image-vs-OCR source check. It is not normalized, derived, implemented, or validated.
 - The source image is `page-05.png`, not `page-06.png`.
 - The source-visible factor is `µα+`. Treating this as `mu * alpha_plus` is a later normalization step.
-- The underlined `G` is preserved as source formatting; its semantic weight remains unresolved.
+- The underlined `G` is preserved as source formatting. Per `NORM-1982-MASS-UNDERLINED-G`, it does not create a special weighted term by default.
+- Per `NORM-1982-G-SYMBOL-ROLES`, the `G` in `(K + G + H + Phi)` is the auxiliary mass contribution `G_aux`, not `G_count = k + 1`.
 - This is the central 1982 mass expression, but it is not independently usable until `K`, `G`, `H`, `Phi`, `mu`, `alpha_plus`, and the occupation tuple selection rule are normalized.
 
 ## Risks

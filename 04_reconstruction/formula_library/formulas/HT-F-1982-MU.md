@@ -55,9 +55,11 @@ R_ = (mu0 / epsilon0)^(1/2) = 376.73037659 V A^-1
 - Dimensional check: the expression reduces to mass units (`kg`) when `s0` has length units.
 - Using the printed 1982/IGW constants gives approximately `mu = 2.259021874e-31 kg`, or `0.126721834 MeV/c^2` using a modern kg-to-MeV conversion. This derived value is for sanity checking only, not a source value.
 - This is central because every 1982 mass scales with `mu * alpha_plus`.
+- Normalization decision `NORM-1982-MU-HISTORICAL-CONSTANTS` defines `model_1982_igw2003_printed` as the constants profile for source reproduction.
 
 ## Risks
 
 - The document is an IGW 2003 transcription/introduction of Heim's 1982 programming manuscript, not an independently verified facsimile of Heim's original notation.
 - Historical constants differ from modern constants and from later C/Pascal/XLSM implementations.
+- Do not mix printed historical constants with modern constants in one model run.
 - The printed formula uses the gravitational constant symbol `gamma`; do not confuse it with other `G`/`gamma` symbols in later code.

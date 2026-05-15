@@ -44,6 +44,7 @@ The adjacent `(B4)` alpha-constant definition is context/dependency for the alph
 - The source uses juxtaposition for multiplication. Explicit operators may be introduced only in a later implementation notation, not in the source transcription.
 - `(B4)` is dense and remains a dedicated alpha-constant normalization risk; this mass record links it as context/dependency only.
 - The source introduction explicitly says parts of the 1989 formulas were reprogrammed later and that missing brackets had to be estimated. This formula must therefore stay versioned separately from 1982.
+- `NORM-1989-MASS-VERSIONING` requires separate `model_1982_from_text` and `model_1989_extension` implementations.
 
 ## Risks
 

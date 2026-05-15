@@ -61,12 +61,14 @@ The source then compares against a later measurement:
 - `(B59)` must preserve the full equality chain. The old shortcut `1 - C_prime = 1 - K_alpha` is structurally wrong.
 - `(B60)`/`(B62)` use compact branch notation `α_(±)`, `α_(+)`, and `α_(-)` in the source layer.
 - `(B61)` denominator is `9ϑK_α`.
+- `NORM-1989-ALPHA-BRANCH-ALIASES` requires model-scoped numeric names such as `alpha_plus_1989` and `alpha_minus_1989`.
+- `NORM-1989-ALPHA-VARTHETA-NAME` keeps `vartheta` as the canonical implementation name for the visible theta-like glyph.
 - The 2002 Nistler & Weirauch comparison is source context only. It is not historical proof for a 1989 prediction.
 
 ## Risks
 
 - `K_α` scope in `(B59)` is normalization-sensitive.
 - `α_(+)`/`α_(-)` and later `α_+` are visibly distinct source notations and must not be silently merged.
-- Decimal commas in reciprocal/comparison lines require locale-aware parsing if used numerically.
+- Decimal commas in reciprocal/comparison lines are parsed by `NORM-1989-DECIMAL-COMMAS` if used numerically.
 - The comparison target is post-1989.
 - Possible mismatch between alpha in 1982, 1989, XLSM and implementation outputs.

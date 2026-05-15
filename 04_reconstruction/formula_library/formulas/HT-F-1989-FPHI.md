@@ -100,6 +100,6 @@ N'(k) = Q_n + Q_m + Q_p + Q_σ - 2k - 1                   (B14)
 - High bracket ambiguity.
 - `(B8)` and `(B13)` remain line-wrap-sensitive and are not implementation-ready.
 - The glyph `u` in `(B8)` may later need comparison against surrounding Heim notation.
-- Subscript comma style varies visibly (`η_q,k`, `η_q,1`, `η_1,k`) and is not yet a uniform implementation naming scheme.
+- Subscript comma style varies visibly (`η_q,k`, `η_q,1`, `η_1,k`); `NORM-1989-FPHI-NAMING` defines stable implementation names for these source forms without resolving expression scope.
 - Later reconstruction may have silently corrected Heim's expression.
 - `phi` includes empirically adjusted terms per the closing remarks in the 1989 text.

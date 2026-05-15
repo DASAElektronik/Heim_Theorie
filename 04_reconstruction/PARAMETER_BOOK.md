@@ -32,6 +32,8 @@ Zweck: Alle Freiheitsgrade sichtbar machen. Dazu zaehlen nicht nur kontinuierlic
 | Entscheidung | Optionen | Quelle | Modellversion | Status | Risiko |
 |---|---|---|---|---|---|
 | 1982 vs. 1989b Formel | 1982, 1989b | Heim/IGW/XLSM | TBD | offen | Vermischung von Original und spaeterer Korrektur |
+| Modellversionierung der Massenformel | `model_1982_from_text`, `model_1989_extension` | `NORM-1989-MASS-VERSIONING` | 1982/1989 | entschieden | Keine unversionierte Massenformel verwenden |
+| Konstantenprofil 1982 | `model_1982_igw2003_printed`, modern comparison profile | `NORM-1982-MU-HISTORICAL-CONSTANTS` | 1982/IGW transcription | entschieden | Historische und moderne Konstanten nicht mischen |
 | Klammerkorrekturen 1989 | Original, IGW-Schaetzung | 1989-PDF Einleitung | TBD | offen | Ex-post-Anpassung |
 | K_j Dezimalstellenregel 1982 | `,99...99 = 1`; sonst Dezimalstellen abschneiden, nicht aufrunden | `Massenformel_nach_B_Heim_1982.pdf`, page image `1982_massenformel/page-09.png`, Vermerk lines 431-435 | 1982/IGW transcription | source_checked | Diskrete Rundungs-/Abschneideregel fuer K4/K_j; nicht mit spaeteren Code-Kommentaren vermischen |
 | Alpha-Zweigkuerzung 1982 | `alpha_(+) = alpha`; `alpha_(-) = beta ~= 137 alpha` | `Massenformel_nach_B_Heim_1982.pdf`, page image `1982_massenformel/page-04.png`, lines 141-147 | 1982/IGW transcription | source_checked | Source prints reciprocal numeric branch values; branch aliases nicht mit 1989/XLSM vermischen |

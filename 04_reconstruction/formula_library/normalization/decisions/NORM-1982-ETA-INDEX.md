@@ -51,9 +51,7 @@ Avoid positional calls such as `eta(1, 2)` unless the call site states which sou
 
 ## Residual Risk
 
-The printed ALPHA reciprocal value `alpha_(+)^-1 = 137,03596147` still needs separate reconciliation. A flipped interpretation of `eta_12` may numerically fit that value better, but that is not sufficient evidence to reverse a source-visible index order inside the ALPHA transcription.
-
-That question is tracked separately as `NORM-1982-ALPHA-002`.
+The printed ALPHA reciprocal values are handled by separate decisions. `NORM-1982-ALPHA-RECONCILIATION` records the positive-branch source-literal and printed-fit variants, and `NORM-1982-ALPHA-NEGATIVE-BRANCH` records the negative-branch source residual. Those decisions do not reverse the source-visible index order inside the ALPHA transcription.
 
 ## Critic Check
 
@@ -63,4 +61,3 @@ A read-only Critic check accepted this decision with these guardrails:
 - use a single semantic helper `eta_k_q(k,q)`;
 - keep ALPHA `eta_12` source-literal as `eta_k_q(1,2)`;
 - do not use the printed alpha reciprocal value to force an index flip without a separate documented decision.
-

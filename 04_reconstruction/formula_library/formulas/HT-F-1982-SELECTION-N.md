@@ -122,6 +122,5 @@ The source states that generally `f > 0` for `N >= 2` and `f = 0` for `N = 0`. F
 ## Risks
 
 - `N = 1` handling is explicitly problematic because `f(1)` is complex.
-- The relation between `n_j`, `F(Gamma)`, full bandwidths `Gamma`, and `Q_N = Q(N)` is stated as unresolved in the source.
+- The relation between `n_j`, `F(Gamma)`, full bandwidths `Gamma`, and `Q_N = Q(N)` is stated as unresolved in the source and is blocked by `NORM-1982-N-GAMMA-QN-BLOCKER`.
 - The source-local `vx` notation must be reconciled later with nearby `nu/x` notation during normalization.
-

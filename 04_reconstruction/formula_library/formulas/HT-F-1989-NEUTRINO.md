@@ -64,12 +64,14 @@ für k = 2: ν_4(2110), ν_5(2111).
 - Source-checked against `1989_erweiterte_massenformel/page-09.png` and `page-10.png` by two worker packets plus Critic review.
 - Source range was extended from `491-552` to `491-554` to include the complete final interpretation sentence.
 - `M_ν`, `ν_i`, `α_+`, and `φ_0` use readable subscript notation while preserving source glyphs.
+- `NORM-1989-NEUTRINO-PHI-GLYPH` maps source phi glyph variants to canonical `phi` / `phi_0` while keeping uppercase `Phi` separate.
+- `NORM-1989-NEUTRINO-STATE-TUPLES` defines the four-digit labels as `(k,P,Q,kappa)` and preserves source state order.
 - OCR `ß` is corrected to source-visible Greek `β` in `β-Übergang` and `β-Neutrino`.
 - The antistructure notation is barred `\bar{ν}_i`; it must not be flattened to plain `ν_i`.
 - This is not automatically a modern neutrino mass prediction. It must be treated first as Heim's internal field-mass construct, then compared to historical and modern neutrino constraints only after the interpretation is explicit.
 
 ## Risks
 
-- `φ` versus `ϕ` may vary by font/OCR and needs a project-wide convention before implementation.
+- `φ` versus variant phi maps to canonical `phi`; B49 scope remains a separate normalization concern.
 - Juxtaposition in `µα_+` is source-visible multiplication, not implementation notation.
 - State order and grouping by `k = 1` / `k = 2` must not be reordered by later interpretation.
