@@ -65,13 +65,14 @@ Original labels: `(XIV)` and `(XV)`.
 - `(XIII)` is transcribed as printed: the rightmost factor is `alpha_3`, not `alpha_1`. `NORM-1982-SELECTION-XIII-ALPHA3` preserves `alpha_3` as the source-literal default and permits `alpha_1` only as an explicit emendation variant.
 - OCR line 244 lost the square root over `N(N-2)`; the page image shows `b_nu_x sqrt(N(N-2))`.
 - `(XV)` is included here because `W_nu_x = g(qk)w_nu_x` is part of the selection equation.
+- `NORM-1982-SELECTION-IF-GAMMA` resolves `iF(Gamma)` only for mass-spectrum tuple enumeration: for `N=0` and `N>=2`, `F(Gamma)=0`; for `N=1`, there is no default spectral term.
 - The full state-selection workflow continues beyond this entry with `w_nu_x`, `a_nu_x`, `b_nu_x`, resonance-order rules, and algorithmic occupation choices on later pages. Those later formulas are not source-checked here.
 - This is a source transcription only. It is not normalized or implementation-ready.
 
 ## Risks
 
 - `W_nu_x`, `a_nu_x`, `b_nu_x` depend on later formulas not yet normalized.
-- `iF(Gamma)` is visible in the source but semantically unresolved.
+- `iF(Gamma)` is resolved only for enumerated mass states by `NORM-1982-SELECTION-IF-GAMMA`; Gamma/bandwidth semantics remain blocked separately.
 - Resonance order `N` and missing rules around `N=1` need exact treatment.
 - The apparent `alpha_3` in the rightmost term of `(XIII)` is resolved by `NORM-1982-SELECTION-XIII-ALPHA3`; do not silently emend it to `alpha_1`.
 - Do not treat this entry alone as a complete valid/invalid tuple algorithm.
