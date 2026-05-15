@@ -21,6 +21,7 @@ Eine Bibliothek verhindert, dass wir beim Rechnen unbemerkt Quellen mischen.
 - `symbols/`: Symbol- und Einheitenregister.
 - `derivations/`: Notizen zur Herleitung oder zum Beweisstatus.
 - `reviews/`: Critic-/Audit-Kommentare zu einzelnen Formeln.
+- `normalization/`: Entscheidungsqueue fuer die Uebersetzung von source-gepruefter Transkription in implementierbare Mathematik.
 - `agent_workspace/`: Arbeitsbereich fuer parallele OCR-Agenten. Worker-Pakete und Critic-Reviews entstehen dort, bevor etwas in die kanonischen Dateien uebernommen wird.
 
 ## Statuswerte
