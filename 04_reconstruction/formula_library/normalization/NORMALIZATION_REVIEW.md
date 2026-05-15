@@ -14,15 +14,17 @@ This review does not implement formulas. It identifies the decisions required be
 - Agent OCR task queue: 11/11 entries are `integrated`.
 - All catalogued formula IDs have a corresponding formula file.
 
-Gate result: implementation remains blocked until P0 normalization decisions are resolved or explicitly model-scoped.
+Gate result: implementation remains blocked until the remaining P0 normalization decisions are resolved or explicitly model-scoped.
+
+## Resolved Decisions
+
+- `NORM-1982-QNUM-002` / `NORM-1989-QX-001`: visible stacked parenthesis notation such as `(P over 2)`, `(P over 3)`, and `(Q over 3)` is normalized as `choose(P,2)`, `choose(P,3)`, and `choose(Q,3)`. See `decisions/NORM-STACKED-BINOMIAL.md`.
 
 ## P0 Blockers
 
 ### 1982 Base Definitions
 
 - `HT-F-1982-QNUM`: the two underlined `Q(P)` lines are source-checked but not semantically bound to `P_1` and `P_2`.
-- `HT-F-1982-QNUM`: stacked `P` over `2` must be resolved as notation before use in `alpha_P` and `alpha_Q`.
-- `HT-F-1982-QNUM` / `HT-F-1982-SELECTION-WVX`: stacked `P` over integer notation, including `P/3`-like material, must not be inconsistently normalized.
 - `HT-F-1982-ALPHA`: `eta_{kq}` versus later `eta_{qk}`/`eta` notation needs an explicit alias/index convention.
 - `HT-F-1982-AUX`: `Phi` needs a line-by-line bracket, exponent, and fraction-precedence normalization.
 - `HT-F-1982-AUX`: reused symbols (`P`, `Q`, `q`, `Q_j`, `kappa`, `alpha`, `alpha_plus`, `alpha_minus`) need typed implementation names.
@@ -43,7 +45,6 @@ Gate result: implementation remains blocked until P0 normalization decisions are
 
 ### 1989 Corrections And Extensions
 
-- `HT-F-1989-QX`: stacked `P` over `2` in `(B1)` must align with the 1982 stacked-term decision.
 - `HT-F-1989-QX`: the `C/k` prose rule must remain separate from the visible `+ C` in `(B2)` until normalized.
 - `HT-F-1989-MASS`: `(B4)` alpha constants need a dedicated normalization before being used as dependencies.
 - `HT-F-1989-MASS`: 1989 mass terms must remain versioned separately from 1982 mass terms.
@@ -59,7 +60,6 @@ Gate result: implementation remains blocked until P0 normalization decisions are
 ## Recommended Work Order
 
 1. Resolve notation-level decisions shared across formulas:
-   - stacked `P` over `2`
    - `eta_{kq}` / `eta_{qk}`
    - `vartheta` / theta naming
    - `vx` / `nu x` scoping
@@ -87,14 +87,14 @@ Two read-only explorer agents independently reviewed the 1982 and 1989 formula s
 
 The 1982 review confirmed the local blocker list and added these explicit items:
 
-- stacked `P/3`-like notation should be handled with the same rule as stacked `P/2`;
+- stacked `P/3`-like notation should be handled with the same rule as stacked `P/2`; this is now resolved as `choose(P,3)` / `choose(P,2)`;
 - `Q_N = Q(N)` versus `Q = Q(0)` is a separate state-dependent decision;
 - visible `K < 0` in the `W_4` case logic must not be normalized away;
 - `G` must be split into structural-count and mass-contribution meanings.
 
 The 1989 review confirmed that the highest-risk implementation blockers are:
 
-- `QX` charge normalization (`C/k` and stacked `P/2`);
+- `QX` charge normalization (`C/k`; stacked `P/2` is now resolved as `choose(P,2)`);
 - `FPHI` scope and symbol parsing, especially `(B49)`, `BUW`, `(B50)`, `(B8)`, and `(B13)`;
 - `ALPHA` branch and `K_alpha` semantics;
 - strict separation of 1989 mass/neutrino variants from 1982 formulas.

@@ -16,4 +16,4 @@ This folder is the gate between `source_checked` and `implemented`.
 
 - `NORMALIZATION_REVIEW.md`: current review snapshot and blocker list.
 - `NORMALIZATION_DECISIONS.csv`: queue of normalization decisions before implementation.
-
+- `decisions/`: resolved normalization decisions with evidence and implementation rules.

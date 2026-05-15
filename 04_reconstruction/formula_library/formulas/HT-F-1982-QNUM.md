@@ -104,10 +104,10 @@ Original label: `(II)`.
 - Underlines on `P_1`, `P_2`, and the two `Q(P)` labels are source typography and are preserved in the transcription layer.
 - The two separate underlined `Q(P)` lines are accepted as visible source lines. Their relation to underlined `P_1` and `P_2` remains unresolved in this task.
 - The source uses `Q` in multiple nearby roles, including the symbol list's doubled spin `Q = 2J` and the underlined `Q(P)` value. Do not disambiguate these roles during source transcription.
-- `\binom{P}{2}` is a LaTeX rendering of the visible stacked `P` over `2`. Treating it as a mathematical binomial coefficient is a later normalization/validation decision.
+- `\binom{P}{2}` is a LaTeX rendering of the visible stacked `P` over `2`. Normalization decision `NORM-STACKED-BINOMIAL` maps this notation to `choose(P, 2)` for implementation.
 
 ## Risks
 
-- Clean LaTeX can hide the ambiguity of the duplicated `Q(P)` notation and the stacked `P/2` term.
+- Clean LaTeX can hide the ambiguity of the duplicated `Q(P)` notation; the stacked parenthesis notation itself is normalized by `NORM-STACKED-BINOMIAL`.
 - The exact semantic role of the underlined labels requires a separate normalization pass before implementation.
 - 1989 changes `C` and `qx`; version separation is mandatory.

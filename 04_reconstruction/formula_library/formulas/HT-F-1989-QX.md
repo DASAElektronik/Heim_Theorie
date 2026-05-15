@@ -14,7 +14,7 @@ The same source block gives the angle definition:
 α_Q = π Q [Q + (P/2)]                                               (B1)
 ```
 
-`(P/2)` is a compact transcription of the visibly stacked `P` over `2`; this is a source-glyph transcription, not a validated normalization rule.
+`(P/2)` is a compact transcription of the visibly stacked `P` over `2`; normalization decision `NORM-STACKED-BINOMIAL` maps this notation to `choose(P, 2)` for implementation.
 
 The modified charge-number expression is:
 
@@ -57,4 +57,4 @@ Alle übrigen Konstanten sind in (I) definiert.
 
 - This formula modifies the 1982 charge expression.
 - A mixed 1982/1989 implementation would be invalid unless explicitly versioned.
-- The canonical encoding of the stacked `P` over `2` in `(B1)` remains a normalization decision.
+- The canonical encoding of the stacked `P` over `2` in `(B1)` is resolved by `NORM-STACKED-BINOMIAL`; `C/k` remains unresolved.
