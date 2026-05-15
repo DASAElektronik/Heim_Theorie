@@ -135,6 +135,8 @@ then the identity:
 
 must be used. If the decimal-place sequence differs from this value, the source says not to round up; the decimal places are to be cut off because the `K_j` are counts of structure entities.
 
+`NORM-1982-ALGO-INTEGER-DECIMAL-RULE` normalizes this as a deterministic integerization policy: `K_1`, `K_2`, and `K_3` are maximum nonnegative integers satisfying their residual inequalities; `K_4` uses the source `,99...99` identity exception or otherwise truncates decimal places.
+
 ## Source
 
 - Provenance: `near_primary`
@@ -176,4 +178,4 @@ must be used. If the decimal-place sequence differs from this value, the source 
 
 - The algorithm is source-checked only as visible transcription; implementation still requires a separate normalization pass for logarithm notation, inequality handling, integer truncation, and branch/case behavior.
 - Cross-record linkage between `vx` and `nu_x` families remains non-semantic until an explicit alias map is introduced.
-- The decimal-place rule is a discrete free choice and must remain visible in any later numerical reproduction.
+- The decimal-place rule is resolved by `NORM-1982-ALGO-INTEGER-DECIMAL-RULE`; future implementations must log raw `K_4`, integerized `K_4`, numeric precision profile, and whether `,99...99` promotion or truncation was applied.

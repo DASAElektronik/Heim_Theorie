@@ -32,6 +32,7 @@ Gate result: implementation remains blocked until the remaining P0 normalization
 - `NORM-1982-N-001`: `nu_x` and `vx` are preserved as source-local notation families; no cross-record aliasing is implied without a later decision. See `decisions/NORM-1982-SELECTION-VX-NUX-SCOPING.md`.
 - `NORM-1982-N-002`: the `(XXIX)` doubled `+ + exp[...]` is preserved in transcription but normalized as binary plus plus unary positive exponential for implementation. See `decisions/NORM-1982-SELECTION-N-DOUBLE-PLUS.md`.
 - `NORM-1982-N-004`: the page-9 tuple algorithm uses `Q_base_1982 = Q(0)` of `x_v`; `Q_N_1982 = Q(N)` remains an unresolved resonance/bandwidth relation. See `decisions/NORM-1982-SELECTION-QN-Q0-SCOPING.md`.
+- `NORM-1982-ALGO-001`: `K_j` integerization is deterministic: maximum nonnegative `K_1..K_3`, and `K_4` uses only the source `,99...99` identity exception or truncation. See `decisions/NORM-1982-ALGO-INTEGER-DECIMAL-RULE.md`.
 - P1/P2 policy decisions now resolved: historical 1982 constants profile, 1982 `G` role split, underlined mass-formula `G`, WVX symbol families, ALGO `x_v`/`x_vx` scoping, 1989 alpha branch aliases, 1982/1989 mass-model versioning, 1989 FPHI naming, 1989 `vartheta` naming, 1989 neutrino `phi` glyph, 1989 neutrino tuple order, and decimal-comma parsing.
 
 ## Triaged Blockers
@@ -43,7 +44,6 @@ Gate result: implementation remains blocked until the remaining P0 normalization
 ### 1982 Selection Rules
 
 - `HT-F-1982-SELECTION-WVX`: dense slash expressions in A-matrix terms need explicit parentheses.
-- `HT-F-1982-SELECTION-ALGO`: integer/truncation/decimal-place rules for `K_j` must be specified before tuple enumeration.
 - `HT-F-1982-SELECTION-ALGO`: `W_4` cases require deterministic pseudocode before numeric use.
 - `HT-F-1982-SELECTION-ALGO`: printed `K < 0` in case `(c)` must not be rewritten to `K_4 < 0` without an interpretation decision.
 
