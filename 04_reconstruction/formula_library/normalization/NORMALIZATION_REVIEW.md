@@ -35,6 +35,7 @@ Gate result: implementation remains blocked until the remaining P0 normalization
 - `NORM-1982-ALGO-001`: `K_j` integerization is deterministic: maximum nonnegative `K_1..K_3`, and `K_4` uses only the source `,99...99` identity exception or truncation. See `decisions/NORM-1982-ALGO-INTEGER-DECIMAL-RULE.md`.
 - `NORM-1982-ALGO-002` / `NORM-1982-ALGO-004`: `W_4` cases are normalized as source-literal pseudocode; printed `K < 0` is preserved and `K_4 < 0` use is an explicit case-c interpretation variant. See `decisions/NORM-1982-ALGO-W4-CASES.md`.
 - `NORM-1982-WVX-001`: compact slash expressions in WVX A-matrix rows use denominator-product binding for implementation while source-literal and left-associative variants remain available for audit/regression checks. See `decisions/NORM-1982-WVX-A-MATRIX-SLASH-BINDING.md`.
+- `NORM-1989-MASS-001`: `(B4)` is resolved as a mass-record dependency boundary; `HT-F-1989-MASS` consumes versioned `alpha_plus_1989`/`alpha_minus_1989` inputs while executable alpha computation remains under `NORM-1989-ALPHA-001`. See `decisions/NORM-1989-MASS-B4-DEPENDENCY-SCOPE.md`.
 - P1/P2 policy decisions now resolved: historical 1982 constants profile, 1982 `G` role split, underlined mass-formula `G`, WVX symbol families, ALGO `x_v`/`x_vx` scoping, 1989 alpha branch aliases, 1982/1989 mass-model versioning, 1989 FPHI naming, 1989 `vartheta` naming, 1989 neutrino `phi` glyph, 1989 neutrino tuple order, and decimal-comma parsing.
 
 ## Triaged Blockers
@@ -45,7 +46,6 @@ Gate result: implementation remains blocked until the remaining P0 normalization
 
 ### 1989 Corrections And Extensions
 
-- `HT-F-1989-MASS`: `(B4)` alpha constants need a dedicated normalization before being used as dependencies.
 - `HT-F-1989-FPHI`: `(B49)` self-coupling scope must be fully parenthesized.
 - `HT-F-1989-FPHI`: `BUW^{-1}_{N=0}` is an unresolved source token.
 - `HT-F-1989-FPHI`: `(B50)` double minus needs a sign decision.
