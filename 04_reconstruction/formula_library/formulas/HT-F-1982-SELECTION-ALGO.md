@@ -16,6 +16,8 @@ of `x_v`, not:
 Q_N = Q(N)
 ```
 
+`NORM-1982-SELECTION-QN-Q0-SCOPING` normalizes this as `Q_base_1982 = Q(0)` for the page-9 numerical algorithm only. `Q_N_1982 = Q(N)` remains a reserved unresolved resonance/bandwidth relation.
+
 For a resonance order `N = 0` or `N >= 2`, determine numerically:
 
 ```math
@@ -164,6 +166,7 @@ must be used. If the decimal-place sequence differs from this value, the source 
 - The source line range is `395-435`; the earlier queue range `395-431` cut off part of the `Vermerk`.
 - The next heading `Grenzen der Resonanzspektren` and formula `(XXXII)` are not part of this formula entry.
 - The top-line state is preserved as `Q = Q(0)` of `x_v`, not harmonized to `x_{vx}`.
+- The top-line Q convention is normalized by `NORM-1982-SELECTION-QN-Q0-SCOPING`: use `Q_base_1982 = Q(0)` for this algorithm; do not infer `Q_N_1982 = Q_base_1982`.
 - The repeated source-local `vx` glyph family is preserved for `W_{vx}`, `a_{vx}`, `b_{vx}`, `Phi_{vx}`, terminal `x_{vx}`, and `M_N(vx)`. `NORM-1982-SELECTION-VX-NUX-SCOPING` forbids silent cross-record harmonization with `nu_x`.
 - `NORM-1982-ALGO-VX-SCOPING` resolves this record locally: preserve `x_v` in the top-line state and preserve the later `vx`/`x_vx` family as printed.
 - The printed line-417 distinction `K < 0` is preserved. Any later replacement with `K_4 < 0` must be marked as normalization or interpretation, not source transcription.

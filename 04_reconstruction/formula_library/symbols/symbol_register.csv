@@ -27,6 +27,8 @@ beta,beta,strong-coupling abbreviation for alpha_minus,dimensionless,HT-F-1982-A
 K,K_aux_1982,1982 auxiliary mass contribution K,dimensionless,HT-F-1982-AUX,"Mass sum uses K_aux_1982 per NORM-1982-AUX-SYMBOL-ROLES"
 H,H_aux_1982,1982 auxiliary mass contribution H,dimensionless,HT-F-1982-AUX,"Mass sum uses H_aux_1982 per NORM-1982-AUX-SYMBOL-ROLES"
 Q_j,Q1_aux_1982__Q2_aux_1982__Q3_aux_1982__Q4_aux_1982,AUX distributor values,integer,HT-F-1982-AUX,"Covers source Q_1..Q_4; do not collapse with Q_spin_1982, Q(P), Q_N, or Q(0)"
+Q_base,Q_base_1982,base double spin value used by page-9 tuple algorithm,integer,HT-F-1982-SELECTION-ALGO,"Defined as Q(0) of x_v by NORM-1982-SELECTION-QN-Q0-SCOPING; do not collapse with Q_N_1982"
+Q_N,Q_N_1982,unresolved resonance-order double spin relation,integer/function,HT-F-1982-SELECTION-N,"Source states Q_N=Q(N) relation is needed; reserved under NORM-1982-N-GAMMA-QN-BLOCKER and not equal to Q_base_1982 by default"
 K_alpha,K_alpha,1989 alpha auxiliary constant,dimensionless,HT-F-1989-ALPHA,"B59 full equality chain source-checked; do not collapse to 1-C'=1-K_alpha"
 D_prime,D_prime,1989 alpha reciprocal-square abbreviation,dimensionless,HT-F-1989-ALPHA,"B61 source-checked as D'=(2pi)^5/(9 vartheta K_alpha)"
 N,N,resonance order,integer,HT-F-1982-SELECTION,"N=0 ground state; N=1 no spectral term per source"

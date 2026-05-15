@@ -31,18 +31,18 @@ Gate result: implementation remains blocked until the remaining P0 normalization
 - `NORM-1982-SELECTION-002`: `iF(Gamma)` contributes zero for enumerated mass-spectrum states `N=0` and `N>=2`; `N=1` has no spectral term and remains source context. See `decisions/NORM-1982-SELECTION-IF-GAMMA.md`.
 - `NORM-1982-N-001`: `nu_x` and `vx` are preserved as source-local notation families; no cross-record aliasing is implied without a later decision. See `decisions/NORM-1982-SELECTION-VX-NUX-SCOPING.md`.
 - `NORM-1982-N-002`: the `(XXIX)` doubled `+ + exp[...]` is preserved in transcription but normalized as binary plus plus unary positive exponential for implementation. See `decisions/NORM-1982-SELECTION-N-DOUBLE-PLUS.md`.
+- `NORM-1982-N-004`: the page-9 tuple algorithm uses `Q_base_1982 = Q(0)` of `x_v`; `Q_N_1982 = Q(N)` remains an unresolved resonance/bandwidth relation. See `decisions/NORM-1982-SELECTION-QN-Q0-SCOPING.md`.
 - P1/P2 policy decisions now resolved: historical 1982 constants profile, 1982 `G` role split, underlined mass-formula `G`, WVX symbol families, ALGO `x_v`/`x_vx` scoping, 1989 alpha branch aliases, 1982/1989 mass-model versioning, 1989 FPHI naming, 1989 `vartheta` naming, 1989 neutrino `phi` glyph, 1989 neutrino tuple order, and decimal-comma parsing.
 
 ## Triaged Blockers
 
-- `NORM-1982-N-003`: Gamma/Q_N relation is no longer merely pending. The source states that the relation is needed but does not give a safe implementation rule; it is blocked until normalized with `NORM-1982-N-004`. See `decisions/NORM-1982-N-GAMMA-QN-BLOCKER.md`.
+- `NORM-1982-N-003`: Gamma/Q_N relation is no longer merely pending. The source states that the relation is needed but does not give a safe implementation rule; `Q_N_1982 = Q(N)` remains reserved while tuple enumeration uses `Q_base_1982 = Q(0)` by separate decision. See `decisions/NORM-1982-N-GAMMA-QN-BLOCKER.md`.
 
 ## P0 Blockers
 
 ### 1982 Selection Rules
 
 - `HT-F-1982-SELECTION-WVX`: dense slash expressions in A-matrix terms need explicit parentheses.
-- `HT-F-1982-SELECTION-N` / `HT-F-1982-SELECTION-ALGO`: `Q_N = Q(N)` and `Q = Q(0)` require a state-dependent convention.
 - `HT-F-1982-SELECTION-ALGO`: integer/truncation/decimal-place rules for `K_j` must be specified before tuple enumeration.
 - `HT-F-1982-SELECTION-ALGO`: `W_4` cases require deterministic pseudocode before numeric use.
 - `HT-F-1982-SELECTION-ALGO`: printed `K < 0` in case `(c)` must not be rewritten to `K_4 < 0` without an interpretation decision.
@@ -59,17 +59,15 @@ Gate result: implementation remains blocked until the remaining P0 normalization
 
 ## Recommended Work Order
 
-1. Resolve notation-level decisions shared across formulas:
-   - remaining state-dependent `Q_N` / `Q(0)` convention
-2. Normalize 1982 core dependencies:
+1. Normalize 1982 core dependencies:
    - remaining selection-facing dependency boundaries
    - tuple-state conventions before numeric mass use
-3. Normalize 1982 selection and tuple algorithm:
+2. Normalize 1982 selection and tuple algorithm:
    - SELECTION core
    - SELECTION-WVX A-matrix
    - SELECTION-N resonance rules
    - SELECTION-ALGO pseudocode
-4. Treat 1989 as a separate model variant:
+3. Treat 1989 as a separate model variant:
    - QX and MASS
    - FPHI/self-coupling
    - ALPHA
@@ -82,7 +80,7 @@ Two read-only explorer agents independently reviewed the 1982 and 1989 formula s
 The 1982 review confirmed the local blocker list and added these explicit items:
 
 - stacked `P/3`-like notation should be handled with the same rule as stacked `P/2`; this is now resolved as `choose(P,3)` / `choose(P,2)`;
-- `Q_N = Q(N)` versus `Q = Q(0)` is a separate state-dependent decision;
+- `Q_N = Q(N)` versus `Q = Q(0)` is resolved for tuple enumeration by `NORM-1982-SELECTION-QN-Q0-SCOPING`; Gamma/Q_N bandwidth semantics remain blocked separately;
 - visible `K < 0` in the `W_4` case logic must not be normalized away;
 - `G` role splitting is now resolved as `G_count` versus `G_aux_1982` by `NORM-1982-G-SYMBOL-ROLES`.
 

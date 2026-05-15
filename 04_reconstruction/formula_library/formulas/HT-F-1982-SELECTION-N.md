@@ -62,7 +62,7 @@ F(\Gamma) = W_{vx}[1-Q(2-k)(1-\kappa)]b_{vx}
 
 Original label: `(XXVIII)`.
 
-The source then notes that `n_j` and `F(Gamma)` have some relationship to the full bandwidths `Gamma`, and that a relation `Q_N = Q(N)` between double spin quantum number `Q` and `N` is also needed.
+The source then notes that `n_j` and `F(Gamma)` have some relationship to the full bandwidths `Gamma`, and that a relation `Q_N = Q(N)` between double spin quantum number `Q` and `N` is also needed. `NORM-1982-SELECTION-QN-Q0-SCOPING` reserves this as `Q_N_1982`; it is not collapsed to the page-9 algorithm's `Q_base_1982 = Q(0)`.
 
 If `N = 1` is excluded, then `F = 0`, and the real relation is:
 
@@ -122,5 +122,5 @@ The source states that generally `f > 0` for `N >= 2` and `f = 0` for `N = 0`. F
 ## Risks
 
 - `N = 1` handling is explicitly problematic because `f(1)` is complex.
-- The relation between `n_j`, `F(Gamma)`, full bandwidths `Gamma`, and `Q_N = Q(N)` is stated as unresolved in the source and is blocked by `NORM-1982-N-GAMMA-QN-BLOCKER`.
+- The relation between `n_j`, `F(Gamma)`, full bandwidths `Gamma`, and `Q_N_1982 = Q(N)` is stated as unresolved in the source and is blocked by `NORM-1982-N-GAMMA-QN-BLOCKER`; `Q_base_1982 = Q(0)` for tuple enumeration is handled separately by `NORM-1982-SELECTION-QN-Q0-SCOPING`.
 - Cross-record linkage between `vx` and `nu_x` families remains non-semantic until an explicit alias map is introduced.
