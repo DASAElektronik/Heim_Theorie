@@ -27,6 +27,7 @@ Gate result: implementation remains blocked until the remaining P0 normalization
 - `NORM-1982-AUX-001`: 1982 `Phi` bracket and precedence scope is normalized as product chain `F1..F9` plus additive terms `A1` and `A2`; the final mismatched delimiter closes only `F9`. See `decisions/NORM-1982-AUX-PHI-PRECEDENCE.md`.
 - `NORM-1982-AUX-002`: reused AUX symbols now have typed implementation roles. In particular, branch `alpha_(+)`/`alpha_(-)`, AUX unparenthesized `alpha+`/`alpha-`, and selection `alpha_1..3` are distinct names. See `decisions/NORM-1982-AUX-SYMBOL-ROLES.md`.
 - `NORM-1982-MASS-001`: the 1982 source-visible `µα+` cluster is normalized as `mu_mass_element_1982 * alpha_mass_plus_1982`, with the mass sum using `K_aux_1982 + G_aux_1982 + H_aux_1982 + Phi_aux_1982`. See `decisions/NORM-1982-MASS-MU-ALPHA-PLUS.md`.
+- `NORM-1982-SELECTION-001`: `(XIII)` keeps source-literal final `alpha_3` by default; `alpha_1` is allowed only as an explicit emendation variant. See `decisions/NORM-1982-SELECTION-XIII-ALPHA3.md`.
 - P1/P2 policy decisions now resolved: historical 1982 constants profile, 1982 `G` role split, underlined mass-formula `G`, WVX symbol families, ALGO `x_v`/`x_vx` scoping, 1989 alpha branch aliases, 1982/1989 mass-model versioning, 1989 FPHI naming, 1989 `vartheta` naming, 1989 neutrino `phi` glyph, 1989 neutrino tuple order, and decimal-comma parsing.
 
 ## Triaged Blockers
@@ -37,7 +38,6 @@ Gate result: implementation remains blocked until the remaining P0 normalization
 
 ### 1982 Selection Rules
 
-- `HT-F-1982-SELECTION`: the rightmost `(XIII)` factor is source-checked as `alpha_3`; changing it to `alpha_1` would be an emendation.
 - `HT-F-1982-SELECTION`: `iF(Gamma)` has no safe implementation meaning yet.
 - `HT-F-1982-SELECTION-WVX`: dense slash expressions in A-matrix terms need explicit parentheses.
 - `HT-F-1982-SELECTION-N`: source-local `vx` notation must be scoped or promoted to a project-wide convention.
