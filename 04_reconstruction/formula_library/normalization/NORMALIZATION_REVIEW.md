@@ -42,13 +42,14 @@ Gate result: implementation remains blocked until the remaining P0 normalization
 
 - `NORM-1982-N-003`: Gamma/Q_N relation is no longer merely pending. The source states that the relation is needed but does not give a safe implementation rule; `Q_N_1982 = Q(N)` remains reserved while tuple enumeration uses `Q_base_1982 = Q(0)` by separate decision. See `decisions/NORM-1982-N-GAMMA-QN-BLOCKER.md`.
 - `NORM-1989-FPHI-001`: B49 outer three-term structure is documented, but `kappa(1-q)/2 alpha vartheta` and the final stacked `(Q over 3)` factor remain too ambiguous for executable normalization. See `decisions/NORM-1989-FPHI-B49-SCOPE-BLOCKER.md`.
+- `NORM-1989-FPHI-002`: `BUW^{-1}_{N=0}` remains an opaque source token; local full-text search and web search found no source-backed definition or inverse scope. See `decisions/NORM-1989-FPHI-BUW-TOKEN-BLOCKER.md`.
 
 ## P0 Blockers
 
 ### 1989 Corrections And Extensions
 
 - `HT-F-1989-FPHI`: `(B49)` self-coupling has an outer decomposition, but compact inner scopes still block executable normalization.
-- `HT-F-1989-FPHI`: `BUW^{-1}_{N=0}` is an unresolved source token.
+- `HT-F-1989-FPHI`: `BUW^{-1}_{N=0}` is an unresolved opaque source token with no definition found in the current corpus.
 - `HT-F-1989-FPHI`: `(B50)` double minus needs a sign decision.
 - `HT-F-1989-FPHI`: `(B8)` through `(B14)`, especially `(B13)`, need line-wrap-aware normalization.
 - `HT-F-1989-ALPHA`: `(B59)` must preserve the full equality chain and normalize scope step by step.

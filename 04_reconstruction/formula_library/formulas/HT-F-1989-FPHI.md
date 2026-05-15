@@ -90,7 +90,7 @@ N'(k) = Q_n + Q_m + Q_p + Q_σ - 2k - 1                   (B14)
 - Source-checked against `1989_erweiterte_massenformel/page-02.png` and `page-03.png` by two worker packets plus Critic review.
 - The self-coupling line after `(B7)` uses source-visible `(σ + Q_σ)/sqrt(1 + σ^2)`, not `σ + Q_σ/sqrt(...)`.
 - The final stacked factor in the self-coupling line is source-visible `(Q/3)`; capital/lowercase distinction remains flagged.
-- `BUW^{-1}_{N=0}` is a source token only. The inverse and product scope are not normalized.
+- `BUW^{-1}_{N=0}` is a source token only. `NORM-1989-FPHI-BUW-TOKEN-BLOCKER` keeps it opaque because neither local full-text search nor web search found a source-backed definition or inverse scope.
 - `NORM-1989-FPHI-B49-SCOPE-BLOCKER` documents the outer three-term B49 decomposition but keeps `kappa(1-q)/2 alpha vartheta` and the final stacked `(Q over 3)` factor blocked for executable implementation.
 - In `(B50)`, the visible double minus before `4π` and the `fourth_root(2)` denominator are preserved as source transcription.
 - In `(B13)`, the leading `4` is inside the squared parenthesis: `(4(1 - sqrt(η))/(1 + sqrt(η)))^2`.
