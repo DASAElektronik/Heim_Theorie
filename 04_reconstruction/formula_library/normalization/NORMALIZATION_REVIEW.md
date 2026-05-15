@@ -34,6 +34,7 @@ Gate result: implementation remains blocked until the remaining P0 normalization
 - `NORM-1982-N-004`: the page-9 tuple algorithm uses `Q_base_1982 = Q(0)` of `x_v`; `Q_N_1982 = Q(N)` remains an unresolved resonance/bandwidth relation. See `decisions/NORM-1982-SELECTION-QN-Q0-SCOPING.md`.
 - `NORM-1982-ALGO-001`: `K_j` integerization is deterministic: maximum nonnegative `K_1..K_3`, and `K_4` uses only the source `,99...99` identity exception or truncation. See `decisions/NORM-1982-ALGO-INTEGER-DECIMAL-RULE.md`.
 - `NORM-1982-ALGO-002` / `NORM-1982-ALGO-004`: `W_4` cases are normalized as source-literal pseudocode; printed `K < 0` is preserved and `K_4 < 0` use is an explicit case-c interpretation variant. See `decisions/NORM-1982-ALGO-W4-CASES.md`.
+- `NORM-1982-WVX-001`: compact slash expressions in WVX A-matrix rows use denominator-product binding for implementation while source-literal and left-associative variants remain available for audit/regression checks. See `decisions/NORM-1982-WVX-A-MATRIX-SLASH-BINDING.md`.
 - P1/P2 policy decisions now resolved: historical 1982 constants profile, 1982 `G` role split, underlined mass-formula `G`, WVX symbol families, ALGO `x_v`/`x_vx` scoping, 1989 alpha branch aliases, 1982/1989 mass-model versioning, 1989 FPHI naming, 1989 `vartheta` naming, 1989 neutrino `phi` glyph, 1989 neutrino tuple order, and decimal-comma parsing.
 
 ## Triaged Blockers
@@ -41,10 +42,6 @@ Gate result: implementation remains blocked until the remaining P0 normalization
 - `NORM-1982-N-003`: Gamma/Q_N relation is no longer merely pending. The source states that the relation is needed but does not give a safe implementation rule; `Q_N_1982 = Q(N)` remains reserved while tuple enumeration uses `Q_base_1982 = Q(0)` by separate decision. See `decisions/NORM-1982-N-GAMMA-QN-BLOCKER.md`.
 
 ## P0 Blockers
-
-### 1982 Selection Rules
-
-- `HT-F-1982-SELECTION-WVX`: dense slash expressions in A-matrix terms need explicit parentheses.
 
 ### 1989 Corrections And Extensions
 
@@ -63,7 +60,7 @@ Gate result: implementation remains blocked until the remaining P0 normalization
    - tuple-state conventions before numeric mass use
 2. Normalize 1982 selection and tuple algorithm:
    - SELECTION core
-   - SELECTION-WVX A-matrix
+   - SELECTION-WVX A-matrix slash binding complete; keep variants attached to any future implementation
    - SELECTION-N resonance rules
    - SELECTION-ALGO pseudocode
 3. Treat 1989 as a separate model variant:

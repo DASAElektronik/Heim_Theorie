@@ -59,7 +59,6 @@ This decision does not resolve:
 
 - `NORM-1982-ALGO-002` W4 branch behavior;
 - `NORM-1982-ALGO-004` printed `K < 0` versus surrounding `K4` prose;
-- `NORM-1982-WVX-001` A-matrix slash binding;
 - `NORM-1982-N-003` Gamma/Q_N bandwidth relation.
 
 ## Critic Check

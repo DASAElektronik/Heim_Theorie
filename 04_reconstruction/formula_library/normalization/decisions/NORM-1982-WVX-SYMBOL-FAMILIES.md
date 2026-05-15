@@ -22,7 +22,7 @@ This is a registration and naming decision only.
 
 ## Rules
 
-- Do not implement `A_rs` terms until `NORM-1982-WVX-001` resolves slash binding.
+- Implement `A_rs` slash scopes only through `NORM-1982-WVX-A-MATRIX-SLASH-BINDING`.
 - Treat `A_rs` as a nonsymmetric real matrix family.
 - Keep source-local `eta_qk` routed through `NORM-1982-ETA-INDEX`.
 - Do not infer missing multiplication or division scopes from the symbol registration.

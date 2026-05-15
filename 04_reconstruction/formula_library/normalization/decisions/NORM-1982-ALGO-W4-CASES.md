@@ -113,7 +113,6 @@ decision_id = NORM-1982-ALGO-002/NORM-1982-ALGO-004
 
 This decision does not resolve:
 
-- `NORM-1982-WVX-001` A-matrix slash binding;
 - `NORM-1982-N-003` Gamma/Q_N bandwidth relation.
 
 ## Critic Check

@@ -44,7 +44,7 @@ M_nu,M_nu,1989 Heim field-mass construct for neutrino states,mass,HT-F-1989-NEUT
 nu_i,nu_i,1989 possible neutrino-state labels,state label,HT-F-1989-NEUTRINO,"State list source-checked as nu_1(1010), nu_2(1110), nu_3(1200), nu_4(2110), nu_5(2111); barred antistructure also appears"
 xi,xi,geometrische Konstante / golden-ratio-like constant,dimensionless,"HT-F-1982-MU; HT-F-1982-SELECTION-WVX","Printed as xi=1.61803399 in constants block; also used in A_rs terms"
 e_base,e_base,base of natural logarithms,dimensionless,"HT-F-1982-MU; HT-F-1982-SELECTION-WVX","Printed as e=2.71828183; use e_base to avoid confusion with electric charge e"
-A_rs,A_rs,1982 nonsymmetric real coefficient matrix family,dimensionless,HT-F-1982-SELECTION-WVX,"A_rs for r,s in 1..6; registered by NORM-1982-WVX-SYMBOL-FAMILIES; slash binding still governed by NORM-1982-WVX-001"
+A_rs,A_rs,1982 nonsymmetric real coefficient matrix family,dimensionless,HT-F-1982-SELECTION-WVX,"A_rs for r,s in 1..6; registered by NORM-1982-WVX-SYMBOL-FAMILIES; slash binding resolved by NORM-1982-WVX-A-MATRIX-SLASH-BINDING"
 w_nu_x,w_nu_x,1982 core/WVX source-local structure potency family,dimensionless,"HT-F-1982-SELECTION; HT-F-1982-SELECTION-WVX","Includes w_nu_x, w(1), w(2), and corrected w_nu_x(k); do not silently alias to W_vx/w_vx"
 a_nu_x,a_nu_x,1982 core/WVX source-local selection auxiliary family,dimensionless,"HT-F-1982-SELECTION; HT-F-1982-SELECTION-WVX","Includes a_nu_x, a_n, and a_q; do not silently alias to a_vx"
 b_nu_x,b_nu_x,1982 core/WVX source-local selection auxiliary,dimensionless,"HT-F-1982-SELECTION; HT-F-1982-SELECTION-WVX","Registered for core/WVX source notation; do not silently alias to b_vx"
