@@ -1,0 +1,23 @@
+# Normalize repository text files.
+* text=auto eol=lf
+
+# Binary/source artifacts.
+*.pdf binary
+*.zip binary
+*.xlsm binary
+*.xlsx binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+
+# Keep common data/docs as text.
+*.md text eol=lf
+*.csv text eol=lf
+*.txt text eol=lf
+*.py text eol=lf
+*.ps1 text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf

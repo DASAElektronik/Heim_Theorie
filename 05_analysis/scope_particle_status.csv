@@ -1,0 +1,8 @@
+particle,symbol,status,reason,next_step
+electron,e,found,"Present in 1976 addendum and spreadsheet comparison","Trace formula path and historical data status"
+muon,mu,found,"Present in 1976 addendum and spreadsheet comparison","Trace formula path and historical data status"
+tau,tau,ambiguous_found,"Elementarstrukturen der Materie 2 Tabellenanhang appears to list a tau-like state as mu-resonance around 1783.430 MeV","Verify against original page image/PDF and historical tau data"
+proton,p,found,"Present in 1976 addendum and spreadsheet comparison","Trace formula path and historical data status"
+neutron,n,found,"Present in 1976 addendum and spreadsheet comparison","Trace formula path and historical data status"
+W_boson,W,ambiguous_found,"Elementarstrukturen der Materie 2 Tabellenanhang lists possible W masses around 80810/80815 MeV","Verify branch notation and historical W data status"
+Z_boson,Z,ambiguous_found,"Elementarstrukturen der Materie 2 Tabellenanhang lists possible Z masses around 92901 MeV","Verify branch notation and historical Z data status"

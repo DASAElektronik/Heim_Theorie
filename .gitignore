@@ -1,0 +1,64 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Python / tooling
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+*.log
+
+# Build / temp
+tmp/
+temp/
+.cache/
+dist/
+build/
+coverage/
+
+# Local/source caches: third-party, copyright-sensitive, or large.
+01_sources/heim_primary/**
+01_sources/heim_primary_unpacked_untrusted/**
+01_sources/heim_secondary/**
+01_sources/mainstream_reference/**
+
+# Keep source metadata and registers.
+!01_sources/README.md
+!01_sources/source_register.md
+!01_sources/download_manifest.csv
+!01_sources/FILE_INVENTORY.csv
+!01_sources/**/.gitkeep
+
+# Raw external data caches.
+02_raw_data/cern_open_data/**
+02_raw_data/hepdata/**
+02_raw_data/nist_codata/**
+02_raw_data/pdg/**
+
+# Keep raw-data documentation and curated small tables.
+!02_raw_data/**/*.md
+!02_raw_data/**/*.csv
+!02_raw_data/**/.gitkeep
+
+# Generated outputs and derived OCR/image artifacts.
+07_outputs/extracted_text/**
+07_outputs/source_check_images/**
+07_outputs/xlsm_static_export/**
+07_outputs/archive_listing/**
+
+# Keep output documentation only.
+!07_outputs/**/README.md
+!07_outputs/**/.gitkeep
+
+# Binary/source artifacts if accidentally copied elsewhere.
+*.pdf
+*.zip
+*.xlsm
+*.xlsx
+*.doc
+*.docx

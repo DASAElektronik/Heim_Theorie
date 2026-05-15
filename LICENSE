@@ -1,0 +1,17 @@
+# License
+
+This repository uses split licensing.
+
+## Code
+
+Code, scripts, and software components created in this repository are licensed under the Apache License 2.0. See `LICENSE-CODE`.
+
+## Documentation and Reconstruction Notes
+
+Original documentation, formula-library notes, audit notes, tables created by this project, and other project-authored prose are licensed under Creative Commons Attribution 4.0 International. See `LICENSE-DOCS`.
+
+## Exclusions
+
+Third-party source material is not covered by either project license. This includes copied or downloaded PDFs, ZIP files, XLSM workbooks, scans, OCR outputs derived from third-party sources, and other materials listed under `01_sources/` or generated under `07_outputs/`.
+
+Those materials remain subject to their original rights and licenses. This repository should store metadata, provenance, and project-authored analysis rather than redistributing third-party source files unless explicit permission or a compatible license is documented.

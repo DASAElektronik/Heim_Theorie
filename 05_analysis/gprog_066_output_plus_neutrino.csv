@@ -1,0 +1,26 @@
+name,descriptor,reference_mass_mev,computed_mass_mev,diff_percent_reported,source,source_class
+eta,1000#100,547.75,548.8023492,0.192,massformula/C 0.66/output_plus_neutrino.txt,secondary_implementation_output
+e-,1110#2-10,0.51099892,0.5109988467,1.43e-05,massformula/C 0.66/output_plus_neutrino.txt,secondary_implementation_output
+mu,1111#1-10,105.658369,105.6585358,0.000158,massformula/C 0.66/output_plus_neutrino.txt,secondary_implementation_output
+K+-,1101#111,493.677,493.6779494,0.000192,massformula/C 0.66/output_plus_neutrino.txt,secondary_implementation_output
+K0,1101#201,497.648,497.6695545,0.00433,massformula/C 0.66/output_plus_neutrino.txt,secondary_implementation_output
+pi0,1200#200,134.9766,134.9615354,0.0112,massformula/C 0.66/output_plus_neutrino.txt,secondary_implementation_output
+pi+-,1200#110,139.57018,139.5658085,0.00313,massformula/C 0.66/output_plus_neutrino.txt,secondary_implementation_output
+lambda,2010#10-1,1115.683,1115.590928,0.00825,massformula/C 0.66/output_plus_neutrino.txt,secondary_implementation_output
+omega,2030#1-1-3,1672.45,1672.202046,0.0148,massformula/C 0.66/output_plus_neutrino.txt,secondary_implementation_output
+p,2110#110,938.27203,938.2720701,4.28e-06,massformula/C 0.66/output_plus_neutrino.txt,secondary_implementation_output
+n,2110#200,939.56536,939.5654923,1.41e-05,massformula/C 0.66/output_plus_neutrino.txt,secondary_implementation_output
+xi0,2111#10-2,1314.82,1314.774428,0.00347,massformula/C 0.66/output_plus_neutrino.txt,secondary_implementation_output
+xi-,2111#2-1-2,1321.31,1321.306103,0.000295,massformula/C 0.66/output_plus_neutrino.txt,secondary_implementation_output
+sig+,2210#11-1,1189.37,1189.354538,0.0013,massformula/C 0.66/output_plus_neutrino.txt,secondary_implementation_output
+sig0,2210#20-1,1192.642,1192.426786,0.018,massformula/C 0.66/output_plus_neutrino.txt,secondary_implementation_output
+sig-,2210#3-1-1,1197.449,1197.275523,0.0145,massformula/C 0.66/output_plus_neutrino.txt,secondary_implementation_output
+delta++,2330#120,1232,1230.254996,0.142,massformula/C 0.66/output_plus_neutrino.txt,secondary_implementation_output
+delta+,2330#210,1232,1229.776076,0.181,massformula/C 0.66/output_plus_neutrino.txt,secondary_implementation_output
+delta0,2330#300,1232,1231.127661,0.0708,massformula/C 0.66/output_plus_neutrino.txt,secondary_implementation_output
+delta-,2330#4-10,1232,1235.669805,0.298,massformula/C 0.66/output_plus_neutrino.txt,secondary_implementation_output
+neutrino1,1010#100#1,-1,1.440221201e-05,-1,massformula/C 0.66/output_plus_neutrino.txt,secondary_implementation_output
+neutrino2,1110#100#1,-1,0.005375600513,-1,massformula/C 0.66/output_plus_neutrino.txt,secondary_implementation_output
+neutrino3,1200#200#1,-1,0.001459933654,-1,massformula/C 0.66/output_plus_neutrino.txt,secondary_implementation_output
+neutrino4,2110#200#1,-1,0.0306332214,-1,massformula/C 0.66/output_plus_neutrino.txt,secondary_implementation_output
+neutrino5,2111#10-2#1,-1,0.09800052843,-1,massformula/C 0.66/output_plus_neutrino.txt,secondary_implementation_output

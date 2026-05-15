@@ -1,0 +1,9 @@
+particle,symbol,modern_value_mev_c2,standard_uncertainty_mev_c2,preferred_source,source_url,notes
+electron,e,0.51099895069,0.00000000016,NIST CODATA 2022,https://physics.nist.gov/cuu/Constants/,"m_e c^2; NIST database data content May 2025"
+muon,mu,105.6583755,0.0000023,NIST CODATA 2022,https://physics.nist.gov/cuu/Constants/,"m_mu c^2"
+tau,tau,1776.93,0.09,PDG 2025,https://pdg.lbl.gov/2025/,"PDG tau listing; NIST CODATA 2022 is older/lower precision for tau"
+proton,p,938.27208943,0.00000029,NIST CODATA 2022,https://physics.nist.gov/cuu/Constants/,"m_p c^2"
+neutron,n,939.56542194,0.00000048,NIST CODATA 2022,https://physics.nist.gov/cuu/Constants/,"m_n c^2"
+W_boson,W,80369.2,13.3,PDG 2025,https://pdg.lbl.gov/2025/,"80.3692 +/- 0.0133 GeV converted to MeV"
+Z_boson,Z,91188.0,2.0,PDG 2025,https://pdg.lbl.gov/2025/,"91.1880 +/- 0.0020 GeV converted to MeV"
+
