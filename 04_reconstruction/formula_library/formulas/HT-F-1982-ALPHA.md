@@ -100,12 +100,13 @@ The source asks what this strong coupling `alpha_{(-)}` means and then gives the
 - The source-local abbreviation is `eta_{kq}` in this block. Normalization decision `NORM-1982-ETA-INDEX` maps it to the canonical helper `eta_k_q(k,q)` while preserving the source alias.
 - In this ALPHA block, `eta_11 = eta_k_q(1,1)` and `eta_12 = eta_k_q(1,2)` are source-literal readings. Do not flip `eta_12` to `eta_k_q(2,1)` without a separate documented decision.
 - Normalization decision `NORM-1982-ALPHA-RECONCILIATION` documents a separate `printed_alpha_fit_variant` using `eta_12 = eta_k_q(2,1)` because it reproduces the printed positive reciprocal. This is an inference/model variant, not a source-transcription rewrite.
+- Normalization decision `NORM-1982-ALPHA-NEGATIVE-BRANCH` preserves the printed negative reciprocal as a source-literal residual, not as an implementation regression target.
 - The next `B) Massenspektrum...` heading and formulas `(VI)`, `(VII)`, and `(VIII)` are out of scope for this entry.
 
 ## Risks
 
 - `eta_{kq}` versus later `eta_{qk}` notation is resolved by `NORM-1982-ETA-INDEX`.
 - The printed positive reciprocal value is reconciled only by explicit model variants in `NORM-1982-ALPHA-RECONCILIATION`.
-- The printed negative reciprocal value `alpha_{(-)}^{-1} = 1,00001363` remains unreconciled and must not be used as a regression target yet.
+- The printed negative reciprocal value `alpha_{(-)}^{-1} = 1,00001363` is documented as a source-literal residual; branch-equation implementations compute `alpha_minus` from the same equation instead of tuning to this printed value.
 - The surrounding `C_\pm` elementary-charge paragraph was used only as context for the `vartheta` glyph and is not source-checked here as an ALPHA formula.
 - Alpha branch naming changes across 1982, 1989, XLSM, and C/Pascal code.

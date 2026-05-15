@@ -17,7 +17,7 @@ eta_qk,source_eta_qk,AUX/SELECTION source-local eta subscript spelling,dimension
 mu,mu,mass element,mass,HT-F-1982-MU,"Not muon; use mu_mass_element in code"
 M,M,unified mass spectrum term,mass,"HT-F-1982-MASS; HT-F-1989-MASS","1982 formula XII and 1989 B3 are source-checked; both preserve visible µα+ factor and require separate versioned normalization"
 alpha_plus,alpha_plus,fine-structure-like branch,dimensionless,"HT-F-1982-ALPHA; HT-F-1989-ALPHA","Source branch alpha_{(+)} / 1989 alpha_(+); source prints reciprocal numeric values; keep branch notation with source context"
-alpha_minus,alpha_minus,strong-coupling-like branch,dimensionless,"HT-F-1982-ALPHA; HT-F-1989-MASS; HT-F-1989-ALPHA","Source branch alpha_{(-)} / 1989 alpha_(-); 1989 B3 final term 4 q alpha_- is image-confirmed; branch meaning still needs normalization"
+alpha_minus,alpha_minus,strong-coupling-like branch,dimensionless,"HT-F-1982-ALPHA; HT-F-1989-MASS; HT-F-1989-ALPHA","Source branch alpha_{(-)} / 1989 alpha_(-); 1982 printed alpha_(-)^-1 is source-literal residual only; 1989 B3 final term 4 q alpha_- is image-confirmed; project-wide branch aliases still need normalization"
 vartheta,vartheta,visible theta-like abbreviation glyph,dimensionless,HT-F-1982-ALPHA,"Source uses vartheta-like glyph in alpha equation; do not silently normalize to theta"
 beta,beta,strong-coupling abbreviation for alpha_minus,dimensionless,HT-F-1982-ALPHA,"Source line 147 uses Greek beta, not OCR sharp-s"
 K_alpha,K_alpha,1989 alpha auxiliary constant,dimensionless,HT-F-1989-ALPHA,"B59 full equality chain source-checked; do not collapse to 1-C'=1-K_alpha"

@@ -6,7 +6,7 @@ Decision ID resolved:
 
 - `NORM-1982-ALPHA-002`
 
-Follow-up blocker created:
+Follow-up residual policy:
 
 - `NORM-1982-ALPHA-003`
 
@@ -70,17 +70,16 @@ computed alpha_minus^-1 ~= 1.00002663
 printed  alpha_(-)^-1  = 1.00001363
 ```
 
-This residual is not solved by the `printed_alpha_fit_variant`. It is tracked as `NORM-1982-ALPHA-003`.
+This residual is not solved by the `printed_alpha_fit_variant`. It is resolved as a source-literal residual policy in `NORM-1982-ALPHA-NEGATIVE-BRANCH`.
 
 ## Guardrails
 
 - Do not overwrite the source transcription of `eta_12`.
 - Do not treat `printed_alpha_fit_variant` as historical validation.
 - Do not use the printed `alpha_plus` value as a regression target unless the model explicitly declares the `printed_alpha_fit_variant`.
-- Do not claim the negative branch is reconciled by this decision.
+- Do not claim the negative branch is reconciled by this decision; `NORM-1982-ALPHA-NEGATIVE-BRANCH` only prevents the printed residual from becoming a false regression target.
 - Keep reciprocal notation explicit: `alpha_(+)^-1` and `alpha_(-)^-1`.
 
 ## Critic Check
 
 A read-only Critic check accepted this variants-based reconciliation and rejected a silent source rewrite.
-
