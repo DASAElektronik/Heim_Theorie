@@ -66,6 +66,7 @@ Original labels: `(XIV)` and `(XV)`.
 - OCR line 244 lost the square root over `N(N-2)`; the page image shows `b_nu_x sqrt(N(N-2))`.
 - `(XV)` is included here because `W_nu_x = g(qk)w_nu_x` is part of the selection equation.
 - `NORM-1982-SELECTION-IF-GAMMA` resolves `iF(Gamma)` only for mass-spectrum tuple enumeration: for `N=0` and `N>=2`, `F(Gamma)=0`; for `N=1`, there is no default spectral term.
+- `NORM-1982-SELECTION-VX-NUX-SCOPING` preserves this record's `nu_x` notation and forbids silent harmonization with the later page-8/page-9 `vx` family.
 - The full state-selection workflow continues beyond this entry with `w_nu_x`, `a_nu_x`, `b_nu_x`, resonance-order rules, and algorithmic occupation choices on later pages. Those later formulas are not source-checked here.
 - This is a source transcription only. It is not normalized or implementation-ready.
 

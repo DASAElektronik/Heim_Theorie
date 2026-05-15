@@ -164,7 +164,7 @@ must be used. If the decimal-place sequence differs from this value, the source 
 - The source line range is `395-435`; the earlier queue range `395-431` cut off part of the `Vermerk`.
 - The next heading `Grenzen der Resonanzspektren` and formula `(XXXII)` are not part of this formula entry.
 - The top-line state is preserved as `Q = Q(0)` of `x_v`, not harmonized to `x_{vx}`.
-- The repeated source-local `vx` glyph family is preserved for `W_{vx}`, `a_{vx}`, `b_{vx}`, `Phi_{vx}`, terminal `x_{vx}`, and `M_N(vx)`. This is not a project-wide normalization decision.
+- The repeated source-local `vx` glyph family is preserved for `W_{vx}`, `a_{vx}`, `b_{vx}`, `Phi_{vx}`, terminal `x_{vx}`, and `M_N(vx)`. `NORM-1982-SELECTION-VX-NUX-SCOPING` forbids silent cross-record harmonization with `nu_x`.
 - `NORM-1982-ALGO-VX-SCOPING` resolves this record locally: preserve `x_v` in the top-line state and preserve the later `vx`/`x_vx` family as printed.
 - The printed line-417 distinction `K < 0` is preserved. Any later replacement with `K_4 < 0` must be marked as normalization or interpretation, not source transcription.
 - The final noun in the `Vermerk` is preserved as `Strukturentitäten`.
@@ -172,5 +172,5 @@ must be used. If the decimal-place sequence differs from this value, the source 
 ## Risks
 
 - The algorithm is source-checked only as visible transcription; implementation still requires a separate normalization pass for logarithm notation, inequality handling, integer truncation, and branch/case behavior.
-- The source-local `vx` notation must be reconciled later with nearby `nu/x` notation during normalization.
+- Cross-record linkage between `vx` and `nu_x` families remains non-semantic until an explicit alias map is introduced.
 - The decimal-place rule is a discrete free choice and must remain visible in any later numerical reproduction.

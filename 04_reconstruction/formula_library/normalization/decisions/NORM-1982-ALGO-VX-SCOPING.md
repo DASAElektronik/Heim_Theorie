@@ -24,4 +24,4 @@ Do not harmonize `x_v` to `x_vx`, and do not harmonize `x_vx` to `x_v`.
 
 ## Boundary
 
-This resolves only the local `HT-F-1982-SELECTION-ALGO` source spelling. The project-wide `vx` versus `nu x` convention remains governed by `NORM-1982-N-001`.
+This resolves only the local `HT-F-1982-SELECTION-ALGO` source spelling. The cross-record `vx` versus `nu_x` convention is resolved by `NORM-1982-SELECTION-VX-NUX-SCOPING`: preserve source-local notation and do not infer equivalence without a later alias decision.

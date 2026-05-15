@@ -205,6 +205,7 @@ Original label: `(XXIV)` applies to the matrix coefficient proposal.
 - The direct multiline display of `(XVI)` has cramped brace layout near the source label. Use `(XVII)` to `(XIX)` as the safer source for the `w(1)`/`w(2)` decomposition.
 - The printed line break with `* *` in `a_n` is treated as multiplication in the source transcription.
 - The exponent `A34^(1-q_x)` is visually tight but visible on the scan.
+- `NORM-1982-SELECTION-VX-NUX-SCOPING` preserves this record's `nu_x` notation and forbids silent harmonization with the later page-8/page-9 `vx` family.
 
 ## Risks
 

@@ -29,6 +29,7 @@ Gate result: implementation remains blocked until the remaining P0 normalization
 - `NORM-1982-MASS-001`: the 1982 source-visible `µα+` cluster is normalized as `mu_mass_element_1982 * alpha_mass_plus_1982`, with the mass sum using `K_aux_1982 + G_aux_1982 + H_aux_1982 + Phi_aux_1982`. See `decisions/NORM-1982-MASS-MU-ALPHA-PLUS.md`.
 - `NORM-1982-SELECTION-001`: `(XIII)` keeps source-literal final `alpha_3` by default; `alpha_1` is allowed only as an explicit emendation variant. See `decisions/NORM-1982-SELECTION-XIII-ALPHA3.md`.
 - `NORM-1982-SELECTION-002`: `iF(Gamma)` contributes zero for enumerated mass-spectrum states `N=0` and `N>=2`; `N=1` has no spectral term and remains source context. See `decisions/NORM-1982-SELECTION-IF-GAMMA.md`.
+- `NORM-1982-N-001`: `nu_x` and `vx` are preserved as source-local notation families; no cross-record aliasing is implied without a later decision. See `decisions/NORM-1982-SELECTION-VX-NUX-SCOPING.md`.
 - P1/P2 policy decisions now resolved: historical 1982 constants profile, 1982 `G` role split, underlined mass-formula `G`, WVX symbol families, ALGO `x_v`/`x_vx` scoping, 1989 alpha branch aliases, 1982/1989 mass-model versioning, 1989 FPHI naming, 1989 `vartheta` naming, 1989 neutrino `phi` glyph, 1989 neutrino tuple order, and decimal-comma parsing.
 
 ## Triaged Blockers
@@ -40,7 +41,6 @@ Gate result: implementation remains blocked until the remaining P0 normalization
 ### 1982 Selection Rules
 
 - `HT-F-1982-SELECTION-WVX`: dense slash expressions in A-matrix terms need explicit parentheses.
-- `HT-F-1982-SELECTION-N`: source-local `vx` notation must be scoped or promoted to a project-wide convention.
 - `HT-F-1982-SELECTION-N`: doubled `+ + exp[...]` must not be silently removed.
 - `HT-F-1982-SELECTION-N` / `HT-F-1982-SELECTION-ALGO`: `Q_N = Q(N)` and `Q = Q(0)` require a state-dependent convention.
 - `HT-F-1982-SELECTION-ALGO`: integer/truncation/decimal-place rules for `K_j` must be specified before tuple enumeration.
@@ -60,7 +60,7 @@ Gate result: implementation remains blocked until the remaining P0 normalization
 ## Recommended Work Order
 
 1. Resolve notation-level decisions shared across formulas:
-   - `vx` / `nu x` scoping
+   - remaining state-dependent `Q_N` / `Q(0)` convention
 2. Normalize 1982 core dependencies:
    - remaining selection-facing dependency boundaries
    - tuple-state conventions before numeric mass use
