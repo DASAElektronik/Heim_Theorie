@@ -21,13 +21,14 @@ Gate result: implementation remains blocked until the remaining P0 normalization
 - `NORM-1982-QNUM-002` / `NORM-1989-QX-001`: visible stacked parenthesis notation such as `(P over 2)`, `(P over 3)`, and `(Q over 3)` is normalized as `choose(P,2)`, `choose(P,3)`, and `choose(Q,3)`. See `decisions/NORM-STACKED-BINOMIAL.md`.
 - `NORM-1989-QX-002`: the 1989 `C/k` prose rule is normalized as `C_1989 = C_1982 / k`; visible `(B2)` remains `+ C`, with `C` denoting `C_1989` in the 1989 implementation model. See `decisions/NORM-1989-QX-C-OVER-K.md`.
 - `NORM-1982-ALPHA-001`: `eta_{kq}` and `eta_{qk}` are source aliases around one semantic helper `eta_k_q(k,q)` defined by the printed formula body. ALPHA `eta_12` remains source-literal as `eta_k_q(1,2)`. See `decisions/NORM-1982-ETA-INDEX.md`.
+- `NORM-1982-ALPHA-002`: the printed positive alpha reciprocal is reconciled by documenting `source_transcription_variant` and `printed_alpha_fit_variant`, not by rewriting the source transcription. See `decisions/NORM-1982-ALPHA-RECONCILIATION.md`.
 
 ## P0 Blockers
 
 ### 1982 Base Definitions
 
 - `HT-F-1982-QNUM`: the two underlined `Q(P)` lines are source-checked but not semantically bound to `P_1` and `P_2`.
-- `HT-F-1982-ALPHA`: the printed reciprocal `alpha_(+)^-1` value needs source-only reconciliation before it can become an implementation regression target.
+- `HT-F-1982-ALPHA`: the printed reciprocal `alpha_(-)^-1` value remains unreconciled and must not become an implementation regression target yet.
 - `HT-F-1982-AUX`: `Phi` needs a line-by-line bracket, exponent, and fraction-precedence normalization.
 - `HT-F-1982-AUX`: reused symbols (`P`, `Q`, `q`, `Q_j`, `kappa`, `alpha`, `alpha_plus`, `alpha_minus`) need typed implementation names.
 - `HT-F-1982-QNUM` / `HT-F-1982-AUX` / `HT-F-1982-MASS`: `G` must be split into structural-count and mass-contribution roles before code.
