@@ -36,7 +36,7 @@ W_i,W_i,intermediate selection residuals W1..W4,dimensionless,HT-F-1982-SELECTIO
 K_j,K_j,integer structure-entity counts,integer,HT-F-1982-SELECTION-ALGO,"Vermerk states K_j are always integer; K4 decimal places use source-specific truncation/0.99 identity rule"
 Phi,Phi_aux_1982__Phi_1989,mass formula contribution,dimensionless,"HT-F-1982-AUX; HT-F-1989-FPHI","1982 Phi uses Phi_aux_1982 with NORM-1982-AUX-PHI-PRECEDENCE and NORM-1982-AUX-SYMBOL-ROLES; 1989 Phi remains separate and normalization-sensitive"
 phi,phi,self-coupling term,dimensionless,"HT-F-1989-FPHI; HT-F-1989-NEUTRINO","Canonical ASCII name for source phi glyph family per NORM-1989-NEUTRINO-PHI-GLYPH; keep uppercase Phi distinct"
-U,U,1989 auxiliary self-coupling term,dimensionless,HT-F-1989-FPHI,"B50 source-checked; preserve visible double minus and fourth_root(2) until normalization"
+U,U,1989 auxiliary self-coupling term,dimensionless,HT-F-1989-FPHI,"B50 source-checked; preserve visible double minus and fourth_root(2) per NORM-1989-FPHI-B50-DOUBLE-MINUS-BLOCKER until an explicit sign decision exists"
 Z,Z,1989 auxiliary exponent for U,dimensionless,HT-F-1989-FPHI,"B51 source-checked as Z = k + P + Q + kappa"
 N_i,N_i,1989 auxiliary functions N3..N6,dimensionless,HT-F-1989-FPHI,"B8-B10/B13 source-checked but line-wrap-sensitive"
 BUW,BUW,source token in 1989 self-coupling line,unknown,HT-F-1989-FPHI,"Preserve as opaque BUW_N0_inverse_source_token per NORM-1989-FPHI-BUW-TOKEN-BLOCKER; do not expand product or inverse scope before source-backed normalization"
