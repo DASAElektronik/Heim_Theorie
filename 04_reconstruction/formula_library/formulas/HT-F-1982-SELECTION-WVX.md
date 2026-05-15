@@ -210,5 +210,5 @@ Original label: `(XXIV)` applies to the matrix coefficient proposal.
 
 - Slash binding in terms such as `A16`, `A24`, `A35`, `A46`, `A64`, and `A65` still needs a normalization decision.
 - `k^P(1+P+Q+kappa eta^(2-q))` in `b_nu_x` is source transcription only; do not silently change it to `kP(1+P+Q+kappa eta^2-q)`.
+- `eta_{qk}` uses the source alias normalized by `NORM-1982-ETA-INDEX`; implementation should call `eta_k_q(k,q)` with named arguments.
 - `A_rs` matrix terms introduce many new symbols and should be cross-linked in the symbol register before implementation.
-

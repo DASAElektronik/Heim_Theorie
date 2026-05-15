@@ -125,7 +125,7 @@ Original label: `(XI)`.
 
 - The OCR text damages most superscripts and several roots; this transcription is from `page-04.png` and `page-05.png`.
 - `(VII)` and `(VIII)` overlap conceptually with `HT-F-1982-ALPHA`; they are repeated here because they are printed in the same auxiliary-function block.
-- `HT-F-1982-ALPHA` separately source-checks the earlier page-03 abbreviation block using source-local `eta_{kq}`. This AUX entry covers later auxiliary-function material and must not silently override `eta_{kq}`/`eta_{qk}` ordering before a normalization decision.
+- `HT-F-1982-ALPHA` separately source-checks the earlier page-03 abbreviation block using source-local `eta_{kq}`. This AUX entry uses source-local `eta_{qk}`. Normalization decision `NORM-1982-ETA-INDEX` maps both aliases to canonical helper `eta_k_q(k,q)` by the printed formula body.
 - In `Phi`, the factor after the binomial term is printed with exponent `-1` on the full bracket.
 - The final multiplicative factor in `Phi` appears in the source with an opening parenthesis and closing square bracket. The display above uses matching brackets for readability; this must be revisited before implementation.
 - This is a source transcription only. It is not normalized, derived, dimension-checked, or implementation-ready.
@@ -134,5 +134,5 @@ Original label: `(XI)`.
 
 - `Phi` remains high risk because a single bracket or exponent changes the result.
 - `G` collides with `G_count`.
-- `eta(1,1)` in `alpha_3` must be mapped explicitly to `eta_qk` at `q=1, k=1` before coding.
+- `eta(1,1)` in `alpha_3` maps to `eta_k_q(1,1)` under `NORM-1982-ETA-INDEX`; use named arguments at call sites.
 - `P`, `Q`, `q`, `Q_j`, `kappa`, `alpha`, `alpha_plus`, and `alpha_minus` must be disambiguated in the symbol register before implementation.

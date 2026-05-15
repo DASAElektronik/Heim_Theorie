@@ -97,11 +97,13 @@ The source asks what this strong coupling `alpha_{(-)}` means and then gives the
 - The source prints reciprocal values `alpha_{(+)}^{-1}` and `alpha_{(-)}^{-1}`. Do not collapse these into `alpha(+)-1` or `alpha(-)-1`.
 - OCR `ß` on the abbreviation line is a recognition error; the source image shows Greek `beta`.
 - The coefficient in the fine-structure equation is source-checked as `9 vartheta`, not `99`.
-- The source-local abbreviation is `eta_{kq}` in this block. Later `HT-F-1982-AUX` material uses or normalizes nearby `eta_{qk}` notation; reconcile this explicitly during normalization before implementation.
+- The source-local abbreviation is `eta_{kq}` in this block. Normalization decision `NORM-1982-ETA-INDEX` maps it to the canonical helper `eta_k_q(k,q)` while preserving the source alias.
+- In this ALPHA block, `eta_11 = eta_k_q(1,1)` and `eta_12 = eta_k_q(1,2)` are source-literal readings. Do not flip `eta_12` to `eta_k_q(2,1)` without a separate documented decision.
 - The next `B) Massenspektrum...` heading and formulas `(VI)`, `(VII)`, and `(VIII)` are out of scope for this entry.
 
 ## Risks
 
-- `eta_{kq}` versus later `eta_{qk}` notation requires a normalization decision.
+- `eta_{kq}` versus later `eta_{qk}` notation is resolved by `NORM-1982-ETA-INDEX`.
+- The printed reciprocal value `alpha_{(+)}^{-1} = 137,03596147` still needs separate reconciliation before it can be used as a regression target.
 - The surrounding `C_\pm` elementary-charge paragraph was used only as context for the `vartheta` glyph and is not source-checked here as an ALPHA formula.
 - Alpha branch naming changes across 1982, 1989, XLSM, and C/Pascal code.

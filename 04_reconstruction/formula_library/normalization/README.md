@@ -12,6 +12,7 @@ This folder is the gate between `source_checked` and `implemented`.
 - Mark uncertain choices as blocked or deferred, not silently resolved.
 - Do not use spreadsheet, code, or target particle masses to choose among ambiguous source readings unless the decision is explicitly labelled as secondary or validation-only.
 - Use versioned implementation names when a later source redefines an existing symbol.
+- Prefer named-argument helper calls when source subscript order is inconsistent across formula blocks.
 
 ## Files
 
