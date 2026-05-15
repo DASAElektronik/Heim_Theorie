@@ -110,4 +110,4 @@ Original label: `(II)`.
 
 - Clean LaTeX can hide the ambiguity of the duplicated `Q(P)` notation; the stacked parenthesis notation itself is normalized by `NORM-STACKED-BINOMIAL`.
 - The exact semantic role of the underlined labels requires a separate normalization pass before implementation.
-- 1989 changes `C` and `qx`; version separation is mandatory.
+- 1989 changes `C` and `qx`; `NORM-1989-QX-C-OVER-K` requires versioned `C_1982` and `C_1989` implementation names.

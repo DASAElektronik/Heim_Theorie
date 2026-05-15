@@ -19,6 +19,7 @@ Gate result: implementation remains blocked until the remaining P0 normalization
 ## Resolved Decisions
 
 - `NORM-1982-QNUM-002` / `NORM-1989-QX-001`: visible stacked parenthesis notation such as `(P over 2)`, `(P over 3)`, and `(Q over 3)` is normalized as `choose(P,2)`, `choose(P,3)`, and `choose(Q,3)`. See `decisions/NORM-STACKED-BINOMIAL.md`.
+- `NORM-1989-QX-002`: the 1989 `C/k` prose rule is normalized as `C_1989 = C_1982 / k`; visible `(B2)` remains `+ C`, with `C` denoting `C_1989` in the 1989 implementation model. See `decisions/NORM-1989-QX-C-OVER-K.md`.
 
 ## P0 Blockers
 
@@ -45,7 +46,6 @@ Gate result: implementation remains blocked until the remaining P0 normalization
 
 ### 1989 Corrections And Extensions
 
-- `HT-F-1989-QX`: the `C/k` prose rule must remain separate from the visible `+ C` in `(B2)` until normalized.
 - `HT-F-1989-MASS`: `(B4)` alpha constants need a dedicated normalization before being used as dependencies.
 - `HT-F-1989-MASS`: 1989 mass terms must remain versioned separately from 1982 mass terms.
 - `HT-F-1989-FPHI`: `(B49)` self-coupling scope must be fully parenthesized.
@@ -94,7 +94,7 @@ The 1982 review confirmed the local blocker list and added these explicit items:
 
 The 1989 review confirmed that the highest-risk implementation blockers are:
 
-- `QX` charge normalization (`C/k`; stacked `P/2` is now resolved as `choose(P,2)`);
+- `QX` stacked notation and `C/k` charge normalization are resolved; downstream charge code must still keep 1982 and 1989 variants separate;
 - `FPHI` scope and symbol parsing, especially `(B49)`, `BUW`, `(B50)`, `(B8)`, and `(B13)`;
 - `ALPHA` branch and `K_alpha` semantics;
 - strict separation of 1989 mass/neutrino variants from 1982 formulas.
