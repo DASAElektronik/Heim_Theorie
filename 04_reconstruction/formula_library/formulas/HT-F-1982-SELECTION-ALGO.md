@@ -103,6 +103,8 @@ Therefore in case `(a)` the maximal value is computed as:
 K_4 = \alpha_3K_3
 ```
 
+`NORM-1982-ALGO-W4-CASES` normalizes the three `W_4` cases as source-literal pseudocode. It preserves the printed `K < 0` in case `(c)` and allows only explicitly named `K_4 < 0` interpretation variants.
+
 The occupation numbers follow from:
 
 ```math
@@ -171,11 +173,11 @@ must be used. If the decimal-place sequence differs from this value, the source 
 - The top-line Q convention is normalized by `NORM-1982-SELECTION-QN-Q0-SCOPING`: use `Q_base_1982 = Q(0)` for this algorithm; do not infer `Q_N_1982 = Q_base_1982`.
 - The repeated source-local `vx` glyph family is preserved for `W_{vx}`, `a_{vx}`, `b_{vx}`, `Phi_{vx}`, terminal `x_{vx}`, and `M_N(vx)`. `NORM-1982-SELECTION-VX-NUX-SCOPING` forbids silent cross-record harmonization with `nu_x`.
 - `NORM-1982-ALGO-VX-SCOPING` resolves this record locally: preserve `x_v` in the top-line state and preserve the later `vx`/`x_vx` family as printed.
-- The printed line-417 distinction `K < 0` is preserved. Any later replacement with `K_4 < 0` must be marked as normalization or interpretation, not source transcription.
+- The printed line-417 distinction `K < 0` is preserved. `NORM-1982-ALGO-W4-CASES` forbids silent replacement with `K_4 < 0`; case `(c)` use requires explicit variant metadata.
 - The final noun in the `Vermerk` is preserved as `Strukturentitäten`.
 
 ## Risks
 
-- The algorithm is source-checked only as visible transcription; implementation still requires a separate normalization pass for logarithm notation, inequality handling, integer truncation, and branch/case behavior.
+- The algorithm is source-checked only as visible transcription; `NORM-1982-ALGO-INTEGER-DECIMAL-RULE` and `NORM-1982-ALGO-W4-CASES` normalize integerization and branch/case behavior, but upstream `W_vx` and Gamma/Q_N dependencies still block full numeric use.
 - Cross-record linkage between `vx` and `nu_x` families remains non-semantic until an explicit alias map is introduced.
 - The decimal-place rule is resolved by `NORM-1982-ALGO-INTEGER-DECIMAL-RULE`; future implementations must log raw `K_4`, integerized `K_4`, numeric precision profile, and whether `,99...99` promotion or truncation was applied.
