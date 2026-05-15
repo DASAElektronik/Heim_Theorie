@@ -5,7 +5,7 @@ G,G,number of internal structural subconstituents,integer,HT-F-1982-QNUM,"Also r
 B,B,Baryonenziffer,integer,HT-F-1982-QNUM,"B=k-1"
 P,P,double isospin,integer,HT-F-1982-QNUM,"P=2s"
 Q,Q,double spin / Q(P),integer,HT-F-1982-QNUM,"OCR/source uses Q in more than one role"
-Q(P),Q_of_P,underlined source value Q(P),integer,HT-F-1982-QNUM,"Two separate underlined Q(P) lines are source-checked; relation to underlined P1/P2 remains unresolved"
+Q(P),Q_of_P_line_1__Q_of_P_line_2,underlined source-row values Q(P),integer,HT-F-1982-QNUM,"Two separate underlined Q(P) lines are source-checked; default normalized rows are Q_of_P_line_1=k-1 and Q_of_P_line_2=2k-1 with no P1/P2 binding; line-order binding requires explicit model variant"
 kappa,kappa,Doublettziffer,0/1,HT-F-1982-QNUM,"Greek kappa"
 C,C,Strukturdistributor / strangeness-like number,number,"HT-F-1982-QNUM; HT-F-1989-QX","Use versioned implementation names: C_1982 from HT-F-1982-QNUM and C_1989=C_1982/k per NORM-1989-QX-C-OVER-K; do not rewrite visible +C in 1989 B2 source transcription"
 x,x,isospin multiplet component index,integer,HT-F-1982-QNUM,"Component index"

@@ -37,6 +37,7 @@ The source then prints two separate underlined `Q(P)` lines:
 ```
 
 The source does not explicitly bind these two lines to `P_1` and `P_2` in this block.
+Normalization decision `NORM-1982-QNUM-QOF-P-BINDING` keeps them as ordered source rows `Q_of_P_line_1` and `Q_of_P_line_2` with no default `P_1`/`P_2` binding.
 
 ```math
 \kappa(\lambda) = (1 - \delta_{1\lambda})\delta_{1P},
@@ -102,12 +103,13 @@ Original label: `(II)`.
 
 - This is only an image-vs-OCR source check. It is not normalized, derived, implemented, or validated.
 - Underlines on `P_1`, `P_2`, and the two `Q(P)` labels are source typography and are preserved in the transcription layer.
-- The two separate underlined `Q(P)` lines are accepted as visible source lines. Their relation to underlined `P_1` and `P_2` remains unresolved in this task.
+- The two separate underlined `Q(P)` lines are accepted as visible source lines. Their relation to underlined `P_1` and `P_2` is not inferred by default.
+- The default normalized names for the two visible rows are `Q_of_P_line_1` and `Q_of_P_line_2`; names such as `Q_of_P1` and `Q_of_P2` are allowed only in an explicit `line_order_binding_variant`.
 - The source uses `Q` in multiple nearby roles, including the symbol list's doubled spin `Q = 2J` and the underlined `Q(P)` value. Do not disambiguate these roles during source transcription.
 - `\binom{P}{2}` is a LaTeX rendering of the visible stacked `P` over `2`. Normalization decision `NORM-STACKED-BINOMIAL` maps this notation to `choose(P, 2)` for implementation.
 
 ## Risks
 
 - Clean LaTeX can hide the ambiguity of the duplicated `Q(P)` notation; the stacked parenthesis notation itself is normalized by `NORM-STACKED-BINOMIAL`.
-- The exact semantic role of the underlined labels requires a separate normalization pass before implementation.
+- The exact semantic role of the underlined labels is not inferred by default; downstream code that needs a `P_1`/`P_2` binding must opt into a model variant.
 - 1989 changes `C` and `qx`; `NORM-1989-QX-C-OVER-K` requires versioned `C_1982` and `C_1989` implementation names.
