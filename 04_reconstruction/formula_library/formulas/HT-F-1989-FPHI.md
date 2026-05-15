@@ -91,6 +91,7 @@ N'(k) = Q_n + Q_m + Q_p + Q_σ - 2k - 1                   (B14)
 - The self-coupling line after `(B7)` uses source-visible `(σ + Q_σ)/sqrt(1 + σ^2)`, not `σ + Q_σ/sqrt(...)`.
 - The final stacked factor in the self-coupling line is source-visible `(Q/3)`; capital/lowercase distinction remains flagged.
 - `BUW^{-1}_{N=0}` is a source token only. The inverse and product scope are not normalized.
+- `NORM-1989-FPHI-B49-SCOPE-BLOCKER` documents the outer three-term B49 decomposition but keeps `kappa(1-q)/2 alpha vartheta` and the final stacked `(Q over 3)` factor blocked for executable implementation.
 - In `(B50)`, the visible double minus before `4π` and the `fourth_root(2)` denominator are preserved as source transcription.
 - In `(B13)`, the leading `4` is inside the squared parenthesis: `(4(1 - sqrt(η))/(1 + sqrt(η)))^2`.
 - The same source says long equations in the manuscript had missing brackets that were corrected by best estimates. This formula group must carry that caveat until checked against all available manuscript/table evidence.
@@ -98,6 +99,7 @@ N'(k) = Q_n + Q_m + Q_p + Q_σ - 2k - 1                   (B14)
 ## Risks
 
 - High bracket ambiguity.
+- `(B49)` outer terms are documented, but compact inner scopes still block numerical implementation.
 - `(B8)` and `(B13)` remain line-wrap-sensitive and are not implementation-ready.
 - The glyph `u` in `(B8)` may later need comparison against surrounding Heim notation.
 - Subscript comma style varies visibly (`η_q,k`, `η_q,1`, `η_1,k`); `NORM-1989-FPHI-NAMING` defines stable implementation names for these source forms without resolving expression scope.
