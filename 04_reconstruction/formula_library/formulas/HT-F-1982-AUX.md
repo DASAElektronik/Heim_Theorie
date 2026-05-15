@@ -129,11 +129,12 @@ Original label: `(XI)`.
 - In `Phi`, the factor after the binomial term is printed with exponent `-1` on the full bracket.
 - Normalization decision `NORM-1982-AUX-PHI-PRECEDENCE` records the implementation-facing `Phi` factorization as product chain `F1..F9` plus additive terms `A1` and `A2`.
 - The final multiplicative factor in `Phi` appears in the source with an opening parenthesis and closing square bracket. `NORM-1982-AUX-PHI-PRECEDENCE` treats this only as a delimiter-closure typo for that factor, not as scope expansion over the following additive terms.
+- Normalization decision `NORM-1982-AUX-SYMBOL-ROLES` resolves reused symbol roles for implementation. Branch `alpha_(+)`/`alpha_(-)`, AUX unparenthesized `alpha+`/`alpha-`, and selection coefficients `alpha_1..3` are distinct implementation families.
 - The displayed formula block remains the source transcription. Implementation must use the linked normalization decisions; the record is not derived, dimension-checked, or implementation-ready.
 
 ## Risks
 
-- `Phi` bracket and precedence scope is resolved by `NORM-1982-AUX-PHI-PRECEDENCE`, but symbol roles remain blocking under `NORM-1982-AUX-002`.
+- `Phi` bracket and precedence scope is resolved by `NORM-1982-AUX-PHI-PRECEDENCE`; implementation must also use typed symbol roles from `NORM-1982-AUX-SYMBOL-ROLES`.
 - `G` collides with `G_count`.
 - `eta(1,1)` in `alpha_3` maps to `eta_k_q(1,1)` under `NORM-1982-ETA-INDEX`; use named arguments at call sites.
-- `P`, `Q`, `q`, `Q_j`, `kappa`, `alpha`, `alpha_plus`, and `alpha_minus` must be disambiguated in the symbol register before implementation.
+- Selection tuple and resonance rules remain outside this AUX normalization decision and are still blocked separately.

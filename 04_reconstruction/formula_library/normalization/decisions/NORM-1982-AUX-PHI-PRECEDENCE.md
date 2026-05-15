@@ -72,24 +72,22 @@ F9 = 1 + Q*(1-kappa)*(2-k)*n_1/Q_1
 
 ## What This Does Not Resolve
 
-This decision does not resolve:
+This decision does not itself resolve:
 
-- symbol-role disambiguation for `P`, `Q`, `q`, `Q_j`, `kappa`, `alpha`, `alpha_plus`, or `alpha_minus`;
 - the overload between `G_count` and the auxiliary `G` term;
 - numerical validity of `Phi`;
 - occupation-tuple selection rules for `n_j`;
 - any 1989 `Phi` or self-coupling expression.
 
-Those remain covered by their own normalization decisions.
+Symbol-role disambiguation for `P`, `Q`, `q`, `Q_j`, `kappa`, `alpha`, `alpha_plus`, and `alpha_minus` is covered by `NORM-1982-AUX-SYMBOL-ROLES`.
 
 ## Implementation Guardrails
 
 - Do not implement `Phi` directly from raw OCR line 217.
 - Do not flatten the `F6` inverse into only `(xi/6)^q` or only the final term inside the bracket.
 - Do not move `A1` or `A2` inside the product chain.
-- Do not use this decision to bypass `NORM-1982-AUX-002`.
-- Implementations must reference this decision ID and the separate symbol-disambiguation decision before evaluating `Phi`.
+- Implementations must reference this decision ID and `NORM-1982-AUX-SYMBOL-ROLES` before evaluating `Phi`.
 
 ## Critic Check
 
-A read-only Critic check accepted this narrow precedence decision and confirmed that `NORM-1982-AUX-002` remains separately blocking.
+A read-only Critic check accepted this narrow precedence decision. A later read-only Critic check accepted `NORM-1982-AUX-SYMBOL-ROLES` as the paired symbol-role resolution.

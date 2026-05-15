@@ -25,6 +25,8 @@ Gate result: implementation remains blocked until the remaining P0 normalization
 - `NORM-1982-ALPHA-002`: the printed positive alpha reciprocal is reconciled by documenting `source_transcription_variant` and `printed_alpha_fit_variant`, not by rewriting the source transcription. See `decisions/NORM-1982-ALPHA-RECONCILIATION.md`.
 - `NORM-1982-ALPHA-003`: the printed negative alpha reciprocal is preserved as a source-literal residual, but it is not a regression target for branch-equation implementations. See `decisions/NORM-1982-ALPHA-NEGATIVE-BRANCH.md`.
 - `NORM-1982-AUX-001`: 1982 `Phi` bracket and precedence scope is normalized as product chain `F1..F9` plus additive terms `A1` and `A2`; the final mismatched delimiter closes only `F9`. See `decisions/NORM-1982-AUX-PHI-PRECEDENCE.md`.
+- `NORM-1982-AUX-002`: reused AUX symbols now have typed implementation roles. In particular, branch `alpha_(+)`/`alpha_(-)`, AUX unparenthesized `alpha+`/`alpha-`, and selection `alpha_1..3` are distinct names. See `decisions/NORM-1982-AUX-SYMBOL-ROLES.md`.
+- `NORM-1982-MASS-001`: the 1982 source-visible `µα+` cluster is normalized as `mu_mass_element_1982 * alpha_mass_plus_1982`, with the mass sum using `K_aux_1982 + G_aux_1982 + H_aux_1982 + Phi_aux_1982`. See `decisions/NORM-1982-MASS-MU-ALPHA-PLUS.md`.
 - P1/P2 policy decisions now resolved: historical 1982 constants profile, 1982 `G` role split, underlined mass-formula `G`, WVX symbol families, ALGO `x_v`/`x_vx` scoping, 1989 alpha branch aliases, 1982/1989 mass-model versioning, 1989 FPHI naming, 1989 `vartheta` naming, 1989 neutrino `phi` glyph, 1989 neutrino tuple order, and decimal-comma parsing.
 
 ## Triaged Blockers
@@ -32,11 +34,6 @@ Gate result: implementation remains blocked until the remaining P0 normalization
 - `NORM-1982-N-003`: Gamma/Q_N relation is no longer merely pending. The source states that the relation is needed but does not give a safe implementation rule; it is blocked until normalized with `NORM-1982-N-004`. See `decisions/NORM-1982-N-GAMMA-QN-BLOCKER.md`.
 
 ## P0 Blockers
-
-### 1982 Base Definitions
-
-- `HT-F-1982-AUX`: reused symbols (`P`, `Q`, `q`, `Q_j`, `kappa`, `alpha`, `alpha_plus`, `alpha_minus`) need typed implementation names.
-- `HT-F-1982-MASS`: source-visible `µα+` may be normalized to `mu * alpha_plus` only as an explicit branch decision.
 
 ### 1982 Selection Rules
 
@@ -64,10 +61,9 @@ Gate result: implementation remains blocked until the remaining P0 normalization
 
 1. Resolve notation-level decisions shared across formulas:
    - `vx` / `nu x` scoping
-   - `µα+` branch notation
 2. Normalize 1982 core dependencies:
-   - AUX symbol roles
-   - MASS
+   - remaining selection-facing dependency boundaries
+   - tuple-state conventions before numeric mass use
 3. Normalize 1982 selection and tuple algorithm:
    - SELECTION core
    - SELECTION-WVX A-matrix
@@ -88,7 +84,7 @@ The 1982 review confirmed the local blocker list and added these explicit items:
 - stacked `P/3`-like notation should be handled with the same rule as stacked `P/2`; this is now resolved as `choose(P,3)` / `choose(P,2)`;
 - `Q_N = Q(N)` versus `Q = Q(0)` is a separate state-dependent decision;
 - visible `K < 0` in the `W_4` case logic must not be normalized away;
-- `G` role splitting is now resolved as `G_count` versus `G_aux` by `NORM-1982-G-SYMBOL-ROLES`.
+- `G` role splitting is now resolved as `G_count` versus `G_aux_1982` by `NORM-1982-G-SYMBOL-ROLES`.
 
 The 1989 review confirmed that the highest-risk implementation blockers are:
 

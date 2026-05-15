@@ -13,10 +13,10 @@ The underline on `G` in the 1982 mass formula is preserved as source formatting.
 Normalized implementation-facing reading:
 
 ```text
-M_1982 = mu_mass_element * alpha_plus_1982 * (K + G_aux + H + Phi_1982)
+M_1982 = mu_mass_element_1982 * alpha_mass_plus_1982 * (K_aux_1982 + G_aux_1982 + H_aux_1982 + Phi_aux_1982)
 ```
 
-The `mu * alpha_plus` binding still remains governed by `NORM-1982-MASS-001`; this decision resolves only the underlined `G` formatting.
+The `mu * alpha_mass_plus` binding is governed by `NORM-1982-MASS-MU-ALPHA-PLUS`; this decision resolves only the underlined `G` formatting.
 
 ## Rules
 
