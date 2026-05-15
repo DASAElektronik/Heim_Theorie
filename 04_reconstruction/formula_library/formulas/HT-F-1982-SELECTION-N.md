@@ -76,7 +76,7 @@ If `N = 1` is excluded, then `F = 0`, and the real relation is:
 
 Original label: `(XXIX)`.
 
-The source visibly prints the doubled `+ +` before the exponential term. This is preserved as source transcription and must not be normalized away during source check.
+The source visibly prints the doubled `+ +` before the exponential term. This is preserved as source transcription. `NORM-1982-SELECTION-N-DOUBLE-PLUS` permits implementation-facing real equations to parse it as binary plus followed by unary plus on the exponential term.
 
 The source states that generally `f > 0` for `N >= 2` and `f = 0` for `N = 0`. For multiplet `x_2`, however, `f = 0` for all `N >= 0`, because `Q(2-k)(1-\kappa) = 1`; the source note says electrons are not excitable in this picture.
 
@@ -116,7 +116,7 @@ The source states that generally `f > 0` for `N >= 2` and `f = 0` for `N = 0`. F
 - Initial worker conflict over Greek `nu x` versus Latin `vx` was resolved by high-resolution page-8 crops. For this page-8 selection block, use source-local `vx` notation.
 - `NORM-1982-SELECTION-VX-NUX-SCOPING` resolves the cross-record convention: preserve `vx` here and preserve `nu_x` in earlier core/WVX records; do not infer equivalence without a later alias decision.
 - The radical over `N(N-2)` is visible and restored from OCR.
-- The doubled `+ + exp[...]` in `(XXIX)` is preserved as printed.
+- The doubled `+ + exp[...]` in `(XXIX)` is preserved as printed; implementation-facing normalization is governed by `NORM-1982-SELECTION-N-DOUBLE-PLUS`.
 - The real-part label is preserved as printed `(XVII)`, even though it is anomalous in sequence.
 
 ## Risks
