@@ -28,11 +28,18 @@ function Invoke-GhApiJson {
         if ($null -ne $Body) {
             $tempFile = New-TemporaryFile
             $Body | ConvertTo-Json -Depth 20 | Set-Content -LiteralPath $tempFile -Encoding UTF8
-            & $GhPath api @Arguments --input $tempFile
+            $output = & $GhPath api @Arguments --input $tempFile 2>&1
         }
         else {
-            & $GhPath api @Arguments
+            $output = & $GhPath api @Arguments 2>&1
         }
+
+        if ($LASTEXITCODE -ne 0) {
+            $message = ($output | Out-String).Trim()
+            throw "gh api failed with exit code $LASTEXITCODE for: $($Arguments -join ' '): $message"
+        }
+
+        $output
     }
     finally {
         if ($tempFile -and (Test-Path -LiteralPath $tempFile)) {
@@ -105,16 +112,16 @@ $labels = @(
     @{ name = "data-provenance"; color = "b60205"; description = "Reference data and provenance tracking" }
 )
 
-foreach ($label in $labels) {
-    Invoke-GhOptional -Label "label $($label.name)" -Script {
+foreach ($labelSpec in $labels) {
+    Invoke-GhOptional -Label "label $($labelSpec.name)" -Script {
         try {
-            Invoke-GhApiJson -Arguments @("-X", "POST", "repos/$Repository/labels") -Body $label | Out-Null
+            Invoke-GhApiJson -Arguments @("-X", "POST", "repos/$Repository/labels") -Body $labelSpec | Out-Null
         }
         catch {
-            Invoke-GhApiJson -Arguments @("-X", "PATCH", "repos/$Repository/labels/$([uri]::EscapeDataString($label.name))") -Body @{
-                new_name = $label.name
-                color = $label.color
-                description = $label.description
+            Invoke-GhApiJson -Arguments @("-X", "PATCH", "repos/$Repository/labels/$([uri]::EscapeDataString($labelSpec.name))") -Body @{
+                new_name = $labelSpec.name
+                color = $labelSpec.color
+                description = $labelSpec.description
             } | Out-Null
         }
     }
