@@ -18,8 +18,9 @@
 
 ## Phase 3: Rekonstruktion
 
-- [ ] Formelbibliothek in `04_reconstruction/formula_library/` gegen PDF-Bilder pruefen.
-- [ ] Fuer jede Formel aus `formula_catalog.csv` mindestens eine Einzelformel-Datei anlegen.
+- [x] Formelbibliothek in `04_reconstruction/formula_library/` gegen PDF-Bilder pruefen.
+- [x] Fuer jede Formel aus `formula_catalog.csv` mindestens eine Einzelformel-Datei anlegen.
+- [ ] Normalisierungsreview fuer alle source-geprueften Formeln durchfuehren, bevor Code implementiert wird.
 - [ ] Alle Symbole aus `symbols/symbol_register.csv` disambiguieren.
 - [ ] `04_reconstruction/PARAMETER_BOOK.md` mit konkreten Quellenstellen fuellen.
 - [ ] Erste Model Card fuer `model_1982_from_text` anlegen.
