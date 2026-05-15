@@ -24,12 +24,12 @@ Gate result: implementation remains blocked until the remaining P0 normalization
 - `NORM-1982-ALPHA-001`: `eta_{kq}` and `eta_{qk}` are source aliases around one semantic helper `eta_k_q(k,q)` defined by the printed formula body. ALPHA `eta_12` remains source-literal as `eta_k_q(1,2)`. See `decisions/NORM-1982-ETA-INDEX.md`.
 - `NORM-1982-ALPHA-002`: the printed positive alpha reciprocal is reconciled by documenting `source_transcription_variant` and `printed_alpha_fit_variant`, not by rewriting the source transcription. See `decisions/NORM-1982-ALPHA-RECONCILIATION.md`.
 - `NORM-1982-ALPHA-003`: the printed negative alpha reciprocal is preserved as a source-literal residual, but it is not a regression target for branch-equation implementations. See `decisions/NORM-1982-ALPHA-NEGATIVE-BRANCH.md`.
+- `NORM-1982-AUX-001`: 1982 `Phi` bracket and precedence scope is normalized as product chain `F1..F9` plus additive terms `A1` and `A2`; the final mismatched delimiter closes only `F9`. See `decisions/NORM-1982-AUX-PHI-PRECEDENCE.md`.
 
 ## P0 Blockers
 
 ### 1982 Base Definitions
 
-- `HT-F-1982-AUX`: `Phi` needs a line-by-line bracket, exponent, and fraction-precedence normalization.
 - `HT-F-1982-AUX`: reused symbols (`P`, `Q`, `q`, `Q_j`, `kappa`, `alpha`, `alpha_plus`, `alpha_minus`) need typed implementation names.
 - `HT-F-1982-QNUM` / `HT-F-1982-AUX` / `HT-F-1982-MASS`: `G` must be split into structural-count and mass-contribution roles before code.
 - `HT-F-1982-MASS`: source-visible `µα+` may be normalized to `mu * alpha_plus` only as an explicit branch decision.
