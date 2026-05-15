@@ -63,6 +63,14 @@ That is incompatible with the printed positive reciprocal.
 - This decision resolves the P0 blocker by preventing a false regression target.
 - Keep both printed values in the formula record because they are source-visible.
 - Keep reciprocal notation explicit: `alpha_(+)^-1` and `alpha_(-)^-1`.
+- External evidence may explain this as a later version drift, but it must not overwrite the 1982 source-checked formula.
+
+## External Evidence
+
+Related entries are tracked in `04_reconstruction/external_evidence/EXTERNAL_EVIDENCE.csv`:
+
+- `EXT-ALPHA-1989-001`: 1989 alpha formulation reports a nearby but version-specific negative reciprocal value.
+- `EXT-ALPHA-1992-001`: secondary online overview claims a later 1992 value close to the branch-equation-implied 1982 negative reciprocal; this still needs primary-source discovery.
 
 ## Critic Check
 

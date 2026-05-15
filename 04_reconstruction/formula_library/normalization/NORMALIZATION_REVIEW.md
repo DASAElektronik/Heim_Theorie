@@ -101,3 +101,5 @@ The 1989 review confirmed that the highest-risk implementation blockers are:
 ## Non-Negotiable Guardrail
 
 No numerical implementation should start from the readable LaTeX alone. Each coded expression must link back to a normalization decision ID in `NORMALIZATION_DECISIONS.csv`.
+
+External evidence can create research tasks and model-version hypotheses, but it cannot overwrite source-checked transcriptions or resolved normalization decisions.
