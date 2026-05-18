@@ -44,6 +44,7 @@ Gate result: implementation remains blocked until the remaining P0 normalization
 - `NORM-1989-FPHI-001`: B49 outer three-term structure is documented, but `kappa(1-q)/2 alpha vartheta` and the final stacked `(Q over 3)` factor remain too ambiguous for executable normalization. See `decisions/NORM-1989-FPHI-B49-SCOPE-BLOCKER.md`.
 - `NORM-1989-FPHI-002`: `BUW^{-1}_{N=0}` remains an opaque source token; local full-text search and web search found no source-backed definition or inverse scope. See `decisions/NORM-1989-FPHI-BUW-TOKEN-BLOCKER.md`.
 - `NORM-1989-FPHI-003`: `(B50)` visible `-- 4*pi...` appears on the same printed source line and remains blocked as a sign anomaly. See `decisions/NORM-1989-FPHI-B50-DOUBLE-MINUS-BLOCKER.md`.
+- `NORM-1989-FPHI-004`: `(B8)` and `(B13)` line-wrap-sensitive scopes are fully parenthesized; B13's leading `4` remains inside the squared factor. See `decisions/NORM-1989-FPHI-B8-B13-LINE-WRAP-SCOPE.md`.
 
 ## P0 Blockers
 
@@ -52,7 +53,6 @@ Gate result: implementation remains blocked until the remaining P0 normalization
 - `HT-F-1989-FPHI`: `(B49)` self-coupling has an outer decomposition, but compact inner scopes still block executable normalization.
 - `HT-F-1989-FPHI`: `BUW^{-1}_{N=0}` is an unresolved opaque source token with no definition found in the current corpus.
 - `HT-F-1989-FPHI`: `(B50)` double minus remains source-visible and needs a future explicit sign decision.
-- `HT-F-1989-FPHI`: `(B8)` through `(B14)`, especially `(B13)`, need line-wrap-aware normalization.
 - `HT-F-1989-ALPHA`: `(B59)` must preserve the full equality chain and normalize scope step by step.
 - `HT-F-1989-NEUTRINO`: the formula can only be modeled as Heim's field-mass construct until modern-neutrino validation is separately scoped.
 
