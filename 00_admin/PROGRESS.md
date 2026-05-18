@@ -125,3 +125,35 @@ Erster Befund: e, mu, p und n sind in mehreren Heim-nahen Tabellen vorhanden. Ta
   - Erhalten bleiben `M_ν = µα_+ (Φ + φ_0)`, die Zustandsliste `ν_1(1010)` bis `ν_5(2111)`, die barred Antistruktur `\bar{ν}_i` und die Trennung zwischen Heim-interner Neutrino-Interpretation und moderner Validierung.
 
 Naechster harter Schritt: Normalisierungsreview fuer die source-geprueften 1982/1989-Bloecke, bevor eine Implementierung begonnen wird.
+
+## 2026-05-18
+
+- Normalisierungsreview fortgesetzt; Agentenaufrufe waren durch Usage-Limit blockiert, daher lokaler Quellenabgleich plus Critic-Disziplin angewendet.
+- `NORM-1989-NEUTRINO-001` aufgeloest:
+  - Neue Entscheidung `NORM-1989-NEUTRINO-FIELD-MASS-BOUNDARY.md`.
+  - `M_nu` darf nur als Heim-interne Feldmasse modelliert werden.
+  - Moderne Neutrino-Vergleiche muessen in ein separates, datiertes und zitiertes Vergleichsprofil.
+- `NORM-1989-FPHI-001` aufgeloest:
+  - Neue Entscheidung `NORM-1989-FPHI-B49-SCOPE.md`.
+  - Wiederholung von `(B49)` auf `1989_erweiterte_massenformel/page-08.png` stuetzt die Denominator-Product-Lesart fuer `kappa(1-q)/(2 alpha vartheta)`.
+  - Der finale Stack `(Q over 3)` im B49-Tail wird ueber `NORM-STACKED-BINOMIAL` als `choose(Q,3)` normalisiert.
+  - Numerische Auswertung bleibt trotzdem blockiert, weil `BUW^{-1}_{N=0}` separat offen ist.
+- `NORM-1989-FPHI-003` nach Bildabgleich aktualisiert:
+  - `page-03.png` zeigt same-line `--`.
+  - `page-08.png` zeigt dieselbe Stelle als Zeilenumbruch mit Minus am Zeilenende und Minus am Zeilenanfang.
+  - Signwahl bleibt blockiert; single-minus und double-negative bleiben nur explizite Zukunftsvarianten.
+- `NORM-1989-FPHI-002` aufgeloest:
+  - Neue Entscheidung `NORM-1989-FPHI-BUW-PRODUCT-SCOPE.md`.
+  - Der kompakte B49-Cluster wird als `B_1989_B28 * U_B50 * reciprocal(W_N0_1989)` normalisiert.
+  - Belege: `W_N0` aus `(B22)`/`(B48)`, `U` aus `(B50)`, `B` aus `(B28)`, und die Hoch-/Tiefstellung haengt in den Bildern an `W`.
+  - Numerische Auswertung bleibt wegen B50-Signatur blockiert.
+- `NORM-1982-N-003` revalidiert:
+  - Quelle formuliert Gamma/Q_N selbst als offene Beziehung, kein OCR-Drift.
+  - Algorithmusnotiz stuetzt nur `Q = Q(0)` fuer die numerische Tuple-Bestimmung, nicht `Q_N = Q(N)`.
+  - Blocker bleibt P1 bis ein eigener Gamma-Worksheet erstellt ist.
+- Aktueller Entscheidungsstand nach diesem Schritt:
+  - P0 blocked: 1
+  - P0 resolved: 25
+  - P1 blocked: 1
+  - P1 resolved: 11
+  - P2 resolved: 1

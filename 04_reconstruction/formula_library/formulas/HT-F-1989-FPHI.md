@@ -21,7 +21,7 @@ The source then gives the self-coupling line with references to later equations:
 φ =
   (N_4 p^2)/(1 + p^2)
   * (σ + Q_σ)/sqrt(1 + σ^2)
-  * (fourth_root(2) - 4BUW^{-1}_{N=0})
+  * (fourth_root(2) - 4 B U W^{-1}_{N=0})
   + P(P - 2)^2(1 + κ(1 - q)/2α ϑ)
     * (π/e)^2 sqrt(η_12)(Q_m - Q_n)
   - (P + 1)(Q/3)/α                                      vergl. (B49)
@@ -89,17 +89,17 @@ N'(k) = Q_n + Q_m + Q_p + Q_σ - 2k - 1                   (B14)
 
 - Source-checked against `1989_erweiterte_massenformel/page-02.png` and `page-03.png` by two worker packets plus Critic review.
 - The self-coupling line after `(B7)` uses source-visible `(σ + Q_σ)/sqrt(1 + σ^2)`, not `σ + Q_σ/sqrt(...)`.
-- The final stacked factor in the self-coupling line is source-visible `(Q/3)`; capital/lowercase distinction remains flagged.
-- `BUW^{-1}_{N=0}` is a source token only. `NORM-1989-FPHI-BUW-TOKEN-BLOCKER` keeps it opaque because neither local full-text search nor web search found a source-backed definition or inverse scope.
-- `NORM-1989-FPHI-B49-SCOPE-BLOCKER` documents the outer three-term B49 decomposition but keeps `kappa(1-q)/2 alpha vartheta` and the final stacked `(Q over 3)` factor blocked for executable implementation.
-- In `(B50)`, the visible double minus before `4π` and the `fourth_root(2)` denominator are preserved as source transcription; `NORM-1989-FPHI-B50-DOUBLE-MINUS-BLOCKER` keeps sign normalization blocked.
+- The repeated `(B49)` source on `page-08.png` supports denominator-product scope for `κ(1 - q)/(2αϑ)`.
+- `BUW^{-1}_{N=0}` is source-printed as a compact cluster. `NORM-1989-FPHI-BUW-PRODUCT-SCOPE` resolves it as `B_1989_B28 * U_B50 * reciprocal(W_N0_1989)`, with inverse/subscript attached to `W`.
+- `NORM-1989-FPHI-B49-SCOPE` resolves the outer three-term B49 decomposition, compact kappa factor, and final stacked `(Q over 3)` as `choose(Q, 3)`.
+- In `(B50)`, the visible double minus before `4π` and the `fourth_root(2)` denominator are preserved as source transcription. `page-03.png` shows same-line `--`; `page-08.png` repeats the location as a line-wrapped minus plus continuation minus. `NORM-1989-FPHI-B50-DOUBLE-MINUS-BLOCKER` keeps sign normalization blocked.
 - In `(B13)`, the leading `4` is inside the squared parenthesis: `(4(1 - sqrt(η))/(1 + sqrt(η)))^2`; `NORM-1989-FPHI-B8-B13-LINE-WRAP-SCOPE` resolves B8/B13 implementation parentheses.
 - The same source says long equations in the manuscript had missing brackets that were corrected by best estimates. This formula group must carry that caveat until checked against all available manuscript/table evidence.
 
 ## Risks
 
 - High bracket ambiguity.
-- `(B49)` outer terms are documented, but compact inner scopes still block numerical implementation.
+- `(B49)` outer terms, stack scope, and BUW product scope are resolved, but `U_B50` still blocks numerical implementation until the B50 sign anomaly is resolved.
 - `(B8)` and `(B13)` line-wrap scopes are resolved for implementation by `NORM-1989-FPHI-B8-B13-LINE-WRAP-SCOPE`.
 - The glyph `u` in `(B8)` may later need comparison against surrounding Heim notation.
 - Subscript comma style varies visibly (`η_q,k`, `η_q,1`, `η_1,k`); `NORM-1989-FPHI-NAMING` defines stable implementation names for these source forms without resolving expression scope.

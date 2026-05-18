@@ -25,6 +25,6 @@ This decision is naming-only.
 
 ## Rules
 
-- Do not use this naming decision to resolve B49, B50, B8, or B13 scope.
+- Do not use this naming decision to resolve B50 sign scope.
 - Keep comma-subscript source forms visible in source transcription.
 - If a later decision maps an `eta_*` name to `eta_k_q`, it must use named arguments and cite that decision.

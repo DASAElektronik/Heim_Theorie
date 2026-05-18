@@ -8,7 +8,7 @@ Decision ID resolved:
 
 ## Decision
 
-The line-wrap-sensitive scopes in `(B8)` and `(B13)` are normalized for implementation. This decision resolves only B8/B13 parenthesization. It does not resolve B49 inner scopes, `BUW`, or the B50 double-minus sign anomaly.
+The line-wrap-sensitive scopes in `(B8)` and `(B13)` are normalized for implementation. This decision resolves only B8/B13 parenthesization. It does not resolve the B50 double-minus sign anomaly.
 
 ## B8 Normalized Scope
 
@@ -65,8 +65,8 @@ The leading `4` in `(B13)` is inside the squared factor and is not optional.
 - The B8 glyph `u` remains source-visible `u`; do not silently normalize it to `nu`.
 - `eta_q_k`, `eta_q_1`, `eta_1_k`, `theta_q_1`, `N_of_k`, and `N_prime_of_k` follow `NORM-1989-FPHI-NAMING`.
 - The alpha branch names are versioned by `NORM-1989-ALPHA-BRANCH-ALIASES`.
-- B49 remains blocked by `NORM-1989-FPHI-B49-SCOPE-BLOCKER`.
-- `BUW` remains blocked by `NORM-1989-FPHI-BUW-TOKEN-BLOCKER`.
+- B49 scope is resolved by `NORM-1989-FPHI-B49-SCOPE`.
+- BUW product scope is resolved by `NORM-1989-FPHI-BUW-PRODUCT-SCOPE`.
 - B50 sign remains blocked by `NORM-1989-FPHI-B50-DOUBLE-MINUS-BLOCKER`.
 
 ## Trace Requirements
