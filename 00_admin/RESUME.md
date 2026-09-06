@@ -2,11 +2,43 @@
 
 Aktualisiert: 2026-09-06.
 
-## Aktuell: siebenundzwanzigste Etappe in Arbeit
+## Aktuell: siebenundzwanzigste Etappe abgeschlossen
 
-Ausgang a5cf32b; Auftrag A16 genauer untersuchen, Vertrag A16_ORIGIN_PLAN.md.
-H006/H010-Klammerung, H015-Fotografie und H004-Herleitung getrennt pruefen.
-Neue A16*-Reviews/Notizen lesen; keine Masse und keine alten Profile aendern.
+Ausgang `a5cf32b`, Plancheckpoint `f26321a`, Vertrag `A16_ORIGIN_PLAN.md`.
+Bericht: `06_docs/A16_ORIGIN_2026-09-06.md`.
+Quellenumfang: `03_notes/A16_ORIGIN_SOURCES_2026-09-06.md`.
+Abschlusscommit-Nachricht: `Trace A16 source binding and heuristic Y9 status`.
+Bei Fortsetzung HEAD/Remote pruefen; keine laufenden Agenten erforderlich.
+
+- H015 PDF21/GINIT-Seite2/ISN0031/00005308 hat explizit ALFA/(5.Q0*ETA).
+  H010 Pascal291/C705 ebenso; keine fremden Programme ausgefuehrt.
+  Auch TyposkriptPDF39 unten im Matrixblock: alpha/(5eta), keinY9.
+  Oben Folio4 und unten5 sichtbar, Ursache offen; PDF/Position verwenden.
+- H004 Druck335/PDF341,(109b): A16=(pi e)^2[1+alpha/(5eta)(1+6alpha/pi)]Y9.
+  Y9 multipliziert alles, nicht nur den Korrekturterm; eta bleibt != eta11.
+- H004330-334: F16 als metronische Funktion mit Spinorbeitrag
+  X6=kappa*eta_qk*F16; Grenzwert A16 und W-Anschluss lokal belegt.
+  Buch-w1-Verschiebung und Buch(1111)/H006(0111) nicht still vermischen.
+- H004335 benennt F_im/A_im als bislang nicht explizit hergeleitet und
+  Koeffizienten als heuristisch aus empirischen Grundzustandsdaten gewonnen.
+  5,6,(pi e)^2 und Y9=1 werden im geprueften Abschnitt nicht deduziert.
+- Einfuehrung Druck1/PDF12 (nicht PDF7/13): alleY_k=1 fuer Tabellenanhang.
+  Keine statistischen Fehlerbalken, keine allgemeine Y9=1-Ableitung/Fitwahl.
+- Eigene Algebra DeltaA=P-L und DeltaW=gdDeltaA; formaler Faktorvergleich
+  W(Y9)-W(1)=gdP(Y9-1), andere Eingaben fest. Keine neue Masse/Zahlprofile.
+- Drei interne Reviews; Root las Vollseiten/Details, fuehrte beide
+  unabhaengigen Fraction-Bloecke erneut aus. Zehn neue Tests,224gesamt;
+  elf alte Snapshotchecks/jeweilige Quellkontrollen und Register bestanden.
+- FIND-037 als Quellen-/Herleitungsbruecke,37Gruppen nicht37Fehler.
+  Alte Rechner/Inputs/Snapshots/49CSV-Normalisierungen erhalten. Alte
+  P/L-Reste nicht repariert; L ist weiter Sensitivitaet, P jetzt quellenstaerker.
+
+Naechster Einzelauftrag: **F16/A16-Bestimmtheit**, keine Masse.
+H004330-335 und konkret angeschlossene Gleichungen/Definitionen auf
+explizite Rand-/Symmetrie-/Grenzwertbedingungen fuer F16 pruefen.
+Festlegen, was den Wert A16 tatsaechlich bestimmt oder nur begrenzt.
+Keine eigene Ersatzfunktion als Heim-Formel ausgeben, kein Y9-Zielwertfit.
+H/G nur bei konkretem Kanal-/Operatorbeleg; breite Empirie weiterhin spaeter.
 
 ## Verlauf: sechsundzwanzigste Etappe abgeschlossen
 

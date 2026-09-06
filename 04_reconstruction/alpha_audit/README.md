@@ -3,7 +3,17 @@
 Isolierter, reproduzierbarer Konsistenztest der 1982/1989-Alpha-Bloecke in den
 lokalen IGW-Wiedergaben. Python >= 3.10; nur Standardbibliothek erforderlich.
 
-## Etappe 26: H006-x3/mu--Auswahl ohne Masse (aktueller Stand)
+## Etappe 27: A16-Klammerung und heuristische Buchherkunft (aktueller Stand)
+
+`06_docs/A16_ORIGIN_2026-09-06.md`: H015GINIT und H004(109b) belegen
+/(5eta), H004 zusaetzlich Y9 am ganzen Ausdruck. F16-Grenzwertrolle und
+heuristische Koeffizientenermittlung explizit, keine vollstaendige Herleitung.
+TabellenY=1 getrennt; kein neuer Fit. Drei Reviews und zehn neue exakteTests,
+224gesamt,elfalteChecks bestanden. FIND-037;37Gruppen,nicht37Fehler.
+Alte Rechner/Inputs/Snapshots/49CSV-Normalisierungen unveraendert.
+NaechsterAuftrag F16/A16-Bestimmtheit aus konkreten Quellenbedingungen.
+
+## Etappe 26: H006-x3/mu--Auswahl ohne Masse (vorheriger Stand)
 
 `06_docs/MUON_SELECTION_2026-09-06.md`: Komponenten, W=g(1+d*A16),
 zwoelf vorab benannte Profile und erreichten(b)-Zweig quellengebunden

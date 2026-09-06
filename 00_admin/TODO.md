@@ -2,7 +2,7 @@
 
 ## Aktueller Einstieg (2026-09-06)
 
-Massgeblich ist Etappe 26 in `RESUME.md`; die aeltere Detailhistorie folgt darunter.
+Massgeblich ist Etappe 27 in `RESUME.md`; die aeltere Detailhistorie folgt darunter.
 
 - [x] Einen H006-N0-Elektronfall getrennt gegen spaetere H010-Programme rechnen.
 - [x] Alpha3-Formeln, Alpha-/Konstanteneingaben und Rundung einzeln dokumentieren.
@@ -23,7 +23,9 @@ Massgeblich ist Etappe 26 in `RESUME.md`; die aeltere Detailhistorie folgt darun
 - [x] Je K4/W4-Zweig Definitionsbereich, Rest vor/nach Ganzzahlschritt und Strukturbedingungen pruefen; FIND-035, keine Masse oder Ersatzregel.
 - [x] H006x3/mu-,N0: Komponentenvertrag aus S3/(III), W aus XV-XIX/Matrix und erreichten Auswahlzweig pruefen; keine Masse oder Fallwahl nach Output.
 - [x] Alle12 vorabbenannten Myonprofile, Rest/Strukturgrenzen, unabhaengige Rechnung und 15 neueTests dokumentieren; FIND-036.
-- [ ] A16 in fotografierterH015-A-Matrix/GVALUES und gegebenenfalls Buchanschluss suchen; H010 /(5eta) nur als spaetereQuellfassung, keine Wahl nach kleineremRest.
+- [x] A16 in fotografierterH015-GINIT-Matrix und Buch109b finden; /(5eta) belegt, BuchY9 und heuristischerStatus getrennt dokumentiert.
+- [x] A16-P/L-Differenz und formalenY9-Einfluss ohne Fit oder neue Masse exakt pruefen; FIND-037.
+- [ ] F16/A16-Bestimmtheit: explizit angeschlossene Gleichungen/Rand-/Symmetriebedingungen und Grenzwertforderungen sammeln; keine freieY9-Anpassung.
 - [ ] Nur bei neuem Beleg: genaue H006-Vorlage/Uebertragungskette oder autorisiertes Erratum klaeren; keine stillen Profilkorrekturen.
 
 ### Fruehere Detailfolge (historischer Stand, nicht aktuelle Abschlussliste)

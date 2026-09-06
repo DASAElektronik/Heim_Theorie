@@ -12,7 +12,7 @@ vollstaendiges Verstaendnis der Gesamttheorie abgeleitet werden.
 | Quellen und Versionen | Original, spaetere Abschrift, Erweiterung, offene Herkunft | Etappen18/23: lokale Buch-/Listing-/Typoskriptbruecken belegt; keine gemeinsame vollstaendige 1982-Fassung, Ueberlieferung teilweise offen |
 | Alpha-Grundkette | eta, vartheta, A_k, Ladungsmittelung, Korrelation, Y3 und Zweige | Buchindizes/Mittelung rekonstruiert; Energie/Wellenkontexte getrennt, Kinematik und physikalische Schliessung offen |
 | Grundbegriffe | Heim-eigene Raum-/Strukturbegriffe, metronische Operationen, messbare Zuordnung | M2/M2a-Endpunkte und M7-Ausdruck lokal rekonstruiert; gemeinsames Operatorgitter, reale Potentialpfade und Gesamtgrundlagen offen |
-| Massenformel | Einheiten, Konstanten, Quantenzahlen, Auswahlregeln, ein vollstaendiger Rechenfall | Enger Elektron-N0-Pfad/H010-Vergleich reproduziert; Etappe25 allgemeiner Restbefund, Etappe26 quellengebundener x3-Fall(b) mit A16-lesartabhaengigem K4 und Rest. Keine Myonmasse; historische Auswahl/Herleitung und Dynamik offen |
+| Massenformel | Einheiten, Konstanten, Quantenzahlen, Auswahlregeln, ein vollstaendiger Rechenfall | Enger Elektron-N0-Pfad/H010-Vergleich reproduziert; Etappen25/26 Auswahlrest und x3-Fall(b). Etappe27 A16-Nennerform belegt, BuchY9/heuristischerStatus sichtbar. Keine Myonmasse; F16/A16-Bestimmtheit und Dynamik offen |
 | Reichweite | Was sind Modellannahmen, reale Beobachtungen und rein interne Groessen? | Insbesondere Neutrino-Feldmassen und Zweigbedeutung abzugrenzen |
 | Verstaendnisbilanz | Herleitungskarte und verbleibende Luecken gemeinsam beurteilen | Etappe24 aktualisiert Etappe15; alle34Befundgruppen eingeordnet, kein vollstaendiges Theorieverstaendnis |
 | Externe Bewertung | Passende neuere Primaerarbeiten, Messgroessen, Gueltigkeitsbereiche | Bewusst zurueckgestellt |
@@ -24,6 +24,23 @@ sinnvoll und unabhaengige Gegenpruefung. Dokumentierte Luecken sind ein
 Ergebnis; sie werden nicht als stillschweigende Definitionen behandelt.
 
 ## Naechste begrenzte Arbeitseinheit
+
+Nach [Etappe27](../06_docs/A16_ORIGIN_2026-09-06.md):
+**F16/A16-Bestimmtheit, keine neue Masse.**
+
+1. H004330-335 nennt F16, Grenzwert A16 und heuristische Koeffizienten.
+   Nur konkret angeschlossene Gleichungen/Definitionen weiterverfolgen.
+2. Explizite Rand-, Symmetrie- und Grenzwertbedingungen von Erwartungen
+   unterscheiden. Pruefen, was A16 bestimmt und was lediglich begrenzt.
+3. Y9=1 bleibt Tabellenannahme. Keine neue Y9-Wahl nach K4 oder Masse;
+   eine eigene Ergaenzung waere ausdruecklich getrennt zu begruenden.
+4. Quellenluecke ist ein erlaubter Abschluss, keine globale Widerlegung.
+
+Aktuell:224Tests,elf alte Snapshotchecks/Quellkontrollen,37Befundgruppen.
+FIND-037 klaert die P-Klammerung und den offenen Buch-Herleitungsstatus;
+alte P/L-Rechnungen, Reste und49CSV-Normalisierungen bleiben erhalten.
+
+## Historischer Folgeauftrag der Etappe 26 (in Etappe 27 bearbeitet)
 
 Nach [Etappe26](../06_docs/MUON_SELECTION_2026-09-06.md):
 **A16-Quellen-/Herleitungsanschluss, weiterhin keine Myonmasse.**

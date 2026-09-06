@@ -1,5 +1,14 @@
 # Skripte
 
+## Etappe 27: exakte A16-Identitaeten und Quellenstatus
+
+`py -3.13 -B -m unittest discover -s tests -p test_a16_origin.py -v`
+prueft zehn P/L-/Y9-Identitaeten, Vorzeichen, Termrollen und K4-Schwellen.
+Synthetische Fraction-Zeugen und zuvor zitierte W4-Werte; kein Fit,
+keine neue Quellenrechnung oder Masse. Beide unabhaengigen Codebloecke
+stehen in `reviews/A16_ALGEBRA_REVIEW_2026-09-06.md` im Alpha-Audit.
+224Tests insgesamt; alle elf bisherigen Snapshots erhalten.
+
 ## Etappe 26: H006-Myoninput, W und Auswahl ohne Masse
 
 `py -3.13 -B scripts/audit_muon_selection.py --check --verify-sources`
@@ -61,7 +70,7 @@ py -3.13 -m unittest discover -s tests -q
 ```
 
 Ohne lokale Fremdquellen `--verify-sources` weglassen. Die elf numerischen
-Snapshots sind dann weiter pruefbar, die Quelldateien nicht. 214 Tests bestehen.
+Snapshots sind dann weiter pruefbar, die Quelldateien nicht. 224 Tests bestehen.
 
 ## Historische Exponenten: Quellenlesarten getrennt pruefen
 

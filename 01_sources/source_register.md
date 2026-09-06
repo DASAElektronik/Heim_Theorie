@@ -6,6 +6,15 @@ Dieses Register sammelt Fundstellen. Lokale Kopien sollten nur abgelegt werden, 
 
 ## Enger Pruefstand 2026-09-06
 
+Etappe27: H015PDF21/GINIT-Seite2/ISN0031/00005308 hat explizit /(5eta),
+ebenso TyposkriptPDF39/Matrixblock (obenFolio4, unten5; Ursache offen);
+H004335/PDF341,(109b) die gleiche lokale Form mit gesamtem FaktorY9.
+H004330-336/PDF336-342 traegt F16-/Grenzwertrolle und heuristischenStatus;
+EinfuehrungDruck1/PDF12 begrenzt Y_k=1 auf die Tabellenrechnung.
+H0066/7 und H010Pascal291/C705 getrennt gegengelesen. Hashes unveraendert,
+keine neuePDF/Programmausfuehrung. Umfang `03_notes/A16_ORIGIN_SOURCES_2026-09-06.md`.
+FIND-037; keine abgeschlossene Herleitung aus einem Implementierungsbeleg.
+
 Etappe26: H006 Druck/PDF2--10, Komponenten x3/II/III, W/Strukturpotenz,
 A16/A26/A31-Domains, N0/f0 und Ganzzahlauswahl visuell gelesen. H006-Hash
 unveraendert, keine neue PDF. Bedingte zwoelfProfilrechnung, keine Masse.

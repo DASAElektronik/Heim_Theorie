@@ -4,6 +4,11 @@
 Vorab benannter Folgekandidat von Etappe25, nicht nach einem Zahlentreffer
 gewaehlt. Keine neue Massenrechnung oder Messdatenanpassung.
 
+Sichtbarer Folgehinweis [Etappe27](A16_ORIGIN_2026-09-06.md): H015-GINIT
+und H004(109b) belegen die P-Klammerung /(5eta); H004 fuehrt zusaetzlich
+Y9 und einen ausdruecklich heuristischen Herleitungsstatus. Die beiden
+hier vorab gerechneten Lesarten und ihre Restwerte bleiben unveraendert.
+
 ## Ergebnis
 
 Der Quellenanschluss gelingt bedingt: H006s Eintrag x3/mu- liefert fuer

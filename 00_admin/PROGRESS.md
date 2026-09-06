@@ -1,5 +1,19 @@
 # Fortschritt
 
+## 2026-09-06 - Siebenundzwanzigste Etappe: A16-Herkunft
+
+- H015-GINIT/PDF21 belegt /(5eta), H004335/PDF341 zusaetzlich Y9 am
+  gesamten A16-Ausdruck. H010 bestaetigt die lokale Klammerung statisch.
+- Buch330-335: F16-Spinorrolle und Grenzwert A16 angeschlossen; konkrete
+  Koeffizienten nach eigener Aussage heuristisch aus Grundzustandsdaten,
+  keine explizite F_im/A_im-Herleitung. Zahlen5/6 und Basis hier nicht deduziert.
+- Y_k=1 nur fuer Tabellenanhang (Druck1/PDF12), kein Fehlerbalken/Fitauftrag.
+- Drei Reviews, eigene exakte P/L-/Y9-Algebra, beide Reviewbloecke erneut
+  ausgefuehrt. Zehn neue Tests,224gesamt; elf alte Snapshotchecks und Register.
+- FIND-037,37Befundgruppen; alte Rechner/Inputs/Snapshots/49CSV-Zeilen erhalten.
+  Plancheckpointf26321a. Naechster Auftrag F16/A16-Bestimmtheit aus expliziten
+  Quellenbedingungen, keine neue Masse oder Auswahl nach kleinerem Rest.
+
 ## 2026-09-06 - Sechsundzwanzigste Etappe: quellengebundene Myon-Auswahl
 
 - H006x3-Komponenten: beide x-Indizes geben exakt qx=-1; Pseudosingulett-

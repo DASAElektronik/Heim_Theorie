@@ -40,6 +40,19 @@ Kann aus Heims Original- bzw. nahen Quellen eine reproduzierbare, parameterarme 
 
 ## Aktueller Arbeitsmodus
 
+Stand2026-09-06, Etappe27: [A16-Quellenpruefung](06_docs/A16_ORIGIN_2026-09-06.md).
+Die Nennerklammer /(5eta) steht im fotografierten FORTRAN und im Buch.
+Das Buch fuehrt zusaetzlich Y9 und nennt die Koeffizienten heuristisch
+aus empirischen Grundzustandsdaten gewonnen, nicht explizit hergeleitet.
+Y9=1 ist dort Tabellenannahme, kein Beweis oder neuer Fitparameter.
+
+Zehn neue Tests,224gesamt,elf bestehende Snapshotchecks bestanden;
+drei interne Reviews. Alte Rechnungen unveraendert. Naechster Auftrag:
+F16/A16-Bestimmtheit anhand konkreter Quellenbedingungen, keine Masse.
+[Wiedereinstieg](00_admin/RESUME.md), [Arbeitsfolge](00_admin/UNDERSTANDING_ROADMAP.md).
+
+## Verlauf: Etappe 26
+
 Stand 2026-09-06, Etappe 26: Der
 [Myon-Eingabe-/Auswahlaudit](06_docs/MUON_SELECTION_2026-09-06.md) verbindet
 H006x3 mit W und der Ganzzahlregel. Alle zwoelf vorab festen Profile
