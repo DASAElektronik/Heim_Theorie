@@ -57,6 +57,12 @@ werden getrennt verglichen. Neue Herausgebertabelle S006, Hash und
 Inspektionsumfang: `03_notes/DELTA_SELECTION_SOURCE_CONTEXT_2026-09-06.md`.
 Keine gesamte Massentabelle oder empirische Richtigkeit nachgeprueft.
 
+Etappe12: H007 B47/B55/B59 und direkte H013-Lebensdauerstellen(21)-(21f)
+gegenuebergestellt; H014(21a) hat abweichende Alpha-Korrektur. BuchII3
+und255/256 als Autorenrahmen, S00580/81 als Editions-/Reproduktionsgrenze.
+Keine neue Quelle und kein Massengesamtrechner. Umfang/Hashes:
+`03_notes/ETA22_ROLES_SOURCE_CONTEXT_2026-09-06.md`; drei ETA22_ROLES-Reviews.
+
 | ID | Typ | Titel / Inhalt | URL | Status |
 |---|---|---|---|---|
 | H001 | Archiv / Quelle | burkhardheim.de Dateien-Uebersicht mit Heim-Unterlagen, DESY/Northeim-Unterlagen, Massenformel-Dateien und PDFs | https://burkhardheim.de/assets/index.php | gefunden |
