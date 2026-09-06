@@ -344,15 +344,15 @@
     {
       "finding_id": "FIND-027",
       "kind": "local_contradiction",
-      "claim": "H006 (XIV) und die explizite N0-Gleichung (XXVI) drucken unterschiedliche Exponenten; der N0-Basisfall W=g,n=0 erfuellt nicht beide Zeilen zugleich.",
-      "source_ids": ["H006"],
-      "source_locator": "Druck/PDF6 (XIV)/(XV), Druck/PDF8 (XXVI), Druck/PDF9 Algorithmus.",
-      "assumptions": "Woertliche Klammern: XIV exp[1-2k(n4+Q4)/(3Q4)], XXVI exp[(1-2k)(n4+Q4)/(3Q4)]; gleicher H006-Zustand k=1,Q4=1,n4=0,N=0,W=g und F(Gamma)=0.",
-      "scope": "Die Exponenten sind +1/3 und -1/3; positiver Residual exp(1/3)-exp(-1/3). Der neue Rechner verwendet ausdruecklich XV/XXVI/Algorithmus, nicht eine still korrigierte XIV-Zeile.",
-      "not_established": "Keine Unloesbarkeit aller Varianten, keine historische Fehlerursache oder bestaetigtes Erratum, keine Widerlegung des Gesamtwerks oder aller N0-Massen.",
-      "evidence_paths": ["06_docs/N0_ELECTRON_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/N0_ALIAS_REVIEW_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/N0_INPUT_CONTRACT_REVIEW_2026-09-06.md", "scripts/audit_n0_electron.py", "tests/test_n0_electron.py", "05_analysis/n0_electron_results.json"],
-      "reproduction": "Unabhaengige Vollseitenlesung durch Root und zwei Agenten; exakte rationale Exponenten und numerischer Residual im neuen N0-Audit.",
-      "next_check": "Original-/Erratumsbeleg fuer XIV/XXVI suchen; bis dahin getrennte lokale Lesarten, keine Klammerwahl nach Massentreffer."
+      "claim": "H006 (XIV) und die explizite N0-Gleichung (XXVI) drucken unterschiedliche Exponenten; der N0-Basisfall W=g,n=0 erfuellt nicht beide Zeilen zugleich. Nachtrag Etappe23: H015 zeigt an beiden entsprechenden Typoskriptstellen dieselbe gruppierte Form wie XXVI. Auch die geprueften benachbarten H006-Wiederholungen sind gruppiert; der Konflikt ist nicht ohne Weiteres der Heim-Urschrift zuzuschreiben.",
+      "source_ids": ["H006", "H015"],
+      "source_locator": "H006 Druck/PDF1,6 XIV/XV,8 XXVI/XXVII/XXIX,9 XXX/XXXI und Logschritt,10 XXXV/Schluss. H015 PDF39/Blatt4,41/Blatt5,42/Blatt6,43/Blatt7; keine roemischen Gleichungsnummern auf diesen Typoskriptseiten.",
+      "assumptions": "H006 XIV druckt linear exp[1-2k(n4+Q4)/3Q4]. Bestehende explizite Nennernormalisierung: A=1-2k(n4+Q4)/(3Q4); gruppierte Form B=(1-2k)(n4+Q4)/(3Q4). Gleicher N0-Pruefzustand k=Q4=1,n4=0,W=g,F(Gamma)=0. Allgemeine Algebra fuer Q4>0,k=1 oder2,n4+Q4>=0; keine Freigabe aller lokalen Pruefpunkte als Teilchen.",
+      "scope": "N0-Exponenten +1/3 und -1/3; positiver Residual exp(1/3)-exp(-1/3). Exakt A-B=(2Q4-n4)/(3Q4), Gleichheit nur bei n4=2Q4. B stimmt mit Basisanstieg und Quell-Logrelation K4(2k-1)=-3Q4 lnW4 ueberein. H015 hat B in allgemeiner Auswahl, N0, N1-Realteil, reeller Beziehung, Resten und Grenze. H006 XIV bleibt in dieser Kette abweichend. Alter Rechner verwendet weiterhin XV/XXVI/Algorithmus, keine stille XIV-Korrektur.",
+      "not_established": "Keine bewiesene Fehlerursache, lueckenlose Uebertragungskette oder bestaetigtes Autoren-Erratum. H015 ist ein heutiger Scan mit sichtbarer Datums-/Signaturzeile, kein forensisch authentifiziertes Original. Keine Unloesbarkeit aller Varianten, Gesamtwiderlegung, physikalische Bestaetigung oder neue Massenrechnung. Ein isolierter Rueckwaertsvergleich ist kein Lauf des gesamten stueckweisen Algorithmus; andere Alpha-/alpha3-Konflikte bleiben.",
+      "evidence_paths": ["06_docs/N0_ELECTRON_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/N0_ALIAS_REVIEW_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/N0_INPUT_CONTRACT_REVIEW_2026-09-06.md", "scripts/audit_n0_electron.py", "tests/test_n0_electron.py", "05_analysis/n0_electron_results.json", "06_docs/HISTORICAL_EXPONENTS_2026-09-06.md", "03_notes/HISTORICAL_EXPONENT_SOURCES_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/HISTORICAL_EXPONENT_ARCHIVE_REVIEW_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/HISTORICAL_EXPONENT_REPRINT_REVIEW_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/HISTORICAL_EXPONENT_MATH_REVIEW_2026-09-06.md", "tests/test_historical_exponents.py"],
+      "reproduction": "Urspruenglicher N0-Audit unveraendert. Etappe23: zwei Quellenreviews, Root-Vollseiten und hochaufgeloeste Klammerkontrolle; unabhaengiger Fraction-Block von Root erneut ausgefuehrt (42 allgemeine Paare, Sonderpunkte, symbolische Inversen). Sieben neue Tests,185gesamt und zehn alte Snapshot-/Quellchecks bestanden. Quellhashes H006/H015 erneut bestaetigt.",
+      "next_check": "Enger H015/H006-Exponentenvergleich abgeschlossen. Bei neuem Erratum oder belegter Uebertragungskette Fehlerursache weiter klaeren; keine erneute blinde Klammerwahl. Zunaechst Verstaendnis-/Versionsbilanz Etappen16-23 erstellen und naechste offene Herleitung bestimmen, ohne alte Profile oder Quellenfassungen zu vermischen."
     },
     {
       "finding_id": "FIND-028",

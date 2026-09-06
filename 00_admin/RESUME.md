@@ -2,14 +2,50 @@
 
 Aktualisiert: 2026-09-06.
 
-## Aktuell: dreiundzwanzigste Etappe in Arbeit
+## Aktuell: dreiundzwanzigste Etappe abgeschlossen
 
-Ausgang `57e92f8`. Vertrag: `HISTORICAL_EXPONENT_PLAN.md`.
-H015 PDF39/41 gegen H006 XIV/XXVI und benachbarte Wiederholungen
-visuell und algebraisch pruefen; FIND-027 nur quellengetreu fortschreiben.
-Keine neue Massenrechnung oder stille Korrektur alter Profile.
-Drei begrenzte Reviews; Root liest die tragenden Vollseiten selbst.
-Quellenzuschreibung und eigene Rekonstruktion bleiben ausdruecklich getrennt.
+Ausgang `57e92f8`, Plancheckpoint `125da3a`.
+Bericht: `06_docs/HISTORICAL_EXPONENTS_2026-09-06.md`.
+Quellenumfang: `03_notes/HISTORICAL_EXPONENT_SOURCES_2026-09-06.md`.
+Abschlusscommit-Nachricht: `Compare archived exponents and qualify FIND-027`.
+Bei Fortsetzung HEAD/Remote pruefen; keine laufenden Agenten erforderlich.
+
+- H015 PDF39/Blatt4 und PDF41/Blatt5 zeigen dieselbe gruppierte Form
+  B=(1-2k)(n4+Q4)/(3Q4). Auch Restgleichungen PDF42/Blatt6 und die
+  Grenzformel PDF43/Blatt7 stimmen in diesem Exponenten ueberein.
+- H006 XIV druckt linear 1-2k(n4+Q4)/3Q4. Bestehende Normalisierung
+  A=1-2k(n4+Q4)/(3Q4); die isolierte 1 ist nicht im Bruchzaehler.
+  XV, XXVI, XXVII, XXIX, XXX, XXXI und XXXV sind dagegen gruppiert.
+  XXVII/XXIX hochaufgeloest durch Root kontrolliert. XXXIV hat keinen
+  solchen Exponentialterm. H015 hat keine roemischen H006-Formelnummern.
+- Exakt A-B=(2Q4-n4)/(3Q4), Gleichheit nur n4=2Q4. Am benannten
+  N0-Punkt k=Q4=1,n4=0: +1/3 gegen -1/3. Reine Algebra, keine Massen.
+- B passt zur Quell-Logrelation K4(2k-1)=-3Q4 lnW4 im Fall 0<W4<=1.
+  Isoliert auf exp(A) angewandt bliebe Residuum (K4-3Q4)/(2k-1).
+  Kein Lauf des vollstaendigen stueckweisen Auswahlalgorithmus.
+- FIND-027 sichtbar fortgeschrieben: lokaler H006-Darstellungsbefund,
+  im geprueften H015-Typoskript nicht vorhanden. Keine pauschale
+  Zuschreibung an Heim; Uebertragungs-/Satzfehler nur plausible Erklaerung.
+  H006 nennt IGW2002/2003 und Vorlage25.2.1982; H015 zeigt Datum/Signatur,
+  aber keine forensisch bewiesene Echtheit oder lueckenlose Ueberlieferung.
+- Drei Reviews, Root-Vollseiten und erneut ausgefuehrter eigener
+  Gegenblock des Mathematikagenten. Sieben neue Tests, 185 insgesamt,
+  zehn alte Snapshot-/Quellchecks bestanden. Weiterhin 34 Befundgruppen.
+  Quell-PDFs, alte Rechner, Inputs, Snapshots und 49 Normalisierungen erhalten.
+- Nutzerprioritaet dauerhaft in `SOURCE_ATTRIBUTION.md`: Heims belegte
+  Grundideen ihm zuschreiben, Quellen/unsere Rekonstruktion/eigene
+  Erweiterungen trennen, Mitautoren korrekt belegen. Biografie ist kein
+  Beweis fuer eine konkrete Fehlerursache. Keine Fremd-PDFs publiziert.
+
+Naechster Auftrag: Verstaendnis-/Versionsbilanz der Etappen16-23 erstellen.
+Ausgangspunkt `06_docs/UNDERSTANDING_BALANCE_2026-09-06.md` (Etappe15)
+und die nachfolgenden Berichte zu N0, historischem Vergleich, alpha3,
+Operator/Potentialpfaden und Exponenten. Belegte Anschluesse von weiterhin
+bedingten Herleitungen trennen; Voraussetzungen eines quellenreinen
+weiteren Rechenfalls benennen. Keine neue Mischfassung oder Massenrechnung.
+H/G-Pfade nur bei konkretem neuem Kanal-/Operatorbeleg wieder aufnehmen.
+Exponentenfrage fuer H006/H015 nicht erneut ohne neuen Anker abarbeiten.
+Breite moderne Empirie bleibt nach der Rekonstruktion eingeordnet.
 
 ## Verlauf: zweiundzwanzigste Etappe abgeschlossen
 

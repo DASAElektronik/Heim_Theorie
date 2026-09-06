@@ -3,7 +3,18 @@
 Isolierter, reproduzierbarer Konsistenztest der 1982/1989-Alpha-Bloecke in den
 lokalen IGW-Wiedergaben. Python >= 3.10; nur Standardbibliothek erforderlich.
 
-## Etappe 22: Potentialkomponenten und getrennte Kanaele (aktueller Stand)
+## Etappe 23: historischer Exponentenvergleich (aktueller Stand)
+
+`06_docs/HISTORICAL_EXPONENTS_2026-09-06.md` vergleicht die H015-Typoskript-
+Exponenten mit H006. Die gruppierte Form steht in H015 durchgehend und
+in H006s benachbarten Wiederholungen; nur XIV weicht in dieser Kette ab.
+FIND-027 wird auf die belegte Wiedergabe eingegrenzt, nicht neu gezaehlt.
+Zwei Quellenreviews, unabhaengige Algebrareview, sieben neue Tests;
+185 insgesamt und zehn alte Snapshot-/Quellchecks bestanden.
+Alle alten Rechenprofile erhalten. Naechster Schritt: Verstaendnisbilanz
+Etappen16-23, keine erneute Massenrechnung oder stille Mischfassung.
+
+## Etappe 22: Potentialkomponenten und getrennte Kanaele (vorheriger Stand)
 
 `06_docs/POTENTIAL_PATHS_2026-09-06.md` grenzt die gemeinsame unveraenderte
 Komponentenkurve als Zusatzlesart aus. H004s getrennte, teils gewichtete

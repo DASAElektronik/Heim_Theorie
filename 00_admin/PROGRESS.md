@@ -1,5 +1,21 @@
 # Fortschritt
 
+## 2026-09-06 - Dreiundzwanzigste Etappe: historische Exponenten
+
+- H015-Typoskript zeigt gruppierte Auswahl-/N0-Exponenten, passende
+  Wiederholungen und den zugehoerigen Logarithmusschritt. In der kleinen
+  H006-Kette weicht nur XIV ab; XXVII/XXIX hochaufgeloest nachgeprueft.
+- FIND-027 eingegrenzt: Darstellungsbefund der IGW-Wiedergabe, nicht
+  pauschal der Heim-Urschrift zuzuschreiben. Datum/Signaturabbildung
+  ersetzt keine gesicherte Ueberlieferung; konkrete Fehlerursache offen.
+- Exakt A-B=(2Q4-n4)/(3Q4), Sondergleichheit n4=2Q4; B passt zur
+  Logumkehrung. Keine neue Teilchenmasse oder Korrektur alter Profile.
+- Drei Reviews, Root-Vollseiten/Detailkontrolle, unabhaengiger Code erneut
+  ausgefuehrt. Sieben neue Tests, 185 insgesamt, zehn alte Rechenchecks.
+  Weiterhin 34 Befundgruppen, alte Inputs/Snapshots/Normalisierungen erhalten.
+- Quellen-/Zuschreibungsgrundsatz nach Nutzerwunsch dauerhaft festgehalten.
+  Plancheckpoint125da3a. Naechster Schritt: Verstaendnisbilanz Etappen16-23.
+
 ## 2026-09-06 - Zweiundzwanzigste Etappe: gekoppelte Potentiale und Kanaele
 
 - H004(98) liefert eine gekoppelte normierteKurve fuer genauvierH/G-Paare.

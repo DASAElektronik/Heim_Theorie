@@ -8,15 +8,20 @@ Die vorgemerkten H015-Bilder PDF39/Druck4 und PDF41/Druck5 werden gegen
 H006 (XIV), (XV), (XXVI) und die benachbarten Wiederholungen verglichen.
 Ziel ist ein quellengetreuer Nachtrag zu FIND-027, keine neue Massenrechnung.
 
-- [ ] Vollseiten, Exponentenklammern und unmittelbar relevante Wiederholungen
+- [x] Vollseiten, Exponentenklammern und unmittelbar relevante Wiederholungen
   unabhaengig transkribieren; H006-Nummern nicht dem Typoskript zuschreiben.
-- [ ] Originalnaehe, sichtbare Datumszeile, heutige Digitalisierung und
+- [x] Originalnaehe, sichtbare Datumszeile, heutige Digitalisierung und
   nachgewiesene Autorschaft getrennt dokumentieren; Quellhashes bestaetigen.
-- [ ] Beide Exponenten algebraisch mit exakten rationalen Werten vergleichen;
+- [x] Beide Exponenten algebraisch mit exakten rationalen Werten vergleichen;
   Sonderfaelle der Gleichheit nicht mit Formelidentitaet verwechseln.
-- [ ] FIND-027 sichtbar praezisieren, alte Profile und Zahlen erhalten.
-- [ ] Neue Tests und vorhandene Rechen-/Quellchecks ausfuehren.
-- [ ] Ergebnis, offene Grenzen und konkreten Wiedereinstieg sichern.
+- [x] FIND-027 sichtbar praezisieren, alte Profile und Zahlen erhalten.
+- [x] Neue Tests und vorhandene Rechen-/Quellchecks ausfuehren.
+- [x] Ergebnis, offene Grenzen und konkreten Wiedereinstieg sichern.
+
+Abschluss: `06_docs/HISTORICAL_EXPONENTS_2026-09-06.md`.
+Plancheckpoint `125da3a`. Sieben neue Tests, 185 insgesamt; zehn alte
+Snapshot-/Quellchecks bestanden. FIND-027 mit H015 praezisiert, weiterhin
+34 Befundgruppen. Keine stillen Profilkorrekturen oder neuen Massenzahlen.
 
 ## Zuschreibung und Grenzen
 

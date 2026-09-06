@@ -2,7 +2,7 @@
 
 ## Aktueller Einstieg (2026-09-06)
 
-Massgeblich ist Etappe 22 in `RESUME.md`; die aeltere Detailhistorie folgt darunter.
+Massgeblich ist Etappe 23 in `RESUME.md`; die aeltere Detailhistorie folgt darunter.
 
 - [x] Einen H006-N0-Elektronfall getrennt gegen spaetere H010-Programme rechnen.
 - [x] Alpha3-Formeln, Alpha-/Konstanteneingaben und Rundung einzeln dokumentieren.
@@ -16,8 +16,10 @@ Massgeblich ist Etappe 22 in `RESUME.md`; die aeltere Detailhistorie folgt darun
 - [x] Delta/delta_e-Pfad eng pruefen: M7-innerer Shift belegt, Gleichheit mit a*delta und gemeinsames Gitter offen; gemischte H/G-Rekurrenz bedingt ausgerechnet.
 - [x] Potentialkomponenten(98) und H004II272-274-Grenzen pruefen: gemeinsame roheStartkurve als Zusatzlesart ausgeschlossen, getrenntegewichteteQuellenkanaele nicht.
 - [ ] Nur bei neuem konkretem Kanal-/Operator-/Pfadbeleg: tatsaechliche Potential-/H/G-Schritte und gemeinsamen Rest rekonstruieren; keine jetzige Massenfortpflanzung.
-- [ ] H015PDF39/41 gegen H006XIV/XXVI unabhaengig lesen, bevor FIND-027 fortgeschrieben wird.
-- [ ] Keine stillen Profilkorrekturen; urspruengliches Formelblatt und H006-Fehlerursache bleiben offen.
+- [x] H015 PDF39/41 und Wiederholungen gegen H006 pruefen; FIND-027 auf den belegten H006-Darstellungsbefund eingrenzen.
+- [x] Quellenzuschreibung, eigene Rekonstruktion und Erweiterungen in SOURCE_ATTRIBUTION.md festhalten.
+- [ ] Verstaendnis-/Versionsbilanz Etappen16-23 zusammenfuehren und naechste offene Herleitung bestimmen.
+- [ ] Nur bei neuem Beleg: genaue H006-Vorlage/Uebertragungskette oder autorisiertes Erratum klaeren; keine stillen Profilkorrekturen.
 
 ### Fruehere Detailfolge (historischer Stand, nicht aktuelle Abschlussliste)
 

@@ -40,7 +40,18 @@ py -3.13 -m unittest discover -s tests -q
 ```
 
 Ohne lokale Fremdquellen `--verify-sources` weglassen. Die zehn numerischen
-Snapshots sind dann weiter pruefbar, die Quelldateien nicht. 178 Tests bestehen.
+Snapshots sind dann weiter pruefbar, die Quelldateien nicht. 185 Tests bestehen.
+
+## Historische Exponenten: Quellenlesarten getrennt pruefen
+
+`tests/test_historical_exponents.py` prueft sieben exakte algebraische
+Eigenschaften der getrennten A/B-Exponenten: Abstand, Sondergleichheit,
+N0-Punkt, Nachbarpunkte, lokalen Bereich und Anschluss der Logumkehrung.
+Keine neuen Massen, keine Aenderung bestehender Normalisierungen.
+Unabhaengiger, von Root erneut ausgefuehrter Fraction-Block:
+`04_reconstruction/alpha_audit/reviews/HISTORICAL_EXPONENT_MATH_REVIEW_2026-09-06.md`.
+Quellenvergleich und FIND-027-Nachtrag:
+`06_docs/HISTORICAL_EXPONENTS_2026-09-06.md`.
 
 ## Gekoppelte Potentialpfade: reine exakte Diagnostik
 

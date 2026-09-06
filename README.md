@@ -35,29 +35,32 @@ Kann aus Heims Original- bzw. nahen Quellen eine reproduzierbare, parameterarme 
 - Jede Formel bekommt eine eindeutige Referenzstelle.
 - Unklare Schritte werden markiert, nicht geglaettet.
 - Keine Vermischung von Heim, Heim-Droescher, Ludwiger, Fan-Auslegung und moderner Rekonstruktion.
+- Heims belegte Grundideen bleiben ihm zugeschrieben; unsere Rekonstruktion
+  und eigene Erweiterungen werden nach dem [Zuschreibungsgrundsatz](00_admin/SOURCE_ATTRIBUTION.md) getrennt ausgewiesen.
 
 ## Aktueller Arbeitsmodus
 
-Stand 2026-09-06, Etappe 22: Die
-[Potentialpfadpruefung](06_docs/POTENTIAL_PATHS_2026-09-06.md) zeigt die
-gekoppelte Komponentenkurve aus(98). Die H-Grenzen passen nicht zu einem
-gemeinsamen unveraenderten Startpunkt; diese gemeinsame Kurve ist aber
-unsere Zusatzlesart, keine Forderung des Buches. H004 setzt getrennte,
-teils gewichtete Integrationsbeitraege und einen W-Komponentenwechsel.
-Ihre Endquotienten sind nachvollziehbar; Zwischenpfade und Operatorzuordnung
-bleiben offen. Keine Gesamtwiderlegung, neue Massen oder eingesetzte Reparatur.
-Die [Operatorpruefung](06_docs/METRONIC_STEP_2026-09-06.md) und die
-[lnY-/Integrationspruefung](06_docs/METRONIC_INTEGRATION_2026-09-06.md)
-bleiben mit ihren ausdruecklichen Voraussetzungen erhalten.
-Die [A/B-Bestimmtheitspruefung](06_docs/ALPHA3_ASSUMPTIONS_2026-09-06.md),
-[Buch-/FORTRAN-Herkunft](06_docs/ALPHA3_ORIGIN_2026-09-06.md) und alle alten
-Rechenprofile bleiben erhalten. Zehn Rechenchecks und 178 Tests bestehen;
-34 Befundgruppen sind keine 34 Fehler. 49 CSV-Normalisierungen unveraendert.
+Stand 2026-09-06, Etappe 23: Der
+[historische Exponentenvergleich](06_docs/HISTORICAL_EXPONENTS_2026-09-06.md)
+belegt dieselbe gruppierte Form in der allgemeinen Auswahlregel und im
+N0-Fall des fotografierten H015-Typoskripts. In der geprueften H006-Kette
+weicht nur XIV ab. FIND-027 bleibt deshalb ein lokaler Befund zur
+IGW-Wiedergabe; keine pauschale Zuschreibung an die Heim-Urschrift.
+Basisanstieg und Logarithmusschritt passen zur gruppierten Form, ohne
+Formelwahl nach Massentreffer. Fehlerursache und autorisiertes Erratum offen.
+
+Die [Potentialpfadpruefung](06_docs/POTENTIAL_PATHS_2026-09-06.md) und
+[Operatorpruefung](06_docs/METRONIC_STEP_2026-09-06.md) bleiben mit ihren
+Voraussetzungen erhalten: getrennte H/G-Kanaele sind belegt, ihre
+Zwischenpfade und Operatorzuordnung nicht rekonstruiert.
+Zehn Rechenchecks und 185 Tests bestehen. FIND-027 wurde praezisiert,
+keine neue Gruppe hinzugefuegt: 34 Befundgruppen sind keine 34 Fehler.
+Alte Rechner, Eingaben, Snapshots und 49 CSV-Normalisierungen unveraendert.
 Keine neue empirische Bestaetigung oder Gesamtwiderlegung.
 
-H/G-Pfade erst bei neuer konkreter Definition wieder aufnehmen. Naechster
-vorgemerkter Quellenvergleich: H015PDF39/41 gegen H006XIV/XXVI, ohne
-Auswahl anhand eines Massentreffers oder vorweggenommene Fehlerursache.
+Naechster Schritt: Verstaendnis-/Versionsbilanz Etappen16-23 zusammenfuehren,
+belegte Anschluesse und verbleibende Herleitungsluecken trennen.
+H/G-Pfade erst bei neuer konkreter Kanal-/Operatordefinition wieder aufnehmen.
 [Wiedereinstieg](00_admin/RESUME.md), [Arbeitsfolge](00_admin/UNDERSTANDING_ROADMAP.md).
 
 ## Verstaendnisbilanz der Etappe 15

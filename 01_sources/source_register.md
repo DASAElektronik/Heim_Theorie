@@ -6,6 +6,14 @@ Dieses Register sammelt Fundstellen. Lokale Kopien sollten nur abgelegt werden, 
 
 ## Enger Pruefstand 2026-09-06
 
+Etappe23: H015 PDF39/41/42/43 (Blatt4/5/6/7) gegen H006 XIV/XV,
+XXVI/XXVII/XXIX, XXX/XXXI, XXXV und Logarithmusschritt geprueft.
+H015 durchgehend gruppiert; nur H006 XIV weicht in dieser Kette ab.
+FIND-027 ist nicht pauschal der Heim-Urschrift zuzuschreiben.
+Datums-/Signaturzeile und Editionsstatus getrennt, Fehlerursache offen.
+Keine neue Quelle importiert; H006/H015-Hashes bestaetigt.
+Umfang: `03_notes/HISTORICAL_EXPONENT_SOURCES_2026-09-06.md`.
+
 Etappe22: H004(98),II263/264,266-268 und272-274 auf feste Parameter,
 gekoppelte H/G-Komponenten und getrennte gewichtete Endgrenzen geprueft.
 Gemeinsame rohe Komponentenkurve ist nur eine ausgeschlossene Zusatzlesart,
