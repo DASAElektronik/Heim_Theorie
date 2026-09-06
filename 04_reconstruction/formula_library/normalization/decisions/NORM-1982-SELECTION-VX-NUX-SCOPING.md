@@ -2,6 +2,18 @@
 
 Date: 2026-05-15
 
+## Later correction, 2026-09-06
+
+The full-page H006 context establishes one Greek-nu/x family: p3 defines
+the multiplet number nu, p6 connects W_(nu,x)=g*w_(nu,x) to component x,
+and p8/p9 continue the same state. Our earlier Latin-v reading below was
+incorrect. The explicit H006-only mapping is now authorized in
+`04_reconstruction/alpha_audit/NORM-N0-ELECTRON-AUDIT.md`, with evidence
+in `reviews/N0_ALIAS_REVIEW_2026-09-06.md` under that audit directory.
+Only the cross-record alias restriction is superseded. Multiplet and
+component indices, Q(0)/Q(N), and all cross-edition boundaries remain.
+The historical decision text is preserved below for traceability.
+
 Decision ID resolved:
 
 - `NORM-1982-N-001`

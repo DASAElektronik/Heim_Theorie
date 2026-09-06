@@ -2,6 +2,10 @@
 
 Date: 2026-05-15
 
+Update 2026-09-06: `NORM-N0-ELECTRON-AUDIT` supplies the later explicit
+H006-only nu/x alias decision. Its source-context correction supersedes
+the no-cross-record-alias restriction below, not other symbol boundaries.
+
 Decision ID resolved:
 
 - `NORM-1982-WVX-002`

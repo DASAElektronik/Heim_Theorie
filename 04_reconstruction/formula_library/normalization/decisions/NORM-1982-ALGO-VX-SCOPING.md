@@ -2,6 +2,11 @@
 
 Date: 2026-05-15
 
+Update 2026-09-06: `NORM-N0-ELECTRON-AUDIT` corrects the old Latin-v
+transcription to the defined H006 Greek-nu index and explicitly permits
+the cross-record alias. The multiplet x_nu remains distinct from its
+component x_(nu,x). Historical text below is retained, not the old glyph claim.
+
 Decision ID resolved:
 
 - `NORM-1982-ALGO-003`
