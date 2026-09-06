@@ -6,6 +6,14 @@ Dieses Register sammelt Fundstellen. Lokale Kopien sollten nur abgelegt werden, 
 
 ## Enger Pruefstand 2026-09-06
 
+Etappe29: H004340-342/PDF346-348 als Auswahlvertrag, direkte107/107a/
+107b/108 auf321/328/329/330. TRC-/W5-/W6-Glyphen und Grenzen visuell;
+H0069 und H015PDF42 getrennt verglichen, keine Gesamtfassungsidentitaet.
+Eingaben/Ausgaben, Rohwertgates, Restgleichung und A16-Intervallinversion
+getrennt; Mehrschrittsumme eigene Lesart, keine neue Masse oder Y9-Wahl.
+Keine neuePDF; lokaleHashes unveraendert. FIND-039, Umfang/Attribution:
+`03_notes/BOOK_SELECTION_SOURCES_2026-09-06.md`.
+
 Etappe28: H004330-335/PDF336-341 auf F16-Bedingungen geprueft;
 98/98a,101a/101b,105a liefern keine zusaetzliche F16-Dynamik.
 Einfuehrung2-3/PDF13-14 nennt Deduktion offen,110d340/PDF346 fasst

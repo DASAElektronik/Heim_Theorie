@@ -2,13 +2,53 @@
 
 Aktualisiert: 2026-09-06.
 
-## Aktuell: neunundzwanzigste Etappe in Arbeit
+## Aktuell: neunundzwanzigste Etappe abgeschlossen
 
-Ausgang `3a779e5`, Vertrag `BOOK_SELECTION_PLAN.md`.
-H004340-342-Auswahl und direkte Strukturbedingungen: Eingaben versus
-Besetzungsausgaben, TRC/Kappe/Transfer und Rueckwirkung auf A16.
-Keine Masse, F_S-Rechnung, Y9-Zielwertwahl oder Quellenprofilvermischung.
-Drei neue BOOK_SELECTION*-Reviews; alte Rechner/Inputs/Snapshots erhalten.
+Ausgang `3a779e5`, Plancheckpoint `4da02b3`, Vertrag `BOOK_SELECTION_PLAN.md`.
+Bericht: `06_docs/BOOK_SELECTION_2026-09-06.md`.
+Quellenumfang: `03_notes/BOOK_SELECTION_SOURCES_2026-09-06.md`.
+Abschlusscommit-Nachricht: `Audit book occupation selection and conditional A16 feedback`.
+Bei Fortsetzung HEAD/Remote pruefen; keine laufenden Agenten erforderlich.
+
+- H004340-342/PDF346-348: A16->w->W->W1->N_(j)->n_j ist Vorwaertsfluss,
+  keine gedruckte Rueckiteration fuer A16. W,a,b werden vorher bereitgestellt.
+- TRC ist Abschneiden mit nicht numerisch spezifizierter Neuner-Ausnahme.
+  Kappe bei r0 oder W5>alpha3*m; Minus1 nur bei TRC(cap)>cap.
+  W5=-ln(r)/lambda, keine endliche ln0-Auswertung.
+- Ersttransfer W6=W5+alpha3*m mit ALTem m=N'_(3), N_(3)=m-1.
+  Sigmafortsetzung ohne explizite Grenzen; kumulative Dreieckssumme nur
+  eigene deklarierte Lesart. Rohwertkappe, N_(3)>=0, N_(4)>=0 getrennt.
+  Keine erfundene Relog-/Backtrackingregel bei Gatefehlern.
+- 107/107a/107b direkt: beta4>0 versus nichtstrikte Auswahlkappe;
+  eigener ganzzahliger cap2/r0-Test verlangt getrennten Kollapsanschluss.
+  Kein belegter realer Teilchenfehler oder willkuerliches ceil-minus1.
+- Fester Rest: Floor allgemein R>=0, Gleichheit nur Integerlogwert;
+  echte Promotion hat R<0. Saettigung am gewaehlten m nicht exakt.
+  Akzeptierter Transfer R=exp(-lambda*j)-r-alpha3*h<0 unabhaengig von
+  Summengrenzen. Keine exakte N3-Integer/N4>=0-Loesung bei r>1,fixedW3;
+  andere N1/N2 oder getrennte Projektionsregel nicht ausgeschlossen.
+- Eigene A16-Intervallinversion bei G=g(1+f)>0,d>0 und stabiler Greedyzelle.
+  Zwei synthetische W1=151/4,189/5,alpha=(1,2,1),lambda1/3 liefern
+  (3,2,2,0),beta4=2. Keine vollstaendigen(107)-/Teilchenzustaende.
+  Unabhaengiges Tupel PLUS exakte108 koennte A bestimmen, TRC allein nicht.
+- H006/H015 getrennt: knappere K4/K3-Regel; Buch klaert alten Erstwert,
+  W5/W6, finiteKappe und Transfergates. Keine Gesamtfassungsidentitaet.
+- Drei interne Reviews, Root37unabhaengigeZertifikate erneut ausgefuehrt;
+  13neueTests,247gesamt,elfalteChecks,Quellhashes unveraendert.
+  FIND-039:39Befundgruppen,nicht39Fehler. Alte Rechner/Inputs/Snapshots/
+  49CSV-Normalisierungen unveraendert; keine neue Masse oder Y9-Wahl.
+
+Naechster Einzelauftrag: **buchinterner N0-Pseudosingulett-Eingabevertrag**.
+Aktiven Kanal k=Q=kappa=q=1 und ResonanzN=0 aus derselben H004-Fassung
+festlegen; Q_j,g,eta/eta_qk,alpha_i,A16,Y9,f mit Fundstellen erfassen.
+Y9=1 nur benannte Tabellenannahme, kein freier Fit. Keine H006-Zahlenprofile
+oder H010-Programmkonstanten als unmarkierte Buchinputs einsetzen.
+Erst bei geschlossenem Vertrag Zweig, Besetzungen, Rest und konkrete
+Strukturbedingungen rechnen; F_S/Masse bleibt ausserhalb. Konkrete
+Eingabeluecke ist ein erlaubter Abschluss. TRC-Schwelle, Transferfolge/
+Gatefehler, Kollaps und physikalische Auswahlbegruendung offen erhalten.
+F16-Herleitung nur mit neuem konkretem Quellenanker wieder aufnehmen;
+breite moderne Empirie weiterhin spaeter.
 
 ## Verlauf: achtundzwanzigste Etappe abgeschlossen
 

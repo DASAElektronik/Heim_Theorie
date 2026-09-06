@@ -3,7 +3,17 @@
 Isolierter, reproduzierbarer Konsistenztest der 1982/1989-Alpha-Bloecke in den
 lokalen IGW-Wiedergaben. Python >= 3.10; nur Standardbibliothek erforderlich.
 
-## Etappe 28: F16-Bedingungen und begrenzte Bestimmtheit (aktueller Stand)
+## Etappe 29: Buch-Auswahl, Rest und A16-Rueckschluss (aktueller Stand)
+
+`06_docs/BOOK_SELECTION_2026-09-06.md`: Buch340-342 und107/107a/107b/108
+quellengebunden getrennt vonH006/H015. TRC/Kappe/Transfer erzeugen nicht
+allgemein eine exakte feste Restloesung; A16-Intervallinversion liefert
+keine neue eindeutige Herleitung. Synthetische Zeugen keine Heim-Zustaende.
+13neueTests,247gesamt,elfalteChecks; drei Reviews,37unabhaengigeZertifikate.
+FIND-039,39Gruppen nicht39Fehler. Alte Rechner/Inputs/Snapshots/49CSV erhalten.
+NaechsterAuftrag buchinterner N0-Pseudosingulett-Vertrag, noch keine Masse.
+
+## Etappe 28: F16-Bedingungen und begrenzte Bestimmtheit (vorheriger Stand)
 
 `06_docs/F16_DETERMINACY_2026-09-06.md`: Rolle und Grenzforderung,
 aber kein explizites F16-Randwertproblem in den geprueften Seiten.

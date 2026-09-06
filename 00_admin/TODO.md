@@ -2,7 +2,7 @@
 
 ## Aktueller Einstieg (2026-09-06)
 
-Massgeblich ist Etappe 28 in `RESUME.md`; die aeltere Detailhistorie folgt darunter.
+Massgeblich ist Etappe 29 in `RESUME.md`; die aeltere Detailhistorie folgt darunter.
 
 - [x] Einen H006-N0-Elektronfall getrennt gegen spaetere H010-Programme rechnen.
 - [x] Alpha3-Formeln, Alpha-/Konstanteneingaben und Rundung einzeln dokumentieren.
@@ -26,7 +26,8 @@ Massgeblich ist Etappe 28 in `RESUME.md`; die aeltere Detailhistorie folgt darun
 - [x] A16 in fotografierterH015-GINIT-Matrix und Buch109b finden; /(5eta) belegt, BuchY9 und heuristischerStatus getrennt dokumentiert.
 - [x] A16-P/L-Differenz und formalenY9-Einfluss ohne Fit oder neue Masse exakt pruefen; FIND-037.
 - [x] F16/A16-Bestimmtheit: direkte Bedingungen/Rueckverweise und AutorauftragEinfuehrung2-3/110d; reduzierte Nicht-Eindeutigkeit, fehlende Rate und bedingte108-Inversion getrennt. FIND-038.
-- [ ] Buch-Auswahl-/Exhaustionsverfahren340-342 getrennt vonH006/H015: Eingaben, TRC, W4-Faelle/Transfer und Gleichungserhalt pruefen; keine neue Masse oder Y9-Wahl.
+- [x] Buch-Auswahl-/Exhaustionsverfahren340-342 getrennt vonH006/H015: Eingaben, TRC, W4-Faelle/Transfer und Gleichungserhalt geprueft; FIND-039, keine neue Masse oder Y9-Wahl.
+- [ ] Buchinternen N0-Pseudosingulett-Eingabevertrag aus H004 festlegen; erst bei geschlossenen Inputs erreichten Zweig/Strukturgates/Rest pruefen. Keine H006/H010-Konstantenmischung, Masse oder Y9-Zielwertsuche.
 - [ ] Nur bei neuem Beleg: genaue H006-Vorlage/Uebertragungskette oder autorisiertes Erratum klaeren; keine stillen Profilkorrekturen.
 
 ### Fruehere Detailfolge (historischer Stand, nicht aktuelle Abschlussliste)

@@ -1,5 +1,22 @@
 # Fortschritt
 
+## 2026-09-06 - Neunundzwanzigste Etappe: Buch-Auswahl und A16-Rueckschluss
+
+- H004340-342 samt107/107a/107b/108 visuell rekonstruiert; Vorwaertskette
+  W1->N_(j), TRC-Ausnahme, Kappe und alter Ersttransferwert unterschieden.
+- Wiederholungssumme nur deklarierte Lesart; Rohwertkappe/Nichtnegativitaet
+  und beta4-/Kollapsanschluss nicht als vollstaendigen Solver geglaettet.
+- Feste Restgleichung wird durch Floor/Saettigung/Transfer nicht allgemein
+  erhalten. Transferrest ist streng negativ, unabhaengig von Summenlesart.
+- A16-Auswahl liefert bedingte Intervalle; zwei synthetische Eingaben mit
+  gleichem Tupel belegt. Keine vollstaendigen Heim-Gegenloesungen oder Masse.
+- H006/H015 separat verglichen: Buch genauer, kein rueckwirkendes Erratum.
+- Drei interne Reviews, Root37rationaleZertifikate erneut;13neueTests,
+  247gesamt,elfalteChecks und Quellhashes bestanden. FIND-039,39Gruppen.
+  Alte Rechner/Inputs/Snapshots/49CSV erhalten. Plancheckpoint4da02b3.
+- Naechster Einzelauftrag: rein buchinterner N0-Pseudosingulett-Vertrag;
+  dann nur bei geschlossenen Inputs Auswahl/Struktur/Rest pruefen.
+
 ## 2026-09-06 - Achtundzwanzigste Etappe: F16-Bestimmtheit
 
 - H004330-335 Bedingungen statt nur Symbolen gelesen: mu-Ursprung,

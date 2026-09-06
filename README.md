@@ -40,6 +40,20 @@ Kann aus Heims Original- bzw. nahen Quellen eine reproduzierbare, parameterarme 
 
 ## Aktueller Arbeitsmodus
 
+Stand2026-09-06, Etappe29: [Buch-Auswahl](06_docs/BOOK_SELECTION_2026-09-06.md).
+Heims Buchvorschrift trennt W5/W6, TRC, Saettigung und Transfer deutlicher
+als die Kurzfassungen. Die Vorwaertsauswahl liefert keine zusaetzliche
+eindeutige A16-Herleitung und erhaelt die feste Gleichung nicht allgemein.
+Eigene skalare Zeugen sind keine vollstaendigen Heim-Teilchenzustaende;
+keine neue Masse oder Gesamtwiderlegung.
+
+13neueTests,247gesamt,elfbestehendeChecks; drei interneReviews.
+Alte Rechnungen erhalten. Naechster Schritt: buchinterner Eingabevertrag
+des aktiven N0-Pseudosinguletts; keine Konstantenmischung oder Y9-Fitwahl.
+[Wiedereinstieg](00_admin/RESUME.md), [Arbeitsfolge](00_admin/UNDERSTANDING_ROADMAP.md).
+
+## Verlauf: Etappe 28
+
 Stand2026-09-06, Etappe28: [F16-Bestimmtheit](06_docs/F16_DETERMINACY_2026-09-06.md).
 Die Quellenbedingungen bestimmen Rolle und Grenzcharakter, nicht eindeutig
 den Zahlenwert A16. Heim benennt die Deduktion in der Einfuehrung selbst

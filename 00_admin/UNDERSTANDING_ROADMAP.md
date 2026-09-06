@@ -12,7 +12,7 @@ vollstaendiges Verstaendnis der Gesamttheorie abgeleitet werden.
 | Quellen und Versionen | Original, spaetere Abschrift, Erweiterung, offene Herkunft | Etappen18/23: lokale Buch-/Listing-/Typoskriptbruecken belegt; keine gemeinsame vollstaendige 1982-Fassung, Ueberlieferung teilweise offen |
 | Alpha-Grundkette | eta, vartheta, A_k, Ladungsmittelung, Korrelation, Y3 und Zweige | Buchindizes/Mittelung rekonstruiert; Energie/Wellenkontexte getrennt, Kinematik und physikalische Schliessung offen |
 | Grundbegriffe | Heim-eigene Raum-/Strukturbegriffe, metronische Operationen, messbare Zuordnung | M2/M2a-Endpunkte und M7-Ausdruck lokal rekonstruiert; gemeinsames Operatorgitter, reale Potentialpfade und Gesamtgrundlagen offen |
-| Massenformel | Einheiten, Konstanten, Quantenzahlen, Auswahlregeln, ein vollstaendiger Rechenfall | Enger Elektron-N0-Pfad/H010-Vergleich reproduziert; Etappen25/26 Auswahlrest und x3-Fall(b). Etappe27 A16-Nennerform belegt, BuchY9/heuristischerStatus sichtbar. Keine Myonmasse; F16/A16-Bestimmtheit und Dynamik offen |
+| Massenformel | Einheiten, Konstanten, Quantenzahlen, Auswahlregeln, ein vollstaendiger Rechenfall | Enger Elektron-N0-Pfad/H010-Vergleich reproduziert; Etappen25/26 Auswahlrest und x3-Fall(b). Etappen27-29 A16-Form/Herleitungsgrenze und Buch-Auswahlvertrag getrennt; Vorwaertsauswahl nicht allgemein exakter108-Loeser. Keine Myonmasse; buchinterne Eingaben, Dynamik und physikalische Auswahlbegruendung offen |
 | Reichweite | Was sind Modellannahmen, reale Beobachtungen und rein interne Groessen? | Insbesondere Neutrino-Feldmassen und Zweigbedeutung abzugrenzen |
 | Verstaendnisbilanz | Herleitungskarte und verbleibende Luecken gemeinsam beurteilen | Etappe24 aktualisiert Etappe15; alle34Befundgruppen eingeordnet, kein vollstaendiges Theorieverstaendnis |
 | Externe Bewertung | Passende neuere Primaerarbeiten, Messgroessen, Gueltigkeitsbereiche | Bewusst zurueckgestellt |
@@ -24,6 +24,24 @@ sinnvoll und unabhaengige Gegenpruefung. Dokumentierte Luecken sind ein
 Ergebnis; sie werden nicht als stillschweigende Definitionen behandelt.
 
 ## Naechste begrenzte Arbeitseinheit
+
+Nach [Etappe29](../06_docs/BOOK_SELECTION_2026-09-06.md):
+**Buchinterner N0-Pseudosingulett-Eingabevertrag, keine neue Masse.**
+
+1. Aktiven Buchkanal k=Q=kappa=q=1 und ResonanzN=0 festlegen.
+2. Q_j,g,eta/eta_qk,alpha_i,A16,Y9,f aus derselben H004-Fassung mit
+   Fundstellen bestimmen; keine stillen H006/H010-Konstantenimporte.
+   Y9=1 nur Tabellenannahme, keine Anpassung nach Rest oder Zielwert.
+3. Erst bei geschlossenem Vertrag erreichten Auswahlzweig, Besetzungen,
+   Rest und konkrete107/107a-Gates pruefen; keine F_S-/Massenrechnung.
+4. Konkrete Eingabeluecke ist erlaubter Abschluss. TRC-Messschwelle,
+   Transfer-Gatefehler/Kollaps und physikalische Begruendung offen erhalten.
+
+247Tests,elfalteChecks,39Befundgruppen;49CSV-Normalisierungen erhalten.
+Die neuen skalaren Hilfsbeispiele sind keine vollstaendigen Heim-Zustaende.
+F16-Suche nur bei neuem konkretem Quellenanker; Empirie weiterhin spaeter.
+
+## Historischer Folgeauftrag der Etappe 28 (in Etappe 29 bearbeitet)
 
 Nach [Etappe28](../06_docs/F16_DETERMINACY_2026-09-06.md):
 **Buch-Auswahl-/Exhaustionsverfahren340-342, keine neue Masse.**

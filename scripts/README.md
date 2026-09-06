@@ -1,5 +1,17 @@
 # Skripte
 
+## Etappe 29: exakte Buch-Auswahldiagnosen
+
+`py -3.13 -B -m unittest discover -s tests -p test_book_selection.py -v`
+prueft13eigene skalare Faelle: sukzessive Maxima, gemeinsame Integerausgabe
+zweier Inputs, affine A-Inversion, Floor-/Kappen-/Transferreste und Gates.
+Rationale Log-/Exp-Helfer aus Etappe25; keine physikalischen Buchinputs,
+vollstaendigen107-Gates, allgemeine TRC-Implementierung oder Masse.
+Unabhaengiger selbstenthaltener37-Pruefungen-Block in
+`04_reconstruction/alpha_audit/reviews/BOOK_SELECTION_MATH_REVIEW_2026-09-06.md`.
+Gesamtsuite247Tests,elfalteChecks; keine bisherigen Snapshots geaendert.
+Bericht: `06_docs/BOOK_SELECTION_2026-09-06.md`.
+
 ## Etappe 28: reduzierte F16-Bestimmtheitsdiagnosen
 
 `py -3.13 -B -m unittest discover -s tests -p test_f16_determinacy.py -v`
