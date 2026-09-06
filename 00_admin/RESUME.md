@@ -11,6 +11,16 @@ Mathematikreview unabhaengig. Hauptagent implementiert nur bedingte,
 ungefittete Diagnosen und erklaert die Quellenkette. Originale und alte
 Snapshots unveraendert lassen; keine moderne Widerlegungsrecherche vorziehen.
 
+Zwischenstand Etappe4: Plancheckpoint d1e31bc gepusht. Rechner
+`scripts/audit_energy_kinematics.py`, Ergebnis-JSON und10 neue Tests angelegt;
+43 Tests bestehen. Quellenbefunde: I Druck81/PDF88 und288/PDF294 wiederholen
+E=pc; I12/PDF20 deBroglie; I233/PDF239 nichtzirkulaere Compton-Skala;
+I242/PDF248 photonische Kreiswelle. II301/PDF307 uebertraegt Kreiswellenansatz
+auf Elektron. Bericht `06_docs/ENERGY_KINEMATICS_2026-09-06.md` angelegt.
+Unabhaengige Rechnerreview noch ausstehend, Wellenquellenbericht in Arbeit.
+Noch kein Endergebnis/Physikvalidierung behaupten. Historische Standard-
+Begriffskontrolle Einstein1905 Druck920, keine moderne Kritikrecherche.
+
 ## Aktuell: dritte Etappe abgeschlossen
 
 Auftrag: mit Heim weiterarbeiten, Herleitung erklaeren. Abgeschlossener Plan:
