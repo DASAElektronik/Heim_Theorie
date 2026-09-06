@@ -63,6 +63,13 @@ und255/256 als Autorenrahmen, S00580/81 als Editions-/Reproduktionsgrenze.
 Keine neue Quelle und kein Massengesamtrechner. Umfang/Hashes:
 `03_notes/ETA22_ROLES_SOURCE_CONTEXT_2026-09-06.md`; drei ETA22_ROLES-Reviews.
 
+Etappe13: H013(5e)->(21b)/(21b1) als direkte phi-Formelbruecke gelesen,
+mit W0, H007B49/B50 und Massenanschluss verglichen. Autoren-Fit-/
+Fortschreibungsvorbehalte auf H01337; H004II335 und S00574 als getrennte
+Kontexte. Doppelminus nicht durch neue Quelle eindeutig korrigiert.
+Keine neuen Quellen oder stillen Rechenprofilwechsel; Umfang/Hashes:
+`03_notes/PHI_U_SOURCE_CONTEXT_2026-09-06.md` und drei PHI_U-Reviews.
+
 | ID | Typ | Titel / Inhalt | URL | Status |
 |---|---|---|---|---|
 | H001 | Archiv / Quelle | burkhardheim.de Dateien-Uebersicht mit Heim-Unterlagen, DESY/Northeim-Unterlagen, Massenformel-Dateien und PDFs | https://burkhardheim.de/assets/index.php | gefunden |
