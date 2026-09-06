@@ -2,7 +2,16 @@
 
 Aktualisiert: 2026-09-06.
 
-## Aktuell: dreiundzwanzigste Etappe abgeschlossen
+## Aktuell: vierundzwanzigste Etappe in Arbeit
+
+Ausgang `660d612`. Vertrag: `BALANCE24_PLAN.md`.
+Verstaendnis-/Versionsbilanz Etappen16-23 aus vorhandenen Nachweisen
+erstellen; alle 34 Befundgruppen in eigener Gegenreview einordnen.
+Fassungsbruecken und Voraussetzungen eines naechsten Rechenfalls trennen.
+Keine neue Massenzahl, keine neue Befundgruppe, keine stille Profilkorrektur.
+Drei begrenzte Reviews und Root-Synthese; naechsten Auftrag konkret waehlen.
+
+## Verlauf: dreiundzwanzigste Etappe abgeschlossen
 
 Ausgang `57e92f8`, Plancheckpoint `125da3a`.
 Bericht: `06_docs/HISTORICAL_EXPONENTS_2026-09-06.md`.
