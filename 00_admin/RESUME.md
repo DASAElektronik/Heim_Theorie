@@ -2,7 +2,16 @@
 
 Aktualisiert: 2026-09-06.
 
-## Aktuell: sechste Etappe abgeschlossen
+## Aktuell: siebte Etappe in Arbeit
+
+Ausgangscommit752a61b. Nutzer will systematisch weiterpruefen und spaeter
+mit Fakten veroeffentlichen; ein Ergebnis oder alle Fehler nicht vorwegnehmen.
+Plan `CYCLIC_FLOW_PLAN.md`: II160/161 und (76), zyklischer Fluss/Frequenz,
+H-Bruecke; lnA/C/Y3-Bestimmtheit und neues Befundregister mit Tragweite.
+Drei getrennte Reviews beauftragt. Keine modernen Gegenbelege jetzt;
+alle sechs bisherigen Rechner/Inputs/Snapshots unveraendert.
+
+## Verlauf: sechste Etappe abgeschlossen
 
 Ausgangscommit 4155762. Nutzer moechte moegliche Luecken begruendet schliessen,
 neu rechnen und auch negative Ergebnisse offen veroeffentlichen. Kein
