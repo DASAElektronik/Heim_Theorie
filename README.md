@@ -40,6 +40,20 @@ Kann aus Heims Original- bzw. nahen Quellen eine reproduzierbare, parameterarme 
 
 ## Aktueller Arbeitsmodus
 
+Stand2026-09-06, Etappe28: [F16-Bestimmtheit](06_docs/F16_DETERMINACY_2026-09-06.md).
+Die Quellenbedingungen bestimmen Rolle und Grenzcharakter, nicht eindeutig
+den Zahlenwert A16. Heim benennt die Deduktion in der Einfuehrung selbst
+als offenen Auftrag. Berechnung aus109b bei festemY9 bleibt moeglich;
+Herleitung und quantitative Naeherungsgenauigkeit sind davon verschieden.
+Eigene reduzierte Beispiele sind keine metronischen Heim-Loesungen.
+
+Zehn neueTests,234gesamt,elf bestehendeChecks; drei interneReviews.
+Alte Rechnungen erhalten. Naechster Schritt: Buch-Auswahl/Exhaustion340-342,
+quellengetrennt vonH006/H015 und ohne neue Masse oder Y9-Anpassung.
+[Wiedereinstieg](00_admin/RESUME.md), [Arbeitsfolge](00_admin/UNDERSTANDING_ROADMAP.md).
+
+## Verlauf: Etappe 27
+
 Stand2026-09-06, Etappe27: [A16-Quellenpruefung](06_docs/A16_ORIGIN_2026-09-06.md).
 Die Nennerklammer /(5eta) steht im fotografierten FORTRAN und im Buch.
 Das Buch fuehrt zusaetzlich Y9 und nennt die Koeffizienten heuristisch

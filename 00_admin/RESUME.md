@@ -2,14 +2,46 @@
 
 Aktualisiert: 2026-09-06.
 
-## Aktuell: achtundzwanzigste Etappe in Arbeit
+## Aktuell: achtundzwanzigste Etappe abgeschlossen
 
-Ausgang `1fcf209`, Vertrag `F16_DETERMINACY_PLAN.md`.
-Auftrag: Bedingungen an F16 und Bestimmtheit des Grenzwerts A16 in
-H004330-335 und konkret genannten Rueckverweisen. Quellenbefund von
-eigenen reduzierten skalaren Beispielen trennen; keine neue Masse/Y9-Wahl.
-Agenten arbeiten ausschliesslich an drei neuen F16*-Review-Dateien.
-Alte Rechner, Inputs, Snapshots und Normalisierungen unveraendert lassen.
+Ausgang `1fcf209`, Plancheckpoint `c153e02`, Vertrag `F16_DETERMINACY_PLAN.md`.
+Bericht: `06_docs/F16_DETERMINACY_2026-09-06.md`.
+Quellenumfang: `03_notes/F16_DETERMINACY_SOURCES_2026-09-06.md`.
+Abschlusscommit-Nachricht: `Audit F16 limit constraints and conditional determinacy`.
+Bei Fortsetzung HEAD/Remote pruefen; keine laufenden Agenten erforderlich.
+
+- H004330-335: drei mu_s-Argumente, Ursprung, endlicher reeller Grenzwert,
+  X6=kappa*eta_qk*F16; kein explizites F16-Randwertproblem oder Rate.
+  mu-Ursprung != F16(0)=0; Resonanz-f != F16; A=A66 != A16=A66.
+  Realitaet der Eintraege bedeutet keine Matrixsymmetrie.
+- Geruestspinor k1Q1kappa0 schaltet Beitrag aus; bestimmt A16 nicht.
+  Aktives Pseudosingulett k1Qkappaq1 hat W=g(1+dA16), d=eta_qk.
+  Verschobenes Buch-w1 und unterstrichenes w1 getrennt.
+- Rueckverweise:98 Druck267/PDF273;98a269/PDF275;101a289/PDF295;
+  101b291/PDF297;105a302/PDF308. Liefern Rollen/Parameter, keine F16-Dynamik.
+- Einfuehrung2-3/PDF13-14 nennt Deduktion der Strukturfunktionen offen;
+  110d auf340/PDF346 fasst109b und110c zusammen und schliesst A16 ein.
+  Keine werkweite Behauptung ueber alle spaeteren Arbeiten.
+- Eigene skalare Folgen zeigen nur reduzierte Nicht-Eindeutigkeit und
+  fehlende uniforme Rate aus blosser Konvergenz, keine Heim-Loesungen.
+  Positive bedingte Inversion A=[T108/(g(1+f))-1]/d bei unabhaengigen
+  T108,g,d,f; g,d>0,f!=-1. Umstellen allein loest gekoppelte Auswahl nicht.
+- Formel109b bei festemY9 berechenbar; keine neue Y9-Schaetzung oder Masse.
+  Drei Reviews; Root52Kontrollfaelle erneut;10neueTests,234gesamt,
+  elf alteSnapshot-/Quellchecks. FIND-038,38Gruppen nicht38Fehler.
+  Alte Rechner/Inputs/Snapshots/49CSV-Normalisierungen erhalten.
+
+Naechster Einzelauftrag: **Buch-Auswahl-/Exhaustionsverfahren340-342**.
+S.340/PDF346 setzt W,a,b aus(108)-(110d) VOR der Besetzungsauswahl ein.
+S.341/PDF347 beschreibt TRC, W4-Faelle und Protosimplextransfer3->4;
+S.342/PDF348 schliesst Transfer/Gitteranschluss ab, beginnt danach F_S.
+Diese Buchregel getrennt von H006/H015 rekonstruieren: Was ist Eingabe,
+was Auswahl, was exakte Gleichung versus diskrete Vorschrift? Nur nach
+explizitem Quellenvertrag alte Restbefunde vergleichen; keine automatische
+Versionsgleichheit, kein Buch/H006-Konstantenmix oder neuer Massensollwert.
+F_S/Massenkorrektur noch nicht rechnen. Y9 bleibt fixierte Tabellenannahme,
+nicht nach K4 optimieren. F16-Herleitung nur mit konkretem neuem Beleg
+wieder aufnehmen; breite Empirie weiterhin spaeter.
 
 ## Verlauf: siebenundzwanzigste Etappe abgeschlossen
 

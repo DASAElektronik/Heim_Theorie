@@ -3,7 +3,18 @@
 Isolierter, reproduzierbarer Konsistenztest der 1982/1989-Alpha-Bloecke in den
 lokalen IGW-Wiedergaben. Python >= 3.10; nur Standardbibliothek erforderlich.
 
-## Etappe 27: A16-Klammerung und heuristische Buchherkunft (aktueller Stand)
+## Etappe 28: F16-Bedingungen und begrenzte Bestimmtheit (aktueller Stand)
+
+`06_docs/F16_DETERMINACY_2026-09-06.md`: Rolle und Grenzforderung,
+aber kein explizites F16-Randwertproblem in den geprueften Seiten.
+Einfuehrung2-3/110d bestaetigen den offenen Herleitungsauftrag. Formel
+mitfixemY9 berechenbar; eigene skalare Zeugen keine Heim-Loesungen.
+(108) bestimmt A16 bedingt bei unabhaengigenT108,g,d,f; keine Fitwerte.
+DreiReviews,10neueTests,234gesamt,elfalteChecks. FIND-038,38Gruppen,
+nicht38Fehler. Alte Rechner/Inputs/Snapshots/49CSV erhalten.
+NaechsterAuftrag Buch340-342Exhaustion getrennt vonH006/H015, keineMasse.
+
+## Etappe 27: A16-Klammerung und heuristische Buchherkunft (vorheriger Stand)
 
 `06_docs/A16_ORIGIN_2026-09-06.md`: H015GINIT und H004(109b) belegen
 /(5eta), H004 zusaetzlich Y9 am ganzen Ausdruck. F16-Grenzwertrolle und

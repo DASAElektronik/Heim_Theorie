@@ -3,17 +3,17 @@
 2026-09-06, Etappe28. Ausgang `1fcf209`, Branch `normalization-review`.
 Nutzerauftrag: den angekuendigten F16/A16-Anschluss weiter untersuchen.
 
-- [ ] H004 Druck330-335/PDF336-341 visuell als Bedingungssystem lesen:
+- [x] H004 Druck330-335/PDF336-341 visuell als Bedingungssystem lesen:
   Argumente, Ursprung, Grenzwerte, Realitaet, Geruest-/Spinorrolle.
-- [ ] Nur konkret angeschlossene Rueckverweise verfolgen. Trennen:
+- [x] Nur konkret angeschlossene Rueckverweise verfolgen. Trennen:
   Definition, Bedingung, ansatzweise Zuordnung und empirische Festlegung.
-- [ ] Pruefen, was den Grenzwert numerisch berechenbar macht und was
+- [x] Pruefen, was den Grenzwert numerisch berechenbar macht und was
   ihn aus vorgeschalteten Forderungen eindeutig herleiten wuerde.
-- [ ] Eigene reduzierte Nicht-Eindeutigkeits-/Konvergenzzeugen eindeutig
+- [x] Eigene reduzierte Nicht-Eindeutigkeits-/Konvergenzzeugen eindeutig
   als mathematische Beispiele kennzeichnen, nicht als Heim-Loesungen.
-- [ ] Interne Quellen-/Mathematikreviews und eigene exakte Tests;
+- [x] Interne Quellen-/Mathematikreviews und eigene exakte Tests;
   alte Snapshot-/Quellenchecks, Testbestand und Register validieren.
-- [ ] Quellenumfang, begrenzten Schluss und naechsten Einzelauftrag
+- [x] Quellenumfang, begrenzten Schluss und naechsten Einzelauftrag
   dokumentieren; bewusst committen und aktuellen Branch pushen.
 
 Root liest die tragenden Originalseiten, integriert und testet.
@@ -24,3 +24,9 @@ Jeder Agent schreibt nur seine neue Review-Datei. Keine externe Peer Review.
 Keine neue Masse, keine Y9-Schaetzung und keine freie Ersatzregel.
 Alte Rechner, Eingaben, Snapshots und 49 CSV-Normalisierungen unveraendert.
 Keine werkweite Nichtexistenzbehauptung. SOURCE_ATTRIBUTION.md gilt.
+
+Abschluss: `06_docs/F16_DETERMINACY_2026-09-06.md`, FIND-038.
+Einfuehrung2-3 und(110d) bestaetigen den vom Autor offenen Herleitungsauftrag.
+Zehn neueTests,234gesamt; elf alteChecks. Plancheckpoint `c153e02`.
+Naechster Auftrag: Buch-Auswahl/Exhaustion340-342 bei festem A16-Profil
+quellengetrennt verstehen, noch keine neue Masse oder Y9-Anpassung.

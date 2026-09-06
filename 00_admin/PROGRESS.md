@@ -1,5 +1,20 @@
 # Fortschritt
 
+## 2026-09-06 - Achtundzwanzigste Etappe: F16-Bestimmtheit
+
+- H004330-335 Bedingungen statt nur Symbolen gelesen: mu-Ursprung,
+  endlicher reeller Grenzwert, Spinorrolle; kein explizites F16-Randwertproblem.
+- 98/98a/101a/101b/105a liefern Konfigurationen/Parameter, keine F16-Dynamik.
+  Einfuehrung2-3 nennt Deduktion offen;110d340 fasst109b/110c zusammen.
+- Geruestschalter kalibriert A16 nicht. Eigene skalare Folgen beweisen
+  nur reduzierte Nicht-Eindeutigkeit/fehlende uniforme Rate; keine Heim-Loesungen.
+- Positive bedingte108-Inversion bei unabhaengigenT108,g,d,f; ansonsten
+  Kopplung offen. Heuristische Formel mitfestemY9 bleibt berechenbar.
+- Drei interneReviews,Root52exakteChecks erneut;10neueTests,234gesamt,
+  elf alteChecks. FIND-038; alteRechner/Inputs/Snapshots/49CSV erhalten.
+- Plancheckpointc153e02. Naechster Einzelauftrag Buch340-342Exhaustion,
+  getrennt vonH006/H015, keineMasse/Y9-Anpassung oder blindeF16-Suche.
+
 ## 2026-09-06 - Siebenundzwanzigste Etappe: A16-Herkunft
 
 - H015-GINIT/PDF21 belegt /(5eta), H004335/PDF341 zusaetzlich Y9 am

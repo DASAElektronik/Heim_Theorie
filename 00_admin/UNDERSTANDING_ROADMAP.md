@@ -25,6 +25,25 @@ Ergebnis; sie werden nicht als stillschweigende Definitionen behandelt.
 
 ## Naechste begrenzte Arbeitseinheit
 
+Nach [Etappe28](../06_docs/F16_DETERMINACY_2026-09-06.md):
+**Buch-Auswahl-/Exhaustionsverfahren340-342, keine neue Masse.**
+
+1. H004340/PDF346: W,a,b werden aus(108)-(110d) berechnet und als
+   Eingang der Exhaustion benutzt. Eingaben und Ausgaben explizit trennen.
+2. H004341/PDF347: TRC, W4-Sonderfaelle und Transfer3->4;342/PDF348
+   schliesst Transfer und n_j-Zuordnung ab. F_S/Massenkorrektur noch auslassen.
+3. Buchregel zuerst unabhaengig rekonstruieren, dann eng gegen H006/H015
+   vergleichen. Keine Editionsgleichheit, Konstantenmischung oder Y9-Fit.
+4. Quelle, exakter Gleichungsloeser und eigenstaendige diskrete Vorschrift
+   unterscheiden. Numerische Teilchenanwendung erst nach festem Vertrag.
+
+F16/A16-Herleitung ist lokal als offen geklaert, nicht werkweit widerlegt.
+Einfuehrung2-3 und110d bestaetigen Heims eigenen Forschungsauftrag.
+Neue Suche nach F16 nur bei konkretem zusaetzlichem Quellenanker.
+234Tests,elfalteChecks,38Befundgruppen; alte49CSV-Normalisierungen erhalten.
+
+## Historischer Folgeauftrag der Etappe 27 (in Etappe 28 bearbeitet)
+
 Nach [Etappe27](../06_docs/A16_ORIGIN_2026-09-06.md):
 **F16/A16-Bestimmtheit, keine neue Masse.**
 

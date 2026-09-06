@@ -1,5 +1,15 @@
 # Skripte
 
+## Etappe 28: reduzierte F16-Bestimmtheitsdiagnosen
+
+`py -3.13 -B -m unittest discover -s tests -p test_f16_determinacy.py -v`
+prueft zehn exakte Fraction-Faelle: verschiedene Grenzwerte, explizite
+Restschranken, Geruestschalter und bedingte108-Inversion. Eigene skalare
+Folgen, keine metronischen Loesungen, Konstantenprofile, Y9-Fits oder Massen.
+Allgemeine Beweise im Bericht `06_docs/F16_DETERMINACY_2026-09-06.md`;
+endliche Stichproben allein beweisen keine Konvergenz. 234Tests insgesamt,
+elf alteChecks erhalten; unabhaengigerReviewblock52Faelle erneut ausgefuehrt.
+
 ## Etappe 27: exakte A16-Identitaeten und Quellenstatus
 
 `py -3.13 -B -m unittest discover -s tests -p test_a16_origin.py -v`

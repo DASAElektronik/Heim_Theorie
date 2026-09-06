@@ -6,6 +6,13 @@ Dieses Register sammelt Fundstellen. Lokale Kopien sollten nur abgelegt werden, 
 
 ## Enger Pruefstand 2026-09-06
 
+Etappe28: H004330-335/PDF336-341 auf F16-Bedingungen geprueft;
+98/98a,101a/101b,105a liefern keine zusaetzliche F16-Dynamik.
+Einfuehrung2-3/PDF13-14 nennt Deduktion offen,110d340/PDF346 fasst
+109b/110c zusammen. Auswahlrichtung325/327/340;341/342 als Folgeanker.
+Grenzwert, numerischeVorschrift und Rate getrennt; keine neueQuelle/Masse.
+FIND-038; Umfang/Hash `03_notes/F16_DETERMINACY_SOURCES_2026-09-06.md`.
+
 Etappe27: H015PDF21/GINIT-Seite2/ISN0031/00005308 hat explizit /(5eta),
 ebenso TyposkriptPDF39/Matrixblock (obenFolio4, unten5; Ursache offen);
 H004335/PDF341,(109b) die gleiche lokale Form mit gesamtem FaktorY9.
