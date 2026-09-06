@@ -25,11 +25,11 @@ Ergebnis; sie werden nicht als stillschweigende Definitionen behandelt.
 
 ## Naechste begrenzte Arbeitseinheit
 
-1. Neuer Anschluss aus Etappe10: H013-Delta-Zeile q2/k2 und dortige
-   Auswahlregeln gegen den Buchkontext(98a) vergleichen, Datierung offen.
-   Gleiche Indizes nicht mit gleicher Geltung/realer Dynamik verwechseln.
-2. Danach eta22 in B47/B55 und Autorenfassungen auf konkrete Begruendung
-   pruefen; anschliessend Massenblocker B50/Gamma-Q_N und Verstaendnisbilanz;
+1. Nach Etappe11: eta22 in B47/B55 und zugehoerigen Autorenstellen auf
+   Rollen und konkrete Begruendung pruefen. Der Delta++-Buchanschluss
+   ist geklaert, nicht aber die spezielle B59-Herleitung; keine erneute
+   ungezielte Indexsuche und keine erfundene Zwischenzustandsdynamik.
+2. Anschliessend Massenblocker B50/Gamma-Q_N und Verstaendnisbilanz;
    Quellen-/Mathematikreview und Checkpoint je begrenzter Einheit.
 3. Offene F/G-Normierung und metronische Extremumsregel nur bei konkreter
    Quellbruecke erneut aufnehmen; keine Wiederholung derselben Rueckverweise.
@@ -48,6 +48,14 @@ Autorenmotiv freie/gebundene Struktur belegt, C_prime-Form weiterhin offen.
 S00561 belegt, dass die IGW-Herausgeber die weitergehende Herleitung
 selbst nicht vorliegen hatten. Kein Nachlass-weiter Nichtexistenzbeweis.
 Jetzt20 Befundgruppen, weiterhin98 Tests/acht unveraenderte Snapshots.
+
+Etappe11: DELTA_SELECTION_2026-09-06.md. Buchintern verbinden (100a)-(101b)
+Delta++ mit q2/k2 und einem ausdruecklichen(98a)-Rueckverweis; der N0-Anhang
+bestaetigt den Grundmusterkontext. Die woertliche B-Schranke schliesst das
+Paar aus, vorgelagerte Positivitaet und behauptetes u2-Intervall dagegen
+nicht. Konkrete Verstaerkung FIND-016/FIND-019, weiterhin20 Gruppen.
+Undatierte H013/H014 und IGW-Grundzustands-/Resonanzfassungen getrennt;
+keine moderne empirische Widerlegung und keine eigene Quellenreparatur.
 
 Offene Seitenzweige: H-Wellen-/Flussobjektidentitaet, Phase/Frame, operative
 pc-Arbeitsbilanz und physikalische Meridianregel. Aus Etappe7 liegt jetzt

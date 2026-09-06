@@ -33,8 +33,23 @@ konkreter eigener Fehler nachgewiesen ist. Fremd-PDFs nicht committen.
 
 ## Abschluss
 
-- [ ] Quellen-/Zustandsarten und Geltungsbereiche gegenuebergestellt.
-- [ ] (2,2)-Folgen unabhaengig gerechnet, keine Reparatur als Autorenaussage.
-- [ ] Befundreichweite und verbleibende Anschlussfrage begruendet.
-- [ ] Bericht, Register, Zusammenhangskarte und Wiedereinstieg aktualisiert.
-- [ ] Regressionen geprueft und eigene Ergebnisse committed/gepusht.
+- [x] Quellen-/Zustandsarten und Geltungsbereiche gegenuebergestellt.
+- [x] (2,2)-Folgen unabhaengig gerechnet, keine Reparatur als Autorenaussage.
+- [x] Befundreichweite und verbleibende Anschlussfrage begruendet.
+- [x] Bericht, Register, Zusammenhangskarte und Wiedereinstieg aktualisiert.
+- [x] Regressionen geprueft und eigene Ergebnisse committed/gepusht.
+
+## Ergebnis und Sicherung
+
+Plancheckpoint4f297a6 und Quellen-/Reviewcheckpoint8085f41 gepusht.
+Abschlusscommit-Nachricht: Complete Delta selection findings and research handoff.
+Bericht: `06_docs/DELTA_SELECTION_2026-09-06.md`.
+Direkte H004-Bruecke (100a)-(101b), Delta++ q2/k2 mit(98a)-Rueckverweis;
+N0-Anhang372/PDF377. (2,2) erfuellt vorgelagerte Positivitaet, nicht
+woertliche B-Schranke; behauptetes u2-Intervall und Maxima getrennt.
+FIND-016/FIND-019 erweitert, weiterhin20 Gruppen, keine neue Fehlerzaehlung.
+Drei Reviews und unabhaengige Synthesegegenlesung abgeschlossen.
+Acht alte Snapshots/Quellchecks,98 Tests und Registervalidator erfolgreich;
+Rechner, Inputs, Snapshots und49 Normalisierungen unveraendert.
+Naechste Einheit: Rollen von eta22 in B47/B55 samt Autorenbegruendung,
+danach B50/Gamma-Q_N und Verstaendnisbilanz. Kein erneuter Index-Suchlauf.

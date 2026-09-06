@@ -201,15 +201,15 @@
     {
       "finding_id": "FIND-016",
       "kind": "source_output_mismatch",
-      "claim": "Die gedruckte u_q-Funktion ergibt u_2=1.963489198102715..., entgegen2<u_2<3. Sie erlaubt bei positiven ganzen q,k genau(1,1),(1,2),(2,1),(3,1).",
+      "claim": "Die gedruckte u_q-Funktion ergibt u_2=1.963489198102715..., entgegen2<u_2<3. Sie erlaubt bei positiven ganzen q,k genau(1,1),(1,2),(2,1),(3,1); das im selben Buch ausdruecklich aufgenommene Delta++-Paar(2,2) besteht sie nicht.",
       "source_ids": ["H004", "H007"],
-      "source_locator": "H004 II Druck269/PDF275: gedrucktes B_q,u_q und Zahlenintervalle vor(98a); H007 Druck18/PDF9 B59 als getrennte eta22-Abhaengigkeit.",
+      "source_locator": "H004 II Druck269/PDF275: B_q,u_q und Intervalle vor(98a); Druck287-291/PDF293-297 (100a)-(101b): abs(q_x)=q, Quartett12 k2/+2, Delta-Zuordnung, expliziter(98a)-Rueckverweis; Druck372/PDF377 N0-Anhang. H007 B59 bleibt getrennte Abhaengigkeit.",
       "assumptions": "Exakt dokumentierte gedruckte B-Funktion und(98); mathematisches pi; positive ganze q,k und strikt k<u_q; kein Ersatz von B durch die eigene D-Schwelle.",
-      "scope": "Nicht reproduzierter q2-Zahlenbereich und Ausschluss des Paars(2,2) unter dieser einzelnen Buch-Bedingung. Andere angegebene Bereiche und globale Maxima kmax2/qmax3 bestaetigt; Buch-Alpha-Paare(1,1),(1,2) bleiben erhalten.",
-      "not_established": "Kein vollstaendiger physikalischer Zustandskatalog; kein Schluss fuer alle reellen q>4; kein automatischer Ausschluss der1989-Formel mit eta22 und keine Aenderung alter Rechenprofile.",
-      "evidence_paths": ["06_docs/CONFIGURATION_SELECTION_2026-09-06.md", "05_analysis/configuration_selection_diagnostics.json", "04_reconstruction/alpha_audit/reviews/CONFIGURATION_SELECTION_MATH_REVIEW_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/CONFIGURATION_DEPENDENCY_REVIEW_2026-09-06.md"],
-      "reproduction": "py -3.13 scripts/audit_configuration_selection.py --check --verify-sources; unabhaengige Decimal-Rechnung; rationaler q>=5-Ausschluss im Bericht und Tests.",
-      "next_check": "Etappe10/FIND-019 findet in H013 einen konkreten tabellierten Delta-Zustand q2/k2. Dessen Auswahlregeln, Zustandsart und Fassungsbeziehung zu Buch(98a) pruefen; weder die Buchschranke noch B59 still aendern. H007 allein belegt die Versionsgeltung weiterhin nicht."
+      "scope": "Nicht reproduzierter q2-Zahlenbereich; konkrete Binnenbuch-Anwendung des alten Schrankenbefunds, keine neue unabhaengige Fehlergruppe. Bei(2,2) gilt B<x<D: vorgelagerte Positivitaet erfuellt, gedruckte V/Q- und B-Zeilen nicht. Behauptetes u2-Intervall, globale Maxima und spaetere Zustandsliste lassen das Paar zu. Buch-Alpha-Paare bleiben erhalten.",
+      "not_established": "Kein physikalisches Verbot von Delta++ oder eta22; keine Gesamtwiderlegung, eindeutige Autorenreparatur oder komplette Zustandsauswahl. Kein Konflikt des Paars mit den isolierten Maxima(98a); kein automatischer Ausschluss der1989-Formel und keine Aenderung alter Profile.",
+      "evidence_paths": ["06_docs/CONFIGURATION_SELECTION_2026-09-06.md", "05_analysis/configuration_selection_diagnostics.json", "04_reconstruction/alpha_audit/reviews/CONFIGURATION_SELECTION_MATH_REVIEW_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/CONFIGURATION_DEPENDENCY_REVIEW_2026-09-06.md", "06_docs/DELTA_SELECTION_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/DELTA_BOOK_SCOPE_REVIEW_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/DELTA_SELECTION_MATH_REVIEW_2026-09-06.md"],
+      "reproduction": "py -3.13 scripts/audit_configuration_selection.py --check --verify-sources; eigenstaendiger Machin-pi-Code bei80/120Stellen im DELTA_SELECTION_MATH-Review von Main erneut ausgefuehrt; Buch-Vollseiten und Indexbruecke gegengelesen. Alter rationaler q>=5-Ausschluss unveraendert.",
+      "next_check": "Etappe11 schliesst die konkrete Binnenbuch-Zustandsbruecke. Eine alternative beabsichtigte Auswahl nur anhand belegter Definitionen, Rechenunterlagen oder Errata pruefen. Als naechstes eta22-Rollen in B47/B55 untersuchen; nicht B durch D ersetzen oder B59 aus dem Zustand allein begruenden."
     },
     {
       "finding_id": "FIND-017",
@@ -240,15 +240,15 @@
     {
       "finding_id": "FIND-019",
       "kind": "positive_reproduction",
-      "claim": "Eta22 ist explizit definiert und ergibt0.842423846102...; H013/H014 tabellieren passend0.84242385. H013 verbindet q=abs(q_l), k2 und epsilon*q_l2 mit einer konkreten zweifach geladenen Delta-Tabellenzeile.",
-      "source_ids": ["H013", "H014", "H006", "H007"],
-      "source_locator": "H013 Druck12/PDF13 q, Druck14/PDF15 (7a), Druck17/PDF18 epsilon=+/-1, TabelleI Druck47/PDF50 und AnhangB Druck54/PDF57; H014 AnhangB Druck41/PDF48; H006(IX); H007 B47/B55/B59.",
+      "claim": "Eta22 ist explizit definiert und ergibt0.842423846102...; H013/H014 tabellieren passend0.84242385. H013 hat eine konkrete N0-Belegung q2/k2; H004 verbindet im selben Buch das Delta++-Grundmuster ausdruecklich mit q2/k2 und verweist auf(98a).",
+      "source_ids": ["H004", "H013", "H014", "H006", "H007"],
+      "source_locator": "H013 Druck12/PDF13 q, Druck14/PDF15 (7a), Druck17/PDF18 epsilon, TabelleI Druck47/PDF50, AnhangB Druck54/PDF57; H014 AnhangB Druck41/PDF48; H004 II287-291/PDF293-297 (100a)-(101b), II372/PDF377; H006(IX); H007 B47/B55/B59.",
       "assumptions": "Autorenbezeichnete undatierte Typoskriptscans, keine gesicherte1989-Datierung; positive vierte Wurzel und mathematisches pi; q,k-Reihenfolge der expliziten Familiendefinition. Tabellenbelegung ist Quellenbehauptung, nicht beobachtete physikalische Realisierung.",
-      "scope": "Positive Definition-/Zahlen- und Zustandszuordnung. B59-C_prime=0.0000121011502138423... durch unabhaengige80/120-Stellen-Rechnung bestaetigt; kein freier Dezimalparameter bei fixierter Formel.",
-      "not_established": "Keine Herleitung des speziellen B59-Ausdrucks aus dem Delta-Zustand; keine automatische Uebernahme/Aufhebung von Buch(98a); keine zwei physikalischen Kanaele aus C_prime=C0+eta22*C0; keine Gesamtvalidierung der Tabelleneintraege.",
-      "evidence_paths": ["06_docs/ETA22_CONTEXT_2026-09-06.md", "03_notes/ETA22_SOURCE_PROVENANCE_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/ETA22_MATH_REVIEW_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/ETA22_VERSION_SOURCE_REVIEW_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/ETA22_RATIONALE_SOURCE_REVIEW_2026-09-06.md"],
+      "scope": "Positive Definition-/Zahlen- und Zustandszuordnung. Etappe11 ersetzt die fuer den Buchzustand bisher benoetigte Fassungsbruecke durch (100a)-(101b); eta22 folgt dort durch Einsetzen, steht nicht als Etikett neben Delta++. B59-C_prime=0.0000121011502138423... numerisch bestaetigt, kein freier Dezimalparameter bei fixierter Formel.",
+      "not_established": "Keine Herleitung des speziellen B59-Ausdrucks aus dem Delta-Zustand; keine automatische Uebernahme der Buchauswahl in andere Fassungen; kein N0-Beweis unbegrenzter Lebensdauer; keine zwei physikalischen Kanaele aus C_prime=C0+eta22*C0; keine physikalische Validierung der Tabellen.",
+      "evidence_paths": ["06_docs/ETA22_CONTEXT_2026-09-06.md", "03_notes/ETA22_SOURCE_PROVENANCE_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/ETA22_MATH_REVIEW_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/ETA22_VERSION_SOURCE_REVIEW_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/ETA22_RATIONALE_SOURCE_REVIEW_2026-09-06.md", "06_docs/DELTA_SELECTION_2026-09-06.md", "03_notes/DELTA_SELECTION_SOURCE_CONTEXT_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/DELTA_BOOK_SCOPE_REVIEW_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/DELTA_MANUSCRIPT_SOURCE_REVIEW_2026-09-06.md"],
       "reproduction": "Eta22=[1+96/pi^4]^(-1/4); exakte Relation eta22^(-4)-1=16*(eta12^(-4)-1). Ausfuehrbarer unabh. Machin-pi-Code im Mathematikreview; reine equation_rhs-API bei80/120Stellen gegengeprueft, zusaetzlich Quellbilder.",
-      "next_check": "H013-Delta-Tabellenkonfiguration und Auswahlregeln mit Buch(98a) versionsgebunden vergleichen, dann eta22-Verwendung in B47/B55 und etwaige Autorenbegruendung verfolgen."
+      "next_check": "Etappe11 klaert den konkreten Buchanschluss und trennt N0-Tabellen von H007-N>0-Resonanzen. Nun eta22-Verwendung in B47/B55 und etwaige Autorenbegruendung verfolgen; die spezielle C_prime-Herleitung bleibt FIND-020."
     },
     {
       "finding_id": "FIND-020",

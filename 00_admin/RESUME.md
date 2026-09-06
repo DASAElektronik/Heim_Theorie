@@ -2,14 +2,70 @@
 
 Aktualisiert: 2026-09-06.
 
-## Aktuell: elfte Etappe in Arbeit
+## Aktuell: elfte Etappe abgeschlossen
 
-Nutzer bestaetigt Fortsetzung; Ausgang e50cab8. Plan DELTA_SELECTION_PLAN.
-H013-Delta-Tabellenpaar (2,2) gegen Buch(98a), Begriffe/Geltungsbereiche
-vor Gesamturteil. Drei bounded Reviews DELTA_MANUSCRIPT_SOURCE,
-DELTA_BOOK_SCOPE und DELTA_SELECTION_MATH beauftragt. Rootpruefung
-H006/H007, Synthese und Sicherung. Acht Rechner/Inputs/Snapshots bleiben.
-Keine moderne Widerlegungsrecherche oder neue physikalische Reparatur.
+Nutzer bestaetigt den konkreten Anschluss aus Etappe10; Ausgang e50cab8.
+Plan DELTA_SELECTION_PLAN erledigt. Plancheckpoint4f297a6 und Quellen-/
+Reviewcheckpoint8085f41 erfolgreich gepusht. Abschlusscommit-Nachricht:
+`Complete Delta selection findings and research handoff`.
+Bericht `06_docs/DELTA_SELECTION_2026-09-06.md`. Drei Reviews
+DELTA_MANUSCRIPT_SOURCE, DELTA_BOOK_SCOPE und DELTA_SELECTION_MATH,
+jeweils2026-09-06, samt unabhaengiger Synthesegegenlesung fertig.
+Keine laufenden Agenten zum Fortsetzen erforderlich.
+
+- WICHTIG: direkte Binnenbuchbruecke gefunden, nicht mehr nur H013-Vergleich.
+  H004 II287/PDF293 (100a): abs(q_x)=q. II288/289/PDF294/295 (101)/(101a):
+  Quartett12=(2330)0(+2,+1,0,-1), erste Stelle k; unmittelbar danach
+  ausdruecklicher Rueckverweis auf Erfuellung von(98a) fuer k und q<3.
+  II291/PDF297 (101b) nennt Quartett12 Delta++,Delta+,Delta0,Delta-.
+  Damit Delta++ im selben Buch q2/k2 zugeordnet.
+- II372/PDF377 (hier Versatz+5, nicht+6!): Invariantentabelle(1330)0(+2)
+  beginnt mit B, nicht k. k=B+1 ausII291 ergibt wieder2. Separate
+  M_x(N=0)-Tabelle enthaelt Delta++ mit Zonenparametern(2,1,5,1);
+  dieses Massentupel NICHT als eta-Index lesen. N0 heisst nicht ewige Stabilitaet.
+- Bei(2,2): B2=1.1861535589..., x=1.1870509182..., D2=1.3200504737...
+  Also B<x<D: vorgelagerte F/G-Positivitaet ERFUELLT; gedruckte V/Q-
+  und detaillierte B-Schranke NICHT erfuellt. u_B(2)=1.9634891981...
+  statt behaupteter2<u2<3. Isolierte Maxima(98a)k2/q3 widersprechen
+  dem Paar nicht und sind keine kartesische Paarliste. Keine stille
+  Reparatur B->D und kein physikalisches Verbot von eta22 oder Delta++.
+- Bekannter Befund konkretisiert: FIND-016/FIND-019 erweitert,
+  FIND-015 bleibt alter Herleitungsknoten. Weiterhin20 Befundgruppen,
+  keine20 Fehler. Numerik und Zustandslisten nicht als empirische Validierung.
+- H013/H014 N0-Tabellen P3/Q3/k2 und Ladungsfolge bestaetigt; Familienbezug
+  ueber Quantenzahlen/H006, nicht unsichere o-/delta-Glyphe. N>0-Delta-
+  Resonanzlisten ohne q-Spalte belegen nicht jede einzelne q2-Belegung.
+  H01320a/PDF22 beschraenkt andere Regel(14d) auf stufenweise Anregung;
+  kein Fix der Buch-B-Schranke. delta(N) separat0/1-Selektor.
+- H006PDF3 Delta-Quartett12 mit sichtbarer Grundzustandsfrage; keine
+  gesicherte Urheberschaft dieser editorischen Schicht. H00720/PDF11
+  verwendet q2 fuer Delta im ausdruecklichen N>0-Naeherungskontext.
+  Neuer S006 KapitelG, IGW2003: N0-TabelleI vs N>0-Delta-TabelleVb getrennt.
+  Herkunft/Hash/URLs/Vollseitenumfang:
+  `03_notes/DELTA_SELECTION_SOURCE_CONTEXT_2026-09-06.md`.
+  Keine Chronologie von H013/H014 oder1989-Original bewiesen.
+
+Main hat relevante Vollseiten gegengelesen, auch Buch287-291/372,
+H01438/PDF41, H01320a/PDF22 und52/PDF55. Mathematikreview: unabhaengige
+Machin-pi-Auswertung80/120Stellen,19 Werte, max.Differenz<3.50e-80;
+Main hat Codeblock separat ausgefuehrt. API/Snapshot13 Felder und5
+Entscheidungen gegengeprueft. Keine Intervallzertifizierung behauptet.
+Acht Snapshotchecks und verfuegbare Quellhashpruefungen erfolgreich;
+98 Tests und Registervalidator bestehen. Acht Rechner, Inputs, Snapshots,
+Tests und49 Normalisierungen unveraendert (47 resolved,2 alte Blocker).
+Alte Regressionen sind keine neue moderne empirische Bewertung.
+
+Naechster konkreter Anschluss: eta22-Rollen in H007 B47/B55 und den
+zugehoerigen Autorenstellen rekonstruieren: Definition, physikalische
+Bedeutung, begruendeter Uebergang. Die spezielle B59-C_prime-Herleitung
+bleibt FIND-020; ein Delta-Zustand allein erklaert sie nicht. Danach
+B50/Gamma-Q_N und Verstaendnisbilanz. Keine erneute ungezielte Indexsuche,
+keine moderne Widerlegungsrecherche, keine neue Hardware-/Reparaturarbeit.
+
+Nachpruefung: acht Befehle in scripts/README.md, dazu
+`py -3.13 scripts/validate_finding_register.py` und
+`py -3.13 -m unittest discover -s tests -q`.
+Fremd-PDFs/Arbeitsbilder lokal erhalten, nicht committed.
 
 ## Verlauf: zehnte Etappe abgeschlossen
 

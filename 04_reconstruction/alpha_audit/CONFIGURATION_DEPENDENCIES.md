@@ -18,6 +18,8 @@ quellenbelegt sein, ohne dass ihre physikalische Richtigkeit bewiesen ist.
 | Exponentialprofil der C-Struktur | II269 | angenaeherte Summe F2-F1+G2-G1 | Bedingte Quellannahme; Einzeldefinitionen und Skalenbruecke offen |
 | eta_q, eta_qk | II268/269: V/Q, F/G-Zuordnung | Auswahl(98a) | Spekulative Zuordnung plus lokaler Umformungskonflikt |
 | Gedruckte eta-Schranke B_q | II269: k<u_q | vier berechnete positive Paare | Bedingte Algebra und Zahlentest, u_2-Druckbereich nicht bestaetigt |
+| Buch-Grundmuster Quartett12 | II287-291 (100a)-(101b): abs(q_x)=q, (2330), +2, Delta++ und ausdruecklicher(98a)-Rueckverweis | Konkrete Buchbelegung q2/k2 | Positive Binnenbuchbruecke; besteht vorgelagerte Positivitaet, aber nicht woertliche B-Schranke |
+| Buch-Invarianten k bzw.B | II291: k=B+1; II372/PDF377: Delta++ (1330) und separate M(N=0)-Tabelle | Grundmuster-/N0-Kontext | B1 bedeutet k2; separates Massentupel(2,1,5,1) ist kein eta-Index |
 | Empirische Elektron-/Proton-Zuordnung | II263/264 und295/296 | (q,k)=(1,1),(1,2) | Quellenbelegt, induktiv/heuristisch begruendet |
 | Diese beiden Paare | II299-302: eta_11,eta_12 -> A_1,A_2 | Buch-Alpha(105) | Konkrete Verwendung belegt; beide bestehen B-Auswahl |
 | Korrelation/Welle/Arbeitsbilanz | II299-302, bisherige Etappen | Vollstaendige physikalische Alpha-Herleitung | Mehrere getrennte offene Begruendungen |
@@ -41,10 +43,10 @@ Die Kurzform k_max=2,q_max=3 ist auch kein kartesisches Produkt aller Paare.
 | E+u^2 versus E-u^2 | II176/178 unterschiedlich gedruckt; im skalaren Abbild ist Plus konsistent | Explizite metronische Bedeutung, autorisiertes Erratum oder andere belegte Ausgabe; keine stille Korrektur |
 | Absolute Feldamplitude | (79) und II178-Naeherung haben im skalaren Abbild verschiedene konstante Vorfaktoren, gleiche Rate | Explizite Amplitudennormierung; bei freiem A kein eigener Fehlerbefund |
 | Richtungen und B/D-Unterschied | Unter den gedruckten Definitionen lokal unvereinbar | Belegte Konventionsaenderung, andere Ausgabe oder autorisiertes Erratum |
-| u_2-Druckbereich | Gedruckte Funktion ergibt1.963489..., nicht2..3 | Belegbar andere beabsichtigte Funktion oder historische Rechenunterlagen; nicht durch Alpha-Zielwerte waehlen |
+| u_2-Druckbereich und Delta++ | Gedruckte Funktion ergibt1.963489..., nicht2..3; (101a/b) nimmt (2,2) im selben Buch ausdruecklich auf | Belegbar andere beabsichtigte Funktion, Erratum oder historische Rechenunterlagen; nicht durch Alpha-Zielwerte waehlen |
 | Vollstaendige Auswahl aller Zustaende | Einzelne B-Bedingung liefert vier Paare | Alle weiteren Zustandsbedingungen mit denselben Bedeutungen und derselben Version |
 |1989 eta_22 und H013-Zustand | H013 tabelliert konkret (2,2), H007 gebraucht eta22 dreifach; S00561 benennt fehlende C_prime-Entwicklung | Begruendung, weshalb gerade dieser Faktor in B59 eingeht; Zustandsbelegung allein erklaert keine Ursache |
-| H013 Delta-Zeile gegen Buch(98a) | H013 q2/k2 tabelliert, einzelne Buch-B-Schranke schliesst dieses Paar aus | Geltungsbereich, Zustandsart und Fassungsfolge pruefen; gleiche Indizes sind noch keine bewiesene Versionsgleichheit |
+| H013 Delta-Zeile gegen Buchauswahl | N0-Belegung konkret; Etappe11 findet direkte H004-Delta++-Kette, der Buchbefund benoetigt H013 nicht mehr | Historische Fassungsfolge weiter offen; keine Wiederholung derselben Indexsuche, spezielle Dynamik statt blosser Glyphengleichheit pruefen |
 | H-Welle und Flussaggregat | Bedingte w_f=c-Bruecke vorhanden | Explizite Objekt-, Phasen- und Bezugssystemzuordnung; dann alte Wellendiagnosen erneut pruefen |
 | C und Y3 | C=P und Y3=1 mit P=A1*A2 berechenbar, nicht vollstaendig unabhaengig begruendet | Neue Normierungs-/Randbedingung mit Bezug auf dasselbe C, nicht auf ein gleichnamiges Symbol |
 | pc als Arbeitsanteil | Wiederholt verwendet, operative Zuordnung offen | Explizite Arbeits-/Messvorschrift im H-Modell |
@@ -66,6 +68,14 @@ Etappe10: ETA22_CONTEXT_2026-09-06.md schliesst Definition, Tabellenwert
 und den konkreten H013-Zustandsanschluss. Drei Reviews, unveraenderte
 acht Rechner/Snapshots und98 Tests. Die neue Zustandsbelegung praezisiert
 die fruehe reine H007-Offenheitsbilanz; sie schliesst B59 nicht.
-Naechster konkreter Anschluss: H013-Delta/Auswahlregeln gegen Buch(98a),
-danach eta22 in B47/B55 samt Autorenfassungen. B50/Gamma-Q_N und
-Verstaendnisbilanz bleiben anschliessend geplant.
+Der damals geplante H013-Delta/Buchanschluss ist in Etappe11 bearbeitet.
+
+Etappe11: DELTA_SELECTION_2026-09-06.md bestaetigt einen direkten
+Binnenbuchanschluss ueber(100a)-(101b) und den N0-Anhang. Das Paar(2,2)
+liegt zwischen B und D; vorgelagerte Positivitaet erfuellt, gedruckte
+V/Q- und B-Zeilen nicht. Behauptetes u2-Intervall und Maxima bleiben
+getrennt. FIND-016/FIND-019 erweitert, keine neue unabh. Fehlergruppe.
+H006-Grundzustandsfrage, H007-Resonanznaeherung und S006-N0/N>0 getrennt.
+Naechster konkreter Anschluss: eta22 in B47/B55 samt Autorenfassungen;
+danach B50/Gamma-Q_N und Verstaendnisbilanz. Ein Zustandsname erklaert
+die spezielle Alpha-Korrektur weiterhin nicht.
