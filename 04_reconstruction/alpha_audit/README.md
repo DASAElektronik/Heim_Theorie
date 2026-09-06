@@ -3,7 +3,19 @@
 Isolierter, reproduzierbarer Konsistenztest der 1982/1989-Alpha-Bloecke in den
 lokalen IGW-Wiedergaben. Python >= 3.10; nur Standardbibliothek erforderlich.
 
-## Etappe 23: historischer Exponentenvergleich (aktueller Stand)
+## Etappe 24: Verstaendnis- und Versionsbilanz (aktueller Stand)
+
+`06_docs/UNDERSTANDING_BALANCE_STAGE24_2026-09-06.md` fasst Etappen 16-23
+zusammen; drei BALANCE24*-Reviews ordnen begrenzte Fassungsbruecken,
+alle 34 Befundgruppen und den naechsten Einzelauftrag ein. Keine neuen IDs,
+Rechner oder Profile. Zehn alte Rechen-/Quellchecks und 185 Tests bestehen;
+auch Register/Normalisierungen bleiben unveraendert. Quellenanschluss,
+Normalisierung, Rechnung, physikalische Herleitung und Empirie getrennt.
+Naechster Schritt: H006p9-W4/K4-Faelle und Ganzzahlregel auf Erhalt der
+Restgleichung und Strukturbedingungen pruefen; H015PDF42 separat daneben.
+Noch kein weiterer Massenfall, keine still geaenderte Formel.
+
+## Etappe 23: historischer Exponentenvergleich (vorheriger Stand)
 
 `06_docs/HISTORICAL_EXPONENTS_2026-09-06.md` vergleicht die H015-Typoskript-
 Exponenten mit H006. Die gruppierte Form steht in H015 durchgehend und

@@ -5,17 +5,17 @@ Synthese der geprueften Etappen16-23, keine neue physikalische Rechnung.
 
 ## Arbeitsauftrag
 
-- [ ] Vorhandene Nachweise zu N0, historischen Programmen, alpha3,
+- [x] Vorhandene Nachweise zu N0, historischen Programmen, alpha3,
   metronischer Integration, Potentialkanaelen und Exponenten zusammenfuehren.
-- [ ] Quelleninhalt, Normalisierung, bedingte Rechnung, Herleitung und
+- [x] Quelleninhalt, Normalisierung, bedingte Rechnung, Herleitung und
   empirische Pruefung getrennt kennzeichnen; Heims Urheberschaft erhalten.
-- [ ] Eine begrenzte Fassungsmatrix erstellen. Gleichheit einzelner Terme
+- [x] Eine begrenzte Fassungsmatrix erstellen. Gleichheit einzelner Terme
   ist weder vollstaendige Editionsgleichheit noch belegte Entstehungsfolge.
-- [ ] FIND-001 bis FIND-034 genau einmal in einer Gegenreview einordnen;
+- [x] FIND-001 bis FIND-034 genau einmal in einer Gegenreview einordnen;
   keine neue Befundgruppe oder Zahl vermeintlicher Fehler erzeugen.
-- [ ] Voraussetzungen eines weiteren quellenreinen Rechenfalls benennen
+- [x] Voraussetzungen eines weiteren quellenreinen Rechenfalls benennen
   und EINEN neuen, klar begrenzten Rekonstruktionsauftrag auswaehlen.
-- [ ] Alten Rechenstand und Registerintegritaet pruefen, Wiedereinstieg sichern.
+- [x] Alten Rechenstand und Registerintegritaet pruefen, Wiedereinstieg sichern.
 
 ## Grenzen und Arbeitsteilung
 

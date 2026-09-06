@@ -2,14 +2,40 @@
 
 Aktualisiert: 2026-09-06.
 
-## Aktuell: vierundzwanzigste Etappe in Arbeit
+## Aktuell: vierundzwanzigste Etappe abgeschlossen
 
-Ausgang `660d612`. Vertrag: `BALANCE24_PLAN.md`.
-Verstaendnis-/Versionsbilanz Etappen16-23 aus vorhandenen Nachweisen
-erstellen; alle 34 Befundgruppen in eigener Gegenreview einordnen.
-Fassungsbruecken und Voraussetzungen eines naechsten Rechenfalls trennen.
-Keine neue Massenzahl, keine neue Befundgruppe, keine stille Profilkorrektur.
-Drei begrenzte Reviews und Root-Synthese; naechsten Auftrag konkret waehlen.
+Ausgang `660d612`, Plancheckpoint `7d60d4b`. Vertrag: `BALANCE24_PLAN.md`.
+Bericht: `06_docs/UNDERSTANDING_BALANCE_STAGE24_2026-09-06.md`.
+Abschlusscommit-Nachricht: `Consolidate understanding and version balance after stage 23`.
+Bei Fortsetzung HEAD/Remote pruefen; keine laufenden Agenten erforderlich.
+
+- Etappen 16-23 zusammengefuehrt: Quelleninhalt, Normalisierung, Rechnung,
+  physikalische Herleitung und Empirie bleiben verschiedene Nachweisebenen.
+- Enger H006-N0-Pfad und H010-Ausgabereproduktion tragen bedingt. Die zwei
+  H010-alpha3-Termformen in Buch/Listing belegt; empirische A/B-Wahl
+  und Operator-/Potentialpfadzuordnung bleiben eigene offene Fragen.
+- H015 praezisiert FIND-027 als lokalen H006-Darstellungsbefund. Keine
+  einheitliche vollstaendige "1982-Fassung" und keine gesicherte Fehlerursache.
+- Drei BALANCE24*-Reviews: Fassungsmatrix, alle 34 Befunde genau einmal,
+  begruendeter Einzelauftrag. Interne Reviews, kein externes Peer Review.
+- Zehn alte Snapshot-/Quellchecks und 185 Tests bestanden; Register/ID-Zuordnung
+  geprueft. Keine neuen Quellenbefunde, Massenzahlen oder Befund-IDs.
+  Rechner, Inputs, Tests, Snapshots, Register und 49 Normalisierungen erhalten.
+
+Naechster Auftrag: **H006-K4/W4-Fallpruefung ohne Massenrechnung**.
+H006 Druck/PDF9 visuell mit neuer Frage pruefen: W4=0, 0<W4<=1, W4>1,
+Ganzzahl-/Dezimalregel, K3-Schritt und n4=K4-Q4. H015 PDF42/Blatt6 nur
+getrennt vergleichen. Quelle und konkreten N0-/Restgleichungs-Teilpfad
+benennen, H006(XIV) nicht still ersetzen. Definitionsbereiche und Rest vor/nach
+Ganzzahl-/Sonderfallregel gegen Strukturbedingungen pruefen. Exakte oder
+zertifizierte Grenzzeugen, kein frei gewaehltes Epsilon, keine Sollmasse.
+Der jetzige N0-Rechner deckt nur den Basisfall mit analytischem K4=1 ab;
+die alten W4-Normalisierungen sind Lesentscheidungen, kein allgemeiner Beweis.
+Abschluss: Falltabelle Quellenregel/Algebra/Zusatzannahme/K4-n4-Folge.
+Ein offener Zweig darf Abschlussbefund sein; keine Ersatzregel erfinden.
+Erst danach einen weiteren quellengebundenen N0-Komponentenvertrag waehlen.
+H/G-Pfade nur mit neuem konkretem Kanal-/Operatorbeleg; breite moderne
+Empirie weiterhin nach der Rekonstruktion. Zuschreibung gemaess SOURCE_ATTRIBUTION.
 
 ## Verlauf: dreiundzwanzigste Etappe abgeschlossen
 

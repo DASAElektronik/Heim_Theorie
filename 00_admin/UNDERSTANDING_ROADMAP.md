@@ -9,12 +9,12 @@ vollstaendiges Verstaendnis der Gesamttheorie abgeleitet werden.
 
 | Block | Was verstanden/reproduziert sein muss | Stand |
 |---|---|---|
-| Quellen und Versionen | Original, spaetere Abschrift, Erweiterung, offene Herkunft | Alpha lokal geklaert; Originalbericht 1989 nicht gefunden |
+| Quellen und Versionen | Original, spaetere Abschrift, Erweiterung, offene Herkunft | Etappen18/23: lokale Buch-/Listing-/Typoskriptbruecken belegt; keine gemeinsame vollstaendige 1982-Fassung, Ueberlieferung teilweise offen |
 | Alpha-Grundkette | eta, vartheta, A_k, Ladungsmittelung, Korrelation, Y3 und Zweige | Buchindizes/Mittelung rekonstruiert; Energie/Wellenkontexte getrennt, Kinematik und physikalische Schliessung offen |
-| Grundbegriffe | Heim-eigene Raum-/Strukturbegriffe, metronische Operationen, messbare Zuordnung | Noch nicht systematisch rekonstruiert |
-| Massenformel | Einheiten, Konstanten, Quantenzahlen, Auswahlregeln, ein vollstaendiger Rechenfall | Etappe 16: enger H006-x2/e--N0-Pfad implementiert und gegengerechnet; allgemeines Spektrum und dynamische Herleitung offen |
+| Grundbegriffe | Heim-eigene Raum-/Strukturbegriffe, metronische Operationen, messbare Zuordnung | M2/M2a-Endpunkte und M7-Ausdruck lokal rekonstruiert; gemeinsames Operatorgitter, reale Potentialpfade und Gesamtgrundlagen offen |
+| Massenformel | Einheiten, Konstanten, Quantenzahlen, Auswahlregeln, ein vollstaendiger Rechenfall | Enger H006-x2/e--N0-Pfad und deklarierter H010-Ausgabevergleich reproduziert; allgemeine K4/W4-Auswahl und Dynamik offen |
 | Reichweite | Was sind Modellannahmen, reale Beobachtungen und rein interne Groessen? | Insbesondere Neutrino-Feldmassen und Zweigbedeutung abzugrenzen |
-| Verstaendnisbilanz | Herleitungskarte und verbleibende Luecken gemeinsam beurteilen | Etappe 15 fuer den untersuchten Ausschnitt abgeschlossen; kein vollstaendiges Theorieverstaendnis |
+| Verstaendnisbilanz | Herleitungskarte und verbleibende Luecken gemeinsam beurteilen | Etappe24 aktualisiert Etappe15; alle34Befundgruppen eingeordnet, kein vollstaendiges Theorieverstaendnis |
 | Externe Bewertung | Passende neuere Primaerarbeiten, Messgroessen, Gueltigkeitsbereiche | Bewusst zurueckgestellt |
 | Eigene Erweiterung | Begruendete Aenderung mit unabhaengiger pruefbarer Konsequenz | Kandidaten definiert, keine bestaetigte neue Theorie |
 
@@ -24,6 +24,31 @@ sinnvoll und unabhaengige Gegenpruefung. Dokumentierte Luecken sind ein
 Ergebnis; sie werden nicht als stillschweigende Definitionen behandelt.
 
 ## Naechste begrenzte Arbeitseinheit
+
+Nach [Etappe24](../06_docs/UNDERSTANDING_BALANCE_STAGE24_2026-09-06.md):
+**H006-K4/W4-Auswahl ohne Massenrechnung pruefen.**
+
+1. H006 Druck/PDF9 unter dieser neuen Frage visuell lesen: drei W4-Faelle,
+   Ganzzahl-/Dezimalregel, K3-Aenderung und n4=K4-Q4. H015PDF42/Blatt6
+   separat vergleichen. Quelle plus konkreten Teilpfad benennen, nicht
+   eine widerspruchsfreie Gesamt-H006 behaupten oder XIV still ersetzen.
+2. Je Zweig Definitionsbereich, Rechenschritt und Strukturbedingungen
+   trennen; Erhalt der gruppierten Restgleichung vor/nach Ganzzahlschritt
+   pruefen. Exakte oder zertifizierte Grenzzeugen, kein Massentreffer-Fit.
+3. Abschluss ist eine Falltabelle mit Quellenregel, Anschluss, offenen
+   Annahmen und K4/n4-Folge. Auch ein offener Zweig ist ein Ergebnis;
+   keine Ersatzregel oder allgemeine Zustandswahl aus dem Basisfall ableiten.
+4. Einen weiteren N0-Fall erst mit festem Komponenten-/W-/Konstantenvertrag
+   und geklaertem benoetigtem Auswahlzweig vorbereiten. N>0-Dynamik und
+   H/G-Pfade bleiben offen; letztere nur mit neuem Kanal-/Operatorbeleg.
+
+Aktueller Sicherungsstand: 185 Tests, zehn Rechen-/Quellchecks, 34 Befundgruppen.
+Keine neuen Rechnungen oder IDs in Etappe 24, 49 Normalisierungen unveraendert.
+`resolved` ist eine dokumentierte Lesentscheidung, keine physikalische Validierung.
+Die [Bilanz mit drei Reviews](../06_docs/UNDERSTANDING_BALANCE_STAGE24_2026-09-06.md)
+und der [Wiedereinstieg](RESUME.md) halten Reichweite und Auftrag fest.
+
+## Historische Folge nach Etappe 16 (nicht der aktuelle Auftrag)
 
 1. Nach Etappe 16: Den jetzt berechenbaren H006-x2/e--N0-Fall mit der
    historischen Implementierungsueberlieferung abgleichen. Konstanten,

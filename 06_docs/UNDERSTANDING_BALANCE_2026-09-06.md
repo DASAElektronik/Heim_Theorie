@@ -5,6 +5,12 @@ Alpha-, Konfigurations- und Massenformel-Ausschnitts, nicht des Gesamtwerks.
 Ausgang: bfdb806. Die zugrunde liegenden Quellenpruefungen, Formeln und
 Rechnungen bleiben in ihren jeweiligen Berichten erhalten.
 
+Nachtrag Etappe 24: Die [aktualisierte Bilanz](UNDERSTANDING_BALANCE_STAGE24_2026-09-06.md)
+fasst die Etappen 16-23 zusammen. Der enge N0-Pfad und alpha3-Formanschluss
+sind nun belegt; FIND-027 ist auf die lokale H006-Wiedergabe eingegrenzt,
+nicht pauschal der Heim-Urschrift zuzuschreiben. Alle 34 Befundgruppen sind
+eingeordnet. Die folgende Etappe 15 und ihr Etappe-16-Nachtrag sind historisch.
+
 Nachtrag Etappe 16: Der [enge H006-N0-Pfad](N0_ELECTRON_2026-09-06.md)
 ist inzwischen berechenbar. Die hier noch offene v/nu-Bruecke beruhte auf
 unserer Fehllesung; der Quellenkontext klaert sie. n=0 folgt als

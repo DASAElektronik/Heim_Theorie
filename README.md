@@ -40,7 +40,24 @@ Kann aus Heims Original- bzw. nahen Quellen eine reproduzierbare, parameterarme 
 
 ## Aktueller Arbeitsmodus
 
-Stand 2026-09-06, Etappe 23: Der
+Stand 2026-09-06, Etappe 24: Die
+[aktualisierte Verstaendnisbilanz](06_docs/UNDERSTANDING_BALANCE_STAGE24_2026-09-06.md)
+fuehrt Etappen 16-23 zusammen. Ein enger H006-N0-Pfad und ein deklarierter
+H010-Ausgabevergleich sind reproduzierbar; die zwei untersuchten H010-alpha3-
+Termformen haben einen Buch-/Listingbeleg. Das ist keine vollstaendige
+physikalische Herleitung oder gemeinsame historische Gesamtfassung.
+Drei Reviews trennen Fassungsbruecken, alle 34 Befundgruppen und naechsten Auftrag.
+Zehn alte Rechen-/Quellchecks und 185 Tests bestehen; Rechner, Eingaben,
+Tests, Snapshots, Register und 49 Normalisierungen sind unveraendert.
+
+Naechster Schritt: H006 S.9, K4/W4-Sonderfaelle und Ganzzahlregel auf
+Gleichungserhalt, Rest und Strukturbedingungen pruefen. H015 PDF42 getrennt
+vergleichen; keine neue Massenzahl oder still geaenderte Formel.
+[Wiedereinstieg](00_admin/RESUME.md), [Arbeitsfolge](00_admin/UNDERSTANDING_ROADMAP.md).
+
+## Verlauf: Etappe 23
+
+Der
 [historische Exponentenvergleich](06_docs/HISTORICAL_EXPONENTS_2026-09-06.md)
 belegt dieselbe gruppierte Form in der allgemeinen Auswahlregel und im
 N0-Fall des fotografierten H015-Typoskripts. In der geprueften H006-Kette

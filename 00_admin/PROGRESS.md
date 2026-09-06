@@ -1,5 +1,21 @@
 # Fortschritt
 
+## 2026-09-06 - Vierundzwanzigste Etappe: Verstaendnis- und Versionsbilanz
+
+- Etappen16-23 in UNDERSTANDING_BALANCE_STAGE24_2026-09-06.md zusammengefuehrt:
+  lokaler Rechenanschluss, Formbelege und physikalische Herleitung getrennt.
+- Drei BALANCE24*-Reviews: begrenzte Fassungsbruecken, alle34Befunde einmal,
+  Voraussetzungen und ein konkreter Folgeauftrag. Alte Etappe15 sichtbar
+  ergaenzt, nicht ueberschrieben; Zuschreibungsgrundsatz angewendet.
+- H006-N0-Basisfall bedingt geschlossen, H010-alpha3-Quellenanschluss gefunden,
+  H006XIV lokalisiert. Keine gemeinsame Gesamtfassung oder neue Widerlegung.
+- Zehn alte Rechen-/Quellchecks und185Tests erneut bestanden; Register-
+  und Tabellenintegritaet bestaetigt. Alte Rechner/Inputs/Tests/Snapshots,
+  FINDING_REGISTER und49Normalisierungen unveraendert. Keine neue Rechnung.
+- Plancheckpoint7d60d4b. Naechster Auftrag: H006p9-K4/W4-Faelle samt
+  Ganzzahlregel auf Gleichungserhalt, Rest und Strukturbedingungen pruefen;
+  H015PDF42 separat vergleichen. Noch keine weitere Teilchenmasse.
+
 ## 2026-09-06 - Dreiundzwanzigste Etappe: historische Exponenten
 
 - H015-Typoskript zeigt gruppierte Auswahl-/N0-Exponenten, passende
