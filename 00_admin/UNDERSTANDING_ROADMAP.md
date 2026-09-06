@@ -12,7 +12,7 @@ vollstaendiges Verstaendnis der Gesamttheorie abgeleitet werden.
 | Quellen und Versionen | Original, spaetere Abschrift, Erweiterung, offene Herkunft | Etappen18/23: lokale Buch-/Listing-/Typoskriptbruecken belegt; keine gemeinsame vollstaendige 1982-Fassung, Ueberlieferung teilweise offen |
 | Alpha-Grundkette | eta, vartheta, A_k, Ladungsmittelung, Korrelation, Y3 und Zweige | Buchindizes/Mittelung rekonstruiert; Energie/Wellenkontexte getrennt, Kinematik und physikalische Schliessung offen |
 | Grundbegriffe | Heim-eigene Raum-/Strukturbegriffe, metronische Operationen, messbare Zuordnung | M2/M2a-Endpunkte und M7-Ausdruck lokal rekonstruiert; gemeinsames Operatorgitter, reale Potentialpfade und Gesamtgrundlagen offen |
-| Massenformel | Einheiten, Konstanten, Quantenzahlen, Auswahlregeln, ein vollstaendiger Rechenfall | Enger Elektron-N0-Pfad/H010-Vergleich reproduziert; Etappen25/26 Auswahlrest und x3-Fall(b). Etappen27-29 A16-Form/Herleitungsgrenze und Buch-Auswahlvertrag getrennt; Vorwaertsauswahl nicht allgemein exakter108-Loeser. Keine Myonmasse; buchinterne Eingaben, Dynamik und physikalische Auswahlbegruendung offen |
+| Massenformel | Einheiten, Konstanten, Quantenzahlen, Auswahlregeln, ein vollstaendiger Rechenfall | Enger Elektron-N0-Pfad/H010-Vergleich reproduziert. Etappen27-30 A16-Herleitungsgrenze, Buch-Auswahl und fixierte Buchinputs getrennt; konkretes N=(14,9,13,7) verletzt direkte107/107a. Keine Myonmasse; Strukturfehlerbehandlung, Dynamik und physikalische Auswahlbegruendung offen |
 | Reichweite | Was sind Modellannahmen, reale Beobachtungen und rein interne Groessen? | Insbesondere Neutrino-Feldmassen und Zweigbedeutung abzugrenzen |
 | Verstaendnisbilanz | Herleitungskarte und verbleibende Luecken gemeinsam beurteilen | Etappe24 aktualisiert Etappe15; alle34Befundgruppen eingeordnet, kein vollstaendiges Theorieverstaendnis |
 | Externe Bewertung | Passende neuere Primaerarbeiten, Messgroessen, Gueltigkeitsbereiche | Bewusst zurueckgestellt |
@@ -24,6 +24,24 @@ sinnvoll und unabhaengige Gegenpruefung. Dokumentierte Luecken sind ein
 Ergebnis; sie werden nicht als stillschweigende Definitionen behandelt.
 
 ## Naechste begrenzte Arbeitseinheit
+
+Nach [Etappe30](../06_docs/BOOK_PSEUDOSINGLET_2026-09-06.md):
+**Behandlung von Strukturverletzungen in der Auswahl, keine neue Masse.**
+
+1. Buch323/328/329/340-342 gezielt auf gemeinsame Bedeutung von G/delta,
+   Ruecksetzen und Pruefung von107 waehrend der Maximalwahl untersuchen.
+2. Bereits vorhandene historische GSTRUC-Routinen inH015/H010 statisch
+   vergleichen; keine Editionsidentitaet oder Konstantenimporte annehmen.
+3. Quellenregel, Implementierungsabweichung und Autorenerratum trennen.
+   Der bedingte Befund81>91 bleibt bis zu einer belegten Klaerung erhalten.
+4. Kein Y9-Fit, Masse/F_S oder neue Besetzung nach Trefferqualitaet.
+   Eigene gekoppelte Auswahldiagnose erst nach Quellenklaerung beurteilen.
+
+264Tests,12Rechenchecks,40Befundgruppen;49CSV-Normalisierungen erhalten.
+Rechenstabilitaet ist keine physikalische Genauigkeit oder Gesamtwiderlegung.
+F16-Suche nur bei neuem konkretem Quellenanker; Empirie weiterhin spaeter.
+
+## Historischer Folgeauftrag der Etappe 29 (in Etappe 30 bearbeitet)
 
 Nach [Etappe29](../06_docs/BOOK_SELECTION_2026-09-06.md):
 **Buchinterner N0-Pseudosingulett-Eingabevertrag, keine neue Masse.**

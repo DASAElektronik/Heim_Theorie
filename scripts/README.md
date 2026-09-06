@@ -1,5 +1,22 @@
 # Skripte
 
+## Etappe 30: gebundene Buch-Pseudosingulett-Rechnung
+
+```powershell
+py -3.13 -B scripts/audit_book_pseudosinglet.py --check --verify-sources
+py -3.13 -B -m unittest discover -s tests -p test_book_pseudosinglet.py -v
+```
+
+Der neue zwoelfte Ergebnischeck bindet den vorab fixierten Eingabevertrag
+per Hash, prueft H004 und den eigenen80-Stellen-Snapshot. Zwei Buchprofile,
+Q/alpha_i/A16/W, gewoehnlicher Auswahlzweig, direkte107-Gates und separate
+107b-Diagnose; kein allgemeiner TRC-/Kollaps-/Massenloeser.
+`--write` erneuert nur den neuen `book_pseudosinglet_results.json`.
+17neueTests mit80/120-Vergleich,264gesamt; alle elf alten Checks erhalten.
+Unabhaengige Machin-/Fixpunktrechnung120/160 und exakte Strukturpruefung
+in den BOOK_PSEUDOSINGLET_NUMERICS-/STRUCTURE-Reviews imAlpha-Audit.
+Bericht: `06_docs/BOOK_PSEUDOSINGLET_2026-09-06.md`.
+
 ## Etappe 29: exakte Buch-Auswahldiagnosen
 
 `py -3.13 -B -m unittest discover -s tests -p test_book_selection.py -v`

@@ -40,6 +40,21 @@ Kann aus Heims Original- bzw. nahen Quellen eine reproduzierbare, parameterarme 
 
 ## Aktueller Arbeitsmodus
 
+Stand2026-09-06, Etappe30: [Buch-Pseudosingulett](06_docs/BOOK_PSEUDOSINGLET_2026-09-06.md).
+Zwei vor der Rechnung fixierte Buchprofile liefern N_(j)=(14,9,13,7).
+Dieser Auswahlausgang verletzt die direkte Strukturbedingung107/107a:
+81>91 ist falsch. Der Befund gilt unter dem benannten Buchvertrag,
+nicht als Gesamtwiderlegung oder berechnete Myonmasse.
+Spaetere sigma-Gewichtung und der Gleichungsrest bleiben getrennte Fragen.
+
+17neueTests,264gesamt,12Rechenchecks; vier interneReviews von dreiAgenten.
+Alte Rechnungen und49CSV-Normalisierungen erhalten. Naechster Schritt:
+quellenbelegte Behandlung solcher Strukturverletzungen in Buchauswahl und
+historischen GSTRUC-Routinen, ohne Konstantenmischung oder Y9-Fitwahl.
+[Wiedereinstieg](00_admin/RESUME.md), [Arbeitsfolge](00_admin/UNDERSTANDING_ROADMAP.md).
+
+## Verlauf: Etappe 29
+
 Stand2026-09-06, Etappe29: [Buch-Auswahl](06_docs/BOOK_SELECTION_2026-09-06.md).
 Heims Buchvorschrift trennt W5/W6, TRC, Saettigung und Transfer deutlicher
 als die Kurzfassungen. Die Vorwaertsauswahl liefert keine zusaetzliche

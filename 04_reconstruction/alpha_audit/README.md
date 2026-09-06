@@ -3,7 +3,20 @@
 Isolierter, reproduzierbarer Konsistenztest der 1982/1989-Alpha-Bloecke in den
 lokalen IGW-Wiedergaben. Python >= 3.10; nur Standardbibliothek erforderlich.
 
-## Etappe 29: Buch-Auswahl, Rest und A16-Rueckschluss (aktueller Stand)
+## Etappe 30: Buch-Pseudosingulett und Strukturkonflikt (aktueller Stand)
+
+`06_docs/BOOK_PSEUDOSINGLET_2026-09-06.md`: H004-Vertrag in05a0bab vor
+neuer Rechnung fixiert. Primaer105/Y3=1, getrennte Druckwertsensitivitaet,
+buchinterne eta-/xi-/98c-/A16-Eingaben mitY9=1. Beide Profile N=(14,9,13,7).
+Direkte107/107a-Bandbreite beta3=-10; spaetere107b-Gewichtung separat.
+Keine Masse, still geaenderte Gates oder neue Fitwerte.
+17neueTests,264gesamt,12Checks; vierReviews, unabhaengige Numerik und
+1773exakteStrukturchecks. FIND-040,40Gruppen,nicht40Fehler.
+Neuer Rechner `scripts/audit_book_pseudosinglet.py`, gebundener Input und
+Snapshot; alle alten Rechner/Inputs/Snapshots/49CSV erhalten.
+NaechsterAuftrag Buch/historischeGSTRUC-Strukturfehlerbehandlung.
+
+## Etappe 29: Buch-Auswahl, Rest und A16-Rueckschluss (vorheriger Stand)
 
 `06_docs/BOOK_SELECTION_2026-09-06.md`: Buch340-342 und107/107a/107b/108
 quellengebunden getrennt vonH006/H015. TRC/Kappe/Transfer erzeugen nicht

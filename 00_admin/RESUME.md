@@ -2,13 +2,50 @@
 
 Aktualisiert: 2026-09-06.
 
-## Aktuell: dreissigste Etappe in Arbeit
+## Aktuell: dreissigste Etappe abgeschlossen
 
-Ausgang `00180ec`, Vertrag `BOOK_PSEUDOSINGLET_PLAN.md`.
-Buchinterne Eingaben fuer aktives N0-Pseudosingulett und direkte
-G_j-/delta_jG_j-Strukturbedingungen vor einer neuen Auswahl festlegen.
-Keine H006/H010-Konstantenmischung, Masse oder Y9-Zielwertwahl.
-Drei neue BOOK_PSEUDOSINGLET*-Reviews; alte Rechner/Inputs/Snapshots erhalten.
+Ausgang `00180ec`, Plancheckpoint `2d53bfc`, Eingaben vor Auswertung in
+`05a0bab`, Rechner/Tests/Snapshot in `4213148`.
+Vertrag `BOOK_PSEUDOSINGLET_PLAN.md`.
+Bericht: `06_docs/BOOK_PSEUDOSINGLET_2026-09-06.md`.
+Quellenumfang: `03_notes/BOOK_PSEUDOSINGLET_SOURCES_2026-09-06.md`.
+Abschlusscommit-Nachricht: `Audit book pseudosinglet structure conflict and source boundaries`.
+Bei Fortsetzung HEAD/Remote pruefen; keine laufenden Agenten erforderlich.
+
+- Nur H004: Muster3, k=P=Q=kappa=q=1, negative Komponente, N=0/f0=0.
+  N=0 ist nicht n_j=0; letzteres gehoert hier zum anderen kappa0-Spinor.
+- Eingaben: eta_(q,k) nach Buch98, eta=eta10,d=eta11,t=eta12; xi exakt,
+  vartheta unindiziert. Primaer105 mit Y3=1 und kleinem identifiziertem
+  Alpha-Zweig; separat Druckalpha0.007297354572. Kein Rundungsgrund behauptet.
+  Y9=1 explizite Tabellenannahme, unindiziertesY=xi^2 separat.
+- Q_j=(3,3,2,1), alpha_j aus98c, A16 aus109b; aktiver linearer Pfad
+  W=g(1+d*A16). Keine alte H006/H010-Konstantenimporte oder Masse/F_S.
+- Beide Profile erreichen gewoehnlichen positiven Restzweig ohne Kappe/
+  Transfer: N_(j)=(14,9,13,7), n=(11,6,11,6). Rest108 positiv~0.01848668.
+- Direkte98e/323/107/107a ungewichtet: G=(11025,285,91,7),
+  deltaG=(2744,81,13,1), beta=(2459,-10,6). Zone2->3 scheitert:81>91
+  falsch. Zweite Reihe besteht. beta3=-10 ist nicht Kollapsrand beta=0.
+- Spaetere107b-sigma-Bandbreite alpha3*N3-N4~5.722564 versus direkte6;
+  keine explizite Umdefinition im Anschluss278/321-330 gefunden. Getrennt
+  berichten, nicht alle107-Gates automatisch gewichten.
+- Eigener lokaler Satz: Bei festemN1=14,N2=9,W verlangt direkte107 N3<=12;
+  exakte108 braucht dann exp(-N4/3)>=W4+alpha3>1. Senken vonN3 allein
+  reicht fuer N4>=0 nicht; andere Vorstufen/Y/Auswahl nicht ausgeschlossen.
+- Drei interne Agenten/vierReviews,1773exakteChecks vonRoot wiederholt,
+  unabhaengige Machin-/Fixpunktnumerik120/160 und84Feldabgleich gegenRoot120.
+  17neueTests,264gesamt,12Snapshotchecks; keine gerichtete Intervallgarantie.
+  FIND-040:40Befundgruppen,nicht40Fehler. Alte Rechner/Inputs/Snapshots/
+  49CSV-Normalisierungen erhalten; keine Gesamtwiderlegung.
+
+Naechster Einzelauftrag: **Behandlung von Strukturverletzungen in der Auswahl**.
+Buch323/328/329/340-342 und historische GSTRUC-Routinen gezielt pruefen:
+Wird107 waehrend der Maximalwahl getestet, eine Zone zurueckgesetzt oder
+G/delta explizit umdefiniert? H015/H010 nur statisch und versionsgetrennt
+lesen; keine Programmkonstanten in den fixierten Buchvertrag uebernehmen.
+Fehlende Regel, Implementierungsabweichung und Autorenerratum unterscheiden.
+Keine neue Besetzung nach Trefferqualitaet, Masse/F_S oder Y9-Fitwahl.
+Eigene gekoppelte Auswahldiagnose erst nach dieser Quellenklaerung beurteilen.
+F16-Herleitung nur bei neuem konkretem Quellenanker; moderne Empirie spaeter.
 
 ## Verlauf: neunundzwanzigste Etappe abgeschlossen
 

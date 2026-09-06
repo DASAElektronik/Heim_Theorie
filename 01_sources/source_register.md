@@ -6,6 +6,16 @@ Dieses Register sammelt Fundstellen. Lokale Kopien sollten nur abgelegt werden, 
 
 ## Enger Pruefstand 2026-09-06
 
+Etappe30: nur H004 neu technisch ausgewertet. Buch-q,k-Index auf266-267,
+vartheta33, xi275,98b/c/e277-278, Muster289/291,105/105a302,
+107/107a/b321/328/329, explizite deltaG323, f0=0327,108/108a330,
+109a/b334-335 und Auswahl341. Einfuehrung1 traegt TabellenannahmeY9=1.
+Direkte ungewichtete Strukturdefinitionen von spaeterer107b-Gewichtung
+getrennt; konkretes Tupel(14,9,13,7) verletzt107/107a. FIND-040.
+Archivseite nur Fundortabgleich, keine neue PDF/Quelldateiaenderung oder
+moderne Widerlegungsrecherche. Sichtumfang/Hash/Attribution:
+`03_notes/BOOK_PSEUDOSINGLET_SOURCES_2026-09-06.md`.
+
 Etappe29: H004340-342/PDF346-348 als Auswahlvertrag, direkte107/107a/
 107b/108 auf321/328/329/330. TRC-/W5-/W6-Glyphen und Grenzen visuell;
 H0069 und H015PDF42 getrennt verglichen, keine Gesamtfassungsidentitaet.

@@ -1,5 +1,21 @@
 # Fortschritt
 
+## 2026-09-06 - Dreissigste Etappe: Buch-Pseudosingulett und direkter Strukturkonflikt
+
+- H004-Eingaben vor Rechnung in05a0bab fixiert: Buch105/Y3=1 und separat
+  Druckalpha; Buch-q,k-Indizes, xi,98c,A16/Y9=1, Q_j und linearerW-Pfad.
+- N=0 nicht n_j=0; aktiver Kanal liefert in beiden Profilen N=(14,9,13,7).
+  Direkte ungewichtete107/107a prueft81>91: beta3=-10, kein Kollapsrand.
+- Spaetere107b-Gewichtung separat; positive108-Reste nicht als Massenfehler.
+  NurN3-Senken bei festen Vorstufen kann Struktur und exakte108 nicht retten.
+- Neuer gebundener Rechner/Tests/Snapshot in4213148; alte Rechner/Inputs/
+  Snapshots/49CSV erhalten. Plan2d53bfc. VierReviews von dreiAgenten,
+  unabhaengige Numerik/1773Strukturchecks vonRoot erneut ausgefuehrt.
+- 17neueTests,264gesamt,12Rechenchecks; FIND-040,40Gruppen,nicht40Fehler.
+  Bericht `06_docs/BOOK_PSEUDOSINGLET_2026-09-06.md`; keine Masse/Fitwahl.
+- Naechster Auftrag: Buch/historische GSTRUC auf explizite Behandlung von
+  Strukturverletzungen pruefen, statisch und versionsgetrennt.
+
 ## 2026-09-06 - Neunundzwanzigste Etappe: Buch-Auswahl und A16-Rueckschluss
 
 - H004340-342 samt107/107a/107b/108 visuell rekonstruiert; Vorwaertskette
