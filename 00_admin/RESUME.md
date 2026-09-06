@@ -2,7 +2,16 @@
 
 Aktualisiert: 2026-09-06.
 
-## Aktuell: siebte Etappe abgeschlossen
+## Aktuell: achte Etappe in Arbeit
+
+Ausgangscommit2b46b5d. Nutzer bestaetigt Gesamtzusammenhang vor Gesamturteil:
+spaetere Quellen koennen bisherige Luecken schliessen, unsere Lesarten bleiben
+korrigierbar. Plan `CONFIGURATION_SELECTION_PLAN.md`: L*Delta=k, Auswahl(98a),
+Konfigurationsrechnung und Abhaengigkeitskarte. Drei getrennte Reviews laufen.
+Alte sechs Rechner/Inputs/Snapshots unveraendert lassen. Keine moderne
+Widerlegungsliteratur/Hardware jetzt. Noch keine neuen Befunde abschliessend.
+
+## Verlauf: siebte Etappe abgeschlossen
 
 Ausgangscommit752a61b; Plan6db53b5 und Quellen-/Registercheckpoint5199680
 erfolgreich gepusht. Abschlusscommit-Nachricht:
