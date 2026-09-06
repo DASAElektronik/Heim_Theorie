@@ -2,13 +2,41 @@
 
 Aktualisiert: 2026-09-06.
 
-## Aktuell: sechsundzwanzigste Etappe in Arbeit
+## Aktuell: sechsundzwanzigste Etappe abgeschlossen
 
-Ausgang `e2eaad8`, Vertrag `MUON_SELECTION_PLAN.md`.
-H006x3/mu-,N0: Komponenten, W und K-Auswahl quellengebunden pruefen.
-Drei bestehende Konstantenprofile, zwei vorab benannte A16-Lesarten und
-zwei H006-Wurzelweiten; keine Masse, keine H010-Substitution oder Epsilonwahl.
-Drei unabhaengige Teilreviews und Root-Rechnung. Aktuelle MUON*-Dateien lesen.
+Ausgang `e2eaad8`, Plancheckpoint `d960144`, Vertrag `MUON_SELECTION_PLAN.md`.
+Bericht: `06_docs/MUON_SELECTION_2026-09-06.md`.
+Quellenumfang: `03_notes/MUON_SELECTION_SOURCES_2026-09-06.md`.
+Abschlusscommit-Nachricht: `Audit source-bound muon W and integer selection`.
+Bei Fortsetzung HEAD/Remote pruefen; keine laufenden Agenten erforderlich.
+
+- H006x3(0111) ist Konfiguration, keine Besetzung. eps=+1,k=P=Q=kappa=1,
+  C=0; (II) gibt fuer x=0 und1 exakt qx=-1,q=1. Pseudosingulett-
+  Zusammenziehung gedruckt, physikalische Multiplizitaet nicht hergeleitet.
+- d=eta11 != eta. w1=d*A16,w2=A26+d^2*A31; Domains vor Wegkuerzung geprueft.
+  k1: w=1+d*A16,W=g*w. N0/f0 separat; kein all-N-Elektronargument.
+- Vor Rechnung drei alte Konstantenprofile, zwei A16-Slash- und zwei
+  H006-Wurzelweiten fixiert. Kein H010-alpha3, keine Masse/Targets/Fits.
+- Alle12Zellen(b),K1..3=(14,9,3). A16 /(5eta): K4=0,n=(11,6,1,-1);
+  (/5)*eta: K4=1,n=(11,6,1,0). Hauptprofil W4=.775503922089/.692784824019;
+  Rest nachfloor+.224496077911/+.023746486554. Kein Massenfehler.
+- XIII/XXXII numerisch strikt, kleinsterAbstand1.7456; K4-Integerabstand
+  mindestens.1010. Keine beobachtete Gleichheits-/Neunerpromotion.
+- Neuer masseloserRechner/Input/Snapshot;15neueTests,214gesamt,elfChecks.
+  Root80/120, unabh.120/160Stellen: stabil, kein gerichteterIntervallbeweis.
+  Root fuehrte eigenenReviewcode erneut aus;252Felder gegenRoot<1e-115.
+- FIND-036 als eine bedingte Befundgruppe;36Gruppen,nicht36Fehler.
+  DreiinterneReviews; alteRechner/Inputs/Snapshots/49CSVZeilen erhalten.
+  AlterElektronN0 bleibt exaktK4=1. SOURCE_ATTRIBUTION.md bleibt verbindlich.
+
+Naechster Einzelauftrag: **A16-Quellen-/Herleitungsanschluss**, keine Masse.
+H010statisch: C0.66gprog_0.66.c:705 und Pascal0.62c:291 haben /(5eta).
+Das belegt die spaetereKlammerung, keine autorisierteH006-Korrektur.
+In H015 fotografierte A-Matrix/GVALUES gezielt lokalisieren und visuell
+lesen; gegebenenfalls genannterBuchabschnitt als Herleitungsanker.
+Ein fehlenderOCR-Treffer ist keinFehlbeleg. Beide jetzigenLesarten erhalten;
+keineAuswahl nachkleineremRest. Wurzel-/Indexfragen weiterexplizit lassen.
+H/G nur mit neuem Kanal-/Operatorbeleg; breiteEmpirie weiterhinspaeter.
 
 ## Verlauf: fuenfundzwanzigste Etappe abgeschlossen
 

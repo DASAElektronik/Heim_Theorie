@@ -1,5 +1,21 @@
 # Fortschritt
 
+## 2026-09-06 - Sechsundzwanzigste Etappe: quellengebundene Myon-Auswahl
+
+- H006x3-Komponenten: beide x-Indizes geben exakt qx=-1; Pseudosingulett-
+  Identifikation nicht als physikalische Herleitung ausgegeben.
+- W=g(1+d*A16) nach regularem w1/w2-Quellenanschluss; explizitN0/f0.
+- Vorab3x2x2Profile: alle(b),K1..3=(14,9,3); A16-NennerproduktK4=0,
+  LinkassoziationK4=1. Rest nachfloor in beiden positiv; keine Masse.
+- NeueRechnung/Input/Snapshot und drei Reviews; Root80/120 und unabhaengig
+  120/160 stabil. 252FeldergegenRoot<1e-115,keinIntervallzertifikat.
+- 15neueTests,214gesamt,elfSnapshot-/jeweiligeQuellchecks undRegistercheck.
+  FIND-036,jetzt36Befundgruppen. AlteRechner/Inputs/Snapshots/49Normalisierungen
+  unveraendert. QuellenideenHeim,eigeneRekonstruktion/Sensitivitaet getrennt.
+- Plancheckpointd960144. NaechsterAuftrag A16-Fassungs-/Herleitungsanschluss:
+  H010 hat explizit /(5eta); fotografierteH015-Stelle/Buchanker suchen.
+  Noch keine Masse und kein Lesartwechsel nach kleinerem Rest.
+
 ## 2026-09-06 - Fuenfundzwanzigste Etappe: K4/W4-Auswahl
 
 - H006p9 und H015 PDF42/Blatt6 visuell geprueft: Sonderfaelle und

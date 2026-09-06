@@ -1,5 +1,16 @@
 # Skripte
 
+## Etappe 26: H006-Myoninput, W und Auswahl ohne Masse
+
+`py -3.13 -B scripts/audit_muon_selection.py --check --verify-sources`
+prueft den neuen 80-stelligen Snapshot und den festen H006-Hash.
+Zwoelf vorab benannte Quellen-/Lesartprofile; keine Masseneinheit,
+Messdaten oder Sollbesetzung. `--write` erneuert nur den neuen Snapshot.
+`py -3.13 -B -m unittest discover -s tests -p test_muon_selection.py -v`
+prueft15Faelle mit80/120-Stellenvergleich; keinIntervallzertifikat.
+Gesamtsuite214Tests,elfSnapshots; alteRechner/Outputs unveraendert.
+Bericht: `06_docs/MUON_SELECTION_2026-09-06.md`.
+
 ## Etappe 25: isolierte K4/W4-Restpruefung
 
 `py -3.13 -B -m unittest discover -s tests -p test_k4_w4_selection.py -v`
@@ -44,12 +55,13 @@ py -3.13 scripts/audit_configuration_selection.py --check --verify-sources
 py -3.13 scripts/audit_exponential_context.py --check --verify-sources
 py -3.13 scripts/audit_n0_electron.py --check --verify-sources
 py -3.13 scripts/audit_historical_n0.py --check --verify-sources
+py -3.13 scripts/audit_muon_selection.py --check --verify-sources
 py -3.13 scripts/validate_finding_register.py
 py -3.13 -m unittest discover -s tests -q
 ```
 
-Ohne lokale Fremdquellen `--verify-sources` weglassen. Die zehn numerischen
-Snapshots sind dann weiter pruefbar, die Quelldateien nicht. 185 Tests bestehen.
+Ohne lokale Fremdquellen `--verify-sources` weglassen. Die elf numerischen
+Snapshots sind dann weiter pruefbar, die Quelldateien nicht. 214 Tests bestehen.
 
 ## Historische Exponenten: Quellenlesarten getrennt pruefen
 

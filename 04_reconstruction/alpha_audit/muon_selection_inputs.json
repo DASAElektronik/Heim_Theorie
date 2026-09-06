@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "audit_date": "2026-09-06",
+  "normalization_id": "NORM-MUON-SELECTION-AUDIT",
+  "source": {
+    "id": "H006",
+    "path": "01_sources/heim_primary/Massenformel_nach_B_Heim_1982.pdf",
+    "sha256": "F74DA0DAC8496BCD01226F54D88598152D67E1C954943AF61D0EC1811F5527BE",
+    "locator": "Printed/PDF2-9: I-III, V, VII, IX/X, XIII, XV-XIX, A16/A26/A31 in XXIV, XXV/XXVI and p9 selection/XXXII",
+    "provenance": "Heim-attributed 1982 material in IGW 2002/2003 rendering; not authenticated original"
+  },
+  "state": {"multiplet": "x3", "component": "mu-", "epsilon": 1, "k": 1, "P": 1, "Q": 1, "kappa": 1, "C": 0, "component_indices": [0, 1], "qx": -1, "q": 1, "N": 0},
+  "profiles": [
+    {"id": "h006_math_pi_e_printed_xi", "pi": "mathematical", "e_base": "mathematical", "xi": "1.61803399"},
+    {"id": "h006_math_pi_e_golden_xi", "pi": "mathematical", "e_base": "mathematical", "xi": "golden_ratio"},
+    {"id": "h006_printed_pure_number_inputs", "pi": "3.1415926535", "e_base": "2.71828183", "xi": "1.61803399"}
+  ],
+  "alpha_model": {"id": "1982_source_literal", "equation": "1982", "eta12_k": 1, "eta12_q": 2},
+  "a16_readings": ["denominator_product", "left_associative_sensitivity"],
+  "alpha3_root_readings": ["sqrt_xi_times_d", "sqrt_xi_then_times_d_sensitivity"],
+  "default_a16_reading": "denominator_product",
+  "default_alpha3_root_reading": "sqrt_xi_times_d",
+  "exp_ln_policy": "mathematical natural functions even when the coefficient e_base is a printed numeral",
+  "selection_path": "grouped XV/XXVI/XXX/XXXI; literal XIV excluded, not corrected",
+  "comparison_or_fit_inputs": [],
+  "dimensional_constants": {},
+  "target_fitting": false,
+  "mass_evaluation": false
+}

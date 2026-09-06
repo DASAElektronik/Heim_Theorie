@@ -6,6 +6,14 @@ Dieses Register sammelt Fundstellen. Lokale Kopien sollten nur abgelegt werden, 
 
 ## Enger Pruefstand 2026-09-06
 
+Etappe26: H006 Druck/PDF2--10, Komponenten x3/II/III, W/Strukturpotenz,
+A16/A26/A31-Domains, N0/f0 und Ganzzahlauswahl visuell gelesen. H006-Hash
+unveraendert, keine neue PDF. Bedingte zwoelfProfilrechnung, keine Masse.
+A16-Slash und alpha3-Wurzelweiten als getrennteLesarten erhalten.
+H010C0.66:705/Pascal0.62c:291 statisch /(5eta) gefunden und gegengelesen;
+H015-A16 noch nicht visuell geprueft. Keine Autorenfassung daraus gefolgert.
+Umfang: `03_notes/MUON_SELECTION_SOURCES_2026-09-06.md`, FIND-036.
+
 Etappe25: H006 Druck/PDF9 (W4-Faelle, K3/K4-Schritt, Ganzzahlvermerk,
 XXX/XXXI/XXXII) mit H015 PDF42/Blatt6 samt Fussnote getrennt verglichen.
 Beide tragen Sonderfall-/Abschneideregeln; H015 schreibt K4<0, wo H006

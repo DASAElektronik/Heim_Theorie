@@ -40,6 +40,22 @@ Kann aus Heims Original- bzw. nahen Quellen eine reproduzierbare, parameterarme 
 
 ## Aktueller Arbeitsmodus
 
+Stand 2026-09-06, Etappe 26: Der
+[Myon-Eingabe-/Auswahlaudit](06_docs/MUON_SELECTION_2026-09-06.md) verbindet
+H006x3 mit W und der Ganzzahlregel. Alle zwoelf vorab festen Profile
+erreichen(b), K1..3=(14,9,3). Die A16-Slashbindung aendert K4=0 bzw.1;
+beide Lesarten hinterlassen einen positiven Gleichungsrest. Keine Masse,
+eindeutige Autorenfassung oder Gesamtwiderlegung daraus abgeleitet.
+
+15 neue Tests, 214 insgesamt, elf Snapshotchecks und Quellenkontrollen.
+Drei interne Reviews, unabhaengige Hochpraezisionsrechnung; alte Profile
+erhalten. 36 Befundgruppen, nicht36 Fehler. Naechster Einzelauftrag:
+A16 in fotografiertem H015/angeschlossenem Buch historisch klaeren;
+H010-Programme setzen /(5eta), sind aber kein Autoren-Erratum fuer H006.
+[Wiedereinstieg](00_admin/RESUME.md), [Arbeitsfolge](00_admin/UNDERSTANDING_ROADMAP.md).
+
+## Verlauf: Etappe 25
+
 Stand 2026-09-06, Etappe 25: Die
 [K4/W4-Pruefung](06_docs/K4_W4_SELECTION_2026-09-06.md) trennt Heims
 Zaehl-/Sonderfallvorschriften von der exakten Restgleichung. Bei festen

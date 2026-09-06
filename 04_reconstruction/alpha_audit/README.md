@@ -3,7 +3,19 @@
 Isolierter, reproduzierbarer Konsistenztest der 1982/1989-Alpha-Bloecke in den
 lokalen IGW-Wiedergaben. Python >= 3.10; nur Standardbibliothek erforderlich.
 
-## Etappe 25: W4-Sonderfaelle und K4-Ganzzahlrest (aktueller Stand)
+## Etappe 26: H006-x3/mu--Auswahl ohne Masse (aktueller Stand)
+
+`06_docs/MUON_SELECTION_2026-09-06.md`: Komponenten, W=g(1+d*A16),
+zwoelf vorab benannte Profile und erreichten(b)-Zweig quellengebunden
+geprueft. Alle K1..3=(14,9,3); A16-Slashbindung entscheidet zwischen
+K4=0 und1, beide mit positivem Rest. Keine neue Masse oder Fitwahl.
+`NORM-MUON-SELECTION-AUDIT.md`, neuerInput/Rechner/Snapshot, drei Reviews.
+15neueTests,214gesamt,elfChecks; alle alten Rechner/Inputs/Snapshots und
+49CSV-Normalisierungen erhalten. FIND-036;36Gruppen,nicht36Fehler.
+NaechsterSchritt A16-Fassung/Herleitung in H015/Buch gegen explizite
+spaetereH010-Klammer /(5eta). KeineAuswahl nach kleinerem Rest.
+
+## Etappe 25: W4-Sonderfaelle und K4-Ganzzahlrest (vorheriger Stand)
 
 `06_docs/K4_W4_SELECTION_2026-09-06.md` prueft die drei W4-Faelle und
 die Ganzzahlregel gegen die gruppierte Restgleichung. H006/H015 visuell

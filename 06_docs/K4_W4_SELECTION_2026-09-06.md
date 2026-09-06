@@ -4,6 +4,13 @@
 Enger Folgeauftrag der [Verstaendnisbilanz](UNDERSTANDING_BALANCE_STAGE24_2026-09-06.md).
 Keine neue Teilchenmasse, kein Fit und keine Aenderung alter Rechenprofile.
 
+Sichtbarer Folgehinweis: [Etappe26](MUON_SELECTION_2026-09-06.md) rechnet
+den vorab benannten H006-x3/mu--N0-Input unter zwoelf deklarierten Profilen.
+Er erreicht(b), mit A16-lesartabhaengigem K4 und positivem Rest. Die
+folgenden synthetischen Beweise/Tests der Etappe25 bleiben unveraendert;
+die neue quellengebundene Anwendung und ihre Normalisierungsgrenzen sind
+separat als FIND-036 dokumentiert. Weiterhin keine neue Teilchenmasse.
+
 ## 1. Ergebnis
 
 Die gedruckte Vorschrift ist **kein allgemeiner exakter Loeser der

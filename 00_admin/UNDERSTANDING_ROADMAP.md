@@ -12,7 +12,7 @@ vollstaendiges Verstaendnis der Gesamttheorie abgeleitet werden.
 | Quellen und Versionen | Original, spaetere Abschrift, Erweiterung, offene Herkunft | Etappen18/23: lokale Buch-/Listing-/Typoskriptbruecken belegt; keine gemeinsame vollstaendige 1982-Fassung, Ueberlieferung teilweise offen |
 | Alpha-Grundkette | eta, vartheta, A_k, Ladungsmittelung, Korrelation, Y3 und Zweige | Buchindizes/Mittelung rekonstruiert; Energie/Wellenkontexte getrennt, Kinematik und physikalische Schliessung offen |
 | Grundbegriffe | Heim-eigene Raum-/Strukturbegriffe, metronische Operationen, messbare Zuordnung | M2/M2a-Endpunkte und M7-Ausdruck lokal rekonstruiert; gemeinsames Operatorgitter, reale Potentialpfade und Gesamtgrundlagen offen |
-| Massenformel | Einheiten, Konstanten, Quantenzahlen, Auswahlregeln, ein vollstaendiger Rechenfall | Enger N0-Pfad/H010-Vergleich reproduziert; Etappe25 grenzt K4/W4-Regeln als nicht allgemein exaktloesend ein. Quellengebundene Erreichbarkeit weiterer Faelle und Dynamik offen |
+| Massenformel | Einheiten, Konstanten, Quantenzahlen, Auswahlregeln, ein vollstaendiger Rechenfall | Enger Elektron-N0-Pfad/H010-Vergleich reproduziert; Etappe25 allgemeiner Restbefund, Etappe26 quellengebundener x3-Fall(b) mit A16-lesartabhaengigem K4 und Rest. Keine Myonmasse; historische Auswahl/Herleitung und Dynamik offen |
 | Reichweite | Was sind Modellannahmen, reale Beobachtungen und rein interne Groessen? | Insbesondere Neutrino-Feldmassen und Zweigbedeutung abzugrenzen |
 | Verstaendnisbilanz | Herleitungskarte und verbleibende Luecken gemeinsam beurteilen | Etappe24 aktualisiert Etappe15; alle34Befundgruppen eingeordnet, kein vollstaendiges Theorieverstaendnis |
 | Externe Bewertung | Passende neuere Primaerarbeiten, Messgroessen, Gueltigkeitsbereiche | Bewusst zurueckgestellt |
@@ -24,6 +24,26 @@ sinnvoll und unabhaengige Gegenpruefung. Dokumentierte Luecken sind ein
 Ergebnis; sie werden nicht als stillschweigende Definitionen behandelt.
 
 ## Naechste begrenzte Arbeitseinheit
+
+Nach [Etappe26](../06_docs/MUON_SELECTION_2026-09-06.md):
+**A16-Quellen-/Herleitungsanschluss, weiterhin keine Myonmasse.**
+
+1. Fotografierte H015-A-Matrix/GVALUES-Stelle gezielt lokalisieren;
+   einen konkret angeschlossenen Buchabschnitt gegebenenfalls mitlesen.
+2. A16-Slash und Symbole gegen H006p7 und statische H010-Zeilen vergleichen:
+   C0.66:705/Pascal0.62c:291 setzen explizit /(5eta). Das ist ein spaeterer
+   Fassungsbeleg, keine automatische Autorisierung fuer H006.
+3. Formel-/Versionsbeleg von physikalischer Herleitung trennen. Keine
+   Lesart nach kleinerem Gleichungsrest oder einer Zielmasse bevorzugen.
+4. Beide zwoelfProfil-Ergebnisse erhalten. Fehlende Quelle/Herleitung ist
+   ein zulaessiger enger Abschluss; keine Ersatzformel still einsetzen.
+
+Aktuell: 214 Tests, elf Snapshotchecks mit jeweiligen Quellkontrollen,
+36 Befundgruppen. FIND-036 ist eine bedingte quellengebundene Anwendung,
+keine Massenfehlergrenze oder Gesamtwiderlegung. 49 CSV-Normalisierungen
+unveraendert. Drei interne Reviews, kein externes Peer Review.
+
+## Historischer Folgeauftrag der Etappe 25 (in Etappe 26 bearbeitet)
 
 Nach [Etappe25](../06_docs/K4_W4_SELECTION_2026-09-06.md):
 **H006-x3/mu--N0-Eingabe- und Erreichbarkeitsvertrag, noch keine Masse.**
