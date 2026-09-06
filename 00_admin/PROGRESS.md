@@ -1,5 +1,26 @@
 # Fortschritt
 
+## 2026-09-06 - Siebzehnte Etappe: H006/H010-Elektronvergleich
+
+- Formel-/Konstanten-/Rundungsreviews getrennt, keine fremden Programme ausgefuehrt.
+- Zwei aktive alpha3-Unterschiede: Potenzklammer und Wurzelfaktor; KGH/Phi/mu
+  im N0-Fall formgleich. H010 setzt nacktes Alpha als Eingabe, nicht als Herleitung.
+- 64 vorab festgelegte Gegenfaktorzellen plus alternative H006-Wurzellesart;
+  alte Rechnung unveraendert. Vorab-Vertrag ca9abb1, Plan f6d7598 gepusht.
+- Eigener H010-Endpunkt0.510998846703200... MeV/c^2 reproduziert gespeicherte
+  Ausgabe innerhalb Druckauflösung; C0.62-Banner/C0.66-Dateigrenze bleibt.
+- Gegen H006 +0.3454876 Prozent, Potenz dominiert beide geprueften Ketten.
+  Beitraege wegen Wechselwirkungen reihenfolgeabhaengig, kein kausaler Prozentfit.
+- Separater n4=-1-Schritt passt zum archivierten Pascal0.61-Wert; keine
+  bitgenaue Laufbehauptung oder allgemeine Rechtfertigung der Code-Offsets.
+- Unabhaengige Machin-/Reihen-/Newtonrechnung: 65 Zellen mal21 Felder,
+  drei Vergleichsgruppen; Root hat alle drei eigenen Reviewbloecke ausgefuehrt.
+- Zehn Rechenchecks, Quellhashes und127 Tests bestanden; 16 neue Tests.
+  Register29 Befundgruppen, keine29 Fehler; Normalisierungs-CSV49 unveraendert.
+- Naechster enger Auftrag: Herkunft/Herleitung der zwei alpha3-Terme;
+  konkrete Spur H010(3-5) und selbstberichtetes Formelblattdatum17.9.1978.
+  Keine breite moderne Widerlegungsrecherche oder neue Hardware noetig.
+
 ## 2026-09-06 - Achte Etappe: Konfiguration und Zusammenhangskarte
 
 - Nutzer betont Gesamtzusammenhang vor Urteil. Neue Zusammenhangskarte mit

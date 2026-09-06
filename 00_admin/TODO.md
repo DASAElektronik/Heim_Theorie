@@ -2,6 +2,16 @@
 
 ## Aktueller Einstieg (2026-09-06)
 
+Massgeblich ist Etappe 17 in `RESUME.md`; die aeltere Detailhistorie folgt darunter.
+
+- [x] Einen H006-N0-Elektronfall getrennt gegen spaetere H010-Programme rechnen.
+- [x] Alpha3-Formeln, Alpha-/Konstanteneingaben und Rundung einzeln dokumentieren.
+- [x] 64 vorab feste Kombinationen plus Wurzellesartsensitivitaet unabhaengig pruefen.
+- [ ] alpha3-Herleitung an H010(3-5), H006(IX) und konkretem Original-/Buchanker verfolgen.
+- [ ] Dabei Potenz-/Wurzelwahl nicht aus passender Masse oder gerundetem G ableiten.
+
+### Fruehere Detailfolge (historischer Stand, nicht aktuelle Abschlussliste)
+
 - [x] Isolierten Alpha-Audit 1982/1989 implementieren, testen und gegenlesen.
 - [x] Gedruckte Zweig-/Kehrwertangaben unter Rundung pruefen; Bericht erstellt.
 - [x] Buch (105) eng gegenpruefen; Y3=1-Spezialisierung dokumentieren.

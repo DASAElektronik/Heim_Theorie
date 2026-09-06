@@ -2,12 +2,64 @@
 
 Aktualisiert: 2026-09-06.
 
-## Aktuell: siebzehnte Etappe in Arbeit
+## Aktuell: siebzehnte Etappe abgeschlossen
 
-Ausgang 99a2efa. HISTORICAL_N0_PLAN.md: genau den H006-x2/e--N0-Fall
-mit historischen Codeformeln, Konstanten und Rundungsregeln vergleichen.
-H010 nur statisch lesen. Drei HISTORICAL_N0-Reviews; Root fuehrt
-Vergleich und ggf. eigenes getrenntes Rechenprofil zusammen.
+Ausgang 99a2efa. Plan f6d7598 und vor Rechnung eingefrorener Vertrag
+ca9abb1 gepusht. Abschlusscommit-Nachricht:
+`Complete historical N0 comparison with independent checks and handoff`.
+Bei Fortsetzung HEAD/Remote per Git pruefen; keine laufenden Agenten noetig.
+
+Bericht: 06_docs/HISTORICAL_N0_2026-09-06.md.
+Neuer eigener Rechner: scripts/audit_historical_n0.py.
+Vertrag/Eingaben: 04_reconstruction/alpha_audit/
+NORM-HISTORICAL-N0-COMPARISON.md und historical_n0_inputs.json.
+Ergebnis: 05_analysis/historical_n0_results.json.
+Drei abgeschlossene HISTORICAL_N0-Reviews im dortigen reviews-Ordner:
+FORMULA, CONSTANTS und NUMERICS, jeweils _REVIEW_2026-09-06.md.
+
+- Genau der bestehende H006-x2/e--N0-Fall. H006-x=1 entspricht Code-x=2.
+  Keine fremden Programme/Makros oder XLS-Workbooks ausgefuehrt/geoeffnet.
+- Zwei aktive Unterschiede in alpha3: H006 (1+sqrt(d))^3 gegen Code
+  (1+sqrt(d)); zweiter Faktor mit Wurzelglyph gegen Code xi*d ohne Wurzel.
+  d=eta(k=1,q=1). KGH, Phi, mu und Endklammer im N0-Fall formgleich.
+- H006-Wurzelreichweite nicht eindeutig durch horizontalen Strich markiert:
+  alte sqrt(xi*d)-Lesart bleibt, sqrt(xi)*d separat gerechnet. Normalisierung,
+  alter Bericht und FIND-028 tragen sichtbare Qualifikation; kein stiller Fix.
+- Spaetere H010-Defaults: alpha=1/137.03599976, beta=1/1.00001411,
+  hbar=1.054571596e-34, gamma=6.6733198e-11, golden xi. Andere Eingaben
+  als H006; kommentierter Alpha-Testblock nicht aktiv. Kein Alpha-Nachweis
+  durch die erfolgreiche Massen-Ausgabereproduktion.
+- 64 vorab feste Gegenfaktorzellen: a3-Potenz, a3-Wurzel, Alpha, xi, hbar,
+  gamma. Alle Auswahlmargen positiv, K4=1 analytisch, n=(0,0,0,0).
+  Hochpraezisions-Idealisierung, keine historischen Compilerbits nachgestellt.
+- M_H006=9.0780174645164271e-31kg unveraendert;
+  M_H010=9.1093808919769039e-31kg. H010-fakMeV fuer Vergleich beider:
+  0.5092394872636273 gegen 0.5109988467032001 MeV/c^2.
+  H010-Endpunkt stimmt innerhalb Druckaufloesung mit archivierter Ausgabe
+  0.510998846703200. C0.62-Banner vs C0.66-Datei bleibt Provenienzgrenze.
+- Gesamtdifferenz +3454.87630786 ppm von H006. Potenz dominiert beide
+  festgelegten Ketten; Einzelwirkungen wegen Interaktionen reihenfolgeabhaengig.
+  Alternative H006-Wurzel: M=9.0780174927174896e-31kg, Delta~2.82e-39kg.
+- Getrennte n4=-1-Diagnose: 0.5017117509523602 MeV/c^2, passt innerhalb
+  Druckaufloesung zur Pascal0.61-Vergleichszeile. Kein nachgestellter Binarylauf.
+  Pascal benutzt +1e-10, C aktiv +/-1e-7; alte C-README nicht gleich Code.
+- Unabhaengige Machin-/Reihen-/Newtonrechnung und mu^12-Identitaet:
+  65 Zellen mal 21 Felder in drei Vergleichsgruppen. Snapshotabweichung
+  max.rel.<6.78e-78. Root hat alle drei Reviewcodebloecke erneut ausgefuehrt.
+  16 neue Tests, insgesamt 127; zehn Rechenchecks und Quellhashes bestanden.
+- FIND-029 als ein Versions-/Implementierungsbefund. Nun 29 Befundgruppen,
+  keine 29 Fehler. Alte neun Rechner/Inputs/Snapshots unveraendert;
+  49 Normalisierungs-CSV-Zeilen weiterhin 47 resolved / 2 blocked.
+
+Naechster konkreter Auftrag: Herkunft und Herleitung der zwei alpha3-Terme.
+Suchanker H010 `(3-5) f(kq,k)` (Pascal376/C797) sowie selbstberichtetes
+Formelblattdatum 17.9.1978 aus dem Header. Gegen H006(IX) und erfasste
+Buch-/Manuskriptstellen verfolgen; keine schon verifizierte Urschrift
+behaupten. Readmes begruenden diese zwei Aenderungen nicht; dort genannte
+andere Klammerkorrekturen sind kein alpha3-Erratum. Kein G-/Massen-Zielwert
+als Herleitung, keine Formelwahl nach Treffer und keine unmarkierte
+Fassungsfusion. Moderne breite Empirie und allgemeines Spektrum weiterhin
+nachgeordnet. XIV/XXVI und alte Alpha-Befunde bleiben unaufgehoben.
 
 ## Verlauf: sechzehnte Etappe abgeschlossen
 

@@ -38,19 +38,20 @@ Kann aus Heims Original- bzw. nahen Quellen eine reproduzierbare, parameterarme 
 
 ## Aktueller Arbeitsmodus
 
-Stand 2026-09-06, Etappe 16: Ein
-[begrenzter H006-Elektronfall](06_docs/N0_ELECTRON_2026-09-06.md) ist jetzt
-ausfuehrbar. Die Quelle verbindet die bisher getrennten nu/x-Schreibweisen;
-der ausdrueckliche N=0-Pfad ergibt n=(0,0,0,0). Die bedingte Massenauswertung
-wurde unabhaengig nachgerechnet. Ein lokaler Exponentenkonflikt XIV/XXVI
-bleibt erhalten; keine moderne empirische Bestaetigung oder Gesamtwiderlegung.
-Neun Rechenchecks und 111 Tests bestehen. 28 Befundgruppen sind keine
-28 Fehler. Die 49 Listeneintraege der Normalisierung behalten ihren Status;
-die Aliasentscheidungen tragen einen belegten Nachtrag und der neue
-Rechner eine eigene begrenzte Auditnormalisierung.
+Stand 2026-09-06, Etappe 17: Der
+[historische Vergleich desselben Elektronfalls](06_docs/HISTORICAL_N0_2026-09-06.md)
+reproduziert bedingt den archivierten spaeteren Programmwert. Gegenueber
+H006 sind zwei alpha3-Formeln sowie Eingaben verschieden; die Potenzklammer
+dominiert den Zahlenunterschied. 64 vorab feste Gegenrechnungen und eine
+zusaetzliche Wurzellesart sind unabhaengig geprueft, keine Formel nach Masse
+ausgewaehlt. Der [alte H006-Rechner](06_docs/N0_ELECTRON_2026-09-06.md)
+bleibt unveraendert; eine typographische Wurzelgrenze ist sichtbar qualifiziert.
+Zehn Rechenchecks und 127 Tests bestehen. 29 Befundgruppen sind keine 29 Fehler.
+Die 49 CSV-Normalisierungszeilen behalten ihren Status. Keine moderne
+empirische Bestaetigung oder Gesamtwiderlegung, kein Original-1982-Replay.
 
-Naechster enger Schritt: diesen einen Rechenfall gegen historische
-Implementierungsformeln und Konstanten abgleichen, ohne Massenzielwahl.
+Naechster enger Schritt: Herkunft und Herleitung der zwei alpha3-Terme
+an konkreten Quellen-/Formelblattankern verfolgen, ohne Massenzielwahl.
 [Wiedereinstieg](00_admin/RESUME.md), [Arbeitsfolge](00_admin/UNDERSTANDING_ROADMAP.md).
 
 ## Verstaendnisbilanz der Etappe 15

@@ -25,7 +25,16 @@ kein stilles Aendern des bestehenden H006-N0-Profils.
 
 ## Abschlusskriterien
 
-- [ ] Formel- und Konstantenunterschiede mit Herkunft festgehalten.
-- [ ] Numerischer Vergleich unabhaengig kontrolliert oder Grenze benannt.
-- [ ] Alte neun Rechenchecks unveraendert bestanden.
-- [ ] Bericht, Register und Wiedereinstieg gesichert.
+- [x] Formel- und Konstantenunterschiede mit Herkunft festgehalten.
+- [x] Numerischer Vergleich unabhaengig kontrolliert oder Grenze benannt.
+- [x] Alte neun Rechenchecks unveraendert bestanden.
+- [x] Bericht, Register und Wiedereinstieg erstellt; gemeinsam im Abschlusscommit.
+
+## Abschluss
+
+Plan f6d7598, Rechenvertrag vor Auswertung ca9abb1 gepusht.
+64 vorab feste Zellen und zusaetzliche Wurzellesart, 16 neue Tests;
+127 Tests und zehn Rechenchecks bestanden. Unabhaengige 65-Zellen-Rechnung
+mit drei Vergleichsgruppen je 1365 Felder; Root fuehrte Reviewcode erneut aus.
+FIND-029 ist ein Versions-/Implementierungsbefund, keine Gesamtwiderlegung.
+Folgefrage: konkrete alpha3-Herleitungs-/Formelblattspur, keine Massentrefferwahl.

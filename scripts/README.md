@@ -34,12 +34,23 @@ py -3.13 scripts/audit_wave_closure.py --check --verify-sources
 py -3.13 scripts/audit_configuration_selection.py --check --verify-sources
 py -3.13 scripts/audit_exponential_context.py --check --verify-sources
 py -3.13 scripts/audit_n0_electron.py --check --verify-sources
+py -3.13 scripts/audit_historical_n0.py --check --verify-sources
 py -3.13 scripts/validate_finding_register.py
 py -3.13 -m unittest discover -s tests -q
 ```
 
-Ohne lokale Fremd-PDFs `--verify-sources` weglassen. Die neun numerischen
-Snapshots sind dann weiter pruefbar, die Quelldateien nicht. 111 Tests bestehen.
+Ohne lokale Fremdquellen `--verify-sources` weglassen. Die zehn numerischen
+Snapshots sind dann weiter pruefbar, die Quelldateien nicht. 127 Tests bestehen.
+
+## H006/H010: getrennte N0-Vergleichsprofile
+
+`audit_historical_n0.py` rechnet 64 vorab festgelegte Formel-/Inputkombinationen
+plus eine alternative H006-Wurzelreichweite. Reelle Hochpraezisionsrechnung,
+kein Pascal-/C-Binary-Replay. Historischer Ausgabewert dient nur zum Vergleich
+nach der Berechnung; eigene mathematische K4-Zertifizierung statt Code-Offsets.
+`--write` erneuert ausschliesslich `05_analysis/historical_n0_results.json`.
+16 neue Tests und unabhaengige 65-Zellen-Gegenrechnung. Bericht:
+`06_docs/HISTORICAL_N0_2026-09-06.md`. Alle alten Rechner bleiben unveraendert.
 
 ## H006: begrenzter N0-Elektronfall
 

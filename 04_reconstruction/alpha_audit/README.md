@@ -3,7 +3,18 @@
 Isolierter, reproduzierbarer Konsistenztest der 1982/1989-Alpha-Bloecke in den
 lokalen IGW-Wiedergaben. Python >= 3.10; nur Standardbibliothek erforderlich.
 
-## Etappe 16: begrenzter H006-N0-Fall (aktueller Stand)
+## Etappe 17: historischer Vergleich (aktueller Stand)
+
+`historical_n0_inputs.json` und `NORM-HISTORICAL-N0-COMPARISON.md` frieren
+sechs Formel-/Inputachsen vor der Rechnung ein. 64 Gegenfaktorkombinationen
+plus eine alternative Wurzelreichweite, unabhaengig kontrolliert.
+H010-Ausgabewert bedingt reproduziert; alpha3-Potenzklammer dominiert die
+Abweichung vom H006-Ausgangspunkt. Keine Formelwahl nach Massentreffer.
+Zehn Snapshotchecks und 127 Tests; FIND-029 ist eine weitere Befundgruppe,
+keine neue Gesamtwiderlegung. Bericht `06_docs/HISTORICAL_N0_2026-09-06.md`.
+Die alte H006-Rechnung bleibt erhalten, ihre Wurzellesart ist nachgetragen.
+
+## Etappe 16: begrenzter H006-N0-Fall (vorheriger Stand)
 
 `06_docs/N0_ELECTRON_2026-09-06.md` beschreibt den jetzt ausfuehrbaren
 N=0-Pfad fuer die vorgegebene Elektronkomponente. Eingaben:
