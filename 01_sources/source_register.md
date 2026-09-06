@@ -50,6 +50,13 @@ gesichert. Hashes, Datierungsgrenzen, gepruefte Seiten und Anhangvergleich:
 `03_notes/ETA22_SOURCE_PROVENANCE_2026-09-06.md`. Keine Gesamtvalidierung;
 kein Scan als das berichtete1989-Original identifiziert.
 
+Etappe11: H004 Druck287-291/PDF293-297 und Anhang372/PDF377 verbinden
+Delta++ binnen desselben Buches mit q2/k2; (101a) verweist auf(98a).
+H013/H014-Grundzustandstabellen, H006 PDF2/3 und H007 Druck20/PDF11
+werden getrennt verglichen. Neue Herausgebertabelle S006, Hash und
+Inspektionsumfang: `03_notes/DELTA_SELECTION_SOURCE_CONTEXT_2026-09-06.md`.
+Keine gesamte Massentabelle oder empirische Richtigkeit nachgeprueft.
+
 | ID | Typ | Titel / Inhalt | URL | Status |
 |---|---|---|---|---|
 | H001 | Archiv / Quelle | burkhardheim.de Dateien-Uebersicht mit Heim-Unterlagen, DESY/Northeim-Unterlagen, Massenformel-Dateien und PDFs | https://burkhardheim.de/assets/index.php | gefunden |
@@ -76,6 +83,7 @@ kein Scan als das berichtete1989-Original identifiziert.
 | S003 | Sekundaer / Datadiwan | Elementary Structures of Matter summary | https://www.datadiwan.de/heim/he_002e_.htm | gefunden |
 | S004 | Sekundaer / Protosimplex | Protosimplex ueber Burkhard Heim | https://www.engon.de/protosimplex/px_heimd.htm | gefunden |
 | S005 | Herausgeberrekonstruktion, nicht Heim-Urschrift | I. von Ludwiger/K. Gruener: Zur Herleitung der Heimschen Massenformel, Kapitel D, IGW2003 | https://heim-theory.com/wp-content/uploads/2026/03/D_Zur_Herleitung_Der_Heimschen_Massenformel.pdf | Druck59-61 visuell geprueft; direkte Quelle fuer damaligen Kenntnisstand der Herausgeber |
+| S006 | Herausgeber-Tabellenzusammenstellung, nicht Heim-Urschrift | Forschungskreis Heimsche Theorie: Ausgewaehlte Ergebnisse, Kapitel G, IGW2003 | https://heim-theory.com/wp-content/uploads/2026/03/G_Ausgewaehlte_Ergebnisse.pdf | PDF1/2/3/6/7 visuell geprueft; N=0-Quantenzahlen von N>0-Delta-Resonanzen getrennt, keine Massenvalidierung |
 
 ## Messdaten und Referenzen
 
