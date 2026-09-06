@@ -2,12 +2,44 @@
 
 Aktualisiert: 2026-09-06.
 
-## Aktuell: Etappe 35 begonnen
+## Aktuell: Etappe 35 abgeschlossen
 
-Ausgang `22001a2`, Vertrag `DECAY_SENSITIVITY_PLAN.md` und neues
-`decay_sensitivity_inputs.json`. Vier feste Vergleichszellen, keine
-Fitwahl: A=1/3 versus1/5 fuer beide alten Alpha-Profile; Externterm UND
-g/W gemeinsam aendern. Neue Bereichs-/Existenzpruefung, keine Masse.
+Ausgang `22001a2`, Plancheckpoint `3a3ad73`, Vertrag
+`DECAY_SENSITIVITY_PLAN.md`. Bericht:
+`06_docs/DECAY_SENSITIVITY_2026-09-06.md`; Scope:
+`03_notes/DECAY_SENSITIVITY_SCOPE_2026-09-06.md`.
+
+- Vier VOR Auswertung gebundene Zellen: beide alten Buch-Alpha-Profile
+  mal `A(k=1)=1/3` (Heims heuristische z5-Wahl) und `A(k=1)=1/5`
+  (eigene quellenmotivierte z3-Sensitivitaet). Keine Wahl nach Treffer.
+- Paarweise bleiben `a_j`, `w`, `A16`, eta, Y3/Y9 und Zustand fest.
+  Externterm, Geruestreferenz `g_A=B+E_A(1)` und `W_A=g_A*w` aendern sich
+  gemeinsam. Keine einseitige Aenderung und kein `mu_+`-/Massenoutput.
+- Fuer `A=1/3` ergibt ordinary floor weiter
+  `(N1,N2,N3,N4)=(14,9,13,7)`; direkte ungewichtete Bandbreite
+  `(2459,-10,6)`, also derselbe zweite Gatekonflikt wie im festen Buchfall.
+- Fuer `A=1/5` ergibt die Vorwaertskette `(N1,N2,N3)=(14,10,1)`, aber
+  `raw_N4~=14.345` liegt ueber `alpha3*N3~=0.979`. Das ist die gedruckte
+  Sattigungs-/Zweiggrenze; der Rechner erfindet weder `N4` noch Kappung,
+  Transfer oder TRC-Promotionsschwelle.
+- Jede Zelle benutzt die frisch hergeleitete Box `(14,19,26,25)`.
+  1239 strukturzulaessige Tripel und 9231 Integerkandidaten je Zelle wurden
+  geprueft; keine exakte Gleichungsloesung mit direkten nichtkollabierten
+  Gates. Kein Best-Fit oder numerisches Ausgabe-Epsilon.
+- Die vorab definierte engere reelle Diagnose `0<=N4<=N3-1` bleibt als
+  solche bezeichnet. Der zusaetzliche offene Streifen bis zur vollen
+  Domaene `0<=N4<N3` wurde getrennt analytisch geprueft; auch dort keine
+  Loesung. Daraus folgt keine Aussage ueber andere Kollaps-/Gleichungssysteme.
+- (107b) bleibt separate Sigma-Diagnose. Ordinary floor ist nicht das
+  vollstaendige Buch-TRC. `A=1/5` ist keine publizierte Heim-Korrektur.
+- 15 neue Tests,331 insgesamt; alle12 alten Ergebnischecks sowie Existenz-,
+  Transport-, Rekurrenz- und Registerchecks bestanden. FIND-045 bezeichnet
+  45 Befundgruppen, nicht45 Fehler; alte Profile/Snapshots bleiben erhalten.
+
+Naechster Einzelauftrag: **Buch-Sattigungsregel im z3-Zweig**. Die bereits
+gedruckte Regel auf die bei `A(k=1)=1/5` erreichte Sattigungsgrenze anwenden
+und den Erhalt der festen Gleichung separat pruefen. Keine freie A-/Y-/
+Restwahl, keine Masse und keine erfundene Fortsetzung.
 
 ## Verlauf: vierunddreissigste Etappe abgeschlossen
 

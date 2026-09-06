@@ -6,6 +6,14 @@ Dieses Register sammelt Fundstellen. Lokale Kopien sollten nur abgelegt werden, 
 
 ## Enger Pruefstand 2026-09-06
 
+Etappe 35: keine neue Originalseitenlektuere oder Quelle. Eigener vorab
+fixierter Vier-Zellen-Vergleich A(k=1)=1/3 versus 1/5 auf Grundlage der
+Etappen 30-34: Externterm und g/W gemeinsam, frische Integergrenzen und
+bedingter Ausschluss. H004-Hash erneut geprueft; keine Originalaenderung.
+Enge vorab deklarierte Realdiagnose und zusaetzlicher offener Bereich
+getrennt. FIND-045 ist Anschlussbefund, keine neue unabhaengige Fehlerzahl.
+Umfang/Zuschreibung: `03_notes/DECAY_SENSITIVITY_SCOPE_2026-09-06.md`.
+
 Etappe34: H003 I125-126/PDF131-132(M14), H004 II246-251/PDF252-257(96b),
 275/PDF281 und324-325/PDF330-331 vollseitig vonRoot gelesen. Selektor als
 Fibonacci-Auswahlklasse; positive xi-Grenzwertalgebra und X/Y-Anschluss.

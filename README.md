@@ -40,17 +40,34 @@ Kann aus Heims Original- bzw. nahen Quellen eine reproduzierbare, parameterarme 
 
 ## Aktueller Arbeitsmodus
 
-Stand 2026-09-06, Etappe 34: [xi-Ursprung](06_docs/XI_ORIGIN_2026-09-06.md).
-Heims (96b)-Wert folgt korrekt aus einer Fibonacci-artigen Folgenklasse.
-Unsere exakte Fehlerhuelle bestaetigt deren schnelle Konvergenz fuer alle
-positiven Startwerte. Sie ist keine physikalische Externfehlerschranke:
-Fuer Sigma fordert Heim denselben Selektor ausdruecklich nicht, weshalb
-die spaetere Wahl der5 eine Heuristik bleibt.
+Stand 2026-09-06, Etappe 35:
+[A-Sensitivitaet](06_docs/DECAY_SENSITIVITY_2026-09-06.md).
+Vier vorab festgelegte Zellen vergleichen Heims heuristische Buchwahl
+`A(k=1)=1/3` mit der eigenen z3-Sensitivitaet `A(k=1)=1/5`, jeweils fuer
+beide alten Buch-Alpha-Profile. Externterm und Geruestreferenz `g/W`
+werden gemeinsam geaendert; alle uebrigen Groessen bleiben innerhalb des
+jeweiligen Alpha-Profils fest.
 
-12 neue Tests,316 insgesamt; alte12Ergebnischecks undZertifikate erhalten.
-Keine neue A-/Massenrechnung. Weiter: A-Sensitivitaet erst nach eigenem
-vorab fixiertem Vertrag, Externterm undg/W gemeinsam, keine Auswahl perFit.
+Bei `1/3` bleibt die ordinary-floor-Ausgabe `(14,9,13,7)` mit direkter
+Bandbreite `(2459,-10,6)`. Bei `1/5` erreicht die Vorwaertsauswahl
+`(N1,N2,N3)=(14,10,1)`, aber der reelle vierte Wert liegt oberhalb der
+Strukturkappe: Sattigungsgrenze, keine erfundene `N4`-Ausgabe. Eine frische
+endliche Suche findet in keiner der vier Zellen eine exakte Loesung mit
+den direkten nichtkollabierten Gates; die enge vorab deklarierte und die
+volle reelle `0<=N4<N3`-Diagnose werden getrennt berichtet. Keine Masse,
+kein A-/Y-/Restfit und keine neue Heim-Fassung. 15 neue Tests,331 insgesamt;
+45 Befundgruppen, nicht45 Fehler. Weiter: die gedruckte Buch-Sattigungsregel
+im erreichten z3-Zweig anwenden und ihren Gleichungserhalt separat pruefen.
 [Wiedereinstieg](00_admin/RESUME.md), [Arbeitsfolge](00_admin/UNDERSTANDING_ROADMAP.md).
+
+## Verlauf: Etappe 34
+
+[Xi-Ursprung](06_docs/XI_ORIGIN_2026-09-06.md): Heims (96b)-Wert folgt
+bedingt aus einer Fibonacci-artigen Folgenklasse. Die eigene exakte
+Fehlerhuelle bestaetigt deren schnelle Konvergenz fuer positive Startwerte,
+ist aber keine physikalische Externfehlerschranke. Fuer Sigma fordert Heim
+denselben Selektor ausdruecklich nicht; die spaetere Wahl der5 bleibt
+Heuristik. 12 neue Tests,316 insgesamt; alte Ergebnisse erhalten.
 
 ## Verlauf: Etappe 33
 

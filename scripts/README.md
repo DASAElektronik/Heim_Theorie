@@ -1,5 +1,28 @@
 # Skripte
 
+## Etappe 35: gebundene beidseitige A-Sensitivitaet
+
+```powershell
+py -3.13 -B scripts/audit_decay_sensitivity.py --check --verify-sources
+py -3.13 -B -m unittest discover -s tests -p test_decay_sensitivity.py -v
+```
+
+Vier vorab deklarierte Zellen aus zwei alten Alpha-Profilen und
+`A(k=1)=1/3` beziehungsweise der eigenen Sensitivitaet `1/5`. Der Rechner
+aendert `E_A(N4)`, `g_A=B+E_A(1)` und `W_A=g_A*w` gemeinsam und haelt die
+uebrigen Eingaben paarweise fest. Er berichtet ordinary-floor-Auswahl,
+Zweiggrenzen, direkte ungewichtete Gates, separate107b-Diagnose, exakte
+Integerexistenz und reelle Hilfsdiagnosen getrennt.
+
+Bei `1/3`: `(14,9,13,7)`, `beta=(2459,-10,6)`. Bei `1/5`:
+`(N1,N2,N3)=(14,10,1)`, der reelle vierte Wert ueberschreitet die Kappe;
+keine erfundene Sattigungs-/Transferfortsetzung. Frische endliche Box
+`(14,19,26,25)`, 1239 Tripel und 9231 Integerkandidaten je Zelle; keine
+exakte Loesung mit direkten nichtkollabierten Gates. Kein Massenrechner,
+Fit, physikalisches Fehlerbudget oder vollstaendiges Buch-TRC.
+15 neue Tests,331 insgesamt. Bericht:
+`06_docs/DECAY_SENSITIVITY_2026-09-06.md`.
+
 ## Etappe 34: eigene positive Fibonacci-Klasse
 
 ```powershell

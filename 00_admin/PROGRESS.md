@@ -1,5 +1,28 @@
 # Fortschritt
 
+## 2026-09-06 - Fuenfunddreissigste Etappe: beidseitige A-Sensitivitaet
+
+- Vier Zellen vor Rechnung gebunden: beide alten Buch-Alpha-Profile mal
+  `A(k=1)=1/3` und eigene z3-Sensitivitaet `A(k=1)=1/5`. Letztere ist
+  keine Heim-Korrektur; keine Auswahl nach Rest, Masse oder Treffer.
+- Externterm und Geruestreferenz `g/W` gemeinsam geaendert. `a_j`, `w`,
+  A16, eta und Y paarweise pro Alpha-Profil fest; `mu_+`/Masse inaktiv.
+- `1/3`: ordinary-floor-Ausgabe `(14,9,13,7)`, direkte Bandbreite
+  `(2459,-10,6)`. `1/5`: `(14,10,1)`, aber reeller N4-Wert oberhalb der
+  Strukturkappe; Sattigungsgrenze, keine N4-/Transferfortsetzung erfunden.
+- Frische Box `(14,19,26,25)`; je Zelle 1239 Tripel und 9231 ganze Tupel.
+  Keine exakte Loesung mit direkten nichtkollabierten Gates. Enge
+  vertragliche Realdiagnose und zusaetzlicher Bereich bis `N4<N3` getrennt
+  ausgeschlossen; (107b), ordinary floor und Quellen-TRC bleiben getrennt.
+- 15 neue Tests,331 insgesamt; alte12 Ergebnischecks sowie Existenz-,
+  Transport-, Rekurrenz- und Registerchecks bestanden. FIND-045:45
+  Befundgruppen, nicht45 Fehler. Alte
+  Profile/Rechner/Snapshots historisch erhalten; keine Masse/Gesamtwiderlegung.
+- Bericht `06_docs/DECAY_SENSITIVITY_2026-09-06.md`, Scope
+  `03_notes/DECAY_SENSITIVITY_SCOPE_2026-09-06.md`, Plancheckpoint `3a3ad73`.
+  Weiter: gedruckte Buch-Sattigungsregel im erreichten z3-Zweig anwenden
+  und Gleichungserhalt separat pruefen, ohne A-/Y-/Restfit.
+
 ## 2026-09-06 - Vierunddreissigste Etappe: xi-Ursprung und Selektorgrenze
 
 - H003 M14 definiert Fibonacci als Auswahlklasse; H004248-251 gewinnt

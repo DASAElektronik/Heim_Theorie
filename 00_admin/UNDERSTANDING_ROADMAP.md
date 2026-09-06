@@ -12,7 +12,7 @@ vollstaendiges Verstaendnis der Gesamttheorie abgeleitet werden.
 | Quellen und Versionen | Original, spaetere Abschrift, Erweiterung, offene Herkunft | Etappen18/23: lokale Buch-/Listing-/Typoskriptbruecken belegt; keine gemeinsame vollstaendige 1982-Fassung, Ueberlieferung teilweise offen |
 | Alpha-Grundkette | eta, vartheta, A_k, Ladungsmittelung, Korrelation, Y3 und Zweige | Buchindizes/Mittelung rekonstruiert; Energie/Wellenkontexte getrennt, Kinematik und physikalische Schliessung offen |
 | Grundbegriffe | Heim-eigene Raum-/Strukturbegriffe, metronische Operationen, messbare Zuordnung | M2/M2a-Endpunkte und M7-Ausdruck lokal rekonstruiert; gemeinsames Operatorgitter, reale Potentialpfade und Gesamtgrundlagen offen |
-| Massenformel | Einheiten, Konstanten, Quantenzahlen, Auswahlregeln, ein vollstaendiger Rechenfall | Enger Elektron-N0-Pfad/H010-Vergleich reproduziert. Etappen27-30 A16-Herleitungsgrenze, Buch-Auswahl und fixierte Buchinputs getrennt; konkretes N=(14,9,13,7) verletzt direkte107/107a. Keine Myonmasse; Strukturfehlerbehandlung, Dynamik und physikalische Auswahlbegruendung offen |
+| Massenformel | Einheiten, Konstanten, Quantenzahlen, Auswahlregeln, ein vollstaendiger Rechenfall | Enger Elektron-N0-Pfad/H010-Vergleich reproduziert. Etappen27-30 A16-Herleitungsgrenze, Buch-Auswahl und fixierte Buchinputs getrennt; N=(14,9,13,7) verletzt direkte107/107a. Etappe35 aendert A beidseitig vorab: z3 erreicht einen Sattigungszweig, aber keine der vier Zellen loest exakte108 plus direkte nichtkollabierte Gates. Keine Myonmasse; Sattigungs-Gleichungserhalt, Dynamik und physikalische Auswahlbegruendung offen |
 | Reichweite | Was sind Modellannahmen, reale Beobachtungen und rein interne Groessen? | Insbesondere Neutrino-Feldmassen und Zweigbedeutung abzugrenzen |
 | Verstaendnisbilanz | Herleitungskarte und verbleibende Luecken gemeinsam beurteilen | Etappe24 aktualisiert Etappe15; alle34Befundgruppen eingeordnet, kein vollstaendiges Theorieverstaendnis |
 | Externe Bewertung | Passende neuere Primaerarbeiten, Messgroessen, Gueltigkeitsbereiche | Bewusst zurueckgestellt |
@@ -25,20 +25,31 @@ Ergebnis; sie werden nicht als stillschweigende Definitionen behandelt.
 
 ## Naechste begrenzte Arbeitseinheit
 
-Nach [Etappe 34](../06_docs/XI_ORIGIN_2026-09-06.md):
-**Eigene vorab festgelegte Sensitivitaet der heuristischen A-Auswahl.**
+Nach [Etappe 35](../06_docs/DECAY_SENSITIVITY_2026-09-06.md):
+**Gedruckte Buch-Sattigungsregel im erreichten z3-Zweig.**
 
-1. Vor Rechnung Vertrag fuer A1=1/5 und1/3 mit beiden alten Buch-Alpha-
-   Profilen fixieren. Keine Optimierung nach Rest, Masse oder Treffer.
-2. a_j/w/Y unveraendert lassen; Externterm UND g/W gemeinsam aendern.
-   Neue Bereichs-/Ausschlussgrenzen statt ungepruefter alterN4<=25-Box.
-3. Eigene Sensitivitaet ist keine aus96b hergeleitete Feldkorrektur. Alte
-   Profile und bedingte Befunde bleiben als historische Ergebnisse erhalten.
+1. Fuer die bei `A(k=1)=1/5` erreichte Grenze
+   `raw_N4>alpha3*N3` nur die auf Druck 341 bereits beschriebene
+   Sattigungsregel anwenden; ordinary floor, Quellen-TRC und Kappe trennen.
+2. Danach separat pruefen, ob die so gewaehlte Besetzung die feste
+   Gleichung (108) erhaelt und welche direkten107-/107b-Bedingungen gelten.
+3. Kein freies A-/Y-/Restfit, keine Masse und keine aus der Sensitivitaet
+   behauptete Heim-Revision. Bei fehlender Regeldefinition Grenze benennen,
+   nicht durch Transfer oder Toleranz ergaenzen.
 
-Etappe34 klaert xi-Ursprung/M14 und den positiven Grenzwert. Die eigene
-uniforme Rekurrenzschranke gilt nur fuer die exakte positive Folgenklasse;
-der Sigma-Selektor ist laut324 gerade nicht zu fordern. Wahl5 bleibt
-heuristisch, physikalischer Feldanschluss offen. 316Tests,44Befundgruppen.
+Etappe35 hat vier vorab gebundene Zellen mit beidseitiger A-Aenderung
+ausgewertet. `A=1/3` behaelt `(14,9,13,7)` und beta3=-10; `A=1/5`
+erreicht nach `(14,10,1)` die Sattigungsgrenze und liefert im begrenzten
+Rechner bewusst kein N4. Frische Integer- und reelle Existenzpruefungen
+finden keine Loesung fuer exakte108 plus direkte nichtkollabierte Gates.
+331Tests,45 Befundgruppen; keine Masse oder Gesamtwiderlegung.
+
+## Historischer Folgeauftrag der Etappe 34 (in Etappe 35 bearbeitet)
+
+Die vorab festgelegte Sensitivitaet ist in
+`DECAY_SENSITIVITY_PLAN.md` dokumentiert. Externterm und g/W wurden
+gemeinsam geaendert; der z3-Fall bleibt eigene Diagnose, keine aus (96b)
+hergeleitete Feldkorrektur oder neue Autorenfassung.
 
 ## Historischer Folgeauftrag der Etappe 33 (in Etappe 34 bearbeitet)
 

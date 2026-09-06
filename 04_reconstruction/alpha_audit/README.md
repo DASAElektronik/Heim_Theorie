@@ -3,7 +3,33 @@
 Isolierter, reproduzierbarer Konsistenztest der 1982/1989-Alpha-Bloecke in den
 lokalen IGW-Wiedergaben. Python >= 3.10; nur Standardbibliothek erforderlich.
 
-## Etappe 34: xi-Ursprung und bedingte Rekurrenzschranke (aktueller Stand)
+## Etappe 35: vorab gebundene A-Sensitivitaet (aktueller Stand)
+
+`06_docs/DECAY_SENSITIVITY_2026-09-06.md`: vier vorab festgelegte Zellen,
+beide alten Buch-Alpha-Profile mal `A(k=1)=1/3` (Buchwahl z5) und
+`A(k=1)=1/5` (eigene z3-Sensitivitaet). Externterm `E_A(N4)`, Geruestwert
+`g_A=B+E_A(1)` und `W_A=g_A*w` werden gemeinsam aktualisiert; `a_j`, `w`,
+`A16`, eta und Y bleiben paarweise je Alpha-Profil fest.
+
+Die `1/3`-Zellen behalten die ordinary-floor-Ausgabe `(14,9,13,7)` und
+`beta=(2459,-10,6)`. Die `1/5`-Zellen erreichen `(N1,N2,N3)=(14,10,1)`,
+aber `raw_N4~=14.345` liegt ueber der Strukturkappe `~=0.979`: nur
+Sattigungsgrenze, keine erfundene vierte Besetzung. Frische Box
+`(14,19,26,25)`, 1239 Tripel und 9231 Integerkandidaten je Zelle: keine
+exakte Loesung plus direkte nichtkollabierte Gates. Die vertraglich enge
+reelle Diagnose und die zusaetzliche volle Domaene `0<=N4<N3` sind
+getrennt ausgeschlossen; ordinary floor bleibt eine eigene Diagnose,
+nicht das vollstaendige Quellen-TRC.
+
+`scripts/audit_decay_sensitivity.py --check --verify-sources`,15neueTests/
+331gesamt; alle12 alten Ergebnischecks sowie Existenz-, Transport-,
+Rekurrenz- und Registerchecks im Abschlusslauf bestanden.
+FIND-045:45Befundgruppen,nicht45Fehler. Keine Masse, kein Fit und keine
+Behauptung, `1/5` sei Heims revidierte Formel. Weiter: gedruckte
+Buch-Sattigungsregel auf den erreichten z3-Zweig anwenden und den
+Gleichungserhalt separat pruefen.
+
+## Etappe 34: xi-Ursprung und bedingte Rekurrenzschranke (vorheriger Stand)
 
 `06_docs/XI_ORIGIN_2026-09-06.md`: H003M14 undH00496b erklaeren den
 goldenen Quotienten aus der Fibonacci-Klasse. Eigene uniforme positive-
