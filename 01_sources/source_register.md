@@ -36,6 +36,13 @@ Ein erneuter Abrufversuch der unten registrierten H004-URL mit dem
 Webwerkzeug meldete am2026-09-06 HTTP404; die lokale, hashgepruefte Kopie
 ist vorhanden. Kein Beleg fuer ein generelles Verschwinden der Quelle.
 
+Etappe8: H003 Druck244/245/PDF250/251 (q-Ganzzahligkeit); H004 Druck263-269
+und295/296 bis302 (k, L*Delta, Auswahl98a, Teilchen-/Alpha-Zuordnung) visuell
+geprueft. H006 p1-5 als getrennte Zusammenfassung; H007 Druck12/PDF3 und
+Druck18/PDF9 als eng begrenzter eta22-/Versionsanschluss. Keine neue Quelle.
+Drei CONFIGURATION*-Reviews unter `04_reconstruction/alpha_audit/reviews/`
+dokumentieren den Suchumfang. Gesamtwerke weiterhin nicht vollstaendig geprueft.
+
 ## Heim-nahe Quellen
 
 | ID | Typ | Titel / Inhalt | URL | Status |

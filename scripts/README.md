@@ -16,6 +16,29 @@ Befund-IDs, bekannte Quell-IDs und sichere existierende Nachweisdateien in
 dort vermerkten Nachprueftexte, keine Wahrheitspruefung der Befunde.
 Die physikalisch-algebraischen Audits bleiben davon getrennt.
 
+## Konfigurationsauswahl und gesamter Snapshotcheck
+
+`audit_configuration_selection.py` trennt die drei gedruckten Aussageebenen
+vor Buch(98a), rechnet u_q und dokumentiert die bedingte positive Paarmenge.
+`--write` erneuert nur `05_analysis/configuration_selection_diagnostics.json`;
+`--check` vergleicht ohne Schreiben. Mathematisches pi, keine Messwerte/Fits.
+Vollstaendige Nachpruefung des aktuellen Rechenstands:
+
+```powershell
+py -3.13 scripts/audit_alpha.py --check --verify-sources
+py -3.13 scripts/audit_alpha_book.py --check
+py -3.13 scripts/audit_charge_averaging.py --check --verify-sources
+py -3.13 scripts/audit_energy_kinematics.py --check --verify-sources
+py -3.13 scripts/audit_lorentz_meaning.py --check --verify-sources
+py -3.13 scripts/audit_wave_closure.py --check --verify-sources
+py -3.13 scripts/audit_configuration_selection.py --check --verify-sources
+py -3.13 scripts/validate_finding_register.py
+py -3.13 -m unittest discover -s tests -q
+```
+
+Ohne lokale Fremd-PDFs `--verify-sources` weglassen. Die sieben numerischen
+Snapshots sind dann weiter pruefbar, die Quelldateien nicht.86Tests bestehen.
+
 ## Fruehere Planung und Quellenimport
 
 Hier kommen spaeter Import- und Analyse-Skripte hinein.

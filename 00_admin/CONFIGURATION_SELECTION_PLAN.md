@@ -32,8 +32,13 @@ konkrete Querverbindung.
 
 ## Abschlussnachweise
 
-- [ ] L*Delta=k und (98a) mit Quellbegruendung/Annahmen dokumentiert.
-- [ ] Auswahlrelationen und explizite Konfigurationsfaelle unabhaengig gerechnet.
-- [ ] Abhaengigkeitskarte und erneute Pruefanlaesse fuer offene Verbindungen.
-- [ ] Neue Diagnosen/Tests und alle bisherigen Regressionen geprueft.
-- [ ] Bericht, Befundregister und Wiedereinstieg gepflegt; Checkpoints gepusht.
+- [x] L*Delta=k und (98a) mit Quellbegruendung/Annahmen dokumentiert.
+- [x] Auswahlrelationen und explizite Konfigurationsfaelle unabhaengig gerechnet.
+- [x] Abhaengigkeitskarte und erneute Pruefanlaesse fuer offene Verbindungen.
+- [x] Neue Diagnosen/Tests und alle bisherigen Regressionen geprueft.
+- [x] Bericht, Befundregister und Wiedereinstieg gepflegt; Checkpoints gepusht.
+
+Plan3abd70c, gepruefter Rechner-/Quellencheckpoint033617d gepusht.
+Sieben Snapshotchecks/Quellhashpruefungen, 86 Tests, 1057 unabhaengige Feldchecks.
+Lokaler Umformungsknoten und u2-Zahlenabweichung, aber beide Buch-Alpha-Paare
+bleiben erhalten. Keine pauschale Theorieaussage. Naechste Querverbindung (79)/(79a).

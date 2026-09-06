@@ -2,25 +2,63 @@
 
 Aktualisiert: 2026-09-06.
 
-## Aktuell: achte Etappe in Arbeit
+## Aktuell: achte Etappe abgeschlossen
 
-Ausgangscommit2b46b5d. Nutzer bestaetigt Gesamtzusammenhang vor Gesamturteil:
-spaetere Quellen koennen bisherige Luecken schliessen, unsere Lesarten bleiben
-korrigierbar. Plan `CONFIGURATION_SELECTION_PLAN.md`: L*Delta=k, Auswahl(98a),
-Konfigurationsrechnung und Abhaengigkeitskarte. Drei getrennte Reviews laufen.
-Alte sechs Rechner/Inputs/Snapshots unveraendert lassen. Keine moderne
-Widerlegungsliteratur/Hardware jetzt. Noch keine neuen Befunde abschliessend.
+Ausgangscommit2b46b5d; Plan3abd70c und Rechner-/Quellencheckpoint033617d
+erfolgreich gepusht. Abschlusscommit-Nachricht:
+`Complete configuration audit and context-first research handoff`.
+Nutzer bestaetigt Gesamtzusammenhang vor Gesamturteil: spaetere Quellen
+koennen Luecken schliessen, unsere Lesarten bleiben korrigierbar. Plan
+`CONFIGURATION_SELECTION_PLAN.md` erledigt. Keine moderne Widerlegungs-
+literatur/Hardware und keine neue externe Publikation in dieser Etappe.
 
-Plancheckpoint3abd70c gepusht. Rechner `scripts/audit_configuration_selection.py`,
-Snapshot,9 neue Tests (86 insgesamt), drei Reviews und Bericht
-`06_docs/CONFIGURATION_SELECTION_2026-09-06.md` liegen vor. Neue Karte
-`04_reconstruction/alpha_audit/CONFIGURATION_DEPENDENCIES.md` verfolgt offene
-Verbindungen und erneute Pruefanlaesse. Register16Befundgruppen, NORM48
-(46 resolved,2 alteBlocker). Noch Abschluss der Kontinuitaetsdateien ausstehend.
-Literal Q2=sqrt(eta) OHNEq durch3Leser bestaetigt. VorgelagertePositivitaet,
-gedruckteVQ-Richtung und gedruckteB-Grenze getrennt; u2=1.963489... statt2..3.
-VierB-Paare(1,1),(1,2),(2,1),(3,1); globaleMaxima2/3bleiben. Buch-Alpha-Paare
-unberuehrt.1989B59 eta22 ist wirklicherSourceFaktor, AnwendbarkeitBuchregeloffen.
+Rechner `scripts/audit_configuration_selection.py`, Snapshot
+`05_analysis/configuration_selection_diagnostics.json`, Bericht
+`06_docs/CONFIGURATION_SELECTION_2026-09-06.md` und Karte
+`04_reconstruction/alpha_audit/CONFIGURATION_DEPENDENCIES.md` liegen vor.
+Die Karte nennt offene Verbindungen und konkrete erneute Pruefanlaesse.
+Drei Reviews CONFIGURATION_SELECTION_SOURCE, CONFIGURATION_DEPENDENCY und
+CONFIGURATION_SELECTION_MATH (jeweils2026-09-06) abgeschlossen. Keine
+laufenden Agenten zum Fortsetzen erforderlich.
+
+- I244/PDF250: q>=0 explizit ganzzahlig. II263/264: k>=1 ganzzahlig,
+  Konfigurationszahl; L*Delta=k auf II265 als moeglicher Ansatz. Delta ist
+  relative Ladungs-Viertpotenzaenderung, L=4. Ladungsquotient positiv bzw. Betrag.
+- II268/269: Literal Q2=sqrt(eta) OHNE q durch 3 Leser/hochaufgeloeste Bilder
+  bestaetigt. Zwischenzeitliche q-Fehllesung verworfen, keine Modellvariante.
+- Mit a=eta_q,e=eta,x=1/eta_qk und R=V1+Q1-V2-Q2 gilt R=a*(x-D).
+  D=(1+sqrt(a))^2/(4ea)+(1/a-a/e)*sqrt(e), B gleich aber1 statt1/a.
+  D-B=sqrt(e)*(1/a-1)>0. Vorgelagerte Positivitaet verlangt x<D; gedruckte
+  VQ-Zeile x>D; gedruckte eta-Folgerung x<B. Lokaler Knoten, keine eindeutige Reparatur.
+- Gedrucktes u_q=(pi/q)^4*(B^4-1)-4 ergibt u2=1.963489... statt 2..3.
+  Vier B-Paare (1,1),(1,2),(2,1),(3,1); globale Maxima k2/q3 bleiben.
+  Ganze q>=5 analytisch/rational ausgeschlossen, nicht nur Scan bis10.
+- Buch-Alpha-Paare (1,1)/(1,2) bleiben. 1989 B59 druckt eta22 tatsaechlich,
+  aber ein Faktor ist nicht automatisch ein realisierter Zustand und die
+  Buchregel gilt nicht ungeprueft fuer diese Version. Anwendbarkeitsfrage gesichert.
+- Sieben Snapshots samt Quellchecks reproduziert; alte 6 Rechner/Inputs/Snapshots
+  unveraendert. 86 Tests (77 vorher+9 neu). 1057 Felder unabhaengig gegengerechnet.
+  Decimal40-200, Konvergenz80/120; Abstandsschutz ist keine Intervallzertifizierung.
+- Befundregister16 Gruppen (keine Fehlerzaehlung); NORM48:46 resolved,2 alte Blocker.
+  Formelkatalog weiter 2 isolierte ALPHA-Audits, kein Massenrechner.
+
+Naechster konkreter Zusammenhang: Rueckverweise (79)/(79a) ausII269,
+Exponentialnaeherung und Bedeutung von F/G samt Gueltigkeitsbereich und
+Potentialidentifikation. Pruefen, ob hier zusaetzliche Bedingungen bzw.
+andere Definitionen den lokalen Knoten erklaeren; nicht einfach Vorzeichen
+oder B durch D ersetzen.1989eta22 als getrennte Versionsfrage mitfuehren.
+Danach Massenabhaengigkeiten B50/Gamma-Q_N und Verstaendnisbilanz.
+H-Wellen-/Arbeits-/C-Y3-Fragen bleiben auf der Zusammenhangskarte, keine
+erneute ungezielte Suche ohne neue Querverbindung.
+
+```powershell
+py -3.13 scripts/audit_configuration_selection.py --check --verify-sources
+py -3.13 scripts/validate_finding_register.py
+py -3.13 -m unittest discover -s tests -q
+```
+
+Die sieben Snapshotchecks stehen in scripts/README.md. Die folgenden alten
+Einstiege sind Verlauf, nicht die neue Prioritaet. PDFs/Render/OCR bleiben lokal.
 
 ## Verlauf: siebte Etappe abgeschlossen
 

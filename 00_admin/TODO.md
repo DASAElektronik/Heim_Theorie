@@ -26,7 +26,12 @@
 - [x] Befundregister mit Voraussetzungen, Tragweite und positiven Ergebnissen.
 - [ ] H-Wellenobjekt mit Flussaggregat/Phasengeschwindigkeit nachweisbar verbinden.
 - [ ] Fruehere Ausgabe/Erratum zum p21-Matrixdruck suchen, falls zugaenglich.
-- [ ] Physikalische Begruendung L*Delta=k, Auswahl(98a), historischer Rechenweg.
+- [x] L*Delta=k und Auswahl(98a) mit Begruendungsstatus eng rekonstruieren/rechnen.
+- [x] Konfigurations-Abhaengigkeitskarte mit konkreten erneuten Pruefanlaessen.
+- [x] Neue V/Q-Umformungskonflikte und u2-Druckbereich unabhaengig pruefen.
+- [ ] (79)/(79a), Exponentialnaeherung und F/G-Zuordnung zu Potentialen verfolgen.
+- [ ] Unabhaengige L*Delta-Begruendung und historischer Rechenweg bei neuen Belegen.
+- [ ] Anwendbarkeit von Buch(98a) auf den1989-B59-Faktor eta22 klaeren.
 - [ ] Danach fehlende Massenabhaengigkeiten sowie B50 und Gamma/Q_N bearbeiten.
 - [ ] Verstaendnisbilanz vor breiter Recherche nach neueren Widerlegungen.
 

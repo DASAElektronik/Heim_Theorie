@@ -25,11 +25,11 @@ Ergebnis; sie werden nicht als stillschweigende Definitionen behandelt.
 
 ## Naechste begrenzte Arbeitseinheit
 
-1. L*Delta=k und Auswahl(98a): Begriffe und genaue Praemissen rueckwaerts
-   verfolgen; was wird postuliert, was hergeleitet und welche q/k-Werte
-   werden dadurch zugelassen? Noch keine moderne Auswahlregel hineinlesen.
-2. Einen begrenzten Konfigurationsfall nachvollziehen und seinen Einfluss
-   auf eta_qk zeigen, ohne bestehende Alpha-Profile zu ueberschreiben.
+1. Rueckverweise (79)/(79a) ausII269 verfolgen: Exponentialnaeherung, F/G,
+   Gueltigkeitsbereich und die spekulative Zuordnung zu Potentialen. Klaert
+   eine vorgelagerte Definition/Zusatzbedingung den neuen lokalen Knoten?
+2. Die1989-Verwendung eta22 getrennt auf Versionsgeltung/analytischen
+   Faktor versus realen Zustand pruefen. Buch(98a) nicht still uebertragen.
 3. Danach Massenblocker B50/Gamma-Q_N und Verstaendnisbilanz;
    Quellen-/Mathematikreview und Checkpoint je begrenzter Einheit.
 
@@ -40,6 +40,14 @@ die verbleibenden Quellenluecken nicht. Die C/Y3-Bilanz ist dokumentiert:
 numerisch geschlossene Spezialisierung C=A1*A2/Y3=1, keine gefundene
 unabhaengige Herleitung. Nur mit einem konkreten neuen Ansatz weiterverfolgen.
 Fruehere Ausgabe/Erratum zum I-p21-Matrixblock suchen, falls zugaenglich.
+
+Etappe8 abgeschlossen: `06_docs/CONFIGURATION_SELECTION_2026-09-06.md`.
+L*Delta-Ansatz und q/k-Bedeutung verbunden; B-Auswahl nachgerechnet,
+u2-Druckbereich nicht reproduziert, beide Buch-Alpha-Paare aber erhalten.
+Aktuelle Zusammenhangskarte und erneute Pruefanlaesse:
+`04_reconstruction/alpha_audit/CONFIGURATION_DEPENDENCIES.md`.
+Register jetzt 16 Befundgruppen, keine 16 Fehler. Unsere Befundebilanz bleibt
+revidierbar bei anderen belegten Definitionen, Errata oder neuen Querverbindungen.
 
 Abgeschlossene Quellenarbeit Etappe7:
 `06_docs/CYCLIC_FLOW_AND_FINDINGS_2026-09-06.md` und

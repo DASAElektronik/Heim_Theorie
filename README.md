@@ -87,6 +87,15 @@ berechenbare Spezialisierung, nicht vollstaendig unabhaengig hergeleitet.
 Das Register enthaelt auch positive Befunde und eigene Diagnosen: keine
 Fehlerzaehlung. Naechster Block: L*Delta=k und Auswahlregel (98a).
 
+Die achte Etappe verbindet Konfigurationszahl, Ladung und Alpha in einer
+[Zusammenhangskarte](04_reconstruction/alpha_audit/CONFIGURATION_DEPENDENCIES.md).
+Die [Auswahlpruefung](06_docs/CONFIGURATION_SELECTION_2026-09-06.md) findet
+einen lokalen Umformungskonflikt und u2=1.963489... statt des gedruckten
+Bereichs 2..3; globale Maxima und beide Buch-Alpha-Paare bleiben jedoch erhalten.
+Die 1989-eta22-Verwendung ist eine separate offene Versionsfrage. 86 Tests,
+unabhaengige Reviews und sieben reproduzierte Snapshots; 16 Befundgruppen.
+Naechster Querverweis: (79)/(79a) und F/G-Potentialzuordnung.
+
 Wir bauen zuerst eine Formelbibliothek unter `04_reconstruction/formula_library/`.
 Jede Formel bekommt eine ID, Quelle, Status, Abhaengigkeiten, Outputs und Audit-Risiken.
 Erst wenn eine Formel `source_checked` und `normalized` ist, soll sie implementiert werden.

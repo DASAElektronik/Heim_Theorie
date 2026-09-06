@@ -1,5 +1,28 @@
 # Fortschritt
 
+## 2026-09-06 - Achte Etappe: Konfiguration und Zusammenhangskarte
+
+- Nutzer betont Gesamtzusammenhang vor Urteil. Neue Zusammenhangskarte mit
+  Quellverbindungen, Status und konkreten Anlaessen fuer erneute Pruefung.
+- q-Ganzzahligkeit I244 lokalisiert; k-Konfiguration II263/264, moeglicher
+  Ansatz L*Delta=k/L4 und bedingter Anschluss an eta_qk rekonstruiert.
+- II268/269: gedruckte V/Q-Richtung widerspricht vorheriger F/G-Bedingung;
+  nachfolgende eta-Schranke hat umgekehrte Richtung und anderen Term.
+  Zusammenhaengender lokaler Knoten, keine eindeutige Autorenkorrektur.
+- Q2=sqrt(eta) ohne q nach 3 Lesern/500dpi gesichert; eigene Fehllesung verworfen.
+- Neue Grenzrechnung: u2=1.963489... nicht 2..3; vier positive (q,k)-Paare.
+  Andere gedruckte Bereiche und globale Maxima k2/q3 bleiben; q>=5 rational bewiesen.
+- Beide Buch-Alpha-Paare bleiben erlaubt. 1989 B59 verwendet wirklich eta22,
+  Anwendbarkeit der Buchregel/realer Zustandsstatus aber ungeklaert; keine Vermischung.
+- Neuer isolierter Rechner, Snapshot und 9 Tests; 86 gesamt. 1057 Zahlen/Bool-Felder
+  unabhaengig geprueft. Alte 6 Rechner/Inputs/Snapshots unveraendert, alle 7 Checks OK.
+- Drei Reviews und Berichts-/Registergegenlesung abgeschlossen; Zweig-/Rundungs-
+  wortlaut praezisiert. Register16 Befundgruppen; NORM48/46 resolved/2 blocked.
+- Plan3abd70c und gepruefter Checkpoint033617d gepusht. Abschlusscommit:
+  `Complete configuration audit and context-first research handoff`.
+- Naechster Block: (79)/(79a), Exponentialnaeherung, F/G-Potentialzuordnung;
+  konkrete Querverbindung weiterverfolgen. Moderne Bewertung weiter zurueckgestellt.
+
 ## 2026-09-06 - Siebte Etappe: zyklischer Fluss und Befundregister
 
 - (75)/(76)/(76a,b), II157-162 und172-174 visuell rekonstruiert:

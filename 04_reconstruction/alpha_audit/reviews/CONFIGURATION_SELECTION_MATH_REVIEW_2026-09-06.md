@@ -456,3 +456,8 @@ besteht die reine Metadatenintegritaetspruefung. Letzteres prueft nicht
 die Wahrheit seiner Aussagen. Abgesehen von den beiden gemeldeten
 Schlussredaktionen kein weiterer Algebra- oder Reichweitendefekt gefunden.
 Nur diese eigene Reviewdatei ergaenzt; keine anderen Dateien oder Commits.
+
+Nachtrag Hauptagent zum Abschluss: Beide oben genannten Schlussredaktionen
+sind umgesetzt: C=P und Y3=1 ist eindeutig ausgeschrieben, und die positive
+Quotienten-/Betragswahl steht nun im Bericht, in der Normalisierung und im
+Rechnerdocstring. Der Reviewer hat diese Aenderungen abschliessend bestaetigt.

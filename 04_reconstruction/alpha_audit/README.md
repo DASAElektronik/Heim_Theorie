@@ -144,3 +144,12 @@ py -3.13 -m unittest discover -s tests -q
 Der neue Validator prueft nur Metadatenintegritaet; die sechs vorhandenen
 Rechner und Snapshots sind unveraendert. Quellen-/Ergebnisbilanz:
 `06_docs/CYCLIC_FLOW_AND_FINDINGS_2026-09-06.md`.
+
+## Achte Etappe: Konfigurationsauswahl (98a)
+
+Neuer isolierter Rechner `scripts/audit_configuration_selection.py` mit
+Snapshot, 9 neuen Tests und unabhaengiger Review. Alle 7 Snapshotchecks und
+86 Tests bestehen; die alten 6 Rechner sind unveraendert. Neues Register:
+16 Befundgruppen, einschliesslich positiver Begriffsbruecke, keine 16 Fehler.
+`CONFIGURATION_DEPENDENCIES.md` verknuepft Definitionen, Annahmen, Folgen und
+konkrete erneute Pruefanlaesse. Bericht `06_docs/CONFIGURATION_SELECTION_2026-09-06.md`.
