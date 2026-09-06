@@ -1,6 +1,7 @@
 # NORM-LORENTZ-MEANING-001
 
-Stand2026-09-06. Lokale Implementierungsgrenze; Review vor Abschluss.
+Stand2026-09-06. Lokale Implementierungsgrenze; unabhaengige Quellen- und
+Mathematik-/Rechnerreview abgeschlossen, keine Rechenfehler gefunden.
 
 ## Drei getrennte Untersuchungen
 
@@ -30,7 +31,8 @@ Heim EDM1 Druck12/PDF20, Druck21/PDF29 (Literalblock), Druck81/PDF88,
 Druck288/PDF294; EDM2 Druck300/301/PDF306/307. Root hat die Kernseiten
 visuell geprueft. Die Substitution tan(psi)=i*b benutzt eine gewoehnliche
 Trigonometriekonvention und ist explizit BEDINGT. Kein stiller Quellenfix.
-Weiterer Quellenkontext EDM1 Druck56/PDF63 wird getrennt gegengeprueft.
+Weiterer Quellenkontext EDM1 Druck56/PDF63 ist getrennt visuell geprueft:
+anderer R6-Block ohne Zusatz-i, kein autorisiertes Erratum des p21-Blocks.
 Der reelle Standardboost ist eine eigene Referenzkonstruktion; in
 Einstein1905 Druck902/PDF12 sind die dazugehoerigen Koordinatengleichungen
 visuell belegt, Druck903/PDF13 beschreibt die gleichzeitige Ellipsoidform.

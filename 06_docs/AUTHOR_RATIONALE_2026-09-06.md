@@ -20,6 +20,11 @@ Das sind belastbare Quellenbefunde. Sie liefern aber noch keine vollstaendige
 Ableitung, warum gerade pc die kinetische Groesse der Energiebilanz sein soll
 oder warum genau eine Wellenlaenge auf genau einen Kreisumfang passt.
 
+Zusaetzlich gefunden: Ein auf den21.12.1981 datiertes und mit Heim
+unterzeichnetes Manuskript enthaelt bereits diese Motivations- und H-Kette.
+Es ist eine direkte, editorisch gehostete Autorenquelle, keine von uns
+nachgewiesene Zeitschriftenveroeffentlichung; Einzelheiten unten.
+
 Deshalb lautet unser vorlaeufiger Befund NICHT "Heim hatte keinen Grund",
 sondern: Seine Motivation und einige formale Schritte sind auffindbar;
 bestimmte physikalische Zuordnungen sind in der geprueften Quellenkette
@@ -93,6 +98,31 @@ Band I unterscheidet andere Kontexte: Druck233/PDF239 beschreibt im
 Neutralteilchenkontext eine nichtzirkulaere Compton-Skala; Druck242/PDF248
 verwendet einen Kreisansatz fuer eine photonische Komponente. Diese Stellen
 bleiben Hinweise, keine automatische Ableitung des gebundenen Elektrons.
+
+### 3.1 Die datierte Manuskriptfassung von1981
+
+Der Scan [Magnetfeld und Drehimpulsdichte](https://heim-theory.com/wp-content/uploads/2025/10/M0042-Magnetfeld-und-Drehimpuls-B-Heim-1981.pdf)
+umfasst20 Manuskriptseiten. Seite1 nennt Heim als Autor, Seite20 zeigt
+Northeim,21.12.1981 und die Unterschrift. Seiten1/2 entwickeln das Motiv
+der bindungsbedingten Internstrukturaenderung. Seite5 verbindet bereits
+v_H=c*alpha, die Meridianverkuerzung, E_k=m*v_H*c und
+mc^2=ch/lambda_H mit lambda_H=2*pi*r_H. Hauptagent hat Seiten1,2,5,20
+visuell kontrolliert; die unabhaengige Quellenreview umfasst Seiten1-6,20.
+
+Das stuetzt die zeitliche Einordnung: In der aufgefundenen, so datierten
+Autorenfassung steht der Ansatz schon1981. Es ist nicht bewiesen, dass
+dies seine allererste Fassung war. Die Ueberlieferungskette des Scans ist
+nicht lueckenlos dokumentiert; eine Echtheitspruefung der Unterschrift
+haben wir nicht vorgenommen. M0042 ist die heutige Host-Dateibezeichnung.
+
+Wichtig fuer die Fortsetzung: Motivations- und Formelkern sind eng mit
+BandII verwandt, aber die Fassungen werden NICHT gleichgesetzt. Seite5
+des Manuskripts erwaegt unter Hinweis auf die freie Verfuegbarkeit der
+Integrationskonstante A, die Beziehung A=4C zu unterstellen. Dies ist
+keine zwingende Herleitung. Dort steht Y (mit Y!=0); die Buchkette wurde separat mit
+ihrem Kontext und Y3 rekonstruiert. Ein vollstaendiger Zeichen-/Versions-
+vergleich steht aus. Das Manuskript wurde nicht als neuer Recheninput
+eingesetzt und liefert hier keine ungepruefte Bestaetigung der Buchzahlen.
 
 ## 4. Was bedeutet "invariant" wirklich?
 
@@ -184,8 +214,9 @@ anderen beiden Diagonalkomponenten1. Das ist am gedruckten Block selbst
 geprueft, nicht aus einem Vergleich verschiedener Koordinatenbasen geschlossen.
 
 Auf Druck56/PDF63 steht ein anders kontextualisierter R6-Block ohne diese
-zusaetzlichen i-Faktoren, der komplex-orthogonal ist. Das stuetzt eine moegliche
-lokale Notationsreparatur, belegt aber weder Heims Absicht noch ein Erratum.
+zusaetzlichen i-Faktoren, der komplex-orthogonal ist. Das ist ein Kontexthinweis
+fuer eine moegliche lokale Notationsreparatur, belegt aber weder Heims Absicht
+noch ein Erratum.
 Original, spaetere Vergleichsstelle und unsere Variante bleiben getrennt.
 Details: `04_reconstruction/alpha_audit/BOOK_LORENTZ_MATRIX_ISSUE.md`.
 
@@ -199,7 +230,25 @@ Untersucht wurden direkte Buchpassagen und weitere Autoren-/Autornahe
 Publikationen, nicht bloss heutige Kommentare. Der getrennte Bericht
 `04_reconstruction/alpha_audit/reviews/AUTHOR_RATIONALE_SEARCH_2026-09-06.md`
 nennt Dateistand, Urheberschaft, Suchbegriffe, Fundstellen und negative Befunde.
-Sein Abschluss wird vor dem finalen Checkpoint integriert.
+Die Suche und alle drei getrennten Reviews sind abgeschlossen.
+
+- Aufsatz1977 (H002): elf Seiten per Volltext-/OCR-Suche, relevante Stellen
+  visuell. Compton-Laenge gefunden, keine weitergehende H-Kreis-Herleitung.
+- MBB-Vortrag1976 (H005):126 PDF-Seiten durchsucht, deutsche Vortragsschicht
+  und relevante Seiten62/63 kontrolliert. Spaetere Transkription mit
+  Bearbeitungen/Uebersetzung, kein abgeglichenes Originaltonband.
+- Manuskript1981 (H011):20 Seiten durchsucht, tragende Seiten visuell;
+  positiver neuer Fund zur Motivation und zur H-Kette.
+- Einfuehrung1998 (H012):186 PDF-Seiten durchsucht, Vorwort/Register und
+  Druck70/71 kontrolliert. Das Vorwort ordnet die einschlaegige Textschicht
+  Heim zu; sie fasst H -> (105) zusammen, liefert keine zusaetzliche Ableitung.
+- Berliner Vortraege1994: spaetere Transkription gezielt im Webtext
+  durchsucht; Naeherungshinweis, kein staerkerer Begruendungsbeleg.
+
+Die beiden neuen lokalen Quellen sind mit URL, SHA256 und Pruefumfang in
+`03_notes/AUTHOR_RATIONALE_SOURCES_2026-09-06.md` gesichert. Es wurde weder
+der gesamte Nachlass noch jede Vortrags-/MBB-Fassung untersucht. Die Suche
+nach heutigen Widerlegungen bleibt gemaess Nutzerreihenfolge zurueckgestellt.
 
 Unsere vorlaeufige Zuordnung:
 
@@ -222,6 +271,8 @@ die genannten Luecken bleiben anhand unserer Suchabdeckung praezise offen.
 Ereignisse und Matrixprodukte exakt als rationale Brueche. Seine Beschraenkung
 auf rationale Boostfaktoren dient nur diesen Lehrbeispielen. Keine neuen
 Messwerte, kein Fit, keine unsichere Gleitkommaentscheidung.
+Alle56 Softwaretests bestehen; das prueft die implementierten Rechnungen,
+nicht die physikalische Richtigkeit der Theorie.
 
 ```powershell
 py -3.13 scripts/audit_lorentz_meaning.py --check --verify-sources
@@ -237,4 +288,6 @@ mathematisches Wellenproblem rekonstruieren: Welche Variable, welche Welle,
 welche Randbedingung und welcher Radius? Die Seiten276/277 und297-301 sind
 die jetzt gefundenen Startpunkte. Parallel als offene Quellenfrage fuehren:
 Gibt es eine fruehere Ausgabe/Autorenkorrektur des p21-Matrixblocks?
+Die Manuskriptseiten1-5 sind als eigene Version einzubeziehen; insbesondere
+die Begruendung und Freiheit von A=4C nicht in die Buchfassung hineinlesen.
 Keine bereits passende moderne Atomgleichung still in Heim hineinlesen.

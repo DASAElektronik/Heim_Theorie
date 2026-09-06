@@ -34,8 +34,15 @@ Schale. Pruefgrenze: folgt die pauschale Aussage schon aus Lorentzinvarianz?
 
 ## Abschlussnachweise
 
-- [ ] A_-/Energie-Quellenanker visuell geprueft, Herleitung/Annahme getrennt.
-- [ ] Weitere Autorenpublikationen und begrenzte negative Suche dokumentiert.
-- [ ] Exakter Boost-/Geometrienachweis plus Tests und unabhaengige Review.
-- [ ] Warum-Bilanz: direkter Quellenwortlaut, Interpretation, verbleibende Luecke.
-- [ ] Bericht, Wiedereinstieg, Checkpoint und Abschluss gesichert.
+- [x] A_-/Energie-Quellenanker visuell geprueft, Herleitung/Annahme getrennt.
+- [x] Weitere Autorenpublikationen und begrenzte negative Suche dokumentiert.
+- [x] Exakter Boost-/Geometrienachweis plus Tests und unabhaengige Review.
+- [x] Warum-Bilanz: direkter Quellenwortlaut, Interpretation, verbleibende Luecke.
+- [x] Bericht, Wiedereinstieg und Zwischencheckpoint gesichert.
+
+Abschluss: Bericht `06_docs/AUTHOR_RATIONALE_2026-09-06.md`, drei Reviews,
+56 Tests. Neuer positiver Fund: datiertes Manuskript1981; eigene Version
+mit Integrationskonstante A und Y, nicht still in Buchprofil uebernommen.
+Neue Quellen H011/H012 mit SHA256, lokalem Pfad, URL und Suchumfang erfasst.
+Plan cd5cd0b, Zwischencheckpoint b34ba7d gepusht. Abschlusscommit-Nachricht:
+`Complete reviewed author rationale and invariance findings`.

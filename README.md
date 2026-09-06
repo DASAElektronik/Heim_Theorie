@@ -62,6 +62,15 @@ h/p und zeigt den Einfluss dieser Annahmen auf die Alpha-Gleichung.
 44 Tests bestehen; unabhaengige Reviews abgeschlossen. Keine fertig begruendete
 Alternativtheorie: Kinematik, Kreisgeometrie und Energiezuordnung bleiben offen.
 
+Die fuenfte Etappe findet Heims eigene Motivation: Lorentz-/Wellenargument
+fuer pc sowie die bekannte Alpha-Abweichung und das duale Elektronenbild
+fuer die Bindungskorrektur. [Warum-Bilanz](06_docs/AUTHOR_RATIONALE_2026-09-06.md)
+trennt Motivation von fehlenden Herleitungsschritten. Exakte Boostdiagnosen
+und ein neuer lokaler Matrixdruck-Befund sind unabhaengig geprueft;56 Tests.
+Eine auf21.12.1981 datierte Manuskriptfassung liefert einen weiteren
+direkten Beleg fuer die Motivation; ihre Unterschiede zur Buchfassung
+und die Grenzen der Scan-Provenienz bleiben ausdruecklich dokumentiert.
+
 Wir bauen zuerst eine Formelbibliothek unter `04_reconstruction/formula_library/`.
 Jede Formel bekommt eine ID, Quelle, Status, Abhaengigkeiten, Outputs und Audit-Risiken.
 Erst wenn eine Formel `source_checked` und `normalized` ist, soll sie implementiert werden.

@@ -25,16 +25,23 @@ Ergebnis; sie werden nicht als stillschweigende Definitionen behandelt.
 
 ## Naechste begrenzte Arbeitseinheit
 
-1. A_--Matrix aus BandI Druck12/21 mit einem expliziten Transformationsfall
-   auswerten; invariante Gleichungsform von invariantem Zahlenwert trennen.
-2. Anschluss von E_k=pc an Energie-/Arbeitsbilanz im Quellenmodell pruefen.
-   Die pc/T-Unterscheidung wurde bereits quantitativ und quellenbezogen geklaert.
-3. Kreismeridian, Bezugssystem, Gleichzeitigkeit und Wellenzuordnung benennen;
-   die photonische Kreiswelle nicht unbelegt als Elektronenwelle uebernehmen.
-4. Danach Voraussetzungen von L*Delta=k und Auswahlbegrenzung(98a) verfolgen.
-5. Quellen-/Mathematikreview, offene Alternativen und Checkpoint.
+1. Aus II Druck276/277,297-301 und Manuskript1981 Seiten1-5 ein explizites
+   H-Wellenproblem rekonstruieren: Variable, Wellentyp, Radius, Randbedingungen
+   und Bezugssystem. Fehlt ein Schritt, als fehlend markieren.
+2. Ein-Wellenlaengen-Auswahl, c/lambda und Meridianregel darauf beziehen;
+   keine passende moderne Atomgleichung ohne Quellbruecke hineinlesen.
+3. Anschluss von E_k=pc an die Energie-/Arbeitsbilanz weiter offen fuehren;
+   Skalar/Form-Unterscheidung und statische Kreisdiagnose sind abgeschlossen.
+4. Eigenstaendiger Quellenvergleich: Manuskript p5 A=4C/freie
+   Integrationskonstante/Y gegen Buchfassung/Y3; keine identische
+   Parameterfreiheit oder Normalisierung voraussetzen. Fruehere Ausgabe
+   oder Erratum zum I-p21-Matrixblock suchen, falls zugaenglich.
+5. Danach Voraussetzungen von L*Delta=k und Auswahlbegrenzung(98a) verfolgen;
+   Quellen-/Mathematikreview und Checkpoint je begrenzter Einheit.
 
-Abgeschlossene Etappe4: `06_docs/ENERGY_KINEMATICS_2026-09-06.md`.
+Abgeschlossene Etappe5: `06_docs/AUTHOR_RATIONALE_2026-09-06.md`.
+Heims Motivation wurde gefunden, auch in einer auf1981 datierten
+Manuskriptfassung; die konkrete physikalische Schliessung bleibt offen.
 Die Quelle benutzt wiederholt pc; eine lokale Vorzeichenreparatur allein
 begruendet weder diesen Energieansatz noch die Kreiswellenkonstruktion.
 

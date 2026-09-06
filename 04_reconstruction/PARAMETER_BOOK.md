@@ -34,6 +34,18 @@ sind in `alpha_audit/BOOK_ENERGY_ORDER_ISSUE.md` gesondert ausgewiesen.
 
 ## Kontinuierliche Konstanten
 
+Etappe5: Eigener Beispielboost b=3/5 bedeutet Relativgeschwindigkeit von
+Bezugssystemen, nicht eine neue Quellen-alpha-Kalibrierung. Exakte rationale
+Boostfaktoren sind eine Softwarebeschraenkung fuer Lehrbeispiele, keine
+physikalische Auswahl. Source-p21-Matrix und Standardreferenz bleiben
+verschiedene Profile; EC-MATRIX-01 waere eine diskrete eigene Aenderung,
+wird jedoch nicht in die Quellen oder Alpha-Rechnung eingesetzt.
+
+Neue Quellenfrage, noch nicht normalisiert: Manuskript1981 H011 p5 erwaegt
+A=4C unter Hinweis auf die frei verfuegbare Integrationskonstante A und
+schreibt Y. Nicht automatisch dieselbe Freiheit wie Buch-Y3 oder ein
+nachgewiesener numerischer Fit. Erst den Versionsvergleich durchfuehren.
+
 Etappe4: `audit_energy_kinematics.py` hat keine angepassten Parameter.
 Y3=1 ist die unveraenderte Quellenspezialisierung, nicht neu bestimmt.
 Zwei diskrete diagnostische Aenderungen werden sichtbar getrennt: pc durch

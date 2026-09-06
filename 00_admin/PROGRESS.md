@@ -1,5 +1,31 @@
 # Fortschritt
 
+## 2026-09-06 - Fuenfte Etappe: Heims Warum und Invarianz
+
+- Eigene Motivation auf II276/277 gefunden: bekannte Alpha'-Abweichung,
+  als richtig angenommener Ladungswert, Bindungs-Internstruktur als Ursache;
+  Quantendualismus motiviert die Elektronen-Kreiswelle.
+- Zusaetzlicher Autorenfund: datiertes/unterzeichnetes Manuskript1981,
+  Magnetfeld und Drehimpulsdichte, p1-5 mit derselben Kernkette. H011/H012
+  aufgenommen, URLs/Hashes/Pruefumfang dauerhaft dokumentiert. Kein
+  verifizierter Journalstatus, keine lueckenlose Nachlassrecherche.
+- Manuskript p5: A=4C mit freier Integrationskonstante, Y statt Buch-Y3;
+  Versionen nicht gleichgesetzt, kein stiller Austausch von Recheninputs.
+- A_-/pc-Quellenkette rekonstruiert. Motivation ist nicht Herleitung des
+  konkreten Wellenproblems, der Energiearbeitszuordnung oder Meridianregel.
+- Exakte Fraction-Diagnosen trennen Skalar von Gleichungsform; passive
+  Boosts und simultaner statischer Kreis -> Ellipse mit strikten Schranken.
+- Neuer lokaler Matrixkonflikt I21/PDF29 unter gewoehnlicher komplexer
+  Trigonometrie; Vergleich I56/PDF63 ist Kontexthinweis, kein Erratum.
+  Eigene Variante EC-MATRIX-01 getrennt, Original unveraendert.
+-12 neue Tests,56 insgesamt; unabhaengige Quellen-, Such- und Mathematik-
+  reviews abgeschlossen. Register46:44 resolved,2 historische Massenblocker.
+- Alte vier Rechner/Snapshots unveraendert. Plan cd5cd0b und Checkpoint
+  b34ba7d gepusht; Abschlusscommit-Nachricht:
+  `Complete reviewed author rationale and invariance findings`.
+- Naechste begrenzte Einheit: H-Wellenproblem/Randbedingungen und
+  Versionsunterschied A=4C nachvollziehen. Moderne Gegenbelege spaeter.
+
 ## 2026-09-06 - Vierte Etappe: Energie-/Wellenlaengenbegriffe
 
 - Quellanker fuer E=pc, Transversalmasse und drei Wellenkontexte visuell

@@ -18,7 +18,12 @@ alpha audit is executable; it does not implement the complete mass spectrum.
 Gate result: the isolated ALPHA audit is scoped by `NORM-ALPHA-AUDIT-001`.
 Full mass reconstruction remains blocked and lacks complete dependency coverage;
 closing the two listed blockers alone would not establish implementation readiness.
-Decision register: 43 resolved, two blocked (45 total).
+Decision register: 44 resolved, two blocked (46 total).
+
+Fifth-stage addition: `NORM-LORENTZ-MEANING-001` scopes exact rational
+boost, simultaneity and source-literal matrix diagnostics. The local
+p21 matrix issue is separately documented, not counted among the two
+old mass-catalog blockers. No original matrix or alpha profile is repaired.
 
 Fourth-stage addition: `NORM-ENERGY-KINEMATICS-001` scopes the conditional
 pc/T and wavelength comparisons, with an independently reviewed calculator.

@@ -19,6 +19,11 @@ IGW-Ueberlieferung2002/2003 eines berichteten Manuskripts1989, nicht um dessen
 verifiziertes Faksimile. Editions-/Messwertprovenienz und weitere Fundstellen:
 `04_reconstruction/alpha_audit/reviews/EXTERNAL_SOURCE_REVIEW_2026-09-06.md`.
 
+Etappe5: H002/H005 gezielt nach Autorenbegruendung durchsucht; H011/H012
+neu aufgenommen. Dateihashes und enger Pruefumfang:
+`03_notes/AUTHOR_RATIONALE_SOURCES_2026-09-06.md`. Dies ist weiterhin keine
+Gesamtvalidierung der Quellen oder der darin behaupteten Physik.
+
 ## Heim-nahe Quellen
 
 | ID | Typ | Titel / Inhalt | URL | Status |
@@ -33,6 +38,8 @@ verifiziertes Faksimile. Editions-/Messwertprovenienz und weitere Fundstellen:
 | H008 | Spreadsheet | `Heim_1989_Massenformel_0.4.xlsm` | https://burkhardheim.de/assets/Heim_1989_Massenformel_0.4.xlsm | zu pruefen |
 | H009 | ZIP / Implementierung | `massformula89.zip` | https://burkhardheim.de/assets/massformula89.zip | zu pruefen |
 | H010 | ZIP / Implementierung | `massformula.zip` | https://burkhardheim.de/assets/massformula.zip | zu pruefen |
+| H011 | Datierter Autorenmanuskript-Scan | Magnetfeld und Drehimpulsdichte, datiert 21.12.1981; moderner Dateiname M0042 | https://heim-theory.com/wp-content/uploads/2025/10/M0042-Magnetfeld-und-Drehimpuls-B-Heim-1981.pdf | Motivation/H-Kette eng geprueft; keine bestaetigte Journalpublikation |
+| H012 | Buch mit getrennten Autorschichten | Heim/Droescher/Resch: Einfuehrung in Burkhard Heim,1998 | https://heim-theory.com/wp-content/uploads/2025/09/Burkhard-Heim-1998-Einfuehrung-Einheitliche-Beschreibung-der-Welt.pdf | Autorschicht/Register/H-Alpha-Zusammenfassung eng geprueft |
 
 ## Einordnung und Rekonstruktion
 

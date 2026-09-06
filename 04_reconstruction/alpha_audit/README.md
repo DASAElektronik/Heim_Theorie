@@ -3,7 +3,22 @@
 Isolierter, reproduzierbarer Konsistenztest der 1982/1989-Alpha-Bloecke in den
 lokalen IGW-Wiedergaben. Python >= 3.10; nur Standardbibliothek erforderlich.
 
-## Vierte Etappe: Energie und Wellenlaenge (aktueller Stand)
+## Fuenfte Etappe: Autorenbegruendung und Invarianz (aktueller Stand)
+
+```powershell
+py -3.13 scripts/audit_lorentz_meaning.py --check --verify-sources
+py -3.13 -m unittest discover -s tests -q
+```
+
+56 Tests insgesamt, davon12 neue exakte Bruchrechnungen. Standardboost,
+statischer Kreis und source-literale p21-Matrix strikt getrennt. Keine
+Rekonstruktion einer rotierenden Heim-Schale und keine Quellenkorrektur.
+`--write` erneuert nur `05_analysis/lorentz_meaning_diagnostics.json`.
+Warum-/Suchbericht: `06_docs/AUTHOR_RATIONALE_2026-09-06.md`.
+Die Quellenoption benoetigt auch den lokalen Einstein1905-Referenzscan;
+ohne PDFs ist die Rechnung mit `--check` weiterhin reproduzierbar.
+
+## Vierte Etappe: Energie und Wellenlaenge
 
 ```powershell
 py -3.13 scripts/audit_energy_kinematics.py --check --verify-sources

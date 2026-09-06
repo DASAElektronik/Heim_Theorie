@@ -10,6 +10,17 @@ Ein Teilchenbeschleuniger oder Detektor-Rohdaten sind erst relevant, wenn die Th
 
 ## Aktueller Stand 2026-09-06
 
+Etappe5: `AUTHOR_RATIONALE_2026-09-06.md` dokumentiert gefundene eigene
+Motivationen Heims und die Grenzen der Ableitung. pc, Forminvarianz und
+Skalarinvarianz getrennt; bekannte Alpha-Abweichung und duale Kreiswelle
+bereits an EDM2 Druck276/277 belegt. Exakte eigene Diagnosen,56 Tests,
+lokalen p21-Matrixdruckkonflikt separat dokumentiert. Naechster Einstieg:
+ein explizites Wellen-/Randwertproblem hinter dem H-Grundzustandsansatz.
+Neu gefundenes Manuskript1981 belegt den Motivations-/Formelkern bereits
+in einer frueher datierten Fassung; erwogenes A=4C/freie Integrationskonstante
+und Y bleiben als noch nicht normalisierte Versionsunterschiede kenntlich.
+Die nachfolgenden Etappen sind Verlauf, kein jeweils aktueller Auftrag.
+
 Die vierte Etappe ist in `ENERGY_KINEMATICS_2026-09-06.md` erklaert.
 44 Tests bestehen. Quellenanker fuer pc, Transversalmasse, deBroglie,
 Compton-artige Laenge und photonische/Elektronen-Kreiswelle sind getrennt.

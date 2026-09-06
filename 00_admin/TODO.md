@@ -13,8 +13,13 @@
 - [x] Neuen Energieordnungs-Konflikt quellenseitig und algebraisch gegenpruefen.
 - [x] Energie-/Masse-/Wellenlaengenbegriffe vor(105) begrenzt zurueckverfolgen.
 - [x] pc/T und h/(mc)/h/p getrennt rechnen, Quellen-/Mathematikreviews sichern.
-- [ ] A_-, invariante Form versus Skalar und operative Energie-/Arbeitsbilanz.
-- [ ] Kreismeridian mit Bezugssystem/Gleichzeitigkeit und Wellenzuordnung klaeren.
+- [x] A_--Quellenanker, invariante Form versus Skalar und exakte Boostdiagnose.
+- [x] Heims eigene Motivation fuer Alpha-Korrektur/Kreiswelle lokalisieren.
+- [x] p21-Matrixdruck getrennt von p56-Kontext algebraisch gegenpruefen.
+- [ ] Operative Energie-/Arbeitszuordnung im vollstaendigen Quellenmodell.
+- [ ] H-Wellenproblem mit Randbedingungen, Kreisform und Wellenzuordnung.
+- [ ] Manuskript1981 p5: A=4C/freie Integrationskonstante/Y getrennt mit Buch/Y3 vergleichen.
+- [ ] Fruehere Ausgabe/Erratum zum p21-Matrixdruck suchen, falls zugaenglich.
 - [ ] Physikalische Begruendung L*Delta=k, Auswahl(98a), historischer Rechenweg.
 - [ ] Danach fehlende Massenabhaengigkeiten sowie B50 und Gamma/Q_N bearbeiten.
 - [ ] Verstaendnisbilanz vor breiter Recherche nach neueren Widerlegungen.

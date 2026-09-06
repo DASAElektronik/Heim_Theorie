@@ -2,7 +2,7 @@
 
 Aktualisiert: 2026-09-06.
 
-## Aktuell: fuenfte Etappe in Arbeit
+## Aktuell: fuenfte Etappe abgeschlossen
 
 Nutzer bestaetigt Fortsetzung und fragt nach Heims eigenem Warum; moeglicher
 blinder Fleck erst nach dokumentierter Suche. Plan `AUTHOR_RATIONALE_PLAN.md`.
@@ -11,7 +11,9 @@ breitere Autorensuche, unabhaengige Boostmathematik. Root implementiert nur
 explizite Diagnosen und integriert die Begruendungsbilanz. Keine moderne
 Widerlegungsliteratur als Ersatz; negative Suchbefunde nicht verallgemeinern.
 
-Etappe5 Zwischenstand: Plan cd5cd0b gepusht. Eigener Fraction-Rechner
+Etappe5: Plan cd5cd0b und Rechner-/Berichtcheckpoint b34ba7d gepusht.
+Abschlusscommit-Nachricht: `Complete reviewed author rationale and invariance findings`.
+Eigener Fraction-Rechner
 `scripts/audit_lorentz_meaning.py`, Snapshot und12 neue Tests (56 gesamt)
 laufen. Neue Motivation: EDM2 Druck276/277=PDF282/283 erklaert bekannte
 Alpha'-Abweichung -> angenommene interne Bindungsstruktur; duales Bild
@@ -19,10 +21,40 @@ als Elektronen-Kreiswelle lambda=2*pi*r. A_-Quelle I12/PDF20 behauptet
 Masse/Impuls -> E_Q=pc, keine explizite T-Abgrenzung. Neuer Matrixbefund
 I21/PDF29: unter normaler Trigonometrie/Transpose AAT !=I; I56/PDF63
 anderer R6-Block ohneextrai als Kontexthinweis. Keine stille Reparatur.
-Report `06_docs/AUTHOR_RATIONALE_2026-09-06.md` vorlaeufig; Autoren-Suchreview
-und Rechnerreview noch endgueltig integrieren. Alte Snapshots unveraendert.
+Report `06_docs/AUTHOR_RATIONALE_2026-09-06.md` und drei Reviews abgeschlossen;
+keine laufenden Agenten fuer den Wiedereinstieg erforderlich. Alte vier
+Rechner/Snapshots unveraendert. Register46:44 resolved,2 alte Massenblocker.
 
-## Aktuell: vierte Etappe abgeschlossen
+Wichtiger neuer Autorenfund: Manuskript Magnetfeld und Drehimpulsdichte,
+auf21.12.1981 datiert, mit Heim unterzeichnet. Seiten1/2 erklaeren die
+Bindungs-Internstruktur als Grund fuer die Alpha-Korrektur; Seite5 hat
+bereits den H-/pc-/Kreis-/Lorentz-Kern. Signatur/Datum visuell geprueft,
+keine forensische Echtheitspruefung oder nachgewiesene Journalpublikation.
+H011/H012 im Quellenregister; SHA256/URLs in
+`03_notes/AUTHOR_RATIONALE_SOURCES_2026-09-06.md`.
+ACHTUNG Versionsunterschied: Manuskript p5 nennt freie Integrationskonstante
+bei A=4C und Y; nicht still mit Buch/Y3 gleichsetzen. Noch kein neuer Input.
+
+Ergebnis: Motivation und Berufung auf Prinzipien belegt; exaktes H-Wellen-
+Randwertproblem, pc als Arbeitsanteil und gesamte Meridianverkuerzung nicht
+in den geprueften Quellen hergeleitet. Kein Allsatz ueber den Nachlass.
+Boosts unterscheiden Skalar und Gleichungsform; statischer Diagnosekreis
+wird Ellipse, ersetzt keine Heim-Schale. Literal-Matrixkonflikt bleibt
+separat; eigene Reparatur EC-MATRIX-01 nicht als Autorenabsicht ausgeben.
+
+Naechster aktueller Einstieg: explizites H-Wellenproblem aus II276/277,
+297-301 und Manuskript1-5 rekonstruieren (Variable, Welle, Randbedingungen,
+Radius und Bezugssystem). A=4C/Integrationsfreiheit als getrennte Version
+verfolgen; p21-Matrix in frueherer Ausgabe/Erratum suchen. Keine moderne
+passende Atomgleichung hineinschreiben, keine komplette Theorievalidierung.
+Die folgenden alten Einstiegsabschnitte sind Verlauf, nicht neue Prioritaet.
+
+```powershell
+py -3.13 scripts/audit_lorentz_meaning.py --check --verify-sources
+py -3.13 -m unittest discover -s tests -q
+```
+
+## Verlauf: vierte Etappe abgeschlossen
 
 Nutzer: "Ok sehr gut, ja dann machen wir weiter". Ausgangspunkt 4ee1e1f.
 Plan `ENERGY_KINEMATICS_PLAN.md`, Bericht

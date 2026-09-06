@@ -65,6 +65,12 @@ physikalisch motivierte Aenderung nicht aus.
 
 ## Nutzen fuer andere Projekte
 
+EC-MATRIX-01 (Etappe5): Entfernen der zwei zusaetzlichen i-Faktoren aus
+dem gedruckten EDM1-p21-Block waere eine eigene lokale Reparaturhypothese.
+Die andere R6-Matrix auf p56 liefert Kontext, aber keine Autorenkorrektur.
+`BOOK_LORENTZ_MATRIX_ISSUE.md` trennt alle Lesarten. Die neue Boostdiagnose
+uebernimmt keinen Fix in Heim und bestimmt keine neue Alpha-/Massenformel.
+
 Etappe4: `scripts/audit_energy_kinematics.py` zeigt den Einfluss von zwei
 diskreten Ersetzungen (pc durch T; danach h/(mc) durch h/p). Diese bleiben
 ungefittete Diagnosen, keine neuen physikalischen Erweiterungskandidaten.

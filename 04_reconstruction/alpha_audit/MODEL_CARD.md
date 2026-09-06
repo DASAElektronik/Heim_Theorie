@@ -43,6 +43,16 @@ right-hand factor cannot change the complementary-root identity.
 
 ## Constants and discrete choices
 
+Fifth-stage addition (2026-09-06): `audit_lorentz_meaning.py` uses exact
+Fraction arithmetic at preselected rational boosts, no experimental input.
+The passive real-coordinate reference, static-circle geometry and literal
+EDM1-p21 imaginary-time block are explicitly distinct. Rational-gamma
+restriction is numerical scope, not a physical selection rule. The p21
+orthogonality failure is conditional on ordinary complex trigonometry and
+transpose. Later p56 is contextual evidence, not a source-authorized repair.
+12 new tests and independent reviews passed;56 total. Physics and author
+intent are not inferred from software-test success.
+
 Fourth-stage addition (2026-09-06): `audit_energy_kinematics.py` is separate
 from the historical profiles. It uses the now source-checked book eta(q,k)
 chain, Y3=1 and mathematical pi for its illustrative small branch. Neither
