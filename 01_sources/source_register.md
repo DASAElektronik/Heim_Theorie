@@ -45,6 +45,11 @@ dokumentieren den Suchumfang. Gesamtwerke weiterhin nicht vollstaendig geprueft.
 
 ## Heim-nahe Quellen
 
+Etappe10: enger eta22-/Motivationscheck, H013/H014 und S005 neu lokal
+gesichert. Hashes, Datierungsgrenzen, gepruefte Seiten und Anhangvergleich:
+`03_notes/ETA22_SOURCE_PROVENANCE_2026-09-06.md`. Keine Gesamtvalidierung;
+kein Scan als das berichtete1989-Original identifiziert.
+
 | ID | Typ | Titel / Inhalt | URL | Status |
 |---|---|---|---|---|
 | H001 | Archiv / Quelle | burkhardheim.de Dateien-Uebersicht mit Heim-Unterlagen, DESY/Northeim-Unterlagen, Massenformel-Dateien und PDFs | https://burkhardheim.de/assets/index.php | gefunden |
@@ -59,6 +64,8 @@ dokumentieren den Suchumfang. Gesamtwerke weiterhin nicht vollstaendig geprueft.
 | H010 | ZIP / Implementierung | `massformula.zip` | https://burkhardheim.de/assets/massformula.zip | zu pruefen |
 | H011 | Datierter Autorenmanuskript-Scan | Magnetfeld und Drehimpulsdichte, datiert 21.12.1981; moderner Dateiname M0042 | https://heim-theory.com/wp-content/uploads/2025/10/M0042-Magnetfeld-und-Drehimpuls-B-Heim-1981.pdf | Motivation/H-Kette eng geprueft; keine bestaetigte Journalpublikation |
 | H012 | Buch mit getrennten Autorschichten | Heim/Droescher/Resch: Einfuehrung in Burkhard Heim,1998 | https://heim-theory.com/wp-content/uploads/2025/09/Burkhard-Heim-1998-Einfuehrung-Einheitliche-Beschreibung-der-Welt.pdf | Autorschicht/Register/H-Alpha-Zusammenfassung eng geprueft |
+| H013 | Autorbezeichneter Typoskriptscan, undatiert | Heim: Ausgewaehlte Ergebnisse einer einheitlichen Quantenfeldtheorie der Materie und Gravitation, J0033-b,61 PDF-Seiten | https://heim-theory.com/wp-content/uploads/2026/07/J0033-Heim_Ausgewaehlte-Ergebnisse-b.pdf | Motivation/H-Alpha und AnhangB eng geprueft; kein nachgewiesenes1989-Faksimile |
+| H014 | Autorbezeichneter Typoskriptscan, undatiert | Gleichnamige Fassung J0032-a,50 PDF-Seiten, andere Paginierung | https://heim-theory.com/wp-content/uploads/2026/07/J0032-Heim_Ausgewaehlte-Ergebnisse-a.pdf | Titel/AnhangB und Navigationsseiten eng geprueft; keine gesicherte Chronologie |
 
 ## Einordnung und Rekonstruktion
 
@@ -68,6 +75,7 @@ dokumentieren den Suchumfang. Gesamtwerke weiterhin nicht vollstaendig geprueft.
 | S002 | Sekundaer / Massenformel | Heim's Provisional Mass Formula | https://heim-theory.com/?page_id=195 | gefunden |
 | S003 | Sekundaer / Datadiwan | Elementary Structures of Matter summary | https://www.datadiwan.de/heim/he_002e_.htm | gefunden |
 | S004 | Sekundaer / Protosimplex | Protosimplex ueber Burkhard Heim | https://www.engon.de/protosimplex/px_heimd.htm | gefunden |
+| S005 | Herausgeberrekonstruktion, nicht Heim-Urschrift | I. von Ludwiger/K. Gruener: Zur Herleitung der Heimschen Massenformel, Kapitel D, IGW2003 | https://heim-theory.com/wp-content/uploads/2026/03/D_Zur_Herleitung_Der_Heimschen_Massenformel.pdf | Druck59-61 visuell geprueft; direkte Quelle fuer damaligen Kenntnisstand der Herausgeber |
 
 ## Messdaten und Referenzen
 

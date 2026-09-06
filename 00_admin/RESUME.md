@@ -16,6 +16,17 @@ ist Autorenmotivation/Quellkette, nicht erneute komplette Alpha-Zahlensuche.
 Mathematisch berechenbarer Faktor bedeutet nicht automatisch einen
 physikalisch realisierten Zustand (q,k)=(2,2). Alte Befunde erhalten.
 
+Zwischenstand Etappe10: drei erste Reviews vorhanden, Alpha-Versionreview
+und Autorenreview erhalten gerade eng begrenzte Nachtraege. Root hat
+S005 KapitelD59-61 geprueft: Herausgeber erklaeren auf61 fehlende theoretische
+Entwicklung der weiteren1989-Korrektur. Neue undatierte Scans H013/J0033
+und H014/J0032: AnhangB eta22=0,84242385 (Druck54/PDF57 bzw.Druck41/PDF48).
+Kein1989-Original identifiziert. H013 erklaert freie/gebundene Elektron-
+Struktur als Motiv. Provenienznotiz ETA22_SOURCE_PROVENANCE liegt vor.
+Mathematikreview reproduziert eta22 und C_prime mit80/120Stellen ueber
+unabhaengiges Machin-pi und alte reineAPI; keine neuen Rechner/Snapshots.
+Als naechstes Synthesebericht, Zusammenhangskarte/Register und Regressionen.
+
 ## Verlauf: neunte Etappe abgeschlossen
 
 Ausgangscommit 9cdd7cf auf `normalization-review`, erfolgreich gepusht.
