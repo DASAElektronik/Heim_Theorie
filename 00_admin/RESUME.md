@@ -2,7 +2,14 @@
 
 Aktualisiert: 2026-09-06.
 
-## Aktuell: fuenfzehnte Etappe abgeschlossen
+## Aktuell: sechzehnte Etappe in Arbeit
+
+Ausgang 7a00e46. N0_INPUT_PLAN.md: H006-Elektroninput suchen,
+W_vx/W_nu_x-Bruecke gezielt pruefen und aktive Eingaben unabhaengig
+gegenlesen. Drei neue N0-Reviews entstehen. Keine fremden Programme
+ausfuehren; 0110 bleibt Konfiguration, nicht Besetzung.
+
+## Verlauf: fuenfzehnte Etappe abgeschlossen
 
 Ausgang bfdb806. Plancheckpoint 4859317 gepusht.
 Abschlusscommit-Nachricht: `Complete understanding balance and H006 N0 input handoff`.
