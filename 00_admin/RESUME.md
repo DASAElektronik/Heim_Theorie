@@ -2,7 +2,18 @@
 
 Aktualisiert: 2026-09-06.
 
-## Aktuell: fuenfte Etappe abgeschlossen
+## Aktuell: sechste Etappe in Arbeit
+
+Ausgangscommit 4155762. Nutzer moechte moegliche Luecken begruendet schliessen,
+neu rechnen und auch negative Ergebnisse offen veroeffentlichen. Kein
+vorweggenommenes Urteil; keine externe Publikation jetzt beauftragt.
+Plan `WAVE_CLOSURE_PLAN.md`: H-Wellen-/Randwertproblem, getrennte eigene
+skalare Ringdiagnose, Phase/Energie/Impuls und Manuskript/Buch-Schliessung.
+Drei Agenten: Wellenquelle, Versionsvergleich, unabhaengige Mathematik.
+Alte fuenf Rechner/Snapshots unveraendert lassen; kein Messwertfit.
+Eine zusaetzliche Annahme schliesst die Originalherleitung nicht rueckwirkend.
+
+## Verlauf: fuenfte Etappe abgeschlossen
 
 Nutzer bestaetigt Fortsetzung und fragt nach Heims eigenem Warum; moeglicher
 blinder Fleck erst nach dokumentierter Suche. Plan `AUTHOR_RATIONALE_PLAN.md`.
