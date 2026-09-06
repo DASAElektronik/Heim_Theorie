@@ -75,6 +75,17 @@ keine Pruefung aller dort behaupteten Massen oder Lebensdauern.
 Nicht alle 61 Seiten gelesen: kein Nachlass- oder Gesamttext-Negativbefund.
 Der separat dokumentierte Agentensuchumfang steht im ETA22_RATIONALE-Review.
 
+Gezielte Fortsetzung: Agent hat PDF13-22 vollstaendig visuell gelesen,
+Main zusaetzlich PDF13/15/17/18 und Tabelle I/PDF50 gegengelesen.
+PDF13/Druck12 definiert q=abs(q_l); PDF15/Druck14 hat die exakte
+Familiengleichung (7a) und vartheta_qk (7b); PDF18/Druck17 definiert
+epsilon=+/-1. Tabelle I Druck47/PDF50 hat in der zweifach positiv geladenen
+Delta-Zeile k=2 und epsilon*q_l=2, somit q=2. Dies belegt eine konkrete
+tabellierte (2,2)-Konfiguration in H013, nicht ihre physikalische
+Bestaetigung und nicht ihre Ursache-/Zwischenzustandsrolle in Alpha/B59.
+Die fruehe engere Aussage nur ueber H007 darf nicht auf alle Quellen
+verallgemeinert werden. Datierung/Abfolge und Verhaeltnis zu Buch(98a) offen.
+
 ## H014: passender Anhangverweis, keine gesicherte Chronologie
 
 Vollstaendig visuell gelesen: PDF1,41,43,45,47-50.
@@ -82,7 +93,8 @@ Anhang B steht auf Druck41/PDF48 und enthaelt ebenfalls eta22=0,84242385.
 Hier passt die Seitenzahl41 zum Fussnotenwortlaut auf H013 Druck10.
 In H013 steht derselbe Tabellentyp dagegen auf Druck54/PDF57.
 
-Das ist ein konkreter Hinweis auf uebernommene/verschiedene Paginierungen,
+Das ist ein konkreter Hinweis auf einen gemeinsamen Text-/Versionszusammenhang
+bei verschiedener Paginierung,
 kein Beweis, wann und durch wen die Fassungen geaendert wurden. Die
 Fussnote verweist auf numerische Tabellen; sie verspricht dort keine
 gesonderte physikalische Herleitung der Alpha-Korrektur.
@@ -90,7 +102,9 @@ gesonderte physikalische Herleitung der Alpha-Korrektur.
 Die gerundete eta22-Tabellenzahl beider Scans stimmt mit der unabhaengigen
 Definitionauswertung 0,842423846102... ueberein. Damit ist eta22 nicht
 allein in der spaeteren IGW-Schrift belegt. Die besondere Verwendung in
-B59 und die Bedeutung als physischer Zustand folgen nicht aus der Tabelle.
+B59 und die Bedeutung als physischer Zustand folgen nicht aus dieser
+Konstantentabelle allein. Der separate positive Zustandsanschluss ueber
+H013 Tabelle I und q-Definition ist im Nachtrag oben dokumentiert.
 
 ## Technischer und bibliographischer Suchumfang
 

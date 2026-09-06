@@ -21,7 +21,11 @@ quellenbelegt sein, ohne dass ihre physikalische Richtigkeit bewiesen ist.
 | Empirische Elektron-/Proton-Zuordnung | II263/264 und295/296 | (q,k)=(1,1),(1,2) | Quellenbelegt, induktiv/heuristisch begruendet |
 | Diese beiden Paare | II299-302: eta_11,eta_12 -> A_1,A_2 | Buch-Alpha(105) | Konkrete Verwendung belegt; beide bestehen B-Auswahl |
 | Korrelation/Welle/Arbeitsbilanz | II299-302, bisherige Etappen | Vollstaendige physikalische Alpha-Herleitung | Mehrere getrennte offene Begruendungen |
-| eta_22 im1989-Rechenprofil | Andere Formelversion und Korrektur C_prime |1989-Alpha | Nicht still mit Buch(98a) beschraenken; Anwendbarkeit offen |
+| Undatiertes Autorentyposkript H013 | (7a), q=abs(q_l), TabelleI Delta-Zeile k2/epsilon*q_l2 | eta22 als konkreter tabellierter (2,2)-Familienwert | Definition und Tabellenbelegung belegt, keine physikalische Validierung |
+| eta22-Konstantentabellen H013/H014 | AnhangB Druck54 bzw.41 | eta22=0,84242385 | Direkte Tabellenreproduktion, Fassungsdatierung offen |
+| eta22 in H007 | B47 Existenzzeit, B55 b2, B59 C_prime | Wiederholt verwendete Formelkonstante | Kein Beleg, dass der Delta-Zustand die Alpha-Korrektur verursacht |
+| Freies gegen gebundenes Elektron | H013 Druck11/PDF12 und H011/1981 | Motiv einer Strukturkorrektur | Autorenmotiv belegt, spezielle Form C_prime nicht hergeleitet |
+| eta_22 im1989-Rechenprofil | Andere Formelversion und Korrektur C_prime |1989-Alpha | Wert/Algebra reproduziert; Buch(98a)-Anwendbarkeit und spezielle Begruendung offen |
 
 Das ist kein linearer Beweis, dass aus k oder q alleine Alpha folgt.
 Gerade die verschiedenen Eingangsvoraussetzungen muessen erhalten bleiben.
@@ -39,7 +43,8 @@ Die Kurzform k_max=2,q_max=3 ist auch kein kartesisches Produkt aller Paare.
 | Richtungen und B/D-Unterschied | Unter den gedruckten Definitionen lokal unvereinbar | Belegte Konventionsaenderung, andere Ausgabe oder autorisiertes Erratum |
 | u_2-Druckbereich | Gedruckte Funktion ergibt1.963489..., nicht2..3 | Belegbar andere beabsichtigte Funktion oder historische Rechenunterlagen; nicht durch Alpha-Zielwerte waehlen |
 | Vollstaendige Auswahl aller Zustaende | Einzelne B-Bedingung liefert vier Paare | Alle weiteren Zustandsbedingungen mit denselben Bedeutungen und derselben Version |
-|1989 eta_22 | Faktor in separater Alpha-Fassung | Nachweis, ob1989 dieselbe Auswahl und eine reale Zustandsbedeutung beansprucht |
+|1989 eta_22 und H013-Zustand | H013 tabelliert konkret (2,2), H007 gebraucht eta22 dreifach; S00561 benennt fehlende C_prime-Entwicklung | Begruendung, weshalb gerade dieser Faktor in B59 eingeht; Zustandsbelegung allein erklaert keine Ursache |
+| H013 Delta-Zeile gegen Buch(98a) | H013 q2/k2 tabelliert, einzelne Buch-B-Schranke schliesst dieses Paar aus | Geltungsbereich, Zustandsart und Fassungsfolge pruefen; gleiche Indizes sind noch keine bewiesene Versionsgleichheit |
 | H-Welle und Flussaggregat | Bedingte w_f=c-Bruecke vorhanden | Explizite Objekt-, Phasen- und Bezugssystemzuordnung; dann alte Wellendiagnosen erneut pruefen |
 | C und Y3 | C=P und Y3=1 mit P=A1*A2 berechenbar, nicht vollstaendig unabhaengig begruendet | Neue Normierungs-/Randbedingung mit Bezug auf dasselbe C, nicht auf ein gleichnamiges Symbol |
 | pc als Arbeitsanteil | Wiederholt verwendet, operative Zuordnung offen | Explizite Arbeits-/Messvorschrift im H-Modell |
@@ -55,5 +60,12 @@ FIND-015 wird durch die jetzt geprueften Rueckverweise nicht aufgeloest;
 der Exponentenkoeffizient wird im skalaren Abbild bedingt reproduziert.
 Unser Extremumsgegenbeispiel
 gilt nur fuer die ausdruecklich skalare Abbildung, nicht ungeprueft fuer
-die metronische Theorie. Naechster bereits geplanter Anschluss: 1989 eta22,
-danach B50/Gamma-Q_N und Verstaendnisbilanz.
+die metronische Theorie.
+
+Etappe10: ETA22_CONTEXT_2026-09-06.md schliesst Definition, Tabellenwert
+und den konkreten H013-Zustandsanschluss. Drei Reviews, unveraenderte
+acht Rechner/Snapshots und98 Tests. Die neue Zustandsbelegung praezisiert
+die fruehe reine H007-Offenheitsbilanz; sie schliesst B59 nicht.
+Naechster konkreter Anschluss: H013-Delta/Auswahlregeln gegen Buch(98a),
+danach eta22 in B47/B55 samt Autorenfassungen. B50/Gamma-Q_N und
+Verstaendnisbilanz bleiben anschliessend geplant.

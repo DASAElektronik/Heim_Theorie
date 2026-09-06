@@ -209,7 +209,7 @@
       "not_established": "Kein vollstaendiger physikalischer Zustandskatalog; kein Schluss fuer alle reellen q>4; kein automatischer Ausschluss der1989-Formel mit eta22 und keine Aenderung alter Rechenprofile.",
       "evidence_paths": ["06_docs/CONFIGURATION_SELECTION_2026-09-06.md", "05_analysis/configuration_selection_diagnostics.json", "04_reconstruction/alpha_audit/reviews/CONFIGURATION_SELECTION_MATH_REVIEW_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/CONFIGURATION_DEPENDENCY_REVIEW_2026-09-06.md"],
       "reproduction": "py -3.13 scripts/audit_configuration_selection.py --check --verify-sources; unabhaengige Decimal-Rechnung; rationaler q>=5-Ausschluss im Bericht und Tests.",
-      "next_check": "Historische Rechenunterlagen und Versionsgeltung von(98a) fuer1989eta22 pruefen; analytischer Faktor und realisierter Zustand nicht gleichsetzen."
+      "next_check": "Etappe10/FIND-019 findet in H013 einen konkreten tabellierten Delta-Zustand q2/k2. Dessen Auswahlregeln, Zustandsart und Fassungsbeziehung zu Buch(98a) pruefen; weder die Buchschranke noch B59 still aendern. H007 allein belegt die Versionsgeltung weiterhin nicht."
     },
     {
       "finding_id": "FIND-017",
@@ -236,6 +236,32 @@
       "evidence_paths": ["06_docs/EXPONENTIAL_CONTEXT_2026-09-06.md", "05_analysis/exponential_context_diagnostics.json", "scripts/audit_exponential_context.py", "tests/test_exponential_context.py", "04_reconstruction/alpha_audit/reviews/EXPONENTIAL_SOURCE_REVIEW_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/EXPONENTIAL_MATH_REVIEW_2026-09-06.md"],
       "reproduction": "Exakte Fraction-Zertifikate: 5w^2-36w+55 hat Wurzeln 11/5 und5; Vorzeichen der logarithmischen Ableitung wechseln +,-,+. py -3.13 scripts/audit_exponential_context.py --check.",
       "next_check": "Metronische Eigenwert-/Extremwertregel und explizite Randbedingung mit denselben Parametern pruefen; bei H(infinity)=0 muss diese Zusatzvoraussetzung offen genannt werden."
+    },
+    {
+      "finding_id": "FIND-019",
+      "kind": "positive_reproduction",
+      "claim": "Eta22 ist explizit definiert und ergibt0.842423846102...; H013/H014 tabellieren passend0.84242385. H013 verbindet q=abs(q_l), k2 und epsilon*q_l2 mit einer konkreten zweifach geladenen Delta-Tabellenzeile.",
+      "source_ids": ["H013", "H014", "H006", "H007"],
+      "source_locator": "H013 Druck12/PDF13 q, Druck14/PDF15 (7a), Druck17/PDF18 epsilon=+/-1, TabelleI Druck47/PDF50 und AnhangB Druck54/PDF57; H014 AnhangB Druck41/PDF48; H006(IX); H007 B47/B55/B59.",
+      "assumptions": "Autorenbezeichnete undatierte Typoskriptscans, keine gesicherte1989-Datierung; positive vierte Wurzel und mathematisches pi; q,k-Reihenfolge der expliziten Familiendefinition. Tabellenbelegung ist Quellenbehauptung, nicht beobachtete physikalische Realisierung.",
+      "scope": "Positive Definition-/Zahlen- und Zustandszuordnung. B59-C_prime=0.0000121011502138423... durch unabhaengige80/120-Stellen-Rechnung bestaetigt; kein freier Dezimalparameter bei fixierter Formel.",
+      "not_established": "Keine Herleitung des speziellen B59-Ausdrucks aus dem Delta-Zustand; keine automatische Uebernahme/Aufhebung von Buch(98a); keine zwei physikalischen Kanaele aus C_prime=C0+eta22*C0; keine Gesamtvalidierung der Tabelleneintraege.",
+      "evidence_paths": ["06_docs/ETA22_CONTEXT_2026-09-06.md", "03_notes/ETA22_SOURCE_PROVENANCE_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/ETA22_MATH_REVIEW_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/ETA22_VERSION_SOURCE_REVIEW_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/ETA22_RATIONALE_SOURCE_REVIEW_2026-09-06.md"],
+      "reproduction": "Eta22=[1+96/pi^4]^(-1/4); exakte Relation eta22^(-4)-1=16*(eta12^(-4)-1). Ausfuehrbarer unabh. Machin-pi-Code im Mathematikreview; reine equation_rhs-API bei80/120Stellen gegengeprueft, zusaetzlich Quellbilder.",
+      "next_check": "H013-Delta-Tabellenkonfiguration und Auswahlregeln mit Buch(98a) versionsgebunden vergleichen, dann eta22-Verwendung in B47/B55 und etwaige Autorenbegruendung verfolgen."
+    },
+    {
+      "finding_id": "FIND-020",
+      "kind": "open_justification",
+      "claim": "Heim motiviert eine Alpha-Strukturkorrektur durch die freie/gebundene Elektron-Situation; die spezielle C_prime-Form mit eta22 ist dadurch nicht hergeleitet. S00561 benennt die fehlende theoretische Entwicklung der weiter korrigierten1989-Formel ausdruecklich.",
+      "source_ids": ["H013", "H011", "H007", "S005"],
+      "source_locator": "H013 PDF2/3 Forschungsweg und Druck11/PDF12 Alpha-Motiv; H011/1981 p2; H007 Druck18/PDF9 B58/B59; S005 Druck59-61, (8.14)/(8.21) und erster Absatz61.",
+      "assumptions": "Autorenmotiv von Herausgeberrekonstruktion und eigener Synthese getrennt; S005 primaer nur fuer damaligen Kenntnisstand der Redaktion, nicht fuer eine unbekannte Urschrift. C_prime nicht mit C oder anderen C-Symbolen gleichgesetzt.",
+      "scope": "Begrenzte offene Herleitung der bestimmten B59-Struktur, kein neuer arithmetischer Fehler. Der gefundene Familien-/Tabellenwert schliesst eine kleinere Provenienzluecke, nicht diesen Begruendungsschritt.",
+      "not_established": "Kein Beweis, dass Heim nie eine Herleitung hatte oder dass sie im gesamten Nachlass fehlt; kein nachgewiesener Alpha-Fit; keine unveraenderte1989-Urschrift identifiziert; keine physikalische Korrekturwirkung eines Delta-Zwischenzustands bewiesen.",
+      "evidence_paths": ["06_docs/ETA22_CONTEXT_2026-09-06.md", "03_notes/ETA22_SOURCE_PROVENANCE_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/ETA22_RATIONALE_SOURCE_REVIEW_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/ETA22_VERSION_SOURCE_REVIEW_2026-09-06.md"],
+      "reproduction": "Vollseitenpruefung an den dokumentierten Autoren-/Herausgeberstellen; keine automatische Nichtexistenzpruefung. Buch-P_Buch nicht mit S005(8.14) gleichsetzen, dort ist eine andere eta-Potenz gedruckt.",
+      "next_check": "Explizite Dynamik-, Normierungs- oder Strukturrechnung fuer genau C_prime suchen; insbesondere verwandte B47/B55-Verwendungen und Autorenfassung. Neue eigene Ansaetze getrennt deklarieren und nicht rueckwirkend Heim zuschreiben."
     }
   ]
 }

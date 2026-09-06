@@ -2,30 +2,62 @@
 
 Aktualisiert: 2026-09-06.
 
-## Aktuell: zehnte Etappe in Arbeit
+## Aktuell: zehnte Etappe abgeschlossen
 
-Ausgangscommit 342841a, Nutzer: eta22 ergruenden und Heims Denkansaetze
-verstehen. Plan `ETA22_CONTEXT_PLAN.md`. Beauftragt: ETA22_VERSION_SOURCE,
-ETA22_RATIONALE_SOURCE und ETA22_MATH (jeweils 2026-09-06) als getrennte
-Reviews. Bestehende acht Rechner/Inputs/Snapshots bleiben unveraendert.
+Ausgangscommit342841a. Nutzer: eta22 ergruenden und Heims Denkansaetze
+verstehen. Plan ETA22_CONTEXT_PLAN erledigt. Plancheckpoint d713aed und
+Quellen-/Mathematikcheckpoint0202a4c erfolgreich gepusht. Abschlusscommit-
+Nachricht: Complete eta22 rationale, state evidence and research handoff.
+Drei ETA22-Reviews (2026-09-06) und Synthesegegenpruefung abgeschlossen;
+keine laufenden Agenten zum Fortsetzen noetig. Bericht:
+`06_docs/ETA22_CONTEXT_2026-09-06.md`.
 
-Root hat H007 PDF1/2/3/9 (Druck10/11/12/18) visuell gelesen: IGW2002/2003
-nach Manuskript, keine nachgewiesene direkte Urschrift; B59 eta22 real
-gedruckt. Rueckverweis Kapitel D/8.21 jetzt gezielt verfolgen. Gegenstand
-ist Autorenmotivation/Quellkette, nicht erneute komplette Alpha-Zahlensuche.
-Mathematisch berechenbarer Faktor bedeutet nicht automatisch einen
-physikalisch realisierten Zustand (q,k)=(2,2). Alte Befunde erhalten.
+- Eta(q,k)=[1+(4+k)*q^4/pi^4]^(-1/4), eta22=0.842423846102... .
+  Kein freier Zahlenparameter bei fixierter Formel; kein Beweis ihrer
+  physikalischen Notwendigkeit. C_prime=0.0000121011502138423...,
+  K_alpha=1-C_prime. Eigene C0-Zerlegung beweist keine zwei Kanaele.
+- H007 hat eta22 in B47, B55 und B59, keine explizite kausale
+  Zustandszuordnung dort. H006(IX) sichert q,k, V definiert eta/vartheta.
+  Fassung2002/2003 nach berichteter1989-Vorlage, keine Urschrift verifiziert.
+- Neue undatierte Autoren-Typoskriptscans H013/J0033 und H014/J0032:
+  Konstantentabelle eta22=0,84242385 (Druck54/PDF57 bzw.Druck41/PDF48).
+  H013 Fussnote AnhangB41 passt zu H014-Paginierung, keine Chronologie.
+- WICHTIGER spaeterer Quellenfund: H013 Druck12/PDF13 q=abs(q_l),
+  Druck14/PDF15 (7a) definiert eta_qk, Druck17/PDF18 epsilon=+/-1.
+  TabelleI Druck47/PDF50: zweifach positive Delta-Zeile k2,epsilon*q_l2.
+  Also konkrete TABELLENBELEGUNG q2/k2 vorhanden! Fruehe reine H007-
+  Offenheitsbilanz nicht mehr auf alle Quellen verallgemeinern. Kein
+  experimenteller Nachweis und keine Delta-Ursache der Alpha-Korrektur.
+- H013 PDF2/3 Struktur/Masse vor Wechselwirkungen; Druck11/PDF12
+  freie/gebundene Elektron-Innenstruktur als Korrekturmotiv. Kein B59-Beweis.
+- S005 KapitelD59-61 visuell geprueft: Herausgeber sagen auf61 selbst,
+  theoretische Entwicklung der weiteren Korrektur fehle. Quelle fuer
+  ihren damaligen Kenntnisstand, kein Nachlass-Nichtexistenzbeweis.
+  S005(8.14) hat eta^s,s=-eta/(4xi), nicht Buch-sqrt(eta); nicht vermischen.
 
-Zwischenstand Etappe10: drei erste Reviews vorhanden, Alpha-Versionreview
-und Autorenreview erhalten gerade eng begrenzte Nachtraege. Root hat
-S005 KapitelD59-61 geprueft: Herausgeber erklaeren auf61 fehlende theoretische
-Entwicklung der weiteren1989-Korrektur. Neue undatierte Scans H013/J0033
-und H014/J0032: AnhangB eta22=0,84242385 (Druck54/PDF57 bzw.Druck41/PDF48).
-Kein1989-Original identifiziert. H013 erklaert freie/gebundene Elektron-
-Struktur als Motiv. Provenienznotiz ETA22_SOURCE_PROVENANCE liegt vor.
-Mathematikreview reproduziert eta22 und C_prime mit80/120Stellen ueber
-unabhaengiges Machin-pi und alte reineAPI; keine neuen Rechner/Snapshots.
-Als naechstes Synthesebericht, Zusammenhangskarte/Register und Regressionen.
+Neue Quellen/URLs/Hashes und Inspektionsgrenzen:
+`03_notes/ETA22_SOURCE_PROVENANCE_2026-09-06.md`. Main hat relevante
+Vollseiten gegengelesen, auch H013 PDF13/15/17/18/50. Quellen bleiben lokal.
+Kein1989-Original identifiziert, Scandaten2012/Uploadpfade keine Datierung.
+
+Mathematikreview: Machin-pi statt Gauss-Legendre, rationalisierte Algebra,
+80/120Stellen, je12 API-Felder kontrolliert (max4e-80/1e-119). Main hat
+Review-Code separat ausgefuehrt. Acht alte Rechner/Inputs/Snapshots
+unveraendert, alle acht Snapshot-/verfuegbaren Quellchecks erfolgreich;
+98 Tests und Registervalidator bestehen.20 Befundgruppen (keine20 Fehler),
+FIND-019 positiv, FIND-020 offene spezielle C_prime-Herleitung; FIND-016
+mit neuem Pruefanlass. NORM49 unveraendert:47 resolved,2 alte Blocker.
+
+Naechster konkreter Anschluss: H013 Delta-q2/k2 und dortige Auswahlregeln
+gegen Buch(98a): Zustandsart/Geltung/Fassung unterscheiden, Datierung offen.
+Danach eta22 in B47/B55 und verwandten Autorenstellen auf Begruendung
+pruefen, nicht nur gleiche Symbole suchen. Anschliessend B50/Gamma-Q_N
+und Verstaendnisbilanz. Keine erneute ungezielte Index-/Zahlensuche,
+keine moderne Widerlegungsrecherche oder Hardwarearbeit in dieser Etappe.
+
+Nachpruefung: alle acht Befehle in scripts/README.md, ausserdem
+`py -3.13 scripts/validate_finding_register.py` und
+`py -3.13 -m unittest discover -s tests -q`.
 
 ## Verlauf: neunte Etappe abgeschlossen
 

@@ -30,8 +30,16 @@ Kanalbehauptungen. Keine Fits oder moderne empirische Widerlegungssuche.
 
 ## Abschlussnachweise
 
-- [ ] Definitions-/Versionskette und Quellstatus visuell gesichert.
-- [ ] eta22 und Korrekturfaktor unabhaengig nachgerechnet.
-- [ ] Heims Motivation, eigene Interpretation und offene Herleitung getrennt.
-- [ ] Bericht, Zusammenhangskarte, Register und Wiedereinstieg aktualisiert.
-- [ ] Bestehende Regressionen geprueft; Arbeitsstand committed und gepusht.
+- [x] Definitions-/Versionskette und Quellstatus visuell gesichert.
+- [x] eta22 und Korrekturfaktor unabhaengig nachgerechnet.
+- [x] Heims Motivation, eigene Interpretation und offene Herleitung getrennt.
+- [x] Bericht, Zusammenhangskarte, Register und Wiedereinstieg aktualisiert.
+- [x] Bestehende Regressionen geprueft; Sicherung im Abschlusscommit dieser Etappe.
+
+Abschluss: ETA22_CONTEXT_2026-09-06.md und drei Reviews. Neue Quellen
+H013/H014/S005; H013 hat explizite Definition und konkrete (2,2)-Delta-
+Tabellenbelegung, nicht deren kausale Alpha-Zuordnung. Keine neue
+Normalisierung und kein neuer Rechner.98 Tests und acht alte Snapshots
+bestaetigt;20 Befundgruppen, darunter positive Definition/Reproduktion.
+Plan d713aed und Quellen-/Mathematikcheckpoint0202a4c gepusht.
+Abschlusscommit-Nachricht: Complete eta22 rationale, state evidence and research handoff.

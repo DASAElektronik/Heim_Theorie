@@ -1,5 +1,13 @@
 # Quellenreview: `eta_(2,2)` in der erweiterten Massenformel 1989
 
+Synthesenachtrag Root: Die folgende enge H007-Negativaussage nicht auf
+alle Quellen ausdehnen. Im weiteren ETA22_RATIONALE-Review ist H013
+Druck12/PDF13 q=abs(q_l), Druck14/PDF15 (7a), Druck17/PDF18 epsilon=+/-1
+und TabelleI Druck47/PDF50 verbunden worden: Delta-Zeile k2 und
+epsilon*q_l2, also konkrete tabellierte (2,2)-Konfiguration. Main hat
+diese Seiten gegengelesen. Das liefert keinen Beleg, dass dieser Zustand
+die spezielle B59-Korrektur verursacht. Bericht ETA22_CONTEXT, Abschnitt5.
+
 Datum: 2026-09-06. Enger Quellen- und Versionscheck der IGW-Ueberlieferung
 H007. Ziel ist zu klaeren, was die Quelle selbst mit `eta_(2,2)` behauptet,
 nicht die Buchauswahl (98a) erneut numerisch zu pruefen oder aus einem

@@ -25,9 +25,11 @@ Ergebnis; sie werden nicht als stillschweigende Definitionen behandelt.
 
 ## Naechste begrenzte Arbeitseinheit
 
-1. Die1989-Verwendung eta22 getrennt auf Versionsgeltung/analytischen
-   Faktor versus realen Zustand pruefen. Buch(98a) nicht still uebertragen.
-2. Danach Massenblocker B50/Gamma-Q_N und Verstaendnisbilanz;
+1. Neuer Anschluss aus Etappe10: H013-Delta-Zeile q2/k2 und dortige
+   Auswahlregeln gegen den Buchkontext(98a) vergleichen, Datierung offen.
+   Gleiche Indizes nicht mit gleicher Geltung/realer Dynamik verwechseln.
+2. Danach eta22 in B47/B55 und Autorenfassungen auf konkrete Begruendung
+   pruefen; anschliessend Massenblocker B50/Gamma-Q_N und Verstaendnisbilanz;
    Quellen-/Mathematikreview und Checkpoint je begrenzter Einheit.
 3. Offene F/G-Normierung und metronische Extremumsregel nur bei konkreter
    Quellbruecke erneut aufnehmen; keine Wiederholung derselben Rueckverweise.
@@ -39,6 +41,13 @@ folgt dort nicht aus positiven Extremstellen allein; F/G-Einzeldefinitionen
 und Skalenbruecke fehlen im untersuchten Zusammenhang. Kein stiller
 Uebergang von diesem Befund auf alle metronischen Operatoren. FIND-015
 bleibt erhalten; 18 Befundgruppen, 98 Tests und acht Snapshots.
+
+Etappe10: ETA22_CONTEXT_2026-09-06.md und drei Quellen-/Mathematikreviews.
+Eta22-Definition, Zahl und konkrete H013-Tabellenbelegung (2,2) gefunden;
+Autorenmotiv freie/gebundene Struktur belegt, C_prime-Form weiterhin offen.
+S00561 belegt, dass die IGW-Herausgeber die weitergehende Herleitung
+selbst nicht vorliegen hatten. Kein Nachlass-weiter Nichtexistenzbeweis.
+Jetzt20 Befundgruppen, weiterhin98 Tests/acht unveraenderte Snapshots.
 
 Offene Seitenzweige: H-Wellen-/Flussobjektidentitaet, Phase/Frame, operative
 pc-Arbeitsbilanz und physikalische Meridianregel. Aus Etappe7 liegt jetzt
