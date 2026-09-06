@@ -2,7 +2,15 @@
 
 Aktualisiert: 2026-09-06.
 
-## Aktuell: einundzwanzigste Etappe abgeschlossen
+## Aktuell: zweiundzwanzigste Etappe in Arbeit
+
+Ausgang377d5e5, Plan `POTENTIAL_PATH_PLAN.md`: Potentialkomponenten(98)
+und H004II272-274-Endgrenzen auf gemeinsame Parametrisierung pruefen.
+Statische Komponenten von getrennten Integrationskanaelen unterscheiden;
+kein behaupteter gemeinsamer Pfad ohne Quellenbeleg. Drei begrenzte Reviews
+und Root-Algebra; keine Massenfortpflanzung oder Profilkorrektur.
+
+## Verlauf: einundzwanzigste Etappe abgeschlossen
 
 Ausgang38d89c8, Plancheckpoint94a049c. Bericht
 `06_docs/METRONIC_STEP_2026-09-06.md`, Quellenumfang
