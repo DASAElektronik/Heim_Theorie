@@ -3,7 +3,16 @@
 Isolierter, reproduzierbarer Konsistenztest der 1982/1989-Alpha-Bloecke in den
 lokalen IGW-Wiedergaben. Python >= 3.10; nur Standardbibliothek erforderlich.
 
-## Neunte Etappe: Exponentialkontext (aktueller Stand)
+## Etappe 16: begrenzter H006-N0-Fall (aktueller Stand)
+
+`06_docs/N0_ELECTRON_2026-09-06.md` beschreibt den jetzt ausfuehrbaren
+N=0-Pfad fuer die vorgegebene Elektronkomponente. Eingaben:
+`n0_electron_inputs.json`, Normalisierung `NORM-N0-ELECTRON-AUDIT.md`.
+Neun Snapshots, 111 Tests, 28 Befundgruppen einschliesslich positiver
+Rekonstruktionen. Kein Gesamtspektrumrechner, keine moderne Massenvalidierung.
+Die historischen Test-/Befundzahlen unten bleiben als Verlauf erhalten.
+
+## Neunte Etappe: Exponentialkontext (Verlauf)
 
 `06_docs/EXPONENTIAL_CONTEXT_2026-09-06.md` erklaert die Rueckverweise
 (79)/(79a), die bedingt reproduzierte Rate, den relativen Naeherungsfehler

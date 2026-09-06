@@ -2,12 +2,69 @@
 
 Aktualisiert: 2026-09-06.
 
-## Aktuell: sechzehnte Etappe in Arbeit
+## Aktuell: sechzehnte Etappe abgeschlossen
 
-Ausgang 7a00e46. N0_INPUT_PLAN.md: H006-Elektroninput suchen,
-W_vx/W_nu_x-Bruecke gezielt pruefen und aktive Eingaben unabhaengig
-gegenlesen. Drei neue N0-Reviews entstehen. Keine fremden Programme
-ausfuehren; 0110 bleibt Konfiguration, nicht Besetzung.
+Ausgang 7a00e46; Plancheckpoint a4d694c und Rechencheckpoint 3a2d4e2
+gepusht. Abschlusscommit-Nachricht:
+`Complete H006 N0 reconstruction, findings and historical comparison handoff`.
+Bei Fortsetzung HEAD/Remote per Git pruefen.
+
+Bericht: 06_docs/N0_ELECTRON_2026-09-06.md.
+Neue Dateien: scripts/audit_n0_electron.py, tests/test_n0_electron.py,
+05_analysis/n0_electron_results.json, alpha_audit/n0_electron_inputs.json
+und NORM-N0-ELECTRON-AUDIT.md. Drei abgeschlossene Reviews unter
+alpha_audit/reviews/: N0_ALIAS, N0_OCCUPATION_SOURCE, N0_INPUT_CONTRACT,
+jeweils _REVIEW_2026-09-06.md. Keine laufenden Agenten noetig.
+
+- Wichtigste Selbstkorrektur: H006 hat denselben griechischen nu/x-Index
+  auf Druck3/6/8/9; die alte v/nu-Trennung war unsere Fehllesung.
+  Die drei alten Aliasentscheidungen haben ausdrueckliche Nachtraege;
+  x_nu als Multiplett bleibt von Komponente x_(nu,x) verschieden.
+- H006-Konfiguration k=1,P=Q=q=1,kappa=0,epsilon=+1,C=0,x=1,qx=-1,N=0.
+  0110 weiterhin kein n-Tupel. XVII/XVIII Nullfaktoren, Quelle regelt
+  Exponenten-null-Term nachXIX: w=1,W=g. Kein fremdes Tupel importiert.
+- Expliziter XXVI-/Druck9-Pfad: Q=(3,3,2,1), Greedy K1..3=(3,3,2)
+  mit positiven Abstaenden, W4=exp(-1/3), daher K4=1 ANALYTISCH EXAKT.
+  n=0 ist profilgepruefte Basisloesung, nicht physikalische Erstprinzipien-
+  Vorhersage oder bewiesene Eindeutigkeit aller Gleichungsloesungen.
+- FIND-027: XIV/Druck6 exp[1-2k(n4+Q4)/(3Q4)] ungleich
+  XXVI/Druck8 exp[(1-2k)(n4+Q4)/(3Q4)]. Bei n0 Exponenten +/-1/3,
+  Residual0.6790811145123. Rechner folgt benanntem N0-Pfad, keine stille
+  XIV-Reparatur, kein bestaetigtes Autoren-Erratum/Globalurteil.
+- FIND-028: positive Alias-/Auswahl-/Rechenbruecke. G_aux/Phi_aux bleiben
+  bei n=0 nichtnull. Hauptprofil M=9.0780174645164271e-31kg,
+  G=215.238628647007, Phi=4.089822246543, mu=2.259021874215e-31kg.
+- Profile VOR Massenergebnis festgelegt: historische dimensionale H006-
+  Konstanten; Hauptprofil mathematische pi/e, xi=1.61803399. Separat
+  golden-ratio-xi und gedruckte pi/e/xi, exp/ln immer mathematisch.
+  Nacktes Alpha source_literal k1q2 mit Kehrwert137.049188026664,
+  kein gedruckter/experimenteller Alpha-Wert eingesetzt. Alpha-Massenfaktoren
+  getrennt. Historische Naturkonstanten sind empirisch, kein Massenziel/Fit.
+- H010 Pascal0.62c/C0.66 nur statisch: Readme belegt K4-Grenzproblem und
+  pauschalen1e-10-Offset; nicht uebernommen. Andere Konstanten, Code-
+  Klammern, Versionskoepfe und Optimierungshinweise getrennt halten.
+  Keine Programme, Makros oder XLS-Workbooks ausgefuehrt.
+- Eigene unabhaengige Gegenrechnung: Machin-pi/Newton-Wurzeln, reduzierte
+  G/Phi-Summe und mu^12-Identitaet; 60 Felder gegen80/120-Rechner und
+  30 gegenSnapshot, max.rel.<6.927e-78. Root fuehrte alle3Reviewcode-
+  bloecke separat aus. Review-Fehler imXXXII-Polynom korrigiert: richtig
+  84alpha2<=162alpha1, nicht12alpha2<=81alpha1; war nicht im Hauptcode.
+
+Neun Rechenchecks inkl. alter acht unveraenderter Snapshots, verfuegbare
+Quellhashes, Registervalidator und 111 Tests bestanden (13 neue Tests).
+28 Befundgruppen, keine 28 Fehler; 49 CSV-Normalisierungszeilen unveraendert
+(47 resolved, 2 blocked), aber die 3 Alias-Entscheidungsdateien sind explizit
+nachgetragen. Keine neue moderne Messreferenz oder Quelle importiert.
+Originale/Arbeitsbilder lokal erhalten und nicht committed.
+
+Naechster konkreter Auftrag: DIESEN einen Elektronfall gegen historische
+Code-/Formel-/Konstantenfassung abgleichen. H010-Pascal GMASS/GBASE und
+entsprechende C-Ausdruecke zuerst statisch lesen. Nullbasiges H006-x=1
+gegen einbasiges Code-x=2 beachten; Code-Vierertupel (k,P,Q,kappa) nicht
+H006(B,P,Q,kappa). Unterschiede isolieren, keine Sollmasse zum Entscheiden.
+Erst nach vollstaendiger Formel-/Inputgegenueberstellung ggf. getrenntes
+historisches Rechenprofil implementieren, nie das H006-Audit still aendern.
+XIV/XXVI-Originalklaerung nur mit konkretem neuem Quellenanschluss.
 
 ## Verlauf: fuenfzehnte Etappe abgeschlossen
 

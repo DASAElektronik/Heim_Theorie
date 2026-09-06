@@ -6,6 +6,14 @@ Dieses Register sammelt Fundstellen. Lokale Kopien sollten nur abgelegt werden, 
 
 ## Enger Pruefstand 2026-09-06
 
+Etappe 16: H006-Konfigurations-/N0-Pfad bis zur bedingten Massensumme
+geprueft; griechische nu/x-Indexbruecke korrigiert, XIV/XXVI-Exponenten
+getrennt. H010-Pascal/C-Quelltexte und vorhandene Ausgabe-/Readme-Texte
+nur statisch gelesen, keine fremden Programme, Makros oder Workbooks
+ausgefuehrt. H006-Hash erneut geprueft, H010-Einzelhashes und genaue
+Fundstellen in `04_reconstruction/alpha_audit/reviews/N0_OCCUPATION_SOURCE_REVIEW_2026-09-06.md`.
+Keine neue externe Quelle oder moderne Messreferenz importiert.
+
 Die Inventarstatus unten beziehen sich auf ganze Quellen, nicht einzelne
 Formelstellen. Inzwischen geprueft sind die 1982/1989-Alpha-Bloecke sowie
 enge Buchstellen aus H003/H004. Hashes fuer H004/H006/H007:

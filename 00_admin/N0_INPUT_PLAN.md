@@ -36,8 +36,14 @@ Snapshots und Normen werden nicht durch Agenten geaendert.
 
 ## Abschluss
 
-- [ ] Besetzungs- und Aliasfrage mit konkreten Belegen eingegrenzt.
-- [ ] Aktiver Eingabevertrag unabhaengig geprueft.
-- [ ] Freigabe oder verbleibende Grenze der Rechnung dokumentiert.
-- [ ] Bestehende Checks erneut bestanden; neue Rechnung ggf. separat geprueft.
-- [ ] Bericht und Wiedereinstieg gesichert.
+- [x] Besetzungs- und Aliasfrage mit konkreten Belegen eingegrenzt.
+- [x] Aktiver Eingabevertrag unabhaengig geprueft.
+- [x] Freigabe oder verbleibende Grenze der Rechnung dokumentiert.
+- [x] Bestehende Checks erneut bestanden; neue Rechnung ggf. separat geprueft.
+- [x] Bericht und Wiedereinstieg gesichert.
+
+Abschluss: nu/x-Bruecke korrigiert; n0-Basisfall aus explizitem H006-Pfad
+statt Tabellenimport. Drei vorab feste Konstantenprofile und eigene
+bedingte Massenrechnung unabhaengig bestaetigt. XIV/XXVI-Konflikt bleibt
+getrennt (FIND-027); positiver Anschluss FIND-028. 13 neue Tests,
+insgesamt111 und neun Rechenchecks. Bericht N0_ELECTRON_2026-09-06.md.

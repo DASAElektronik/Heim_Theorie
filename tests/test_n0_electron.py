@@ -51,7 +51,7 @@ class N0ElectronTests(unittest.TestCase):
             elif kind == "alpha":
                 bad["alpha_model"]["eta12_k"] = 2
             else:
-                bad["experimental_inputs"] = ["mass target"]
+                bad["comparison_or_fit_inputs"] = ["mass target"]
             with self.subTest(kind=kind), self.assertRaises(ValueError):
                 audit.evaluate_profile(inputs["profiles"][0], bad)
 
@@ -112,6 +112,22 @@ class N0ElectronTests(unittest.TestCase):
             with self.assertRaises(ValueError):
                 audit.build_report(precision)
         self.assertEqual(len(audit.build_report(40)["profiles"]), 3)
+
+    def test_independent_reconstruction_anchors_not_measurement_targets(self):
+        # Separate Machin-pi / Newton-root / reduced-polynomial calculation
+        # in N0_INPUT_CONTRACT_REVIEW. These are OUR computed audit numbers,
+        # never experimental values or inputs to the production calculation.
+        row = audit.build_report()["profiles"][0]
+        anchors = (
+            (row["mu_kg"], "2.2590218742148826835518017235781e-31"),
+            (row["mass_terms"]["G_aux"], "215.23862864700700097393097184836"),
+            (row["mass_terms"]["Phi_aux"], "4.0898222465431541334055693743294"),
+            (row["mass_kg"], "9.0780174645164270975959155175409e-31"),
+        )
+        with localcontext() as ctx:
+            ctx.prec = 80
+            for actual, expected in anchors:
+                self.assertLess(abs(D(actual)-D(expected))/abs(D(expected)), D("1e-28"))
 
 
 if __name__ == "__main__":

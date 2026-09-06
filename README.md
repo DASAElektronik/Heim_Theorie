@@ -38,7 +38,24 @@ Kann aus Heims Original- bzw. nahen Quellen eine reproduzierbare, parameterarme 
 
 ## Aktueller Arbeitsmodus
 
-Stand 2026-09-06, Etappe 15: Die
+Stand 2026-09-06, Etappe 16: Ein
+[begrenzter H006-Elektronfall](06_docs/N0_ELECTRON_2026-09-06.md) ist jetzt
+ausfuehrbar. Die Quelle verbindet die bisher getrennten nu/x-Schreibweisen;
+der ausdrueckliche N=0-Pfad ergibt n=(0,0,0,0). Die bedingte Massenauswertung
+wurde unabhaengig nachgerechnet. Ein lokaler Exponentenkonflikt XIV/XXVI
+bleibt erhalten; keine moderne empirische Bestaetigung oder Gesamtwiderlegung.
+Neun Rechenchecks und 111 Tests bestehen. 28 Befundgruppen sind keine
+28 Fehler. Die 49 Listeneintraege der Normalisierung behalten ihren Status;
+die Aliasentscheidungen tragen einen belegten Nachtrag und der neue
+Rechner eine eigene begrenzte Auditnormalisierung.
+
+Naechster enger Schritt: diesen einen Rechenfall gegen historische
+Implementierungsformeln und Konstanten abgleichen, ohne Massenzielwahl.
+[Wiedereinstieg](00_admin/RESUME.md), [Arbeitsfolge](00_admin/UNDERSTANDING_ROADMAP.md).
+
+## Verstaendnisbilanz der Etappe 15
+
+Die
 [Verstaendnisbilanz](06_docs/UNDERSTANDING_BALANCE_2026-09-06.md) fuehrt den
 bisher untersuchten Alpha-/Konfigurations-/Massenformel-Ausschnitt zusammen.
 Sie trennt Quellenlesung, Rechnung, physikalische Herleitung und empirische
@@ -46,13 +63,12 @@ Pruefung. 26 Befundgruppen sind keine 26 Fehler und keine Gesamtwiderlegung.
 Acht Rechenchecks und 98 Tests bestehen; die 49 Normalisierungen bleiben
 unveraendert (47 resolved, 2 blocked).
 
-Naechster enger Schritt: Eingabeblatt fuer die e--Komponente des
-x2-Multipletts bei N=0 in H006 vorbereiten. Das gedruckte 0110 sind
-Konfigurationsmerkmale, nicht die Besetzungszahlen n1..n4. Diese muessen
-zuerst fassungstreu belegt werden. Ein gegebenes Tupel auszuwerten ist
-von seiner Herleitung durch die Auswahlregel zu unterscheiden. Noch
-keine freigegebene Elektronenmassenrechnung und keine moderne
-Widerlegungsrecherche.
+Der damals vorbereitete Schritt war ein Eingabeblatt fuer die e--Komponente des
+x2-Multipletts bei N=0 in H006. Das gedruckte 0110 sind
+Konfigurationsmerkmale, nicht die Besetzungszahlen n1..n4. Ein gegebenes Tupel auszuwerten ist
+von seiner Herleitung durch die Auswahlregel zu unterscheiden. Die damalige
+Eingabeluecke ist durch Etappe 16 fuer den engen N0-Pfad geschlossen,
+nicht fuer die allgemeine Massen- oder Resonanzrechnung.
 
 [Wiedereinstieg](00_admin/RESUME.md),
 [Arbeitsfolge](00_admin/UNDERSTANDING_ROADMAP.md),

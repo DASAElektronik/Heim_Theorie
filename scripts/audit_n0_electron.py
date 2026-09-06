@@ -1,6 +1,6 @@
 """H006-only x2/e-, N=0: explicit XXVI selection and conditional mass.
 
-NORM-N0-ELECTRON-AUDIT. No empirical inputs, foreign code execution, or
+NORM-N0-ELECTRON-AUDIT. No particle-mass targets, foreign code execution, or
 general multiplet enumeration. Literal XIV is a separate conflict.
 """
 
@@ -92,8 +92,8 @@ def evaluate_profile(profile: dict, inputs: dict) -> dict:
         raise ValueError("Only the frozen H006 x2/e-, N=0 state is implemented")
     if inputs["alpha_model"] != dict(id="1982_source_literal", equation="1982", eta12_k=1, eta12_q=2):
         raise ValueError("Only the declared source-literal alpha profile is implemented")
-    if inputs["experimental_inputs"] or inputs["target_fitting"]:
-        raise ValueError("This audit must not use empirical inputs or target fitting")
+    if inputs["comparison_or_fit_inputs"] or inputs["target_fitting"]:
+        raise ValueError("This audit must not use comparison targets or fitting inputs")
     pi = core.mathematical_pi() if profile["pi"] == "mathematical" else D(profile["pi"])
     eb = ONE.exp() if profile["e_base"] == "mathematical" else D(profile["e_base"])
     xi = (ONE+D(5).sqrt())/TWO if profile["xi"] == "golden_ratio" else D(profile["xi"])

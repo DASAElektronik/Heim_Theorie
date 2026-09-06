@@ -33,12 +33,26 @@ py -3.13 scripts/audit_lorentz_meaning.py --check --verify-sources
 py -3.13 scripts/audit_wave_closure.py --check --verify-sources
 py -3.13 scripts/audit_configuration_selection.py --check --verify-sources
 py -3.13 scripts/audit_exponential_context.py --check --verify-sources
+py -3.13 scripts/audit_n0_electron.py --check --verify-sources
 py -3.13 scripts/validate_finding_register.py
 py -3.13 -m unittest discover -s tests -q
 ```
 
-Ohne lokale Fremd-PDFs `--verify-sources` weglassen. Die acht numerischen
-Snapshots sind dann weiter pruefbar, die Quelldateien nicht. 98 Tests bestehen.
+Ohne lokale Fremd-PDFs `--verify-sources` weglassen. Die neun numerischen
+Snapshots sind dann weiter pruefbar, die Quelldateien nicht. 111 Tests bestehen.
+
+## H006: begrenzter N0-Elektronfall
+
+`audit_n0_electron.py` verwendet ausschliesslich die festgelegte
+H006-Konfiguration x2/e-, N=0, den expliziten XXVI-/Algorithmuspfad und
+historische dimensionale Konstanten. Drei vorab deklarierte reine
+Zahlenprofile, keine Zielmasse und kein gemessenes Alpha als Input.
+Die alte v/nu-Lesung wird durch eine dokumentierte H006-Indexbruecke
+korrigiert; XIV bleibt als abweichende Exponentenlesart sichtbar.
+K4=1 folgt in diesem Fall aus einer exakten Identitaet, nicht aus Epsilon-Rundung.
+`--write` erzeugt nur `05_analysis/n0_electron_results.json`; `--check`
+vergleicht ohne Schreiben. Keine allgemeine Teilchen-/Resonanz-Enumeration.
+13 neue Tests und unabhaengige Zahlenanker; Bericht `06_docs/N0_ELECTRON_2026-09-06.md`.
 
 ## Bedingtes skalares Exponentialabbild
 

@@ -13,6 +13,12 @@ Definition des Konfigurations-kappa in H006 (dort bei x2: k=1, kappa=0).
 
 ## Durchgaengige Verbindungen
 
+Etappe 16 ergaenzt einen engen H006-Pfad: x2/e--Konfiguration -> w=1 ->
+W=g -> profilgepruefte K=(3,3,2,1) -> n=0 -> bedingte Massensumme.
+Die alte v/nu-Trennung ist quellenbelegt korrigiert. Dieser Weg verwendet
+(XXVI)/Druck9, nicht die abweichende (XIV)-Exponentialklammer.
+[Bericht und Grenzen](../../06_docs/N0_ELECTRON_2026-09-06.md).
+
 | Ausgangspunkt | Verbindung und Quellenanker | Ziel | Status |
 |---|---|---|---|
 | Elementares Ladungsfeld | I244/245: ganzes q>=0, Q=q*epsilon | eta_q | Definition/Quantisierungsannahme in der Quelle |

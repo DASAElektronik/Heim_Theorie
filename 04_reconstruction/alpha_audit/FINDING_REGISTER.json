@@ -340,6 +340,32 @@
       "evidence_paths": ["06_docs/GAMMA_QN_2026-09-06.md", "03_notes/GAMMA_QN_SOURCE_CONTEXT_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/GAMMA_QN_MANUSCRIPT_REVIEW_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/GAMMA_QN_MATH_REVIEW_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/GAMMA_QN_IGW_REVIEW_2026-09-06.md"],
       "reproduction": "Root undQuellenagent lesen Haupt- undErgaenzungsseiten vollstaendig; eigener dimensionsloserZeuge m(2)=10,m(3)=9,m(4)=12 veranschaulicht gerichteteBedingung. ExakteZuwachsidentitaeten undselektiertepositivef-Beispiele imReviewcode bestanden, keineechtenTeilchenmassen gerechnet.",
       "next_check": "Bei spaeteremMassen-/Empirieaudit gesamteKandidatenmenge, Zuordnungsregel undAnregungsweg sichtbar halten. Nicht nurpassendeTabellenzeilen bewerten oderStufenregel als allgemeinenNichtexistenzfilter benutzen. Zunaechst Verstaendnisbilanz."
+    },
+    {
+      "finding_id": "FIND-027",
+      "kind": "local_contradiction",
+      "claim": "H006 (XIV) und die explizite N0-Gleichung (XXVI) drucken unterschiedliche Exponenten; der N0-Basisfall W=g,n=0 erfuellt nicht beide Zeilen zugleich.",
+      "source_ids": ["H006"],
+      "source_locator": "Druck/PDF6 (XIV)/(XV), Druck/PDF8 (XXVI), Druck/PDF9 Algorithmus.",
+      "assumptions": "Woertliche Klammern: XIV exp[1-2k(n4+Q4)/(3Q4)], XXVI exp[(1-2k)(n4+Q4)/(3Q4)]; gleicher H006-Zustand k=1,Q4=1,n4=0,N=0,W=g und F(Gamma)=0.",
+      "scope": "Die Exponenten sind +1/3 und -1/3; positiver Residual exp(1/3)-exp(-1/3). Der neue Rechner verwendet ausdruecklich XV/XXVI/Algorithmus, nicht eine still korrigierte XIV-Zeile.",
+      "not_established": "Keine Unloesbarkeit aller Varianten, keine historische Fehlerursache oder bestaetigtes Erratum, keine Widerlegung des Gesamtwerks oder aller N0-Massen.",
+      "evidence_paths": ["06_docs/N0_ELECTRON_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/N0_ALIAS_REVIEW_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/N0_INPUT_CONTRACT_REVIEW_2026-09-06.md", "scripts/audit_n0_electron.py", "tests/test_n0_electron.py", "05_analysis/n0_electron_results.json"],
+      "reproduction": "Unabhaengige Vollseitenlesung durch Root und zwei Agenten; exakte rationale Exponenten und numerischer Residual im neuen N0-Audit.",
+      "next_check": "Original-/Erratumsbeleg fuer XIV/XXVI suchen; bis dahin getrennte lokale Lesarten, keine Klammerwahl nach Massentreffer."
+    },
+    {
+      "finding_id": "FIND-028",
+      "kind": "positive_reproduction",
+      "claim": "H006 verbindet den griechischen Multiplettindex nu mit Komponente x; der explizite N0-Pfad liefert fuer vorgegebene e--Konfiguration die profilgepruefte Basisbesetzung n=(0,0,0,0) und eine bedingte Massenrechnung.",
+      "source_ids": ["H006", "H010"],
+      "source_locator": "H006 Druck/PDF3,5,6 XV/XVII-XIX,8 XXVI,9; H010 Pascal0.62c GBASE/GSTRUC und Readme zur K4-Grenze, nur statisch.",
+      "assumptions": "H006-Konfiguration k=1,P=Q=q=1,kappa=0,epsilon=1,x=1,qx=-1,N=0; Quellregel nach XIX; enger XXVI-Pfad, deklarierte historische Konstanten und source-literal Alpha, drei vorab feste Zahlenprofile.",
+      "scope": "Eigene v/nu-Fehllesung korrigiert. w=1,W=g, positive Greedy-Grenzen geben K1..3=(3,3,2), dann K4=-3ln(exp(-1/3))=1 exakt. K_aux=H_aux=0, G_aux/Phi_aux bleiben. Hauptprofil M=9.078017464516e-31kg; unabhaengige algebraische Gegenrechnung bestaetigt. H010-Offsets werden nicht uebernommen.",
+      "not_established": "Keine unabhaengige physikalische Elektronidentifikation, keine vollstaendige Herleitung der AUX-Terme, kein allgemeiner Spektrumalgorithmus, keine moderne empirische Bestaetigung und keine Aufhebung von FIND-027 oder alten Alpha-Konflikten.",
+      "evidence_paths": ["06_docs/N0_ELECTRON_2026-09-06.md", "04_reconstruction/alpha_audit/NORM-N0-ELECTRON-AUDIT.md", "04_reconstruction/alpha_audit/n0_electron_inputs.json", "04_reconstruction/alpha_audit/reviews/N0_OCCUPATION_SOURCE_REVIEW_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/N0_INPUT_CONTRACT_REVIEW_2026-09-06.md", "scripts/audit_n0_electron.py", "tests/test_n0_electron.py", "05_analysis/n0_electron_results.json"],
+      "reproduction": "Neunter begrenzter Rechencheck mit PDF-Hash, 80/120-Stellenkontrolle, unabhaengigen Massen-/Teilwertausdruecken und 13 neuen Tests. Keine fremden Programme oder Makros ausgefuehrt.",
+      "next_check": "Den einen H006-N0-Fall fassungsgetrennt gegen historische Codeformeln und Konstanten abgleichen, ohne Zielmassenfit; allgemeine Zustandswahl weiterhin nicht freigegeben."
     }
   ]
 }

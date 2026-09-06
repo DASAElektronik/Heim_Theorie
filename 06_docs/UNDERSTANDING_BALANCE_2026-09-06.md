@@ -5,6 +5,12 @@ Alpha-, Konfigurations- und Massenformel-Ausschnitts, nicht des Gesamtwerks.
 Ausgang: bfdb806. Die zugrunde liegenden Quellenpruefungen, Formeln und
 Rechnungen bleiben in ihren jeweiligen Berichten erhalten.
 
+Nachtrag Etappe 16: Der [enge H006-N0-Pfad](N0_ELECTRON_2026-09-06.md)
+ist inzwischen berechenbar. Die hier noch offene v/nu-Bruecke beruhte auf
+unserer Fehllesung; der Quellenkontext klaert sie. n=0 folgt als
+profilgepruefte Basisloesung, zugleich bleibt ein neuer XIV/XXVI-
+Exponentenkonflikt bestehen. Die folgende Bilanz dokumentiert Etappe 15.
+
 ## Kurzantwort
 
 Wir verstehen inzwischen einen erheblichen Teil des untersuchten

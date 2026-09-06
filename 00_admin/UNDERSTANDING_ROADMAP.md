@@ -12,7 +12,7 @@ vollstaendiges Verstaendnis der Gesamttheorie abgeleitet werden.
 | Quellen und Versionen | Original, spaetere Abschrift, Erweiterung, offene Herkunft | Alpha lokal geklaert; Originalbericht 1989 nicht gefunden |
 | Alpha-Grundkette | eta, vartheta, A_k, Ladungsmittelung, Korrelation, Y3 und Zweige | Buchindizes/Mittelung rekonstruiert; Energie/Wellenkontexte getrennt, Kinematik und physikalische Schliessung offen |
 | Grundbegriffe | Heim-eigene Raum-/Strukturbegriffe, metronische Operationen, messbare Zuordnung | Noch nicht systematisch rekonstruiert |
-| Massenformel | Einheiten, Konstanten, Quantenzahlen, Auswahlregeln, ein vollstaendiger Rechenfall | Quellbibliothek vorhanden; noch kein eigener Massenrechner |
+| Massenformel | Einheiten, Konstanten, Quantenzahlen, Auswahlregeln, ein vollstaendiger Rechenfall | Etappe 16: enger H006-x2/e--N0-Pfad implementiert und gegengerechnet; allgemeines Spektrum und dynamische Herleitung offen |
 | Reichweite | Was sind Modellannahmen, reale Beobachtungen und rein interne Groessen? | Insbesondere Neutrino-Feldmassen und Zweigbedeutung abzugrenzen |
 | Verstaendnisbilanz | Herleitungskarte und verbleibende Luecken gemeinsam beurteilen | Etappe 15 fuer den untersuchten Ausschnitt abgeschlossen; kein vollstaendiges Theorieverstaendnis |
 | Externe Bewertung | Passende neuere Primaerarbeiten, Messgroessen, Gueltigkeitsbereiche | Bewusst zurueckgestellt |
@@ -25,20 +25,28 @@ Ergebnis; sie werden nicht als stillschweigende Definitionen behandelt.
 
 ## Naechste begrenzte Arbeitseinheit
 
-1. Nach Etappe 15: Quellen- und Eingabeblatt fuer H006 x2/e-, N=0.
-   Die Konfiguration ist lokal belegt: k=1, P=Q=1, kappa=0, C=0,
-   epsilon=+1, x=1 ergibt q_x=-1 und q=1. 0110 ist KEIN n1..n4-Tupel.
-2. Ein ausdrueckliches Besetzungsquadrupel mit belegter Zugehoerigkeit
-   zur H006-Version suchen. Nur bei vollstaendigem Input und aktiven
-   Formeln eine bedingte Teilsummenrechnung (Stufe A) freigeben.
-   Sonst fehlenden Nachweis benennen, keine Sollmasse zur Auswahl nutzen.
-3. Die Auswahlrekonstruktion (Stufe B) getrennt halten: W_vx/W_nu_x
-   sind noch nicht quellenbelegt verbunden; Ganzzahl- und W4-Regeln
-   muessen vor jeder Vergleichsauswertung feststehen. Alle Kandidaten
-   erfassen, nicht nur passende Tabellenzeilen. Noch kein Massengesamtrechner
-   und keine moderne Widerlegungsrecherche.
+1. Nach Etappe 16: Den jetzt berechenbaren H006-x2/e--N0-Fall mit der
+   historischen Implementierungsueberlieferung abgleichen. Konstanten,
+   nacktes Alpha, aktive AUX-/Phi-Terme und Ganzzahlregeln getrennt
+   erfassen. Fremde Programme weiterhin nur statisch lesen.
+2. Unterschiedliche Werte durch konkrete Formel-/Inputunterschiede
+   erklaeren, nicht durch eine nach Massentreffer gewaehlte Variante.
+   Ein CODEX-Auditprofil ist kein automatisch identischer historischer Lauf.
+3. Original-/Erratumsbeleg zu XIV/XXVI suchen, falls ein konkreter neuer
+   Quellenanschluss vorliegt. Die nu/x-Bruecke ist innerhalb H006 bereits
+   geklaert und der Basisfall abgeleitet; keine erneute Suche nach 0110
+   als Besetzung. Allgemeine K4-/Resonanzfaelle bleiben ausserhalb dieses
+   Rechners. Keine breite moderne Widerlegungsrecherche.
 4. Offene F/G-Normierung und metronische Extremumsregel nur bei konkreter
    Quellbruecke erneut aufnehmen; keine Wiederholung derselben Rueckverweise.
+
+Etappe 16: [H006-N0-Rechenfall](../06_docs/N0_ELECTRON_2026-09-06.md).
+Eigene v/nu-Fehllesung korrigiert; expliziter N0-Pfad ergibt im festen
+Konfigurations-/Konstantenprofil n=0 und eine bedingte Massenrechnung.
+XIV/XXVI-Exponenten lokal verschieden, nicht still repariert. FIND-027/028,
+nun 28 Befundgruppen (keine Fehlerzahl), neun Rechenchecks und 111 Tests.
+Drei Quellen-/Rechenreviews, eigene unabhaengige Gegenrechnung bestaetigt.
+Historische K4-Offsets nur als Implementierungsbeleg, kein Epsilon uebernommen.
 
 Etappe 15: [Verstaendnisbilanz](../06_docs/UNDERSTANDING_BALANCE_2026-09-06.md)
 und drei getrennte Reviews. Alle 26 Befundgruppen nach Aussagekraft

@@ -64,7 +64,7 @@
       "eta12_q": 2
     },
     "excluded_selection_expression": "literal XIV exponent differs from explicit N0 XXVI; no silent emendation",
-    "experimental_inputs": [],
+    "comparison_or_fit_inputs": [],
     "target_fitting": false
   },
   "scope": "Conditional H006 explicit N0 pathway; XIV conflict retained; no modern mass comparison",
