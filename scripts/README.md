@@ -40,7 +40,16 @@ py -3.13 -m unittest discover -s tests -q
 ```
 
 Ohne lokale Fremdquellen `--verify-sources` weglassen. Die zehn numerischen
-Snapshots sind dann weiter pruefbar, die Quelldateien nicht. 133 Tests bestehen.
+Snapshots sind dann weiter pruefbar, die Quelldateien nicht. 144 Tests bestehen.
+
+## Alpha3: lokale Bestimmtheitszeugen
+
+`tests/test_alpha3_assumptions.py` enthaelt elf neue exakte Tests fuer
+Koeffizientenverschiebungen, stetige Grenzfortsetzungen, synthetische
+Anker und bedingte Eindeutigkeit. Keine neuen Teilchenmassen oder Fits.
+Der unabhaengige ausfuehrbare Reviewblock in
+`04_reconstruction/alpha_audit/reviews/ALPHA3_ASSUMPTIONS_MATH_REVIEW_2026-09-06.md`
+prueft dieselbe Fragestellung ohne Import des Root-Testcodes.
 
 ## Alpha3: letzte Buchalgebra, kein neuer Massenrechner
 

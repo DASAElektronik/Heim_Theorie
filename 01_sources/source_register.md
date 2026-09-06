@@ -6,6 +6,13 @@ Dieses Register sammelt Fundstellen. Lokale Kopien sollten nur abgelegt werden, 
 
 ## Enger Pruefstand 2026-09-06
 
+Etappe19: H004 Druck271-275/PDF277-281 erneut vollstaendig bildlich gelesen;
+Bestimmtheit der allgemeinen Logansaetze und freie empirische A/B-Wahl
+untersucht. Keine neue Quelle importiert. Gepruefte Rechenzeugen sind
+synthetisch; die metronische Integration ist noch nicht validiert.
+Umfang und neue, nicht bytegepruefte Archiv-URL des Buches:
+`03_notes/ALPHA3_ASSUMPTIONS_SOURCES_2026-09-06.md`.
+
 Etappe18: H004 Druck271-275 und278 liefert die zwei H010-alpha3-Terme
 mit explizit empirisch gewaehlten Koeffizienten. H015 neu archiviert:
 fotografiertes FORTRAN-GBASE-Listing PDF22, datierte Kopfzeilen1982,

@@ -2,6 +2,11 @@
 
 Stand2026-09-06, Etappe18 ab a989f03, Plancheckpoint c9beca4.
 
+Nachtrag Etappe19: [Die Bestimmtheitspruefung](ALPHA3_ASSUMPTIONS_2026-09-06.md)
+trennt jetzt ausdruecklich freie A/B-Wahl, bedingt erzwungene Faktoren und
+eigene lokale Alternativen unter benannten Bedingungen. Keine neue Masse
+oder stille Ersetzung der hier rekonstruierten Buchform.
+
 ## Ergebnis
 
 Die beiden in Etappe17 gegenueber H006 auffaelligen Programmterme haben

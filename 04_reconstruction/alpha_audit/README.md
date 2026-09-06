@@ -3,7 +3,15 @@
 Isolierter, reproduzierbarer Konsistenztest der 1982/1989-Alpha-Bloecke in den
 lokalen IGW-Wiedergaben. Python >= 3.10; nur Standardbibliothek erforderlich.
 
-## Etappe 18: alpha3-Herkunft (aktueller Stand)
+## Etappe 19: alpha3-Bestimmtheit (aktueller Stand)
+
+`06_docs/ALPHA3_ASSUMPTIONS_2026-09-06.md` zeigt verbleibende lokale
+Koeffizientenfreiheit unter expliziten Voraussetzungen. Zwei begrenzte
+Reviews und elf neue Tests; 144 insgesamt, zehn alte Snapshotchecks.
+FIND-031/31 Befundgruppen, keine globale Fitparameterzaehlung oder
+Gesamtwiderlegung. Alle alten Rechner/Inputs/Snapshots bleiben erhalten.
+
+## Etappe 18: alpha3-Herkunft (vorheriger Stand)
 
 H004II275/278(98c) und H015FORTRAN/GBASE/PDF22 tragen beide H010-Terme.
 Die Buchkoeffizienten sind ausdruecklich empirisch gewaehlt; die letzte

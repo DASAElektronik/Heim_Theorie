@@ -1,5 +1,22 @@
 # Fortschritt
 
+## 2026-09-06 - Neunzehnte Etappe: Bestimmtheit der alpha3-Koeffizienten
+
+- H004271-275 quellengetreu in Ansatz, gesetzte Potentialgrenzen, Integration
+  und freie empirische A/B-Wahl zerlegt. Kein Vollwerk-Nichtexistenzbeweis.
+- Eigene Verschiebungen A3/B3+1 erhalten gepruefte Minimalbedingungen
+  und sogar fuehrende d->1-Grenzterme, aendern aber H/G. Separate rationale
+  Ankerfamilie demonstriert beschraenkte Information eines Einzelwerts.
+- Ausreichende unabhaengige Bedingungen koennen diese Freiheit beseitigen;
+  keine pauschale Unbestimmbarkeits- oder Sieben-Fitparameterbehauptung.
+- C_k=2^(k-2) dagegen bedingt eindeutig aus vorgegebenem Sigma-Anschluss.
+- Zwei Quellen-/Mathematikreviews, unabhaengiger389-Kontrollblock von Root
+  erneut ausgefuehrt. Elf neue Tests,144 insgesamt; zehn alte Rechenchecks,
+  Quellhashes und Registervalidator bestanden. FIND-031/31 Befundgruppen.
+- Alte Rechner/Inputs/Snapshots und49 Normalisierungszeilen erhalten.
+  Naechster enger Schritt: metronische Integrationsregel und konkrete
+  Potentialverhaeltnisse aus(98), kein neuer Fit und keine Fremdausfuehrung.
+
 ## 2026-09-06 - Achtzehnte Etappe: Herkunft der alpha3-Terme
 
 - H004II275/278(98c) traegt beide H010-Formbereiche. H/G-Korrekturen

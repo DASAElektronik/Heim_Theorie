@@ -2,13 +2,46 @@
 
 Aktualisiert: 2026-09-06.
 
-## Aktuell: neunzehnte Etappe in Arbeit
+## Aktuell: neunzehnte Etappe abgeschlossen
 
-Ausgang df6934c. Auftrag `ALPHA3_ASSUMPTIONS_PLAN.md`: Welche Annahmen
-fixieren die Buchkoeffizienten, welche Freiheiten bleiben? Zwei begrenzte
-Reviews durch book_derivation (Quelle) und data_audit (Mathematik), Root
-liest selbst und entwickelt eigene exakte Diagnose. Kein Massenfit,
-keine Veraenderung alter Rechenprofile. Abschluss noch ausstehend.
+Ausgang df6934c, Plancheckpoint 5e92cda. Bericht:
+`06_docs/ALPHA3_ASSUMPTIONS_2026-09-06.md`, Quellenumfang:
+`03_notes/ALPHA3_ASSUMPTIONS_SOURCES_2026-09-06.md`.
+Abschlusscommit-Nachricht: `Audit local alpha3 coefficient freedom and constraints`.
+Bei Fortsetzung HEAD/Remote pruefen; keine laufenden Agenten erforderlich.
+
+- H004 Druck271-275/PDF277-281 von Root vollstaendig bildlich gelesen.
+  A/B werden auf275 explizit frei und empirisch gewaehlt. Die vorherigen
+  Logansaetze behalten diese Gewichte; keine eindeutige Auswahl daraus.
+- Allgemeine H/G-Logformen vorausgesetzt, nicht metronische Integration
+  validiert. Nur diese Korrekturterme, nicht KGH-Massenpolynome.
+- A3->A3+1 bzw.B3->B3+1 ergibt H_neu=dH bzw.G_neu=dG, d=eta_qk.
+  Positivitaet, Dimensionslosigkeit, k-Abhaengigkeit und A1=B1=B4=1 bleiben.
+  Dieselben formalen d->1-Grenzwerte und fuehrende G-Amplitude; d=1 ist
+  fuer G nur stetige Fortsetzung, keine Auswertung von ln0.
+- Separate synthetische Ankerfamilie A2/A3+t behaelt H=128 bei k1,
+  alpha1/2,xi2,d1/4, aber andere Funktionswerte innen. Sie erhaelt NICHT
+  alle festen Grenzamplituden der vorigen Familie. Keine Teilcheninputs.
+- Zusatzbedingungen koennen Freiheit beseitigen (eigene 2x2-Matrix det=-1).
+  Keine globale Zaehlung von sieben unabhaengigen Fitparametern, keine
+  vollstaendigen alternativen Heim-Loesungen oder Gesamtwiderlegung.
+- Positiver Gegensatz: Aus dem gesetzten Sigma-Anschluss folgt fuer
+  k>=1,C_k>0 eindeutig C_k=2^(k-2). Nicht mit freier A/B-Wahl verwechseln.
+- Zwei neue ALPHA3_ASSUMPTIONS*-Reviews. Root hat unabh. Mathematikblock
+  mit 389 gezaehlten exakten Kontrollen erneut ausgefuehrt. Elf neue Tests
+  in tests/test_alpha3_assumptions.py, insgesamt 144 Tests bestanden.
+  Zehn alte Rechenchecks/Quellhashes und Registervalidator bestanden.
+  FIND-031, nun 31 Befundgruppen/keine 31 Fehler; alte Rechner, Eingaben,
+  Snapshots und 49 CSV-Normalisierungen unveraendert.
+
+Naechster enger Quellenauftrag: H004273/274 metronischen Integrationsschritt
+gegen Operatordefinitionen verfolgen. Genau klaeren, welche Differenz-/
+Integrationsregel, untere Grenzkorrektur und Potentialverhaeltnisse aus(98)
+die Logformen ergeben. Nicht gewoehnliche Differentialregeln still fuer
+endliche Metronoperationen verwenden. Potentielle zusaetzliche A/B-Bedingungen
+erst mit konkretem Quellenbeleg anrechnen, keine neue Optimierung beginnen.
+H015PDF39/41 gegen H006XIV/XXVI bleibt gesondert vorgemerkt; moderne breite
+Empirie, allgemeines Spektrum und unbewertete2009-N3-Korrespondenz nachgeordnet.
 
 ## Verlauf: achtzehnte Etappe abgeschlossen
 

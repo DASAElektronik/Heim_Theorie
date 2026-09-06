@@ -24,7 +24,11 @@ H015-XIV/XXVI-Nebenanker bleibt vorgemerkt, nicht Teil dieser Hauptfrage.
 
 ## Abschlusskriterien
 
-- [ ] Quellenannahmen und mathematisch erzwungene Schritte getrennt.
-- [ ] Aussage zur Eindeutigkeit mit explizitem lokalen Geltungsbereich.
-- [ ] Exakte eigene Zeugen und unabhaengige Gegenpruefung.
-- [ ] Alte Tests/Checks bestanden, Bericht und Wiedereinstieg gesichert.
+- [x] Quellenannahmen und mathematisch erzwungene Schritte getrennt.
+- [x] Aussage zur Eindeutigkeit mit explizitem lokalen Geltungsbereich.
+- [x] Exakte eigene Zeugen und unabhaengige Gegenpruefung.
+- [x] Alte Tests/Checks bestanden, Bericht und Wiedereinstieg fuer Abschlusscommit fertig.
+
+Abschluss: elf neue Tests,144 insgesamt, zehn alte Rechenchecks und
+Quellhashes bestanden; zwei Reviews. Root hat den unabhaengigen389-
+Kontrollblock erneut ausgefuehrt. Keine alten Rechenprofile veraendert.

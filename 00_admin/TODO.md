@@ -2,7 +2,7 @@
 
 ## Aktueller Einstieg (2026-09-06)
 
-Massgeblich ist Etappe 18 in `RESUME.md`; die aeltere Detailhistorie folgt darunter.
+Massgeblich ist Etappe 19 in `RESUME.md`; die aeltere Detailhistorie folgt darunter.
 
 - [x] Einen H006-N0-Elektronfall getrennt gegen spaetere H010-Programme rechnen.
 - [x] Alpha3-Formeln, Alpha-/Konstanteneingaben und Rundung einzeln dokumentieren.
@@ -10,7 +10,9 @@ Massgeblich ist Etappe 18 in `RESUME.md`; die aeltere Detailhistorie folgt darun
 - [x] alpha3-Buchkonstruktion und H010(3-5) im datierten H015-FORTRAN-Listing finden.
 - [x] Potenz-/Wurzelwahl quellengetreu vergleichen, nicht aus passender Masse ableiten.
 - [x] Empirische A/B-Wahl und korrekte nachfolgende Algebra getrennt dokumentieren.
-- [ ] H004272-275: Potential-/Variationsannahmen und Bestimmtheit der A/B-Wahl pruefen.
+- [x] H004272-275: lokale Annahmen und Nicht-Eindeutigkeit der A/B-Wahl unter benannten Bedingungen pruefen.
+- [x] Eigene Grenz-/Ankerfamilien und bedingt eindeutigen C_k-Faktor getrennt gegenrechnen.
+- [ ] H004273/274: metronische Operatorregel, untere Grenzkorrektur und Potentialverhaeltnisse aus(98) herleiten.
 - [ ] H015PDF39/41 gegen H006XIV/XXVI unabhaengig lesen, bevor FIND-027 fortgeschrieben wird.
 - [ ] Keine stillen Profilkorrekturen; urspruengliches Formelblatt und H006-Fehlerursache bleiben offen.
 
