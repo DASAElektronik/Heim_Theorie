@@ -2,7 +2,14 @@
 
 Aktualisiert: 2026-09-06.
 
-## Aktuell: siebzehnte Etappe abgeschlossen
+## Aktuell: achtzehnte Etappe in Arbeit
+
+Ausgang a989f03. Enger Auftrag ALPHA3_ORIGIN_PLAN.md: Herkunft und
+Herleitung der zwei alpha3-Korrekturterme; Root Original-/Formelblattspur,
+book_derivation Buch, alpha_versions spaetere Manuskripte. Keine neuen
+Massenzielwerte oder stillen Profilwechsel. Ergebnisse vor Fortsetzung pruefen.
+
+## Verlauf: siebzehnte Etappe abgeschlossen
 
 Ausgang 99a2efa. Plan f6d7598 und vor Rechnung eingefrorener Vertrag
 ca9abb1 gepusht. Abschlusscommit-Nachricht:
