@@ -2,24 +2,50 @@
 
 Aktualisiert: 2026-09-06.
 
-## Aktuell: vierte Etappe in Arbeit
+## Aktuell: vierte Etappe abgeschlossen
 
-Nutzer: "Ok sehr gut, ja dann machen wir weiter". Ausgangspunkt 4ee1e1f,
-Arbeitsbaum sauber. Plan: `ENERGY_KINEMATICS_PLAN.md`.
-Quellenagenten verfolgen Masse/Energie und Wellenlaenge/Geometrie getrennt;
-Mathematikreview unabhaengig. Hauptagent implementiert nur bedingte,
-ungefittete Diagnosen und erklaert die Quellenkette. Originale und alte
-Snapshots unveraendert lassen; keine moderne Widerlegungsrecherche vorziehen.
+Nutzer: "Ok sehr gut, ja dann machen wir weiter". Ausgangspunkt 4ee1e1f.
+Plan `ENERGY_KINEMATICS_PLAN.md`, Bericht
+`06_docs/ENERGY_KINEMATICS_2026-09-06.md` und drei unabhaengige Reviews liegen vor.
+Rechner `scripts/audit_energy_kinematics.py`; Snapshot
+`05_analysis/energy_kinematics_diagnostics.json`. 11 neue Tests,44 insgesamt.
+Quellen- und Mathematikreview ohne Rechenfehler; zusaetzlicher unabhaengiger
+Buchindex-Regressionstest auf Empfehlung aufgenommen. Plan d1e31bc und
+Rechner-/Erklaerungscheckpoint c1c6a32 sind gepusht. Keine laufenden Agenten
+zum Fortsetzen erforderlich; deren Review-Dateien sind der dauerhafte Stand.
 
-Zwischenstand Etappe4: Plancheckpoint d1e31bc gepusht. Rechner
-`scripts/audit_energy_kinematics.py`, Ergebnis-JSON und10 neue Tests angelegt;
-43 Tests bestehen. Quellenbefunde: I Druck81/PDF88 und288/PDF294 wiederholen
-E=pc; I12/PDF20 deBroglie; I233/PDF239 nichtzirkulaere Compton-Skala;
-I242/PDF248 photonische Kreiswelle. II301/PDF307 uebertraegt Kreiswellenansatz
-auf Elektron. Bericht `06_docs/ENERGY_KINEMATICS_2026-09-06.md` angelegt.
-Unabhaengige Rechnerreview noch ausstehend, Wellenquellenbericht in Arbeit.
-Noch kein Endergebnis/Physikvalidierung behaupten. Historische Standard-
-Begriffskontrolle Einstein1905 Druck920, keine moderne Kritikrecherche.
+- I Druck81/PDF88 und288/PDF294 wiederholen E=pc; keine isolierte Schreibpanne.
+  I81 nennt die Darstellung bekannt, I288 beruft sich auf SR. Die Trennung
+  von konventionellem T ist UNSERE Analyse, keine belegte Autorenabgrenzung.
+- II m(v_H)=gamma*m0 wird anhand BandI bedingt gelesen, nicht lokal bewiesen.
+  Eigenen alten Wortlaut "Ruheenergie" fuer mc^2 korrigiert.
+- I12/PDF20 deBroglie h/p; I233/PDF239 nichtzirkulaere Compton-Skala im
+  Neutralteilchenkontext; I242/PDF248 photonische Kreiswelle. II301/PDF307
+  setzt h/(mc) als Elektronen-Kreiswelle ein. Kontextwechsel bleibt offen,
+  kein bedingungsloser Compton-Kreis-Widerspruch behauptet.
+- Bei kleinem Buchzweig/Y3=1 gilt bedingt pc/T=274.068273... und
+  lambda_dB/lambda_H=137.035960995...; keine Messwerte in der Rechnung.
+- Allgemeine Schliessung K=g*f*sqrt(1-beta^2) zeigt Einfluss zweier
+  getrennter Energie-/Wellenersetzungen. Nur ungefittete Vorwaertsdiagnosen,
+  keine physikalisch konsistente Alternativtheorie oder neue Alpha-Prognose.
+- Historische Standard-Begriffskontrolle Einstein1905 Druck920/PDF30,
+  keine neuere Kritik-/Widerlegungsrecherche. Quelle/Hash im Bericht.
+- Register45:43 resolved,2 alte Massenblocker. Originale und alte Snapshots
+  unveraendert. Energieordnungs-Konflikt aus Etappe3 besteht weiter.
+
+Naechster aktueller Einstieg: A_--Matrix (I Druck12/PDF20 und21/PDF29),
+Bedeutung von "invariant", operative Energie-/Arbeitsbilanz und anschliessend
+Kreisgeometrie/Wellenzuordnung. Zuerst ein konkretes Transformationsbeispiel
+mit klaren Bezugssystemen, dann Quellenanspruch beurteilen. Nicht gleich
+die Gesamttheorie neu anfangen oder passende Messwerte als Input einsetzen.
+Danach L*Delta=k/(98a), B50 und Gamma/Q_N. Die aelteren Einstiegsabschnitte
+weiter unten bleiben als Verlauf erhalten, diese aktuelle Prioritaet gilt.
+
+Zusaetzlich zu den unten stehenden alten Pruefbefehlen:
+
+```powershell
+py -3.13 scripts/audit_energy_kinematics.py --check --verify-sources
+```
 
 ## Aktuell: dritte Etappe abgeschlossen
 

@@ -3,6 +3,21 @@
 Isolierter, reproduzierbarer Konsistenztest der 1982/1989-Alpha-Bloecke in den
 lokalen IGW-Wiedergaben. Python >= 3.10; nur Standardbibliothek erforderlich.
 
+## Vierte Etappe: Energie und Wellenlaenge (aktueller Stand)
+
+```powershell
+py -3.13 scripts/audit_energy_kinematics.py --check --verify-sources
+py -3.13 -m unittest discover -s tests -q
+```
+
+44 Tests insgesamt, davon11 neue fuer Kinematik. Eigene Vorwaertsdiagnosen
+trennen Quellen-pc, T und zwei Wellenlaengen; keine physikalische Reparatur
+oder empirische Kalibrierung. Der kleine Buchzweig verwendet direkt die
+in Etappe3 geklaerte Buch-qk-Bruecke, nicht eine nach Zielwert gewaehlte
+IGW-Lesart. Alte IGW-Profile bleiben unveraendert. `--write` erneuert nur
+`05_analysis/energy_kinematics_diagnostics.json`.
+Erklaerung: `06_docs/ENERGY_KINEMATICS_2026-09-06.md`.
+
 ## Ausfuehren
 
 Im Projektordner:

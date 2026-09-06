@@ -10,6 +10,13 @@ Ein Teilchenbeschleuniger oder Detektor-Rohdaten sind erst relevant, wenn die Th
 
 ## Aktueller Stand 2026-09-06
 
+Die vierte Etappe ist in `ENERGY_KINEMATICS_2026-09-06.md` erklaert.
+44 Tests bestehen. Quellenanker fuer pc, Transversalmasse, deBroglie,
+Compton-artige Laenge und photonische/Elektronen-Kreiswelle sind getrennt.
+Neue ungefittete Diagnosen bestimmen keine Messwerte und validieren die Physik
+nicht. Naechster Einstieg: A_-, invariante Form/Skalar und operative Energie-
+bilanz, dann Kreisgeometrie/Wellenzuordnung. Etappen1-3 unten sind Verlauf.
+
 Die dritte Etappe ist in `CHARGE_DERIVATION_2026-09-06.md` erklaert.
 33 Tests bestehen; Buch-Indexbruecke geschlossen, vorlaeufige Alpha-Naeherung
 reproduziert, Mittelungs-/Korrelationsannahmen getrennt und neuer lokaler

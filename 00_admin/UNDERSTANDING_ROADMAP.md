@@ -10,7 +10,7 @@ vollstaendiges Verstaendnis der Gesamttheorie abgeleitet werden.
 | Block | Was verstanden/reproduziert sein muss | Stand |
 |---|---|---|
 | Quellen und Versionen | Original, spaetere Abschrift, Erweiterung, offene Herkunft | Alpha lokal geklaert; Originalbericht 1989 nicht gefunden |
-| Alpha-Grundkette | eta, vartheta, A_k, Ladungsmittelung, Korrelation, Y3 und Zweige | Lokale Buch-Indexbruecke geklaert; Mittelung und Annahmen rekonstruiert, physikalische Schliessung offen |
+| Alpha-Grundkette | eta, vartheta, A_k, Ladungsmittelung, Korrelation, Y3 und Zweige | Buchindizes/Mittelung rekonstruiert; Energie/Wellenkontexte getrennt, Kinematik und physikalische Schliessung offen |
 | Grundbegriffe | Heim-eigene Raum-/Strukturbegriffe, metronische Operationen, messbare Zuordnung | Noch nicht systematisch rekonstruiert |
 | Massenformel | Einheiten, Konstanten, Quantenzahlen, Auswahlregeln, ein vollstaendiger Rechenfall | Quellbibliothek vorhanden; noch kein eigener Massenrechner |
 | Reichweite | Was sind Modellannahmen, reale Beobachtungen und rein interne Groessen? | Insbesondere Neutrino-Feldmassen und Zweigbedeutung abzugrenzen |
@@ -25,13 +25,18 @@ Ergebnis; sie werden nicht als stillschweigende Definitionen behandelt.
 
 ## Naechste begrenzte Arbeitseinheit
 
-1. Den neuen Energieordnungsbefund aus BandII Druck299/300 als getrennten
-   lokalen Korrekturkandidaten verfolgen, ohne die Quelle umzuschreiben.
-2. Bedeutung und fruehere Definitionen von m(v_H), E_k=m*v_H*c,
-   lambda_H=2*pi*r_H und der Lorentz-/K-Schalen-Konstruktion nachvollziehen.
-3. Danach Voraussetzungen des k-Ansatzes L*Delta=k und die spekulative
-   Auswahlbegrenzung aus(98a) weiter zurueckverfolgen.
-4. Quellen-/Mathematikreview, offene Alternativen und Checkpoint.
+1. A_--Matrix aus BandI Druck12/21 mit einem expliziten Transformationsfall
+   auswerten; invariante Gleichungsform von invariantem Zahlenwert trennen.
+2. Anschluss von E_k=pc an Energie-/Arbeitsbilanz im Quellenmodell pruefen.
+   Die pc/T-Unterscheidung wurde bereits quantitativ und quellenbezogen geklaert.
+3. Kreismeridian, Bezugssystem, Gleichzeitigkeit und Wellenzuordnung benennen;
+   die photonische Kreiswelle nicht unbelegt als Elektronenwelle uebernehmen.
+4. Danach Voraussetzungen von L*Delta=k und Auswahlbegrenzung(98a) verfolgen.
+5. Quellen-/Mathematikreview, offene Alternativen und Checkpoint.
+
+Abgeschlossene Etappe4: `06_docs/ENERGY_KINEMATICS_2026-09-06.md`.
+Die Quelle benutzt wiederholt pc; eine lokale Vorzeichenreparatur allein
+begruendet weder diesen Energieansatz noch die Kreiswellenkonstruktion.
 
 Die zwei bestehenden Massenblocker B50 und Gamma/Q_N bleiben in der Queue.
 Neuere Experiment-/Kritikliteratur wird nicht bereits jetzt als Ersatz fuer

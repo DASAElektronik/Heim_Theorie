@@ -18,7 +18,12 @@ alpha audit is executable; it does not implement the complete mass spectrum.
 Gate result: the isolated ALPHA audit is scoped by `NORM-ALPHA-AUDIT-001`.
 Full mass reconstruction remains blocked and lacks complete dependency coverage;
 closing the two listed blockers alone would not establish implementation readiness.
-Decision register: 42 resolved, two blocked (44 total).
+Decision register: 43 resolved, two blocked (45 total).
+
+Fourth-stage addition: `NORM-ENERGY-KINEMATICS-001` scopes the conditional
+pc/T and wavelength comparisons, with an independently reviewed calculator.
+The mass bridge and the two deliberate substitutions remain assumptions;
+this implementation boundary does not resolve their physical justification.
 
 Third-stage additions: `NORM-CHARGE-001` scopes the EDM1 preliminary-alpha
 charge-mean diagnosis; `NORM-BOOK-ETA-001` resolves the book-only eta(q,k)

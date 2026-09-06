@@ -1,5 +1,25 @@
 # Fortschritt
 
+## 2026-09-06 - Vierte Etappe: Energie-/Wellenlaengenbegriffe
+
+- Quellanker fuer E=pc, Transversalmasse und drei Wellenkontexte visuell
+  gesichert. Bedeutungen/Modellidentifikationen von Folgerungen getrennt.
+- pc ist nicht die konventionelle Bewegungsenergie T; im kleinen Buchzweig
+  pc/T=274.068273..., h/p relativ zu h/(mc)=137.035960995... . Alles bedingt,
+  ohne Messwerte und ohne neue externe Widerlegungsrecherche.
+- Historische Standarddefinition aus Einstein1905 Druck920 visuell gegengeprueft.
+  Aeltere eigene Bezeichnung von mc^2 als Ruheenergie korrigiert.
+- Quellenmatrix zeigt: Compton-Skala im Neutralteilchenkontext nichtzirkulaer;
+  photonische Kreiswelle ist kein Beweis fuer die Elektronen-Kreiswelle.
+- Dimensionsloser Rechner mit drei offen getrennten Schliessungen K=g*f*s,
+  11 neuen Tests (44 gesamt), unabhaengiger Quellen- und Mathematikreview.
+- Eine scoped Normalisierung hinzugefuegt:45 Entscheidungen,43 resolved,
+  zwei alte Massenblocker. Alte Inputs/Snapshots unveraendert.
+- Plancheckpoint d1e31bc und Rechner-/Berichtcheckpoint c1c6a32 gepusht.
+  Abschlusscommit: `Complete reviewed energy and wavelength reconstruction`.
+- Naechster Einstieg: A_-, invariante Form versus Skalar, Energie/Arbeit,
+  dann explizite Kreisgeometrie. Keine komplette Theorievalidierung.
+
 ## 2026-09-06 - Dritte Etappe: Ladungsmittelung und Quellenbruecken
 
 - BandI(27b)-(29a) schrittweise rekonstruiert; unterschiedliche Ladungs- und

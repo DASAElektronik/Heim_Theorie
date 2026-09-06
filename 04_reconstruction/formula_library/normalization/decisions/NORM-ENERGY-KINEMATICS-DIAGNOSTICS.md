@@ -1,7 +1,8 @@
 # NORM-ENERGY-KINEMATICS-001
 
-Stand: 2026-09-06. Begrenzte Implementierungsfreigabe nach Quellbildkontrolle;
-unabhaengige Rechnerreview vor Abschluss erforderlich.
+Stand: 2026-09-06. Begrenzte Implementierungsfreigabe nach Quellbildkontrolle
+und abgeschlossener unabhaengiger Rechnerreview. Kein Rechenfehler gefunden;
+empfohlener unabhaengiger Buchindex-Regressionstest zusaetzlich aufgenommen.
 
 ## Quellen und Bedeutungsgrenze
 

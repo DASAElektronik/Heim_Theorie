@@ -60,6 +60,10 @@ Keine dieser Varianten wird ohne Kennzeichnung in die Quelle geschrieben.
 - Unabhaengige bedingte Algebra:
   `reviews/ENERGY_ORDER_MATH_REVIEW_2026-09-06.md`.
 
-Naechste Aufgabe: Energiebezeichnungen, m(v_H), E_k=m*v_H*c und
-lambda_H=2*pi*r_H in ihren frueheren Definitionen rueckverfolgen. Erst dann
-ueber lokale physikalische Konsistenz und moegliche weitere Korrekturen urteilen.
+Nachtrag Etappe4: Die frueheren Energie-/Wellenlaengenanker sind im Bericht
+`06_docs/ENERGY_KINEMATICS_2026-09-06.md` rekonstruiert. pc steht wiederholt
+in BandI, ist jedoch nicht die gewoehnliche Bewegungsenergie T. Deren
+Austausch waere eine weitergehende Aenderung als EC-ENERGY-01 und wird nur
+als getrennte Vorwaertsdiagnose untersucht. Die Energieordnungsreparatur
+loest weder die pc/T-Frage noch die Kreiswellenzuordnung. Naechster Schritt:
+A_--Bedeutung, operative Energiebilanz und explizite Kreisgeometrie.

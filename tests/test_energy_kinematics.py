@@ -94,6 +94,21 @@ class EnergyKinematicsTests(unittest.TestCase):
         for precision in (40, 200):
             self.assertEqual(energy.build_report(precision)["precision"], precision)
 
+    def test_book_source_index_regression(self):
+        # Direct book q=1,k=1/2 definitions, independent of eta_k_q helper.
+        # Reference digits independently checked by the mathematics reviewer;
+        # they are a formula regression, not an experimental alpha target.
+        with localcontext() as ctx:
+            ctx.prec = 80
+            pi = energy.core.mathematical_pi()
+            branch = energy.book_source_branch(pi)
+            eta = pi/(pi**4+4).sqrt().sqrt()
+            self.assertEqual(branch["eta"], eta)
+            self.assertEqual(branch["eta11"], pi/(pi**4+5).sqrt().sqrt())
+            self.assertEqual(branch["eta12"], pi/(pi**4+6).sqrt().sqrt())
+            self.assertEqual(branch["vartheta"], 5*eta+2*eta.sqrt()+1)
+            self.assertLess(abs(1/branch["small_beta"]-D("137.0359609951515777422060897")), D("1e-25"))
+
     def test_precision_convergence(self):
         low, high = energy.build_report(80), energy.build_report(120)
         with localcontext() as ctx:

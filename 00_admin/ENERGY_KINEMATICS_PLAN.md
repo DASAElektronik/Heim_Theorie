@@ -23,13 +23,17 @@ OCR lokalisiert; Seitenbilder entscheiden. Quellen-PDFs bleiben lokal/ignoriert.
 
 ## Abschlusskriterien
 
-- [ ] Fruehere Definitionen mit Druckseite, PDF-Seite und Bildkontrolle.
-- [ ] E=pc von T=(m-m0)c^2 und Ruhe-/Gesamtenergie begrifflich getrennt.
-- [ ] lambda=h/(mc) von einer zusaetzlichen lambda=h/p-Lesart getrennt.
-- [ ] Einfluss der eingesetzten Relationen auf Alpha-Gleichung algebraisch klar.
-- [ ] Eigene Alternativen nur als ungefittete bedingte Diagnosen kennzeichnen.
-- [ ] Tests, unabhaengige Reviews, verstaendlicher Bericht und Wiedereinstieg.
-- [ ] Explizite Dateien committen, pushen und Remote-Abgleich bestaetigen.
+- [x] Fruehere Definitionen mit Druckseite, PDF-Seite und Bildkontrolle.
+- [x] E=pc von T=(m-m0)c^2 und Ruhe-/Gesamtenergie begrifflich getrennt.
+- [x] lambda=h/(mc) von einer zusaetzlichen lambda=h/p-Lesart getrennt.
+- [x] Einfluss der eingesetzten Relationen auf Alpha-Gleichung algebraisch klar.
+- [x] Eigene Alternativen nur als ungefittete bedingte Diagnosen kennzeichnen.
+- [x] Tests, unabhaengige Reviews, verstaendlicher Bericht und Wiedereinstieg.
+- [x] Plan d1e31bc und Rechner-/Berichtcheckpoint c1c6a32 committed/gepusht.
+
+Abschlusscommit-Nachricht: `Complete reviewed energy and wavelength reconstruction`.
+Finalen Remote-Abgleich mit `git status --short --branch` und
+`git rev-parse HEAD origin/normalization-review` kontrollieren.
 
 ## Sicherungen
 

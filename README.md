@@ -55,6 +55,13 @@ die Buch-Indexreihenfolge und dokumentiert einen lokalen Energieordnungs-
 widerspruch. [Schrittweise Erklaerung](06_docs/CHARGE_DERIVATION_2026-09-06.md).
 33 Tests bestehen; Annahmen und Korrekturkandidaten sind gesondert markiert.
 
+Die vierte Etappe verfolgt Energie, Masse und Wellenlaenge vor(105).
+Sie trennt Heims pc von konventioneller Bewegungsenergie sowie h/(mc) von
+h/p und zeigt den Einfluss dieser Annahmen auf die Alpha-Gleichung.
+[Erklaerung und Quellen](06_docs/ENERGY_KINEMATICS_2026-09-06.md).
+44 Tests bestehen; unabhaengige Reviews abgeschlossen. Keine fertig begruendete
+Alternativtheorie: Kinematik, Kreisgeometrie und Energiezuordnung bleiben offen.
+
 Wir bauen zuerst eine Formelbibliothek unter `04_reconstruction/formula_library/`.
 Jede Formel bekommt eine ID, Quelle, Status, Abhaengigkeiten, Outputs und Audit-Risiken.
 Erst wenn eine Formel `source_checked` und `normalized` ist, soll sie implementiert werden.

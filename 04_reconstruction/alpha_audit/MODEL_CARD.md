@@ -43,6 +43,15 @@ right-hand factor cannot change the complementary-root identity.
 
 ## Constants and discrete choices
 
+Fourth-stage addition (2026-09-06): `audit_energy_kinematics.py` is separate
+from the historical profiles. It uses the now source-checked book eta(q,k)
+chain, Y3=1 and mathematical pi for its illustrative small branch. Neither
+measured alpha nor mass values are inputs. The two substitution profiles
+are unfitted forward diagnostics, not physically consistent replacement
+atom models or an uncertainty interval. The m=gamma*m0 bridge from EDM1 to
+EDM2 is conditional; pc, T, h/(mc) and h/p are not silently equated.
+All11 new tests and independent source/mathematics reviews passed;44 total.
+
 All quantities are dimensionless. Mathematical pi is computed at the declared
 Decimal precision. The separate 3.1415926535 profile tests the 1982 printed pi;
 its use for 1989 is explicitly a sensitivity calculation. No mass, hbar, c,

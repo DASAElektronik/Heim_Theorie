@@ -252,7 +252,7 @@ e_-^2(1-C)
 =4\pi\varepsilon_0r_H\alpha\sqrt{1-\alpha^2}\,mc^2.
 \]
 
-Danach identifiziert Heim die Ruheenergie mit dem Energiequant einer „zirkulären Elektronenwelle“ und setzt
+Danach identifiziert Heim die mit \(m\) gebildete Materieenergie mit dem Energiequant einer „zirkulären Elektronenwelle“ und setzt
 
 \[
 mc^2=h\nu_H=\frac{ch}{\lambda_H},

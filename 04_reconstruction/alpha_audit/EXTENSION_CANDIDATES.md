@@ -65,6 +65,13 @@ physikalisch motivierte Aenderung nicht aus.
 
 ## Nutzen fuer andere Projekte
 
+Etappe4: `scripts/audit_energy_kinematics.py` zeigt den Einfluss von zwei
+diskreten Ersetzungen (pc durch T; danach h/(mc) durch h/p). Diese bleiben
+ungefittete Diagnosen, keine neuen physikalischen Erweiterungskandidaten.
+Bei unveraenderten anderen Annahmen aendert sich K=beta*s zu s*(1-s) oder
+s*(1-s)/beta. Eine begruendete Erweiterung muesste zuerst Energie/Arbeit,
+Kreisgeometrie und beobachtbare Zuordnung konsistent gemeinsam herleiten.
+
 Ergaenzender Korrekturkandidat EC-ENERGY-01: Umkehr der gedruckten
 Energieintervallordnung, siehe `BOOK_ENERGY_ORDER_ISSUE.md`. Diese lokale
 algebraische Reparatur ist keine gesicherte Autorenabsicht und keine

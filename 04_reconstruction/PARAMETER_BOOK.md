@@ -34,6 +34,14 @@ sind in `alpha_audit/BOOK_ENERGY_ORDER_ISSUE.md` gesondert ausgewiesen.
 
 ## Kontinuierliche Konstanten
 
+Etappe4: `audit_energy_kinematics.py` hat keine angepassten Parameter.
+Y3=1 ist die unveraenderte Quellenspezialisierung, nicht neu bestimmt.
+Zwei diskrete diagnostische Aenderungen werden sichtbar getrennt: pc durch
+T ersetzen; zusaetzlich h/(mc) durch h/p ersetzen. Fuenf feste beta-Lehrwerte
+und der ungefitete kleine Buchzweig sind die Auswertungsstellen. Die
+Gleichsetzung von m(v_H) mit gamma*m0 ist eine bedingte Quellenbruecke.
+Diese Groessen sind keine neuen physikalisch gerechtfertigten Freiheitsgrade.
+
 | Name | Wert | Einheit | Quelle | Modellversion | Status | Notiz |
 |---|---:|---|---|---|---|---|
 | alpha | TBD | dimensionslos | `Massenformel_nach_B_Heim_1982.pdf`, page image `1982_massenformel/page-04.png`, Feinstrukturkonstante block | 1982/IGW transcription | source_checked | Source gives `alpha_(+) = alpha` and printed `alpha_(+)^-1 = 137,03596147`; branch alias, not yet implementation value |

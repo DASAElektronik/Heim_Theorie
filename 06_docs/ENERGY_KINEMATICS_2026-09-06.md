@@ -107,7 +107,9 @@ v gegen null; das macht sie trotzdem nicht austauschbar.
 
 Auch die Arbeitserhaltung braucht eine klare Zuordnung: Unter den hier
 verwendeten mechanischen Definitionen folgt aus `p=gamma*m0*v`
-die Beziehung `dT=v*dp`, waehrend `d(pc)=c*dp` gilt. Wird stattdessen `pc`
+die Beziehung `dT=v*dp` fuer den Impulsbetrag p, waehrend `d(pc)=c*dp` gilt.
+In Vektorschreibweise lautet die mechanische Beziehung `dT=v_vec dot dp_vec`.
+Wird stattdessen `pc`
 in eine Arbeits-/Potentialbilanz eingesetzt, muss die passende physikalische
 Begruendung oder eine geaenderte Dynamik angegeben werden. Sie folgt nicht
 allein aus dem Lorentzfaktor. Noch kein Urteil ueber alle Heim-Energiebegriffe.
@@ -268,6 +270,19 @@ Unabhaengige Reviews im Verzeichnis `04_reconstruction/alpha_audit/reviews/`:
 - `ENERGY_KINEMATICS_MATH_REVIEW_2026-09-06.md`
 
 ### Lokale Quellenprovenienz
+
+Abschlusspruefung:44 Tests, davon11 neu; zwei Quellenreviews und eine
+unabhaengige Mathematik-/Rechnerreview abgeschlossen. Der zusaetzliche
+Buchindex-Regressionstest entstand aus deren Empfehlung. Bestehende
+Rechnerinputs und die ersten drei Snapshots wurden nicht geaendert.
+
+```powershell
+py -3.13 scripts/audit_alpha.py --check --verify-sources
+py -3.13 scripts/audit_alpha_book.py --check
+py -3.13 scripts/audit_charge_averaging.py --check --verify-sources
+py -3.13 scripts/audit_energy_kinematics.py --check --verify-sources
+py -3.13 -m unittest discover -s tests -q
+```
 
 - EDM1: `01_sources/heim_primary/Burkhard Heim - 1998 - Elementarstrukuren der Materie 1.pdf`.
   SHA256 `49C79028C4F5B4FEE97F0541EF1655C37755C3C3C2FD3A10DD6E72CB454DE459`.
