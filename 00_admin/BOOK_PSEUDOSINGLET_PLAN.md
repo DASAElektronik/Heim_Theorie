@@ -30,3 +30,10 @@ Interne Reviews sind keine externen PeerReviews.
 Die numerische Profilfestlegung wird hier VOR deren neuer Auswertung
 nachgetragen und separat versioniert. Eine Quellenluecke ist ein erlaubter
 begrenzter Abschluss, keine pauschale Nichtberechenbarkeit der Theorie.
+
+Profilfestlegung vor Rechnung: `NORM-BOOK-PSEUDOSINGLET.md` und
+`book_pseudosinglet_inputs.json` im Alpha-Audit. Primaer105 mit Y3=1,
+q,k-Indizes (A2:1,2), mathematische pi/e, goldenes xi, Y9=1; getrennte
+Druckwert-Sensitivitaet alpha=0.007297354572. Keine weitere Achse/Fitwahl.
+Direkte ungewichtete107-Gates und spaetere107b-sigma-Bandbreite getrennt.
+Noch kein Auswahlergebnis dieser Profile berechnet.
