@@ -2,7 +2,16 @@
 
 Aktualisiert: 2026-09-06.
 
-## Aktuell: siebenundzwanzigste Etappe abgeschlossen
+## Aktuell: achtundzwanzigste Etappe in Arbeit
+
+Ausgang `1fcf209`, Vertrag `F16_DETERMINACY_PLAN.md`.
+Auftrag: Bedingungen an F16 und Bestimmtheit des Grenzwerts A16 in
+H004330-335 und konkret genannten Rueckverweisen. Quellenbefund von
+eigenen reduzierten skalaren Beispielen trennen; keine neue Masse/Y9-Wahl.
+Agenten arbeiten ausschliesslich an drei neuen F16*-Review-Dateien.
+Alte Rechner, Inputs, Snapshots und Normalisierungen unveraendert lassen.
+
+## Verlauf: siebenundzwanzigste Etappe abgeschlossen
 
 Ausgang `a5cf32b`, Plancheckpoint `f26321a`, Vertrag `A16_ORIGIN_PLAN.md`.
 Bericht: `06_docs/A16_ORIGIN_2026-09-06.md`.
