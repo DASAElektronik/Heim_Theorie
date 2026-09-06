@@ -2,7 +2,15 @@
 
 Aktualisiert: 2026-09-06.
 
-## Aktuell: dreissigste Etappe abgeschlossen
+## Aktuell: einunddreissigste Etappe in Arbeit
+
+Ausgang `2ae50af`, Vertrag `STRUCTURE_HANDLING_PLAN.md`.
+Buch107/107a und historische GSTRUC auf explizite Strukturfehlerbehandlung,
+Ruecksetzen oder G/delta-Umdefinition pruefen. Nur statische Quellenlekture,
+keine historischen Programmlaeufe, Masse/F_S oder neue Y9-/Besetzungswahl.
+Drei neue STRUCTURE_HANDLING_*-Reviews; alte Daten erhalten.
+
+## Verlauf: dreissigste Etappe abgeschlossen
 
 Ausgang `00180ec`, Plancheckpoint `2d53bfc`, Eingaben vor Auswertung in
 `05a0bab`, Rechner/Tests/Snapshot in `4213148`.
