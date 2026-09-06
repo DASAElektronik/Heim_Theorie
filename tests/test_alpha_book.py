@@ -37,6 +37,31 @@ class BookDiagnosticsTests(unittest.TestCase):
         self.assertLess(lo, D("0.4"))
         self.assertGreater(hi, D("0.4"))
 
+    def test_near_one_requires_exact_endpoint_arithmetic(self):
+        inverse = D("1." + "0"*60 + "1")
+        with localcontext() as ctx:
+            ctx.prec = 28
+            with self.assertRaisesRegex(ValueError, "precision"):
+                book.required_rhs(inverse)
+            with self.assertRaisesRegex(ValueError, "precision"):
+                book.rhs_interval((inverse, inverse))
+        with localcontext() as ctx:
+            ctx.prec = 180
+            lower, upper = book.rhs_interval((inverse, inverse))
+            self.assertGreater(lower, D(0))
+            ctx.prec = 220
+            # Independent reference through alpha, not the inverse formula.
+            alpha = D(1)/inverse
+            reference = alpha*(D(1)-alpha*alpha).sqrt()
+            self.assertLessEqual(lower, reference)
+            self.assertGreaterEqual(upper, reference)
+
+    def test_inexact_square_rejected_away_from_boundary(self):
+        with localcontext() as ctx:
+            ctx.prec = 6
+            with self.assertRaisesRegex(ValueError, "precision"):
+                book.required_rhs(D("137.036"))
+
     def test_both_monotonic_regions_and_outward_bounds(self):
         with localcontext() as ctx:
             ctx.prec = 80

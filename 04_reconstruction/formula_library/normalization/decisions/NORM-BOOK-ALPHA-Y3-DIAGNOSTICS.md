@@ -1,7 +1,9 @@
 # NORM-BOOK-ALPHA-Y3-DIAGNOSTICS
 
 Date: 2026-09-06. Decision ID: `NORM-BOOK-ALPHA-001`.
-Status: diagnostic implementation scope; independent review pending.
+Status: resolved diagnostic implementation scope; independent review accepted.
+Review: `alpha_audit/reviews/BOOK_DIAGNOSTICS_MATH_REVIEW_2026-09-06.md`,
+including the precision-guard follow-up; 23 total tests pass.
 
 ## Source and purpose
 
@@ -14,6 +16,8 @@ This decision permits a separate diagnosis of what a target value would
 require, and an examination of finite-precision cancellation. Target-derived
 Y3 values are ex-post calibrations, never source inputs or predictions.
 The existing alpha audit and its original source strings remain intact.
+The numerical profiles combine this book equation structure with explicit
+IGW1982 eta conventions; they are not a complete book-only derivation.
 
 ## Inversion
 
@@ -39,6 +43,9 @@ All source endpoints have few enough digits for their squares to be exact
 at the minimum 50-digit diagnostic precision. Square-root/division and Y3
 interval endpoints are rounded outwards with fixed computed R0 and A1*A2.
 80/120-digit convergence checks control the numerical coefficient approximation.
+Generic helper inputs are rejected with ValueError if the current context
+cannot form the exact square and square-minus-one; callers must raise precision.
+This prevents near-one input resolution from silently collapsing to zero.
 
 ## Arithmetic diagnosis
 
@@ -48,6 +55,8 @@ to the stable complementary-root solver, in IEEE binary64 and declared
 Decimal precisions 8,10,12,16,24. All profiles are reported; none is selected
 because it happens to resemble a printed number. These simulations do not
 establish how historical computations were performed.
+Only ordinary binary64 cancellation is excluded as the cause at these inputs.
+The 8-digit Decimal trials do show errors of the same order as the mismatch.
 
 ## Model-development boundary
 

@@ -18,7 +18,11 @@ alpha audit is executable; it does not implement the complete mass spectrum.
 Gate result: the isolated ALPHA audit is scoped by `NORM-ALPHA-AUDIT-001`.
 Full mass reconstruction remains blocked and lacks complete dependency coverage;
 closing the two listed blockers alone would not establish implementation readiness.
-Decision register: 39 resolved, two blocked (41 total).
+Decision register: 40 resolved, two blocked (42 total).
+
+The separate book-structure Y3 diagnosis is scoped by `NORM-BOOK-ALPHA-001`.
+Its inversion is explicitly ex-post and uses the existing IGW1982 eta variants;
+it does not resolve the book's missing eta-index derivation or either mass blocker.
 
 ## Alpha Audit 2026-09-06
 

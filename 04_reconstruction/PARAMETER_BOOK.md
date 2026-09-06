@@ -12,10 +12,17 @@ CODATA-Alpha geht ausschliesslich in den nachfolgenden Vergleich ein.
 
 Im Buch EDM2, Druckseiten 301-302 / PDF-Folios 307-308, wird Y3 als
 Unsicherheitsfaktor in (105) eingefuehrt und fuer die anschliessende Rechnung
-auf 1 gesetzt. Eine allgemeine Festlegung/Herleitung ist hier nicht geprueft.
-Der aktuelle Alpha-Audit bildet nur diese Spezialisierung ab; Y3 wird nicht
-gefittet. Die kanonischen historischen Konstantentabellen unten bleiben
-davon getrennt.
+auf 1 gesetzt. Die zweite Etappe bestaetigt: Schon Druckseite 1 bezeichnet
+Y_k als Platzhalter fuer nicht vollstaendig geklaerte Beziehungen und setzt
+sie fuer die Tabellen auf 1. Eine theoretische Festlegung von Y3 wurde nicht
+gefunden. Der erste Alpha-Audit bleibt bei Y3=1 und fitfrei.
+
+Die getrennte Buchstruktur-Diagnose `scripts/audit_alpha_book.py` kehrt die
+Gleichung nach Y3 um. Bei Wahl eines gemessenen Alpha ist das **ein**
+kontinuierlicher Fitparameter, zuzueglich der offen dokumentierten diskreten
+Indexvariante. Diese Diagnose aendert keine kanonischen historischen Inputs.
+Kein einzelnes Y3 kann beide gedruckten Zweigwerte gleichzeitig treffen.
+Details: `alpha_audit/EXTENSION_CANDIDATES.md`.
 
 ## Kontinuierliche Konstanten
 

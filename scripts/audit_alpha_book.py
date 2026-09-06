@@ -9,7 +9,7 @@ import argparse
 import hashlib
 import json
 import math
-from decimal import Decimal as D, ROUND_CEILING, ROUND_FLOOR, localcontext
+from decimal import Decimal as D, Inexact, ROUND_CEILING, ROUND_FLOOR, localcontext
 
 import audit_alpha as core
 
@@ -17,32 +17,49 @@ OUTPUT = core.ROOT / "05_analysis/alpha_book_diagnostics.json"
 ONE, TWO = D(1), D(2)
 
 
+def exact_square_and_radicand(inverse: D) -> tuple[D, D]:
+    """Refuse inputs whose exact square/subtraction need more context digits.
+
+    The endpoint-enclosure proof assumes exact d*d and d*d-1. In particular,
+    an inverse arbitrarily close to 1 must not silently collapse to 1.
+    Callers can retry under a higher-precision localcontext.
+    """
+    with localcontext() as ctx:
+        ctx.traps[Inexact] = True
+        try:
+            square = inverse*inverse
+            return square, square-ONE
+        except Inexact as exc:
+            raise ValueError("Insufficient Decimal precision for exact inverse square/subtraction") from exc
+
+
 def required_rhs(inverse: D) -> D:
     if not inverse.is_finite() or inverse < ONE:
         raise ValueError("Inverse must be finite and at least 1")
-    square = inverse*inverse
-    return (square-ONE).sqrt()/square
+    square, radicand = exact_square_and_radicand(inverse)
+    return radicand.sqrt()/square
 
 
 def rhs_interval(bounds: tuple[D, D]) -> tuple[D, D]:
     lo, hi = bounds
     if not lo.is_finite() or not hi.is_finite() or not ONE <= lo <= hi:
         raise ValueError("Inverse interval must be finite, ordered and >=1")
-    lows, highs = [], []
+    lows, highs, squares = [], [], []
     for endpoint in bounds:
-        square = endpoint*endpoint
+        square, radicand = exact_square_and_radicand(endpoint)
+        squares.append(square)
         with localcontext() as ctx:
             ctx.rounding = ROUND_FLOOR
-            lower_root = (square-ONE).sqrt()
+            lower_root = radicand.sqrt()
             # Decimal.sqrt is correctly rounded HALF_EVEN irrespective of
             # context rounding. Expand by one representable value explicitly.
             lower_root = lower_root.next_minus() if lower_root else D(0)
             lows.append(lower_root/square)
             ctx.rounding = ROUND_CEILING
-            upper_root = (square-ONE).sqrt()
+            upper_root = radicand.sqrt()
             upper_root = upper_root.next_plus() if upper_root else D(0)
             highs.append(upper_root/square)
-    maximum = ONE/TWO if lo*lo <= TWO <= hi*hi else max(highs)
+    maximum = ONE/TWO if squares[0] <= TWO <= squares[1] else max(highs)
     return min(lows), maximum
 
 
@@ -146,6 +163,7 @@ def build_report(inputs: dict, precision: int = 80) -> dict:
             "schema_version": 1, "audit_date": "2026-09-06", "input_content_sha256": input_hash,
             "precision": precision, "pi_profile": "mathematical_pi",
             "source": "EDM2 printed pp301-302, equation105, Y3=1 numerical example",
+            "source_scope": "Book equation structure combined with explicit IGW1982 eta profiles; not a complete book-only derivation",
             "normalization": "NORM-BOOK-ALPHA-Y3-DIAGNOSTICS",
             "diagnostic_scope": "Every inferred Y3 uses its target explicitly; this is calibration/diagnosis, never a prediction",
             "profiles": profiles,

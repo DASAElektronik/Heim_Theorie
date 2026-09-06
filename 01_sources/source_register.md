@@ -1,8 +1,23 @@
 # Quellenregister
 
-Stand: 2026-05-14
+Stand: 2026-09-06 (Grundinventar: 2026-05-14).
 
 Dieses Register sammelt Fundstellen. Lokale Kopien sollten nur abgelegt werden, wenn die Quelle oeffentlich zugaenglich ist und der Zweck Forschung/Archivierung ist. Bei urheberrechtlich unklaren Quellen reicht ein Link plus Exzerptnotiz.
+
+## Enger Pruefstand 2026-09-06
+
+Die Inventarstatus unten beziehen sich auf ganze Quellen, nicht einzelne
+Formelstellen. Inzwischen geprueft sind die 1982/1989-Alpha-Bloecke sowie
+enge Buchstellen aus H003/H004. Hashes fuer H004/H006/H007:
+`04_reconstruction/alpha_audit/inputs.json`; H003-Hash und Druck247/248:
+`03_notes/EDM1_ALPHA_DEPENDENCIES_2026-09-06.md`.
+
+Die aktuelle Herausgeberkopie von H007 liegt unter
+https://heim-theory.com/wp-content/uploads/2026/03/F_Erweiterte_Massenformel_nach_Heim-1989.pdf
+und ist byte-identisch zum lokalen Audit-PDF. Es handelt sich um eine
+IGW-Ueberlieferung2002/2003 eines berichteten Manuskripts1989, nicht um dessen
+verifiziertes Faksimile. Editions-/Messwertprovenienz und weitere Fundstellen:
+`04_reconstruction/alpha_audit/reviews/EXTERNAL_SOURCE_REVIEW_2026-09-06.md`.
 
 ## Heim-nahe Quellen
 
@@ -43,4 +58,3 @@ Dieses Register sammelt Fundstellen. Lokale Kopien sollten nur abgelegt werden, 
 2. H003/H004: wichtig fuer Herleitung, aber umfangreich.
 3. M001/M002: Referenzwerte fuer Vergleichstabellen.
 4. S001-S004: nur zur Orientierung, nicht als Beweisquelle.
-

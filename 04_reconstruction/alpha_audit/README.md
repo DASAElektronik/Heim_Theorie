@@ -9,6 +9,7 @@ Im Projektordner:
 
 ```powershell
 py -3.13 scripts/audit_alpha.py --check --verify-sources
+py -3.13 scripts/audit_alpha_book.py --check
 py -3.13 -m unittest discover -s tests -v
 ```
 
@@ -52,3 +53,20 @@ nach aussen gerundete Intervallgrenzen, gedruckte Zweig-/Kehrwertwidersprueche,
 die Formel. Bei extrem kleinen R kann die grosse Wurzel auf 1 gerundet
 werden; dieser Test beansprucht keine relative Genauigkeit ihrer verlorenen
 kleinen Ergaenzung. Die hier geprueften Quellenwerte liegen fern davon.
+
+## Zweite Etappe: Buchstruktur und Y3
+
+`scripts/audit_alpha_book.py` rechnet Y3 aus expliziten Zielwerten zurueck
+und untersucht numerische Ausloeschung. Das ist Diagnose/Kalibrierung, keine
+Vorhersage. Buch-(105)-Struktur und bestehende IGW1982-eta-Profile werden
+offen kombiniert; die Indexherleitung allein aus dem Buch bleibt unvollstaendig.
+`--write` erneuert nur `05_analysis/alpha_book_diagnostics.json`.
+
+23 Tests insgesamt: 13 fuer den ersten Audit, 10 fuer die Diagnose, inklusive
+unabhaengigem einfachen Inversionsfall, Extremum bei sqrt(2), Intervallen,
+80/120-Stellen-Konvergenz und Regressionen aus der Mathematikreview.
+Die Inversionshelfer verweigern Eingaben, deren Quadrat/Subtraktion nicht
+exakt in die aktuelle Decimal-Praezision passt; Kontextpraezision erhoehen.
+
+Bericht: `06_docs/BOOK_TRACE_2026-09-06.md`.
+Eigene Varianten: `EXTENSION_CANDIDATES.md`.

@@ -5,6 +5,7 @@
   "precision": 80,
   "pi_profile": "mathematical_pi",
   "source": "EDM2 printed pp301-302, equation105, Y3=1 numerical example",
+  "source_scope": "Book equation structure combined with explicit IGW1982 eta profiles; not a complete book-only derivation",
   "normalization": "NORM-BOOK-ALPHA-Y3-DIAGNOSTICS",
   "diagnostic_scope": "Every inferred Y3 uses its target explicitly; this is calibration/diagnosis, never a prediction",
   "profiles": [

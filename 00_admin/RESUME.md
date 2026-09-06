@@ -2,23 +2,39 @@
 
 Aktualisiert: 2026-09-06.
 
-## Aktuell: zweite Etappe laeuft
+## Aktuell: zweite Audit-Etappe abgeschlossen
 
-Plan: `00_admin/BOOK_TRACE_PLAN.md`. Ausgangscommit `a2a9e84` ist gepusht.
-Quellenagenten `book_derivation` (GPT-5.6 Terra high) und `alpha_versions`
-(GPT-5.6 Sol high) bearbeiten Buchabhaengigkeiten bzw. externe Fassungen.
-Hauptagent entwickelt eine getrennte Y3-/Rechengenauigkeitsdiagnose.
-Reviews landen in `04_reconstruction/alpha_audit/reviews/`.
+Bericht: `06_docs/BOOK_TRACE_2026-09-06.md`.
+Fortsetzungsplan: `00_admin/UNDERSTANDING_ROADMAP.md`.
+23 Tests bestehen, beide Ergebnis-Snapshots sind reproduzierbar.
+Buchquellen- und Mathematikreview (GPT-5.6 Terra high) sowie externe
+Provenienzreview (GPT-5.6 Sol high) abgeschlossen. Reviews liegen unter
+`04_reconstruction/alpha_audit/reviews/`; keine laufenden Agenten erforderlich.
+
 Der Nutzer erlaubt auch eigene Theorieverbesserungen: plausible Korrekturen
 oder neue Annahmen als getrennte, pruefbare Modellvarianten ausarbeiten.
 Originale erhalten, neue Freiheitsgrade und nachtraegliche Anpassungen offenlegen.
 Neueste Prioritaet: erst Herleitung/Annahmen verstehen, danach neuere Arbeiten
 auf physikalische Widerlegung oder Anschluss pruefen. Jetzt nur interne
 Konsistenz und Quellenprovenienz; kein Gesamturteil zur Theorie.
-Quellenreviews liegen inzwischen vor; `book_derivation` prueft unabhaengig
-die neue Mathematik. Diagnosecode und Snapshot fertig, 21 Tests bestanden;
-noch nicht als unabhaengig freigegeben behandeln.
-Die folgenden Angaben beschreiben die fertiggestellte erste Etappe.
+Neue Befunde:
+
+- Band I (28a)/(29), Druck247/248: unindiziertes eta und vartheta lokalisiert;
+  Ladungs-/Potentialmittelung ist Annahme, nicht durch Folgealgebra bewiesen.
+- Band II Druck1: Y_k fuer ungeklaerte Beziehungen; Tabellen mit Y_k=1.
+  Y3=1 ist Spezialisierung, keine gefundene theoretische Bestimmung.
+- Neue Y3-Inversion ist ausdruecklich ex-post; kein gemeinsames Y3 repariert
+  das gedruckte Zweigpaar. Buchstruktur + deklarierte IGW1982-eta-Profile,
+  keine bereits buchautarke Zahlenherleitung.
+- Binary64-Fehler viel zu klein; 8-stellige Dezimalrechnung kann dagegen
+  aehnlich grosse Fehler machen. Historischer Rechenweg bleibt unbekannt.
+- Generischer Decimal-Randfall nach unabhaengiger Review behoben:
+  unzureichende Praezision fuer exakte Quadrate/Subtraktion wird abgelehnt.
+- 1989-Rehost byte-identisch; kein alpha-spezifisches Erratum gefunden.
+  Historische Messunsicherheit im IGW-Vergleich falsch/unvollstaendig
+  uebertragen; genaue angebliche 1992-Zahlenpaarung weiter ohne Primaerbeleg.
+- 42 Normalisierungsentscheidungen: 40 resolved, zwei blocked.
+  Formelstatus unveraendert: zwei Alpha-Audits, zwoelf nicht implementiert.
 
 ## Auftrag und abgeschlossene Etappe
 
@@ -51,7 +67,7 @@ und die vollstaendige Massenrekonstruktion bleiben offen.
   Paar und dieselbe linke Seite. Y3 wird als Unsicherheitsfaktor eingefuehrt
   und fuer die konkrete Zahlenrechnung auf 1 spezialisiert.
 
-## Fertige Artefakte
+## Fertige Artefakte der ersten Etappe (historischer Stand)
 
 - Quellenagent abgeschlossen: Review unter
   `04_reconstruction/alpha_audit/reviews/SOURCE_REVIEW_2026-09-06.md`.
@@ -71,10 +87,12 @@ Bei neuer Sitzung vorhandene Review-Dateien zuerst lesen.
 
 ## Naechster konkreter Schritt
 
-Die Buchherleitung um (105), Druckseiten 297-302, rueckwaerts auf eta-, A_k-
-und Y3-Definitionen verfolgen. Ziel: Ursache der gedruckten Inkonsistenz
-lokalisieren. Danach 1989 B58-B62 mit weiteren datierbaren Fassungen/Errata
-vergleichen. Nicht automatisch einen Faktor oder Index nach Zielwert waehlen.
+Einfach und zweifach indiziertes eta sowie k-Konfigurationen zurueckverfolgen
+(Band I (27)/(28a), Band II, ggf. Begleitheft). Danach Ladungspotential-
+Mittelung und Korrelationsschluss vor (105) in heutiger Notation ausarbeiten.
+Eine Annahmen-/Abhaengigkeitskarte soll zeigen, was folgt und was gesetzt
+wird. Siehe `03_notes/EDM1_ALPHA_DEPENDENCIES_2026-09-06.md` und den neuen
+Verstaendnisplan. B50/Gamma-Q_N sowie vollstaendige Massenrechnung bleiben offen.
 
 Bereits verifiziert und nicht neu anfangen: 1982-Fitvariante ist nur naeher,
 1989-(q,k)-Indexkette ist belegt, alle fuenf Druckpaarchecks sind inkompatibel.
@@ -82,6 +100,7 @@ Eine gemeinsame Aenderung der rechten Seite repariert die Zweigidentitaet nicht.
 
 ```powershell
 py -3.13 scripts/audit_alpha.py --check --verify-sources
+py -3.13 scripts/audit_alpha_book.py --check
 py -3.13 -m unittest discover -s tests -v
 ```
 
@@ -91,8 +110,11 @@ Python ist ueber `py -3.13` verfuegbar; keine Fremdprogramme aus ZIPs ausfuehren
 
 - Plan-Checkpoint `f9eeeee` committed und erfolgreich gepusht.
 - Rechner-Checkpoint `df02845` committed und erfolgreich gepusht.
-- Abschlussstand: Commit-Nachricht `Complete audited alpha findings and recovery handoff`.
-  Den Hash und Remote-Abgleich mit den folgenden Befehlen feststellen.
+- Erste Etappe `a2a9e84`, zweite Etappe Plan `c679891`, Diagnosecheckpoint
+  `b99395e`: alle erfolgreich gepusht.
+- Zweite Etappe Abschluss: Commit-Nachricht
+  `Complete reviewed book diagnostics and understanding roadmap`.
+  Finalen Hash und Remote-Abgleich mit den folgenden Befehlen feststellen.
 - Letzter Nutzerstand: 24.218 verbleibende Credits; keine automatische Live-Abfrage.
 
 ```powershell
@@ -106,3 +128,4 @@ Fremd-PDFs sind bewusst nicht auf GitHub. Drei SHA256 plus URLs in `inputs.json`
 ermoeglichen den spaeteren Quellenabgleich; der numerische Audit laeuft auch
 ohne diese Dateien. Bei einem abweichenden Download keine neue Datei still
 als dieselbe Ausgabe behandeln.
+Band-I-SHA256/Fundstelle stehen zusaetzlich in der neuen Band-I-Lesenotiz.

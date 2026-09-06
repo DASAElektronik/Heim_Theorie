@@ -66,3 +66,23 @@ No XLSM macros or C/Pascal programs are executed or used to choose expressions.
 Full mass dependencies, B50, Gamma/Q_N, neutrino interpretation, historic
 priority, and the reason for inconsistent IGW numbers remain outside this
 model. Successful software tests do not validate Heim's physics.
+
+## Separate book-structure diagnostics, 2026-09-06
+
+`audit_alpha_book.py` is a separate ex-post model, not a change to v1.
+It combines Eq. (105)'s Y3 structure with explicit IGW1982 eta profiles;
+the two-index bridge has not been reconstructed from the book alone.
+Source review located the all-Y_k=1 numerical policy at EDM2 printed p.1
+and the unindexed eta/vartheta definitions in EDM1 printed pp.247-248.
+Neither establishes a theoretical closure for Y3 or the index ambiguity.
+
+The historical branch targets and CODATA are explicit inputs to this
+inversion. Every inferred Y3 is calibrated; no fitted alpha may be called a
+prediction. Input uncertainty ranges are not a theoretical error model.
+R0 and A1*A2 interval coefficients are fixed high-precision approximations;
+convergence is checked, not an exact transcendental interval proof.
+
+Reviewed and tested (10 additional tests). Generic insufficient-precision
+inputs are rejected. The binary64 cancellation conclusion excludes only
+that arithmetic profile, not low-precision historical computation.
+See `EXTENSION_CANDIDATES.md` and the two book review files.

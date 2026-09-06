@@ -12,7 +12,10 @@ Ein Teilchenbeschleuniger oder Detektor-Rohdaten sind erst relevant, wenn die Th
 
 Der erste isolierte Alpha-Audit ist implementiert, mit 13 Tests geprueft und
 unabhaengig reviewt. Ergebnis: `ALPHA_AUDIT_2026-09-06.md`.
-Naechster Einstieg: Buchherleitung um (105), eta/A_k/Y3 und Quellenvarianten;
+Die zweite Etappe ist in `BOOK_TRACE_2026-09-06.md` dokumentiert: Buchstellen,
+offene Annahmen, ex-post Y3-Diagnose und Quellenprovenienz. 23 Tests insgesamt,
+Mathematikreview samt behobenem Praezisionsrandfall abgeschlossen.
+Naechster Einstieg: eta-Konfigurationen, Ladungsmittelung und Korrelationsschluss;
 Details und Rechenbefehle stehen in `../00_admin/RESUME.md`.
 
 ## Urspruenglicher Arbeitsschritt (historische Planung)

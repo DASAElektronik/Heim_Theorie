@@ -43,6 +43,13 @@ geprueft. [Ergebnisbericht](06_docs/ALPHA_AUDIT_2026-09-06.md),
 [Ausfuehren](04_reconstruction/alpha_audit/README.md),
 [Wiedereinstieg](00_admin/RESUME.md).
 
+Die zweite Etappe verfolgt die Buchherleitung, trennt offene Annahmen und
+prueft Y3-Rueckrechnung sowie Rechenpraezision; insgesamt 23 Tests bestehen.
+[Buchbefunde](06_docs/BOOK_TRACE_2026-09-06.md),
+[Verstaendnisplan](00_admin/UNDERSTANDING_ROADMAP.md).
+Neuere Arbeiten auf Widerlegung zu pruefen ist als spaetere Phase vorgesehen:
+zuerst die Herleitung und physikalische Bedeutung verstehen.
+
 Wir bauen zuerst eine Formelbibliothek unter `04_reconstruction/formula_library/`.
 Jede Formel bekommt eine ID, Quelle, Status, Abhaengigkeiten, Outputs und Audit-Risiken.
 Erst wenn eine Formel `source_checked` und `normalized` ist, soll sie implementiert werden.

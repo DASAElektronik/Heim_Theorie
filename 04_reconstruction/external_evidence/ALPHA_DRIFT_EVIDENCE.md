@@ -2,8 +2,9 @@
 
 Date: 2026-05-15
 
-Local numeric baseline refined 2026-09-06 by the Decimal audit; external claims
-below remain historical research leads and were not promoted to primary evidence.
+Local numeric baseline refined 2026-09-06 by the Decimal audit. External
+provenance was subsequently checked as described in the dated follow-up below;
+the exact claimed 1992 pair remains unsupported by a located primary source.
 
 Scope:
 
@@ -66,7 +67,8 @@ The negative reciprocal is close to the value implied by the 1982 branch equatio
 
 ## Interpretation
 
-The alpha drift is likely a version/model drift, not an OCR-only drift:
+The following differences require version separation; their historical causes
+are not established and must not be reduced to a presumed version drift:
 
 - 1982 printed negative reciprocal: `1.00001363`
 - 1989 reported negative reciprocal: `1.0000142`
@@ -81,3 +83,25 @@ The evidence supports keeping separate model versions. It does not justify mergi
 - Do not use secondary online snippets as primary proof.
 - Treat `EXT-ALPHA-1992-001` as a source-discovery task.
 - Any future alpha implementation must declare its model version before choosing branch constants.
+
+## Source-discovery follow-up 2026-09-06
+
+Detailed primary/editor-source checks and search boundaries:
+`../alpha_audit/reviews/EXTERNAL_SOURCE_REVIEW_2026-09-06.md`.
+
+- Current 1989 PDF re-host:
+  https://heim-theory.com/wp-content/uploads/2026/03/F_Erweiterte_Massenformel_nach_Heim-1989.pdf
+  is byte-identical to the audited local copy. It is an IGW2002/2003
+  transmission of a reported 1989 manuscript. No alpha-specific erratum found.
+- The exact 1992 assertion is also present in the editor-hosted IGW2003
+  English overview, without an underlying equation/page citation. The located
+  Auerbach/von Ludwiger1992 article instead prints `137.035976`/`1.0000266`.
+  The separate 2003 derivation prints `137.0359895`/`1.000026627`.
+  Keep EXT-ALPHA-1992-001 as needs_primary_source; do not merge these pairs.
+- The 1989 comparison line's PTB reference derives from Krueger/Nistler/
+  Weirauch1999. Publisherabstract gives `137.03601144(498)` and relative
+  standard uncertainty `3.64e-8`; the IGW `+/-3.4e-8` is not a verified
+  absolute measurement uncertainty. The 2002 popular article remains unread.
+
+This is historical provenance checking, not the later phase of testing Heim
+against new physics papers, which the user has explicitly deferred.

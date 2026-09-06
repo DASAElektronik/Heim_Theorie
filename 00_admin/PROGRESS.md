@@ -1,5 +1,28 @@
 # Fortschritt
 
+## 2026-09-06 - Zweite Etappe: Buchstruktur und Diagnose abgeschlossen
+
+- Quellenreview EDM2 und lokale Fortsetzung in EDM1 dokumentiert. Unindiziertes
+  eta/vartheta gefunden; zweifache Indexbruecke und physikalische Schliessung offen.
+- Vorwortregel Y_k=1 und Annahmencharakter der Ladungsmittelung sichtbar gemacht.
+- Y3-Inversion getrennt implementiert: ex-post, keine Vorhersage; ein Faktor
+  kann das gedruckte Zweigpaar nicht retten.
+- Cancellation-Pruefung: binary64 viel zu klein; 8 Dezimalstellen koennen
+  Fehler aehnlicher Groessenordnung erzeugen. Historische Ursache bleibt offen.
+- Unabhaengige Mathematikreview fand Randfall bei unzureichender Decimal-
+  Praezision; mit expliziter Ablehnung und zwei Regressionen behoben/reviewt.
+  23 Tests bestehen, beide Ergebnis-Snapshots reproduzierbar.
+- Editions-/Zitatreview: 1989-Rehost identisch, keine alpha-spezifische Errata
+  gefunden; PTB-Messunsicherheit bis Publisherabstract verfolgt; exakte
+  angebliche 1992-Paarung weiter nicht primaer belegt.
+- NORM-BOOK-ALPHA-001 ergaenzt: 42 Entscheidungen, 40 resolved, zwei blocked.
+- Korrektur-/Erweiterungskandidaten mit Parameterzaehlung dokumentiert.
+- Nutzerprioritaet gesichert: zuerst Verstaendnis, danach neuere Gegenbelege.
+- Checkpoints c679891 und b99395e gepusht; Abschlusscommit-Nachricht
+  `Complete reviewed book diagnostics and understanding roadmap`.
+- Fortsetzung: eta-Konfigurationen und Mittelungs-/Korrelationsannahmen,
+  nach `UNDERSTANDING_ROADMAP.md`; kein Gesamtverstaendnis behauptet.
+
 ## 2026-09-06 - Alpha-Audit abgeschlossen
 
 - 13 Tests erfolgreich; Mathematikreview akzeptiert, unabhaengige 1989-Zahl

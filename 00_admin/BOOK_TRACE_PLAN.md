@@ -21,16 +21,16 @@ gelassen. Vor der breiten Widerlegungsrecherche folgt eine gemeinsame Bilanz.
 
 ## Abschlusskriterien
 
-- [ ] eta-, A_k-, vartheta- und Y3-Abhaengigkeiten von Buch (105) soweit in
+- [x] eta-, A_k-, vartheta- und Y3-Abhaengigkeiten von Buch (105) soweit in
   den relevanten Quellenstellen nachvollziehbar dokumentieren.
-- [ ] Quellennahe Definition, Annahme und empirische Anpassung unterscheiden.
-- [ ] Y3-Rueckrechnung als ausdruecklich nachtraegliche Diagnose berechnen;
+- [x] Quellennahe Definition, Annahme und empirische Anpassung unterscheiden.
+- [x] Y3-Rueckrechnung als ausdruecklich nachtraegliche Diagnose berechnen;
   niemals als parameterfreie Vorhersage ausgeben.
-- [ ] Numerische Ausloeschung als begrenzte Fehlerhypothese pruefen.
-- [ ] 1989-Quellenvarianten/Errata und Nistler-Weirauch-2002-Zitat recherchieren;
+- [x] Numerische Ausloeschung als begrenzte Fehlerhypothese pruefen.
+- [x] 1989-Quellenvarianten/Errata und Nistler-Weirauch-2002-Zitat recherchieren;
   gefundene Belege und erfolglose, begrenzte Suchen getrennt festhalten.
-- [ ] Ergebnisse testen, unabhaengig gegenlesen, dokumentieren und sichern.
-- [ ] Aus Befunden konkrete Korrektur-/Erweiterungskandidaten ableiten und
+- [x] Ergebnisse testen, unabhaengig gegenlesen, dokumentieren und sichern.
+- [x] Aus Befunden konkrete Korrektur-/Erweiterungskandidaten ableiten und
   ihren pruefbaren Mehrwert sowie zusaetzliche Freiheitsgrade benennen.
 
 ## Arbeitsteilung
@@ -44,6 +44,12 @@ Mathematik-Agentenaufruf traf eine Thread-Grenze; die laufenden Quellenauftraege
 und lokale Arbeit laufen weiter. Neue mathematische Ergebnisse werden nach
 Moeglichkeit von einem verfuegbaren Reviewer geprueft, ohne alte Reviews als
 Freigabe fuer neue Berechnungen auszugeben.
+
+Abschluss: derselbe Buchreviewer pruefte die neue Diagnose unabhaengig,
+fand einen generischen Praezisionsrandfall und bestaetigte dessen Korrektur.
+23 Tests bestehen. Begrenzte Etappe abgeschlossen; fehlende eta-Indexbruecke
+und physikalische Schliessung sind Ergebnisse, keine erledigten Herleitungen.
+Bericht: `06_docs/BOOK_TRACE_2026-09-06.md`.
 
 ## Grenzen
 

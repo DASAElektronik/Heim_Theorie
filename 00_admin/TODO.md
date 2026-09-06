@@ -5,9 +5,17 @@
 - [x] Isolierten Alpha-Audit 1982/1989 implementieren, testen und gegenlesen.
 - [x] Gedruckte Zweig-/Kehrwertangaben unter Rundung pruefen; Bericht erstellt.
 - [x] Buch (105) eng gegenpruefen; Y3=1-Spezialisierung dokumentieren.
-- [ ] Buchherleitung von eta/A_k/Y3 und historische Ursachenfrage verfolgen.
-- [ ] 1989 B58-B62 mit weiteren belegbaren Fassungen und Errata abgleichen.
+- [x] Buchherleitung von eta/A_k/Y3 begrenzt verfolgen; offene Schritte markieren.
+- [x] 1989 B58-B62 mit oeffentlichen Fassungen/Errata begrenzt abgleichen.
+- [x] Y3-/Praezisionsdiagnose implementieren, unabhaengig pruefen und sichern.
+- [ ] eta-Konfigurationen und Ladungsmittelung/Korrelationsschluss ausarbeiten.
+- [ ] Historischen Rechenweg und fehlende Indexbruecke weiter untersuchen.
 - [ ] Danach fehlende Massenabhaengigkeiten sowie B50 und Gamma/Q_N bearbeiten.
+- [ ] Verstaendnisbilanz vor breiter Recherche nach neueren Widerlegungen.
+
+Aktuelle Nutzerreihenfolge: erst verstehen/rekonstruieren, dann externe
+physikalische Bewertung. Eigene begruendete Verbesserungen sind erwuenscht;
+siehe `UNDERSTANDING_ROADMAP.md` und die Alpha-Erweiterungskandidaten.
 
 Massgeblicher Wiedereinstieg: `RESUME.md`. Die folgenden Phasenlisten sind
 die urspruengliche Projektplanung und nicht der aktuelle Detailstatus.
