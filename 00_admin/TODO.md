@@ -2,7 +2,7 @@
 
 ## Aktueller Einstieg (2026-09-06)
 
-Massgeblich ist Etappe 32 in `RESUME.md`; die aeltere Detailhistorie folgt darunter.
+Massgeblich ist Etappe 33 in `RESUME.md`; die aeltere Detailhistorie folgt darunter.
 
 - [x] Einen H006-N0-Elektronfall getrennt gegen spaetere H010-Programme rechnen.
 - [x] Alpha3-Formeln, Alpha-/Konstanteneingaben und Rundung einzeln dokumentieren.
@@ -31,7 +31,9 @@ Massgeblich ist Etappe 32 in `RESUME.md`; die aeltere Detailhistorie folgt darun
 - [x] Behandlung von Strukturverletzungen: Buch323/328/329/340-342 und historische GSTRUC statisch auf107-Pruefung/Ruecksetzen/Umdefinition untersuchen. FIND-041: keine belegte Reparatur desBuchfalls; positiveGrenz-/Transferregeln undProgrammfassungen getrennt.
 - [x] Eigene gekoppelte Existenzpruefung desfestenBuchfalls: rationaleInputschranken, endlicheObermenge undfuenferschoepfendeFaelle. FIND-042: keinTupel fuerexakte108 plusdirekte107-Gates,nichtkollabiert. KeineMasse/Y-Wahl;16neueTests/288gesamt.
 - [x] Historische Vermutung festhalten: offeneF_im/110d-Deduktion belegt; Kenntnis/Bearbeitung derkonkreten107-Frage bisLebensende nichtbelegt.
-- [ ] KonkreterNaeherungsanschluss79b/79c ->H004322/323 ->g/108: Geltungsbereich,Normierung undRestschranken aufbeidenSeitenpruefen. AlteEXPONENTIAL_CONTEXT-/K4_W4-Ergebnisse vorablesen; keinneuerFit/ExponentialersatzoderMassenrechnung.
+- [x] Naeherungsanschluss (79b)/(79c) -> H004322/323 -> g/108: explizite Normierung und heuristisches A gefunden, quantitative Variablen-/Fehlerbruecke offen. Eigene Dreipunktfehlerrechnung und uniforme Robustheitsbedingung, FIND-043; 304 Tests, alte Ergebnisse erhalten.
+- [ ] Konkreten (96b)-Rueckverweis von S. 325 und Sigma-Bezug pruefen. Danach gegebenenfalls eigene Sensitivitaet A1=1/5 versus 1/3 vorab fixieren, Externterm UND g/W aendern, Bereich neu beweisen; keine A-/Rest-/Massenwahl nach Ergebnis.
+- [ ] Echte (79)-Fehlerfortpflanzung nur bei neuer r-/nu-/N4-, Parameter- und Normierungsbruecke aufnehmen; keine erfundene physikalische Fehlerschranke.
 - [ ] Nur bei neuem Beleg: genaue H006-Vorlage/Uebertragungskette oder autorisiertes Erratum klaeren; keine stillen Profilkorrekturen.
 
 ### Fruehere Detailfolge (historischer Stand, nicht aktuelle Abschlussliste)

@@ -1,5 +1,21 @@
 # Skripte
 
+## Etappe 33: eigener bedingter Externfehlertransport
+
+```powershell
+py -3.13 -B scripts/audit_external_error_transport.py --check
+py -3.13 -B -m unittest discover -s tests -p test_external_error_transport.py -v
+```
+
+Exakte Fraction-Algebra fuer Nullpunkt, Geruest und Besetzung; fasst gleiche
+Argumente vor Intervallhuellen zusammen. Rohe und nullpunktnormierte Fehler
+getrennt; gemischte Koeffizienten-/w-Aenderungen und strikte uniforme
+Robustheitsgrenze getestet. Nur alte Buchfaktoren w und Luecke zertifiziert,
+keine physikalische Fehlerfunktion oder -schranke hergeleitet. Keine Dateien
+werden geschrieben; kein neuer Massensolver oder alternatives A-Profil.
+16 neue Tests, 304 insgesamt; 12 alte Snapshotchecks unveraendert.
+Bericht: `06_docs/EXTERNAL_APPROXIMATION_2026-09-06.md`.
+
 ## Etappe 32: eigener rationaler Existenz-Ausschluss
 
 ```powershell

@@ -1,5 +1,25 @@
 # Fortschritt
 
+## 2026-09-06 - Dreiunddreissigste Etappe: Externnormierung und Fehleranschluss
+
+- H004 175-179 und 322-330: Nullpunkt- und Geruestnormierung explizit
+  rekonstruiert; leeren Zustand, Geruest und Resonanzgrundordnung getrennt.
+- A(1)=1/3 wird auf S. 325 explizit heuristisch aus z=5 motiviert. Die
+  Teilerbedingungen lassen zuvor z=3,5; (96b)-Rueckverweis gezielt offen.
+- Keine quantitative r-/nu-/N4- und Feldamplituden-/Fehlerbruecke im
+  geprueften Anschluss gefunden; alte skalare Asymptote nicht neu gezaehlt.
+- Eigene Dreipunktidentitaet h(N4)-w*h(1)+(w-1)*h(0); konstantes rohes h
+  verschwindet, identische Argumente sind korreliert. w-Intervall rational
+  zertifiziert, aber kein physikalisches Fehlerbudget daraus erfunden.
+- Uniforme Korrektur kleiner als alte Luecke waere ausreichend; grosse
+  Fehlerhuelle beweist keine Loesung. Alte N4<=25-Box nicht ungeprueft
+  nach W-Aenderung verwenden. FIND-042 bleibt bedingt gueltig.
+- 16 neue Tests, 304 insgesamt; 12 alte Checks, alter Quellen-/Existenzcheck,
+  neuer Transportcheck. Drei Reviews; Root wiederholt 179 rationale
+  Kontrollen und unabhaengige Et32-Kette samt w. FIND-043: 43 Gruppen.
+- Bericht `06_docs/EXTERNAL_APPROXIMATION_2026-09-06.md`, Plan `3185574`.
+  Keine neue Masse, keine A-/Y9-/Restwahl, alte Profile und 49 CSV erhalten.
+
 ## 2026-09-06 - Zweiunddreissigste Etappe: gekoppelte Nicht-Existenz
 
 - Historische Nutzerfrage gesichert: bewusst offeneF_im/110d-Deduktion,

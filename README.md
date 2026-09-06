@@ -40,6 +40,22 @@ Kann aus Heims Original- bzw. nahen Quellen eine reproduzierbare, parameterarme 
 
 ## Aktueller Arbeitsmodus
 
+Stand 2026-09-06, Etappe 33:
+[Externzonennaeherung](06_docs/EXTERNAL_APPROXIMATION_2026-09-06.md).
+Heims Nullpunkt- und Geruestnormierung sind explizit; die Wahl A(1)=1/3
+wird auf S. 325 heuristisch motiviert. Eine quantitative r-/nu-/N4- und
+Fehlerbruecke wurde im geprueften Anschluss nicht gefunden.
+
+Eigene Fehlerrechnung beruecksichtigt Besetzung, Geruest und Nullpunkt auf
+beiden Seiten von (108). Kein physikalisches Fehlerbudget erfunden, keine
+korrigierte Besetzung oder Gesamtwiderlegung behauptet. 16 neue Tests,
+304 insgesamt; 12 alte Ergebnischecks und Zertifikate bestanden.
+Naechster enger Auftrag: (96b)-Motivation der A-Auswahl, gegebenenfalls
+separat vorab festgelegte Sensitivitaet ohne Rest-/Massenfit.
+[Wiedereinstieg](00_admin/RESUME.md), [Arbeitsfolge](00_admin/UNDERSTANDING_ROADMAP.md).
+
+## Verlauf: Etappe 32
+
 Stand2026-09-06, Etappe32: [Gekoppelte Existenz](06_docs/COUPLED_EXISTENCE_2026-09-06.md).
 Fuer beide unveraenderten Buchprofile gibt es keine Besetzung, die gleichzeitig
 die direkten ungewichteten107-Gates undexakte108 erfuellt (nichtkollabierter

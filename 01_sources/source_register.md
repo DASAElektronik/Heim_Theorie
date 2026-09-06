@@ -6,6 +6,17 @@ Dieses Register sammelt Fundstellen. Lokale Kopien sollten nur abgelegt werden, 
 
 ## Enger Pruefstand 2026-09-06
 
+Etappe 33: H004 Druck 175-179 / PDF 181-185 und 322-330 / PDF 328-336
+von Root vollseitig gelesen; Normierungsagent zusaetzlich 277-278.
+Positive Delta-/g-/W-Normierung, getrennte Bezugszustaende und explizit
+heuristische A(1)=1/3-Wahl auf 325. (96b) nur als dortiger Rueckverweis,
+nicht an seiner Originalstelle neu untersucht. Keine quantitative
+r-/nu-/N4- und Feldfehlerbruecke im Umfang gefunden. Eigenen bedingten
+Fehlertransport nicht als Heims hergeleitete Korrektur ausgeben.
+Keine neue Quelle/Originalaenderung; PDF-Webabruf nur Groessenfehler.
+FIND-043; genauer Umfang/Hash/Zuschreibung:
+`03_notes/EXTERNAL_APPROXIMATION_SOURCES_2026-09-06.md`.
+
 Etappe32: H004Einfuehrung2-3,278,321-323,328-330 erneutvisuellgelesen;
 Agentzusaetzlich331. N_j>=0,107-Gates,DeltaG und108 getrennt vomKollaps.
 322 nennt79b/79c-ApproximationderExternzone: bedingterSkalar-Ausschluss,

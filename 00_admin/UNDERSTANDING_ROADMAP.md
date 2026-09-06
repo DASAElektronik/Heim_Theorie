@@ -25,6 +25,26 @@ Ergebnis; sie werden nicht als stillschweigende Definitionen behandelt.
 
 ## Naechste begrenzte Arbeitseinheit
 
+Nach [Etappe 33](../06_docs/EXTERNAL_APPROXIMATION_2026-09-06.md):
+**Konkrete (96b)-Motivation fuer die heuristische Wahl A(1)=1/3.**
+
+1. Den auf Druck 325 genannten Rueckverweis an seiner Originalstelle und
+   den Bezug zur Sigma-Zone pruefen. Die Identitaet mit 5 allein ist noch
+   keine Auswahlbedingung gegen den Teilerkandidaten z=3.
+2. Falls weiterhin heuristisch: separate Sensitivitaet A1=1/5 versus 1/3
+   VOR Rechnung festlegen. Beide Seiten ueber Externterm und g/W aendern,
+   alte Profile erhalten, neue Bereichsgrenzen beweisen; keine Rest-/Massenwahl.
+3. Eigene Sensitivitaet von hergeleiteter Feldkorrektur unterscheiden. Echte
+   (79)-Fehlerfortpflanzung erst mit konkreter r-/nu-/N4- und Parameterbruecke.
+
+Etappe 33 rekonstruiert positive Nullpunkt-/Geruestnormierung, aber keinen
+physikalischen Fehlerrahmen. Eigene Dreipunktidentitaet und hinreichender
+uniformer Robustheitssatz; alter bedingter Ausschluss unveraendert.
+304 Tests, 12 alte Snapshotchecks plus Zertifikate, 43 Befundgruppen.
+Historische Kenntnis-/Lebensendfrage und Gesamtbewertung bleiben offen.
+
+## Historischer Folgeauftrag der Etappe 32 (in Etappe 33 bearbeitet)
+
 Nach [Etappe32](../06_docs/COUPLED_EXISTENCE_2026-09-06.md):
 **Gueltigkeits-/Fehleranschluss der Externzonennaeherung an beide Seiten108.**
 

@@ -3,7 +3,22 @@
 Isolierter, reproduzierbarer Konsistenztest der 1982/1989-Alpha-Bloecke in den
 lokalen IGW-Wiedergaben. Python >= 3.10; nur Standardbibliothek erforderlich.
 
-## Etappe 32: gekoppelte Nicht-Existenz (aktueller Stand)
+## Etappe 33: Externnormierung und bedingter Fehlertransport (aktueller Stand)
+
+`06_docs/EXTERNAL_APPROXIMATION_2026-09-06.md`: H004 nennt explizit
+Nullpunkt-/Geruestnormierung und heuristische Wahl A(1)=1/3. Quantitative
+r-/nu-/N4- und Feldfehlerbruecke im geprueften Anschluss nicht gefunden.
+Eigene Dreipunktidentitaet h(N4)-w*h(1)+(w-1)*h(0), keine physikalische
+Ersatzfunktion. Uniformes Budget unter alter Luecke waere hinreichend;
+alte N4<=25-Box ist nach W-Aenderung nicht automatisch gueltig.
+
+`scripts/audit_external_error_transport.py --check`: exakte bedingte
+Algebra und alte Buchfaktoren, schreibt keine Dateien. 16 neue Tests,
+304 insgesamt, 12 alte Ergebnischecks plus Zertifikate; drei Reviews.
+FIND-043: 43 Befundgruppen, nicht 43 Fehler. Alte Profile/49 CSV erhalten.
+Weiter: (96b)-Motivation, erst danach vorab deklarierte A-Sensitivitaet.
+
+## Etappe 32: gekoppelte Nicht-Existenz (vorheriger Stand)
 
 `scripts/audit_coupled_existence.py --check --verify-sources` zertifiziert
 beideunveraendertenBuchprofile mitFraction-Intervallen. Fuenferschoepfende

@@ -2,13 +2,50 @@
 
 Aktualisiert: 2026-09-06.
 
-## Aktuell: Etappe33 begonnen
+## Aktuell: dreiunddreissigste Etappe abgeschlossen
 
-Ausgang df9dff6. Vertrag EXTERNAL_APPROXIMATION_PLAN.md.
-Auftrag:79b/79c ->322/323 ->g/108 auf r/N4-Zuordnung und Normierung
-pruefen, danach quellenbegruendeten oder explizit bedingten Fehlertransport
-auf BEIDEN Seiten formulieren. Keine frei gewaehlte Korrektur, keine
-Masse/Y9-Suche. Alte Profile und FIND-042 bleiben unveraendert.
+Ausgang `df9dff6`, Plancheckpoint `3185574`.
+Vertrag: `EXTERNAL_APPROXIMATION_PLAN.md`.
+Bericht: `06_docs/EXTERNAL_APPROXIMATION_2026-09-06.md`.
+Abschlusscommit-Nachricht: `Document external normalization and conditional error transport`.
+Bei Fortsetzung HEAD/Remote pruefen; keine laufenden Agenten erforderlich.
+
+- H004 Druck 175-179 und 322-330 von Root vollseitig gelesen. Die Anwendung
+  von (79b)/(79c) auf N4 ist ausdruecklich als Naeherung motiviert, aber keine
+  quantitative r-/nu-/N4- oder Feldpraefaktor-/Fehlerbruecke gefunden.
+- Positive Normierung: Delta=mu_+*(exp(-A*N4)-1), alpha4=delta4G4=1;
+  Nullpunkt N_j=0, Geruest N_j=Q_j und Resonanz N=0 sauber getrennt.
+  g=B+exp(-A*Q4), W=g*w. Die Normierung fehlt nicht pauschal.
+- Druck 325: A2=1/15 aus Geruestansatz; A1=z/15 mit Teilern 1,3,5.
+  Strikte A1>A2 laesst 3,5. Auswahl z=5 explizit heuristisch mit Verweis
+  auf (2xi-1)^2=5/(96b). Originalstelle 96b noch nicht neu gelesen.
+  Wortlaut nennt bei z1 identisches Q4*A, rechnerisch nur A identisch;
+  keine stille Editionskorrektur oder weiterer Fehlerzaehler.
+- Eigene feste Erweiterung Phi=exp(-x/3)+h(x) ergibt
+  dR=h(N4)-w*h(1)+(w-1)*h(0). Effektiv delta=h-h(0), delta(0)=0:
+  dR=delta(N4)-w*delta(1). Gleiche Argumente vor Intervallbildung
+  zusammenfassen; konstantes rohes h hebt sich exakt heraus.
+- Rationale alte Profile liefern 73.1277926806<w<73.1277926811. Der Faktor
+  ist kein Fehlerbudget. Uniform |dR|<=E<L=.057144067635 auf ALLEN
+  gatezulaessigen Kandidaten waere ausreichend fuer Robustheit; E>=L ist
+  nur unentschieden. Alte Box N4<=25 gilt nicht automatisch nach W-Aenderung.
+- Keine physikalische h-/delta-Funktion oder Fehlerschranke erhalten;
+  weder korrigierte Besetzung noch volle physikalische Widerlegung.
+  FIND-042 und alte Profile/Rechner/Snapshots/49 CSV unveraendert.
+- 16 neue Tests, 304 insgesamt; 12 alte Snapshotchecks, alter Quellen-/
+  Existenzcheck und neuer Transportcheck bestanden. Drei interne Reviews,
+  Root wiederholt 179 Fraction-Kontrollen und unabhaengige Et32-Intervallkette
+  samt beiden w-Einschluessen. FIND-043: 43 Gruppen, nicht 43 Fehler.
+
+Naechster Einzelauftrag: **(96b)-Motivation der heuristischen A-Auswahl**.
+Den auf S. 325 genannten Rueckverweis an seiner Originalstelle und seinen
+Sigma-Zonen-Bezug pruefen. Falls keine weitere Auswahlbedingung entsteht,
+separate Sensitivitaet A1=1/5 versus 1/3 VOR Rechnung vertraglich fixieren:
+Externterm UND g/W gemeinsam, alte Profile erhalten, neue Bereichsgrenzen,
+keine Wahl nach Rest/Masse. Das waere unsere Diagnose, keine hergeleitete
+Feldkorrektur/Heim-Erratum. Hier wurden alternative A-Werte NICHT gerechnet.
+Die echte (79)-Fehlerfortpflanzung erst bei neuer konkreter Bruecke aufnehmen;
+historische Kenntnis-/Lebensendfrage bleibt offen.
 
 ## Verlauf: zweiunddreissigste Etappe abgeschlossen
 
