@@ -21,12 +21,12 @@
 
 ## Aufgaben und Sicherung
 
-- [ ] Root: Originalstellen, rationale Intervallrechnung, Tests, Bericht.
-- [ ] book_derivation: Quellen-/Domainreview in eigener neuer Reviewdatei.
-- [ ] alpha_versions: unabhaengige mathematische Fallzerlegung/Kontrollcode.
-- [ ] data_audit: unabhaengige Zahlen-/Beweiskontrolle und Codegegenlesung.
-- [ ] Reviews selbst lesen und ausfuehrbare Kontrollbloecke erneut pruefen.
-- [ ] Alte Tests/Snapshots/49CSV erhalten; Register und Wiedereinstieg sichern.
+- [x] Root: Originalstellen, rationale Intervallrechnung, Tests, Bericht.
+- [x] book_derivation: Quellen-/Domainreview in eigener neuer Reviewdatei.
+- [x] alpha_versions: unabhaengige mathematische Fallzerlegung/Kontrollcode.
+- [x] data_audit: unabhaengige Zahlen-/Beweiskontrolle und Codegegenlesung.
+- [x] Reviews selbst lesen und ausfuehrbare Kontrollbloecke erneut pruefen.
+- [x] Alte Tests/Snapshots/49CSV erhalten; Register und Wiedereinstieg sichern.
 
 ## Historische Frage
 
@@ -34,3 +34,11 @@ Die Nutzervermutung, die konkrete Auswahlfrage koenne bis zu Heims
 Lebensende ungeloest geblieben sein, bleibt ausdruecklich offen.
 Siehe HISTORICAL_OPEN_SELECTION_2026-09-06.md; keine biografische
 Ursachenerklaerung und kein neuer Beleg fuer Autorenwissen.
+
+## Abschluss
+
+Planb56a0af,Rechner-/Testcheckpoint851f7da. FuenferschoepfendeFaelle liefern
+bedingteNicht-Existenz beiderfixenProfile,mitrationalenEingabeeinschluessen.
+16neueTests/288gesamt,12alteSnapshotsplusneuerZertifikatscheck. Bericht
+06_docs/COUPLED_EXISTENCE_2026-09-06.md. NaechsterkonkreterQuellenanschluss:
+79b/79c-Naeherungaus322 samtReferenzterming/W;kein freierReparaturterm.

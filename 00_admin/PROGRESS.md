@@ -1,5 +1,22 @@
 # Fortschritt
 
+## 2026-09-06 - Zweiunddreissigste Etappe: gekoppelte Nicht-Existenz
+
+- Historische Nutzerfrage gesichert: bewusst offeneF_im/110d-Deduktion,
+  aber kein Beleg fuer Autorenwissen oder Lebensendstand der107-Frage.
+- UnveraenderteBuchprofile,exakte108 plusdirekteungewichtete107-Gates:
+  fuenferschoepfendeFaelle schliessen alleIntegerbesetzungen aus. Nurzwei
+  Gatesnoetig,N4sogarreell>=0. KeinegreedyReparaturoderbestpassendeBesetzung.
+- Budget/Strukturbeweis gibtfiniteObermenge; Fraction-Machin/Taylor/isqrt
+  zertifiziertInputs. GrobeMarge7/5000; unabhaengigenger abs(T-W)>=.057144067635.
+  KeinMassenfehler,keineGesamtwiderlegung/Autorenkorrektur.
+- H004322kennzeichnetExternzoneals79b/79c-Naeherung. NaechsterengerAuftrag:
+  gemeinsameFehler-/NormierungskettezumReferenzterming/W,nichtnurlinkeSeite.
+- DreiReviews,RootwiederholtbeideCodebloecke,16neueTests/288gesamt,
+  12alteSnapshotchecksplusneuerZertifikatscheck. AlteRechnungen/49CSVerhalten.
+  FIND-042,42Gruppennicht42Fehler; Planb56a0af,Rechner851f7da.
+  Bericht06_docs/COUPLED_EXISTENCE_2026-09-06.md.
+
 ## 2026-09-06 - Einunddreissigste Etappe: Strukturfehlerbehandlung
 
 - Buch nennt Kollaps bei beta=0, Zone4-Kappe und k2/W5<0-Transfer3->4;

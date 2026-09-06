@@ -2,7 +2,7 @@
 
 ## Aktueller Einstieg (2026-09-06)
 
-Massgeblich ist Etappe 31 in `RESUME.md`; die aeltere Detailhistorie folgt darunter.
+Massgeblich ist Etappe 32 in `RESUME.md`; die aeltere Detailhistorie folgt darunter.
 
 - [x] Einen H006-N0-Elektronfall getrennt gegen spaetere H010-Programme rechnen.
 - [x] Alpha3-Formeln, Alpha-/Konstanteneingaben und Rundung einzeln dokumentieren.
@@ -29,7 +29,9 @@ Massgeblich ist Etappe 31 in `RESUME.md`; die aeltere Detailhistorie folgt darun
 - [x] Buch-Auswahl-/Exhaustionsverfahren340-342 getrennt vonH006/H015: Eingaben, TRC, W4-Faelle/Transfer und Gleichungserhalt geprueft; FIND-039, keine neue Masse oder Y9-Wahl.
 - [x] Buchinternen N0-Pseudosingulett-Eingabevertrag aus H004 vor Rechnung fixieren; beide Profile N=(14,9,13,7), direkter107/107a-Konflikt81>91, separater107b-Anschluss und Rest pruefen. FIND-040; keine H006/H010-Konstantenmischung, Masse oder Y9-Zielwertsuche.
 - [x] Behandlung von Strukturverletzungen: Buch323/328/329/340-342 und historische GSTRUC statisch auf107-Pruefung/Ruecksetzen/Umdefinition untersuchen. FIND-041: keine belegte Reparatur desBuchfalls; positiveGrenz-/Transferregeln undProgrammfassungen getrennt.
-- [ ] Eigene gekoppelte Existenzpruefung desfestenBuchfalls: endlichenSuchbereich undbegruendeteEingabeschranken festlegen,aktive/kollabierteZonen trennen, direkte107/107a plus108 untersuchen. KeinToleranz-/Y9-/Massenfit oderErsatztupel nachkleinstemRest.
+- [x] Eigene gekoppelte Existenzpruefung desfestenBuchfalls: rationaleInputschranken, endlicheObermenge undfuenferschoepfendeFaelle. FIND-042: keinTupel fuerexakte108 plusdirekte107-Gates,nichtkollabiert. KeineMasse/Y-Wahl;16neueTests/288gesamt.
+- [x] Historische Vermutung festhalten: offeneF_im/110d-Deduktion belegt; Kenntnis/Bearbeitung derkonkreten107-Frage bisLebensende nichtbelegt.
+- [ ] KonkreterNaeherungsanschluss79b/79c ->H004322/323 ->g/108: Geltungsbereich,Normierung undRestschranken aufbeidenSeitenpruefen. AlteEXPONENTIAL_CONTEXT-/K4_W4-Ergebnisse vorablesen; keinneuerFit/ExponentialersatzoderMassenrechnung.
 - [ ] Nur bei neuem Beleg: genaue H006-Vorlage/Uebertragungskette oder autorisiertes Erratum klaeren; keine stillen Profilkorrekturen.
 
 ### Fruehere Detailfolge (historischer Stand, nicht aktuelle Abschlussliste)

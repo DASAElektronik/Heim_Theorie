@@ -3,7 +3,19 @@
 Isolierter, reproduzierbarer Konsistenztest der 1982/1989-Alpha-Bloecke in den
 lokalen IGW-Wiedergaben. Python >= 3.10; nur Standardbibliothek erforderlich.
 
-## Etappe 31: quellengetrennte Strukturbehandlung (aktueller Stand)
+## Etappe 32: gekoppelte Nicht-Existenz (aktueller Stand)
+
+`scripts/audit_coupled_existence.py --check --verify-sources` zertifiziert
+beideunveraendertenBuchprofile mitFraction-Intervallen. Fuenferschoepfende
+Faelleschliessen direkte107-Gatesplusexakte108 aus,nichtkollabierterZweig.
+SchonerstezweiGatesundN4reell>=0genuegen; keinBestFitoderMassenloeser.
+GrobezertifizierteMarge7/5000,unabhaengigenger abs(T-W)>=.057144067635.
+16neueTests/288gesamt,12alteSnapshotchecksplusneuerZertifikatscheck.
+FIND-042,42Gruppennicht42Fehler; alteRechnungen/49CSVunveraendert.
+Bericht06_docs/COUPLED_EXISTENCE_2026-09-06.md. NaechsterQuellenanschluss:
+79b/79c-Naeherung laut322,gemeinsamerReferenzterming/W,keineKorrekturperFit.
+
+## Etappe 31: quellengetrennte Strukturbehandlung (vorheriger Stand)
 
 `06_docs/STRUCTURE_HANDLING_2026-09-06.md`: BuchKollaps/Sondertransfer
 sind keinbelegterbeta3<0-Reparaturpfad. H015GSTRUC/Caller undH010C/Pascal

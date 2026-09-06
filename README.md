@@ -40,6 +40,20 @@ Kann aus Heims Original- bzw. nahen Quellen eine reproduzierbare, parameterarme 
 
 ## Aktueller Arbeitsmodus
 
+Stand2026-09-06, Etappe32: [Gekoppelte Existenz](06_docs/COUPLED_EXISTENCE_2026-09-06.md).
+Fuer beide unveraenderten Buchprofile gibt es keine Besetzung, die gleichzeitig
+die direkten ungewichteten107-Gates undexakte108 erfuellt (nichtkollabierter
+Zweig). Fuenf vollstaendigeFaelle und rationaleIntervallzertifikate,keinFit.
+Das iststaerkerals einFehlerdereinzelnenGreedy-Ausgabe,aberkeineGesamtwiderlegung.
+
+16neueTests,288gesamt,12alteSnapshotchecksplusZertifikatscheck,dreiReviews.
+HistorischeFrage zuHeimsKenntnis/Lebensendstandbleibtausdruecklichoffen.
+NaechsterSchritt: Externzonennaeherung79b/79c ->322/323 ->g/108 samt
+gemeinsamerNormalisierung/Fehlergrenze;keineMasse/Y-Fits.
+[Wiedereinstieg](00_admin/RESUME.md), [Arbeitsfolge](00_admin/UNDERSTANDING_ROADMAP.md).
+
+## Verlauf: Etappe 31
+
 Stand2026-09-06, Etappe31: [Strukturbehandlung](06_docs/STRUCTURE_HANDLING_2026-09-06.md).
 Die gezielte Buch-/Programmpruefung liefert keine belegte Reparatur des
 Buchfalls mit beta3=-10. Kollaps bei beta=0 und Sondertransfer3->4 haben

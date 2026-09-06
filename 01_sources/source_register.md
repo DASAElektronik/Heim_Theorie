@@ -6,6 +6,14 @@ Dieses Register sammelt Fundstellen. Lokale Kopien sollten nur abgelegt werden, 
 
 ## Enger Pruefstand 2026-09-06
 
+Etappe32: H004Einfuehrung2-3,278,321-323,328-330 erneutvisuellgelesen;
+Agentzusaetzlich331. N_j>=0,107-Gates,DeltaG und108 getrennt vomKollaps.
+322 nennt79b/79c-ApproximationderExternzone: bedingterSkalar-Ausschluss,
+keineExaktheitsbehauptunguebervolleTheorie. KeineOriginaldateiveraendert.
+EigenergekoppelterBeweismitrationalenInputs/FIND-042; Quellenumfang:
+`03_notes/COUPLED_EXISTENCE_SOURCES_2026-09-06.md`.
+HistorischeKenntnis/Lebensendfragebleibtoffen; keineBiografiealsFehlerursache.
+
 Etappe31: H004321/323/328/329/340-342 aufStrukturfehlerbehandlung;
 positiverKollaps-/Transferbeleg,keineallgemeineG/delta-Umdefinition.
 H015PDF23/GSTRUC,MAIN verteiltPDF18/4/19,GMASSPDF24,AusgabePDF14:

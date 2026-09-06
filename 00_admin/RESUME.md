@@ -2,14 +2,42 @@
 
 Aktualisiert: 2026-09-06.
 
-## Aktuell: Etappe32 begonnen
+## Aktuell: zweiunddreissigste Etappe abgeschlossen
 
-Ausgang e24dc86. Vertrag COUPLED_EXISTENCE_PLAN.md: eigene gekoppelte
-Existenzpruefung bei unveraenderten Buchprofilen, mit rationalen Schranken,
-vollstaendigem Bereich und getrenntem Kollapsanschluss. Keine Masse/Fits.
-Historische Nutzerfrage in03_notes/HISTORICAL_OPEN_SELECTION_2026-09-06.md
-gesichert: bewusst offene F_im-Herleitung belegt, konkrete107-Kenntnis
-und Bearbeitung bis Lebensende ungeklart. Noch kein Etappe32-Ergebnis.
+Ausgang e24dc86, Plancheckpoint b56a0af, Rechner-/Testcheckpoint851f7da.
+Vertrag COUPLED_EXISTENCE_PLAN.md; Bericht06_docs/COUPLED_EXISTENCE_2026-09-06.md.
+Abschlusscommit-Nachricht: `Document certified coupled exclusion and approximation boundary`.
+Bei Fortsetzung HEAD/Remote pruefen; keine laufenden Agenten erforderlich.
+
+- Unveraenderte zwei H004-Profile aus05a0bab; keine Y-/Massen-/Konstantenwahl.
+- Eigener Beweis: kein N_j>=0-Integer-Tupel erfuellt zugleich direkte
+  ungewichtete107/107a und als exakte skalare Gleichung behandelte108.
+  Nichtkollabierter Zweig; schon erste ZWEI Gates reichen, N4 sogar reell>=0.
+- Fuenf erschoepfende Faelle: N1>=15, N1<=13, sowie N1=14 mitN2>=10,
+  N2<=8 oderN2=9. Strukturfolgen: beiN1<=13 N2<=18,N3<=24;
+  beiN2<=8 N3<=10; beiN2=9 N3<=12. exp(-N4/3)<=1 schliesstRestfall.
+- Vollstaendige Integer-Obermenge ausBudget undGates: N1<=14,N2<=19,
+  N3<=26,N4<=25. Kein willkuerlicher Cutoff oderbestpassendesErsatztupel.
+- Eigene Fraction-Intervalle mitMachin/Taylorresten/isqrt undnach aussen
+  gerundetem10^-40-Gitter zertifizierenBuchinputs. GrobeBoxliefert7/5000;
+  unabhaengige engereBox liefert abs(T-W)>=0.057144067635 fuerbeideProfile.
+  Dimensionsloser algebraischerAbstand,keinMassenfehler/Output-Epsilon.
+- 16neueTests,288gesamt,12alteSnapshotchecks plusneuerZertifikatscheck;
+  dreiReviewsgelesen,beideeigenstaendigeBloeckevonRooterneut ausgefuehrt.
+  FIND-042:42Befundgruppen,nicht42unabhaengigeFehler. Alte49CSVunveraendert.
+- Historische Nutzerfrage in03_notes/HISTORICAL_OPEN_SELECTION_2026-09-06.md:
+  F_im/110d-Herleitung bewusstoffen,konkrete107-Kenntnis undLebensendstandoffen.
+- H004322/PDF328 nennt fuerExternzone dieApproximationen79b/79c. Exakter
+  Skalarpaket-Ausschluss istkeinExaktheitsbeweis dervollenmetronischenPhysik.
+
+Naechster Einzelauftrag: **Quellen-/Fehleranschluss der Externzonennaeherung**.
+Konkrete Rueckverweise79b/79c ->322/323 ->g/108 lesen: Gueltigkeitsbereich,
+Normalisierung undnachweisbareRestschranken. AlteBelege ausEXPONENTIAL_CONTEXT
+undK4_W4 zuerstabgleichen, nichtdieselbenLuecken erneutalsneuenFundzaehlen.
+WICHTIG: AenderungdesExternzonenverlaufs koennteauchdenReferenzterm ing und
+damitW aendern; keinKorrekturterm nurauf einerSeite. Bei FESTEM W/a_i reicht
+einbeliebiger vierterSummand in[0,1] fuerAusschluss. KeineNeuwahlY9/Masse/F_S,
+keinFit,keinAutorenerratumoderKollapssystemerfinden. Befundbleibtbedingt.
 
 ## Verlauf: einunddreissigste Etappe abgeschlossen
 

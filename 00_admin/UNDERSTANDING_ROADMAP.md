@@ -25,6 +25,25 @@ Ergebnis; sie werden nicht als stillschweigende Definitionen behandelt.
 
 ## Naechste begrenzte Arbeitseinheit
 
+Nach [Etappe32](../06_docs/COUPLED_EXISTENCE_2026-09-06.md):
+**Gueltigkeits-/Fehleranschluss der Externzonennaeherung an beide Seiten108.**
+
+1. Konkrete Rueckverweise79b/79c ausH004322 ->323 ->g/108 pruefen.
+   Vorher bestehende EXPONENTIAL_CONTEXT-/K4_W4-Notizen lesen, keine
+   doppelte Zaehlung bekannter Luecken oder breite neue Empirie.
+2. ExakteSkalargleichung,physikalischeNaeherung undTRC-Auswahl unterscheiden.
+   Belegte Rest-/Normalisierungsgrenzen ermitteln oder die genaue Luecke benennen.
+3. Eine Externzonen-Aenderung kann auchReferenzterming unddamitW betreffen.
+   Kein frei eingesetzter Korrekturterm,kein Y9-/Massenfit oderErsatztupel.
+4. Historische Auswahlfrage bleibt unbelegt; keine Absicht/Lebensendfolgerung.
+
+Etappe32 beweist bedingte Nicht-Existenz fuerbeidefixeBuchprofile im
+nichtkollabierten direkten107-/exakten108-Paket; schonzweiGates reichen.
+288Tests,12alteSnapshotchecksplusneuerZertifikatscheck,42Befundgruppen.
+Der neue eigene Beweis ist keine Widerlegung der gesamten Theorie.
+
+## Historischer Folgeauftrag der Etappe 31 (in Etappe 32 bearbeitet)
+
 Nach [Etappe31](../06_docs/STRUCTURE_HANDLING_2026-09-06.md):
 **Eigene gekoppelte Existenzpruefung bei unveraenderten Buchinputs.**
 

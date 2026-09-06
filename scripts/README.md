@@ -1,5 +1,20 @@
 # Skripte
 
+## Etappe 32: eigener rationaler Existenz-Ausschluss
+
+```powershell
+py -3.13 -B scripts/audit_coupled_existence.py --check --verify-sources
+py -3.13 -B -m unittest discover -s tests -p test_coupled_existence.py -v
+```
+
+Bindet dieselben Buchinputs perHash, umschliesst sie durch exakte rationale
+Intervalle und prueft fuenf erschoepfende Fallmargen. Keine Dateien werden
+geschrieben; kein13.Zahlensnapshot,keineMasse/Y-Suche oderTRC-Ersatzregel.
+Eigene Integer-/Taylor-/Machin-Zertifikate statt blosserPraezisionsstabilitaet.
+16neueTests/288gesamt;12bestehendeSnapshotchecks unveraendert bestanden.
+Bericht06_docs/COUPLED_EXISTENCE_2026-09-06.md,Quellenscope/Naeherungsgrenze
+ausdruecklich festgehalten. Zwei unabhaengigeReview-Codebloecke wiederholt.
+
 ## Etappe 31: Strukturbehandlung ohne neuen Quellenrechner
 
 `py -3.13 -B -m unittest discover -s tests -p test_structure_handling.py -v`
