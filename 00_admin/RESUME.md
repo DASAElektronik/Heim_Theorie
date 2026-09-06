@@ -2,6 +2,15 @@
 
 Aktualisiert: 2026-09-06.
 
+## Aktuell: zweite Etappe laeuft
+
+Plan: `00_admin/BOOK_TRACE_PLAN.md`. Ausgangscommit `a2a9e84` ist gepusht.
+Quellenagenten `book_derivation` (GPT-5.6 Terra high) und `alpha_versions`
+(GPT-5.6 Sol high) bearbeiten Buchabhaengigkeiten bzw. externe Fassungen.
+Hauptagent entwickelt eine getrennte Y3-/Rechengenauigkeitsdiagnose.
+Reviews landen in `04_reconstruction/alpha_audit/reviews/`.
+Die folgenden Angaben beschreiben die fertiggestellte erste Etappe.
+
 ## Auftrag und abgeschlossene Etappe
 
 Alpha-Audit 1982/1989 nach `00_admin/ALPHA_AUDIT_PLAN.md` umsetzen und
@@ -75,7 +84,7 @@ Python ist ueber `py -3.13` verfuegbar; keine Fremdprogramme aus ZIPs ausfuehren
 - Rechner-Checkpoint `df02845` committed und erfolgreich gepusht.
 - Abschlussstand: Commit-Nachricht `Complete audited alpha findings and recovery handoff`.
   Den Hash und Remote-Abgleich mit den folgenden Befehlen feststellen.
-- Nutzer meldete 24.318 verbleibende Credits; keine automatische Live-Abfrage.
+- Letzter Nutzerstand: 24.218 verbleibende Credits; keine automatische Live-Abfrage.
 
 ```powershell
 git log -3 --oneline
