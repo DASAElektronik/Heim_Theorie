@@ -2,7 +2,16 @@
 
 Aktualisiert: 2026-09-06.
 
-## Aktuell: einunddreissigste Etappe abgeschlossen
+## Aktuell: Etappe32 begonnen
+
+Ausgang e24dc86. Vertrag COUPLED_EXISTENCE_PLAN.md: eigene gekoppelte
+Existenzpruefung bei unveraenderten Buchprofilen, mit rationalen Schranken,
+vollstaendigem Bereich und getrenntem Kollapsanschluss. Keine Masse/Fits.
+Historische Nutzerfrage in03_notes/HISTORICAL_OPEN_SELECTION_2026-09-06.md
+gesichert: bewusst offene F_im-Herleitung belegt, konkrete107-Kenntnis
+und Bearbeitung bis Lebensende ungeklart. Noch kein Etappe32-Ergebnis.
+
+## Verlauf: einunddreissigste Etappe abgeschlossen
 
 Ausgang `2ae50af`, Plancheckpoint `ec5e5a9`, Buch-/Port-/Testcheckpoint
 `0118ae9`; Vertrag `STRUCTURE_HANDLING_PLAN.md`.
