@@ -6,6 +6,15 @@ Dieses Register sammelt Fundstellen. Lokale Kopien sollten nur abgelegt werden, 
 
 ## Enger Pruefstand 2026-09-06
 
+Etappe31: H004321/323/328/329/340-342 aufStrukturfehlerbehandlung;
+positiverKollaps-/Transferbeleg,keineallgemeineG/delta-Umdefinition.
+H015PDF23/GSTRUC,MAIN verteiltPDF18/4/19,GMASSPDF24,AusgabePDF14:
+keineaktuellen107-Gates, W4>1-SprungliestIK4-Vorbestand. H010C/Pascal
+GSTRUC/Caller/GLIMITstatischgeprueft; WarnungohneSperre,gewichteteGrenzen
+stattlokalerZustandspruefung. KeineEditionsgleichheit oderAutorerratum.
+KeineOriginaldateiveraendert/Quellprogrammausgefuehrt. FIND-041; Umfang/Hashes:
+`03_notes/STRUCTURE_HANDLING_SOURCES_2026-09-06.md`.
+
 Etappe30: nur H004 neu technisch ausgewertet. Buch-q,k-Index auf266-267,
 vartheta33, xi275,98b/c/e277-278, Muster289/291,105/105a302,
 107/107a/b321/328/329, explizite deltaG323, f0=0327,108/108a330,

@@ -25,6 +25,23 @@ Ergebnis; sie werden nicht als stillschweigende Definitionen behandelt.
 
 ## Naechste begrenzte Arbeitseinheit
 
+Nach [Etappe31](../06_docs/STRUCTURE_HANDLING_2026-09-06.md):
+**Eigene gekoppelte Existenzpruefung bei unveraenderten Buchinputs.**
+
+1. Vollstaendigen endlichen Integer-Suchbereich ausPositivitaet unddirekten
+   Strukturbedingungen herleiten; aktive undkollabierteZonen klartrennen.
+2. Buchprofile aus05a0bab erhalten, transzendenteInputs mitbegruendeten
+   Schranken behandeln. KeinehistorischenKonstanten oderneuenFitwerte.
+3. GleichzeitigeErfuellbarkeit von107/107a und108 pruefen. ExakteGleichung,
+   TRC-Auswahl undtolerierterRest nichtvermischen; keinOutput-Epsilon.
+4. KeineMasse/F_S/Y9-Suche oderBesetzung nachkleinsterAbweichung.
+   Diesist unsereDiagnose,kein nachtraeglichHeimzugeschriebenerAlgorithmus.
+
+272Tests,12Checks,41Befundgruppen;49CSVunveraendert. Quellenpruefung hat
+FIND-040 nichtrepariert, liefert aberkeine globaleExistenz-/Theoriewiderlegung.
+
+## Historischer Folgeauftrag der Etappe 30 (in Etappe 31 bearbeitet)
+
 Nach [Etappe30](../06_docs/BOOK_PSEUDOSINGLET_2026-09-06.md):
 **Behandlung von Strukturverletzungen in der Auswahl, keine neue Masse.**
 

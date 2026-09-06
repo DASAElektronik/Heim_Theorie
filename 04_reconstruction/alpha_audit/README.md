@@ -3,7 +3,19 @@
 Isolierter, reproduzierbarer Konsistenztest der 1982/1989-Alpha-Bloecke in den
 lokalen IGW-Wiedergaben. Python >= 3.10; nur Standardbibliothek erforderlich.
 
-## Etappe 30: Buch-Pseudosingulett und Strukturkonflikt (aktueller Stand)
+## Etappe 31: quellengetrennte Strukturbehandlung (aktueller Stand)
+
+`06_docs/STRUCTURE_HANDLING_2026-09-06.md`: BuchKollaps/Sondertransfer
+sind keinbelegterbeta3<0-Reparaturpfad. H015GSTRUC/Caller undH010C/Pascal
+statisch ohneaktuellen107-Filter; H015-Sonderzweig mitIK4-Vorbestand,
+Portierungen mitandererZuweisungsfolge/WarnungohneSperre. GLIMIT-Grenzalgebra
+vonZustandspruefung getrennt. KeineQuellprogrammeausgefuehrt oderMasse/Fitwahl.
+AchtneueTests,272gesamt,12Checks; dreiReviews,36unabhaengigeChecks erneut.
+FIND-041,41Gruppen,nicht41Fehler; alteRechner/Inputs/Snapshots/49CSV erhalten.
+NaechsterAuftrag eigenergekoppelterExistenzcheckmitfestenBuchinputs;
+zuerstvollstaendigeGrenzen undbegruendetePraezisionsschranken.
+
+## Etappe 30: Buch-Pseudosingulett und Strukturkonflikt (vorheriger Stand)
 
 `06_docs/BOOK_PSEUDOSINGLET_2026-09-06.md`: H004-Vertrag in05a0bab vor
 neuer Rechnung fixiert. Primaer105/Y3=1, getrennte Druckwertsensitivitaet,

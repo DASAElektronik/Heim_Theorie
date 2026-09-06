@@ -1,5 +1,16 @@
 # Skripte
 
+## Etappe 31: Strukturbehandlung ohne neuen Quellenrechner
+
+`py -3.13 -B -m unittest discover -s tests -p test_structure_handling.py -v`
+prueft acht eigene Diagnosen: Greedy versus107, obereTupel versuslokaleGates,
+exaktreellePort-Offsets,negativeTruncierung,fehlendeRohwertkappe undein
+synthetischerBuch-/Port-Transfervergleich. RationaleLogintervallemitRestschranke.
+Keine historischen Programme importiert, keine neuen Konstanten/Massen.
+Selbstenthaltener36-Checks-Block in STRUCTURE_HANDLING_CODE_REVIEW.
+272Testsinsgesamt,12vorhandeneSnapshotchecks unveraendert.
+Bericht: `06_docs/STRUCTURE_HANDLING_2026-09-06.md`.
+
 ## Etappe 30: gebundene Buch-Pseudosingulett-Rechnung
 
 ```powershell

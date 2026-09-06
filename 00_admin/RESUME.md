@@ -2,13 +2,50 @@
 
 Aktualisiert: 2026-09-06.
 
-## Aktuell: einunddreissigste Etappe in Arbeit
+## Aktuell: einunddreissigste Etappe abgeschlossen
 
-Ausgang `2ae50af`, Vertrag `STRUCTURE_HANDLING_PLAN.md`.
-Buch107/107a und historische GSTRUC auf explizite Strukturfehlerbehandlung,
-Ruecksetzen oder G/delta-Umdefinition pruefen. Nur statische Quellenlekture,
-keine historischen Programmlaeufe, Masse/F_S oder neue Y9-/Besetzungswahl.
-Drei neue STRUCTURE_HANDLING_*-Reviews; alte Daten erhalten.
+Ausgang `2ae50af`, Plancheckpoint `ec5e5a9`, Buch-/Port-/Testcheckpoint
+`0118ae9`; Vertrag `STRUCTURE_HANDLING_PLAN.md`.
+Bericht: `06_docs/STRUCTURE_HANDLING_2026-09-06.md`.
+Quellenumfang: `03_notes/STRUCTURE_HANDLING_SOURCES_2026-09-06.md`.
+Abschlusscommit-Nachricht: `Document source-specific structure handling and remaining existence check`.
+Bei Fortsetzung HEAD/Remote pruefen; keine laufenden Agenten erforderlich.
+
+- H004321/323/328/329/340-342:107 auchGrundmuster; deltaG ungewichtet.
+  beta=0 ist Kollaps-/Resetgrenze, G_j wird0 und n_(j-1)+1; kein beta<0-
+  Rollback. Vor-/Nachzustand nicht simultan alsunveraendertenTrigger lesen.
+- 340 nennt107vorExhaustion, gibt aber keinen aktuellen2->3-Gate-Ruecksprung.
+  341: lokaleZone4-Kappe; Transfer nurk2/W5<0 von3->4. 342 schliesst
+  analoge1->2/2->3-Transfersaus. Keiner repariert k1/positivenRest/beta3=-10.
+- 329 druckt beta4=delta3G3-N4=alpha3*N3-N4 ausdruecklich; KEIN Nichtfund
+  derGleichsetzung. Offen ist ihre Erklaerung gegenueber323 delta3G3=N3;
+  keine globaleUmdefinition imgeprueftenAnschluss gefunden.
+- H015PDF23/GSTRUC keine107-Gates. W4>1 springt voraktuellerIK4-Zuweisung
+  zu IK3--,dann IK4=IK4+IQINT(alpha3*IK3_NACH). COMMON-Eintrittswert,
+  nicht bewieseneGarbage/fehlendeGesamtinitialisierung. NichtunserBuchzweig.
+  CallerMAIN ueberPDF18/4/19: GSTRUC->GMASS->Ausgabe ohneaktuellenFilter.
+- H010C894-979/Pascal452-512: LogIntegerisierungVORW4>1,einK3--,
+  AdditiondesintegerisiertenNACHwerts; keineallgemeineKappe/Loop/107-Pruefung.
+  Pascalmsg undC(print>1)-Verbotsmeldung verhindernWeiterrechnungnicht.
+  PositiverPascalOffset1e-10 undvorzeichenabhaengigerCOffset1e-7 getrennt;
+  exakteRealleseweise ist keinehistorischeRuntimeemulation.
+- GLIMIT: verwandte GEWICHTETE reelleGrenzkandidaten vorIntegerisierung,
+  dannResonanzlimit; keinaktuellerK-Gatefilter, keinN0-Reparaturschritt.
+  EigenerZeuge gueltigesU=(5,4,3,2),ungueltigesK=(4,2,3,2)<=U zeigt:
+  Komponentengrenzen garantieren keinegemeinsamenStrukturbedingungen.
+- AchtneueexakteTests,272gesamt,12alteChecks;36unabhaengigeKontrollen
+  vonRootwiederholt,dreiinterneReviews. FIND-041:41Befundgruppen,nicht41Fehler.
+  KeineQuellprogrammeausgefuehrt, Masse/F_S oderFits; alteDaten/49CSV erhalten.
+
+Naechster Einzelauftrag: **eigene gekoppelte Existenzpruefung des festen Buchfalls**.
+NichtneueGreedyregel, sondern pruefen, ob ein nichtnegativesInteger-Tupel
+gleichzeitig direkte107/107a und108 erfuellen kann. Zuerstvollstaendigen
+endlichenSuchbereich ausPositivitaet/Struktur herleiten, aktive/kollabierte
+Zonen trennen undtranszendenteEingaben mitbegruendetenSchranken behandeln.
+UnveraenderteBuchprofile aus05a0bab,keineH010-Konstantenmischung.
+Exakte108,TRC-Auswahl undtolerierterRest sindgetrennteFragestellungen;
+keinEpsilon oderErsatztupel nachkleinstemRest waehlen. KeineMasse/F_S/Y9-Suche.
+Ergebnis alsunsereDiagnose,nichtHeimsnachtraeglicherAlgorithmus kennzeichnen.
 
 ## Verlauf: dreissigste Etappe abgeschlossen
 

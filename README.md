@@ -40,6 +40,20 @@ Kann aus Heims Original- bzw. nahen Quellen eine reproduzierbare, parameterarme 
 
 ## Aktueller Arbeitsmodus
 
+Stand2026-09-06, Etappe31: [Strukturbehandlung](06_docs/STRUCTURE_HANDLING_2026-09-06.md).
+Die gezielte Buch-/Programmpruefung liefert keine belegte Reparatur des
+Buchfalls mit beta3=-10. Kollaps bei beta=0 und Sondertransfer3->4 haben
+andere Ausloeser. H015/H010-Auswahlroutinen pruefen die direkten107-Gates
+nicht; Programmfassungen, Vorbestandfehler und Warnmeldungen bleiben getrennt.
+GLIMIT hat verwandte Grenzalgebra, ersetzt aber keinen Einzelzustandstest.
+
+AchtneueTests,272gesamt,12Checks und dreiinterneReviews. KeineMasse/Fitwahl,
+alteRechnungen/49CSV erhalten. NaechsterSchritt: eigene gekoppelte
+Existenzpruefung beiunveraendertenBuchinputs, zuerst Grenzen/Genauigkeit.
+[Wiedereinstieg](00_admin/RESUME.md), [Arbeitsfolge](00_admin/UNDERSTANDING_ROADMAP.md).
+
+## Verlauf: Etappe 30
+
 Stand2026-09-06, Etappe30: [Buch-Pseudosingulett](06_docs/BOOK_PSEUDOSINGLET_2026-09-06.md).
 Zwei vor der Rechnung fixierte Buchprofile liefern N_(j)=(14,9,13,7).
 Dieser Auswahlausgang verletzt die direkte Strukturbedingung107/107a:

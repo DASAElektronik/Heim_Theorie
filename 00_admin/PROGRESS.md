@@ -1,5 +1,22 @@
 # Fortschritt
 
+## 2026-09-06 - Einunddreissigste Etappe: Strukturfehlerbehandlung
+
+- Buch nennt Kollaps bei beta=0, Zone4-Kappe und k2/W5<0-Transfer3->4;
+  kein belegter Reparaturpfad fuer FIND-040 beta3=-10. 107-Verweis ist
+  keine implementierte gekoppelte Neuwahl; keine allgemeine G/delta-Umdefinition.
+- H015 GSTRUC/Caller statisch: kein107-Gate; Sonderzweig W4>1 liest
+  IK4-Vorbestand. NurlokaleDatenflussaussage,keineGarbage-/Autorenbehauptung.
+- H010C/Pascal integerisieren zuvorLog, warnen dann beiW4>1 ohneSperre.
+  K3-NACHwert,eineStufe,keine Buchkappe/Loop/aktuellen107-Gates.
+- GLIMIT hat gewichtete Grenzalgebra,keinen Einzelzustandsfilter.
+  Eigene exakte Gegenbeispiele trennen obereGrenzen undZustandszulaessigkeit.
+- DreiReviews,36eigeneReviewchecks erneut,achtneueTests/272gesamt,
+  12Rechenchecks. FIND-041,41Gruppen; keineMasse/F_S/Y9-Wahl,alte49CSVerhalten.
+  Checkpoints ec5e5a9/0118ae9; Bericht STRUCTURE_HANDLING_2026-09-06.md.
+- NaechsterAuftrag eigene gekoppelte Existenzpruefung unterfixenBuchinputs,
+  erstvollstaendigeGrenzen undGenauigkeitsvertrag;keineErsatzbesetzungperFit.
+
 ## 2026-09-06 - Dreissigste Etappe: Buch-Pseudosingulett und direkter Strukturkonflikt
 
 - H004-Eingaben vor Rechnung in05a0bab fixiert: Buch105/Y3=1 und separat
