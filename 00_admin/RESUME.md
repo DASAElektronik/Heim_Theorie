@@ -2,7 +2,18 @@
 
 Aktualisiert: 2026-09-06.
 
-## Aktuell: elfte Etappe abgeschlossen
+## Aktuell: zwoelfte Etappe in Arbeit
+
+Ausgang94c55a0, Nutzer bestaetigt eta22-Rollenpruefung B47/B55.
+Plan ETA22_ROLES_PLAN; drei bounded Reviews ETA22_ROLES_MANUSCRIPT,
+ETA22_ROLES_IGW und ETA22_ROLES_MATH beauftragt. Root Buch/S005/Synthese.
+Wichtige fruehe Abgrenzung: b2(B55)->y(B48)->T(B47), nicht ohne Beleg
+eigene Massenkorrektur. Expliziter eta22-Teil in B55 traegt q(2-q),
+aber Klammerstatus muss quellengebunden geprueft werden.
+Alte8Rechner/Inputs/Snapshots/Tests unveraendert lassen. Keine moderne
+empirische Bewertung, keine neue physikalische Reparatur.
+
+## Verlauf: elfte Etappe abgeschlossen
 
 Nutzer bestaetigt den konkreten Anschluss aus Etappe10; Ausgang e50cab8.
 Plan DELTA_SELECTION_PLAN erledigt. Plancheckpoint4f297a6 und Quellen-/
