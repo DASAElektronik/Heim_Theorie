@@ -30,8 +30,16 @@ externe Publikation. Quellen-PDFs/OCR/Render bleiben lokal und unversioniert.
 
 ## Abschlussnachweise
 
-- [ ] Quellgleichungen und Definitionsbereiche visuell gegengelesen.
-- [ ] Exponentialnaeherung unabhaengig berechnet und begrenzt.
-- [ ] F/G-Verbindung mit Belegen und erneuten Pruefanlaessen dokumentiert.
-- [ ] Neue Diagnosen und bestehende Regressionen geprueft.
-- [ ] Bericht, Register, Karte und Wiedereinstieg gesichert und gepusht.
+- [x] Quellgleichungen und Definitionsbereiche visuell gegengelesen.
+- [x] Exponentialnaeherung unabhaengig berechnet und begrenzt.
+- [x] F/G-Verbindung mit Belegen und erneuten Pruefanlaessen dokumentiert.
+- [x] Neue Diagnosen und bestehende Regressionen geprueft.
+- [x] Bericht, Register, Karte und Wiedereinstieg gesichert; Abschlusscheck folgt im Git-Log.
+
+Plan 838eba0 und Rechner-/Quellencheckpoint 8e8aa15 gepusht.
+98 Tests, acht Snapshotchecks/Quellpruefungen; drei Reviews abgeschlossen.
+273 Normalfelder und 32 Randfelder unabhaengig nachgerechnet. Drei eigene
+Ausloeschungsfehler behoben und regressionsgesichert, alte sieben Profile
+unveraendert. Exponentenkoeffizient bedingt reproduziert, F/G-Bruecke offen;
+skalares Extremumsgegenbeispiel nicht als metronische Widerlegung ausgegeben.
+18 Befundgruppen, keine Fehlerzaehlung. Naechster Anschluss: 1989 eta22.

@@ -96,6 +96,15 @@ Die 1989-eta22-Verwendung ist eine separate offene Versionsfrage. 86 Tests,
 unabhaengige Reviews und sieben reproduzierte Snapshots; 16 Befundgruppen.
 Naechster Querverweis: (79)/(79a) und F/G-Potentialzuordnung.
 
+Die neunte Etappe verfolgt diese Rueckverweise:
+[Exponentialkontext](06_docs/EXPONENTIAL_CONTEXT_2026-09-06.md).
+Die Abklingrate ist im explizit skalaren Abbild unter a>lambda>0 reproduziert,
+einschliesslich Amplitude und Naeherungsfehler. Positive Extremstellen
+allein erzwingen diese Parameterwahl nicht; metronische Zusatzregeln bleiben
+separat zu pruefen. Die F/G-Potentialzuordnung ist im untersuchten Kontext
+weiter spekulativ. 98 Tests, acht Snapshots und 18 Befundgruppen; keine
+Gesamtwiderlegung. Naechster Anschluss: Versionsgeltung von 1989 eta22.
+
 Wir bauen zuerst eine Formelbibliothek unter `04_reconstruction/formula_library/`.
 Jede Formel bekommt eine ID, Quelle, Status, Abhaengigkeiten, Outputs und Audit-Risiken.
 Erst wenn eine Formel `source_checked` und `normalized` ist, soll sie implementiert werden.

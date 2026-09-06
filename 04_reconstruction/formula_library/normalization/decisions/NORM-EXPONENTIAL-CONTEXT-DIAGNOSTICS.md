@@ -61,4 +61,6 @@ Auswertung dieser analytischen Schranke ist gerundet, kein Intervallbeweis.
 Vorhandene sieben Rechner, Eingaben, Snapshots und Originaltranskriptionen
 bleiben unveraendert. Der Formelkatalog bleibt bei zwei isolierten Alpha-
 Audits und wird nicht zum vollstaendigen Massenrechner hochgestuft.
-Unabhaengiger Quell-/Mathematikreview wird im Etappenbericht dokumentiert.
+Unabhaengiger Quell-/Mathematikreview und Synthesecheck sind abgeschlossen:
+273 Snapshotfelder und 32 empfindliche Randfelder separat nachgerechnet,
+98 Gesamttests. Nachweise im Etappenbericht und EXPONENTIAL_MATH-Review.

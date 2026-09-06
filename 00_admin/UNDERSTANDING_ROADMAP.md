@@ -25,13 +25,20 @@ Ergebnis; sie werden nicht als stillschweigende Definitionen behandelt.
 
 ## Naechste begrenzte Arbeitseinheit
 
-1. Rueckverweise (79)/(79a) ausII269 verfolgen: Exponentialnaeherung, F/G,
-   Gueltigkeitsbereich und die spekulative Zuordnung zu Potentialen. Klaert
-   eine vorgelagerte Definition/Zusatzbedingung den neuen lokalen Knoten?
-2. Die1989-Verwendung eta22 getrennt auf Versionsgeltung/analytischen
+1. Die1989-Verwendung eta22 getrennt auf Versionsgeltung/analytischen
    Faktor versus realen Zustand pruefen. Buch(98a) nicht still uebertragen.
-3. Danach Massenblocker B50/Gamma-Q_N und Verstaendnisbilanz;
+2. Danach Massenblocker B50/Gamma-Q_N und Verstaendnisbilanz;
    Quellen-/Mathematikreview und Checkpoint je begrenzter Einheit.
+3. Offene F/G-Normierung und metronische Extremumsregel nur bei konkreter
+   Quellbruecke erneut aufnehmen; keine Wiederholung derselben Rueckverweise.
+
+Etappe9 hat (58)/(58a) und (79)/(79a) verfolgt:
+`06_docs/EXPONENTIAL_CONTEXT_2026-09-06.md`. Die Rate lambda-a ist im
+explizit skalaren Abbild reproduziert. Die Parameterbegruendung a>lambda
+folgt dort nicht aus positiven Extremstellen allein; F/G-Einzeldefinitionen
+und Skalenbruecke fehlen im untersuchten Zusammenhang. Kein stiller
+Uebergang von diesem Befund auf alle metronischen Operatoren. FIND-015
+bleibt erhalten; 18 Befundgruppen, 98 Tests und acht Snapshots.
 
 Offene Seitenzweige: H-Wellen-/Flussobjektidentitaet, Phase/Frame, operative
 pc-Arbeitsbilanz und physikalische Meridianregel. Aus Etappe7 liegt jetzt
@@ -46,7 +53,7 @@ L*Delta-Ansatz und q/k-Bedeutung verbunden; B-Auswahl nachgerechnet,
 u2-Druckbereich nicht reproduziert, beide Buch-Alpha-Paare aber erhalten.
 Aktuelle Zusammenhangskarte und erneute Pruefanlaesse:
 `04_reconstruction/alpha_audit/CONFIGURATION_DEPENDENCIES.md`.
-Register jetzt 16 Befundgruppen, keine 16 Fehler. Unsere Befundebilanz bleibt
+Register damals 16 Befundgruppen, keine 16 Fehler. Unsere Befundebilanz bleibt
 revidierbar bei anderen belegten Definitionen, Errata oder neuen Querverbindungen.
 
 Abgeschlossene Quellenarbeit Etappe7:

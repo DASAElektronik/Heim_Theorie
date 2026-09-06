@@ -34,7 +34,7 @@ Die Kurzform k_max=2,q_max=3 ist auch kein kartesisches Produkt aller Paare.
 | Warum L*Delta=k? | Moeglicher Ansatz aufII265 | Unabhaengige Gleichung, Randbedingung oder expliziter Rueckverweis mit dieser Identifikation |
 | Warum F_i=V_i und G_i=Q_i? | Etappe9: (58)/(58a) und (79)/(79a) geprueft; keine separate F/G-Definition oder Normierung gefunden, II269 bleibt spekulativ | Explizite Zerlegung der Spur in genau diese vier Beitraege mit Einheiten/Normierung; alternative Ausgabe oder Manuskript mit dieser Bruecke |
 | Warum muss a>lambda gelten? | Skalares Abklingen genau dann; positive Extremstellen allein reichen nicht, exaktes Gegenbeispiel dokumentiert | Zusaetzliche metronische Eigenwert-/Randregel oder belegter Uebergang ins skalare Problem; H(infinity)=0 nicht still voraussetzen |
-| E+u^2 versus E-u^2 | II176/178 unterschiedlich gedruckt; im skalaren Abbild ist Plus konsistent | Explizite metronische Bedeutung, authorisiertes Erratum oder andere belegte Ausgabe; keine stille Korrektur |
+| E+u^2 versus E-u^2 | II176/178 unterschiedlich gedruckt; im skalaren Abbild ist Plus konsistent | Explizite metronische Bedeutung, autorisiertes Erratum oder andere belegte Ausgabe; keine stille Korrektur |
 | Absolute Feldamplitude | (79) und II178-Naeherung haben im skalaren Abbild verschiedene konstante Vorfaktoren, gleiche Rate | Explizite Amplitudennormierung; bei freiem A kein eigener Fehlerbefund |
 | Richtungen und B/D-Unterschied | Unter den gedruckten Definitionen lokal unvereinbar | Belegte Konventionsaenderung, andere Ausgabe oder autorisiertes Erratum |
 | u_2-Druckbereich | Gedruckte Funktion ergibt1.963489..., nicht2..3 | Belegbar andere beabsichtigte Funktion oder historische Rechenunterlagen; nicht durch Alpha-Zielwerte waehlen |
@@ -52,7 +52,8 @@ immer wieder beginnen. Nicht alle offenen Fragen muessen Fehler sein.
 
 Etappe9: `06_docs/EXPONENTIAL_CONTEXT_2026-09-06.md`. Der Vorzeichenknoten
 FIND-015 wird durch die jetzt geprueften Rueckverweise nicht aufgeloest;
-die Exponentialrate wird positiv reproduziert. Unser Extremumsgegenbeispiel
+der Exponentenkoeffizient wird im skalaren Abbild bedingt reproduziert.
+Unser Extremumsgegenbeispiel
 gilt nur fuer die ausdruecklich skalare Abbildung, nicht ungeprueft fuer
 die metronische Theorie. Naechster bereits geplanter Anschluss: 1989 eta22,
 danach B50/Gamma-Q_N und Verstaendnisbilanz.

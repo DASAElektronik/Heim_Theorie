@@ -2,43 +2,60 @@
 
 Aktualisiert: 2026-09-06.
 
-## Aktuell: neunte Etappe in Arbeit
+## Aktuell: neunte Etappe abgeschlossen
 
 Ausgangscommit 9cdd7cf auf `normalization-review`, erfolgreich gepusht.
-Plan: `EXPONENTIAL_CONTEXT_PLAN.md`. Nutzer bestaetigt Weiterarbeit.
-Rueckverweise (79)/(79a) und F/G-Zuordnung werden jetzt primaerquellenbasiert
-geprueft. Neue Reviews EXPONENTIAL_SOURCE, FG_IDENTIFICATION_SOURCE und
-EXPONENTIAL_MATH sind beauftragt (jeweils 2026-09-06); kein fertiges
-Etappenergebnis aus Zwischenmeldungen ableiten. Bisherige sieben Rechner
-und Snapshots nicht aendern. Keine moderne Widerlegungsliteratur/Hardware.
+Plan `EXPONENTIAL_CONTEXT_PLAN.md` erledigt. Plancheckpoint 838eba0 und
+Rechner-/Quellencheckpoint 8e8aa15 erfolgreich gepusht. Abschlusscommit-
+Nachricht: `Complete reviewed exponential context and research handoff`.
+Reviews EXPONENTIAL_SOURCE, FG_IDENTIFICATION_SOURCE und EXPONENTIAL_MATH
+(jeweils 2026-09-06) sowie Synthesepruefung abgeschlossen; keine laufenden
+Agenten zum Fortsetzen erforderlich. Keine moderne Widerlegungsliteratur,
+Hardwarearbeit oder neue externe Publikation in dieser Etappe.
 
 Quellbilder: `tmp/pdfs/exponential_context/edm2-181.png` bis `185.png`
 (Druck 175-179), Original H004. p269 im bisherigen configuration_selection-
-Ordner. Main hat alle sechs Seiten visuell gelesen. Exakte skalare Abbildung
-von (79) und nur asymptotisch gemeinte Zeile auf p178 getrennt halten.
-Weitere Quellbedingungen und Extremumsargument sind noch zu verifizieren.
+Ordner. Main hat alle sechs Seiten visuell gelesen, auch (79c); zusaetzlich
+Druck 98-100/PDF105-107 und Druck268/PDF274 im fg_identification-Ordner.
+Exakte skalare Abbildung von (79) und proportionale p178-Zeile getrennt.
 
-Zwischenstand nach Implementierung (noch kein Abschluss): Plan 838eba0
-gepusht. Neuer Rechner `scripts/audit_exponential_context.py`, Snapshot,
-12 Tests und Bericht `06_docs/EXPONENTIAL_CONTEXT_2026-09-06.md` angelegt.
+Neuer Rechner `scripts/audit_exponential_context.py`, Snapshot,
+12 Tests und Bericht `06_docs/EXPONENTIAL_CONTEXT_2026-09-06.md` fertig.
 98 Tests und alle acht Snapshotchecks samt verfuegbaren Quellhashpruefungen
 bestanden. Register jetzt 18 Gruppen, NORM 49 (47 resolved, zwei alte Blocker).
-Abschliessender Mathematik- und Synthesereview noch abwarten.
+Unabhaengig 273 Snapshotfelder gegen direkte 140-stellige Rechnung
+(max. absolute Differenz <2.4e-79) und 32 empfindliche Randfelder gegen
+260-stellige Rechnung (max. skalierte Differenz <3.4e-78) geprueft.
+Alte sieben Rechner, Inputs und Snapshots sind unveraendert.
 
 - E=1-Abbildung mit H(0)=1: H=[2(1-b)]^p*exp((lambda-a)r)*
   (1-2b*exp(-lambda*r)+exp(-2lambda*r))^(-p), p=a/(2lambda).
 - Rate bestaetigt, Abklingen bedingt a>lambda>0; Amplitudendifferenz zur
   proportionalen p178-Zeile ist mit freiem A kein eigener Fehler.
-- Gewoehnliche Extremstellen erzwingen a>lambda nicht: lambda1,a10/11,
-  b3/5 liefert Maximum ln(11/5), Minimum ln5, aber Wachstum mit Rate1/11.
-  Nicht ungeprueft auf metronische Extremwertregeln uebertragen.
+- Gewoehnliche Extremstellen erzwingen a>lambda nicht: lambda=1, a=10/11,
+  b=3/5 liefert Maximum ln(11/5), Minimum ln(5), aber Wachstum mit Rate 1/11.
+  Nicht ungeprueft auf metronische Extremwertregeln uebertragen. p176 hat
+  E+u^2, p178 E-u^2; skalar ist Plus konsistent. Keine Quelle korrigiert.
 - (58)/(58a) erklaeren Operatorrahmen, keine vier separaten F/G-Definitionen;
   spekulative Potentialzuordnung und alter Vorzeichenknoten bleiben.
 - Drei eigene numerische Randdefekte gefunden/gefixt: 1-b^2, Selektorzaehler,
-  1-exp(-x) bei b nahe1 und winzigem r. Regressionen pruefen gegen220Stellen.
+  1-exp(-x) bei b nahe1 und winzigem r. Stabile Faktoren/kleine-x-Serie;
+  Regressionen pruefen gegen 220 Stellen, unabh. Review gegen 260 Stellen.
 
-Als Naechstes Abschlussreviews integrieren, Register/Links pruefen, Bericht
-und diesen Einstieg auf abgeschlossen setzen, sicheren Checkpoint pushen.
+Naechster konkreter Anschluss: 1989 eta22 in B59. Versionsgeltung der
+Buchauswahl (98a), analytischer Faktor versus realisierter Zustand und
+historische Herkunft getrennt pruefen. Danach B50/Gamma-Q_N und
+Verstaendnisbilanz. Nicht erneut dieselben (58)/(79)-Rueckverweise suchen;
+offene F/G-Normierung/metronische Extremwertregeln mit konkretem Anlass
+auf `04_reconstruction/alpha_audit/CONFIGURATION_DEPENDENCIES.md` erhalten.
+
+```powershell
+py -3.13 scripts/audit_exponential_context.py --check --verify-sources
+py -3.13 scripts/validate_finding_register.py
+py -3.13 -m unittest discover -s tests -q
+```
+
+Alle acht Snapshotbefehle stehen in `scripts/README.md`.
 
 ## Verlauf: achte Etappe abgeschlossen
 

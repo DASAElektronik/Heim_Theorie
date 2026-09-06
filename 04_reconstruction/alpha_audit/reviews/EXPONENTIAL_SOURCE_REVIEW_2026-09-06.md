@@ -96,3 +96,15 @@ Visually inspected primary-PDF renders, all in the ignored scratch area:
 
 No numerical evaluation, formula modification, historical emendation,
 modern literature search, or edit outside this review file was performed.
+
+## Root visual supplement: (79c)
+
+Root independently inspected the full printed p. 179 / PDF folio 185
+(`tmp/pdfs/exponential_context/edm2-185.png`). Below (79b) it explicitly
+prints `r=r(nu), delta r -> beta=const>0` as (79c). The preceding text
+places this near the upper limit of the second validity region at high
+metron numbers, with tau>0 and an approximately constant radial increment.
+This supplements the source review's direct (79b) chain; it is not a
+derivation of that metronic transition or an identification of nu with
+the later configuration index k. Root's stage report therefore retains
+the visually confirmed (79c) reference.

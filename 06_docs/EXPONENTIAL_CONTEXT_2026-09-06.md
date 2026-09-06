@@ -8,7 +8,8 @@ hashgepruefte PDF. Kein moderner Messdatenvergleich und keine Gesamtbewertung.
 
 Heims Verweis auf einen exponentiell abklingenden Verlauf ist nachvollziehbar:
 Aus der gewoehnlich-skalaren Abbildung seiner Formel (79) erhalten wir fuer
-grosse Abstaende dieselbe Abklingrate, sofern a>lambda>0 gilt. Der genaue
+grosse Abstaende denselben Exponentenkoeffizienten lambda-a, also die
+positive Abklingrate a-lambda, sofern a>lambda>0 gilt. Der genaue
 Verlauf ist jedoch keine reine Exponentialfunktion. Wir haben jetzt auch
 den konstanten Vorfaktor und den Naeherungsfehler bestimmt.
 
@@ -215,9 +216,20 @@ Rechner/Inputs/Snapshots wurden nicht geaendert.
 
 Unabhaengige Reviews (jeweils 2026-09-06): EXPONENTIAL_SOURCE,
 FG_IDENTIFICATION_SOURCE und EXPONENTIAL_MATH unter
-`04_reconstruction/alpha_audit/reviews/`. Die ersten beiden sind abgeschlossen;
-die abschliessende Mathematik-/Implementierungsgegenpruefung laeuft noch.
+`04_reconstruction/alpha_audit/reviews/`. Alle drei und der abschliessende
+Synthesecheck sind abgeschlossen. Unabhaengig wurden 273 Snapshotfelder
+gegen eine direkte 140-stellige Originalklammerauswertung geprueft
+(groesste absolute Differenz <2.4e-79), ausserdem 32 Randfelder gegen eine
+direkte 260-stellige Rechnung (mit max(1,|Referenz|) skalierte Differenz
+<3.4e-78). Keine beobachtete offene Beanstandung; keine Garantie fuer alle
+moeglichen Parameter oder die Wahrheit der physikalischen Interpretation.
 Die sieben alten Rechner/Inputs/Snapshots bleiben unveraendert.
+
+Register: 18 Befundgruppen (keine Fehlerzaehlung), darunter FIND-017 als
+positive bedingte Reproduktion und FIND-018 als bedingter Extremumskonflikt.
+49 Normalisierungsentscheidungen: 47 resolved, zwei unveraenderte historische
+Massenblocker. Plan 838eba0 und Zwischenstand 8e8aa15 sind gepusht;
+der Abschluss ist ueber Git und `00_admin/RESUME.md` nachvollziehbar.
 
 Als naechstes bleibt der bereits vorgemerkte Versionsanschluss: Welche
 Rolle hat eta22 in der Massenformel-Fassung 1989, und beansprucht diese

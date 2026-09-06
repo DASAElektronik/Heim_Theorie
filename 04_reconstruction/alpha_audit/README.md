@@ -3,7 +3,17 @@
 Isolierter, reproduzierbarer Konsistenztest der 1982/1989-Alpha-Bloecke in den
 lokalen IGW-Wiedergaben. Python >= 3.10; nur Standardbibliothek erforderlich.
 
-## Sechste Etappe: eigene Wellen-Schliessung (aktueller Stand)
+## Neunte Etappe: Exponentialkontext (aktueller Stand)
+
+`06_docs/EXPONENTIAL_CONTEXT_2026-09-06.md` erklaert die Rueckverweise
+(79)/(79a), die bedingt reproduzierte Rate, den relativen Naeherungsfehler
+und die weiterhin offene F/G-Zuordnung. `audit_exponential_context.py`
+ist ausdruecklich eine normalisierte skalare Diagnose, keine metronische
+Operatorrekonstruktion. 98 Tests, acht reproduzierbare Snapshots;
+vollstaendige Befehlsliste in `scripts/README.md`. 18 Registergruppen
+einschliesslich positiver Befunde, keine Fehlerzaehlung.
+
+## Sechste Etappe: eigene Wellen-Schliessung (Verlauf)
 
 ```powershell
 py -3.13 scripts/audit_wave_closure.py --check --verify-sources
