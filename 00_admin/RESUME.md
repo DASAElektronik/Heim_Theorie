@@ -2,7 +2,15 @@
 
 Aktualisiert: 2026-09-06.
 
-## Aktuell: vierundzwanzigste Etappe abgeschlossen
+## Aktuell: fuenfundzwanzigste Etappe in Arbeit
+
+Ausgang `e0055c9`, Vertrag `K4_W4_PLAN.md`.
+H006p9-K4/W4-Faelle und Ganzzahlregel gegen die gruppierte Restgleichung
+pruefen; H015PDF42/Blatt6 separat vergleichen. Root liest die Quellen
+selbst, drei begrenzte Gegenreviews. Keine neue Masse oder Profilkorrektur.
+Naechster Wiedereinstieg: Plan und aktuelle K4_W4*-Reviews pruefen.
+
+## Verlauf: vierundzwanzigste Etappe abgeschlossen
 
 Ausgang `660d612`, Plancheckpoint `7d60d4b`. Vertrag: `BALANCE24_PLAN.md`.
 Bericht: `06_docs/UNDERSTANDING_BALANCE_STAGE24_2026-09-06.md`.
