@@ -13,6 +13,17 @@ Drei Agenten: Wellenquelle, Versionsvergleich, unabhaengige Mathematik.
 Alte fuenf Rechner/Snapshots unveraendert lassen; kein Messwertfit.
 Eine zusaetzliche Annahme schliesst die Originalherleitung nicht rueckwirkend.
 
+Zwischenstand Etappe6: Plan 7e69b13 gepusht. Neuer Rechner
+`scripts/audit_wave_closure.py`, Snapshot und Bericht
+`06_docs/WAVE_CLOSURE_2026-09-06.md`;69 Tests/4 Quellhashes passen.
+Drei Reviews abgeschlossen. Eigene Ringmoden N1/2/3 und Phase-Ersetzung
+aendern die algebraischen Zweige; keine physikalisch bestaetigten Alpha-
+Vorhersagen. Exakte Domaenenpruefung und einmalige Doppelwurzelrundung nach
+Review ergaenzt, alte Rechner unveraendert. MS-Ak hat eta^+1, Buch eta^-1/2;
+gemeinsames eta nur bedingte Vergleichsannahme. Energieordnungsfehler bereits
+im Manuskript p4. Bericht/Quellenkontrolle fertig, Abschlussregister und
+Fortsetzungsdokumente noch zu integrieren.
+
 ## Verlauf: fuenfte Etappe abgeschlossen
 
 Nutzer bestaetigt Fortsetzung und fragt nach Heims eigenem Warum; moeglicher
