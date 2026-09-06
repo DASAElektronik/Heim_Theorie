@@ -6,6 +6,12 @@ Dieses Register sammelt Fundstellen. Lokale Kopien sollten nur abgelegt werden, 
 
 ## Enger Pruefstand 2026-09-06
 
+Etappe21: H003I106/108-111 und H004II271-275 auf skalierte Variation
+gegen inneren Argumentshift sowie gemischte H/G-Schritte geprueft.
+M7-Shift ist gedruckt, Gleichheit mit a*delta nicht hergeleitet; H004s
+delta_e und delta bleiben verschieden notiert. Keine neue Quelle importiert.
+Umfang/Hashes: `03_notes/METRONIC_STEP_SOURCES_2026-09-06.md`.
+
 Etappe20: H003 M2/M2a/M3a/M7/M8 auf Druck103/104/105/109/110 und
 H004 Druck267,272-275 von Root an Vollseiten gegengelesen. Exakte
 Teleskopregel und bedingte Potentialquotienten von der approximativen

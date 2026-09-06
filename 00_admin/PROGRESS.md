@@ -1,5 +1,22 @@
 # Fortschritt
 
+## 2026-09-06 - Einundzwanzigste Etappe: Skalierung versus innerer Shift
+
+- M7-innerer Exponentialshift phi-delta_e phi quellenseitig bestaetigt;
+  keine Herleitung seiner Gleichheit mit a*delta auf nichtlinearen Folgen.
+  Exakter3/2vs2-Zeuge und small-a-Grenze trennen Identitaet und Genauigkeit.
+- H004II273 behaelt unskaliertes delta anH/G/X, delta_e anPotentialen.
+  Ein gemeinsames Argumentgitter bleibt unbewiesen. Kleinesx nichtgrossesX.
+- Eigene bedingte positive RekurrenzHn/Hprev=1/(1-S_H) mitganzemLogrest;
+  log-additiver Grundansatz waere anderesModell, keine eingesetzteReparatur.
+- GleicheEndpunkte-Zeuge16/9vs12/7; X-only-Reste mit verschiedenenVorzeichen.
+  Keine tatsaechlichen Potentialpfade oder Massenfehler daraus erschlossen.
+- DreiReviews,Root-Bildkontrolle und Gegenrechnung:10Felder80/120Stellen,
+  max.rel.Differenz2.550612081569e-80.10neueTests,168gesamt undzehnalte
+  Rechen-/Quellchecks bestanden. FIND-033/33Befundgruppen. Plan94a049c.
+- AlteProfile/Snapshots/49CSV-Zeilen unveraendert. NaechsterAnker:(98)-
+  Potentialpfade und gemeinsame Parametrisierung bei festemk.
+
 ## 2026-09-06 - Zwanzigste Etappe: metronische Integration
 
 - H003 M2/M2a liefert exakt die H004-lnY-Randstruktur mit z-1; untere

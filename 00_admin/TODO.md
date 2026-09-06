@@ -2,7 +2,7 @@
 
 ## Aktueller Einstieg (2026-09-06)
 
-Massgeblich ist Etappe 19 in `RESUME.md`; die aeltere Detailhistorie folgt darunter.
+Massgeblich ist Etappe 21 in `RESUME.md`; die aeltere Detailhistorie folgt darunter.
 
 - [x] Einen H006-N0-Elektronfall getrennt gegen spaetere H010-Programme rechnen.
 - [x] Alpha3-Formeln, Alpha-/Konstanteneingaben und Rundung einzeln dokumentieren.
@@ -13,7 +13,8 @@ Massgeblich ist Etappe 19 in `RESUME.md`; die aeltere Detailhistorie folgt darun
 - [x] H004272-275: lokale Annahmen und Nicht-Eindeutigkeit der A/B-Wahl unter benannten Bedingungen pruefen.
 - [x] Eigene Grenz-/Ankerfamilien und bedingt eindeutigen C_k-Faktor getrennt gegenrechnen.
 - [x] H004273/274 gegen M2/M2a/M7/M8 pruefen: lnY exakt und vier Potentialquotienten bedingt erklaert; Untergrenzenindex und Naeherungsgenauigkeit offen ausgewiesen.
-- [ ] Delta/delta_e-Argumente und Schrittweiten im konkreten X/H/G-Pfad samt indizierten Potentialgrenzen klaeren.
+- [x] Delta/delta_e-Pfad eng pruefen: M7-innerer Shift belegt, Gleichheit mit a*delta und gemeinsames Gitter offen; gemischte H/G-Rekurrenz bedingt ausgerechnet.
+- [ ] Potentialkomponenten aus(98) und H004II272-274-Endgrenzen auf gemeinsame Parametrisierung bei festem k pruefen; X-Kopplung und indizierte Untergrenze getrennt klaeren.
 - [ ] Tatsaechliche relative Potential-/H/G-Spruenge und gemeinsamen Logrest rekonstruieren; erst dann alpha3-/Massenfehler fortpflanzen.
 - [ ] H015PDF39/41 gegen H006XIV/XXVI unabhaengig lesen, bevor FIND-027 fortgeschrieben wird.
 - [ ] Keine stillen Profilkorrekturen; urspruengliches Formelblatt und H006-Fehlerursache bleiben offen.

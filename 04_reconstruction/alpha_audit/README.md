@@ -3,7 +3,17 @@
 Isolierter, reproduzierbarer Konsistenztest der 1982/1989-Alpha-Bloecke in den
 lokalen IGW-Wiedergaben. Python >= 3.10; nur Standardbibliothek erforderlich.
 
-## Etappe 20: metronische Integration (aktueller Stand)
+## Etappe 21: skalierter metronischer Schritt (aktueller Stand)
+
+`06_docs/METRONIC_STEP_2026-09-06.md` trennt M7s gedruckten inneren
+Argumentshift von a*delta auf nichtlinearen Folgen. H004s gemischte
+H/G-Gleichung ist bedingt als endliche Rekurrenz und gemeinsamer Logrest
+formuliert; keine authentische Theoriereparatur oder Massenfortpflanzung.
+DreiMETRONIC_STEP*-Reviews, zehn neueTests,168gesamt und zehnalteChecks.
+FIND-033/33Befundgruppen, keine33Fehler. NaechsterAnker:(98)-Potentialpfade
+und gemeinsame Parametrisierung bei festemk; alteRechenprofile erhalten.
+
+## Etappe 20: metronische Integration (vorheriger Stand)
 
 `06_docs/METRONIC_INTEGRATION_2026-09-06.md` erklaert M2a/lnY exakt
 und vier Potentialquotienten bedingt. M7 ist approximativ; unter M2

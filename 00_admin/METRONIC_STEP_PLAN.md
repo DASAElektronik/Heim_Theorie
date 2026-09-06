@@ -19,7 +19,12 @@ f=exp(phi) die Differenz exp(phi)-exp(phi-delta_e phi). Unter einer
 woertlichen skalaren Wirkung sind dies verschiedene Operationen.
 Vor einer Bewertung wird nach einer erklaerten Umdefinition gesucht.
 
-- [ ] Operatorpassage und H/G-Pfad gegen Originalseiten eingegrenzt.
-- [ ] Exakte eigene Gegenrechnung mit ausdruecklichem Annahmenscope.
-- [ ] Unabhaengige Reviews, Tests, zehn alte Checks und Registerpruefung.
-- [ ] Bericht, Quellenmetadaten und Fortsetzungsauftrag gesichert.
+- [x] Operatorpassage und H/G-Pfad gegen Originalseiten eingegrenzt.
+- [x] Exakte eigene Gegenrechnung mit ausdruecklichem Annahmenscope.
+- [x] Unabhaengige Reviews, Tests, zehn alte Checks und Registerpruefung.
+- [x] Bericht, Quellenmetadaten und Fortsetzungsauftrag gesichert.
+
+Ergebnis `06_docs/METRONIC_STEP_2026-09-06.md`, FIND-033. Innere
+Verschiebung in M7 vorhanden; kein bewiesener Anschluss an a*delta.
+Gemischte H/G-Rekurrenz bedingt formuliert, Potentialpfade fehlen.
+Zehn neue Tests,168gesamt; zehn alte Checks und Quellhashes bestanden.

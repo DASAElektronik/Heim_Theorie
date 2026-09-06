@@ -100,6 +100,14 @@ endpoint.  It remains an H004 application prescription: this review does not
 establish a one-to-one identification between every named potential limit and
 an H003 metron-indexed primitive.
 
+**Index qualification (added 2026-09-06, Etappe 21).** M2a fixes the correction at the actual lower
+start `a`: a primitive satisfies `Phi(a+1)=Phi(a)+delta Phi(a+1)`, whereas
+the telescoping endpoint is `Phi(a-1)` for an integral starting at `a`.
+It does not license the index-free replacement `V(a+1)=V(a)+delta V(a)`.
+Thus H004's prose instruction to add a lower potential variation is a
+motivated compensation prescription, but without an explicit potential-index
+map it is not yet a complete substitution rule for every named lower limit.
+
 ## Status and limits
 
 * **Defined exactly within the source calculus:** M2's discrete backward

@@ -38,24 +38,25 @@ Kann aus Heims Original- bzw. nahen Quellen eine reproduzierbare, parameterarme 
 
 ## Aktueller Arbeitsmodus
 
-Stand 2026-09-06, Etappe 20: Die
-[Pruefung der metronischen Integration](06_docs/METRONIC_INTEGRATION_2026-09-06.md)
-erklaert Heims z-1-Randterm exakt aus der diskreten Summation. Vier
-Potentialquotienten folgen bedingt aus seinen gesetzten Endwerten und(98).
-Die Logarithmusregel M7 ist dagegen ausdruecklich approximativ. Unter
-der woertlichen M2-Differenz bleibt der relative Sprung der X-Folge auch
-bei grossem Index endlich: Die grosse Metronenzahl allein begruendet den
-Logaustausch nicht. Noch kein berechneter alpha3-/Massenfehler: Die
-gemeinsame Fehlerbilanz und delta/delta_e-Zuordnung bleiben offen.
+Stand 2026-09-06, Etappe 21: Die
+[Untersuchung der skalierten Variation](06_docs/METRONIC_STEP_2026-09-06.md)
+findet in M7 einen ausdruecklichen inneren Argumentshift. Seine Gleichheit
+mit dem zuvor eingefuehrten a*delta ist aber nicht hergeleitet und gilt
+fuer allgemeine skalare Folgen nicht. H004 belaesst delta_e an Potentialen,
+delta anH/G/X; ein gemeinsames Gitter bleibt offen. Eine exakte bedingte
+Schrittrekurrenz zeigt, warum Potentialendwerte allein nicht immer genuegen.
+Keine eingesetzte Theoriereparatur oder berechnete Massenabweichung.
+Die [vorige Integrationspruefung](06_docs/METRONIC_INTEGRATION_2026-09-06.md)
+mit korrektem lnY-Randterm bleibt erhalten und sichtbar praezisiert.
 Die [A/B-Bestimmtheitspruefung](06_docs/ALPHA3_ASSUMPTIONS_2026-09-06.md),
 [Buch-/FORTRAN-Herkunft](06_docs/ALPHA3_ORIGIN_2026-09-06.md) und alle alten
-Rechenprofile bleiben erhalten. Zehn Rechenchecks und 158 Tests bestehen;
-32 Befundgruppen sind keine 32 Fehler. 49 CSV-Normalisierungen unveraendert.
+Rechenprofile bleiben erhalten. Zehn Rechenchecks und 168 Tests bestehen;
+33 Befundgruppen sind keine 33 Fehler. 49 CSV-Normalisierungen unveraendert.
 Keine neue empirische Bestaetigung oder Gesamtwiderlegung.
 
-Naechster enger Schritt: delta/delta_e-Argumente und Schrittweiten im
-X/H/G-Pfad samt Untergrenzenindex und tatsaechlichen relativen Spruengen
-klaeren, ohne synthetische Schritte als physikalische Werte einzusetzen.
+Naechster enger Schritt: Potentialkomponenten aus(98) und die benannten
+Integrationsgrenzen auf gemeinsame Parametrisierung bei festem k pruefen;
+X-Kopplung und Anfangswerte nicht aus synthetischen Zeugen erfinden.
 [Wiedereinstieg](00_admin/RESUME.md), [Arbeitsfolge](00_admin/UNDERSTANDING_ROADMAP.md).
 
 ## Verstaendnisbilanz der Etappe 15

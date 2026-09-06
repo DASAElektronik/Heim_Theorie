@@ -209,3 +209,16 @@ der separate H015-XIV/XXVI-Vergleich bleiben nachgeordnet.
 
 Fundstellen, Hashes und Suchgrenzen:
 [Quellennotiz](../03_notes/METRONIC_INTEGRATION_SOURCES_2026-09-06.md).
+
+## Praezisierung aus Etappe 21
+
+[Die folgende Untersuchung](METRONIC_STEP_2026-09-06.md) findet in der
+M7-Erlaeuterung selbst die innere Verschiebung phi-delta_e phi. Sie ist
+also eine quellenseitig vorhandene Naeherungsidee, nicht nur eine eigene
+denkbare Interpretation. Nicht hergeleitet ist deren Gleichheit mit
+a*delta auf derselben nichtlinearen Funktion oder ein gemeinsames
+fraktionales Indexgitter. Der obige bedingte Skalierungseinwand bleibt
+mathematisch bestehen; seine Quelleninterpretation ist damit enger.
+Der neue Bericht ergaenzt die gemischte H/G-Schrittbilanz mit allen
+Skalierungsfaktoren und eine bedingte exakte Produktrekurrenz, keine
+Teilchenmassenrechnung oder nachtraegliche Aenderung alter Profile.

@@ -2,12 +2,46 @@
 
 Aktualisiert: 2026-09-06.
 
-## Aktuell: einundzwanzigste Etappe in Arbeit
+## Aktuell: einundzwanzigste Etappe abgeschlossen
 
-Ausgang38d89c8. Plan `METRONIC_STEP_PLAN.md`: delta_e=a*delta gegen
-Wert-/Argumentshift in H003M7 und gemischten X/H/G-Pfad H004II273
-pruefen. Zwei Quellenagenten und Mathematikreview; Root liest Originale
-selbst. Keine Massenfortpflanzung oder Profilkorrektur. Ergebnisse offen.
+Ausgang38d89c8, Plancheckpoint94a049c. Bericht
+`06_docs/METRONIC_STEP_2026-09-06.md`, Quellenumfang
+`03_notes/METRONIC_STEP_SOURCES_2026-09-06.md`.
+Abschlusscommit-Nachricht: `Distinguish metronic scaling and nonlinear inner steps`.
+Bei Fortsetzung HEAD/Remote pruefen; keine laufenden Agenten erforderlich.
+
+- M7 aufH003I109 schreibt nach delta_e=a*delta im Naeherungskontext
+  tatsaechlich exp(phi)-exp(phi-delta_e phi). Innerer Shift also belegt,
+  nicht nur unsere Hypothese; Gleichheit mit a*delta exp(phi) nicht hergeleitet.
+  Keine dortige n->n+a-/Gitterdefinition. M8/M9a ersetzen die Bruecke nicht.
+- L=aU(1-exp(-u)),R=U(1-exp(-a*u)): fuer0<a<1,u!=0 striktR>L.
+  Exakter ZeugeU4/Vorwert1/a1/2:3/2vs2. NurIdentitaetszeuge,keinKleinheitswert.
+  Fuerfestesu bleibt relativeLuecke beia->0positiv; absolutgehtsiegegen0.
+- H004II272/273: delta_e nuranPotentialen, delta anH/G/X. GrossesX(nu)
+  vonkleinemx ausf(x)-Analyse unterscheiden;keinegemeinsameSchrittskalierung.
+- Bedingt gemeinsames Gitter+a*delta: S_H=A2rX+aSumAi*ri;
+  Hn/Hprev=1/(1-S_H),positivgenaufuerS_H<1. Gesamtlogrest
+  E(S_H)-A2E(rX)-aSumAiE(ri), Kompensation moeglich. Ganalog.
+- Zwei unterschiedliche konsistente eigene Schrittmodelle getrennt:
+  additivefiniteRatio versusgesetzteLoggleichung,keineauthentischeReparatur.
+- SynthetischePotentialpfade1,2,4 und1,3,4 ergeben16/9vs12/7bei
+  a1/2,A1=1,H0=1,Xconst. GleicheEndwerte genuegen nicht. X-onlyH/G-Reste
+  koennenverschiedeneVorzeichenhaben;keineTeilchen-/Massenfehlerbehauptung.
+- DreiMETRONIC_STEP*-Reviews; RootOrig.-Vollseiten undunabh.Code erneut:
+  10Felder80/120Stellen,max.rel.Differenz2.550612081569e-80. ZehnneueTests
+  separat gegengelesen,168gesamt;zehnalteSnapshot-/Quellchecks bestanden.
+  FIND-033/33Befundgruppen,nicht33Fehler. AlteRechner/Inputs/Snapshots/
+  49Normalisierungen erhalten. Voriger Bericht undOperatorreview nur mit
+  sichtbaren Praezisierungsnachtraegen, keine stillen Regelkorrekturen.
+
+Naechster neuer Quellen-/Algebraanker: Komponenten(98) und H004II272-274-
+Potentialgrenzen auf gemeinsame Parametrisierung bei festem k pruefen.
+Wie variieren die Ladungskomponenten dabei, und passt derselbe Pfad zu
+allen Integrationsgrenzen? Kopplung anX(nu), indizierteUntergrenze und
+passenderSummationsoperator bleiben zu belegen. Ohne Pfade/Anfangswerte
+keine Produktrekurrenz als physikalischen Rechenweg einsetzen. Nicht
+dieselben M7/M8-Seiten ohne neue Frage erneut suchen, kein Massenziel-Fit.
+H015PDF39/41 gegenH006XIV/XXVI und breite moderneEmpirie weiter nachgeordnet.
 
 ## Verlauf: zwanzigste Etappe abgeschlossen
 

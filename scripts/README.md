@@ -40,7 +40,17 @@ py -3.13 -m unittest discover -s tests -q
 ```
 
 Ohne lokale Fremdquellen `--verify-sources` weglassen. Die zehn numerischen
-Snapshots sind dann weiter pruefbar, die Quelldateien nicht. 158 Tests bestehen.
+Snapshots sind dann weiter pruefbar, die Quelldateien nicht. 168 Tests bestehen.
+
+## Skalierter Schritt und bedingte H/G-Rekurrenz
+
+`tests/test_metronic_step.py` ergaenzt zehn Tests: nichtlineare Skalierung
+versus innerer Argumentshift, gemischte H/G-Gewichte, positive Rekurrenz,
+ganzer Logrest, X-only-Zeugen und gleiche Endpunkte bei verschiedenen
+Zwischenwerten. Synthetische Werte und zusaetzliches gemeinsames Gitter,
+keine Quellen-Potentialpfade. Unabhaengiger Code:
+`04_reconstruction/alpha_audit/reviews/METRONIC_STEP_MATH_REVIEW_2026-09-06.md`.
+Bericht `06_docs/METRONIC_STEP_2026-09-06.md`; kein elfter Snapshot.
 
 ## Metronische Integration: exakte Operatorzeugen
 
