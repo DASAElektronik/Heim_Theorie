@@ -2,7 +2,14 @@
 
 Aktualisiert: 2026-09-06.
 
-## Aktuell: vierunddreissigste Etappe abgeschlossen
+## Aktuell: Etappe 35 begonnen
+
+Ausgang `22001a2`, Vertrag `DECAY_SENSITIVITY_PLAN.md` und neues
+`decay_sensitivity_inputs.json`. Vier feste Vergleichszellen, keine
+Fitwahl: A=1/3 versus1/5 fuer beide alten Alpha-Profile; Externterm UND
+g/W gemeinsam aendern. Neue Bereichs-/Existenzpruefung, keine Masse.
+
+## Verlauf: vierunddreissigste Etappe abgeschlossen
 
 Ausgang `7241cf1`, Plancheckpoint `38377a7`, Vertrag `XI_ORIGIN_PLAN.md`.
 Bericht: `06_docs/XI_ORIGIN_2026-09-06.md`.
