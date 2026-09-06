@@ -2,7 +2,15 @@
 
 Aktualisiert: 2026-09-06.
 
-## Aktuell: achtzehnte Etappe abgeschlossen
+## Aktuell: neunzehnte Etappe in Arbeit
+
+Ausgang df6934c. Auftrag `ALPHA3_ASSUMPTIONS_PLAN.md`: Welche Annahmen
+fixieren die Buchkoeffizienten, welche Freiheiten bleiben? Zwei begrenzte
+Reviews durch book_derivation (Quelle) und data_audit (Mathematik), Root
+liest selbst und entwickelt eigene exakte Diagnose. Kein Massenfit,
+keine Veraenderung alter Rechenprofile. Abschluss noch ausstehend.
+
+## Verlauf: achtzehnte Etappe abgeschlossen
 
 Ausgang a989f03, Plancheckpoint c9beca4. Bericht:
 `06_docs/ALPHA3_ORIGIN_2026-09-06.md`, Quellenumfang:
