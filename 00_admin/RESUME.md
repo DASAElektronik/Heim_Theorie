@@ -2,7 +2,15 @@
 
 Aktualisiert: 2026-09-06.
 
-## Aktuell: zweiunddreissigste Etappe abgeschlossen
+## Aktuell: Etappe33 begonnen
+
+Ausgang df9dff6. Vertrag EXTERNAL_APPROXIMATION_PLAN.md.
+Auftrag:79b/79c ->322/323 ->g/108 auf r/N4-Zuordnung und Normierung
+pruefen, danach quellenbegruendeten oder explizit bedingten Fehlertransport
+auf BEIDEN Seiten formulieren. Keine frei gewaehlte Korrektur, keine
+Masse/Y9-Suche. Alte Profile und FIND-042 bleiben unveraendert.
+
+## Verlauf: zweiunddreissigste Etappe abgeschlossen
 
 Ausgang e24dc86, Plancheckpoint b56a0af, Rechner-/Testcheckpoint851f7da.
 Vertrag COUPLED_EXISTENCE_PLAN.md; Bericht06_docs/COUPLED_EXISTENCE_2026-09-06.md.
