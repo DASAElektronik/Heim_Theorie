@@ -26,6 +26,11 @@ quellenbelegt sein, ohne dass ihre physikalische Richtigkeit bewiesen ist.
 | Undatiertes Autorentyposkript H013 | (7a), q=abs(q_l), TabelleI Delta-Zeile k2/epsilon*q_l2 | eta22 als konkreter tabellierter (2,2)-Familienwert | Definition und Tabellenbelegung belegt, keine physikalische Validierung |
 | eta22-Konstantentabellen H013/H014 | AnhangB Druck54 bzw.41 | eta22=0,84242385 | Direkte Tabellenreproduktion, Fassungsdatierung offen |
 | eta22 in H007 | B47 Existenzzeit, B55 b2, B59 C_prime | Wiederholt verwendete Formelkonstante | Kein Beleg, dass der Delta-Zustand die Alpha-Korrektur verursacht |
+| H013 Lebensdauer(21)/(21f) | Druck29-31/PDF32-34 | Direkter Autorenanschluss zu B47/B55 | Globaler inverser Faktor und lokaler q(2-q)-Term getrennt; keine besondere eta22-Deduktion |
+| B55-Hilfsterm | b2 -> y(B48) -> T(B47) | Lebensdauer, nicht direkte eigenstaendige Massenkorrektur | Lokaler eta22-Koeffizient bei q0/q2 null; gesamte b2-Klammer noch nicht eindeutig normalisiert |
+| H013 Existenzzeitanalyse | (21b)/(21b1): phi/U, phi zuvor in(5e) | Selbstkopplungsanteil der Massenformel | Direkter naechster Quellenanschluss, noch kein vollstaendiger Rechenfall |
+| H014 Alpha-Internkorrektur | Druck26/PDF28 (21a): Nenner eta11^2 | Andere K_alpha-Fassung als H007B59 | Gemeinsames eta22 macht Formel nicht identisch; Chronologie offen |
+| H013 Alpha-Internkorrektur | Druck33/PDF36 (22a): zusaetzlicher Faktor3/(pi*eta) gegenueber H007 | Dritte K_alpha-Fassung | Quellen- und lokale Zahlenvergleiche, keine neuen Alpha-Zweigprofile |
 | Freies gegen gebundenes Elektron | H013 Druck11/PDF12 und H011/1981 | Motiv einer Strukturkorrektur | Autorenmotiv belegt, spezielle Form C_prime nicht hergeleitet |
 | eta_22 im1989-Rechenprofil | Andere Formelversion und Korrektur C_prime |1989-Alpha | Wert/Algebra reproduziert; Buch(98a)-Anwendbarkeit und spezielle Begruendung offen |
 
@@ -45,7 +50,7 @@ Die Kurzform k_max=2,q_max=3 ist auch kein kartesisches Produkt aller Paare.
 | Richtungen und B/D-Unterschied | Unter den gedruckten Definitionen lokal unvereinbar | Belegte Konventionsaenderung, andere Ausgabe oder autorisiertes Erratum |
 | u_2-Druckbereich und Delta++ | Gedruckte Funktion ergibt1.963489..., nicht2..3; (101a/b) nimmt (2,2) im selben Buch ausdruecklich auf | Belegbar andere beabsichtigte Funktion, Erratum oder historische Rechenunterlagen; nicht durch Alpha-Zielwerte waehlen |
 | Vollstaendige Auswahl aller Zustaende | Einzelne B-Bedingung liefert vier Paare | Alle weiteren Zustandsbedingungen mit denselben Bedeutungen und derselben Version |
-|1989 eta_22 und H013-Zustand | H013 tabelliert konkret (2,2), H007 gebraucht eta22 dreifach; S00561 benennt fehlende C_prime-Entwicklung | Begruendung, weshalb gerade dieser Faktor in B59 eingeht; Zustandsbelegung allein erklaert keine Ursache |
+|1989 eta_22 und H013-Zustand | Etappe12 verbindet B47/B55 direkt mit H013(21)/(21f), trennt Rollen und H014-Alpha-Nenner; S00561 benennt fehlende C_prime-Entwicklung | Nur bei konkreter Dynamik-/Normierungsbruecke erneut B59-Begruendung pruefen; keine reine Indexsuche |
 | H013 Delta-Zeile gegen Buchauswahl | N0-Belegung konkret; Etappe11 findet direkte H004-Delta++-Kette, der Buchbefund benoetigt H013 nicht mehr | Historische Fassungsfolge weiter offen; keine Wiederholung derselben Indexsuche, spezielle Dynamik statt blosser Glyphengleichheit pruefen |
 | H-Welle und Flussaggregat | Bedingte w_f=c-Bruecke vorhanden | Explizite Objekt-, Phasen- und Bezugssystemzuordnung; dann alte Wellendiagnosen erneut pruefen |
 | C und Y3 | C=P und Y3=1 mit P=A1*A2 berechenbar, nicht vollstaendig unabhaengig begruendet | Neue Normierungs-/Randbedingung mit Bezug auf dasselbe C, nicht auf ein gleichnamiges Symbol |
@@ -76,6 +81,13 @@ liegt zwischen B und D; vorgelagerte Positivitaet erfuellt, gedruckte
 V/Q- und B-Zeilen nicht. Behauptetes u2-Intervall und Maxima bleiben
 getrennt. FIND-016/FIND-019 erweitert, keine neue unabh. Fehlergruppe.
 H006-Grundzustandsfrage, H007-Resonanznaeherung und S006-N0/N>0 getrennt.
-Naechster konkreter Anschluss: eta22 in B47/B55 samt Autorenfassungen;
-danach B50/Gamma-Q_N und Verstaendnisbilanz. Ein Zustandsname erklaert
-die spezielle Alpha-Korrektur weiterhin nicht.
+Der angekuendigte Rollenanschluss ist in Etappe12 bearbeitet.
+
+Etappe12: ETA22_ROLES_2026-09-06.md. B47 gemeinsamer inverser eta22-Faktor,
+B55 lokaler Koeffizient mit q(2-q), B59 affine Korrektur. Direkte H013-
+Lebensdauerformeln gefunden; H014 anderer Umfang/Alpha-Nenner. H01337
+verwendet q2 fuer Delta-Resonanzen auch im Text, ueber die alte reine
+Va-Tabellenlesung hinaus. Keine Gesamtvalidierung der Resonanzen.
+FIND-021 Rollen, FIND-022 Fassungsunterschiede:22 Gruppen, keine22 Fehler.
+Naechster konkreter Anschluss: H013(21b)/(21b1) mit H007B49/B50 und W0,
+Selbstkopplung phi vor ganzem Massenfall; danach Gamma/Q_N und Bilanz.

@@ -25,11 +25,11 @@ Ergebnis; sie werden nicht als stillschweigende Definitionen behandelt.
 
 ## Naechste begrenzte Arbeitseinheit
 
-1. Nach Etappe11: eta22 in B47/B55 und zugehoerigen Autorenstellen auf
-   Rollen und konkrete Begruendung pruefen. Der Delta++-Buchanschluss
-   ist geklaert, nicht aber die spezielle B59-Herleitung; keine erneute
-   ungezielte Indexsuche und keine erfundene Zwischenzustandsdynamik.
-2. Anschliessend Massenblocker B50/Gamma-Q_N und Verstaendnisbilanz;
+1. Nach Etappe12: Selbstkopplung phi/U in H013(21b)/(21b1) mit H007B49/B50
+   und W0 versionsgebunden vergleichen. Die Existenzzeitanalyse ist im
+   Autorentext ein konkreter Anschluss zur Massenfunktion. Klammern,
+   empirische Anpassungen und Abhaengigkeiten vor einem ganzen Rechenfall.
+2. Anschliessend Gamma/Q_N und Verstaendnisbilanz;
    Quellen-/Mathematikreview und Checkpoint je begrenzter Einheit.
 3. Offene F/G-Normierung und metronische Extremumsregel nur bei konkreter
    Quellbruecke erneut aufnehmen; keine Wiederholung derselben Rueckverweise.
@@ -56,6 +56,14 @@ Paar aus, vorgelagerte Positivitaet und behauptetes u2-Intervall dagegen
 nicht. Konkrete Verstaerkung FIND-016/FIND-019, weiterhin20 Gruppen.
 Undatierte H013/H014 und IGW-Grundzustands-/Resonanzfassungen getrennt;
 keine moderne empirische Widerlegung und keine eigene Quellenreparatur.
+
+Etappe12: ETA22_ROLES_2026-09-06.md. Drei eta22-Rollen getrennt, direkter
+H013-Lebensdauerblock und phi-Anschluss gefunden; q(2-q)-Nullfaelle lokal
+gerechnet. H014 kein gleicher Lebensdauerblock und anderer Alpha-Nenner;
+H013-Alpha nochmals verschieden durch zusaetzlich3/(pi*eta) gegen H007.
+Buch nennt N0-Heuristik; IGW berichtet fehlende Neuimplementierung des
+Lebensdauerteils.22 Befundgruppen, keine22 Fehler; B59-Herleitung bleibt
+offen. Keine erneute ungezielte Eta-Indexsuche; neue phi/U-Quellen verfolgen.
 
 Offene Seitenzweige: H-Wellen-/Flussobjektidentitaet, Phase/Frame, operative
 pc-Arbeitsbilanz und physikalische Meridianregel. Aus Etappe7 liegt jetzt

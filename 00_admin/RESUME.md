@@ -2,16 +2,79 @@
 
 Aktualisiert: 2026-09-06.
 
-## Aktuell: zwoelfte Etappe in Arbeit
+## Aktuell: zwoelfte Etappe abgeschlossen
 
 Ausgang94c55a0, Nutzer bestaetigt eta22-Rollenpruefung B47/B55.
-Plan ETA22_ROLES_PLAN; drei bounded Reviews ETA22_ROLES_MANUSCRIPT,
-ETA22_ROLES_IGW und ETA22_ROLES_MATH beauftragt. Root Buch/S005/Synthese.
-Wichtige fruehe Abgrenzung: b2(B55)->y(B48)->T(B47), nicht ohne Beleg
-eigene Massenkorrektur. Expliziter eta22-Teil in B55 traegt q(2-q),
-aber Klammerstatus muss quellengebunden geprueft werden.
-Alte8Rechner/Inputs/Snapshots/Tests unveraendert lassen. Keine moderne
-empirische Bewertung, keine neue physikalische Reparatur.
+Plan ETA22_ROLES_PLAN erledigt; Plancheckpoint4b8b4f0 und Quellen-/
+Reviewcheckpointd8cfb9c erfolgreich gepusht. Abschlusscommit-Nachricht:
+`Complete eta22 role comparison and research handoff`.
+Bericht `06_docs/ETA22_ROLES_2026-09-06.md`. Drei Reviews ETA22_ROLES_IGW,
+ETA22_ROLES_MANUSCRIPT und ETA22_ROLES_MATH samt Schlussgegenlesung fertig.
+Keine laufenden Agenten zum Fortsetzen erforderlich.
+
+- Drei Rollen: inverser globaler Faktor in B47, lokaler ladungsabhaengiger
+  b2-Anteil B55 ueber y(B48), affine Alpha-Korrektur C0*(1+eta22) in B59.
+  B55-Koeffizient proportional H^2*binom(P,3)*B*q*(2-q): q0/q2 null,
+  aber nicht der ganze Endterm oder die gesamte Lebensdauer. B47 behaelt
+  eta22. Nichtnegative ganze P<3 loeschen den ganzen isolierten Endterm.
+- B ist hier Hilfsgroesse B28=3H/[k^2(2k-1)], H=B24-Zonensumme,
+  NICHT Buch-Baryonenziffer k-1. Kein Delta-Rechenfall mit B=1 einsetzen.
+  B47 gibt T-T_N; T allein bei N0, weil T_0=0. Fuer N>0 macht delta=0
+  nur T=T_N; unbekanntes T_N wird damit nicht bestimmt.
+- H007 B55 hat keine sichtbare Schliessklammer fuer den kappa-Block;
+  auch b/B im ersten Teil unterscheidet sich. H013(21f) bietet eine
+  klarere Parallelgruppierung, aber keine autorisierte IGW-Korrektur.
+  Gesamt-b2 nicht implementiert und keinen alten Blocker still geloest.
+- H013 Druck29-31/PDF32-34: direkte Autoren-Lebensdauerformel(21),
+  y(21a), phi/U(21b)/(21b1), b2(21f). T als zeitartige Begrenzungx4;
+  Berufung auf Formalismus, keine spezielle192-/eta22-Herleitung auf
+  diesen Seiten. Lebensdaueranalyse soll ausdruecklich den massenwirksamen
+  Selbstkopplungsterm phi liefern: konkreter naechster Quellenanschluss.
+- H013 Druck37/PDF40 sagt ausdruecklich q2 fuer Delta-Zustaende im
+  Resonanzkontext: positive Ergaenzung zum frueheren fehlenden q-Tabellenfeld.
+  Dort genannte freie Konstanten root4(2), (pi/e)^2 und4pi*root4(1/2)
+  empirisch angepasst; root4 ist Wurzelindex4, kein Vorfaktor4.
+  Kein Nachweis, dass eta22 oder B59 selbst gefittet wurde.
+- DREI Alpha-Fassungen: H007B59 hat C7=(1+eta22)*S/(eta*eta11*eta12),
+  H014 Druck26/PDF28(21a) C14=(1+eta22)*S/eta11^2,
+  H013 Druck33/PDF36(22a) C13=C7*3/(pi*eta),
+  S=[(1-sqrt(eta))/(1+sqrt(eta))]^2. C14/C7=0.987587530689280...,
+  C13/C7=0.964585505926149... . Eigene C_i-Namen fuer1-K_alpha;
+  kein Prozentvergleich von alpha, keine zeitliche Reihenfolge oder
+  richtige Fassung bestimmt. Alte Alpha-Rechenprofile nicht ersetzt.
+  H014 hat keinen gleichen ausfuehrlichen Lebensdauerblock; TabelleII
+  Druck39/PDF42 nur Massen. Gleichungsnummer21a versionsabhaengig lesen.
+- H004 II3/PDF14 nennt vorhandene Lebensdauerformel heuristisch/N0;
+  II255/256/PDF261/262 verbindet Imaginaerteil mit energetischer Breite
+  und Existenzzeit, verfolgt dann den Realteil. Nicht automatisch
+  genau dieselbe H013-/H007-Fassung oder heutige Gamma-Normierung.
+  S00580/81 berichtet keine neue Lebensdauerprogrammierung und damals
+  fehlende weitere Unterlagen; kein Nachlass-weiter Nichtexistenzbeweis.
+
+Root hat relevante Vollseiten gegengelesen und alle drei Mathematik-
+Codebloecke separat ausgefuehrt. Exakte lokale Koeffizientenalgebra,
+Machin-pi80/120:13 Konstanten maximal skalierte Abweichung<1.89e-80;
+5 H014-Vergleichswerte absolut<4.50e-81,4 H013-Werte<6.57e-82.
+Keine physikalische eta22-Variation, kein neuer Massen-/Lebensdauerrechner,
+keine Intervallzertifizierung. Acht alte Snapshot-/verfuegbare Quellchecks,
+98 Tests und Registervalidator erfolgreich.22 Befundgruppen, keine22
+Fehler; FIND-021 Rollenbefund, FIND-022 Versionsunterschied.49 alte
+Normalisierungen unveraendert:47 resolved,2 alte Massenblocker.
+
+Naechster konkreter Anschluss: Selbstkopplung phi und U aus H013(21b)/
+(21b1) mit H007B49/B50 und W0 vergleichen. H013 Druck30/PDF33 zeigt
+in U den Faktor2^Z, nicht2Z; als Quellenhinweis untersuchen, noch keine
+Normalisierung. Klammern, Fitkonstanten, Abhaengigkeiten und Geltung vor
+einem ganzen Grundzustands-Rechenfall klaeren. Danach Gamma/Q_N und
+Verstaendnisbilanz. Keine wiederholte ungezielte Eta-Indexsuche, keine
+moderne Widerlegungsrecherche oder Hardwarearbeit in dieser Etappe.
+
+Pruefspur/Hashes/Seitenumfang:
+`03_notes/ETA22_ROLES_SOURCE_CONTEXT_2026-09-06.md`.
+Nachpruefung: acht Befehle in scripts/README.md, dazu
+`py -3.13 scripts/validate_finding_register.py` und
+`py -3.13 -m unittest discover -s tests -q`.
+Fremd-PDFs und Arbeitsbilder lokal erhalten, nicht committed.
 
 ## Verlauf: elfte Etappe abgeschlossen
 

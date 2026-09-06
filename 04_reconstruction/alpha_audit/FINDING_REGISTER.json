@@ -248,7 +248,7 @@
       "not_established": "Keine Herleitung des speziellen B59-Ausdrucks aus dem Delta-Zustand; keine automatische Uebernahme der Buchauswahl in andere Fassungen; kein N0-Beweis unbegrenzter Lebensdauer; keine zwei physikalischen Kanaele aus C_prime=C0+eta22*C0; keine physikalische Validierung der Tabellen.",
       "evidence_paths": ["06_docs/ETA22_CONTEXT_2026-09-06.md", "03_notes/ETA22_SOURCE_PROVENANCE_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/ETA22_MATH_REVIEW_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/ETA22_VERSION_SOURCE_REVIEW_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/ETA22_RATIONALE_SOURCE_REVIEW_2026-09-06.md", "06_docs/DELTA_SELECTION_2026-09-06.md", "03_notes/DELTA_SELECTION_SOURCE_CONTEXT_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/DELTA_BOOK_SCOPE_REVIEW_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/DELTA_MANUSCRIPT_SOURCE_REVIEW_2026-09-06.md"],
       "reproduction": "Eta22=[1+96/pi^4]^(-1/4); exakte Relation eta22^(-4)-1=16*(eta12^(-4)-1). Ausfuehrbarer unabh. Machin-pi-Code im Mathematikreview; reine equation_rhs-API bei80/120Stellen gegengeprueft, zusaetzlich Quellbilder.",
-      "next_check": "Etappe11 klaert den konkreten Buchanschluss und trennt N0-Tabellen von H007-N>0-Resonanzen. Nun eta22-Verwendung in B47/B55 und etwaige Autorenbegruendung verfolgen; die spezielle C_prime-Herleitung bleibt FIND-020."
+      "next_check": "Etappe12/FIND-021 klaert B47/B55-Rollen und direkten H013-Anschluss. H013 Druck37/PDF40 gibt q2 fuer Delta-Resonanzen ausdruecklich an und ergaenzt die zuvor nur auf TabelleVa begrenzte Lesung. Die spezielle C_prime-Herleitung bleibt FIND-020; nun phi/U-Massenanschluss statt erneuter Indexsuche."
     },
     {
       "finding_id": "FIND-020",
@@ -261,7 +261,33 @@
       "not_established": "Kein Beweis, dass Heim nie eine Herleitung hatte oder dass sie im gesamten Nachlass fehlt; kein nachgewiesener Alpha-Fit; keine unveraenderte1989-Urschrift identifiziert; keine physikalische Korrekturwirkung eines Delta-Zwischenzustands bewiesen.",
       "evidence_paths": ["06_docs/ETA22_CONTEXT_2026-09-06.md", "03_notes/ETA22_SOURCE_PROVENANCE_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/ETA22_RATIONALE_SOURCE_REVIEW_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/ETA22_VERSION_SOURCE_REVIEW_2026-09-06.md"],
       "reproduction": "Vollseitenpruefung an den dokumentierten Autoren-/Herausgeberstellen; keine automatische Nichtexistenzpruefung. Buch-P_Buch nicht mit S005(8.14) gleichsetzen, dort ist eine andere eta-Potenz gedruckt.",
-      "next_check": "Explizite Dynamik-, Normierungs- oder Strukturrechnung fuer genau C_prime suchen; insbesondere verwandte B47/B55-Verwendungen und Autorenfassung. Neue eigene Ansaetze getrennt deklarieren und nicht rueckwirkend Heim zuschreiben."
+      "next_check": "Etappe12 verfolgt B47/B55 bis H013(21)/(21f): direkte Autorenformeln, aber keine spezielle eta22-Herleitung. H014-Alpha hat anderen Nenner (FIND-022). Nur bei konkreter Dynamik-/Normierungsbruecke erneut C_prime-Herleitung pruefen; zunaechst phi/U(B49/B50) mit neuer Autorenstelle rekonstruieren."
+    },
+    {
+      "finding_id": "FIND-021",
+      "kind": "source_definition",
+      "claim": "Eta22 hat in H007 getrennte Rollen: inverser Faktor in B47, ladungsselektiver Anteil von b2(B55) ueber y(B48), affine Alpha-Korrektur in B59. H013(21)/(21f) belegt die Lebensdauerrollen direkt in einer undatierten Autorenfassung.",
+      "source_ids": ["H007", "H013", "H004", "S005"],
+      "source_locator": "H007 Druck16-18/PDF7-9, B47/B48/B55/B59; B24/B28 Druck13/PDF4. H013 Druck29-31/PDF32-34 (21)-(21f), Druck36/37/PDF39/40. H004 II3/PDF14 undII255/256/PDF261/262; S00580/81.",
+      "assumptions": "Nur explizite eta22-Vorkommen formal durch t>0 ersetzt, andere Groessen einschliesslich generischem eta_qk/M/alpha fest. Nichtnegative ganze P; Nenner definiert und ungleich null. B55-Gesamtklammer nicht still normalisiert; B ist B28-Hilfsgroesse, keine Baryonenziffer.",
+      "scope": "Positiver Rollen-/Quellenbefund und lokale Algebra: isolierter eta22-Koeffizient proportional H^2*binom(P,3)*B*q*(2-q), bei q0/q2 null, nicht der ganze Endterm. Bedingt T-T_N=K_tau*(Y0/t+Y1), T allein bei N=0, da T_0=0. Buch nennt N0-Heuristik; Redaktion berichtet keine erneute Lebensdauerprogrammierung.",
+      "not_established": "Keine komplette b2-/Lebensdauer-/Massenrechnung oder physikalische eta22-Ursache. Fehlende sichtbare kappa-Schliessklammer in H007 bleibt offen; kein frei variierbarer Heim-Parameter, kein allgemeines Monotoniegesetz, kein gleiches T fuer alle Teilchen und kein Nachlass-Nichtexistenzbeweis.",
+      "evidence_paths": ["06_docs/ETA22_ROLES_2026-09-06.md", "03_notes/ETA22_ROLES_SOURCE_CONTEXT_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/ETA22_ROLES_IGW_REVIEW_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/ETA22_ROLES_MANUSCRIPT_REVIEW_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/ETA22_ROLES_MATH_REVIEW_2026-09-06.md"],
+      "reproduction": "Exakte Koeffizientenzerlegung und ausfuehrbarer Machin-pi-Code im Review, 13 Konstanten80/120Stellen, max.skalierteDifferenz<1.89e-80; vonRoot separat ausgefuehrt. Vollseitenpruefung stattOCR-Formeln.",
+      "next_check": "H013(21b)/(21b1) verbindet Existenzzeitanalyse mit Selbstkopplung phi in der Masse; versionsgebunden mit H007(B49)/(B50) und W0 vergleichen. B55-Gesamtklammer vor jedem kompletten Lebensdauerrechner klaeren."
+    },
+    {
+      "finding_id": "FIND-022",
+      "kind": "version_difference",
+      "claim": "H014 hat keinen dem H013-(21)-Block entsprechenden ausfuehrlichen Lebensdauerabschnitt; seine Alpha-Internkorrektur(21a) hat den Nenner eta11^2 statt eta*eta11*eta12 aus H007(B59). H013(22a) hat gegenueber H007 zusaetzlich3/(pi*eta).",
+      "source_ids": ["H014", "H013", "H007"],
+      "source_locator": "H014 Druck26/PDF28 (21a), TabelleII Druck39/PDF42; H013 Lebensdauer Druck29-31/PDF32-34 (21)-(21f) und AlphaDruck33/PDF36(22a); H007 B59 Druck18/PDF9.",
+      "assumptions": "Korrekte Vollseitenlesung der eta11-Stelle innerhalb des quadrierten Nenners; gleiche positive eta-Familie nur fuer algebraischen Vergleich. C_H014 ist unser Name fuer1-K_alpha, keine ungepruefte Original-C_prime-Bezeichnung.",
+      "scope": "Dokumentierter Umfangs-/Formelunterschied. C_H014/C_H007=eta*eta12/eta11=0.987587530689280..., C_H013/C_H007=3/(pi*eta)=0.964585505926149... . Vergleich der kleinen Korrekturterme, nicht prozentuale Alpha-Abweichung. Gleichungsnummer21a bezeichnet in den Typoskripten verschiedene Ausdruecke.",
+      "not_established": "Keine Chronologie oder richtige Fassung bestimmt, kein1989-Original identifiziert, keine empirische Widerlegung. Kein Austausch alter Alpha-Inputs/Snapshots und keine vollstaendige H013/H014-Gleichheit aus aehnlichen Formeln.",
+      "evidence_paths": ["06_docs/ETA22_ROLES_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/ETA22_ROLES_MANUSCRIPT_REVIEW_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/ETA22_ROLES_MATH_REVIEW_2026-09-06.md"],
+      "reproduction": "Separater zweiter/dritter Python-Codeblock im Mathematikreview; H014/H007 fuenf Groessen80/120Stellen,max.abs.Differenz<4.50e-81; H013/H007 vier Groessen<6.57e-82. Keine Alpha-Zweige gerechnet.",
+      "next_check": "Versionen in jeder weiteren Herleitung getrennt halten. Historische Reihenfolge nur mit datierten Textzeugen bestimmen; keine Wahl anhand eines passenden Alpha-Zielwerts."
     }
   ]
 }

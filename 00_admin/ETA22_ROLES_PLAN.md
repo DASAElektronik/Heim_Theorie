@@ -35,8 +35,19 @@ committen/pushen. Fremdquellen/Render bleiben ausserhalb von Git.
 
 ## Abschlusskriterien
 
-- [ ] Rollen und direkte Quellenstellen von B47/B55 sauber verbunden.
-- [ ] Explizite eta22-Abhaengigkeit, Nullfaelle und Reichweite gegengeprueft.
-- [ ] Herleitungsbilanz ohne unbewiesene Datierung oder physikalische Ursache.
-- [ ] Bericht, Register/Karte und Wiedereinstieg aktualisiert.
-- [ ] Alte Regressionen bestaetigt und eigene Arbeit committed/gepusht.
+- [x] Rollen und direkte Quellenstellen von B47/B55 sauber verbunden.
+- [x] Explizite eta22-Abhaengigkeit, Nullfaelle und Reichweite gegengeprueft.
+- [x] Herleitungsbilanz ohne unbewiesene Datierung oder physikalische Ursache.
+- [x] Bericht, Register/Karte und Wiedereinstieg aktualisiert.
+- [x] Alte Regressionen bestaetigt und eigene Arbeit committed/gepusht.
+
+Ergebnis: direkter H013-Lebensdauerblock, drei explizite eta22-Rollen,
+lokale q0/q2-Nullstellen und drei unterschiedliche Alpha-Korrekturen.
+Offene B55-Gesamtklammer nicht still repariert. Keine Gesamtwiderlegung,
+kein physikalischer Fit von eta22 bewiesen. Neues Anschlussziel phi/U.
+
+Alle drei unabhaengigen Review-Codebloecke durch Root ausgefuehrt;
+acht alte Snapshotchecks,98 Tests und Registervalidator bestehen.
+22 Befundgruppen,49 Normalisierungen unveraendert. Plancheckpoint4b8b4f0,
+Quellen-/Reviewcheckpointd8cfb9c gepusht. Abschlusscommit-Nachricht:
+`Complete eta22 role comparison and research handoff`.
