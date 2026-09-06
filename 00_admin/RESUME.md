@@ -2,12 +2,47 @@
 
 Aktualisiert: 2026-09-06.
 
-## Aktuell: Etappe 34 begonnen
+## Aktuell: vierunddreissigste Etappe abgeschlossen
 
-Ausgang `7241cf1`, Vertrag `XI_ORIGIN_PLAN.md`. Auftrag: (96b)-Ursprung
-von xi und konkreten Sigma-/A-Auswahlanschluss pruefen; eigene
-Rekurrenzmathematik von Quellenvoraussetzungen trennen. Keine neue
-A-Sensitivitaets-/Massenrechnung, alte Profile und Befunde erhalten.
+Ausgang `7241cf1`, Plancheckpoint `38377a7`, Vertrag `XI_ORIGIN_PLAN.md`.
+Bericht: `06_docs/XI_ORIGIN_2026-09-06.md`.
+Abschlusscommit-Nachricht: `Trace xi origin and certify conditional recurrence convergence`.
+Bei Fortsetzung HEAD/Remote pruefen; keine laufenden Agenten erforderlich.
+
+- H003 I125-126/M14 und H004 II246-251/96b,275,324-325 von Root neu
+  vollseitig gelesen. M14 definiert Fibonacci als besondere Selektorklasse,
+  nicht als universelles Gesetz fuer Exponentialverlaeufe.
+- II248 spekulativer F-Ansatz, F~1/psi~exp(alpha*r); II249 setzt Selektor;
+  II250 leitet xi=1+1/xi, xi>0 ab; II251 druckt 2xi=1+sqrt5 in96b.
+  Identitaet (2xi-1)^2=5 folgt korrekt aus dieser bedingten Buchalgebra.
+- II275 liefert fuer X die Grenze Y=xi^2. II324 sagt fuer Sigma explizit:
+  gleicher Selektor nicht zu fordern, entsprechender xi-Limes fehlt,
+  A!=lnxi. II325 nutzt5 deshalb heuristisch, nicht als zwingende Folge.
+  Hoher metronischer Index z ist nicht kleiner Teiler z; A in K nicht A(k).
+- Eigene positive Rekurrenz x0=u>0,x1=v>0: q_n=x_(n+1)/x_n->phi.
+  Binet-/exakte Fehlerform plus uniforme Huelle zwischen f_(n+1)/f_n und
+  f_n/f_(n-1), Breite1/(f_n*f_(n-1)). Bei n22 sind beide Endpunkte
+  17711/10946 und28657/17711 strikt in Rundungszelle fuer1.61803399.
+  Acht NACHKOMMASTELLEN, kein physikalischer n-/N4-Nachweis oder Feldbudget.
+- Eigener skalarer2^n-Zeuge: Exponentialform/konstanterRaumschritt allein
+  erzwingt Selektor nicht. Zusatzeigenschaft alpha*beta=lnphi nur bei
+  Rekurrenz plus hinreichender multiplikativer Asymptotik. Kein Teilchenzeuge.
+- z=3 erfuellt Teilerpraemissen und xi-Identitaet zugleich. Erst separate
+  Zuordnung z=(2xi-1)^2 waehlt5; kein Heim-Anspruch auf Zwang unterstellt.
+- 12 neue Tests,316 insgesamt;480 unabhaengige Q(sqrt5)/Fraction-Kontrollen
+  von Root wiederholt. Drei interne Reviews, Code-/Abschlussgegenreviews;
+  alte12Snapshotchecks undZertifikate erhalten. FIND-044:44Gruppen,nicht44Fehler.
+- Alte49CSV,Profile,Rechner,Snapshots undFIND-042/043 historisch unveraendert.
+  Keine neue Masse oderA1=1/5-Rechnung,keineEmpirie/Lebensendbehauptung.
+
+Naechster Einzelauftrag: **vorab fixierte A-Sensitivitaet, keine Fitwahl**.
+Eigenen Vertrag VOR Rechnung fuer A1=1/5 versus1/3 schreiben: beide alten
+Buch-Alpha-Profile, a_j/w/Y unveraendert; Externterm UND g/W gemeinsam
+anpassen. Neue Bereichs-/Ausschlussgrenzen herleiten, nicht N4<=25
+ungeprueft uebertragen. Alle vorab benannten Faelle berichten, keine
+Wahl nach Masse/Rest/Treffer. Das ist eine Diagnose der heuristischen
+Abhaengigkeit, KEINE aus96b abgeleitete Korrektur oder neue Feldloesung.
+Physikalische (79)-Fehlerbruecke und historische Kenntnisfrage bleiben offen.
 
 ## Verlauf: dreiunddreissigste Etappe abgeschlossen
 

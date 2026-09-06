@@ -40,6 +40,20 @@ Kann aus Heims Original- bzw. nahen Quellen eine reproduzierbare, parameterarme 
 
 ## Aktueller Arbeitsmodus
 
+Stand 2026-09-06, Etappe 34: [xi-Ursprung](06_docs/XI_ORIGIN_2026-09-06.md).
+Heims (96b)-Wert folgt korrekt aus einer Fibonacci-artigen Folgenklasse.
+Unsere exakte Fehlerhuelle bestaetigt deren schnelle Konvergenz fuer alle
+positiven Startwerte. Sie ist keine physikalische Externfehlerschranke:
+Fuer Sigma fordert Heim denselben Selektor ausdruecklich nicht, weshalb
+die spaetere Wahl der5 eine Heuristik bleibt.
+
+12 neue Tests,316 insgesamt; alte12Ergebnischecks undZertifikate erhalten.
+Keine neue A-/Massenrechnung. Weiter: A-Sensitivitaet erst nach eigenem
+vorab fixiertem Vertrag, Externterm undg/W gemeinsam, keine Auswahl perFit.
+[Wiedereinstieg](00_admin/RESUME.md), [Arbeitsfolge](00_admin/UNDERSTANDING_ROADMAP.md).
+
+## Verlauf: Etappe 33
+
 Stand 2026-09-06, Etappe 33:
 [Externzonennaeherung](06_docs/EXTERNAL_APPROXIMATION_2026-09-06.md).
 Heims Nullpunkt- und Geruestnormierung sind explizit; die Wahl A(1)=1/3

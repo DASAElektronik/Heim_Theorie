@@ -3,7 +3,19 @@
 Isolierter, reproduzierbarer Konsistenztest der 1982/1989-Alpha-Bloecke in den
 lokalen IGW-Wiedergaben. Python >= 3.10; nur Standardbibliothek erforderlich.
 
-## Etappe 33: Externnormierung und bedingter Fehlertransport (aktueller Stand)
+## Etappe 34: xi-Ursprung und bedingte Rekurrenzschranke (aktueller Stand)
+
+`06_docs/XI_ORIGIN_2026-09-06.md`: H003M14 undH00496b erklaeren den
+goldenen Quotienten aus der Fibonacci-Klasse. Eigene uniforme positive-
+Start-Huelle beweist acht Nachkommastellen fuerq22; keine physicalindex-
+oderSigmafehlerzuordnung. H004324 schliesst denselbenSelektor fuerSigma
+aus,325 motiviert5 deshalb heuristisch. Keine alternative A-Rechnung.
+`scripts/audit_xi_recurrence.py --check`,12neueTests/316gesamt,
+480unabhaengigeKontrollen wiederholt,alte12Checks/Zertifikate erhalten.
+FIND-044:44Gruppen,nicht44Fehler. Weiter beidseitige A-Sensitivitaet
+nur nach eigenem Vorvertrag; alteProfile/49CSV unveraendert.
+
+## Etappe 33: Externnormierung und bedingter Fehlertransport (vorheriger Stand)
 
 `06_docs/EXTERNAL_APPROXIMATION_2026-09-06.md`: H004 nennt explizit
 Nullpunkt-/Geruestnormierung und heuristische Wahl A(1)=1/3. Quantitative

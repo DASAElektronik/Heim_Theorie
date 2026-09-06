@@ -6,6 +6,15 @@ Dieses Register sammelt Fundstellen. Lokale Kopien sollten nur abgelegt werden, 
 
 ## Enger Pruefstand 2026-09-06
 
+Etappe34: H003 I125-126/PDF131-132(M14), H004 II246-251/PDF252-257(96b),
+275/PDF281 und324-325/PDF330-331 vollseitig vonRoot gelesen. Selektor als
+Fibonacci-Auswahlklasse; positive xi-Grenzwertalgebra und X/Y-Anschluss.
+Sigma-Ausnahme auf324 undHeuristik auf325 bleiben getrennt. EngeWebsuche
+lieferteM14-Anker; lokaleOriginale geprueft,kein neuerPDF-Import. H003/H004-
+Hashes unveraendert. Eigene uniformeRekurrenzschranke kein physikalisches
+Fehlerbudget. FIND-044; Umfang/Zuschreibung:
+`03_notes/XI_ORIGIN_SOURCES_2026-09-06.md`.
+
 Etappe 33: H004 Druck 175-179 / PDF 181-185 und 322-330 / PDF 328-336
 von Root vollseitig gelesen; Normierungsagent zusaetzlich 277-278.
 Positive Delta-/g-/W-Normierung, getrennte Bezugszustaende und explizit

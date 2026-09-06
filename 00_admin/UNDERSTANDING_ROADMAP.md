@@ -25,6 +25,23 @@ Ergebnis; sie werden nicht als stillschweigende Definitionen behandelt.
 
 ## Naechste begrenzte Arbeitseinheit
 
+Nach [Etappe 34](../06_docs/XI_ORIGIN_2026-09-06.md):
+**Eigene vorab festgelegte Sensitivitaet der heuristischen A-Auswahl.**
+
+1. Vor Rechnung Vertrag fuer A1=1/5 und1/3 mit beiden alten Buch-Alpha-
+   Profilen fixieren. Keine Optimierung nach Rest, Masse oder Treffer.
+2. a_j/w/Y unveraendert lassen; Externterm UND g/W gemeinsam aendern.
+   Neue Bereichs-/Ausschlussgrenzen statt ungepruefter alterN4<=25-Box.
+3. Eigene Sensitivitaet ist keine aus96b hergeleitete Feldkorrektur. Alte
+   Profile und bedingte Befunde bleiben als historische Ergebnisse erhalten.
+
+Etappe34 klaert xi-Ursprung/M14 und den positiven Grenzwert. Die eigene
+uniforme Rekurrenzschranke gilt nur fuer die exakte positive Folgenklasse;
+der Sigma-Selektor ist laut324 gerade nicht zu fordern. Wahl5 bleibt
+heuristisch, physikalischer Feldanschluss offen. 316Tests,44Befundgruppen.
+
+## Historischer Folgeauftrag der Etappe 33 (in Etappe 34 bearbeitet)
+
 Nach [Etappe 33](../06_docs/EXTERNAL_APPROXIMATION_2026-09-06.md):
 **Konkrete (96b)-Motivation fuer die heuristische Wahl A(1)=1/3.**
 

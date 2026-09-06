@@ -1,5 +1,24 @@
 # Fortschritt
 
+## 2026-09-06 - Vierunddreissigste Etappe: xi-Ursprung und Selektorgrenze
+
+- H003 M14 definiert Fibonacci als Auswahlklasse; H004248-251 gewinnt
+  unter F-/Selektorannahmen korrekt xi und die Identitaet mit5. Kein
+  unbegruendeter Zahlenwert, aber keine ausformulierte Feldherleitung.
+- II275: positiver X/Y=xi^2-Anschluss. II324: Sigma darf denselben
+  Selektor gerade nicht voraussetzen, A!=lnxi. II325 bleibt Heuristik;
+  grosser Metronindex und kleiner Teiler z sind verschiedene Rollen.
+- Eigene Rekurrenzpraezisierung fuer alle positiven Starts: exakte
+  Fehlerform und uniforme rationale Huelle. q22=x23/x22 rundet stets
+  auf1.61803399; keine physikalische Index-/Fehlerbudgetzuordnung.
+- Reduzierter skalarer2^n-Zeuge trennt Exponentialform und Selektor;
+  goldene Identitaet plus Teilerbedingungen erlaubt weiterz3 undz5.
+- 12 neue Tests,316 insgesamt,480 unabhaengigeKontrollen wiederholt;
+  alte12Snapshotchecks undZertifikate erhalten. Drei interneReviews,
+  FIND-044:44Befundgruppen,nicht44Fehler. Keine A-/Massenvariation.
+- Bericht `06_docs/XI_ORIGIN_2026-09-06.md`, Plancheckpoint `38377a7`.
+  Weiter: eigene A-Sensitivitaet erst nach fixiertem beidseitigem Vertrag.
+
 ## 2026-09-06 - Dreiunddreissigste Etappe: Externnormierung und Fehleranschluss
 
 - H004 175-179 und 322-330: Nullpunkt- und Geruestnormierung explizit

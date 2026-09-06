@@ -1,5 +1,19 @@
 # Skripte
 
+## Etappe 34: eigene positive Fibonacci-Klasse
+
+```powershell
+py -3.13 -B scripts/audit_xi_recurrence.py --check
+py -3.13 -B -m unittest discover -s tests -p test_xi_recurrence.py -v
+```
+
+Exakte Fraction-Huellen fuer q_n=x_(n+1)/x_n bei positiven Starts und
+exakter Fibonacci-Rekurrenz. Cassini-Breite, q22-Rundungszelle fuer acht
+Nachkommastellen, Selektorzeuge2^n und unabhaengige Teilerbedingungen.
+Kein metronischer Feldsolver, keine physikalische Indexidentifikation,
+keine A-/Massenvariation. Schreibt keine Dateien. 12neueTests,316gesamt;
+alte12Snapshotchecks erhalten. Bericht `06_docs/XI_ORIGIN_2026-09-06.md`.
+
 ## Etappe 33: eigener bedingter Externfehlertransport
 
 ```powershell
