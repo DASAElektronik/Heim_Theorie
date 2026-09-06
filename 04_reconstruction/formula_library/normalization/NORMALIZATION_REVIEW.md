@@ -18,7 +18,15 @@ alpha audit is executable; it does not implement the complete mass spectrum.
 Gate result: the isolated ALPHA audit is scoped by `NORM-ALPHA-AUDIT-001`.
 Full mass reconstruction remains blocked and lacks complete dependency coverage;
 closing the two listed blockers alone would not establish implementation readiness.
-Decision register: 45 resolved, two blocked (47 total).
+Decision register: 46 resolved, two blocked (48 total).
+
+Eighth-stage addition: `NORM-CONFIGURATION-SELECTION-001` scopes the isolated
+book(98a) audit. Upstream positivity, printed V/Q inequality and printed B
+bound stay separate. The u2 interval is not reproduced; four positive integer
+pairs remain under B, including both book-alpha pairs. Three source/math/
+dependency reviews and independent implementation checks are complete;
+86 tests pass (77 prior plus9 new). No original profile or historical mass
+blocker is repaired. The1989 eta22 factor is a separate applicability question.
 
 Sixth-stage addition: `NORM-WAVE-CLOSURE-001` scopes our scalar periodic
 ring and conditional phase/closure diagnostics. Source shell/ring meanings

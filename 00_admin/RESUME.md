@@ -11,6 +11,17 @@ Konfigurationsrechnung und Abhaengigkeitskarte. Drei getrennte Reviews laufen.
 Alte sechs Rechner/Inputs/Snapshots unveraendert lassen. Keine moderne
 Widerlegungsliteratur/Hardware jetzt. Noch keine neuen Befunde abschliessend.
 
+Plancheckpoint3abd70c gepusht. Rechner `scripts/audit_configuration_selection.py`,
+Snapshot,9 neue Tests (86 insgesamt), drei Reviews und Bericht
+`06_docs/CONFIGURATION_SELECTION_2026-09-06.md` liegen vor. Neue Karte
+`04_reconstruction/alpha_audit/CONFIGURATION_DEPENDENCIES.md` verfolgt offene
+Verbindungen und erneute Pruefanlaesse. Register16Befundgruppen, NORM48
+(46 resolved,2 alteBlocker). Noch Abschluss der Kontinuitaetsdateien ausstehend.
+Literal Q2=sqrt(eta) OHNEq durch3Leser bestaetigt. VorgelagertePositivitaet,
+gedruckteVQ-Richtung und gedruckteB-Grenze getrennt; u2=1.963489... statt2..3.
+VierB-Paare(1,1),(1,2),(2,1),(3,1); globaleMaxima2/3bleiben. Buch-Alpha-Paare
+unberuehrt.1989B59 eta22 ist wirklicherSourceFaktor, AnwendbarkeitBuchregeloffen.
+
 ## Verlauf: siebte Etappe abgeschlossen
 
 Ausgangscommit752a61b; Plan6db53b5 und Quellen-/Registercheckpoint5199680

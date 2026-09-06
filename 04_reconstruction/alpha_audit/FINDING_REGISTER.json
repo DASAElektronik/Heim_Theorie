@@ -170,7 +170,46 @@
       "not_established": "Keine Bestaetigung aller physikalischen Ausgangsannahmen; keine exakte Vorhersage des heutigen Alpha-Werts; FIND-001 wird nicht behoben.",
       "evidence_paths": ["06_docs/CHARGE_DERIVATION_2026-09-06.md", "05_analysis/charge_averaging_diagnostics.json", "04_reconstruction/alpha_audit/reviews/ETA_CONFIGURATION_REVIEW_2026-09-06.md"],
       "reproduction": "py -3.13 scripts/audit_charge_averaging.py --check --verify-sources.",
-      "next_check": "Begruendung L*Delta=k und Auswahlregel (98a) sowie Einfluss der zulaessigen q/k-Konfigurationen rekonstruieren."
+      "next_check": "Etappe8 dokumentiert L*Delta=k und Auswahl(98a) in FIND-014 bis FIND-016; nun vorausgehende F/G-Zuordnung und (79)/(79a) pruefen."
+    },
+    {
+      "finding_id": "FIND-014",
+      "kind": "source_definition",
+      "claim": "k ist eine positive ganzzahlige Konfigurationszahl; L*Delta=k bei L=4 ist ein ausdruecklich moeglicher Ansatz fuer die relative vierte-Potenz-Ladungsaenderung. Die anschliessende Algebra verbindet ihn mit eta_qk.",
+      "source_ids": ["H003", "H004"],
+      "source_locator": "I Druck244/245/PDF250/251: ganzes q; II Druck263-267/PDF269-273: k, L, Delta und(98); II295/296 sowie299-302: Elektron/Proton und A_k.",
+      "assumptions": "Quelleneigene metronische Konfiguration und L=4; gleiches k in dem relativen Ladungsansatz; q>=0 ganz, k>=1 intern, k=0 nur formale externe eta-Familie.",
+      "scope": "Positive Begriffs-/Abhaengigkeitsrekonstruktion und bedingte Algebra, nicht unabhaengiger Beweis der Quantisierung oder aller beteiligten Grundannahmen.",
+      "not_established": "Keine Herleitung von L*Delta=k allein aus der Ganzzahligkeit; keine voraussetzungsfreie Teilchenidentifikation; keine Gleichsetzung der unterschiedlichen1982/1989/Buchfassungen.",
+      "evidence_paths": ["06_docs/CONFIGURATION_SELECTION_2026-09-06.md", "04_reconstruction/alpha_audit/CONFIGURATION_DEPENDENCIES.md", "04_reconstruction/alpha_audit/reviews/CONFIGURATION_DEPENDENCY_REVIEW_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/CONFIGURATION_SELECTION_SOURCE_REVIEW_2026-09-06.md"],
+      "reproduction": "Quellbilder und Verweiskette pruefen; py -3.13 scripts/audit_configuration_selection.py --check --verify-sources.",
+      "next_check": "Grundlagen-/Randwertbegruendung des L*Delta-Ansatzes und zugrunde liegende metrische Konfiguration bei konkretem Querverweis weiter rekonstruieren."
+    },
+    {
+      "finding_id": "FIND-015",
+      "kind": "local_contradiction",
+      "claim": "Der Auswahlknoten aufII269 enthaelt unter den gedruckten Identifikationen gegensaetzliche strikte V/Q-Ungleichungen; die folgende B-Schranke ist mit der gedruckten V/Q-Zeile ebenfalls unvereinbar.",
+      "source_ids": ["H004"],
+      "source_locator": "II Druck268/269/PDF274/275, Potentialverhaeltnisse und Uebergang vor(98a).",
+      "assumptions": "F_i=V_i und G_i=Q_i wie gedruckt; gewoehnliche reelle Substitution; a=eta_q,e=eta,0<a<=e<1; V1=a/eta_qk,V2=(1+sqrt(a))^2/(4e),Q1=a^2/sqrt(e),Q2=sqrt(e) ohne q.",
+      "scope": "Ein zusammenhaengender lokaler Herleitungsknoten mit zwei Richtungskonflikten und Termdifferenz. Upstream fordert x<D, gedruckte V/Q-Zeile x>D, gedruckte Folgerung x<B mit D-B=sqrt(e)*(1/a-1)>0.",
+      "not_established": "Keine eindeutige historische Korrektur; B ist hinreichend fuer die vorgelagerte Bedingung, aber nicht aequivalent. Keine Gesamtwiderlegung oder Ausschluss aller zusaetzlichen Auswahlgesetze.",
+      "evidence_paths": ["06_docs/CONFIGURATION_SELECTION_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/CONFIGURATION_SELECTION_SOURCE_REVIEW_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/CONFIGURATION_SELECTION_MATH_REVIEW_2026-09-06.md", "05_analysis/configuration_selection_diagnostics.json"],
+      "reproduction": "R=V1+Q1-V2-Q2=a*(x-D); positive F/G-Differenz ist -R. py -3.13 scripts/audit_configuration_selection.py --check --verify-sources.",
+      "next_check": "Rueckverweise(79)/(79a), Funktionen F/G und moegliche zusaetzliche Bedingung oder belegtes Erratum pruefen, ohne eine Richtung still zu reparieren."
+    },
+    {
+      "finding_id": "FIND-016",
+      "kind": "source_output_mismatch",
+      "claim": "Die gedruckte u_q-Funktion ergibt u_2=1.963489198102715..., entgegen2<u_2<3. Sie erlaubt bei positiven ganzen q,k genau(1,1),(1,2),(2,1),(3,1).",
+      "source_ids": ["H004", "H007"],
+      "source_locator": "H004 II Druck269/PDF275: gedrucktes B_q,u_q und Zahlenintervalle vor(98a); H007 Druck18/PDF9 B59 als getrennte eta22-Abhaengigkeit.",
+      "assumptions": "Exakt dokumentierte gedruckte B-Funktion und(98); mathematisches pi; positive ganze q,k und strikt k<u_q; kein Ersatz von B durch die eigene D-Schwelle.",
+      "scope": "Nicht reproduzierter q2-Zahlenbereich und Ausschluss des Paars(2,2) unter dieser einzelnen Buch-Bedingung. Andere angegebene Bereiche und globale Maxima kmax2/qmax3 bestaetigt; Buch-Alpha-Paare(1,1),(1,2) bleiben erhalten.",
+      "not_established": "Kein vollstaendiger physikalischer Zustandskatalog; kein Schluss fuer alle reellen q>4; kein automatischer Ausschluss der1989-Formel mit eta22 und keine Aenderung alter Rechenprofile.",
+      "evidence_paths": ["06_docs/CONFIGURATION_SELECTION_2026-09-06.md", "05_analysis/configuration_selection_diagnostics.json", "04_reconstruction/alpha_audit/reviews/CONFIGURATION_SELECTION_MATH_REVIEW_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/CONFIGURATION_DEPENDENCY_REVIEW_2026-09-06.md"],
+      "reproduction": "py -3.13 scripts/audit_configuration_selection.py --check --verify-sources; unabhaengige Decimal-Rechnung; rationaler q>=5-Ausschluss im Bericht und Tests.",
+      "next_check": "Historische Rechenunterlagen und Versionsgeltung von(98a) fuer1989eta22 pruefen; analytischer Faktor und realisierter Zustand nicht gleichsetzen."
     }
   ]
 }
