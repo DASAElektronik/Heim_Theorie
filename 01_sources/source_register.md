@@ -6,6 +6,15 @@ Dieses Register sammelt Fundstellen. Lokale Kopien sollten nur abgelegt werden, 
 
 ## Enger Pruefstand 2026-09-06
 
+Etappe25: H006 Druck/PDF9 (W4-Faelle, K3/K4-Schritt, Ganzzahlvermerk,
+XXX/XXXI/XXXII) mit H015 PDF42/Blatt6 samt Fussnote getrennt verglichen.
+Beide tragen Sonderfall-/Abschneideregeln; H015 schreibt K4<0, wo H006
+zunaechst K<0 zeigt. Vor-/Nach-K3 bleibt offen. H0065/6/10 und H01543
+als Strukturkontext, H0063/(III) fuer den naechsten Eingabevertrag gelesen.
+Keine neue PDF importiert; beide Hashes unveraendert. Umfang:
+`03_notes/K4_W4_SOURCES_2026-09-06.md`. Mathematischer Befund FIND-035
+gilt unter festem W3/a und benannter Gleichungslesart, nicht fuer alle Teilchen.
+
 Etappe23: H015 PDF39/41/42/43 (Blatt4/5/6/7) gegen H006 XIV/XV,
 XXVI/XXVII/XXIX, XXX/XXXI, XXXV und Logarithmusschritt geprueft.
 H015 durchgehend gruppiert; nur H006 XIV weicht in dieser Kette ab.

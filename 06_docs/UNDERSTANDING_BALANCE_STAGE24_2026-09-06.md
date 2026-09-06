@@ -6,6 +6,12 @@ Sie betrifft den untersuchten Alpha-/Konfigurations-/Massenformel-Ausschnitt,
 nicht das Gesamtwerk. Synthese vorhandener Nachweise und unveraenderter
 Rechner; keine neue PDF-Lesung, Herleitungsrechnung oder empirische Bewertung.
 
+Nachtrag Etappe 25: Die [K4/W4-Fallpruefung](K4_W4_SELECTION_2026-09-06.md)
+ist abgeschlossen. Die exaktloesende Interpretation traegt nicht allgemein
+unter den festgelegten positiven Eingaben; Zaehldeutung, reale Erreichbarkeit
+und Teilchenmassen bleiben davon getrennt. FIND-035 ergaenzt das Register;
+die folgende Bilanz mit 34 Gruppen dokumentiert weiterhin Etappe 24.
+
 ## 1. Ergebnis in einfachen Worten
 
 Ein festgelegter Elektron-Grundzustandsfall ist inzwischen nachvollziehbar

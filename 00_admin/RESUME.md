@@ -2,13 +2,48 @@
 
 Aktualisiert: 2026-09-06.
 
-## Aktuell: fuenfundzwanzigste Etappe in Arbeit
+## Aktuell: fuenfundzwanzigste Etappe abgeschlossen
 
-Ausgang `e0055c9`, Vertrag `K4_W4_PLAN.md`.
-H006p9-K4/W4-Faelle und Ganzzahlregel gegen die gruppierte Restgleichung
-pruefen; H015PDF42/Blatt6 separat vergleichen. Root liest die Quellen
-selbst, drei begrenzte Gegenreviews. Keine neue Masse oder Profilkorrektur.
-Naechster Wiedereinstieg: Plan und aktuelle K4_W4*-Reviews pruefen.
+Ausgang `e0055c9`, Plancheckpoint `28a9edc`, Vertrag `K4_W4_PLAN.md`.
+Bericht: `06_docs/K4_W4_SELECTION_2026-09-06.md`.
+Quellenumfang: `03_notes/K4_W4_SOURCES_2026-09-06.md`.
+Abschlusscommit-Nachricht: `Audit W4 special cases and K4 integer residuals`.
+Bei Fortsetzung HEAD/Remote pruefen; keine laufenden Agenten erforderlich.
+
+- H006p9 und H015 PDF42/Blatt6 enthalten alle drei W4-Faelle und die
+  Ganzzahlregel. H006 hat zuerst K<0 ohne Index, H015 K4<0; nachfolgende
+  Vorschrift lokal gleich. Vor-/Nach-K3 im Additionsterm bleibt offen.
+- Eigene Kurzzeichen a=alpha3>0,m=floor(W3/a),r=W3-a*m in[0,a),
+  lambda=(2k-1)/(3Q4)>0. Untersucht: a*K3+exp(-lambda*K4)=W3.
+  K1/K2, W3 und a bleiben fest; keine Aenderung der XIV-Normalisierung.
+- (a) r=0: endliche K4-Saettigung bei K3=m hinterlaesst positiven Rest.
+  Nicht als Unloesbarkeit aller anderen K3 ausgegeben.
+- (b) Reelles x=-ln(r)/lambda loest exakt. Nach j=floor(x) gilt
+  R=r*(exp(lambda*(x-j))-1)>=0, null genau bei echtem Integer x.
+  R<1-exp(-lambda), R/r<exp(lambda)-1: nur Exponentialrest, keine Masse.
+- (c) r>1 nur bei a>1 erreichbar. K3-- verlangt Exponentialrest r+a>1.
+  Bei festem W3,a existiert gar kein nichtnegatives K3/K4-Paar mit
+  ganzzahligem K3 fuer diese Gleichung. Andere Zonen nicht ausgeschlossen.
+- Zaehldeutung/Endlichkeitsmotiv positiv belegt; als eigenstaendige
+  diskrete Auswahl-/Naeherungsregel nicht pauschal widerlegt. Kein realer
+  Heim-Teilcheninput mit problematischem Zweig oder Massenfehler nachgewiesen.
+- FIND-035: ein bedingter Algorithmusbefund; jetzt 35 Gruppen, keine 35 Fehler.
+  Drei Reviews, Root-Originalseiten/Beweise/Testcode; 14 neue Tests,
+  199 insgesamt, zehn alte Snapshot-/Quellchecks und Registercheck bestanden.
+  Alte Rechner/Inputs/Snapshots und 49 CSV-Normalisierungen erhalten.
+
+Naechster Auftrag: **H006-x3/mu--N0-Eingabe- und Erreichbarkeitsvertrag**,
+noch keine Massenrechnung. Vorab gewaehlter Kandidat nach Tabellenreihenfolge,
+nicht nach Massentreffer: H006 Druck/PDF3, (III), x3(0111), Ladungslisten
+(-1,-1) bzw. zusammengezogen (-1), Pseudosingulett. Komponentenidentitaet
+und benoetigte Quantenzahlen zuerst sichern; (0111) nicht als Besetzung lesen.
+W aus XV-XIX und erforderlichen Matrixeintraegen quellengebunden herleiten,
+danach Auswahlzweig, Rest und Strukturbedingungen pruefen. Keine H010/H004-
+Alpha3-Substitution, kein frei gewaehltes Epsilon, keine neue Sollmasse.
+Offene Komponenten-/Matrix-/Uebergangsfrage ist ein zulaessiger Abschluss.
+Zonenuebergangsregel bei Gleichheit nicht still ergaenzen. Der alte
+Elektron-N0-Pfad bleibt analytisch exakt an K4=1 und unveraendert.
+H/G nur mit neuem Kanal-/Operatorbeleg; breite Empirie weiterhin spaeter.
 
 ## Verlauf: vierundzwanzigste Etappe abgeschlossen
 

@@ -12,7 +12,7 @@ vollstaendiges Verstaendnis der Gesamttheorie abgeleitet werden.
 | Quellen und Versionen | Original, spaetere Abschrift, Erweiterung, offene Herkunft | Etappen18/23: lokale Buch-/Listing-/Typoskriptbruecken belegt; keine gemeinsame vollstaendige 1982-Fassung, Ueberlieferung teilweise offen |
 | Alpha-Grundkette | eta, vartheta, A_k, Ladungsmittelung, Korrelation, Y3 und Zweige | Buchindizes/Mittelung rekonstruiert; Energie/Wellenkontexte getrennt, Kinematik und physikalische Schliessung offen |
 | Grundbegriffe | Heim-eigene Raum-/Strukturbegriffe, metronische Operationen, messbare Zuordnung | M2/M2a-Endpunkte und M7-Ausdruck lokal rekonstruiert; gemeinsames Operatorgitter, reale Potentialpfade und Gesamtgrundlagen offen |
-| Massenformel | Einheiten, Konstanten, Quantenzahlen, Auswahlregeln, ein vollstaendiger Rechenfall | Enger H006-x2/e--N0-Pfad und deklarierter H010-Ausgabevergleich reproduziert; allgemeine K4/W4-Auswahl und Dynamik offen |
+| Massenformel | Einheiten, Konstanten, Quantenzahlen, Auswahlregeln, ein vollstaendiger Rechenfall | Enger N0-Pfad/H010-Vergleich reproduziert; Etappe25 grenzt K4/W4-Regeln als nicht allgemein exaktloesend ein. Quellengebundene Erreichbarkeit weiterer Faelle und Dynamik offen |
 | Reichweite | Was sind Modellannahmen, reale Beobachtungen und rein interne Groessen? | Insbesondere Neutrino-Feldmassen und Zweigbedeutung abzugrenzen |
 | Verstaendnisbilanz | Herleitungskarte und verbleibende Luecken gemeinsam beurteilen | Etappe24 aktualisiert Etappe15; alle34Befundgruppen eingeordnet, kein vollstaendiges Theorieverstaendnis |
 | Externe Bewertung | Passende neuere Primaerarbeiten, Messgroessen, Gueltigkeitsbereiche | Bewusst zurueckgestellt |
@@ -24,6 +24,26 @@ sinnvoll und unabhaengige Gegenpruefung. Dokumentierte Luecken sind ein
 Ergebnis; sie werden nicht als stillschweigende Definitionen behandelt.
 
 ## Naechste begrenzte Arbeitseinheit
+
+Nach [Etappe25](../06_docs/K4_W4_SELECTION_2026-09-06.md):
+**H006-x3/mu--N0-Eingabe- und Erreichbarkeitsvertrag, noch keine Masse.**
+
+1. Vorab gewaehlter Kandidat x3 nach Tabellenreihenfolge, H006 S.3/(III).
+   Pseudosingulett und Ladungslisten (-1,-1)/(-1) klaeren; (0111) nicht
+   als Besetzungszahlen behandeln. Quelle und Teilpfad explizit festlegen.
+2. W aus XV-XIX und benoetigten Matrixeintraegen herleiten; keine H010/H004-
+   Alpha3-Ersetzung, kein Epsilon und keine Auswahl nach passender Masse.
+3. Erreichten W4-Zweig, Ganzzahlentscheidung, Rest und Strukturbedingungen
+   gegen die Etappe25-Bilanz pruefen. Die allgemeine Exaktloeser-Lesart
+   traegt nicht; diskrete Auswahlregel und exakte Gleichung getrennt lassen.
+4. Abschluss als Quellen-/Eingabeblatt mit erreichbarem Zweig oder konkreter
+   Luecke. Eine Zonenuebergangsdynamik nicht aus den Ungleichungen erfinden.
+
+Aktuell: 199 Tests, zehn alte Rechen-/Quellchecks, 35 Befundgruppen.
+FIND-035 ist ein bedingter mathematischer Befund, kein Massenfehler oder
+Urteil ueber die gesamte Theorie. Die 49 CSV-Normalisierungen bleiben erhalten.
+
+## Historischer Folgeauftrag der Etappe 24 (in Etappe 25 bearbeitet)
 
 Nach [Etappe24](../06_docs/UNDERSTANDING_BALANCE_STAGE24_2026-09-06.md):
 **H006-K4/W4-Auswahl ohne Massenrechnung pruefen.**

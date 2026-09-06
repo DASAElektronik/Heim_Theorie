@@ -10,16 +10,16 @@ die gruppierte Restgleichung (XXXI)? Welche Definitionsbereiche,
 Ungleichungen, Reste oder Zusatzannahmen bleiben dabei?
 H015 PDF42/Blatt6 wird separat verglichen, nicht in H006 eingesetzt.
 
-- [ ] H006 Druck/PDF9 vollstaendig visuell lesen; erforderliche Definitionen
+- [x] H006 Druck/PDF9 vollstaendig visuell lesen; erforderliche Definitionen
   und Strukturbedingungen auf S.5/6/10 nur gezielt hinzunehmen.
-- [ ] H015 PDF42/Blatt6 visuell lesen, insbesondere Sonderfaelle und
+- [x] H015 PDF42/Blatt6 visuell lesen, insbesondere Sonderfaelle und
   Ganzzahlvermerk; angrenzende Seiten nur bei konkretem Fortsetzungsverweis.
-- [ ] Eingabeannahmen, K3-Vor-/Nachschritt, Definitionsbereich, reelles K4
+- [x] Eingabeannahmen, K3-Vor-/Nachschritt, Definitionsbereich, reelles K4
   und integerisiertes K4 getrennt festhalten; keine Epsilon-Promotion.
-- [ ] Drei Fallzeilen gegen Restgleichung pruefen; Erreichbarkeit durch
+- [x] Drei Fallzeilen gegen Restgleichung pruefen; Erreichbarkeit durch
   greedy K3 und Nichtnegativitaet/Strukturbedingungen separat untersuchen.
-- [ ] Unabhaengige exakte bzw. zertifizierte Gegenrechnung und Regressionstests.
-- [ ] Bericht, Quellenumfang, Befundreichweite und Wiedereinstieg sichern.
+- [x] Unabhaengige exakte bzw. zertifizierte Gegenrechnung und Regressionstests.
+- [x] Bericht, Quellenumfang, Befundreichweite und Wiedereinstieg sichern.
 
 ## Grenzen und Rollen
 

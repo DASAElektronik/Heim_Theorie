@@ -1,5 +1,21 @@
 # Fortschritt
 
+## 2026-09-06 - Fuenfundzwanzigste Etappe: K4/W4-Auswahl
+
+- H006p9 und H015 PDF42/Blatt6 visuell geprueft: Sonderfaelle und
+  Ganzzahlvermerk in beiden Quellen, K3-Vor-/Nachwert nicht explizit benannt.
+- Unter alpha3>0 und festem W3/a: endliche Nullrest-Saettigung ist nicht
+  exakt; Logwert vor Abschneiden exakt, danach Rest mit bewiesenen Schranken;
+  W4>1 hat kein nichtnegatives K3/K4-Paar mit ganzzahligem K3 bei gleichem W3.
+- Zaehl-/Endlichkeitsmotivation belegt, diskrete Ersatzinterpretation
+  nicht pauschal widerlegt. Eigene synthetische Zeugen, kein Teilchenmassenfehler.
+- FIND-035 als ein bedingter Befund, jetzt 35 Gruppen. Drei Gegenreviews,
+  Root-Originalseiten/Algebra/Testcode; 14 neue Tests, 199 insgesamt,
+  zehn alte Snapshot-/Quellchecks und Registerintegritaet bestanden.
+- Plancheckpoint28a9edc; alte Rechner/Inputs/Snapshots und Normalisierungen
+  unveraendert. Naechster vorab benannter Kandidat: H006x3/mu-,N0,
+  Eingabe-/W-/Auswahlvertrag ohne Masse, H006S3/(III) als Komponentenanker.
+
 ## 2026-09-06 - Vierundzwanzigste Etappe: Verstaendnis- und Versionsbilanz
 
 - Etappen16-23 in UNDERSTANDING_BALANCE_STAGE24_2026-09-06.md zusammengefuehrt:

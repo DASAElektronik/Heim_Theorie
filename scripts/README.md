@@ -1,5 +1,14 @@
 # Skripte
 
+## Etappe 25: isolierte K4/W4-Restpruefung
+
+`py -3.13 -B -m unittest discover -s tests -p test_k4_w4_selection.py -v`
+prueft 14 synthetische Fraction-/Intervallfaelle einschliesslich
+Gleichungsresten, Ganzzahlgrenzen und getrennten Strukturbedingungen.
+Kein allgemeiner Auswahl- oder Massenrechner. Gesamtsuite: 199 Tests;
+zehn alte Snapshot-/Quellchecks bleiben unveraendert.
+Bericht: `06_docs/K4_W4_SELECTION_2026-09-06.md`.
+
 ## Implementiert: Alpha-Audit (2026-09-06)
 
 `audit_alpha.py` berechnet den isolierten 1982/1989-Konsistenz-Audit mit der

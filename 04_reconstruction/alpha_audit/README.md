@@ -3,7 +3,19 @@
 Isolierter, reproduzierbarer Konsistenztest der 1982/1989-Alpha-Bloecke in den
 lokalen IGW-Wiedergaben. Python >= 3.10; nur Standardbibliothek erforderlich.
 
-## Etappe 24: Verstaendnis- und Versionsbilanz (aktueller Stand)
+## Etappe 25: W4-Sonderfaelle und K4-Ganzzahlrest (aktueller Stand)
+
+`06_docs/K4_W4_SELECTION_2026-09-06.md` prueft die drei W4-Faelle und
+die Ganzzahlregel gegen die gruppierte Restgleichung. H006/H015 visuell
+getrennt gelesen; drei K4_W4*-Reviews. Unter festem W3/a ist die Vorschrift
+nicht allgemein exaktloesend. Zaehldeutung und physikalische Erreichbarkeit
+bleiben getrennt; eigene Testwerte sind keine Heim-Teilcheninputs.
+FIND-035, jetzt 35 Befundgruppen; 14 neue Fraction-/Intervalltests,
+199 insgesamt und zehn alte Rechen-/Quellchecks bestanden. Alte Rechner,
+Inputs, Snapshots und CSV-Normalisierungen erhalten. Naechster Kandidat:
+H006x3/mu-,N0, Eingabe-/Auswahlvertrag ohne Masse.
+
+## Etappe 24: Verstaendnis- und Versionsbilanz (vorheriger Stand)
 
 `06_docs/UNDERSTANDING_BALANCE_STAGE24_2026-09-06.md` fasst Etappen 16-23
 zusammen; drei BALANCE24*-Reviews ordnen begrenzte Fassungsbruecken,

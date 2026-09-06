@@ -40,6 +40,23 @@ Kann aus Heims Original- bzw. nahen Quellen eine reproduzierbare, parameterarme 
 
 ## Aktueller Arbeitsmodus
 
+Stand 2026-09-06, Etappe 25: Die
+[K4/W4-Pruefung](06_docs/K4_W4_SELECTION_2026-09-06.md) trennt Heims
+Zaehl-/Sonderfallvorschriften von der exakten Restgleichung. Bei festen
+positiven Eingaben ist der reelle Logschritt korrekt; Abschneiden,
+Nullrest-Saettigung und W4>1-Rueckschritt erhalten die Gleichung nicht allgemein.
+Die Regeln stehen auch im fotografierten H015-Typoskript. Das widerlegt
+nicht pauschal eine eigenstaendige diskrete Deutung oder die gesamte Theorie.
+
+FIND-035 ist ein bedingter Befund, keine neue Teilchenmasse oder
+Massenfehlergrenze. Drei Reviews, 14 neue Tests, 199 insgesamt sowie
+zehn alte Rechen-/Quellchecks bestanden; alte Profile bleiben erhalten.
+Naechster vorab benannter Kandidat: H006x3/mu-,N0, zunaechst Komponenten-,
+W- und Auswahlvertrag aus der Quelle, noch keine Masse.
+[Wiedereinstieg](00_admin/RESUME.md), [Arbeitsfolge](00_admin/UNDERSTANDING_ROADMAP.md).
+
+## Verlauf: Etappe 24
+
 Stand 2026-09-06, Etappe 24: Die
 [aktualisierte Verstaendnisbilanz](06_docs/UNDERSTANDING_BALANCE_STAGE24_2026-09-06.md)
 fuehrt Etappen 16-23 zusammen. Ein enger H006-N0-Pfad und ein deklarierter
