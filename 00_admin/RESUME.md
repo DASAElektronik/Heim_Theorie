@@ -2,7 +2,16 @@
 
 Aktualisiert: 2026-09-06.
 
-## Aktuell: zweiundzwanzigste Etappe abgeschlossen
+## Aktuell: dreiundzwanzigste Etappe in Arbeit
+
+Ausgang `57e92f8`. Vertrag: `HISTORICAL_EXPONENT_PLAN.md`.
+H015 PDF39/41 gegen H006 XIV/XXVI und benachbarte Wiederholungen
+visuell und algebraisch pruefen; FIND-027 nur quellengetreu fortschreiben.
+Keine neue Massenrechnung oder stille Korrektur alter Profile.
+Drei begrenzte Reviews; Root liest die tragenden Vollseiten selbst.
+Quellenzuschreibung und eigene Rekonstruktion bleiben ausdruecklich getrennt.
+
+## Verlauf: zweiundzwanzigste Etappe abgeschlossen
 
 Ausgang377d5e5, Plancheckpoint79cf5d0. Bericht
 `06_docs/POTENTIAL_PATHS_2026-09-06.md`, Quellenumfang
