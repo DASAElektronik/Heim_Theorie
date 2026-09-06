@@ -7,6 +7,11 @@ Aktualisiert: 2026-09-06.
 Auftrag: mit Heim weiterarbeiten, Herleitung erklaeren. Aktiver Plan:
 `00_admin/CHARGE_DERIVATION_PLAN.md`. Quellenagenten verfolgen eta-Konfigurationen
 und Korrelationsschluss; Hauptagent rekonstruiert die Ladungsmittelung.
+Plan-Checkpoint `d53738e` ist gepusht. Neuer Rechner
+`scripts/audit_charge_averaging.py` und Erklaerung
+`06_docs/CHARGE_DERIVATION_2026-09-06.md` liegen als Zwischenstand vor.
+33 Tests bestehen; Mathematikreview akzeptiert die Rechnung, kleiner
+Vorzeichenwortlaut korrigiert. Quellenagenten arbeiten noch an eta/Korrelation.
 Keine breite neue Widerlegungsrecherche und keine Hardwareentwicklung.
 Die nachfolgenden Angaben sind der abgeschlossene Ausgangsstand der zweiten
 Etappe. Neue Ergebnisse erst nach Quellenkontrolle/Review integrieren.

@@ -10,9 +10,10 @@ Burkhard Heim, *Elementarstrukturen der Materie*, Band I, lokaler Scan
 [Archivfundstelle](https://burkhardheim.de/assets/Burkhard%20Heim%20-%201998%20-%20Elementarstrukuren%20der%20Materie%201.pdf).
 SHA256: `49C79028C4F5B4FEE97F0541EF1655C37755C3C3C2FD3A10DD6E72CB454DE459`.
 
-Titel/Impressum laut Textauszug: dritte, veraenderte Auflage, Innsbruck 1998;
-Copyright 1980, Manuskripteinreichung 17.09.1978. Fuer diese bibliographischen
-Angaben steht die Bildkontrolle noch aus. Daraus folgt insbesondere keine
+Titel/Impressum inzwischen visuell kontrolliert, PDF-Folios3/4: dritte,
+veraenderte Auflage, Innsbruck1998; Copyright1980, Manuskripteinreichung
+17.09.1978. Render: `tmp/pdfs/book1_trace/edition-003.png` und
+`imprint-004.png`. Daraus folgt insbesondere keine
 unveraenderte Ueberlieferung der folgenden Formeln seit 1978/1980.
 
 Visuell geprueft: PDF-Folios 253 und 254 (einsbasiert), Druckseiten 247/248.
@@ -86,3 +87,6 @@ Vorhersagestatus ist gesondert anhand datierter Unterlagen zu pruefen.
 - Fruehere Ausgabe oder Begleitheft fuer einen belastbaren Editionsabgleich.
 - Keine allgemeine Widerlegungsrecherche: gemeldete Nutzerprioritaet ist
   zuerst Rekonstruktion/Verstaendnis, danach externe physikalische Bewertung.
+
+Fortsetzung: `06_docs/CHARGE_DERIVATION_2026-09-06.md` rekonstruiert die
+Mittelung schrittweise; Quellenreviews zu eta/Korrelation bleiben getrennt.
