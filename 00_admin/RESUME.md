@@ -2,7 +2,13 @@
 
 Aktualisiert: 2026-09-06.
 
-## Aktuell: sechsundzwanzigste Etappe abgeschlossen
+## Aktuell: siebenundzwanzigste Etappe in Arbeit
+
+Ausgang a5cf32b; Auftrag A16 genauer untersuchen, Vertrag A16_ORIGIN_PLAN.md.
+H006/H010-Klammerung, H015-Fotografie und H004-Herleitung getrennt pruefen.
+Neue A16*-Reviews/Notizen lesen; keine Masse und keine alten Profile aendern.
+
+## Verlauf: sechsundzwanzigste Etappe abgeschlossen
 
 Ausgang `e2eaad8`, Plancheckpoint `d960144`, Vertrag `MUON_SELECTION_PLAN.md`.
 Bericht: `06_docs/MUON_SELECTION_2026-09-06.md`.
