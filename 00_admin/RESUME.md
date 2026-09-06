@@ -2,7 +2,15 @@
 
 Aktualisiert: 2026-09-06.
 
-## Aktuell: achtundzwanzigste Etappe abgeschlossen
+## Aktuell: neunundzwanzigste Etappe in Arbeit
+
+Ausgang `3a779e5`, Vertrag `BOOK_SELECTION_PLAN.md`.
+H004340-342-Auswahl und direkte Strukturbedingungen: Eingaben versus
+Besetzungsausgaben, TRC/Kappe/Transfer und Rueckwirkung auf A16.
+Keine Masse, F_S-Rechnung, Y9-Zielwertwahl oder Quellenprofilvermischung.
+Drei neue BOOK_SELECTION*-Reviews; alte Rechner/Inputs/Snapshots erhalten.
+
+## Verlauf: achtundzwanzigste Etappe abgeschlossen
 
 Ausgang `1fcf209`, Plancheckpoint `c153e02`, Vertrag `F16_DETERMINACY_PLAN.md`.
 Bericht: `06_docs/F16_DETERMINACY_2026-09-06.md`.
