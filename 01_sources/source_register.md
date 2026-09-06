@@ -110,6 +110,13 @@ Keine neuen Quellen oder stillen Rechenprofilwechsel; Umfang/Hashes:
 
 ## Prioritaet fuer lokale Ablage
 
+Etappe14,2026-09-06: H004 Einfuehrung3 sowieII327/328,347-350,364-366;
+H006 PDF8-10; H007 B32/B37/B39 undSchluss20; H013/H014(14c)/(14d),
+Ergaenzungen undAnwendungskontext eng visuell geprueft. Einzelumfang,
+Quellhashes undScan-LueckeH014Druck16 in
+`03_notes/GAMMA_QN_SOURCE_CONTEXT_2026-09-06.md`. Status bezieht sich
+nuraufdiesen Ausschnitt, nicht aufvollstaendigeWerkvalidierung.
+
 1. H002, H006, H007, H008, H009/H010: direkt relevant fuer die Massenformel.
 2. H003/H004: wichtig fuer Herleitung, aber umfangreich.
 3. M001/M002: Referenzwerte fuer Vergleichstabellen.

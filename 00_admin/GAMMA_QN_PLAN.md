@@ -34,11 +34,20 @@ Original-PDFs/Render lokal erhalten und nicht committen.
 
 ## Abschlusskriterien
 
-- [ ] Quellenbegriffe und offene Gleichungen versionsgebunden dokumentiert.
-- [ ] Bestimmung, Auswahl, Naeherung und obere Grenze getrennt bilanziert.
-- [ ] Begrenzte Mathematik unabhaengig und durch Root ausgefuehrt.
-- [ ] Bericht, Register/Karte, Roadmap und Wiedereinstieg aktualisiert.
-- [ ] Regressionen erfolgreich; alle beabsichtigten Aenderungen gesichert.
+- [x] Quellenbegriffe und offene Gleichungen versionsgebunden dokumentiert.
+- [x] Bestimmung, Auswahl, Naeherung und obere Grenze getrennt bilanziert.
+- [x] Begrenzte Mathematik unabhaengig und durch Root ausgefuehrt.
+- [x] Bericht, Register/Karte, Roadmap und Wiedereinstieg aktualisiert.
+- [x] Regressionen erfolgreich; Sicherung mit benanntem Abschlusscommit.
 
 Danach: Verstaendnisbilanz mit expliziten noch fehlenden Bausteinen,
 keine Behauptung, das Gesamtwerk sei bereits vollstaendig verstanden.
+
+Ergebnis: ausdruecklicheQ0-Eingabekonvention undz=0-Naeherung, keine
+eindeutigeQ_N-/Gamma-Bestimmung. UnterstrichenesN beschreibt einen
+anderen behauptetenAnregungsweg; Ergaenzungsseite begrenzt(14d).
+Subrasterenergie vorhanden, keineGamma-Zeitbruecke. Tabellen lautAutor
+empirienah ausgewaehlt.26Befundgruppen,49Normalisierungen unveraendert;
+achtRechenchecks und98Tests bestanden. Plancheckpoint8655909 und
+Quellen-/Reviewcheckpointd6fdd10 gepusht; Abschlussnachricht:
+`Complete Gamma QN findings and understanding handoff`.

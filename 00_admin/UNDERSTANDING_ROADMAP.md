@@ -25,12 +25,14 @@ Ergebnis; sie werden nicht als stillschweigende Definitionen behandelt.
 
 ## Naechste begrenzte Arbeitseinheit
 
-1. Nach Etappe13: Gamma/Q_N und Anregungs-/Auswahlgrenze versionsgebunden
-   rekonstruieren, nicht ohne Beleg mit einer modernen Zerfallsbreite
-   gleichsetzen. Quellen-/Mathematikreview und Checkpoint je Einheit.
-2. Anschliessend Verstaendnisbilanz: vorhandene Rechenvorschriften,
+1. Nach Etappe14: Verstaendnisbilanz des rekonstruierten Ausschnitts,
+   nicht erneute gleiche Gamma/Q_N-Quellensuche. Reichweite jedes
+   bisherigen Befunds, Abhaengigkeiten und offene Grundlagen zusammenfuehren.
+2. In dieser Bilanz vorhandene Rechenvorschriften,
    dynamische Herleitungen, empirische Kalibrierung und Editionsluecken
-   unterscheiden. Noch kein stiller Uebergang zum Massengesamtrechner.
+   unterscheiden. Einen geeigneten versionsreinen N0-Rechenfall und
+   benoetigte Quellenentscheidungen vorbereiten; noch kein stiller
+   Uebergang zum Massengesamtrechner oder zur modernen Widerlegungsrecherche.
 3. Offene F/G-Normierung und metronische Extremumsregel nur bei konkreter
    Quellbruecke erneut aufnehmen; keine Wiederholung derselben Rueckverweise.
 
@@ -73,6 +75,17 @@ zeigen am Massenanschluss unterschiedliche Alpha-Klammer und N1-Faktor.
 B50-Zeichen nicht entschieden; Delta-U-Test ist vorzeichenunabhaengig.
 24 Befundgruppen, keine24 Fehler;49 Normalisierungen unveraendert.
 Keine erneute B49-/BUW-/2^Z-Suche ohne neue Editionsbelege.
+
+Etappe14: GAMMA_QN_2026-09-06.md und drei unabhaengige Reviews.
+Gamma/Q_N bleibt offener Bestimmungsblock: H006Q0 nurRecheninput,
+H004Z/q_x-Verlaeufe unbekannt, H007/H013z=0 nurApproximation;
+H013N>0-Zeitgleichung reduziert sichaufT=T_N mitunbekanntemT_N.
+H013/H014(14d)-Ergaenzung trennt stufenweisen undEin-Prozess-Zugang.
+K_B istZaehler mitSubrasterenergie, keine belegteGamma-Breite. H013
+bestaetigt Auswahl empirienaherTabellenzeilen ausgroessererTermmenge.
+26 Befundgruppen, keine26 Fehler;49 Normalisierungen weiterhin47resolved,
+2blocked. Acht alteRechenchecks und98 Tests unveraendert bestanden.
+Neue mathematischeDiagnosen sind keinephysikalischenResonanzvorhersagen.
 
 Offene Seitenzweige: H-Wellen-/Flussobjektidentitaet, Phase/Frame, operative
 pc-Arbeitsbilanz und physikalische Meridianregel. Aus Etappe7 liegt jetzt

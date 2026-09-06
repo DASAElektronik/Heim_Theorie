@@ -314,6 +314,32 @@
       "evidence_paths": ["06_docs/PHI_U_BRIDGE_2026-09-06.md", "03_notes/PHI_U_SOURCE_CONTEXT_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/PHI_U_MANUSCRIPT_REVIEW_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/PHI_U_MATH_REVIEW_2026-09-06.md"],
       "reproduction": "Root-Vollseitenvergleich H013PDF14/15 undH007PDF2/3, unabhaengige Gegenlesung der Massenklammer; nur lokaler phi-Koeffizientenvergleich, kein passender Zahlenwert als Editionsentscheidung.",
       "next_check": "Vor einem vollstaendigen Massenfall muessen Fassung und alle Eingangsgroessen separat festgelegt sein; gemeinsame Symbole oder gleiche Tabellenziele begruenden keine Fusion."
+    },
+    {
+      "finding_id": "FIND-025",
+      "kind": "open_justification",
+      "claim": "Der Gamma/Q_N-Blocker bleibt quellenuebergreifend offen: H006 fragt die Beziehung selbst an; H004(114) benennt unbekannte Spin-/Ladungsverlaeufe. H007/H013 liefern Q(N)=Q(0)+2z(N), setzen das unbekannte z aber nur fuer eine Naeherung auf null und lassen T_N offen.",
+      "source_ids": ["H004", "H006", "H007", "H013", "H014"],
+      "source_locator": "H006 PDF8-10 XXV-XXXV; H004 II3/PDF14, II347-350/PDF353-356 (114)-(116), II365/366/PDF371/372; H007 B37/B39 und Schluss Druck20/PDF11; H013 Druck20/36/37/PDF21/39/40, (14c), (21) Druck29/PDF32; H014 Druck15/26/PDF17/28.",
+      "assumptions": "Q0-Eingabekonvention, z=0-Naeherung und EndpunktN=0 getrennt; Z ausH004 nicht still mit2z oder phi/U-Z gleichgesetzt. Ganzez, weitere Positivitaetsprosa nur imH014-N>0-Kontext. Eigene mathematische Zeugen sind keine vollstaendigen Heim-Zustaende.",
+      "scope": "Die gerade Spinverschiebung bestimmt keine Werte: z=N undz=2N erfuellen dieselbe lokale Form mitgleichemEndpunkt. F(Gamma)=0 bestimmt ohneFunktionsgesetz nichtGamma. z=0 laesstN>0 unddelta=0 bestehen; H013(21) ergibt dannnurT=T_N mitunbekanntemT_N. Die behauptete0.1MeV-Naeherungsschranke ist nicht reproduziert. NORM-1982-N-003 bleibtblocked, N-004resolved mitengemScope.",
+      "not_established": "Keine Gamma-Lebensdauer-Normierung, eindeutige z-Funktion, volle Resonanzrechnung, allgemeine Fehlergrenze oder Gesamtwiderlegung. Beta_j undK_B sind gezaehlteAnregungsbreiten; der H013-Subraster-Energieabstand ist angegeben, aber keineDefinition vonGamma. Kein Nachlass-weiter Nichtexistenzbeweis.",
+      "evidence_paths": ["06_docs/GAMMA_QN_2026-09-06.md", "03_notes/GAMMA_QN_SOURCE_CONTEXT_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/GAMMA_QN_IGW_REVIEW_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/GAMMA_QN_MANUSCRIPT_REVIEW_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/GAMMA_QN_MATH_REVIEW_2026-09-06.md", "04_reconstruction/formula_library/normalization/decisions/NORM-1982-N-GAMMA-QN-BLOCKER.md"],
+      "reproduction": "Vollseitenpruefung durchQuellenagenten undRoot; unabhaengiger Mathematikcode ausReview vonRoot erneut ausgefuehrt: freieSpinfolgen, eigenepositiveNullstellen, delta-Scope, Zuwachsidentitaeten. Zehn illustrativef6-Werte80/120 mitmax.abs.Abweichung4.7087071e-79; keinephysikalischeFehlergrenze.",
+      "next_check": "Verstaendnisbilanz statt erneuter gleicherQuellensuche. Gamma/QN erst bei einer konkretenFunktions-/Dynamikbruecke oder nachvollziehbarenFehlerabschaetzung erneut pruefen. N0-Rechenfall nur mitfesterFassung undausgewiesenenVoraussetzungen vorbereiten."
+    },
+    {
+      "finding_id": "FIND-026",
+      "kind": "source_definition",
+      "claim": "Die Ergaenzungsseiten H01320a undH01415a beschraenken die positiveMassenregel(14d) aufstufenweiseAnregung. UnterstricheneN bezeichnen weiterhin zugelasseneEin-Prozess-Kandidaten, nicht pauschal nichtexistenteTerme. H01336/37 beschreibt die Resonanztafeln als empirienah ausgewaehlteTeilmenge.",
+      "source_ids": ["H013", "H014", "H004", "H007", "H006"],
+      "source_locator": "H013 Druck20/20a/PDF21/22 (14d), Druck21/21a/PDF23/24 (14e), Druck36/37/PDF39/40 Tabellenkontext; H014 Druck15/15a/PDF17/18; H004 II349/350/PDF355/356; H007 Druck20/PDF11 undB32; H006 XXV/PDF8.",
+      "assumptions": "UnbekannteChronologie; Ergaenzung als Binnenmanuskript-Scope, nicht als beweisendeUebergangsdynamik. Stufenweg verlangtN_B>N_A undM_B>M_A; gleichef-Symbole verbinden keineFassungen. HistorischeTabellenauswahl ist Quellenangabe, nicht neueempirischePruefung.",
+      "scope": "f-Monotonie, diskreteMassenfolge undAnregungsweg getrennt. Buch nennt nichtmonotoneMasse ausdruecklich; Manuskript ergaenzt anderenZugang. H006-N1-Ausschluss nichtaufH007/H013-f=aN/(N+1)+bN uebertragen. LokaleZuwachsformeln unterexplizitenVorzeichenbedingungen geprueft. Tabellen enthalten auchunterstricheneN undsind lautAutor eineAuswahl gutpassenderTerme ausgroessererMenge.",
+      "not_established": "Keine nachgewieseneExistenz allerEin-Prozess-Terme, vollstaendigeResonanzfilterung, Bildung/Zerfallsrate oderGesamtvalidierung derTabellen. Kein statistischerWiderlegungs- oderTaeuschungsbefund. Die zweiUngleichungen allein bestimmen wederz nochUebergangswahrscheinlichkeiten.",
+      "evidence_paths": ["06_docs/GAMMA_QN_2026-09-06.md", "03_notes/GAMMA_QN_SOURCE_CONTEXT_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/GAMMA_QN_MANUSCRIPT_REVIEW_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/GAMMA_QN_MATH_REVIEW_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/GAMMA_QN_IGW_REVIEW_2026-09-06.md"],
+      "reproduction": "Root undQuellenagent lesen Haupt- undErgaenzungsseiten vollstaendig; eigener dimensionsloserZeuge m(2)=10,m(3)=9,m(4)=12 veranschaulicht gerichteteBedingung. ExakteZuwachsidentitaeten undselektiertepositivef-Beispiele imReviewcode bestanden, keineechtenTeilchenmassen gerechnet.",
+      "next_check": "Bei spaeteremMassen-/Empirieaudit gesamteKandidatenmenge, Zuordnungsregel undAnregungsweg sichtbar halten. Nicht nurpassendeTabellenzeilen bewerten oderStufenregel als allgemeinenNichtexistenzfilter benutzen. Zunaechst Verstaendnisbilanz."
     }
   ]
 }

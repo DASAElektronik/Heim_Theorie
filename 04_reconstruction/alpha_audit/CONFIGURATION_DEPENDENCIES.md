@@ -32,6 +32,12 @@ quellenbelegt sein, ohne dass ihre physikalische Richtigkeit bewiesen ist.
 | H007 B50/B49 | U -> phi -> F_mass(B5) -> M(B3) und phi -> y(B48) -> T(B47) | Gemeinsamer Eingabepfad fuer Masse und Zeit | Kein lokal erzwungener Ausgabe-Kreis; F_mass/F_time und y_W/y_time getrennt, globale Zustandsauswahl nicht geprueft |
 | Fragliches U-Vorzeichen | Variantendifferenz proportional(k-1)(P-Q)(1-q) | Unterschied von U und bedingt phi/M/T | Delta-Kontext P=Q unterscheidet Lesarten nicht; kein Vorzeichenfit oder stilles Erratum |
 | H013/H007-Massenanschluss | (4)/(5c) gegen B3/B5: Alpha-Klammer und N1-Faktor verschieden | Fassungsgetrennte Massenrechnung | Lokale Grenze belegt, keine Gesamtformel fusioniert |
+| H004 stationaere Massenrechnung | II3/347/348/365: (114), Z(N) undq_x(N) unbekannt | Spin-/Ladungsverlauf und allgemeine Bandbreiten | Etappe14: ausdrueckliche Reichweitengrenze, keine Gamma-Zeit-Dynamik |
+| H006 Q(0)-Enumeration | PDF8/9: Gamma/Q_N gefragt, Grundspin als Recheninput | Numerische Besetzungskandidaten | Enger Inputscope; kein Beweis Q_N=Q0 |
+| H007/H013 z=0 | B37/(14c) plus Schluss: unbekannte ganzzahlige Spinverschiebung | Approximate N>0-Massen | Paritaet bestimmt, z nicht; N>0 bleibt angeregt, T_N unbekannt |
+| H013(14d) mit Ergaenzung20a | Positive Massendifferenz nur fuer stufenweise Anregung | NormalesN versus unterstrichenesN | Quellenpraezisierung, keine vollstaendige Uebergangsrate oder Nichtexistenzregel |
+| H013(14e)/21a | K_B als Anzahl, Subrasterabstand laut Quelle9.28718keV | Externfeldanregungen beiK_B>0 | Energieabstand angegeben, aber nicht mit vollerGamma-Breite identifiziert |
+| H01336/37-Tabellenwahl | Passende Massenterme aus groesserer Kandidatenmenge ausgewaehlt | ResonanztafelnIV-Vb | Quellenangabe zur Auswahl, kein vollstaendiger Blindvergleich oder eigener statistischer Befund |
 | H014 Alpha-Internkorrektur | Druck26/PDF28 (21a): Nenner eta11^2 | Andere K_alpha-Fassung als H007B59 | Gemeinsames eta22 macht Formel nicht identisch; Chronologie offen |
 | H013 Alpha-Internkorrektur | Druck33/PDF36 (22a): zusaetzlicher Faktor3/(pi*eta) gegenueber H007 | Dritte K_alpha-Fassung | Quellen- und lokale Zahlenvergleiche, keine neuen Alpha-Zweigprofile |
 | Freies gegen gebundenes Elektron | H013 Druck11/PDF12 und H011/1981 | Motiv einer Strukturkorrektur | Autorenmotiv belegt, spezielle Form C_prime nicht hergeleitet |
@@ -60,7 +66,7 @@ Die Kurzform k_max=2,q_max=3 ist auch kein kartesisches Produkt aller Paare.
 | pc als Arbeitsanteil | Wiederholt verwendet, operative Zuordnung offen | Explizite Arbeits-/Messvorschrift im H-Modell |
 | B50-Vorzeichen | Etappe13 findet auch in H013 zwei Minusglyphen am Umbruch; Fortsetzungslesart plausibel, aber kein belegtes H007-Erratum | Neue Editions-/Rechenunterlagen; nicht erneut gleiche Bilder oder nach Zahlentreffern entscheiden |
 | Phi-Dynamik/Kalibrierung | Explizites Formelschema und Fitvorbehalt in H01337, keine gezeigten dynamischen Zwischenschritte | Herleitung desselben Ausdrucks bzw. nachvollziehbare Datenauswahl und Anpassungsprotokoll |
-| Historischer Gamma/Q_N-Blocker | Weiter offen; nicht durch phi-Form geschlossen | Naechste begrenzte Quellen-/Geltungsrekonstruktion, keine Gleichsetzung mit moderner Zerfallsbreite |
+| Historischer Gamma/Q_N-Blocker | Etappe14: H004/H006 fragen offen, H007/H013z=0 nurNaeherung, H014z ebenfallsunbekannt | Neue konkreteFunktions-/Dynamikbruecke oder begruendetesFehlerverfahren; keine erneute gleicheVollseitensuche |
 
 Die Karte legt fest, wann eine alte Frage erneut aufgerufen wird. Sie soll
 neue Zusammenhaenge sichtbar machen und zugleich verhindern, dass wir
@@ -104,3 +110,12 @@ Delta-Kontext U=3840/eta22^2 ist vorzeichenunabhaengig. FIND-023 bedingte
 Bruecke, FIND-024 lokale Massen-Fassungsgrenzen:24 Gruppen, keine24 Fehler.
 Naechster konkreter Anschluss: Gamma/Q_N und Anregungs-/Auswahlgrenze,
 dann Verstaendnisbilanz; keine wiederholte B49-/BUW-/2^Z-Suche.
+
+Etappe14: GAMMA_QN_2026-09-06.md. Quellenparametrisierung und deklarierte
+Naeherung schliessen Gamma/Q_N nicht; F(Gamma)=0 ist keine Gamma-Zahl.
+Anregungsfunktion, Massenfolge und Anregungsweg getrennt; H013/H014-
+Ergaenzung verhindert globalen Nichtexistenzschluss aus(14d). K_B-
+Energieabstand vorhanden, aber keine volleBreiten-/Zeitbruecke.
+FIND-025 offeneBestimmung, FIND-026 Quellenregel/Tabellenauswahl:
+26 Befundgruppen, keine26 Fehler. NaechsteEtappe Verstaendnisbilanz,
+noch keine breite moderne Widerlegungssuche oder ganze Massenrechnung.
