@@ -38,25 +38,26 @@ Kann aus Heims Original- bzw. nahen Quellen eine reproduzierbare, parameterarme 
 
 ## Aktueller Arbeitsmodus
 
-Stand 2026-09-06, Etappe 21: Die
-[Untersuchung der skalierten Variation](06_docs/METRONIC_STEP_2026-09-06.md)
-findet in M7 einen ausdruecklichen inneren Argumentshift. Seine Gleichheit
-mit dem zuvor eingefuehrten a*delta ist aber nicht hergeleitet und gilt
-fuer allgemeine skalare Folgen nicht. H004 belaesst delta_e an Potentialen,
-delta anH/G/X; ein gemeinsames Gitter bleibt offen. Eine exakte bedingte
-Schrittrekurrenz zeigt, warum Potentialendwerte allein nicht immer genuegen.
-Keine eingesetzte Theoriereparatur oder berechnete Massenabweichung.
-Die [vorige Integrationspruefung](06_docs/METRONIC_INTEGRATION_2026-09-06.md)
-mit korrektem lnY-Randterm bleibt erhalten und sichtbar praezisiert.
+Stand 2026-09-06, Etappe 22: Die
+[Potentialpfadpruefung](06_docs/POTENTIAL_PATHS_2026-09-06.md) zeigt die
+gekoppelte Komponentenkurve aus(98). Die H-Grenzen passen nicht zu einem
+gemeinsamen unveraenderten Startpunkt; diese gemeinsame Kurve ist aber
+unsere Zusatzlesart, keine Forderung des Buches. H004 setzt getrennte,
+teils gewichtete Integrationsbeitraege und einen W-Komponentenwechsel.
+Ihre Endquotienten sind nachvollziehbar; Zwischenpfade und Operatorzuordnung
+bleiben offen. Keine Gesamtwiderlegung, neue Massen oder eingesetzte Reparatur.
+Die [Operatorpruefung](06_docs/METRONIC_STEP_2026-09-06.md) und die
+[lnY-/Integrationspruefung](06_docs/METRONIC_INTEGRATION_2026-09-06.md)
+bleiben mit ihren ausdruecklichen Voraussetzungen erhalten.
 Die [A/B-Bestimmtheitspruefung](06_docs/ALPHA3_ASSUMPTIONS_2026-09-06.md),
 [Buch-/FORTRAN-Herkunft](06_docs/ALPHA3_ORIGIN_2026-09-06.md) und alle alten
-Rechenprofile bleiben erhalten. Zehn Rechenchecks und 168 Tests bestehen;
-33 Befundgruppen sind keine 33 Fehler. 49 CSV-Normalisierungen unveraendert.
+Rechenprofile bleiben erhalten. Zehn Rechenchecks und 178 Tests bestehen;
+34 Befundgruppen sind keine 34 Fehler. 49 CSV-Normalisierungen unveraendert.
 Keine neue empirische Bestaetigung oder Gesamtwiderlegung.
 
-Naechster enger Schritt: Potentialkomponenten aus(98) und die benannten
-Integrationsgrenzen auf gemeinsame Parametrisierung bei festem k pruefen;
-X-Kopplung und Anfangswerte nicht aus synthetischen Zeugen erfinden.
+H/G-Pfade erst bei neuer konkreter Definition wieder aufnehmen. Naechster
+vorgemerkter Quellenvergleich: H015PDF39/41 gegen H006XIV/XXVI, ohne
+Auswahl anhand eines Massentreffers oder vorweggenommene Fehlerursache.
 [Wiedereinstieg](00_admin/RESUME.md), [Arbeitsfolge](00_admin/UNDERSTANDING_ROADMAP.md).
 
 ## Verstaendnisbilanz der Etappe 15

@@ -178,3 +178,14 @@ erlaubt das Produkt oben als physikalischen Rechenweg auszuwerten.
 Keine identische Quellensuche ohne neuen Anker, kein Massenziel-Fit.
 
 [Quellenumfang und Reviewpfade](../03_notes/METRONIC_STEP_SOURCES_2026-09-06.md).
+
+## Anschluss aus Etappe 22
+
+Die [Potentialpfadpruefung](POTENTIAL_PATHS_2026-09-06.md) koppelt die
+vier relevanten Komponenten explizit ueber s=sqrt(eta_qk). Ihre gemeinsame
+unveraenderte Kurve kann die gesetzten H-Grenzen nicht simultan tragen.
+Der Text verwendet jedoch getrennte, teils gewichtete Kanaele; nur die
+gemeinsame Kurve als zusaetzliche Lesart ist damit ausgeschlossen. Die
+hier bedingt eingefuehrte Schrittgleichung ist weiterhin kein physikalischer
+Ersatzrechner. Gekoppelte synthetische Pfade bestaetigen die benoetigte
+Information ueber Zwischenwerte, ohne einen Quellenpfad zu bestimmen.

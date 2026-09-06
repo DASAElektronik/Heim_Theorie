@@ -22,7 +22,14 @@ alpha*U(s_final)/3 ist die Reichweite der unskalierten U-Kurve zu pruefen.
 Der Text kann stattdessen getrennte/gewichtete Kanaele meinen; diesen
 Unterschied nicht voreilig als Gesamtwiderspruch behandeln.
 
-- [ ] Quellenumfang und gemeinsam festgehaltene Groessen geklaert.
-- [ ] Abhaengigkeiten/Grenzen unter offen genannten Zusatzannahmen geprueft.
-- [ ] Mathematikreviews, neue Tests und alte Rechenchecks bestanden.
-- [ ] Bericht, Register und Wiedereinstieg gesichert.
+- [x] Quellenumfang und gemeinsam festgehaltene Groessen geklaert.
+- [x] Abhaengigkeiten/Grenzen unter offen genannten Zusatzannahmen geprueft.
+- [x] Mathematikreviews, neue Tests und alte Rechenchecks bestanden.
+- [x] Bericht, Register und Wiedereinstieg gesichert.
+
+Bericht `06_docs/POTENTIAL_PATHS_2026-09-06.md`, FIND-034. Gemeinsame
+unreskalierte Komponentenkurve als Zusatzlesart ausgeschlossen, getrennte
+Quellenkanaele nicht. Zwischenpfade/Operatorzuordnung bleiben offen.
+Zehn neue Tests,178gesamt; zehn alte Rechen-/Quellchecks bestanden.
+H/G wieder aufnehmen bei neuem konkretem Beleg; danach vorgemerkten
+unabhaengigen H015-XIV/XXVI-Textvergleich verfolgen.

@@ -1,5 +1,20 @@
 # Fortschritt
 
+## 2026-09-06 - Zweiundzwanzigste Etappe: gekoppelte Potentiale und Kanaele
+
+- H004(98) liefert eine gekoppelte normierteKurve fuer genauvierH/G-Paare.
+  Bei festenq,k,Radius undepsilon keine freieVariation dieserSkalarwerte.
+- Gemeinsame ungewichteteH-Startkurve scheitert ans0=0 vs1, gewichteter
+  A1-Zielwert liegt ausserhalbroherU-Kurve. NurZusatzlesart ausgeschlossen:
+  Quelle setzt getrennteGrenzen, p-Zonenanteil, Abklingen undW-Komponentenwechsel.
+- Gekoppelte endlicheSpruenge exakt; zwei synthetischeH-Pfade mitgleichen
+  Endkomponenten ergeben16800/21659 vs98000/123261. KeineQuellenpfade/Massen.
+- DreiReviews,RootVollseiten undseparaterFraction-Gegencode. ZehnneueTests,
+  178gesamt undzehnalteRechen-/Quellchecks bestanden. FIND-034 offeneFrage,
+  nun34Befundgruppen,keine34Fehler. Plan79cf5d0;alteProfile/Snapshots erhalten.
+- H/G-Verstaendnisgrenze konkret dokumentiert; neuePfadrechnung brauchtneuenBeleg.
+  Naechster vorgemerkterTextvergleich:H015PDF39/41 gegenH006XIV/XXVI.
+
 ## 2026-09-06 - Einundzwanzigste Etappe: Skalierung versus innerer Shift
 
 - M7-innerer Exponentialshift phi-delta_e phi quellenseitig bestaetigt;

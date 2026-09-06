@@ -3,7 +3,17 @@
 Isolierter, reproduzierbarer Konsistenztest der 1982/1989-Alpha-Bloecke in den
 lokalen IGW-Wiedergaben. Python >= 3.10; nur Standardbibliothek erforderlich.
 
-## Etappe 21: skalierter metronischer Schritt (aktueller Stand)
+## Etappe 22: Potentialkomponenten und getrennte Kanaele (aktueller Stand)
+
+`06_docs/POTENTIAL_PATHS_2026-09-06.md` grenzt die gemeinsame unveraenderte
+Komponentenkurve als Zusatzlesart aus. H004s getrennte, teils gewichtete
+Integrationskanaele bleiben davon unberuehrt; konkrete Zwischenpfade offen.
+DreiPOTENTIAL_PATH*-Reviews und zehn neue exakte Tests,178gesamt;
+zehn alte Rechen-/Quellchecks. FIND-034/34Befundgruppen, keine34Fehler.
+Naechster unabhaengiger Quellenanker:H015PDF39/41 gegenH006XIV/XXVI.
+Alle alten Rechner/Inputs/Snapshots und49Normalisierungen erhalten.
+
+## Etappe 21: skalierter metronischer Schritt (vorheriger Stand)
 
 `06_docs/METRONIC_STEP_2026-09-06.md` trennt M7s gedruckten inneren
 Argumentshift von a*delta auf nichtlinearen Folgen. H004s gemischte

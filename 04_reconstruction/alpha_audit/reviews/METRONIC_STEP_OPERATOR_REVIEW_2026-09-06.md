@@ -22,7 +22,7 @@ on I103--104 / PDF109--110 retained only as direct context.  Source SHA-256:
    when the integer argument changes by one.
 
 2. H003 I109/PDF115 (M7) first says that delta occurs with a **factor**
-   small `a` in the form `a delta = delta_e`, with
+   small `a << 1` in the form `a delta = delta_e`, with
    `0 < |delta_e| << 1`, so that small infinitesimal ratios can be
    approximated.  It gives the metron-scale expression for `a` in the
    p-dimensional case.  This is the printed scalar-factor introduction.
@@ -68,7 +68,7 @@ two mechanisms:
 | Source mechanism | What is printed | Status for `delta_e=a delta` |
 | --- | --- | --- |
 | M2 | backward unit index step `n -> n-1` | base operation |
-| M7 | factor `a` multiplying delta, then `exp(phi-delta_e phi)` in its transcendental approximation | scalar-factor introduction plus an explicitly approximate shift of the inner function value phi |
+| M7 | small factor `a << 1` multiplying delta, then `exp(phi-delta_e phi)` in its transcendental approximation | scalar-factor introduction plus an explicitly approximate shift of the inner function value phi |
 | M8/M9 | an explicitly displayed shifted argument and conditional transformed operator | separate construction, not shown for M7 |
 
 Thus H003 locally supports two distinct statements about H004's `delta_e`:

@@ -40,7 +40,18 @@ py -3.13 -m unittest discover -s tests -q
 ```
 
 Ohne lokale Fremdquellen `--verify-sources` weglassen. Die zehn numerischen
-Snapshots sind dann weiter pruefbar, die Quelldateien nicht. 168 Tests bestehen.
+Snapshots sind dann weiter pruefbar, die Quelldateien nicht. 178 Tests bestehen.
+
+## Gekoppelte Potentialpfade: reine exakte Diagnostik
+
+`tests/test_potential_paths.py` ergaenzt zehn Fraction-Tests fuer die
+vier normierten (98)-Paare, Grenzen einer gemeinsamen unveraenderten
+Komponentenkurve, gekoppelte endliche Spruenge und synthetische H-Pfade.
+Getrennte positive Hilfskanaele sind nicht widerlegt; ihre Interpolation
+wird nicht als Quelldynamik ausgegeben. Keine neuen Masseneingaben.
+Unabhaengiger, von Root erneut ausgefuehrter Code in
+`04_reconstruction/alpha_audit/reviews/POTENTIAL_PATH_MATH_REVIEW_2026-09-06.md`.
+Bericht `06_docs/POTENTIAL_PATHS_2026-09-06.md`; alte Snapshots unveraendert.
 
 ## Skalierter Schritt und bedingte H/G-Rekurrenz
 

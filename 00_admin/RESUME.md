@@ -2,13 +2,42 @@
 
 Aktualisiert: 2026-09-06.
 
-## Aktuell: zweiundzwanzigste Etappe in Arbeit
+## Aktuell: zweiundzwanzigste Etappe abgeschlossen
 
-Ausgang377d5e5, Plan `POTENTIAL_PATH_PLAN.md`: Potentialkomponenten(98)
-und H004II272-274-Endgrenzen auf gemeinsame Parametrisierung pruefen.
-Statische Komponenten von getrennten Integrationskanaelen unterscheiden;
-kein behaupteter gemeinsamer Pfad ohne Quellenbeleg. Drei begrenzte Reviews
-und Root-Algebra; keine Massenfortpflanzung oder Profilkorrektur.
+Ausgang377d5e5, Plancheckpoint79cf5d0. Bericht
+`06_docs/POTENTIAL_PATHS_2026-09-06.md`, Quellenumfang
+`03_notes/POTENTIAL_PATH_SOURCES_2026-09-06.md`.
+Abschlusscommit-Nachricht: `Audit coupled potential components and separate integration channels`.
+Bei Fortsetzung HEAD/Remote pruefen; keine laufenden Agenten erforderlich.
+
+- Vier H/G-Paare bei festem gemeinsamen Radius/Faktor/positivem epsilon:
+  U=(1+s)/2,R=s^2,O=U^2,D=4(1-U)^2,s=sqrt(eta_qk). NichtvierfreiPotentiale.
+  Festesq,k,P bedeutet fixeKomponenten. Keine q-Laufvariable im Quellenumfang.
+- Relaxierter Abschluss0<=s<=1 ist nurMathematik; s1formalq0,s0Grenzwert.
+  H/A1-UntergrenzeU1/2 verlangt s0=0; H/A3-UntergrenzeR1 verlangts0=1.
+  AlphaU(sf)/3<1/2 fuer0<alpha<1 liegt ausserhalbunreskalierterU-Kurve.
+  Nur gemeinsame roheStartkurve als ZUSATZLESART ausgeschlossen, nichtHeim.
+- H004II273/274 druckt getrennte Integrale mit verschiedenen Referenzen,
+  gewichteterp-Zone, Abklingen undW-WechselO->CkD ueberP. Endquotienten
+  bleiben bedingt nachvollziehbar, Zwischenpfade/Operatorzuordnung offen.
+- Externe V_ee~q^2epsilon^2f ausII268 in Domainreview glyphenkorrigiert;
+  nicht internesV_rhorho. Scope nurvierH/G-Paare, nichtalleVimWerk.
+- Gekoppelte eigeneH-Pfade s=(1/2,3/4,1) und(1/2,7/8,1),k1,a1/10,
+  Xconst,H0=1 ergeben16800/21659 vs98000/123261; LogmodellH^10=1/48.
+  Keine physikalischenSchritte, XconstkeinFibonacci-Pfad; amEndeD0,keinG/lnD.
+- DreiPOTENTIAL_PATH*-Reviews, RootVollseiten undunabh.Fraction-Block erneut.
+  Zehn neueTests separatgegengelesen,178gesamt;zehnalteSnapshot-/Quellchecks
+  bestanden. FIND-034/34Befundgruppen,nicht34Fehler. AlteRechner/Inputs/
+  Snapshots/49Normalisierungen erhalten. M7-Altreview nur2Zeilena<<1 praezisiert.
+
+Naechster konkreter unabh. Quellenauftrag: H015PDF39/Druck4 undPDF41/Druck5
+gegen H006XIV/XXVI visuell vergleichen, bevor FIND-027 fortgeschrieben wird.
+Originalnaehe und Datierung getrennt; keine Fehlerursache oder richtige
+Gesamtfassung aus einem passenden Zahlenwert ableiten. Keine neueMassenrechnung.
+H/G-Pfad erst bei neuem konkretem Kanal-/Operatorbeleg oder identifizierter
+Parallelherleitung wieder aufnehmen; nicht weiterhin Zwischenpfade erfinden
+oder dieselben Seiten ohne neue Frage suchen. Breite moderneEmpirie bleibt
+nachgeordnet. Quellen-/Versionsgrenzen und alteProfile weiterhin erhalten.
 
 ## Verlauf: einundzwanzigste Etappe abgeschlossen
 

@@ -6,6 +6,13 @@ Dieses Register sammelt Fundstellen. Lokale Kopien sollten nur abgelegt werden, 
 
 ## Enger Pruefstand 2026-09-06
 
+Etappe22: H004(98),II263/264,266-268 und272-274 auf feste Parameter,
+gekoppelte H/G-Komponenten und getrennte gewichtete Endgrenzen geprueft.
+Gemeinsame rohe Komponentenkurve ist nur eine ausgeschlossene Zusatzlesart,
+kein vom Autor geforderter Pfad. Konkrete Zwischenwerte/Operatorzuordnung
+bleiben offen. Umfang/Hashes: `03_notes/POTENTIAL_PATH_SOURCES_2026-09-06.md`.
+Keine neue Quelle importiert oder urspruengliche PDF geaendert.
+
 Etappe21: H003I106/108-111 und H004II271-275 auf skalierte Variation
 gegen inneren Argumentshift sowie gemischte H/G-Schritte geprueft.
 M7-Shift ist gedruckt, Gleichheit mit a*delta nicht hergeleitet; H004s
