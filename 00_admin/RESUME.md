@@ -2,7 +2,18 @@
 
 Aktualisiert: 2026-09-06.
 
-## Aktuell: zwoelfte Etappe abgeschlossen
+## Aktuell: dreizehnte Etappe in Arbeit
+
+Ausgang bf96741. Nutzer bestaetigt die phi/U-Bruecke und versionsgebundene
+Pruefung: fehlende Beziehung spaeter geliefert oder Schwierigkeit unter
+anderen Voraussetzungen umgangen? Keine Chronologie ungeprueft behaupten.
+Plan PHI_U_BRIDGE_PLAN; drei begrenzte Reviews PHI_U_MANUSCRIPT,
+PHI_U_IGW und PHI_U_MATH beauftragt. Root Quellenkontext/Synthese.
+H013(21b)/(21b1) gegen H007B49/B50 und W0; B49-/BUW-Scope bereits
+resolved, nur B50-Vorzeichen im betrachteten Block noch blocked.
+Alte Rechner/Snapshots erhalten; keine komplette Massenrechnung.
+
+## Verlauf: zwoelfte Etappe abgeschlossen
 
 Ausgang94c55a0, Nutzer bestaetigt eta22-Rollenpruefung B47/B55.
 Plan ETA22_ROLES_PLAN erledigt; Plancheckpoint4b8b4f0 und Quellen-/
