@@ -39,9 +39,18 @@ lokal erhalten, nicht in Git aufnehmen.
 
 ## Abschlusskriterien
 
-- [ ] Formeln, Fassungen, Voraussetzungen und Fitstatus gegengeprueft.
-- [ ] Schliessung versus Umgehung versus offene Herleitung unterschieden.
-- [ ] B50-Bilanz explizit; keine stillschweigende Reparatur.
-- [ ] Begrenzte Mathematik unabhaengig und durch Root ausgefuehrt.
-- [ ] Bericht, Register/Karte und Wiedereinstieg aktualisiert.
-- [ ] Regressionen bestanden, Arbeit committed und gepusht.
+- [x] Formeln, Fassungen, Voraussetzungen und Fitstatus gegengeprueft.
+- [x] Schliessung versus Umgehung versus offene Herleitung unterschieden.
+- [x] B50-Bilanz explizit; keine stillschweigende Reparatur.
+- [x] Begrenzte Mathematik unabhaengig und durch Root ausgefuehrt.
+- [x] Bericht, Register/Karte und Wiedereinstieg aktualisiert.
+- [x] Regressionen bestanden, Arbeit committed und gepusht.
+
+Ergebnis: Binnenmanuskript-Formelbruecke und expliziter Vorwaertspfad,
+keine gezeigte unabhaengige Dynamikherleitung. Autoren-Fit-/Fortschreibungs-
+vorbehalte erhalten. B50 nicht entschieden; konkreteU-Probe wegenP=Q
+vorzeichenunabhaengig. Zwei lokale Massen-Fassungsgrenzen dokumentiert.
+24 Befundgruppen,49 alte Normalisierungen unveraendert. Acht Snapshots,
+98 Tests und Registervalidator bestehen. Drei unabh.Codebloecke durch
+Root ausgefuehrt. Checkpoints8d0e45e/d9acc21 gepusht; Abschlussnachricht:
+`Complete phi U bridge findings and version-aware handoff`.

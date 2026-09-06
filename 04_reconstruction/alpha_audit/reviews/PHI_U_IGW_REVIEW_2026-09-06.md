@@ -1,6 +1,6 @@
 # phi/U in H007: bounded source review
 
-Date: 2026-09-06  
+Date: 2026-09-06
 Scope: visual transcription and dependency reconstruction only for H007
 `Erweiterte_Massenformel_Nach_Heim_1989.pdf`, especially B3--B5,
 B22--B28, and B47--B51.  The undated H013 scan is used once as an

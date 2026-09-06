@@ -274,7 +274,7 @@
       "not_established": "Keine komplette b2-/Lebensdauer-/Massenrechnung oder physikalische eta22-Ursache. Fehlende sichtbare kappa-Schliessklammer in H007 bleibt offen; kein frei variierbarer Heim-Parameter, kein allgemeines Monotoniegesetz, kein gleiches T fuer alle Teilchen und kein Nachlass-Nichtexistenzbeweis.",
       "evidence_paths": ["06_docs/ETA22_ROLES_2026-09-06.md", "03_notes/ETA22_ROLES_SOURCE_CONTEXT_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/ETA22_ROLES_IGW_REVIEW_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/ETA22_ROLES_MANUSCRIPT_REVIEW_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/ETA22_ROLES_MATH_REVIEW_2026-09-06.md"],
       "reproduction": "Exakte Koeffizientenzerlegung und ausfuehrbarer Machin-pi-Code im Review, 13 Konstanten80/120Stellen, max.skalierteDifferenz<1.89e-80; vonRoot separat ausgefuehrt. Vollseitenpruefung stattOCR-Formeln.",
-      "next_check": "H013(21b)/(21b1) verbindet Existenzzeitanalyse mit Selbstkopplung phi in der Masse; versionsgebunden mit H007(B49)/(B50) und W0 vergleichen. B55-Gesamtklammer vor jedem kompletten Lebensdauerrechner klaeren."
+      "next_check": "Etappe13/FIND-023 verfolgt H013(21b)/(21b1) bis zum Massenbeitrag: explizite, teilweise empirisch bestimmte Formelbruecke, keine geschlossene Dynamikherleitung. B50 und B55-Gesamtklammer bleiben vor ganzem Massen-/Lebensdauerrechner zu klaeren; naechster Anschluss Gamma/Q_N."
     },
     {
       "finding_id": "FIND-022",
@@ -287,7 +287,33 @@
       "not_established": "Keine Chronologie oder richtige Fassung bestimmt, kein1989-Original identifiziert, keine empirische Widerlegung. Kein Austausch alter Alpha-Inputs/Snapshots und keine vollstaendige H013/H014-Gleichheit aus aehnlichen Formeln.",
       "evidence_paths": ["06_docs/ETA22_ROLES_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/ETA22_ROLES_MANUSCRIPT_REVIEW_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/ETA22_ROLES_MATH_REVIEW_2026-09-06.md"],
       "reproduction": "Separater zweiter/dritter Python-Codeblock im Mathematikreview; H014/H007 fuenf Groessen80/120Stellen,max.abs.Differenz<4.50e-81; H013/H007 vier Groessen<6.57e-82. Keine Alpha-Zweige gerechnet.",
-      "next_check": "Versionen in jeder weiteren Herleitung getrennt halten. Historische Reihenfolge nur mit datierten Textzeugen bestimmen; keine Wahl anhand eines passenden Alpha-Zielwerts."
+      "next_check": "Versionen in jeder weiteren Herleitung getrennt halten. Historische Reihenfolge nur mit datierten Textzeugen bestimmen; keine Wahl anhand eines passenden Alpha-Zielwerts. FIND-024 ergaenzt lokale Unterschiede am Massenanschluss."
+    },
+    {
+      "finding_id": "FIND-023",
+      "kind": "conditional_bridge",
+      "claim": "H013 verbindet den anfangs als N4*K*delta definierten Selbstkopplungsanteil phi mit der spaeteren expliziten Formel(21b)/(21b1) aus dem Existenzzeitabschnitt. Der lokale Vorwaertspfad benoetigt kein gemessenes M/T als Argument von phi; benannte Konstanten sind laut Autor empirisch angepasst und die Dynamikherleitung wird nicht ausgefuehrt.",
+      "source_ids": ["H013", "H007"],
+      "source_locator": "H013 Druck13-15/PDF14-16 (4)/(5c)/(5e), Druck17-19/PDF18-20 W0, Druck29-32/PDF32-35 (21)-(21h), Druck37/PDF40. H007 B3/B5/B7/B22-B31/B47-B52, Druck20/PDF11.",
+      "assumptions": "Grundzustandskontext N=0; getrennte Fassungen und Symbole F_mass/F_time sowie y_W/y_time. Gewoehnliche reelle Algebra mit definierten nichtnulligen Nennern; restliche Parameter bei lokalen Diagnosen fest. Plus-/Minusvarianten sind keine entschiedenen Quellenversionen.",
+      "scope": "Explizites Formelschema und begrenzte Algebra: dphi/dU=-4*A_phi*B/W0; direkter N0-Massenkoeffizient mu*alpha_plus; gemeinsamer phi-Eingang fuer M und T statt erzwungenem Ausgabe-Kreis. B50-Variantendifferenz proportional(k-1)(P-Q)(1-q); beim Delta-Kontexttupel U=3840/eta22^2=5410.9051480994046... vorzeichenunabhaengig. H01337 erwartet moegliche spaetere Korrekturen, ohne sie bereits zu liefern.",
+      "not_established": "Keine eindeutige B50-Vorzeichenwahl, kein ganzer Massen-/Lebensdauerrechner, keine vollstaendige Zustandsauswahl oder globale Kreisfreiheit. Kein datumsloser Entwicklungsstammbaum, kein unabhaengiges Kalibrierungsprotokoll oder Nachlass-Nichtexistenzbeweis. Keine Herleitung von K durch blosses Umstellen K=phi/N4 und kein neuer Fit von eta22/Alpha bewiesen.",
+      "evidence_paths": ["06_docs/PHI_U_BRIDGE_2026-09-06.md", "03_notes/PHI_U_SOURCE_CONTEXT_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/PHI_U_MANUSCRIPT_REVIEW_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/PHI_U_IGW_REVIEW_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/PHI_U_MATH_REVIEW_2026-09-06.md"],
+      "reproduction": "Drei ausfuehrbare Codebloecke im Mathematikreview:96 exakte rationale Selektor-/Weitergabefaelle, sechs Quotientendifferenzen, unabh. Machin-pi80/120 fuer eta22 undU mit max.abs.Abweichung<4.77e-77. Root hat alle drei separat ausgefuehrt; keine Intervallzertifizierung.",
+      "next_check": "Gamma/Q_N-Anregungs-/Auswahlgrenze und Verstaendnisbilanz. Phi-Dynamik bzw. historisches Anpassungsverfahren nur mit konkreten neuen Quellen wieder aufnehmen; B50 nur durch neue Editions-/Rechenbelege, nicht Trefferfit, entscheiden."
+    },
+    {
+      "finding_id": "FIND-024",
+      "kind": "version_difference",
+      "claim": "Am phi-Massenanschluss unterscheiden sich H013 und H007 sichtbar: H013(4) multipliziert den Ladungszusatz4q*alpha_minus nicht mit alpha_plus, H007(B3) schon; H013(5c) traegt N1 im ersten n-Term, H007(B5) nicht. Die delta-Selektion von phi steht ebenfalls an unterschiedlicher Stelle.",
+      "source_ids": ["H013", "H007"],
+      "source_locator": "H013 Druck13/14/PDF14/15 (4)/(5c)/(5e)/(5e1); H007 Druck11/12/PDF2/3 B3/B5/B7 und explizite phi-Wiederholung.",
+      "assumptions": "Lokale visuelle Strukturvergleiche, keine Gleichsetzung aller gleichnamigen Konstanten oder beabsichtigten Ausgaben. H013phi bereits selektiert, H007phi-Beitrag inB5 durchdelta selektiert. Kein zusaetzliches N4 in21b einsetzen.",
+      "scope": "Fassungsgrenzen vor jeder Gesamtauswertung. Der isolierte direkte phi-Koeffizient beiN0 ist trotzdem mu*alpha_plus in beiden Strukturen. Keine neue Massendifferenz numerisch berechnet und keine aeltere Transkription ueberschrieben.",
+      "not_established": "Keine chronologische Korrekturrichtung, richtige Gesamtfassung, empirische Widerlegung oder gleiche Bedeutung aller Hilfsparameter bewiesen. Zwei lokale Unterschiede sind keine vollstaendige Massenversionenrekonstruktion.",
+      "evidence_paths": ["06_docs/PHI_U_BRIDGE_2026-09-06.md", "03_notes/PHI_U_SOURCE_CONTEXT_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/PHI_U_MANUSCRIPT_REVIEW_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/PHI_U_MATH_REVIEW_2026-09-06.md"],
+      "reproduction": "Root-Vollseitenvergleich H013PDF14/15 undH007PDF2/3, unabhaengige Gegenlesung der Massenklammer; nur lokaler phi-Koeffizientenvergleich, kein passender Zahlenwert als Editionsentscheidung.",
+      "next_check": "Vor einem vollstaendigen Massenfall muessen Fassung und alle Eingangsgroessen separat festgelegt sein; gemeinsame Symbole oder gleiche Tabellenziele begruenden keine Fusion."
     }
   ]
 }

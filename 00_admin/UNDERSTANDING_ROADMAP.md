@@ -25,12 +25,12 @@ Ergebnis; sie werden nicht als stillschweigende Definitionen behandelt.
 
 ## Naechste begrenzte Arbeitseinheit
 
-1. Nach Etappe12: Selbstkopplung phi/U in H013(21b)/(21b1) mit H007B49/B50
-   und W0 versionsgebunden vergleichen. Die Existenzzeitanalyse ist im
-   Autorentext ein konkreter Anschluss zur Massenfunktion. Klammern,
-   empirische Anpassungen und Abhaengigkeiten vor einem ganzen Rechenfall.
-2. Anschliessend Gamma/Q_N und Verstaendnisbilanz;
-   Quellen-/Mathematikreview und Checkpoint je begrenzter Einheit.
+1. Nach Etappe13: Gamma/Q_N und Anregungs-/Auswahlgrenze versionsgebunden
+   rekonstruieren, nicht ohne Beleg mit einer modernen Zerfallsbreite
+   gleichsetzen. Quellen-/Mathematikreview und Checkpoint je Einheit.
+2. Anschliessend Verstaendnisbilanz: vorhandene Rechenvorschriften,
+   dynamische Herleitungen, empirische Kalibrierung und Editionsluecken
+   unterscheiden. Noch kein stiller Uebergang zum Massengesamtrechner.
 3. Offene F/G-Normierung und metronische Extremumsregel nur bei konkreter
    Quellbruecke erneut aufnehmen; keine Wiederholung derselben Rueckverweise.
 
@@ -64,6 +64,15 @@ H013-Alpha nochmals verschieden durch zusaetzlich3/(pi*eta) gegen H007.
 Buch nennt N0-Heuristik; IGW berichtet fehlende Neuimplementierung des
 Lebensdauerteils.22 Befundgruppen, keine22 Fehler; B59-Herleitung bleibt
 offen. Keine erneute ungezielte Eta-Indexsuche; neue phi/U-Quellen verfolgen.
+
+Etappe13: PHI_U_BRIDGE_2026-09-06.md. Direkter phi-Formelanschluss und
+lokaler Vorwaertspfad gefunden, aber keine unabhaengige Dynamikherleitung;
+H01337 benennt empirische Anpassung und moegliche spaetere Korrekturen.
+Die Ausfuehrung dieser Korrekturen/Chronologie bleibt unbelegt. H013/H007
+zeigen am Massenanschluss unterschiedliche Alpha-Klammer und N1-Faktor.
+B50-Zeichen nicht entschieden; Delta-U-Test ist vorzeichenunabhaengig.
+24 Befundgruppen, keine24 Fehler;49 Normalisierungen unveraendert.
+Keine erneute B49-/BUW-/2^Z-Suche ohne neue Editionsbelege.
 
 Offene Seitenzweige: H-Wellen-/Flussobjektidentitaet, Phase/Frame, operative
 pc-Arbeitsbilanz und physikalische Meridianregel. Aus Etappe7 liegt jetzt

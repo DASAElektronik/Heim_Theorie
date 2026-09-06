@@ -28,7 +28,10 @@ quellenbelegt sein, ohne dass ihre physikalische Richtigkeit bewiesen ist.
 | eta22 in H007 | B47 Existenzzeit, B55 b2, B59 C_prime | Wiederholt verwendete Formelkonstante | Kein Beleg, dass der Delta-Zustand die Alpha-Korrektur verursacht |
 | H013 Lebensdauer(21)/(21f) | Druck29-31/PDF32-34 | Direkter Autorenanschluss zu B47/B55 | Globaler inverser Faktor und lokaler q(2-q)-Term getrennt; keine besondere eta22-Deduktion |
 | B55-Hilfsterm | b2 -> y(B48) -> T(B47) | Lebensdauer, nicht direkte eigenstaendige Massenkorrektur | Lokaler eta22-Koeffizient bei q0/q2 null; gesamte b2-Klammer noch nicht eindeutig normalisiert |
-| H013 Existenzzeitanalyse | (21b)/(21b1): phi/U, phi zuvor in(5e) | Selbstkopplungsanteil der Massenformel | Direkter naechster Quellenanschluss, noch kein vollstaendiger Rechenfall |
+| H013 Existenzzeitanalyse | (21b)/(21b1): phi/U, phi zuvor in(5e) | Selbstkopplungsanteil der Massenformel | Etappe13: explizites Schema, teilweise empirische Konstantenwahl; unabhaengige Dynamikherleitung nicht gezeigt |
+| H007 B50/B49 | U -> phi -> F_mass(B5) -> M(B3) und phi -> y(B48) -> T(B47) | Gemeinsamer Eingabepfad fuer Masse und Zeit | Kein lokal erzwungener Ausgabe-Kreis; F_mass/F_time und y_W/y_time getrennt, globale Zustandsauswahl nicht geprueft |
+| Fragliches U-Vorzeichen | Variantendifferenz proportional(k-1)(P-Q)(1-q) | Unterschied von U und bedingt phi/M/T | Delta-Kontext P=Q unterscheidet Lesarten nicht; kein Vorzeichenfit oder stilles Erratum |
+| H013/H007-Massenanschluss | (4)/(5c) gegen B3/B5: Alpha-Klammer und N1-Faktor verschieden | Fassungsgetrennte Massenrechnung | Lokale Grenze belegt, keine Gesamtformel fusioniert |
 | H014 Alpha-Internkorrektur | Druck26/PDF28 (21a): Nenner eta11^2 | Andere K_alpha-Fassung als H007B59 | Gemeinsames eta22 macht Formel nicht identisch; Chronologie offen |
 | H013 Alpha-Internkorrektur | Druck33/PDF36 (22a): zusaetzlicher Faktor3/(pi*eta) gegenueber H007 | Dritte K_alpha-Fassung | Quellen- und lokale Zahlenvergleiche, keine neuen Alpha-Zweigprofile |
 | Freies gegen gebundenes Elektron | H013 Druck11/PDF12 und H011/1981 | Motiv einer Strukturkorrektur | Autorenmotiv belegt, spezielle Form C_prime nicht hergeleitet |
@@ -55,7 +58,9 @@ Die Kurzform k_max=2,q_max=3 ist auch kein kartesisches Produkt aller Paare.
 | H-Welle und Flussaggregat | Bedingte w_f=c-Bruecke vorhanden | Explizite Objekt-, Phasen- und Bezugssystemzuordnung; dann alte Wellendiagnosen erneut pruefen |
 | C und Y3 | C=P und Y3=1 mit P=A1*A2 berechenbar, nicht vollstaendig unabhaengig begruendet | Neue Normierungs-/Randbedingung mit Bezug auf dasselbe C, nicht auf ein gleichnamiges Symbol |
 | pc als Arbeitsanteil | Wiederholt verwendet, operative Zuordnung offen | Explizite Arbeits-/Messvorschrift im H-Modell |
-| Historische Massenblocker | B50 und Gamma/Q_N offen | Zugehoerige Originalfassung und vollstaendige Abhaengigkeitskette |
+| B50-Vorzeichen | Etappe13 findet auch in H013 zwei Minusglyphen am Umbruch; Fortsetzungslesart plausibel, aber kein belegtes H007-Erratum | Neue Editions-/Rechenunterlagen; nicht erneut gleiche Bilder oder nach Zahlentreffern entscheiden |
+| Phi-Dynamik/Kalibrierung | Explizites Formelschema und Fitvorbehalt in H01337, keine gezeigten dynamischen Zwischenschritte | Herleitung desselben Ausdrucks bzw. nachvollziehbare Datenauswahl und Anpassungsprotokoll |
+| Historischer Gamma/Q_N-Blocker | Weiter offen; nicht durch phi-Form geschlossen | Naechste begrenzte Quellen-/Geltungsrekonstruktion, keine Gleichsetzung mit moderner Zerfallsbreite |
 
 Die Karte legt fest, wann eine alte Frage erneut aufgerufen wird. Sie soll
 neue Zusammenhaenge sichtbar machen und zugleich verhindern, dass wir
@@ -89,5 +94,13 @@ Lebensdauerformeln gefunden; H014 anderer Umfang/Alpha-Nenner. H01337
 verwendet q2 fuer Delta-Resonanzen auch im Text, ueber die alte reine
 Va-Tabellenlesung hinaus. Keine Gesamtvalidierung der Resonanzen.
 FIND-021 Rollen, FIND-022 Fassungsunterschiede:22 Gruppen, keine22 Fehler.
-Naechster konkreter Anschluss: H013(21b)/(21b1) mit H007B49/B50 und W0,
-Selbstkopplung phi vor ganzem Massenfall; danach Gamma/Q_N und Bilanz.
+Der angekuendigte phi/U-Anschluss ist in Etappe13 bearbeitet.
+
+Etappe13: PHI_U_BRIDGE_2026-09-06.md. H013 fuehrt den fruehen phi-Platz
+bis zum expliziten Lebensdauerausdruck; kein M/T-Rueckloesen benoetigt,
+aber Konstantenwahl laut Autor teilweise empirisch. Autorenabsicht spaeterer
+Rueckkorrekturen belegt, deren Durchfuehrung nicht. B50 bleibtblocked;
+Delta-Kontext U=3840/eta22^2 ist vorzeichenunabhaengig. FIND-023 bedingte
+Bruecke, FIND-024 lokale Massen-Fassungsgrenzen:24 Gruppen, keine24 Fehler.
+Naechster konkreter Anschluss: Gamma/Q_N und Anregungs-/Auswahlgrenze,
+dann Verstaendnisbilanz; keine wiederholte B49-/BUW-/2^Z-Suche.

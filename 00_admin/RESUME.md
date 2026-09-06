@@ -2,16 +2,85 @@
 
 Aktualisiert: 2026-09-06.
 
-## Aktuell: dreizehnte Etappe in Arbeit
+## Aktuell: dreizehnte Etappe abgeschlossen
 
-Ausgang bf96741. Nutzer bestaetigt die phi/U-Bruecke und versionsgebundene
-Pruefung: fehlende Beziehung spaeter geliefert oder Schwierigkeit unter
-anderen Voraussetzungen umgangen? Keine Chronologie ungeprueft behaupten.
-Plan PHI_U_BRIDGE_PLAN; drei begrenzte Reviews PHI_U_MANUSCRIPT,
-PHI_U_IGW und PHI_U_MATH beauftragt. Root Quellenkontext/Synthese.
-H013(21b)/(21b1) gegen H007B49/B50 und W0; B49-/BUW-Scope bereits
-resolved, nur B50-Vorzeichen im betrachteten Block noch blocked.
-Alte Rechner/Snapshots erhalten; keine komplette Massenrechnung.
+Ausgang bf96741. Nutzer bestaetigt versionsgebundene phi/U-Pruefung:
+liefert ein anderer Zugang die fehlende Beziehung oder umgeht er sie?
+Plan PHI_U_BRIDGE_PLAN erledigt. Plancheckpoint8d0e45e und Quellen-/
+Reviewcheckpointd9acc21 erfolgreich gepusht. Abschlusscommit-Nachricht:
+`Complete phi U bridge findings and version-aware handoff`.
+Bericht `06_docs/PHI_U_BRIDGE_2026-09-06.md`. Drei PHI_U-Reviews und
+unabhaengige Schlussgegenlesung fertig; keine laufenden Agenten noetig.
+
+- Direkte Binnenmanuskriptbruecke H013: Druck13/14/PDF14/15 (5e)
+  phi=N4*K*delta; K als Selbstkopplung der p-/sigma-Zonen mit x4-Bezug
+  und Vorverweis21b. Druck29/30/PDF32/33 liefert phi/U explizit nach
+  behaupteter Existenzzeitanalyse. Druck32/PDF35 bestaetigt den Anschluss
+  an M(4) und die Vorwaertsreihenfolge. Formelschema gefunden, aber keine
+  dynamische Zwischenherleitung und wegen U-Zeichen keine eindeutige
+  Gesamtauswertung. K=phi/N4 beiN0 ist nur algebraische Rueckgewinnung.
+- Kein gemessenes M/T auf expliziter phi-/U-Rechtsseite. Lokaler Weg
+  B/U/W0/N4->phi->F_mass->M und phi->y_time->T mit M im Nenner.
+  Keine globale Kreisfreiheit behaupten: B15 verwendet M0 in einer
+  Auswahlgrenze, gesamte Zustandswahl/Kalibrierung nicht rekonstruiert.
+  F_mass(B5/5c) NICHT F_time(B52/21c); H013 y_W(13e/13e1) NICHT
+  y_time(21a). H007 nennt y_W bereits y'. Keine Scheinkreise erzeugen.
+- B49-Scope/BUW-Produkt bereits resolved, erneut bestaetigt. 2^Z war
+  schon vorher richtig. H01321b-Nenner2*vartheta*alpha, KEINE vierte
+  Alpha-Wurzel; Zwischenlesung in Gegenpruefung korrigiert. N4 nicht
+  nochmals auf den ganzen21b-Ausdruck multiplizieren. H013delta bereits
+  in phi, H007 delta im Massenbeitrag B5. N0-Geltung erhalten.
+- H007 B50 weiterhin blocked: same-line Doppelminus Druck12/PDF3 und
+  Umbruchminus Druck17/PDF8; auch H013 Druck30/PDF33 zwei sichtbare Glyphen.
+  Einfache Subtraktion als Fortsetzungslesart plausibel, kein belegtes
+  Erratum oder gleichgesetztes1989-Original. Keine Vorzeichenwahl ausFit.
+- Exakt Delta_U=U_plus-U_minus proportional(k-1)(P-Q)(1-q),
+  Delta_phi=-(4*A_phi*B/W0)*Delta_U. k1/P=Q/q1 unterscheiden Vorzeichen
+  nicht; auch p=0/sigma=-Qsigma koennen die Weitergabe an phi ausschalten.
+  Nicht ganz phi oder die ganze Lebensdauer null! Nenner regulaer halten.
+- Delta-Kontexttupel k2,P3,Q3,kappa0,q2: U=3840/eta22^2=
+  5410.905148099404631131279413983334... in BEIDEN Varianten. NurU,
+  kein W0/phi/M/T-Vollzustand und keine physikalische Validierung.
+- Bei N0 und festem Rest M=M_rest+mu*alpha_plus*phi;
+  T=K_time*[J+(1+J)*phi]/[M_rest+mu*alpha_plus*phi]. Quotienten-
+  ableitung bestaetigt, keine allgemeine Monotonie. Anders als die
+  Etappe12-Vorkommensdiagnose wird direkter M(phi)-Beitrag mitgefuehrt.
+- H01337/PDF40 nennt root4(2),(pi/e)^2,4pi*root4(1/2) ausdruecklich
+  empirisch angepasst. Erwartet ausserdem moegliche Rueckkorrekturen der
+  Resonanzbeziehungen14a-14b1 sowie Phi/phi durch weitere Untersuchungen.
+  Fortschreibungsabsicht belegt, deren spaetere Ausfuehrung/Datierung
+  nicht. Kein konkretes Anpassungsprotokoll oder Alpha-/eta22-Fit bewiesen.
+- Neue lokale Massen-Fassungsgrenzen: H013(4) mu*[(G+S+F+Phi)*alpha+
+  +4q*alpha-] vs H007B3 mu*alpha+*[(G+S+F+Phi)+4q*alpha-]. H0135c
+  erster n-Term mit N1, H007 B5 ohne N1. Keine Gesamtmassendifferenz oder
+  richtige Fassung abgeleitet; direkter N0-phi-Koeffizient beiderseits mu*alpha+.
+- H004 II335/PDF341 explizit heuristische A_im/A_66-Bestimmung und Y_k
+  mit Index k>3; S00574 Grundmustergenerator/empirisch eingegrenzte w/f(N).
+  Getrennte Kontexte, keine Gleichsetzung dieser alten Groessen mit phi/U/W0.
+
+Root hat alle tragenden H013/H007-Vollseiten, relevante Hilfsseiten,
+H004335 undS00574 gegengelesen. Drei Mathematik-Codebloecke separat
+ausgefuehrt:96 exakte rationale Selektor-/Weitergabefaelle,6 exakte
+Quotientendifferenzen; unabh. Machin-pi80/120 fuer eta22/U, max.abs.
+Abweichung<4.77e-77. Keine Intervallzertifizierung oder Messunsicherheit.
+Acht bisherige Snapshot-/verfuegbare Quellchecks,98 Softwaretests und
+Registervalidator erfolgreich.24 Befundgruppen (keine24 Fehler): FIND023
+bedingte Bruecke, FIND024 lokale Massenfassungen. Alte8 Rechner/Inputs/
+Snapshots/Tests und49 Normalisierungen unveraendert (47 resolved,2 blocked).
+
+Naechster konkreter Anschluss: alter Gamma/Q_N-Blocker
+`04_reconstruction/formula_library/normalization/decisions/NORM-1982-N-GAMMA-QN-BLOCKER.md`.
+H006 Text378-380 fragt nach der Bandbreitenbeziehung;395-399 nimmt fuer
+numerische Enumeration Q(0), definiert damit NICHT Q(N). Zugehoerige Vollseiten
+und H013 z(N)/T_N-/Anregungskontext vergleichen, keine gleichnamige moderne
+Zerfallsbreite einsetzen. Danach Verstaendnisbilanz. Keine erneute B49-/
+BUW-/2^Z-Suche; B50 nur bei neuen Editions-/Rechenbelegen erneut entscheiden.
+Keine moderne Widerlegungsrecherche oder Hardwarearbeit in dieser Etappe.
+
+Quellhashes/Pruefumfang: `03_notes/PHI_U_SOURCE_CONTEXT_2026-09-06.md`.
+Nachpruefung: acht Befehle in scripts/README.md, Registervalidator und
+`py -3.13 -m unittest discover -s tests -q`. Fremd-PDFs/Arbeitsbilder
+lokal erhalten, nicht committed. Finalen HEAD/Remote-Abgleich mit Git pruefen.
 
 ## Verlauf: zwoelfte Etappe abgeschlossen
 
