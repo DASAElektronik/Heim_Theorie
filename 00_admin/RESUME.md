@@ -2,7 +2,14 @@
 
 Aktualisiert: 2026-09-06.
 
-## Aktuell: dreiunddreissigste Etappe abgeschlossen
+## Aktuell: Etappe 34 begonnen
+
+Ausgang `7241cf1`, Vertrag `XI_ORIGIN_PLAN.md`. Auftrag: (96b)-Ursprung
+von xi und konkreten Sigma-/A-Auswahlanschluss pruefen; eigene
+Rekurrenzmathematik von Quellenvoraussetzungen trennen. Keine neue
+A-Sensitivitaets-/Massenrechnung, alte Profile und Befunde erhalten.
+
+## Verlauf: dreiunddreissigste Etappe abgeschlossen
 
 Ausgang `df9dff6`, Plancheckpoint `3185574`.
 Vertrag: `EXTERNAL_APPROXIMATION_PLAN.md`.
