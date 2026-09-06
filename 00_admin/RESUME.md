@@ -2,6 +2,15 @@
 
 Aktualisiert: 2026-09-06.
 
+## Aktuell: vierte Etappe in Arbeit
+
+Nutzer: "Ok sehr gut, ja dann machen wir weiter". Ausgangspunkt 4ee1e1f,
+Arbeitsbaum sauber. Plan: `ENERGY_KINEMATICS_PLAN.md`.
+Quellenagenten verfolgen Masse/Energie und Wellenlaenge/Geometrie getrennt;
+Mathematikreview unabhaengig. Hauptagent implementiert nur bedingte,
+ungefittete Diagnosen und erklaert die Quellenkette. Originale und alte
+Snapshots unveraendert lassen; keine moderne Widerlegungsrecherche vorziehen.
+
 ## Aktuell: dritte Etappe abgeschlossen
 
 Auftrag: mit Heim weiterarbeiten, Herleitung erklaeren. Abgeschlossener Plan:
