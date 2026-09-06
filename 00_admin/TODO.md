@@ -12,7 +12,9 @@ Massgeblich ist Etappe 19 in `RESUME.md`; die aeltere Detailhistorie folgt darun
 - [x] Empirische A/B-Wahl und korrekte nachfolgende Algebra getrennt dokumentieren.
 - [x] H004272-275: lokale Annahmen und Nicht-Eindeutigkeit der A/B-Wahl unter benannten Bedingungen pruefen.
 - [x] Eigene Grenz-/Ankerfamilien und bedingt eindeutigen C_k-Faktor getrennt gegenrechnen.
-- [ ] H004273/274: metronische Operatorregel, untere Grenzkorrektur und Potentialverhaeltnisse aus(98) herleiten.
+- [x] H004273/274 gegen M2/M2a/M7/M8 pruefen: lnY exakt und vier Potentialquotienten bedingt erklaert; Untergrenzenindex und Naeherungsgenauigkeit offen ausgewiesen.
+- [ ] Delta/delta_e-Argumente und Schrittweiten im konkreten X/H/G-Pfad samt indizierten Potentialgrenzen klaeren.
+- [ ] Tatsaechliche relative Potential-/H/G-Spruenge und gemeinsamen Logrest rekonstruieren; erst dann alpha3-/Massenfehler fortpflanzen.
 - [ ] H015PDF39/41 gegen H006XIV/XXVI unabhaengig lesen, bevor FIND-027 fortgeschrieben wird.
 - [ ] Keine stillen Profilkorrekturen; urspruengliches Formelblatt und H006-Fehlerursache bleiben offen.
 

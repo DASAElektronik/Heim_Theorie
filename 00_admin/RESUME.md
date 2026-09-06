@@ -2,13 +2,44 @@
 
 Aktualisiert: 2026-09-06.
 
-## Aktuell: zwanzigste Etappe in Arbeit
+## Aktuell: zwanzigste Etappe abgeschlossen
 
-Ausgang bb24534. Plan `METRONIC_INTEGRATION_PLAN.md`: H003M2/M2a/M7/M8
-und H004273/274 auf exakte diskrete Regeln, Randkorrektur und Naeherungen
-pruefen. book_derivation Operatordefinitionen, alpha_versions Potentiale;
-Root liest selbst und entwickelt konkrete Tests. Kein Massenfit oder
-Profilwechsel. Abschluss und Ergebnisse noch ausstehend.
+Ausgang bb24534, Plancheckpoint 2b12a48. Bericht:
+`06_docs/METRONIC_INTEGRATION_2026-09-06.md`, Quellenumfang:
+`03_notes/METRONIC_INTEGRATION_SOURCES_2026-09-06.md`.
+Abschlusscommit-Nachricht: `Audit metronic endpoints and logarithm approximation`.
+Bei Fortsetzung HEAD/Remote pruefen; keine laufenden Agenten erforderlich.
+
+- H003 M2/M2a: deltaF(n)=F(n)-F(n-1), inklusive Summe a..b gibt
+  F(b)-F(a-1). H004 lnY=ln[X(z+1)/X(z-1)] exakt erklaert, zwei Schritte.
+- M3a/M8 sind endliche Produkt-/Quotienten-/Kettenregeln. M7 aufI109
+  verwendet ausdruecklich Naeherung. Root relevante Vollseiten selbst gelesen.
+- Untere Grenze: F(b)-F(a) verlangt Start a+1; V_(a+1)=V_a+deltaV_(a+1),
+  nicht generell V_a+deltaV_a. H004s delta_e-Zusatz ist nicht indiziert;
+  Mechanismus erklaert, konkrete Potentialgrenzenumsetzung bleibt offen.
+- X-Fibonacci: unter woertlichem M2 deltaX/X->0.381966011250105...,
+  delta lnX->0.481211825059603... . Grosses z allein macht Rest nicht klein.
+  Einzelrest0.099245813809498..., Zweischrittrest0.198491627618996... .
+- Keine alpha3-/Massendifferenz daraus ableiten: H/G-Gesamtrest kann andere
+  E(r)-Beitraege kompensieren, gemischte delta/delta_e-Wirkung ist zu klaeren.
+  Skalarer Operatorfaktor verbessert nicht relative Genauigkeit; echter
+  kleiner Argumentshift ist eine andere Operation. Keine PauschalwiderlegungM7.
+- Vier Potentialquotienten aus(98) und gesetzten Endpotentialen bedingt
+  bestaetigt; Radius/Faktor/epsilon gemeinsam. rho nicht q; e Eulerzahl.
+  Lokaler B'_1-Druck aufII274 gegen B1 aufII273/275 offen vermerkt.
+- Drei METRONIC*-Reviews; Root fuehrte den unabhaengigen Reviewblock erneut
+  aus:13Felder80/120Stellen, max.rel.Differenz3.072074353802e-80. Eigene
+  rationale Logintervalle und14neueTests,158gesamt; zehn alte Rechenchecks
+  undQuellhashes bestanden. FIND-032,32Befundgruppen, keine32Fehler.
+  Alte Rechner/Inputs/Snapshots und49Normalisierungszeilen unveraendert.
+
+Naechster enger Auftrag: Bedeutung der Argumente/Schrittweiten von delta
+und delta_e im konkreten H004-X/H/G-Pfad samt Potential-Untergrenzenindex
+verfolgen. Dann relative Potential- und H/G-Schritte samt gemeinsamem
+Rest erfassen; erst danach moegliche alpha3-/Massenfortpflanzung. Keine
+synthetischen Schritte als physikalische Werte einsetzen, keine Trefferfits.
+H015PDF39/41 gegen H006XIV/XXVI bleibt separat vorgemerkt; breite moderne
+Empirie nachgeordnet. Quellen-/Kontextgrenzen der letzten Etappen erhalten.
 
 ## Verlauf: neunzehnte Etappe abgeschlossen
 

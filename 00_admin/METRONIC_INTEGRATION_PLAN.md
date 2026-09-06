@@ -24,7 +24,13 @@ H015-XIV/XXVI und moderne Empirie weiterhin getrennt/nachgeordnet.
 
 ## Abschlusskriterien
 
-- [ ] Exakte Definitionen und Approximationsvoraussetzungen bildlich belegt.
-- [ ] Mindestens Y-/Randgrenzenanschluss konkret geprueft oder begrenzt offen.
-- [ ] Eigene Mathematiktests ohne unbewiesene physikalische Schrittannahmen.
-- [ ] Unabhaengige Gegenpruefung, alte Checks, Bericht und Wiedereinstieg.
+- [x] Exakte Definitionen und Approximationsvoraussetzungen bildlich belegt.
+- [x] Mindestens Y-/Randgrenzenanschluss konkret geprueft oder begrenzt offen.
+- [x] Eigene Mathematiktests ohne unbewiesene physikalische Schrittannahmen.
+- [x] Unabhaengige Gegenpruefung, alte Checks, Bericht und Wiedereinstieg.
+
+Abschluss: `06_docs/METRONIC_INTEGRATION_2026-09-06.md`, FIND-032.
+M2a/lnY positiv; M7 approximativ. Grosse Fibonacci-Indizes rechtfertigen
+unter M2 den Logaustausch nicht. Keine Gesamtfehlerfortpflanzung ohne
+geklaerte delta/delta_e-Wirkung und konkrete Potential-/H/G-Schritte.
+14 neue Tests,158gesamt und zehn alte Rechenchecks bestanden.

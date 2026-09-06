@@ -3,7 +3,17 @@
 Isolierter, reproduzierbarer Konsistenztest der 1982/1989-Alpha-Bloecke in den
 lokalen IGW-Wiedergaben. Python >= 3.10; nur Standardbibliothek erforderlich.
 
-## Etappe 19: alpha3-Bestimmtheit (aktueller Stand)
+## Etappe 20: metronische Integration (aktueller Stand)
+
+`06_docs/METRONIC_INTEGRATION_2026-09-06.md` erklaert M2a/lnY exakt
+und vier Potentialquotienten bedingt. M7 ist approximativ; unter M2
+macht grosses Fibonacci-z den Logaustausch nicht beliebig genau.
+FIND-032/32Befundgruppen, kein berechneter Massenfehler. Drei begrenzte
+Reviews und14 neue Tests mit rationalen Logintervallen;158gesamt,
+zehn alte Snapshot-/Quellchecks. Delta/delta_e-Wirkung und gemeinsame
+H/G-Fehlerbilanz offen; alte Rechner/Inputs/Snapshots unveraendert.
+
+## Etappe 19: alpha3-Bestimmtheit (vorheriger Stand)
 
 `06_docs/ALPHA3_ASSUMPTIONS_2026-09-06.md` zeigt verbleibende lokale
 Koeffizientenfreiheit unter expliziten Voraussetzungen. Zwei begrenzte

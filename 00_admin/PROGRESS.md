@@ -1,5 +1,23 @@
 # Fortschritt
 
+## 2026-09-06 - Zwanzigste Etappe: metronische Integration
+
+- H003 M2/M2a liefert exakt die H004-lnY-Randstruktur mit z-1; untere
+  Potentialgrenzen erfordern korrekten Nachfolgerindex, im Text unindiziert.
+- M7 ist ausdruecklich approximativ. Unter unskaliertem M2 hat die
+  Fibonacci-X-Folge bleibenden relativen Sprung; grosses z begruendet den
+  Austausch deltaX/X gegen delta lnX nicht. FIND-032 ist bedingter Konflikt,
+  kein berechneter Massenfehler oder Widerspruch jeder Operatorlesart.
+- Vier Potentialquotienten aus(98) und gesetzten Endwerten algebraisch
+  bestaetigt; A/B-Auswahl und Genauigkeit dadurch nicht hergeleitet.
+- Exakte Restform E(r), signierte Schranken und gewichtete Fehlerbilanz;
+  Skalierung und echter Argumentshift getrennt. Voller H/G-Rest noch offen.
+- Zwei Quellenreviews und Mathematikreview, Root-Vollseiten/Gegencode;
+  13Felder80/120Stellen max.rel.Differenz3.072074353802e-80. 14 neue Tests,
+  158gesamt und zehn alte Snapshot-/Quellchecks bestanden.32Befundgruppen.
+- Plancheckpoint2b12a48; alte Rechner/Inputs/Snapshots/49CSV-Zeilen erhalten.
+  Naechster Schritt: delta/delta_e-Pfad und tatsaechliche relative Spruenge.
+
 ## 2026-09-06 - Neunzehnte Etappe: Bestimmtheit der alpha3-Koeffizienten
 
 - H004271-275 quellengetreu in Ansatz, gesetzte Potentialgrenzen, Integration

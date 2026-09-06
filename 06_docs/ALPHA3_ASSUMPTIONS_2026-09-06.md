@@ -160,3 +160,16 @@ py -3.13 -m unittest discover -s tests -q
 Quellenumfang und Suchgrenzen:
 [Quellennotiz](../03_notes/ALPHA3_ASSUMPTIONS_SOURCES_2026-09-06.md).
 Alle alten Rechner, Eingaben, Snapshots und Normalisierungen bleiben erhalten.
+
+## Nachtrag aus Etappe 20
+
+Die folgende [Metronikpruefung](METRONIC_INTEGRATION_2026-09-06.md)
+erklaert den lnY-Randterm exakt und die vier Potentialquotienten bedingt.
+M7 ist ausdruecklich eine Naeherung; unter M2 rechtfertigt grosses
+Fibonacci-z den X-Logaustausch nicht. Das veraendert die hier bewusst
+vorausgesetzten Logformen nicht still: Ihre Quellenrechtfertigung und
+die darauf aufbauenden bedingten Freiheitszeugen bleiben getrennt.
+Ausserdem druckt II274 vor dem ersten G-Logarithmus B'_1 statt B1 im
+unmittelbaren Kontext. Die hier verwendete ungestrichene Kurznotation
+setzt dessen Anschluss voraus; eine explizite lokale Gleichsetzung
+ist nicht gefunden. Keine weitere empirische Freiheit daraus gezaehlt.

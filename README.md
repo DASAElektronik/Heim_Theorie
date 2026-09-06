@@ -38,21 +38,24 @@ Kann aus Heims Original- bzw. nahen Quellen eine reproduzierbare, parameterarme 
 
 ## Aktueller Arbeitsmodus
 
-Stand 2026-09-06, Etappe 19: Die
-[Bestimmtheitspruefung der alpha3-Koeffizienten](06_docs/ALPHA3_ASSUMPTIONS_2026-09-06.md)
-belegt lokale Freiheiten der Buchkonstruktion. Heim bezeichnet die A/B-Wahl
-ausdruecklich als frei und empirisch angepasst. Eigene alternative Exponenten
-erhalten die geprueften Minimalbedingungen und Grenzwerte, ergeben aber
-andere Funktionswerte. Keine vollstaendigen alternativen Heim-Loesungen;
-weitere unabhaengige Bedingungen koennen diese Freiheiten beseitigen.
-Der bedingt eindeutige C_k-Faktor ist davon getrennt.
-Die [Buch-/FORTRAN-Herkunft](06_docs/ALPHA3_ORIGIN_2026-09-06.md) und
-alle alten Rechenprofile bleiben erhalten. Zehn Rechenchecks und 144 Tests
-bestehen; 31 Befundgruppen sind keine 31 Fehler. 49 CSV-Normalisierungen
-unveraendert. Keine neue empirische Bestaetigung oder Gesamtwiderlegung.
+Stand 2026-09-06, Etappe 20: Die
+[Pruefung der metronischen Integration](06_docs/METRONIC_INTEGRATION_2026-09-06.md)
+erklaert Heims z-1-Randterm exakt aus der diskreten Summation. Vier
+Potentialquotienten folgen bedingt aus seinen gesetzten Endwerten und(98).
+Die Logarithmusregel M7 ist dagegen ausdruecklich approximativ. Unter
+der woertlichen M2-Differenz bleibt der relative Sprung der X-Folge auch
+bei grossem Index endlich: Die grosse Metronenzahl allein begruendet den
+Logaustausch nicht. Noch kein berechneter alpha3-/Massenfehler: Die
+gemeinsame Fehlerbilanz und delta/delta_e-Zuordnung bleiben offen.
+Die [A/B-Bestimmtheitspruefung](06_docs/ALPHA3_ASSUMPTIONS_2026-09-06.md),
+[Buch-/FORTRAN-Herkunft](06_docs/ALPHA3_ORIGIN_2026-09-06.md) und alle alten
+Rechenprofile bleiben erhalten. Zehn Rechenchecks und 158 Tests bestehen;
+32 Befundgruppen sind keine 32 Fehler. 49 CSV-Normalisierungen unveraendert.
+Keine neue empirische Bestaetigung oder Gesamtwiderlegung.
 
-Naechster enger Schritt: metronische Integrationsregel, untere Grenzkorrektur
-und Potentialverhaeltnisse aus(98) pruefen, ohne neuen Massenziel-Fit.
+Naechster enger Schritt: delta/delta_e-Argumente und Schrittweiten im
+X/H/G-Pfad samt Untergrenzenindex und tatsaechlichen relativen Spruengen
+klaeren, ohne synthetische Schritte als physikalische Werte einzusetzen.
 [Wiedereinstieg](00_admin/RESUME.md), [Arbeitsfolge](00_admin/UNDERSTANDING_ROADMAP.md).
 
 ## Verstaendnisbilanz der Etappe 15

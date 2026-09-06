@@ -40,7 +40,19 @@ py -3.13 -m unittest discover -s tests -q
 ```
 
 Ohne lokale Fremdquellen `--verify-sources` weglassen. Die zehn numerischen
-Snapshots sind dann weiter pruefbar, die Quelldateien nicht. 144 Tests bestehen.
+Snapshots sind dann weiter pruefbar, die Quelldateien nicht. 158 Tests bestehen.
+
+## Metronische Integration: exakte Operatorzeugen
+
+`tests/test_metronic_integration.py` prueft14 neue Faelle: inklusive
+Teleskopie, indizierte Untergrenze, korrigierte Produkt-/Quotientenregel,
+endliche Kettenregel, Logfehlergrenzen, signierte Gewichte, Skalierung,
+Fibonacci-Zeugen und die vier bedingten Potentialquotienten. Fraction-
+Logintervalle mit expliziter Restschranke; keine Teilchen-Schrittweiten,
+neuen Massen oder Fits. Der eigenstaendige Code in
+`04_reconstruction/alpha_audit/reviews/METRONIC_MATH_REVIEW_2026-09-06.md`
+wurde separat von Root ausgefuehrt (13Felder80/120Stellen). Alte Rechner,
+Inputs und Snapshots bleiben unveraendert.
 
 ## Alpha3: lokale Bestimmtheitszeugen
 

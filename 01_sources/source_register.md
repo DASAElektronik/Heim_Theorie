@@ -6,6 +6,13 @@ Dieses Register sammelt Fundstellen. Lokale Kopien sollten nur abgelegt werden, 
 
 ## Enger Pruefstand 2026-09-06
 
+Etappe20: H003 M2/M2a/M3a/M7/M8 auf Druck103/104/105/109/110 und
+H004 Druck267,272-275 von Root an Vollseiten gegengelesen. Exakte
+Teleskopregel und bedingte Potentialquotienten von der approximativen
+Logregel getrennt. Keine neue Quelle importiert; lokale Hashes bestaetigt.
+Untergrenzenindex, delta/delta_e-Wirkung und B'_1/B1 lokal offen vermerkt.
+Umfang: `03_notes/METRONIC_INTEGRATION_SOURCES_2026-09-06.md`.
+
 Etappe19: H004 Druck271-275/PDF277-281 erneut vollstaendig bildlich gelesen;
 Bestimmtheit der allgemeinen Logansaetze und freie empirische A/B-Wahl
 untersucht. Keine neue Quelle importiert. Gepruefte Rechenzeugen sind
