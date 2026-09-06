@@ -2,7 +2,23 @@
 
 Aktualisiert: 2026-09-06.
 
-## Aktuell: achte Etappe abgeschlossen
+## Aktuell: neunte Etappe in Arbeit
+
+Ausgangscommit 9cdd7cf auf `normalization-review`, erfolgreich gepusht.
+Plan: `EXPONENTIAL_CONTEXT_PLAN.md`. Nutzer bestaetigt Weiterarbeit.
+Rueckverweise (79)/(79a) und F/G-Zuordnung werden jetzt primaerquellenbasiert
+geprueft. Neue Reviews EXPONENTIAL_SOURCE, FG_IDENTIFICATION_SOURCE und
+EXPONENTIAL_MATH sind beauftragt (jeweils 2026-09-06); kein fertiges
+Etappenergebnis aus Zwischenmeldungen ableiten. Bisherige sieben Rechner
+und Snapshots nicht aendern. Keine moderne Widerlegungsliteratur/Hardware.
+
+Quellbilder: `tmp/pdfs/exponential_context/edm2-181.png` bis `185.png`
+(Druck 175-179), Original H004. p269 im bisherigen configuration_selection-
+Ordner. Main hat alle sechs Seiten visuell gelesen. Exakte skalare Abbildung
+von (79) und nur asymptotisch gemeinte Zeile auf p178 getrennt halten.
+Weitere Quellbedingungen und Extremumsargument sind noch zu verifizieren.
+
+## Verlauf: achte Etappe abgeschlossen
 
 Ausgangscommit2b46b5d; Plan3abd70c und Rechner-/Quellencheckpoint033617d
 erfolgreich gepusht. Abschlusscommit-Nachricht:
