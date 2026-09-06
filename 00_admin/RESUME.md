@@ -9,6 +9,15 @@ Quellenagenten `book_derivation` (GPT-5.6 Terra high) und `alpha_versions`
 (GPT-5.6 Sol high) bearbeiten Buchabhaengigkeiten bzw. externe Fassungen.
 Hauptagent entwickelt eine getrennte Y3-/Rechengenauigkeitsdiagnose.
 Reviews landen in `04_reconstruction/alpha_audit/reviews/`.
+Der Nutzer erlaubt auch eigene Theorieverbesserungen: plausible Korrekturen
+oder neue Annahmen als getrennte, pruefbare Modellvarianten ausarbeiten.
+Originale erhalten, neue Freiheitsgrade und nachtraegliche Anpassungen offenlegen.
+Neueste Prioritaet: erst Herleitung/Annahmen verstehen, danach neuere Arbeiten
+auf physikalische Widerlegung oder Anschluss pruefen. Jetzt nur interne
+Konsistenz und Quellenprovenienz; kein Gesamturteil zur Theorie.
+Quellenreviews liegen inzwischen vor; `book_derivation` prueft unabhaengig
+die neue Mathematik. Diagnosecode und Snapshot fertig, 21 Tests bestanden;
+noch nicht als unabhaengig freigegeben behandeln.
 Die folgenden Angaben beschreiben die fertiggestellte erste Etappe.
 
 ## Auftrag und abgeschlossene Etappe
