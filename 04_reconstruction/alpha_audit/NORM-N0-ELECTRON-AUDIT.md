@@ -89,3 +89,13 @@ Require 80/120-digit agreement, exact-integer identity tests, source hash
 verification, domain checks and an independent expression review.
 Precision stability is not a physical uncertainty bound or a proof of
 the complete Heim theory. Historical third-party outputs remain separate.
+
+## Visible qualification added in stage 17 (2026-09-06)
+
+The alpha3 second-term reading in the existing calculator is sqrt(xi*d),
+where d=eta11. High-resolution reinspection confirms a root glyph but no
+explicit horizontal vinculum delimiting its argument. sqrt(xi)*d cannot
+be excluded from typography alone. The old profile and result are retained
+as the stated normalization, not reclassified as a uniquely legible formula.
+NORM-HISTORICAL-N0-COMPARISON adds a separately labelled sensitivity for
+the other reading; neither is selected by agreement with a mass target.
