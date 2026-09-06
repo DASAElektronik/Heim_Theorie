@@ -2,7 +2,14 @@
 
 Aktualisiert: 2026-09-06.
 
-## Aktuell: sechzehnte Etappe abgeschlossen
+## Aktuell: siebzehnte Etappe in Arbeit
+
+Ausgang 99a2efa. HISTORICAL_N0_PLAN.md: genau den H006-x2/e--N0-Fall
+mit historischen Codeformeln, Konstanten und Rundungsregeln vergleichen.
+H010 nur statisch lesen. Drei HISTORICAL_N0-Reviews; Root fuehrt
+Vergleich und ggf. eigenes getrenntes Rechenprofil zusammen.
+
+## Verlauf: sechzehnte Etappe abgeschlossen
 
 Ausgang 7a00e46; Plancheckpoint a4d694c und Rechencheckpoint 3a2d4e2
 gepusht. Abschlusscommit-Nachricht:
