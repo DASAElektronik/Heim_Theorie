@@ -11,6 +11,17 @@ breitere Autorensuche, unabhaengige Boostmathematik. Root implementiert nur
 explizite Diagnosen und integriert die Begruendungsbilanz. Keine moderne
 Widerlegungsliteratur als Ersatz; negative Suchbefunde nicht verallgemeinern.
 
+Etappe5 Zwischenstand: Plan cd5cd0b gepusht. Eigener Fraction-Rechner
+`scripts/audit_lorentz_meaning.py`, Snapshot und12 neue Tests (56 gesamt)
+laufen. Neue Motivation: EDM2 Druck276/277=PDF282/283 erklaert bekannte
+Alpha'-Abweichung -> angenommene interne Bindungsstruktur; duales Bild
+als Elektronen-Kreiswelle lambda=2*pi*r. A_-Quelle I12/PDF20 behauptet
+Masse/Impuls -> E_Q=pc, keine explizite T-Abgrenzung. Neuer Matrixbefund
+I21/PDF29: unter normaler Trigonometrie/Transpose AAT !=I; I56/PDF63
+anderer R6-Block ohneextrai als Kontexthinweis. Keine stille Reparatur.
+Report `06_docs/AUTHOR_RATIONALE_2026-09-06.md` vorlaeufig; Autoren-Suchreview
+und Rechnerreview noch endgueltig integrieren. Alte Snapshots unveraendert.
+
 ## Aktuell: vierte Etappe abgeschlossen
 
 Nutzer: "Ok sehr gut, ja dann machen wir weiter". Ausgangspunkt 4ee1e1f.
