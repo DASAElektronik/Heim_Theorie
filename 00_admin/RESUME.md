@@ -2,7 +2,21 @@
 
 Aktualisiert: 2026-09-06.
 
-## Aktuell: neunte Etappe abgeschlossen
+## Aktuell: zehnte Etappe in Arbeit
+
+Ausgangscommit 342841a, Nutzer: eta22 ergruenden und Heims Denkansaetze
+verstehen. Plan `ETA22_CONTEXT_PLAN.md`. Beauftragt: ETA22_VERSION_SOURCE,
+ETA22_RATIONALE_SOURCE und ETA22_MATH (jeweils 2026-09-06) als getrennte
+Reviews. Bestehende acht Rechner/Inputs/Snapshots bleiben unveraendert.
+
+Root hat H007 PDF1/2/3/9 (Druck10/11/12/18) visuell gelesen: IGW2002/2003
+nach Manuskript, keine nachgewiesene direkte Urschrift; B59 eta22 real
+gedruckt. Rueckverweis Kapitel D/8.21 jetzt gezielt verfolgen. Gegenstand
+ist Autorenmotivation/Quellkette, nicht erneute komplette Alpha-Zahlensuche.
+Mathematisch berechenbarer Faktor bedeutet nicht automatisch einen
+physikalisch realisierten Zustand (q,k)=(2,2). Alte Befunde erhalten.
+
+## Verlauf: neunte Etappe abgeschlossen
 
 Ausgangscommit 9cdd7cf auf `normalization-review`, erfolgreich gepusht.
 Plan `EXPONENTIAL_CONTEXT_PLAN.md` erledigt. Plancheckpoint 838eba0 und
