@@ -2,7 +2,15 @@
 
 Aktualisiert: 2026-09-06.
 
-## Aktuell: neunzehnte Etappe abgeschlossen
+## Aktuell: zwanzigste Etappe in Arbeit
+
+Ausgang bb24534. Plan `METRONIC_INTEGRATION_PLAN.md`: H003M2/M2a/M7/M8
+und H004273/274 auf exakte diskrete Regeln, Randkorrektur und Naeherungen
+pruefen. book_derivation Operatordefinitionen, alpha_versions Potentiale;
+Root liest selbst und entwickelt konkrete Tests. Kein Massenfit oder
+Profilwechsel. Abschluss und Ergebnisse noch ausstehend.
+
+## Verlauf: neunzehnte Etappe abgeschlossen
 
 Ausgang df6934c, Plancheckpoint 5e92cda. Bericht:
 `06_docs/ALPHA3_ASSUMPTIONS_2026-09-06.md`, Quellenumfang:
