@@ -34,8 +34,15 @@ Rechner zu bauen, wenn Quellen- und Logikpruefung die Frage bereits klaeren.
 
 ## Abschlussnachweise
 
-- [ ] Fluss-/Zyklizitaetsquelle und Suchgrenzen dokumentiert.
-- [ ] C/Y3-Kette mit Annahmen-/Bestimmtheitsbilanz geprueft.
-- [ ] Befundregister trennt Beleg, Voraussetzungen, Reichweite und offene Arbeit.
-- [ ] Unabhaengige Review und bestehende Regressionen abgeschlossen.
-- [ ] Bericht, Wiedereinstieg und Sicherungen vorhanden.
+- [x] Fluss-/Zyklizitaetsquelle und Suchgrenzen dokumentiert.
+- [x] C/Y3-Kette mit Annahmen-/Bestimmtheitsbilanz geprueft.
+- [x] Befundregister trennt Beleg, Voraussetzungen, Reichweite und offene Arbeit.
+- [x] Unabhaengige Review und bestehende Regressionen abgeschlossen.
+- [x] Bericht, Wiedereinstieg und Sicherungen vorhanden.
+
+Ergebnis: bedingte positive H-Geschwindigkeitsbruecke ueber II300 und173/174;
+Objekt-/Phasenidentifikation bleibt offen. C=A1*A2/Y3=1 ist berechenbare
+Spezialisierung, ihre unabhaengige Herleitung wurde im Suchumfang nicht
+gefunden.13 Befundgruppen, keine13 Fehler. Sechs alte Rechner/Snapshots
+unveraendert und reproduziert;77 Tests (69 bisherige+8 Metadatentests).
+Drei Reviews fertig. Naechster Block L*Delta=k und Auswahl(98a).

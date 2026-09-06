@@ -78,6 +78,15 @@ Heim-H-Eigenloesung. Phase-/Impulsidentifikation und Versionsunterschiede
 der A_k bleiben getrennt.69 Tests und drei unabhaengige Reviews; keine
 angefittete Verbesserung oder pauschale Widerlegung der Gesamttheorie.
 
+Die siebte Etappe findet eine bedingte quelleninterne Geschwindigkeitsbruecke:
+H-Stabilitaet ergibt w=c; fuer den strukturellen Fluss gilt w_f=w.
+Die Objekt-/Phasenzuordnung bleibt offen. C=A1*A2 und Y3=1 sind eine
+berechenbare Spezialisierung, nicht vollstaendig unabhaengig hergeleitet.
+[Bilanz und Erklaerung](06_docs/CYCLIC_FLOW_AND_FINDINGS_2026-09-06.md),
+[13 Befundgruppen](04_reconstruction/alpha_audit/FINDING_REGISTER.json).
+Das Register enthaelt auch positive Befunde und eigene Diagnosen: keine
+Fehlerzaehlung. Naechster Block: L*Delta=k und Auswahlregel (98a).
+
 Wir bauen zuerst eine Formelbibliothek unter `04_reconstruction/formula_library/`.
 Jede Formel bekommt eine ID, Quelle, Status, Abhaengigkeiten, Outputs und Audit-Risiken.
 Erst wenn eine Formel `source_checked` und `normalized` ist, soll sie implementiert werden.

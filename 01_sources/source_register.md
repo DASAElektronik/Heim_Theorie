@@ -24,6 +24,18 @@ neu aufgenommen. Dateihashes und enger Pruefumfang:
 `03_notes/AUTHOR_RATIONALE_SOURCES_2026-09-06.md`. Dies ist weiterhin keine
 Gesamtvalidierung der Quellen oder der darin behaupteten Physik.
 
+Etappe7: H004 Druck157-162/PDF164-169, Druck172-174/PDF178-180 und
+H-Anschluss Druck300/PDF306 zu Zyklizitaet/Flussgeschwindigkeit geprueft.
+C/Y3-Suche: Einfuehrung Druck1/PDF12, (98), Druck273-275 und298-302;
+Band-I-Anker (28)-(29a) und H011 p3-5 separat. Keine neue Quelle importiert.
+Umfang und Grenzen stehen in `CYCLIC_FLOW_SOURCE_REVIEW_2026-09-06.md`
+und `CORRELATION_CLOSURE_SOURCE_REVIEW_2026-09-06.md` unter
+`04_reconstruction/alpha_audit/reviews/`. Positive bedingte H-Bruecke
+gefunden; kein Nachlass-weiter Nichtexistenzbeweis fuer offene Schritte.
+Ein erneuter Abrufversuch der unten registrierten H004-URL mit dem
+Webwerkzeug meldete am2026-09-06 HTTP404; die lokale, hashgepruefte Kopie
+ist vorhanden. Kein Beleg fuer ein generelles Verschwinden der Quelle.
+
 ## Heim-nahe Quellen
 
 | ID | Typ | Titel / Inhalt | URL | Status |

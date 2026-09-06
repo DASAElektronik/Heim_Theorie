@@ -8,6 +8,14 @@ prueft gespeicherte Ergebnisse und lokale PDF-Hashes.
 `py -3.13 -m unittest discover -s tests -v` fuehrt die Tests aus.
 Details: `04_reconstruction/alpha_audit/README.md`.
 
+## Befundregister: nur Metadatenpruefung
+
+`py -3.13 scripts/validate_finding_register.py` prueft Schema, eindeutige
+Befund-IDs, bekannte Quell-IDs und sichere existierende Nachweisdateien in
+`04_reconstruction/alpha_audit/FINDING_REGISTER.json`. Kein Ausfuehren der
+dort vermerkten Nachprueftexte, keine Wahrheitspruefung der Befunde.
+Die physikalisch-algebraischen Audits bleiben davon getrennt.
+
 ## Fruehere Planung und Quellenimport
 
 Hier kommen spaeter Import- und Analyse-Skripte hinein.

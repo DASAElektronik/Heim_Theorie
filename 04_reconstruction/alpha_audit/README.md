@@ -128,3 +128,19 @@ bewusst erneuerbar. Zehn neue Tests, nun33 insgesamt.
 Erklaerung: `06_docs/CHARGE_DERIVATION_2026-09-06.md`.
 Quelle BandI erhaelt einen eigenen Hashcheck; alte Inputs/Snapshots bleiben
 unveraendert. Buch-Indexbruecke jetzt geklaert, Energieordnungsfrage getrennt.
+
+## Siebte Etappe: Befundregister und Tragweite
+
+`FINDING_REGISTER.json` sammelt13 Befundgruppen mit Quellen, Voraussetzungen,
+Reichweite, nicht belegten Schlussfolgerungen, Nachweisen und naechsten Checks.
+Es ist keine Liste von13 Fehlern und kein vollstaendiger Theorie-Audit.
+Positive Reproduktionen, Quellenbruecken und eigene Diagnosen sind enthalten.
+
+```powershell
+py -3.13 scripts/validate_finding_register.py
+py -3.13 -m unittest discover -s tests -q
+```
+
+Der neue Validator prueft nur Metadatenintegritaet; die sechs vorhandenen
+Rechner und Snapshots sind unveraendert. Quellen-/Ergebnisbilanz:
+`06_docs/CYCLIC_FLOW_AND_FINDINGS_2026-09-06.md`.

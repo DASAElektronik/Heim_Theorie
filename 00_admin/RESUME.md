@@ -4,12 +4,24 @@ Aktualisiert: 2026-09-06.
 
 ## Aktuell: siebte Etappe in Arbeit
 
-Ausgangscommit752a61b. Nutzer will systematisch weiterpruefen und spaeter
+Ausgangscommit752a61b, Plancheckpoint6db53b5 gepusht. Nutzer will systematisch weiterpruefen und spaeter
 mit Fakten veroeffentlichen; ein Ergebnis oder alle Fehler nicht vorwegnehmen.
 Plan `CYCLIC_FLOW_PLAN.md`: II160/161 und (76), zyklischer Fluss/Frequenz,
 H-Bruecke; lnA/C/Y3-Bestimmtheit und neues Befundregister mit Tragweite.
 Drei getrennte Reviews beauftragt. Keine modernen Gegenbelege jetzt;
 alle sechs bisherigen Rechner/Inputs/Snapshots unveraendert.
+
+Quellen-/Berichtstand gesichert: drei Reviews, Bericht
+`06_docs/CYCLIC_FLOW_AND_FINDINGS_2026-09-06.md` und13 Befundgruppen in
+`04_reconstruction/alpha_audit/FINDING_REGISTER.json` (keine Fehlerzaehlung).
+Neue positive Teilbruecke: II300/PDF306 H-Stabilitaet -> x5dot=x6dot=0 ->
+w=c fuer Im(Y); II173/174 setzt w_f=w. Bedingt w_f=c bei gleicher
+Objektzuordnung. Diese und Phasengeschwindigkeit bleiben offen.
+A=4P bei festen Endwerten gebunden; A=4C separate Zuordnung; C=P/Y3=1
+berechenbare Spezialisierung, unabhaengige Begruendung nicht gefunden.
+Sechs bisherige Rechner mit --check/Quellhashpruefung erfolgreich.
+Abschlusspruefung des neuen Metadatenvalidators und Kontinuitaetsupdate
+noch ausstehend. Keine Gesamtwiderlegung behaupten.
 
 ## Verlauf: sechste Etappe abgeschlossen
 

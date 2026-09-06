@@ -25,18 +25,26 @@ Ergebnis; sie werden nicht als stillschweigende Definitionen behandelt.
 
 ## Naechste begrenzte Arbeitseinheit
 
-1. II Druck160/161 und (76) zu zyklischem Fluss, Eigenfrequenz und
-   Aggregatdurchmesser eng verfolgen: Existiert eine begruendete Bruecke
-   zur H-Welle? Keine allgemeine Wellenrelation still zum H-Operator machen.
-2. Integrations-/Korrelationsannahmen hinter A=4A1A2 und die unabhaengige
-   Festlegung von C/Y3 verfolgen; Versionsunterschiede bewahren. Falls
-   offen, eine Unterbestimmtheitsbilanz statt weiterer Zielwertfits erstellen.
-3. Anschluss von E_k=pc an die Energie-/Arbeitsbilanz und physikalische
-   Meridianregel bleiben offen. Der eigene skalare Ring schliesst diese
-   Quellenluecken nicht, obwohl seine Mathematik ausgearbeitet ist.
-4. Fruehere Ausgabe/Erratum zum I-p21-Matrixblock suchen, falls zugaenglich.
-5. Danach L*Delta=k und Auswahl(98a), Massenblocker und Verstaendnisbilanz;
+1. L*Delta=k und Auswahl(98a): Begriffe und genaue Praemissen rueckwaerts
+   verfolgen; was wird postuliert, was hergeleitet und welche q/k-Werte
+   werden dadurch zugelassen? Noch keine moderne Auswahlregel hineinlesen.
+2. Einen begrenzten Konfigurationsfall nachvollziehen und seinen Einfluss
+   auf eta_qk zeigen, ohne bestehende Alpha-Profile zu ueberschreiben.
+3. Danach Massenblocker B50/Gamma-Q_N und Verstaendnisbilanz;
    Quellen-/Mathematikreview und Checkpoint je begrenzter Einheit.
+
+Offene Seitenzweige: H-Wellen-/Flussobjektidentitaet, Phase/Frame, operative
+pc-Arbeitsbilanz und physikalische Meridianregel. Aus Etappe7 liegt jetzt
+eine bedingte Geschwindigkeitsbruecke vor; der eigene skalare Ring schliesst
+die verbleibenden Quellenluecken nicht. Die C/Y3-Bilanz ist dokumentiert:
+numerisch geschlossene Spezialisierung C=A1*A2/Y3=1, keine gefundene
+unabhaengige Herleitung. Nur mit einem konkreten neuen Ansatz weiterverfolgen.
+Fruehere Ausgabe/Erratum zum I-p21-Matrixblock suchen, falls zugaenglich.
+
+Abgeschlossene Quellenarbeit Etappe7:
+`06_docs/CYCLIC_FLOW_AND_FINDINGS_2026-09-06.md` und
+`04_reconstruction/alpha_audit/FINDING_REGISTER.json`. Das Register umfasst
+13 Befundgruppen, keine13 Fehler. Eine Gesamtwiderlegung ist nicht belegt.
 
 Abgeschlossene Etappe6: `06_docs/WAVE_CLOSURE_2026-09-06.md`.
 Eigene Ringperiodizitaet bestimmt nicht N1, Radius, Dispersion oder Zweig.
