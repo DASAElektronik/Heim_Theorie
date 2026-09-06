@@ -2,7 +2,16 @@
 
 Aktualisiert: 2026-09-06.
 
-## Aktuell: zweite Audit-Etappe abgeschlossen
+## Aktuell: dritte Etappe laeuft
+
+Auftrag: mit Heim weiterarbeiten, Herleitung erklaeren. Aktiver Plan:
+`00_admin/CHARGE_DERIVATION_PLAN.md`. Quellenagenten verfolgen eta-Konfigurationen
+und Korrelationsschluss; Hauptagent rekonstruiert die Ladungsmittelung.
+Keine breite neue Widerlegungsrecherche und keine Hardwareentwicklung.
+Die nachfolgenden Angaben sind der abgeschlossene Ausgangsstand der zweiten
+Etappe. Neue Ergebnisse erst nach Quellenkontrolle/Review integrieren.
+
+## Zweite Audit-Etappe abgeschlossen
 
 Bericht: `06_docs/BOOK_TRACE_2026-09-06.md`.
 Fortsetzungsplan: `00_admin/UNDERSTANDING_ROADMAP.md`.
