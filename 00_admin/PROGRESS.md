@@ -1,5 +1,32 @@
 # Fortschritt
 
+## 2026-09-06 - Siebte Etappe: zyklischer Fluss und Befundregister
+
+- (75)/(76)/(76a,b), II157-162 und172-174 visuell rekonstruiert:
+  zyklische Zustandsrueckkehr, Frequenz eta, lambda=w_f/eta als Aggregatdiameter.
+  Zustands-A/C, Integrations-A, Korrelations-C und Matrix-C getrennt.
+- Positive Teilbruecke: H-Stabilitaet II300 -> w=c fuer Im(Y); allgemeiner
+  Fluss II173/174 -> w_f=w. Bei gleicher Objektzuordnung bedingt w_f=c.
+  H-Wellenobjekt, Phasengeschwindigkeit und Moden-/Kreiszuordnung bleiben offen.
+- Proportionalitaet m*lambda=const liefert allein keine absolute Normierung;
+  Heim nennt mc*lambda=h hier selbst empirisch. Kein Verschweigen behauptet.
+- C/Y3-Kette erneut samt Querverweisen geprueft: A bei festen Endwerten
+  gebunden; A=4C separate physikalische Setzung. C=P und Y3=1 sind berechenbar,
+  keine gefundene unabhaengige Begruendung. Manuskriptversion nicht vermischt.
+-13 Befundgruppen mit Quellen, Praemissen, Reichweite, Nichtfolgerungen
+  und Nachweisen; enthaelt auch positive Befunde, keine13 Fehler.
+  Lokale negative Befunde erhalten, kein Gesamturteil und kein Allfehleranspruch.
+- Neuer reiner Metadatenvalidator+8 Tests,77 insgesamt. Alle sechs bisherigen
+  Rechner/Inputs/Snapshots unveraendert und erfolgreich reproduziert/gehasht.
+  Normalisierungsregister weiter47:45 resolved,2 alte Massenblocker.
+- Drei Reviews fertig; rootseitige Sichtung und Register-/Berichtsgegenlesung
+  abgeschlossen. Bibliografische Auflagenangabe in neuer Review korrigiert.
+- Bericht `06_docs/CYCLIC_FLOW_AND_FINDINGS_2026-09-06.md`;
+  Plan6db53b5 und gepruefter Quellen-/Registercheckpoint5199680 gepusht.
+  Abschlusscommit: `Complete reviewed cyclic flow audit and continuity handoff`.
+- Naechster begrenzter Block: L*Delta=k und Auswahl(98a), q/k-Konfigurationen.
+  Keine neue moderne Widerlegungsrecherche und keine Hardwarearbeit jetzt.
+
 ## 2026-09-06 - Sechste Etappe: explizite Wellen-Schliessung
 
 - Nutzer erlaubt begruendete Ergaenzungen und offene negative Ergebnisse;

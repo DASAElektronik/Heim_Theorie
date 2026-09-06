@@ -2,26 +2,57 @@
 
 Aktualisiert: 2026-09-06.
 
-## Aktuell: siebte Etappe in Arbeit
+## Aktuell: siebte Etappe abgeschlossen
 
-Ausgangscommit752a61b, Plancheckpoint6db53b5 gepusht. Nutzer will systematisch weiterpruefen und spaeter
-mit Fakten veroeffentlichen; ein Ergebnis oder alle Fehler nicht vorwegnehmen.
-Plan `CYCLIC_FLOW_PLAN.md`: II160/161 und (76), zyklischer Fluss/Frequenz,
-H-Bruecke; lnA/C/Y3-Bestimmtheit und neues Befundregister mit Tragweite.
-Drei getrennte Reviews beauftragt. Keine modernen Gegenbelege jetzt;
-alle sechs bisherigen Rechner/Inputs/Snapshots unveraendert.
+Ausgangscommit752a61b; Plan6db53b5 und Quellen-/Registercheckpoint5199680
+erfolgreich gepusht. Abschlusscommit-Nachricht:
+`Complete reviewed cyclic flow audit and continuity handoff`.
+Nutzer will systematisch weiterpruefen und spaeter mit Fakten veroeffentlichen.
+Weder Gesamtwiderlegung noch vollstaendige Fehlerfindung vorwegnehmen.
+Plan `CYCLIC_FLOW_PLAN.md` erledigt; keine neue externe Publikation.
 
-Quellen-/Berichtstand gesichert: drei Reviews, Bericht
-`06_docs/CYCLIC_FLOW_AND_FINDINGS_2026-09-06.md` und13 Befundgruppen in
-`04_reconstruction/alpha_audit/FINDING_REGISTER.json` (keine Fehlerzaehlung).
-Neue positive Teilbruecke: II300/PDF306 H-Stabilitaet -> x5dot=x6dot=0 ->
-w=c fuer Im(Y); II173/174 setzt w_f=w. Bedingt w_f=c bei gleicher
-Objektzuordnung. Diese und Phasengeschwindigkeit bleiben offen.
-A=4P bei festen Endwerten gebunden; A=4C separate Zuordnung; C=P/Y3=1
-berechenbare Spezialisierung, unabhaengige Begruendung nicht gefunden.
-Sechs bisherige Rechner mit --check/Quellhashpruefung erfolgreich.
-Abschlusspruefung des neuen Metadatenvalidators und Kontinuitaetsupdate
-noch ausstehend. Keine Gesamtwiderlegung behaupten.
+Bericht `06_docs/CYCLIC_FLOW_AND_FINDINGS_2026-09-06.md` und13 Befundgruppen
+in `04_reconstruction/alpha_audit/FINDING_REGISTER.json` (keine13 Fehler).
+Drei Reviews in `04_reconstruction/alpha_audit/reviews/`: CYCLIC_FLOW_SOURCE,
+CORRELATION_CLOSURE_SOURCE und FINDING_SCOPE, jeweils2026-09-06.
+Alle abgeschlossen; kein laufender Agent fuer den Wiedereinstieg noetig.
+
+- II157-162: Zyklizitaet als Zustandsrueckkehr, Eigenfrequenz eta,
+  lambda=w_f/eta als Aggregatdiameter. eta ist nicht eta_qk; Zustands-A/C
+  sind nicht Integrations-A/Korrelations-C. mc*lambda=h wird empirisch genannt.
+- Neue positive Teilbruecke: II300/PDF306 H-Stabilitaet -> x5dot=x6dot=0 ->
+  w=c fuer Im(Y); II173/174 setzt w_f=w. Bedingt w_f=c bei gleicher
+  Objektzuordnung. Diese und Phasengeschwindigkeit bleiben offen.
+- A=4P bei festen Endwerten gebunden; A=4C separate Zuordnung;
+  C=P und Y3=1 berechenbare Spezialisierung. Unabhaengige Begruendung im
+  Suchumfang nicht gefunden, keine Unberechenbarkeit/Fitbehauptung.
+- Zweig-/Kehrwert-, Energieordnungs- und bedingter Matrixkonflikt bleiben
+  bestehen; Register nennt fuer jeden Voraussetzungen und kleinste Tragweite.
+  Alpha-prime-Reproduktion und positive Quellenbefunde ebenfalls enthalten.
+- Sechs alte Rechner/Inputs/Snapshots unveraendert, alle --check- und
+  Quellhashpruefungen erfolgreich.77 Tests:69 alte+8 neue Metadatentests.
+  Neuer Validator prueft Schema/IDs/Dateipfade, keine Wahrheit der Befunde.
+  Normalisierungsregister unveraendert47:45 resolved,2 alte Massenblocker.
+- H004-Archiv-URL lieferte bei einem zusaetzlichen Webwerkzeug-Abruf HTTP404;
+  lokale hashgepruefte PDF vorhanden. Kein neuer Fremdquellenimport/Upload.
+
+Naechster konkreter Einstieg: L*Delta=k und Auswahl(98a), besonders
+II Druck266/267 und ihre Rueckverweise; Begriffe, Praemissen, erlaubte
+q/k-Konfigurationen und Einfluss auf eta_qk nachvollziehen. Zuerst Quellen-
+und Begruendungskarte, dann ein abgegrenzter Konfigurationsfall. Keine
+moderne Auswahlregel oder Messwertpassung hineinlesen. Danach B50/Gamma-Q_N
+und Verstaendnisbilanz. H-Wellen-/Arbeits-/C-Y3-Offenheiten und Matrixerratum
+bleiben separate Seitenzweige, keine erneut ungezielte Endlossuche.
+
+```powershell
+py -3.13 scripts/validate_finding_register.py
+py -3.13 scripts/audit_wave_closure.py --check --verify-sources
+py -3.13 -m unittest discover -s tests -q
+```
+
+Alle sechs Nachpruefbefehle stehen im Etappe7-Bericht. PDFs/Render/OCR
+weiterhin nur lokal; portable Rechnerpruefung ohne --verify-sources moeglich.
+Die nachfolgenden Einstiege sind historischer Verlauf, nicht neue Prioritaet.
 
 ## Verlauf: sechste Etappe abgeschlossen
 
