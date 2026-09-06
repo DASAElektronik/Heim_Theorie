@@ -2,7 +2,17 @@
 
 Aktualisiert: 2026-09-06.
 
-## Aktuell: vierzehnte Etappe abgeschlossen
+## Aktuell: fuenfzehnte Etappe in Arbeit
+
+Ausgang bfdb806. Nutzer bestaetigt die Verstaendnisbilanz.
+Plan: UNDERSTANDING_BALANCE_PLAN.md. Drei getrennte Reviews entstehen:
+UNDERSTANDING_FINDINGS, UNDERSTANDING_N0_READINESS, UNDERSTANDING_CONCEPT,
+jeweils2026-09-06. Root fuehrt die Bilanz und einen konkreten Lern-/
+Rechenanschluss zusammen. Keine neue externe Widerlegungssuche oder
+vollstaendige Massenimplementierung. Bestehende26 Befundgruppen und
+49 Normalisierungen bleiben ohne neuen Sachgrund unveraendert.
+
+## Verlauf: vierzehnte Etappe abgeschlossen
 
 Ausgang e2f9cfe. Nutzer bittet um Fortsetzung. GAMMA_QN_PLAN erledigt;
 Plancheckpoint 8655909 und Quellen-/Reviewcheckpoint d6fdd10 gepusht.
