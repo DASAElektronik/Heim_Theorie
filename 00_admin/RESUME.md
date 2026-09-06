@@ -18,6 +18,28 @@ Ordner. Main hat alle sechs Seiten visuell gelesen. Exakte skalare Abbildung
 von (79) und nur asymptotisch gemeinte Zeile auf p178 getrennt halten.
 Weitere Quellbedingungen und Extremumsargument sind noch zu verifizieren.
 
+Zwischenstand nach Implementierung (noch kein Abschluss): Plan 838eba0
+gepusht. Neuer Rechner `scripts/audit_exponential_context.py`, Snapshot,
+12 Tests und Bericht `06_docs/EXPONENTIAL_CONTEXT_2026-09-06.md` angelegt.
+98 Tests und alle acht Snapshotchecks samt verfuegbaren Quellhashpruefungen
+bestanden. Register jetzt 18 Gruppen, NORM 49 (47 resolved, zwei alte Blocker).
+Abschliessender Mathematik- und Synthesereview noch abwarten.
+
+- E=1-Abbildung mit H(0)=1: H=[2(1-b)]^p*exp((lambda-a)r)*
+  (1-2b*exp(-lambda*r)+exp(-2lambda*r))^(-p), p=a/(2lambda).
+- Rate bestaetigt, Abklingen bedingt a>lambda>0; Amplitudendifferenz zur
+  proportionalen p178-Zeile ist mit freiem A kein eigener Fehler.
+- Gewoehnliche Extremstellen erzwingen a>lambda nicht: lambda1,a10/11,
+  b3/5 liefert Maximum ln(11/5), Minimum ln5, aber Wachstum mit Rate1/11.
+  Nicht ungeprueft auf metronische Extremwertregeln uebertragen.
+- (58)/(58a) erklaeren Operatorrahmen, keine vier separaten F/G-Definitionen;
+  spekulative Potentialzuordnung und alter Vorzeichenknoten bleiben.
+- Drei eigene numerische Randdefekte gefunden/gefixt: 1-b^2, Selektorzaehler,
+  1-exp(-x) bei b nahe1 und winzigem r. Regressionen pruefen gegen220Stellen.
+
+Als Naechstes Abschlussreviews integrieren, Register/Links pruefen, Bericht
+und diesen Einstieg auf abgeschlossen setzen, sicheren Checkpoint pushen.
+
 ## Verlauf: achte Etappe abgeschlossen
 
 Ausgangscommit2b46b5d; Plan3abd70c und Rechner-/Quellencheckpoint033617d

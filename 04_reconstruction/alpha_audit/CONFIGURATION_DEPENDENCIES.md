@@ -12,6 +12,10 @@ quellenbelegt sein, ohne dass ihre physikalische Richtigkeit bewiesen ist.
 | Metronische Strukturstufen | II263/264: positive ganze k, kappa=k^2 | Konfigurationszahl k | Quellenkonstruktion, noch nicht alle Grundlagen rekonstruiert |
 | k und Ladungsaenderung | II265: L*Delta=k, L=4 | epsilon_prime/epsilon | Ausdruecklicher moeglicher Ansatz, dann korrekte Algebra |
 | Interne Protosimplex-Skala | II266/267, (98) | eta_qk | Definierte Familie, q/k-Indexbruecke belegt |
+| Allgemeine Weltselektorgleichung | II98-100 (58)/(58a), explizite Anwendung II268 | K-Spur der C-Struktur | Quellenbruecke belegt; keine vier einzelnen F/G-Skalare daraus rekonstruiert |
+| (79), konstante skalare Parameter | II175-179; eigene E=1-Abbildung | grosse-r-Exponentialrate lambda-a | Rate und Rest kontrolliert; keine Validierung des metronischen Operators |
+| Gewaehlter Parameterzweig a>lambda>0 | II178/179 | exponentielles Abklingen | Im skalaren Abbild korrekt; nicht aus blossen Extremstellen ableitbar |
+| Exponentialprofil der C-Struktur | II269 | angenaeherte Summe F2-F1+G2-G1 | Bedingte Quellannahme; Einzeldefinitionen und Skalenbruecke offen |
 | eta_q, eta_qk | II268/269: V/Q, F/G-Zuordnung | Auswahl(98a) | Spekulative Zuordnung plus lokaler Umformungskonflikt |
 | Gedruckte eta-Schranke B_q | II269: k<u_q | vier berechnete positive Paare | Bedingte Algebra und Zahlentest, u_2-Druckbereich nicht bestaetigt |
 | Empirische Elektron-/Proton-Zuordnung | II263/264 und295/296 | (q,k)=(1,1),(1,2) | Quellenbelegt, induktiv/heuristisch begruendet |
@@ -28,7 +32,10 @@ Die Kurzform k_max=2,q_max=3 ist auch kein kartesisches Produkt aller Paare.
 | Frage | Gegenwaertiger Stand | Was den Befund erweitern oder aendern koennte |
 |---|---|---|
 | Warum L*Delta=k? | Moeglicher Ansatz aufII265 | Unabhaengige Gleichung, Randbedingung oder expliziter Rueckverweis mit dieser Identifikation |
-| Warum F_i=V_i und G_i=Q_i? | AufII269 spekulativ; (79)/(79a) verweisen auf die Naeherung | Rekonstruktion jener Funktionen, ihrer Einheiten und ihres Gueltigkeitsbereichs |
+| Warum F_i=V_i und G_i=Q_i? | Etappe9: (58)/(58a) und (79)/(79a) geprueft; keine separate F/G-Definition oder Normierung gefunden, II269 bleibt spekulativ | Explizite Zerlegung der Spur in genau diese vier Beitraege mit Einheiten/Normierung; alternative Ausgabe oder Manuskript mit dieser Bruecke |
+| Warum muss a>lambda gelten? | Skalares Abklingen genau dann; positive Extremstellen allein reichen nicht, exaktes Gegenbeispiel dokumentiert | Zusaetzliche metronische Eigenwert-/Randregel oder belegter Uebergang ins skalare Problem; H(infinity)=0 nicht still voraussetzen |
+| E+u^2 versus E-u^2 | II176/178 unterschiedlich gedruckt; im skalaren Abbild ist Plus konsistent | Explizite metronische Bedeutung, authorisiertes Erratum oder andere belegte Ausgabe; keine stille Korrektur |
+| Absolute Feldamplitude | (79) und II178-Naeherung haben im skalaren Abbild verschiedene konstante Vorfaktoren, gleiche Rate | Explizite Amplitudennormierung; bei freiem A kein eigener Fehlerbefund |
 | Richtungen und B/D-Unterschied | Unter den gedruckten Definitionen lokal unvereinbar | Belegte Konventionsaenderung, andere Ausgabe oder autorisiertes Erratum |
 | u_2-Druckbereich | Gedruckte Funktion ergibt1.963489..., nicht2..3 | Belegbar andere beabsichtigte Funktion oder historische Rechenunterlagen; nicht durch Alpha-Zielwerte waehlen |
 | Vollstaendige Auswahl aller Zustaende | Einzelne B-Bedingung liefert vier Paare | Alle weiteren Zustandsbedingungen mit denselben Bedeutungen und derselben Version |
@@ -42,3 +49,10 @@ Die Karte legt fest, wann eine alte Frage erneut aufgerufen wird. Sie soll
 neue Zusammenhaenge sichtbar machen und zugleich verhindern, dass wir
 dieselbe abgeschlossene Indexsuche oder ungegruendete Variantenrechnung
 immer wieder beginnen. Nicht alle offenen Fragen muessen Fehler sein.
+
+Etappe9: `06_docs/EXPONENTIAL_CONTEXT_2026-09-06.md`. Der Vorzeichenknoten
+FIND-015 wird durch die jetzt geprueften Rueckverweise nicht aufgeloest;
+die Exponentialrate wird positiv reproduziert. Unser Extremumsgegenbeispiel
+gilt nur fuer die ausdruecklich skalare Abbildung, nicht ungeprueft fuer
+die metronische Theorie. Naechster bereits geplanter Anschluss: 1989 eta22,
+danach B50/Gamma-Q_N und Verstaendnisbilanz.

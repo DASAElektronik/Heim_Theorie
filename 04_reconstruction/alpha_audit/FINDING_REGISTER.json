@@ -196,7 +196,7 @@
       "not_established": "Keine eindeutige historische Korrektur; B ist hinreichend fuer die vorgelagerte Bedingung, aber nicht aequivalent. Keine Gesamtwiderlegung oder Ausschluss aller zusaetzlichen Auswahlgesetze.",
       "evidence_paths": ["06_docs/CONFIGURATION_SELECTION_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/CONFIGURATION_SELECTION_SOURCE_REVIEW_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/CONFIGURATION_SELECTION_MATH_REVIEW_2026-09-06.md", "05_analysis/configuration_selection_diagnostics.json"],
       "reproduction": "R=V1+Q1-V2-Q2=a*(x-D); positive F/G-Differenz ist -R. py -3.13 scripts/audit_configuration_selection.py --check --verify-sources.",
-      "next_check": "Rueckverweise(79)/(79a), Funktionen F/G und moegliche zusaetzliche Bedingung oder belegtes Erratum pruefen, ohne eine Richtung still zu reparieren."
+      "next_check": "Etappe9 prueft (58)/(58a) und (79)/(79a): Rate bedingt bestaetigt, keine Einzeldefinition/Skalenbruecke oder Indexumkehr gefunden. Nun nur mit expliziter F/G-Spurzerlegung, Randvorschrift, anderer Ausgabe oder belegtem Erratum erneut pruefen; Bericht EXPONENTIAL_CONTEXT_2026-09-06.md."
     },
     {
       "finding_id": "FIND-016",
@@ -210,6 +210,32 @@
       "evidence_paths": ["06_docs/CONFIGURATION_SELECTION_2026-09-06.md", "05_analysis/configuration_selection_diagnostics.json", "04_reconstruction/alpha_audit/reviews/CONFIGURATION_SELECTION_MATH_REVIEW_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/CONFIGURATION_DEPENDENCY_REVIEW_2026-09-06.md"],
       "reproduction": "py -3.13 scripts/audit_configuration_selection.py --check --verify-sources; unabhaengige Decimal-Rechnung; rationaler q>=5-Ausschluss im Bericht und Tests.",
       "next_check": "Historische Rechenunterlagen und Versionsgeltung von(98a) fuer1989eta22 pruefen; analytischer Faktor und realisierter Zustand nicht gleichsetzen."
+    },
+    {
+      "finding_id": "FIND-017",
+      "kind": "positive_reproduction",
+      "claim": "Das explizit skalare Abbild von II(79) reproduziert fuer feste Parameter die fuehrende Exponentialrate lambda-a; auf lambda>0,a>lambda klingt es ab. Amplitude und relativer Rest sind berechnet.",
+      "source_ids": ["H004"],
+      "source_locator": "II Druck175-179/PDF181-185, (79)-(79c); Wiederverwendung Druck269/PDF275.",
+      "assumptions": "E=1, mu;n nach r, feste reelle lambda>0,a>0,-1<b<1,r>=0; eigener Name H fuer normierten Verlauf H(0)=1, tensorindizierter Vorfaktor weggelassen. Kein H-Elektronenwellenmodell.",
+      "scope": "Exakte elementare Funktion und bedingte Asymptotik: H=[2(1-b)]^p exp((lambda-a)r)(1-2b exp(-lambda*r)+exp(-2lambda*r))^(-p), p=a/(2lambda). Abnahme genau fuer a>lambda innerhalb dieser Domaene.",
+      "not_established": "Kein Beweis des metronischen Operators, der physikalischen Parameterwahl, einer absoluten Feldstaerke oder F/G-Zuordnung. Konstanter Vorfaktorunterschied zur proportionalen Druck178-Zeile ist bei freiem A kein weiterer Fehler.",
+      "evidence_paths": ["06_docs/EXPONENTIAL_CONTEXT_2026-09-06.md", "05_analysis/exponential_context_diagnostics.json", "04_reconstruction/alpha_audit/reviews/EXPONENTIAL_SOURCE_REVIEW_2026-09-06.md", "scripts/audit_exponential_context.py", "tests/test_exponential_context.py"],
+      "reproduction": "py -3.13 scripts/audit_exponential_context.py --check --verify-sources; exakte Faktorisierung, relativer Rest und Mittelwertsatz-Schranke im Bericht.",
+      "next_check": "Nur bei expliziter Amplituden-/Randnormierung oder nach Rekonstruktion der metronischen Skalarabbildung auf physikalische Feldstaerken erweitern."
+    },
+    {
+      "finding_id": "FIND-018",
+      "kind": "conditional_conflict",
+      "claim": "Positive stationaere Radien erzwingen im gewoehnlichen skalaren Abbild von (79) nicht a>lambda. Die Parameterbegruendung auf II178 benoetigt in dieser Lesart eine zusaetzliche Bedingung; die benachbarten u-Nenner sind verschieden gedruckt.",
+      "source_ids": ["H004"],
+      "source_locator": "II Druck176/178/PDF182/184: Substitution u und Extremumsargument A=lambda/a<1; (79) Druck177/PDF183.",
+      "assumptions": "Gewoehnliche skalare Ableitung der in FIND-017 definierten Funktion; nicht identisch gesetzt mit der noch nicht rekonstruierten metronischen Extremwertregel. Das Gegenbeispiel liegt bewusst ausserhalb der behaupteten abklingenden Teilklasse.",
+      "scope": "Ein lokaler bedingter Extremumsknoten: lambda=1,a=10/11,b=3/5 ergibt exakte positive Radien ln(11/5) (Maximum) und ln(5) (Minimum), aber Wachstumsrate 1/11. Skalar folgt u(u+C)/(1+u^2), nicht der aufII178 gedruckte Minusnenner.",
+      "not_established": "Kein Gegenbeispiel zur Abnahme bei a>lambda; keine Gesamtwiderlegung und keine eigenmaechtige Quellenkorrektur. Eine andere metronische Regel, Randbedingung oder autorisierte Korrektur kann den Quellenbefund praezisieren.",
+      "evidence_paths": ["06_docs/EXPONENTIAL_CONTEXT_2026-09-06.md", "05_analysis/exponential_context_diagnostics.json", "scripts/audit_exponential_context.py", "tests/test_exponential_context.py", "04_reconstruction/alpha_audit/reviews/EXPONENTIAL_SOURCE_REVIEW_2026-09-06.md"],
+      "reproduction": "Exakte Fraction-Zertifikate: 5w^2-36w+55 hat Wurzeln 11/5 und5; Vorzeichen der logarithmischen Ableitung wechseln +,-,+. py -3.13 scripts/audit_exponential_context.py --check.",
+      "next_check": "Metronische Eigenwert-/Extremwertregel und explizite Randbedingung mit denselben Parametern pruefen; bei H(infinity)=0 muss diese Zusatzvoraussetzung offen genannt werden."
     }
   ]
 }

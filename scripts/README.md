@@ -32,12 +32,23 @@ py -3.13 scripts/audit_energy_kinematics.py --check --verify-sources
 py -3.13 scripts/audit_lorentz_meaning.py --check --verify-sources
 py -3.13 scripts/audit_wave_closure.py --check --verify-sources
 py -3.13 scripts/audit_configuration_selection.py --check --verify-sources
+py -3.13 scripts/audit_exponential_context.py --check --verify-sources
 py -3.13 scripts/validate_finding_register.py
 py -3.13 -m unittest discover -s tests -q
 ```
 
-Ohne lokale Fremd-PDFs `--verify-sources` weglassen. Die sieben numerischen
-Snapshots sind dann weiter pruefbar, die Quelldateien nicht.86Tests bestehen.
+Ohne lokale Fremd-PDFs `--verify-sources` weglassen. Die acht numerischen
+Snapshots sind dann weiter pruefbar, die Quelldateien nicht. 98 Tests bestehen.
+
+## Bedingtes skalares Exponentialabbild
+
+`audit_exponential_context.py` berechnet die explizite E=1-Abbildung von
+EDM2(79) mit H(0)=1, Asymptote, relativen Rest und ein exaktes skalares
+Extremumsgegenbeispiel. Keine Rekonstruktion metronischer Operatoren oder
+der F/G-Zuordnung; nur synthetische Parameter. `--write` erneuert nur
+`05_analysis/exponential_context_diagnostics.json`. `--check` schreibt nichts.
+12 neue Tests, einschliesslich separat nachgerechneter Endpunktrandfaelle;
+Bericht `06_docs/EXPONENTIAL_CONTEXT_2026-09-06.md`.
 
 ## Fruehere Planung und Quellenimport
 

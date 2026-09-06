@@ -18,7 +18,16 @@ alpha audit is executable; it does not implement the complete mass spectrum.
 Gate result: the isolated ALPHA audit is scoped by `NORM-ALPHA-AUDIT-001`.
 Full mass reconstruction remains blocked and lacks complete dependency coverage;
 closing the two listed blockers alone would not establish implementation readiness.
-Decision register: 46 resolved, two blocked (48 total).
+Decision register: 47 resolved, two blocked (49 total).
+
+Ninth-stage addition: `NORM-EXPONENTIAL-CONTEXT-001` scopes an explicitly
+normalized scalar image of book(79), not its metronic operators. The
+asymptotic rate is reproduced conditionally; positive extrema alone do not
+force decay in that scalar image. F/G-to-potential identification remains
+open. 98 tests pass (86 prior plus 12 new); old seven snapshots unchanged.
+Independent implementation review found three cancellation defects at
+extreme endpoints; factored/expm1-style evaluation and regression tests
+address them. Neither historical mass blocker is changed.
 
 Eighth-stage addition: `NORM-CONFIGURATION-SELECTION-001` scopes the isolated
 book(98a) audit. Upstream positivity, printed V/Q inequality and printed B
