@@ -2,6 +2,15 @@
 
 Aktualisiert: 2026-09-06.
 
+## Aktuell: fuenfte Etappe in Arbeit
+
+Nutzer bestaetigt Fortsetzung und fragt nach Heims eigenem Warum; moeglicher
+blinder Fleck erst nach dokumentierter Suche. Plan `AUTHOR_RATIONALE_PLAN.md`.
+Ausgangscommit f4a5932. Drei Agenten getrennt beauftragt: A_-/Invarianzquelle,
+breitere Autorensuche, unabhaengige Boostmathematik. Root implementiert nur
+explizite Diagnosen und integriert die Begruendungsbilanz. Keine moderne
+Widerlegungsliteratur als Ersatz; negative Suchbefunde nicht verallgemeinern.
+
 ## Aktuell: vierte Etappe abgeschlossen
 
 Nutzer: "Ok sehr gut, ja dann machen wir weiter". Ausgangspunkt 4ee1e1f.
