@@ -1,5 +1,18 @@
 # Fortschritt
 
+## 2026-09-06 - Alpha-Audit, Implementierungscheckpoint
+
+- Auftrag fuer Plan, bedarfsgerechte Agenten und wiederholte Sicherung erhalten.
+- `ALPHA_AUDIT_PLAN.md` und `RESUME.md` mit Checkpoint `f9eeeee` gepusht.
+- Quellenreview (GPT-5.6 Terra) und mathematische Gegenpruefung (GPT-6 Astra)
+  getrennt beauftragt; Hauptagent integriert.
+- 1989-Indexkonvention ueber PDF-Seite 3 / IX auf `(q,k)` zurueckverfolgt.
+- Eigenen Decimal-Rechner, Eingabeprofil, Model Card und Ergebnis-JSON erstellt.
+- 12 Tests bestanden, inklusive 80/120-Stellen-Konvergenz; zwei PDF-Hashes passen.
+- Fuenf gedruckte Paar-/Kehrwertpruefungen zeigen Inkompatibilitaet auch mit
+  Halb-Letzte-Stelle-Intervallen. Das ist ein Befund zur IGW-Darstellung.
+- Unabhaengige Implementierungsreview und Ergebnisbericht noch in Arbeit.
+
 ## 2026-05-14
 
 - Projektordner `Heims_Theorie` angelegt.

@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "audit_date": "2026-09-06",
+  "sources": [
+    {
+      "id": "igw_1982",
+      "path": "01_sources/heim_primary/Massenformel_nach_B_Heim_1982.pdf",
+      "sha256": "F74DA0DAC8496BCD01226F54D88598152D67E1C954943AF61D0EC1811F5527BE",
+      "url": "https://burkhardheim.de/assets/Massenformel_nach_B_Heim_1982.pdf",
+      "locator": "PDF pages 3-5, (V), Feinstrukturkonstante and (IX); IGW 2002/2003 rendering of 1982 text",
+      "source_class": "near_primary"
+    },
+    {
+      "id": "igw_1989",
+      "path": "01_sources/heim_primary/Erweiterte_Massenformel_Nach_Heim_1989.pdf",
+      "sha256": "0E2F646D784152FB008944F58E1B8E709A416B65265D2FB75D3CC44C88FF8A40",
+      "url": "https://burkhardheim.de/assets/Erweiterte_Massenformel_Nach_Heim_1989.pdf",
+      "locator": "PDF page 9 / printed page 18, B58-B62; PDF page 3 / printed page 12 cross-reference to IX; IGW 2003 rendering",
+      "source_class": "near_primary"
+    }
+  ],
+  "pi_profiles": [
+    {"id": "mathematical_pi", "kind": "gauss_legendre", "role": "mathematical evaluation, not a fitted constant"},
+    {"id": "igw1982_printed_pi", "kind": "decimal_literal", "value": "3.1415926535", "role": "1982 PDF page 4 printed pi; for 1989 sensitivity only, not an established historical profile"}
+  ],
+  "models": [
+    {"id": "1982_source_literal", "equation": "1982", "eta12_k": 1, "eta12_q": 2, "status": "source_literal", "decisions": ["NORM-1982-ETA-INDEX", "NORM-1982-ALPHA-RECONCILIATION", "NORM-ALPHA-AUDIT-SCOPE"]},
+    {"id": "1982_printed_alpha_fit_variant", "equation": "1982", "eta12_k": 2, "eta12_q": 1, "status": "our_inference_target_motivated_existing_variant", "decisions": ["NORM-1982-ALPHA-RECONCILIATION", "NORM-ALPHA-AUDIT-SCOPE"]},
+    {"id": "1989_kq_counterfactual", "equation": "1989", "eta12_k": 1, "eta12_q": 2, "status": "counterfactual_index_sensitivity_not_source_default", "decisions": ["NORM-1989-ALPHA-B59-KALPHA-SCOPE", "NORM-1989-ALPHA-ETA-CROSSREF", "NORM-ALPHA-AUDIT-SCOPE"]},
+    {"id": "1989_source_cross_reference", "equation": "1989", "eta12_k": 2, "eta12_q": 1, "status": "source_cross_reference_qk_with_1982_eta_vartheta", "decisions": ["NORM-1989-ALPHA-B59-KALPHA-SCOPE", "NORM-1989-ALPHA-ETA-CROSSREF", "NORM-ALPHA-AUDIT-SCOPE"]}
+  ],
+  "printed": {
+    "1982": {"source_id": "igw_1982", "inverse_plus": "137,03596147", "inverse_minus": "1,00001363"},
+    "1989": {"source_id": "igw_1989", "alpha_plus": "0.0072973525253328589", "alpha_minus": "0.999985890199089", "inverse_plus": "137,03601", "inverse_minus": "1,0000142"}
+  },
+  "modern_reference": {
+    "quantity": "inverse fine-structure constant",
+    "value": "137.035999177",
+    "standard_uncertainty": "0.000000021",
+    "unit": "1",
+    "edition": "CODATA 2022",
+    "retrieved_on": "2026-09-06",
+    "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+    "extraction": "NIST complete ASCII listing, row inverse fine-structure constant; manually transcribed and checked",
+    "use": "comparison only; never an input to either equation"
+  }
+}

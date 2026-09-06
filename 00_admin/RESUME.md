@@ -27,22 +27,40 @@ Sicherung autorisiert. Save-Workflow umfasst Commit und Push.
 
 ## Laufende Arbeit
 
-- Quellenagent: `alpha_sources`, GPT-5.6 Terra high; schreibt ausschliesslich
+- Quellenagent abgeschlossen: Review unter
   `04_reconstruction/alpha_audit/reviews/SOURCE_REVIEW_2026-09-06.md`.
-- Mathematikagent: `alpha_math`, GPT-6 Astra high; schreibt ausschliesslich
-  `04_reconstruction/alpha_audit/reviews/MATH_REVIEW_2026-09-06.md`.
-- Hauptagent erstellt Eingabedaten, Rechner, Normalisierung und Bericht.
+- Rechner, Eingaben, Model Card und Ergebnisse liegen vor; 12 Tests bestanden.
+  PDF-SHA256 fuer beide Quellen stimmen. Default-Rechnung: 80 Stellen;
+  120-Stellen-Konvergenz wird im Test geprueft.
+- Mathematikagent `alpha_math`, GPT-6 Astra high, prueft gerade Implementierung
+  und Normalisierungen. Abschlussreview wird in
+  `04_reconstruction/alpha_audit/reviews/MATH_REVIEW_2026-09-06.md` abgelegt.
+- Hauptagent erstellt lesbaren Bericht und aktualisiert danach kanonischen
+  Status; bisherige Formeltranskriptionen bleiben unangetastet.
 
 Agentennamen sind Sitzungsreferenzen, keine Voraussetzung zum Neustart.
 Bei neuer Sitzung vorhandene Review-Dateien zuerst lesen.
 
 ## Naechster konkreter Schritt
 
-Quellenprofil und Scope-Entscheidung fuer den isolierten Alpha-Audit anlegen,
-dann `scripts/audit_alpha.py` mit Decimal-Arithmetik implementieren.
+Mathematikreview einarbeiten, Bericht und kanonische Status-/Risikonotizen
+abschliessen. Die 1982-Fitvariante ist nur naeher am gedruckten Wert und
+reproduziert ihn nicht auf dessen letzte Dezimalstelle. In 1989 ist `(q,k)`
+ueber die Quellenreferenzkette belegt. Alle fuenf gedruckten Paar-/Kehrwertchecks
+sind auch unter Rundungsintervallen inkompatibel.
+
+```powershell
+py -3.13 scripts/audit_alpha.py --check --verify-sources
+py -3.13 -m unittest discover -s tests -v
+```
+
 Python ist ueber `py -3.13` verfuegbar; keine Fremdprogramme aus ZIPs ausfuehren.
 
 ## Sicherung
 
-Dieser Plan wird als erster Checkpoint committed und gepusht. Den tatsaechlichen
-Stand mit `git log -3 --oneline` und `git status --short --branch` pruefen.
+- Plan-Checkpoint `f9eeeee` committed und erfolgreich gepusht.
+- Zweiter Checkpoint sichert den getesteten Rechner mit noch laufender Review.
+- Nutzer meldete 24.318 verbleibende Credits; keine automatische Live-Abfrage.
+
+Den tatsaechlichen Stand mit `git log -3 --oneline` und
+`git status --short --branch` pruefen.
