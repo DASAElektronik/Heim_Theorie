@@ -37,8 +37,18 @@ aus OCR-Negativtreffern beurteilen. Originale und Arbeitsbilder erhalten.
 
 ## Abschlusskriterien
 
-- [ ] Alle vorhandenen Befunde in einer knappen, quellengebundenen Bilanz erfasst.
-- [ ] Verstandene Rechenregeln und noch offene Grundannahmen getrennt.
-- [ ] Naechster N0-Fall mit Eingabekette und Abbruchkriterien vorbereitet.
-- [ ] Unabhaengige Gegenlesung, Regressionen und Metadatenkontrolle abgeschlossen.
-- [ ] Bilanz, Navigation und Wiedereinstieg gesichert und gepusht.
+- [x] Alle vorhandenen Befunde in einer knappen, quellengebundenen Bilanz erfasst.
+- [x] Verstandene Rechenregeln und noch offene Grundannahmen getrennt.
+- [x] Naechster N0-Fall mit Eingabekette und Abbruchkriterien vorbereitet.
+- [x] Unabhaengige Gegenlesung, Regressionen und Metadatenkontrolle abgeschlossen.
+- [x] Bilanz, Navigation und Wiedereinstieg gesichert und gepusht.
+
+## Abschlussinhalt
+
+06_docs/UNDERSTANDING_BALANCE_2026-09-06.md und drei UNDERSTANDING-Reviews.
+H006 x2/e-, N=0 ist ein vorbereiteter, noch nicht ausfuehrbarer Lehrfall:
+0110 bezeichnet Konfigurationsmerkmale, nicht die fehlenden n1..n4.
+Konfigurations-/Ladungspreflight vorhanden, Stufe A/B getrennt.
+26 Register-IDs genau einmal eingeordnet, 49 Normalisierungen unveraendert.
+Acht Rechenchecks, Quellhash-Pruefungen und 98 Tests bestanden.
+Keine Aenderung alter Rechenartefakte; keine neue Befund-ID nur fuer Synthese.

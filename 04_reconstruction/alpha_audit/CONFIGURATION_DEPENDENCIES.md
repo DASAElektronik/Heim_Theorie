@@ -4,6 +4,13 @@ Stand2026-09-06. Karte des bisher rekonstruierten Ausschnitts, keine
 vollstaendige Herleitungskarte der Heim-Theorie. Eine Verbindung kann
 quellenbelegt sein, ohne dass ihre physikalische Richtigkeit bewiesen ist.
 
+Die [Verstaendnisbilanz der Etappe 15](../../06_docs/UNDERSTANDING_BALANCE_2026-09-06.md)
+ordnet die Reichweite dieser Verbindungen und bereitet einen fassungsreinen
+N=0-Lehrfall vor. Die folgende Karte verbindet Quellenkontexte; identische
+Zeichen sind nicht automatisch fassungsuebergreifend dieselbe Groesse.
+Insbesondere ist kappa=k^2 im unten genannten Buchkontext nicht die
+Definition des Konfigurations-kappa in H006 (dort bei x2: k=1, kappa=0).
+
 ## Durchgaengige Verbindungen
 
 | Ausgangspunkt | Verbindung und Quellenanker | Ziel | Status |

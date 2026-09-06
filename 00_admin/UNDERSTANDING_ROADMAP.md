@@ -14,7 +14,7 @@ vollstaendiges Verstaendnis der Gesamttheorie abgeleitet werden.
 | Grundbegriffe | Heim-eigene Raum-/Strukturbegriffe, metronische Operationen, messbare Zuordnung | Noch nicht systematisch rekonstruiert |
 | Massenformel | Einheiten, Konstanten, Quantenzahlen, Auswahlregeln, ein vollstaendiger Rechenfall | Quellbibliothek vorhanden; noch kein eigener Massenrechner |
 | Reichweite | Was sind Modellannahmen, reale Beobachtungen und rein interne Groessen? | Insbesondere Neutrino-Feldmassen und Zweigbedeutung abzugrenzen |
-| Verstaendnisbilanz | Herleitungskarte und verbleibende Luecken gemeinsam beurteilen | Vor breiter externer Bewertung erforderlich |
+| Verstaendnisbilanz | Herleitungskarte und verbleibende Luecken gemeinsam beurteilen | Etappe 15 fuer den untersuchten Ausschnitt abgeschlossen; kein vollstaendiges Theorieverstaendnis |
 | Externe Bewertung | Passende neuere Primaerarbeiten, Messgroessen, Gueltigkeitsbereiche | Bewusst zurueckgestellt |
 | Eigene Erweiterung | Begruendete Aenderung mit unabhaengiger pruefbarer Konsequenz | Kandidaten definiert, keine bestaetigte neue Theorie |
 
@@ -25,16 +25,28 @@ Ergebnis; sie werden nicht als stillschweigende Definitionen behandelt.
 
 ## Naechste begrenzte Arbeitseinheit
 
-1. Nach Etappe14: Verstaendnisbilanz des rekonstruierten Ausschnitts,
-   nicht erneute gleiche Gamma/Q_N-Quellensuche. Reichweite jedes
-   bisherigen Befunds, Abhaengigkeiten und offene Grundlagen zusammenfuehren.
-2. In dieser Bilanz vorhandene Rechenvorschriften,
-   dynamische Herleitungen, empirische Kalibrierung und Editionsluecken
-   unterscheiden. Einen geeigneten versionsreinen N0-Rechenfall und
-   benoetigte Quellenentscheidungen vorbereiten; noch kein stiller
-   Uebergang zum Massengesamtrechner oder zur modernen Widerlegungsrecherche.
-3. Offene F/G-Normierung und metronische Extremumsregel nur bei konkreter
+1. Nach Etappe 15: Quellen- und Eingabeblatt fuer H006 x2/e-, N=0.
+   Die Konfiguration ist lokal belegt: k=1, P=Q=1, kappa=0, C=0,
+   epsilon=+1, x=1 ergibt q_x=-1 und q=1. 0110 ist KEIN n1..n4-Tupel.
+2. Ein ausdrueckliches Besetzungsquadrupel mit belegter Zugehoerigkeit
+   zur H006-Version suchen. Nur bei vollstaendigem Input und aktiven
+   Formeln eine bedingte Teilsummenrechnung (Stufe A) freigeben.
+   Sonst fehlenden Nachweis benennen, keine Sollmasse zur Auswahl nutzen.
+3. Die Auswahlrekonstruktion (Stufe B) getrennt halten: W_vx/W_nu_x
+   sind noch nicht quellenbelegt verbunden; Ganzzahl- und W4-Regeln
+   muessen vor jeder Vergleichsauswertung feststehen. Alle Kandidaten
+   erfassen, nicht nur passende Tabellenzeilen. Noch kein Massengesamtrechner
+   und keine moderne Widerlegungsrecherche.
+4. Offene F/G-Normierung und metronische Extremumsregel nur bei konkreter
    Quellbruecke erneut aufnehmen; keine Wiederholung derselben Rueckverweise.
+
+Etappe 15: [Verstaendnisbilanz](../06_docs/UNDERSTANDING_BALANCE_2026-09-06.md)
+und drei getrennte Reviews. Alle 26 Befundgruppen nach Aussagekraft
+eingeordnet; Definition, Algebra, Dynamik, Kalibrierung und Edition getrennt.
+H006 x2/e-, N=0 als vorbereiteter Lehrfall gewaehlt, nicht als bereits
+ausfuehrbare Massenrechnung. Acht bestehende Rechenchecks und 98 Tests
+bestanden; 49 Normalisierungen, alte Implementierungen und Snapshots
+unveraendert. Keine neuen Befund-IDs allein fuer diese Synthese.
 
 Etappe9 hat (58)/(58a) und (79)/(79a) verfolgt:
 `06_docs/EXPONENTIAL_CONTEXT_2026-09-06.md`. Die Rate lambda-a ist im

@@ -2,15 +2,63 @@
 
 Aktualisiert: 2026-09-06.
 
-## Aktuell: fuenfzehnte Etappe in Arbeit
+## Aktuell: fuenfzehnte Etappe abgeschlossen
 
-Ausgang bfdb806. Nutzer bestaetigt die Verstaendnisbilanz.
-Plan: UNDERSTANDING_BALANCE_PLAN.md. Drei getrennte Reviews entstehen:
+Ausgang bfdb806. Plancheckpoint 4859317 gepusht.
+Abschlusscommit-Nachricht: `Complete understanding balance and H006 N0 input handoff`.
+HEAD und Remote bei Fortsetzung per Git pruefen.
+
+Hauptbericht: 06_docs/UNDERSTANDING_BALANCE_2026-09-06.md.
+Drei fertige Reviews unter 04_reconstruction/alpha_audit/reviews/:
 UNDERSTANDING_FINDINGS, UNDERSTANDING_N0_READINESS, UNDERSTANDING_CONCEPT,
-jeweils2026-09-06. Root fuehrt die Bilanz und einen konkreten Lern-/
-Rechenanschluss zusammen. Keine neue externe Widerlegungssuche oder
-vollstaendige Massenimplementierung. Bestehende26 Befundgruppen und
-49 Normalisierungen bleiben ohne neuen Sachgrund unveraendert.
+jeweils _REVIEW_2026-09-06.md. Zwei zusaetzliche Schlussgegenlesungen
+prueften Bilanz und N0-Entscheidung. Keine laufenden Agenten noetig.
+
+- Alle 26 Befundgruppen eingeordnet; ID-Abdeckung genau einmal geprueft.
+  Keine 26 Fehler oder unabhaengigen Experimente. Interne Agentenreviews
+  sind keine externen wissenschaftlichen Peer Reviews.
+- Quellenlesung, Algebra, physikalische Herleitung und empirische
+  Pruefung getrennt. Positive Quellenfunde heben klar begrenzte lokale
+  Rechenkonflikte nicht automatisch auf; fehlende Herleitung ist noch
+  kein Rechenfehler. Metronische Grundlagen bleiben systematisch offen.
+- Buch-kappa=k^2 ist nicht H006-Konfigurations-kappa; identische Zeichen
+  werden nicht fassungsuebergreifend zusammengefuehrt.
+- Gewaehlter vorbereiteter Lehrfall: H006 (1982, IGW-Reproduktion),
+  x2-Multiplett, e--Komponente, N=0. Nicht als einzig moeglicher Weg
+  oder als schon ausfuehrbarer Massentest ausgeben.
+- H006 PDF 3/8 von Root vollseitig gegengeprueft: x2 (0110)0(0,-1)
+  gibt Konfigurationsmerkmale, KEIN Besetzungsquadrupel n1..n4.
+  epsilon=+1, k=1, P=Q=1, kappa=0, C=0, x=1. Gleichung (II)
+  ergibt 2*q_x=(1-2*x)-1=-2*x, also q_x=-1 und q=1.
+  e0 ist eine andere, in der Quelle selbst fraglich kommentierte Komponente.
+- f(0)=0 reduziert den Anregungsteil. Gamma/Q_N ist dadurch nicht
+  geloest; allgemeines N=1-Verbot nicht durch x2-Sonderbehauptung ersetzen.
+- Stufe A: Ein separat quellenbelegtes n1..n4-Tupel der richtigen
+  Fassung bedingt auswerten. Historische H006-Konstanten, nacktes Alpha
+  und alpha_mass_plus getrennt fuehren. Noch kein solcher Input belegt.
+- Stufe B: Besetzung aus Auswahlregel herleiten. W_vx/W_nu_x-Bruecke
+  bleibt unbelegt, Ganzzahl-/W4-Faelle explizit halten. Alle Kandidaten
+  dokumentieren, niemals passende Sollmasse zur Lesartwahl einsetzen.
+- H007-B50-Signfrage ist fallabhaengig; der strittige U-Anteil kann
+  ausloeschen. Das ist kein Grund, H007 prinzipiell auszuschliessen oder
+  eine globale Vorzeichenklaerung zu behaupten. Hier bewusst nur H006.
+
+Acht bestehende Rechenchecks samt verfuegbaren Quellhash-Pruefungen,
+Registervalidator und 98 Tests bestanden. 26 Registereintraege und
+49 Normalisierungen unveraendert (47 resolved, 2 blocked). Gegen bfdb806
+keine Aenderungen an Skripten, Tests, Analyse-Snapshots oder Formelbibliothek.
+Kein neuer Massenwert, keine moderne Widerlegungsrecherche oder Hardwarearbeit.
+
+Naechste konkrete Etappe: Quellen-/Eingabeblatt fuer H006 x2/e-, N=0.
+Die schon belegten Konfigurationswerte uebernehmen, nicht erneut suchen.
+Jetzt ein explizites n1..n4-Besetzungstupel samt Versionsbruecke lokalisieren.
+Vorhandene H006-nahe Quellen zuerst pruefen; fremde Tabellen/Implementierungen
+bleiben getrennte Provenienz, keine Makros oder fremden Programme ausfuehren.
+Bei vollstaendig belegten Inputs und aktiven Formeln Stufe A freigeben;
+sonst fehlenden Nachweis dokumentieren, kein erfundenes Elektronresultat.
+Stufe B getrennt pruefen. Metronik, B50 oder Gamma nur mit konkretem neuem
+Anschluss aufrollen. Original-PDFs und Arbeitsbilder lokal erhalten,
+nicht committed. README und UNDERSTANDING_ROADMAP sind aktualisiert.
 
 ## Verlauf: vierzehnte Etappe abgeschlossen
 

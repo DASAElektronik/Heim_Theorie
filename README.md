@@ -38,6 +38,31 @@ Kann aus Heims Original- bzw. nahen Quellen eine reproduzierbare, parameterarme 
 
 ## Aktueller Arbeitsmodus
 
+Stand 2026-09-06, Etappe 15: Die
+[Verstaendnisbilanz](06_docs/UNDERSTANDING_BALANCE_2026-09-06.md) fuehrt den
+bisher untersuchten Alpha-/Konfigurations-/Massenformel-Ausschnitt zusammen.
+Sie trennt Quellenlesung, Rechnung, physikalische Herleitung und empirische
+Pruefung. 26 Befundgruppen sind keine 26 Fehler und keine Gesamtwiderlegung.
+Acht Rechenchecks und 98 Tests bestehen; die 49 Normalisierungen bleiben
+unveraendert (47 resolved, 2 blocked).
+
+Naechster enger Schritt: Eingabeblatt fuer die e--Komponente des
+x2-Multipletts bei N=0 in H006 vorbereiten. Das gedruckte 0110 sind
+Konfigurationsmerkmale, nicht die Besetzungszahlen n1..n4. Diese muessen
+zuerst fassungstreu belegt werden. Ein gegebenes Tupel auszuwerten ist
+von seiner Herleitung durch die Auswahlregel zu unterscheiden. Noch
+keine freigegebene Elektronenmassenrechnung und keine moderne
+Widerlegungsrecherche.
+
+[Wiedereinstieg](00_admin/RESUME.md),
+[Arbeitsfolge](00_admin/UNDERSTANDING_ROADMAP.md),
+[N0-Eingabevoraussetzungen](04_reconstruction/alpha_audit/reviews/UNDERSTANDING_N0_READINESS_REVIEW_2026-09-06.md).
+
+## Verlauf: erste neun Etappen
+
+Die folgenden Test-/Befundzahlen und naechsten Schritte sind historisch;
+fuer den aktuellen Stand gelten die Bilanz und der Wiedereinstieg oben.
+
 Stand 2026-09-06: Der erste isolierte Alpha-Audit ist ausfuehrbar und unabhaengig
 geprueft. [Ergebnisbericht](06_docs/ALPHA_AUDIT_2026-09-06.md),
 [Ausfuehren](04_reconstruction/alpha_audit/README.md),
@@ -104,6 +129,8 @@ allein erzwingen diese Parameterwahl nicht; metronische Zusatzregeln bleiben
 separat zu pruefen. Die F/G-Potentialzuordnung ist im untersuchten Kontext
 weiter spekulativ. 98 Tests, acht Snapshots und 18 Befundgruppen; keine
 Gesamtwiderlegung. Naechster Anschluss: Versionsgeltung von 1989 eta22.
+
+## Implementierungsgrenze
 
 Wir bauen zuerst eine Formelbibliothek unter `04_reconstruction/formula_library/`.
 Jede Formel bekommt eine ID, Quelle, Status, Abhaengigkeiten, Outputs und Audit-Risiken.
