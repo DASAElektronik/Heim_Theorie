@@ -2,6 +2,12 @@
 
 This file tracks whether a formula has a derivation, proof, or only a stated definition.
 
+2026-09-06: the two ALPHA records now have an `audit_implemented` calculation
+in `scripts/audit_alpha.py`. Their physical derivation status in the table is
+unchanged. `NORM-ALPHA-AUDIT-SCOPE` derives the solver's complementary-root
+identity; it does not derive Heim's proposed right-hand side from physics.
+The 1989 eta dependency follows `NORM-1989-ALPHA-ETA-CROSSREF`.
+
 | Formula ID | Derivation Status | Source Link | Notes |
 |---|---|---|---|
 | HT-F-1982-QNUM | stated_rules | `Massenformel_nach_B_Heim_1982.txt:61`; images `1982_massenformel/page-02.png`, `page-03.png` | Quantum-number definitions source-checked by worker packets plus Critic; underlined `Q(P)` rows are normalized as source rows without default `P_1`/`P_2` binding by `NORM-1982-QNUM-QOF-P-BINDING`. Stacked parenthesis notation is normalized as `choose(P,2)` by `NORM-STACKED-BINOMIAL`. |

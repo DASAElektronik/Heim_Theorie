@@ -44,7 +44,7 @@ alpha_(-)^-1 = 1.00001363
 Conversely, treating the printed negative reciprocal as branch-equation exact would imply:
 
 ```text
-alpha_(+)^-1 ~= 191.532075038398
+alpha_(+)^-1 ~= 191.532075038086
 ```
 
 That is incompatible with the printed positive reciprocal.
@@ -75,3 +75,8 @@ Related entries are tracked in `04_reconstruction/external_evidence/EXTERNAL_EVI
 ## Critic Check
 
 A read-only Critic check accepted resolving `NORM-1982-ALPHA-003` only as a residual policy: document the source value, do not correct it, and do not use it as a regression target.
+
+Rechecked 2026-09-06: Decimal arithmetic and propagated printing intervals
+confirm the incompatibility. The reverse-implied value above was refined
+from the earlier floating-point estimate; source numbers were not changed.
+See `alpha_audit/reviews/MATH_REVIEW_2026-09-06.md`.

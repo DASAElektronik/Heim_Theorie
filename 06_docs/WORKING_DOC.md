@@ -8,7 +8,14 @@ Wir untersuchen Burkhard Heims Theorie nicht als Gesamtweltbild, sondern mit ein
 
 Ein Teilchenbeschleuniger oder Detektor-Rohdaten sind erst relevant, wenn die Theorie eine neue experimentelle Signatur liefert. Fuer die erste Pruefung reichen PDG/NIST-Referenzwerte und Heims eigene Tabellen.
 
-## Naechster konkreter Arbeitsschritt
+## Aktueller Stand 2026-09-06
+
+Der erste isolierte Alpha-Audit ist implementiert, mit 13 Tests geprueft und
+unabhaengig reviewt. Ergebnis: `ALPHA_AUDIT_2026-09-06.md`.
+Naechster Einstieg: Buchherleitung um (105), eta/A_k/Y3 und Quellenvarianten;
+Details und Rechenbefehle stehen in `../00_admin/RESUME.md`.
+
+## Urspruenglicher Arbeitsschritt (historische Planung)
 
 Die Dateien zur Massenformel aus dem Heim-Archiv identifizieren, lokal erfassen und eine erste Quellentabelle erstellen:
 
@@ -19,4 +26,3 @@ Die Dateien zur Massenformel aus dem Heim-Archiv identifizieren, lokal erfassen 
 - relevante Abschnitte aus `Elementarstrukturen der Materie`
 
 Danach: Werte extrahieren und gegen PDG/NIST stellen.
-

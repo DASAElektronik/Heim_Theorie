@@ -1,20 +1,32 @@
 # Normalization Review Snapshot
 
-Date: 2026-05-15
+Date: 2026-09-06 (initial review: 2026-05-15).
 
-Scope: all 14 formula records currently marked `source_checked` and `not_implemented`.
+Scope: all 14 source-checked formula records; two isolated ALPHA audits implemented.
 
-This review does not implement formulas. It identifies the decisions required before implementation can start without hiding transcription ambiguity.
+This register tracks decisions and implementation boundaries. The September
+alpha audit is executable; it does not implement the complete mass spectrum.
 
 ## Current Gate Status
 
 - Formula catalog: 14/14 records are `source_checked`.
-- Implementation status: 14/14 records are `not_implemented`.
+- Implementation status: 2/14 `audit_implemented`, 12/14 `not_implemented`.
 - Source-check queue: 14/14 entries are `checked`.
 - Agent OCR task queue: 11/11 entries are `integrated`.
 - All catalogued formula IDs have a corresponding formula file.
 
-Gate result: implementation remains blocked until the remaining P0 normalization decisions are resolved or explicitly model-scoped.
+Gate result: the isolated ALPHA audit is scoped by `NORM-ALPHA-AUDIT-001`.
+Full mass reconstruction remains blocked and lacks complete dependency coverage;
+closing the two listed blockers alone would not establish implementation readiness.
+Decision register: 39 resolved, two blocked (41 total).
+
+## Alpha Audit 2026-09-06
+
+- Both 1982 variants miss the printed positive reciprocal rounding interval.
+- 1989 eta order follows the explicit (q,k) source reference chain.
+- Three printed branch pairs violate the complementary-square identity;
+  two B62-to-box reciprocal checks also fail, including printing intervals.
+- Source transcriptions remain unchanged. See `06_docs/ALPHA_AUDIT_2026-09-06.md`.
 
 ## Resolved Decisions
 
@@ -22,7 +34,10 @@ Gate result: implementation remains blocked until the remaining P0 normalization
 - `NORM-1982-QNUM-001`: the two underlined `Q(P)` rows are normalized as ordered source rows `Q_of_P_line_1` and `Q_of_P_line_2` with no default binding to `P_1`/`P_2`; any line-order binding is an explicit model variant. See `decisions/NORM-1982-QNUM-QOF-P-BINDING.md`.
 - `NORM-1989-QX-002`: the 1989 `C/k` prose rule is normalized as `C_1989 = C_1982 / k`; visible `(B2)` remains `+ C`, with `C` denoting `C_1989` in the 1989 implementation model. See `decisions/NORM-1989-QX-C-OVER-K.md`.
 - `NORM-1982-ALPHA-001`: `eta_{kq}` and `eta_{qk}` are source aliases around one semantic helper `eta_k_q(k,q)` defined by the printed formula body. ALPHA `eta_12` remains source-literal as `eta_k_q(1,2)`. See `decisions/NORM-1982-ETA-INDEX.md`.
-- `NORM-1982-ALPHA-002`: the printed positive alpha reciprocal is reconciled by documenting `source_transcription_variant` and `printed_alpha_fit_variant`, not by rewriting the source transcription. See `decisions/NORM-1982-ALPHA-RECONCILIATION.md`.
+- `NORM-1982-ALPHA-002`: explicit source-literal and target-motivated variants
+  document the discrepancy; neither reproduces the printed precision. Resolution
+  is a handling policy, not mathematical reconciliation. See
+  `decisions/NORM-1982-ALPHA-RECONCILIATION.md`.
 - `NORM-1982-ALPHA-003`: the printed negative alpha reciprocal is preserved as a source-literal residual, but it is not a regression target for branch-equation implementations. See `decisions/NORM-1982-ALPHA-NEGATIVE-BRANCH.md`.
 - `NORM-1982-AUX-001`: 1982 `Phi` bracket and precedence scope is normalized as product chain `F1..F9` plus additive terms `A1` and `A2`; the final mismatched delimiter closes only `F9`. See `decisions/NORM-1982-AUX-PHI-PRECEDENCE.md`.
 - `NORM-1982-AUX-002`: reused AUX symbols now have typed implementation roles. In particular, branch `alpha_(+)`/`alpha_(-)`, AUX unparenthesized `alpha+`/`alpha-`, and selection `alpha_1..3` are distinct names. See `decisions/NORM-1982-AUX-SYMBOL-ROLES.md`.

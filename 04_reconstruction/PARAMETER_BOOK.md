@@ -2,6 +2,21 @@
 
 Zweck: Alle Freiheitsgrade sichtbar machen. Dazu zaehlen nicht nur kontinuierliche Konstanten, sondern auch diskrete Labels, Zweigwahlen, Teilchenzuordnungen, Rundungsregeln und Korrekturen.
 
+## Ergaenzung: isolierter Alpha-Audit 2026-09-06
+
+Model Card: `alpha_audit/MODEL_CARD.md`; maschinenlesbare Profile:
+`alpha_audit/inputs.json`. 1982 lokale eta-Indizes und vorhandene Indexvariante
+sowie 1989-(q,k)-Quellenverweis und (k,q)-Gegenversuch bleiben getrennt.
+Mathematisches pi und gedrucktes pi=3.1415926535 sind separate Profile.
+CODATA-Alpha geht ausschliesslich in den nachfolgenden Vergleich ein.
+
+Im Buch EDM2, Druckseiten 301-302 / PDF-Folios 307-308, wird Y3 als
+Unsicherheitsfaktor in (105) eingefuehrt und fuer die anschliessende Rechnung
+auf 1 gesetzt. Eine allgemeine Festlegung/Herleitung ist hier nicht geprueft.
+Der aktuelle Alpha-Audit bildet nur diese Spezialisierung ab; Y3 wird nicht
+gefittet. Die kanonischen historischen Konstantentabellen unten bleiben
+davon getrennt.
+
 ## Kontinuierliche Konstanten
 
 | Name | Wert | Einheit | Quelle | Modellversion | Status | Notiz |

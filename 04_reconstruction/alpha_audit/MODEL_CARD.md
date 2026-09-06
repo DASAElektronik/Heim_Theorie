@@ -15,10 +15,19 @@ printed-number consistency checks. No particle masses are calculated.
 | HT-F-1982-AUX | Same PDF p. 5, IX | Indexed eta dependency only |
 | HT-F-1989-ALPHA | IGW 1989 rendering, PDF p. 9 / printed p. 18, B58-B62 | Equation and printed pairs; source numbers stored independently |
 | 1989 continuation | PDF p. 3 / printed p. 12, before B8 | Cross-reference to earlier eta/vartheta definitions |
+| EDM2 book (105) | PDF folios 307-309 / printed pp.301-303 | Same left-hand equation and printed branch pair; Y3=1 specialization |
 
 File hashes and public source URLs are in `inputs.json`. The IGW renderings
 are from 2002/2003; labels 1982/1989 do not establish publication priority
-of every printed number. Book OCR is only a future research lead.
+of every printed number. The narrow book passage was subsequently checked
+visually by the source agent and (pp.301-302) by the main agent.
+
+Book equation (105) includes `1-A1*A2*Y3`. The prose explicitly takes `Y3=1`
+for the following numerical example, after introducing Y3 as an uncertainty
+factor. That specialization is compatible with the implemented 1982 right-hand
+form; it is not evidence that the general book model has no adjustable Y3.
+The book prints the same inconsistent reciprocal pair. Changing a common
+right-hand factor cannot change the complementary-root identity.
 
 ## Constants and discrete choices
 

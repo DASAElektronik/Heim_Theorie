@@ -2,7 +2,8 @@
 
 Date: 2026-09-06. Decision ID: `NORM-1989-ALPHA-004`.
 
-Checkpoint status: worker and main-agent source reads complete; critic pending.
+Status: resolved for the IGW reference chain; worker/main source reads and
+independent mathematical review complete.
 
 ## Source chain and bounded decision
 

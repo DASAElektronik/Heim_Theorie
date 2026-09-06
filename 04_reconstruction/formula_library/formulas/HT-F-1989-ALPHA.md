@@ -53,6 +53,9 @@ The source then compares against a later measurement:
 
 `source_checked`
 
+Implementation: `audit_implemented` (2026-09-06), isolated B58-B61 calculation
+and B62/boxed-value consistency checks in `scripts/audit_alpha.py`.
+
 ## Audit Notes
 
 - Source-checked against `1989_erweiterte_massenformel/page-09.png` by two worker packets plus Critic review.
@@ -72,3 +75,10 @@ The source then compares against a later measurement:
 - Decimal commas in reciprocal/comparison lines are parsed by `NORM-1989-DECIMAL-COMMAS` if used numerically.
 - The comparison target is post-1989.
 - Possible mismatch between alpha in 1982, 1989, XLSM and implementation outputs.
+- `NORM-1989-ALPHA-ETA-CROSSREF` supplies the explicit (q,k) reference-chain
+  interpretation. The counterfactual (k,q) case is sensitivity-only.
+- The printed B62 pair and the boxed reciprocal pair each violate the branch
+  identity alpha_plus^2+alpha_minus^2=1, including printing intervals.
+- Neither B62 alpha is compatible with its own boxed reciprocal at the
+  displayed precision. Keep both printed assertions; do not silently repair.
+- See `06_docs/ALPHA_AUDIT_2026-09-06.md` and `05_analysis/alpha_audit_results.json`.

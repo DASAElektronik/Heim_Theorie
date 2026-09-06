@@ -10,16 +10,22 @@ unabhaengig reproduzieren. Jede Variante, Konstantenwahl und Quellenstelle
 bleibt sichtbar. Ergebnis ist ein ausfuehrbarer Konsistenz-Audit, keine
 Validierung der gesamten Heim-Theorie und keine vollstaendige Massenrechnung.
 
-- [ ] Quellenstellen, Dateihashes, gedruckte Zahlen und Indexkonventionen erfasst.
-- [ ] Algebraische Zweigbedingung hergeleitet und numerisch stabil ausgewertet.
-- [ ] 1982-Originalablesung und bereits dokumentierte Indexvariante getrennt.
-- [ ] 1989-B58/B61 ausgewertet, soweit die eta-Zuordnung belegt ist;
+- [x] Quellenstellen, Dateihashes, gedruckte Zahlen und Indexkonventionen erfasst.
+- [x] Algebraische Zweigbedingung hergeleitet und numerisch stabil ausgewertet.
+- [x] 1982-Originalablesung und bereits dokumentierte Indexvariante getrennt.
+- [x] 1989-B58/B61 ausgewertet, soweit die eta-Zuordnung belegt ist;
       andernfalls Varianten explizit als bedingt ausgewiesen.
-- [ ] Gedruckte Zweigpaare und Kehrwerte mit Rundungsintervallen geprueft.
-- [ ] NIST/CODATA-2022-Vergleich separat und ohne Rueckwirkung auf Formeln.
-- [ ] Sinnvolle automatisierte Tests und unabhaengige mathematische Review.
-- [ ] Ergebnisbericht, offene Fragen und Wiedereinstieg dokumentiert.
-- [ ] Eigene Aenderungen committed und auf den bestehenden Branch gepusht.
+- [x] Gedruckte Zweigpaare und Kehrwerte mit Rundungsintervallen geprueft.
+- [x] NIST/CODATA-2022-Vergleich separat und ohne Rueckwirkung auf Formeln.
+- [x] Sinnvolle automatisierte Tests und unabhaengige mathematische Review.
+- [x] Ergebnisbericht, offene Fragen und Wiedereinstieg dokumentiert.
+- [x] Arbeitscheckpoints committed und auf den bestehenden Branch gepusht.
+
+Abgeschlossen: ausfuehrbarer Audit, 13 Tests, Quellen- und Mathematikreview.
+Der Bericht `06_docs/ALPHA_AUDIT_2026-09-06.md` nennt die verbleibenden
+historischen Ursachenfragen. Die Theorie als Ganzes ist nicht abschliessend
+beurteilt. Ein zusaetzlicher enger Buchquellencheck bestaetigte das gleiche
+gedruckte Zweigpaar und dokumentierte den dort verwendeten Faktor Y3.
 
 ## Arbeitspakete und Rollen
 

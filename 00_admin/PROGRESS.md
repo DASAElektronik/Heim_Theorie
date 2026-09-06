@@ -1,5 +1,22 @@
 # Fortschritt
 
+## 2026-09-06 - Alpha-Audit abgeschlossen
+
+- 13 Tests erfolgreich; Mathematikreview akzeptiert, unabhaengige 1989-Zahl
+  als zusaetzliche Regression aufgenommen. Ergebnis-Snapshot reproduzierbar.
+- 1982/1989 ALPHA auf `audit_implemented` gesetzt; Quellstatus bleibt
+  `source_checked`. Keine komplette Massenimplementierung behauptet.
+- Zwei neue scoped Normalisierungen: Alpha-Audit und 1989-eta-Referenzkette.
+  Register: 41 Entscheidungen, davon 39 resolved und zwei blocked.
+- Fuenf Rundungspruefungen dokumentieren widerspruechliche gedruckte Angaben.
+- Frueheren Reproduktionsclaim zur 1982-Fitvariante korrigiert: nur Annaeherung.
+- Buchseiten 301-303 visuell geprueft: gleiches Paar in (105), zusaetzlicher
+  Y3-Faktor fuer die dortige Zahlenrechnung auf 1 gesetzt. Buchdatei gehasht.
+- Bericht, Model Card, Quellenreview, Mathematikreview und Wiedereinstieg
+  gepflegt. Checkpoints `f9eeeee` und `df02845` erfolgreich gepusht;
+  Abschlusscommit folgt mit Nachricht `Complete audited alpha findings and recovery handoff`.
+- Naechster Quellenblock: eta/A_k/Y3-Herleitung und Ausgaben-/Erratavergleich.
+
 ## 2026-09-06 - Alpha-Audit, Implementierungscheckpoint
 
 - Auftrag fuer Plan, bedarfsgerechte Agenten und wiederholte Sicherung erhalten.

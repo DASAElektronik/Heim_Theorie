@@ -17,6 +17,15 @@
       "url": "https://burkhardheim.de/assets/Erweiterte_Massenformel_Nach_Heim_1989.pdf",
       "locator": "PDF page 9 / printed page 18, B58-B62; PDF page 3 / printed page 12 cross-reference to IX; IGW 2003 rendering",
       "source_class": "near_primary"
+    },
+    {
+      "id": "book_edm2_1996_confirmation",
+      "path": "01_sources/heim_primary/Burkhard Heim - 1996 - Elementarstrukuren der Materie 2.pdf",
+      "sha256": "F094F56EC81D22D17C21C93BA248705DD79100828B813C72682F6A6605593849",
+      "url": "https://burkhardheim.de/assets/Burkhard%20Heim%20-%201996%20-%20Elementarstrukuren%20der%20Materie%202.pdf",
+      "locator": "PDF folios 307-309 / printed pp.301-303, equation 105 and Y3=1 numerical specialization",
+      "source_class": "primary_book_scan",
+      "role": "Visual confirmation of the same printed 1982 branch pair; general Y3-dependent model not implemented"
     }
   ],
   "pi_profiles": [

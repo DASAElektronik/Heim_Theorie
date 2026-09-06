@@ -2,6 +2,9 @@
 
 Date: 2026-05-15
 
+Local numeric baseline refined 2026-09-06 by the Decimal audit; external claims
+below remain historical research leads and were not promoted to primary evidence.
+
 Scope:
 
 - `HT-F-1982-ALPHA`
@@ -16,11 +19,11 @@ The 1982 source-checked branch equation gives:
 
 ```text
 source_transcription_variant:
-  alpha_plus^-1  ~= 137.049188026668
+  alpha_plus^-1  ~= 137.049188026664
   alpha_minus^-1 ~= 1.000026621616
 
 printed_alpha_fit_variant:
-  alpha_plus^-1  ~= 137.035960995197
+  alpha_plus^-1  ~= 137.035960995152
   alpha_minus^-1 ~= 1.000026626755
 ```
 

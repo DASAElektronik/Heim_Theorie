@@ -13,6 +13,7 @@ qx,qx,electric charge quantum number,number,"HT-F-1982-QNUM; HT-F-1989-QX","Sign
 q,q_abs_charge_1982,absolute charge number,number,"HT-F-1982-QNUM; HT-F-1982-AUX","q=abs(qx); AUX/Phi implementation uses q_abs_charge_1982"
 eta,eta,base eta helper,dimensionless,"HT-F-1982-ALPHA; HT-F-1982-AUX","Base eta is pi/(pi^4+4)^(1/4)"
 eta_kq,source_eta_kq,ALPHA source-local eta subscript spelling,dimensionless,HT-F-1982-ALPHA,"Per NORM-1982-ETA-INDEX maps to canonical eta_k_q(k,q); eta_12 remains source-literal eta_k_q(1,2); alpha reciprocal variants are handled by NORM-1982-ALPHA-RECONCILIATION and NORM-1982-ALPHA-NEGATIVE-BRANCH"
+"eta_(q,k)",eta_q_k_1989,1989 source-reference indexed eta,dimensionless,HT-F-1989-ALPHA,"Per NORM-1989-ALPHA-ETA-CROSSREF eta_(1,2)=eta_k_q(k=2,q=1) through paragraph before B8 and 1982 IX; preserve different 1982 ALPHA local kq convention"
 eta_qk,source_eta_qk,AUX/SELECTION source-local eta subscript spelling,dimensionless,"HT-F-1982-AUX; HT-F-1982-SELECTION-WVX","Per NORM-1982-ETA-INDEX maps by printed formula variables to canonical eta_k_q(k,q); do not infer argument order from visual qk spelling alone"
 mu,mu_mass_element_1982,mass element,mass,HT-F-1982-MU,"Not muon; 1982 mass implementation uses mu_mass_element_1982"
 M,M_1982__M_1989,unified mass spectrum term,mass,"HT-F-1982-MASS; HT-F-1989-MASS","1982 formula XII and 1989 B3 are source-checked; use separate versioned mass models"

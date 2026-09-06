@@ -2,7 +2,7 @@
 
 Date: 2026-09-06. Decision ID: `NORM-ALPHA-AUDIT-001`.
 
-Checkpoint status: implemented in isolation; independent review pending.
+Status: resolved for the isolated audit; independent mathematical review accepted.
 
 ## Scope
 

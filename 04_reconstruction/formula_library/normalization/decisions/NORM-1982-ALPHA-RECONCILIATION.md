@@ -2,6 +2,8 @@
 
 Date: 2026-05-15
 
+Rechecked: 2026-09-06 with `scripts/audit_alpha.py` and independent review.
+
 Decision ID resolved:
 
 - `NORM-1982-ALPHA-002`
@@ -12,7 +14,10 @@ Follow-up residual policy:
 
 ## Decision
 
-The printed positive reciprocal value for the 1982 fine-structure branch is reconciled by documenting two explicit variants rather than silently changing the source transcription.
+The discrepancy in the printed positive reciprocal is handled by documenting
+two explicit variants. This resolves a documentation/implementation policy,
+not the numerical discrepancy. Neither variant reproduces the printed value
+within half of its last shown decimal place.
 
 ### Variant A: `source_transcription_variant`
 
@@ -35,13 +40,14 @@ alpha * sqrt(1 - alpha^2)
 this gives:
 
 ```text
-alpha_plus^-1 ~= 137.049188026668
+alpha_plus^-1 ~= 137.049188026664
 alpha_minus^-1 ~= 1.000026621616
 ```
 
 ### Variant B: `printed_alpha_fit_variant`
 
-This variant fits the printed positive reciprocal value by reading the bare `eta_12` occurrence as:
+This existing, target-motivated variant approaches the printed positive
+reciprocal by reading the bare `eta_12` occurrence as:
 
 ```text
 eta_12 = eta_k_q(2, 1)
@@ -52,7 +58,7 @@ This is not source-literal transcription. It is an `our_inference` / model varia
 It gives:
 
 ```text
-alpha_plus^-1 ~= 137.035960995197
+alpha_plus^-1 ~= 137.035960995152
 ```
 
 compared with printed:
@@ -60,6 +66,12 @@ compared with printed:
 ```text
 alpha_(+)^-1 = 137.03596147
 ```
+
+The 80-digit audit with mathematical pi gives residual
+`-4.7484842225779391e-7`, approximately 47.48 units of the last printed place
+(`1e-8`). It lies outside the rounding interval `[137.035961465, 137.035961475]`.
+Using the source's finite printed pi does not remove the discrepancy. The
+historical variant name is retained for continuity; it does not mean a match.
 
 ## Unresolved Residual
 
@@ -76,10 +88,16 @@ This residual is not solved by the `printed_alpha_fit_variant`. It is resolved a
 
 - Do not overwrite the source transcription of `eta_12`.
 - Do not treat `printed_alpha_fit_variant` as historical validation.
-- Do not use the printed `alpha_plus` value as a regression target unless the model explicitly declares the `printed_alpha_fit_variant`.
+- Do not assert equality with the printed `alpha_plus` value in a regression
+  test, even for `printed_alpha_fit_variant`. Test the independently derived
+  result and report its nonzero source residual.
 - Do not claim the negative branch is reconciled by this decision; `NORM-1982-ALPHA-NEGATIVE-BRANCH` only prevents the printed residual from becoming a false regression target.
 - Keep reciprocal notation explicit: `alpha_(+)^-1` and `alpha_(-)^-1`.
 
 ## Critic Check
 
 A read-only Critic check accepted this variants-based reconciliation and rejected a silent source rewrite.
+
+The 2026-09-06 independent mathematical review clarified that this is a
+variants/residual policy, not numerical reconciliation. See
+`alpha_audit/reviews/MATH_REVIEW_2026-09-06.md` and the machine result.

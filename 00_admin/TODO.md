@@ -1,5 +1,17 @@
 # TODO
 
+## Aktueller Einstieg (2026-09-06)
+
+- [x] Isolierten Alpha-Audit 1982/1989 implementieren, testen und gegenlesen.
+- [x] Gedruckte Zweig-/Kehrwertangaben unter Rundung pruefen; Bericht erstellt.
+- [x] Buch (105) eng gegenpruefen; Y3=1-Spezialisierung dokumentieren.
+- [ ] Buchherleitung von eta/A_k/Y3 und historische Ursachenfrage verfolgen.
+- [ ] 1989 B58-B62 mit weiteren belegbaren Fassungen und Errata abgleichen.
+- [ ] Danach fehlende Massenabhaengigkeiten sowie B50 und Gamma/Q_N bearbeiten.
+
+Massgeblicher Wiedereinstieg: `RESUME.md`. Die folgenden Phasenlisten sind
+die urspruengliche Projektplanung und nicht der aktuelle Detailstatus.
+
 ## Phase 1: Quellenbasis
 
 - [ ] Vollstaendige Quellenliste aus `01_sources/source_register.md` pruefen.

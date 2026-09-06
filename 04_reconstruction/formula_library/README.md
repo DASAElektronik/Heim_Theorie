@@ -30,6 +30,8 @@ Eine Bibliothek verhindert, dass wir beim Rechnen unbemerkt Quellen mischen.
 - `source_checked`: gegen Quelle geprueft.
 - `normalized`: in eine eindeutige moderne Schreibweise gebracht.
 - `implemented`: in Code umgesetzt.
+- `audit_implemented` (Spalte implementation_status): isolierter, versionierter
+  Konsistenz-Audit umgesetzt; keine vollstaendige Theorie-/Massenimplementierung.
 - `validated_against_table`: reproduziert eine Heim-nahe Tabelle.
 - `rejected_or_ambiguous`: nicht eindeutig oder nicht tragfaehig.
 

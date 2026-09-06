@@ -2,11 +2,15 @@
 
 Aktualisiert: 2026-09-06.
 
-## Aktiver Auftrag
+## Auftrag und abgeschlossene Etappe
 
 Alpha-Audit 1982/1989 nach `00_admin/ALPHA_AUDIT_PLAN.md` umsetzen und
 wiederholt sichern. Der Nutzer hat Arbeit, bedarfsgerechte Agenten und
 Sicherung autorisiert. Save-Workflow umfasst Commit und Push.
+
+Die erste Etappe ist abgeschlossen: ausfuehrbarer Konsistenz-Audit mit
+unabhaengiger Review. Die historische Ursache der widerspruechlichen Zahlen
+und die vollstaendige Massenrekonstruktion bleiben offen.
 
 ## Ausgangspunkt
 
@@ -23,31 +27,40 @@ Sicherung autorisiert. Save-Workflow umfasst Commit und Push.
   gedruckt ist 137.03596147. Indexvariante ist bereits separat dokumentiert.
 - Gedruckte Zweigpaare in 1982 und 1989 erfuellen die von ihrer Gleichung
   verlangte Identitaet alpha_plus^2 + alpha_minus^2 = 1 nicht.
-- Diese Befunde benoetigen jetzt persistente Berechnung, Tests und Review.
+- Persistente Berechnung und Review bestaetigen diese Befunde.
+- 1989 hat zusaetzlich zwei inkompatible B62-/Kehrwertangaben.
+- Buchscan EDM2, Druckseite 302 / PDF-Folio 308, (105): dasselbe gedruckte
+  Paar und dieselbe linke Seite. Y3 wird als Unsicherheitsfaktor eingefuehrt
+  und fuer die konkrete Zahlenrechnung auf 1 spezialisiert.
 
-## Laufende Arbeit
+## Fertige Artefakte
 
 - Quellenagent abgeschlossen: Review unter
   `04_reconstruction/alpha_audit/reviews/SOURCE_REVIEW_2026-09-06.md`.
-- Rechner, Eingaben, Model Card und Ergebnisse liegen vor; 12 Tests bestanden.
-  PDF-SHA256 fuer beide Quellen stimmen. Default-Rechnung: 80 Stellen;
+- Rechner, Eingaben, Model Card und Ergebnisse liegen vor; 13 Tests bestanden.
+  PDF-SHA256 fuer drei Quellen werden geprueft. Default-Rechnung: 80 Stellen;
   120-Stellen-Konvergenz wird im Test geprueft.
-- Mathematikagent `alpha_math`, GPT-6 Astra high, prueft gerade Implementierung
-  und Normalisierungen. Abschlussreview wird in
-  `04_reconstruction/alpha_audit/reviews/MATH_REVIEW_2026-09-06.md` abgelegt.
-- Hauptagent erstellt lesbaren Bericht und aktualisiert danach kanonischen
-  Status; bisherige Formeltranskriptionen bleiben unangetastet.
+- Mathematikreview abgeschlossen und akzeptiert:
+  `04_reconstruction/alpha_audit/reviews/MATH_REVIEW_2026-09-06.md`.
+- Bericht: `06_docs/ALPHA_AUDIT_2026-09-06.md`.
+- Zwei ALPHA-Katalogeintraege `audit_implemented`; 12 andere `not_implemented`.
+  41 Normalisierungsentscheidungen: 39 resolved, zwei blocked.
+- Keine aktive Agentenarbeit erforderlich. Source-Transkriptionen unveraendert;
+  Risikowortlaut und alte Rechennaeherungen wurden praezisiert.
 
 Agentennamen sind Sitzungsreferenzen, keine Voraussetzung zum Neustart.
 Bei neuer Sitzung vorhandene Review-Dateien zuerst lesen.
 
 ## Naechster konkreter Schritt
 
-Mathematikreview einarbeiten, Bericht und kanonische Status-/Risikonotizen
-abschliessen. Die 1982-Fitvariante ist nur naeher am gedruckten Wert und
-reproduziert ihn nicht auf dessen letzte Dezimalstelle. In 1989 ist `(q,k)`
-ueber die Quellenreferenzkette belegt. Alle fuenf gedruckten Paar-/Kehrwertchecks
-sind auch unter Rundungsintervallen inkompatibel.
+Die Buchherleitung um (105), Druckseiten 297-302, rueckwaerts auf eta-, A_k-
+und Y3-Definitionen verfolgen. Ziel: Ursache der gedruckten Inkonsistenz
+lokalisieren. Danach 1989 B58-B62 mit weiteren datierbaren Fassungen/Errata
+vergleichen. Nicht automatisch einen Faktor oder Index nach Zielwert waehlen.
+
+Bereits verifiziert und nicht neu anfangen: 1982-Fitvariante ist nur naeher,
+1989-(q,k)-Indexkette ist belegt, alle fuenf Druckpaarchecks sind inkompatibel.
+Eine gemeinsame Aenderung der rechten Seite repariert die Zweigidentitaet nicht.
 
 ```powershell
 py -3.13 scripts/audit_alpha.py --check --verify-sources
@@ -59,8 +72,19 @@ Python ist ueber `py -3.13` verfuegbar; keine Fremdprogramme aus ZIPs ausfuehren
 ## Sicherung
 
 - Plan-Checkpoint `f9eeeee` committed und erfolgreich gepusht.
-- Zweiter Checkpoint sichert den getesteten Rechner mit noch laufender Review.
+- Rechner-Checkpoint `df02845` committed und erfolgreich gepusht.
+- Abschlussstand: Commit-Nachricht `Complete audited alpha findings and recovery handoff`.
+  Den Hash und Remote-Abgleich mit den folgenden Befehlen feststellen.
 - Nutzer meldete 24.318 verbleibende Credits; keine automatische Live-Abfrage.
 
-Den tatsaechlichen Stand mit `git log -3 --oneline` und
-`git status --short --branch` pruefen.
+```powershell
+git log -3 --oneline
+git status --short --branch
+git rev-parse HEAD
+git rev-parse origin/normalization-review
+```
+
+Fremd-PDFs sind bewusst nicht auf GitHub. Drei SHA256 plus URLs in `inputs.json`
+ermoeglichen den spaeteren Quellenabgleich; der numerische Audit laeuft auch
+ohne diese Dateien. Bei einem abweichenden Download keine neue Datei still
+als dieselbe Ausgabe behandeln.
