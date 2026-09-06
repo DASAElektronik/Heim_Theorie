@@ -2,7 +2,15 @@
 
 Aktualisiert: 2026-09-06.
 
-## Aktuell: fuenfundzwanzigste Etappe abgeschlossen
+## Aktuell: sechsundzwanzigste Etappe in Arbeit
+
+Ausgang `e2eaad8`, Vertrag `MUON_SELECTION_PLAN.md`.
+H006x3/mu-,N0: Komponenten, W und K-Auswahl quellengebunden pruefen.
+Drei bestehende Konstantenprofile, zwei vorab benannte A16-Lesarten und
+zwei H006-Wurzelweiten; keine Masse, keine H010-Substitution oder Epsilonwahl.
+Drei unabhaengige Teilreviews und Root-Rechnung. Aktuelle MUON*-Dateien lesen.
+
+## Verlauf: fuenfundzwanzigste Etappe abgeschlossen
 
 Ausgang `e0055c9`, Plancheckpoint `28a9edc`, Vertrag `K4_W4_PLAN.md`.
 Bericht: `06_docs/K4_W4_SELECTION_2026-09-06.md`.
