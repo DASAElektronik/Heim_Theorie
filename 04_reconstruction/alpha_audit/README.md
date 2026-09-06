@@ -3,7 +3,16 @@
 Isolierter, reproduzierbarer Konsistenztest der 1982/1989-Alpha-Bloecke in den
 lokalen IGW-Wiedergaben. Python >= 3.10; nur Standardbibliothek erforderlich.
 
-## Etappe 17: historischer Vergleich (aktueller Stand)
+## Etappe 18: alpha3-Herkunft (aktueller Stand)
+
+H004II275/278(98c) und H015FORTRAN/GBASE/PDF22 tragen beide H010-Terme.
+Die Buchkoeffizienten sind ausdruecklich empirisch gewaehlt; die letzte
+Algebra stimmt unter diesen Voraussetzungen. Drei ALPHA3*-Reviews und
+`tests/test_alpha3_origin.py` sichern Quelle/Umformungen, keine neuen Massen.
+Bericht `06_docs/ALPHA3_ORIGIN_2026-09-06.md`; FIND-030/30 Befundgruppen,
+zehn unveraenderte Snapshotchecks und 133 Tests. Alte Profile nicht ersetzt.
+
+## Etappe 17: historischer Vergleich (vorheriger Stand)
 
 `historical_n0_inputs.json` und `NORM-HISTORICAL-N0-COMPARISON.md` frieren
 sechs Formel-/Inputachsen vor der Rechnung ein. 64 Gegenfaktorkombinationen

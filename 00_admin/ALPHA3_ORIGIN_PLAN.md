@@ -19,7 +19,12 @@ Zwei begrenzte Gegenpruefungen statt breiter Suche; keine Fremdprogramme.
 
 ## Abschlusskriterien
 
-- [ ] Positive Herkunftsanker oder genau begrenztes Suchergebnis dokumentiert.
-- [ ] Potenz-/Wurzelunterschiede und Herleitungsstatus fassungsgetrennt.
-- [ ] Alter Rechenstand nachgeprueft, neue Aussage intern gegengelesen.
-- [ ] Bericht und Wiedereinstieg gesichert.
+- [x] Positive Herkunftsanker H004II275/278 und H015GBASE/PDF22 dokumentiert.
+- [x] Potenz-/Wurzelunterschiede und Herleitungsstatus fassungsgetrennt.
+- [x] Alter Rechenstand nachgeprueft, neue Aussage intern gegengelesen.
+- [x] Bericht und Wiedereinstieg fuer Abschlusscommit fertiggestellt.
+
+H015-Fund als begrenzter Anschlussauftrag an alpha_versions; Root hat
+ALF3-Glyphen unabhaengig gelesen. Keine fremden Programme ausgefuehrt.
+Sechs neue eigene Algebra-Tests, 133 Tests insgesamt; alte zehn Checks erhalten.
+Fortsetzung in RESUME.md, nicht erneute unbegrenzte gleiche Quellensuche.

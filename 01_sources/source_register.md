@@ -6,6 +6,15 @@ Dieses Register sammelt Fundstellen. Lokale Kopien sollten nur abgelegt werden, 
 
 ## Enger Pruefstand 2026-09-06
 
+Etappe18: H004 Druck271-275 und278 liefert die zwei H010-alpha3-Terme
+mit explizit empirisch gewaehlten Koeffizienten. H015 neu archiviert:
+fotografiertes FORTRAN-GBASE-Listing PDF22, datierte Kopfzeilen1982,
+ALF3/ISN0021/00003710-00003713 stimmt lokal mit H004/H010 ueberein.
+Kein Fremdprogramm ausgefuehrt, keine forensische Echtheitspruefung.
+H013/H014(8c) gegen H007(B8) als getrennte neue N3-Form gelesen.
+Hash, visuelle Fundstellen und enger Umfang:
+`03_notes/ALPHA3_ORIGIN_SOURCES_2026-09-06.md`.
+
 Etappe 16: H006-Konfigurations-/N0-Pfad bis zur bedingten Massensumme
 geprueft; griechische nu/x-Indexbruecke korrigiert, XIV/XXVI-Exponenten
 getrennt. H010-Pascal/C-Quelltexte und vorhandene Ausgabe-/Readme-Texte
@@ -94,6 +103,7 @@ Keine neuen Quellen oder stillen Rechenprofilwechsel; Umfang/Hashes:
 | H012 | Buch mit getrennten Autorschichten | Heim/Droescher/Resch: Einfuehrung in Burkhard Heim,1998 | https://heim-theory.com/wp-content/uploads/2025/09/Burkhard-Heim-1998-Einfuehrung-Einheitliche-Beschreibung-der-Welt.pdf | Autorschicht/Register/H-Alpha-Zusammenfassung eng geprueft |
 | H013 | Autorbezeichneter Typoskriptscan, undatiert | Heim: Ausgewaehlte Ergebnisse einer einheitlichen Quantenfeldtheorie der Materie und Gravitation, J0033-b,61 PDF-Seiten | https://heim-theory.com/wp-content/uploads/2026/07/J0033-Heim_Ausgewaehlte-Ergebnisse-b.pdf | Motivation/H-Alpha und AnhangB eng geprueft; kein nachgewiesenes1989-Faksimile |
 | H014 | Autorbezeichneter Typoskriptscan, undatiert | Gleichnamige Fassung J0032-a,50 PDF-Seiten, andere Paginierung | https://heim-theory.com/wp-content/uploads/2026/07/J0032-Heim_Ausgewaehlte-Ergebnisse-a.pdf | Titel/AnhangB und Navigationsseiten eng geprueft; keine gesicherte Chronologie |
+| H015 | Primaerdokument-Kandidat: fotografierte Listings/Typoskript | Archivtitel1982 Heim DESY sortiert OCR,43 PDF-Seiten; heutige Digitalisierung | https://burkhardheim.de/media/f/c57c27a0-3692-5fae-920d-5ba89ad58349 | GBASE-ALF3 auf PDF22 bildlich geprueft; Datums-/Echtheitsgrenzen und SHA256 in03_notes/ALPHA3_ORIGIN_SOURCES_2026-09-06.md; kein Programmlauf |
 
 ## Einordnung und Rekonstruktion
 

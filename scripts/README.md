@@ -40,7 +40,14 @@ py -3.13 -m unittest discover -s tests -q
 ```
 
 Ohne lokale Fremdquellen `--verify-sources` weglassen. Die zehn numerischen
-Snapshots sind dann weiter pruefbar, die Quelldateien nicht. 127 Tests bestehen.
+Snapshots sind dann weiter pruefbar, die Quelldateien nicht. 133 Tests bestehen.
+
+## Alpha3: letzte Buchalgebra, kein neuer Massenrechner
+
+`tests/test_alpha3_origin.py` prueft sechs elementare Zusammenhaenge mit
+exakten rationalen Beispielwerten. Empirisch gewaehlte Buchkoeffizienten
+werden vorausgesetzt; keine Validierung metronischer Integration oder
+physikalischer Vorhersagen. Kein elfter Snapshot und kein Fremdprogrammlauf.
 
 ## H006/H010: getrennte N0-Vergleichsprofile
 

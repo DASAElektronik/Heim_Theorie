@@ -38,20 +38,21 @@ Kann aus Heims Original- bzw. nahen Quellen eine reproduzierbare, parameterarme 
 
 ## Aktueller Arbeitsmodus
 
-Stand 2026-09-06, Etappe 17: Der
-[historische Vergleich desselben Elektronfalls](06_docs/HISTORICAL_N0_2026-09-06.md)
-reproduziert bedingt den archivierten spaeteren Programmwert. Gegenueber
-H006 sind zwei alpha3-Formeln sowie Eingaben verschieden; die Potenzklammer
-dominiert den Zahlenunterschied. 64 vorab feste Gegenrechnungen und eine
-zusaetzliche Wurzellesart sind unabhaengig geprueft, keine Formel nach Masse
-ausgewaehlt. Der [alte H006-Rechner](06_docs/N0_ELECTRON_2026-09-06.md)
-bleibt unveraendert; eine typographische Wurzelgrenze ist sichtbar qualifiziert.
-Zehn Rechenchecks und 127 Tests bestehen. 29 Befundgruppen sind keine 29 Fehler.
-Die 49 CSV-Normalisierungszeilen behalten ihren Status. Keine moderne
-empirische Bestaetigung oder Gesamtwiderlegung, kein Original-1982-Replay.
+Stand 2026-09-06, Etappe 18: Die
+[Herkunft der alpha3-Terme](06_docs/ALPHA3_ORIGIN_2026-09-06.md) ist jetzt
+im BuchII275/278 und im fotografierten FORTRAN-Listing mit Datumszeilen1982
+belegt. Beide tragen die spaetere H010-Programmform. Heim waehlt die
+Koeffizienten im Buch ausdruecklich anhand der Empirie von Elektron/Proton;
+der letzte algebraische Schritt stimmt, die physikalischen Annahmen bleiben
+zu pruefen. Ursache der abweichenden H006-Zeile weiterhin offen.
+Der [historische Zahlenvergleich](06_docs/HISTORICAL_N0_2026-09-06.md)
+und alle alten Rechenprofile bleiben unveraendert.
+Zehn Rechenchecks und 133 Tests bestehen. 30 Befundgruppen sind keine 30 Fehler;
+49 CSV-Normalisierungen behalten ihren Status. Keine moderne empirische
+Bestaetigung/Gesamtwiderlegung und kein nachgestellter FORTRAN-Lauf.
 
-Naechster enger Schritt: Herkunft und Herleitung der zwei alpha3-Terme
-an konkreten Quellen-/Formelblattankern verfolgen, ohne Massenzielwahl.
+Naechster enger Schritt: Potential-/Variationsannahmen und Bestimmtheit
+der empirischen Koeffizientenwahl pruefen, ohne neuen Massenziel-Fit.
 [Wiedereinstieg](00_admin/RESUME.md), [Arbeitsfolge](00_admin/UNDERSTANDING_ROADMAP.md).
 
 ## Verstaendnisbilanz der Etappe 15

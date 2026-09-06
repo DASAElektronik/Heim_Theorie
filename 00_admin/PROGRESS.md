@@ -1,5 +1,23 @@
 # Fortschritt
 
+## 2026-09-06 - Achtzehnte Etappe: Herkunft der alpha3-Terme
+
+- H004II275/278(98c) traegt beide H010-Formbereiche. H/G-Korrekturen
+  getrennt von gleichnamigen KGH-Massenpolynomen; alpha3=f-qF nachvollzogen.
+- Buch nennt spekulativen Potentialschritt und empirische A/B-Wahl fuer
+  Elektron/Proton. Letzte gewoehnliche Exponentialumformung korrekt,
+  aber keine abgeschlossene Erstprinzipien-Herleitung oder unabh. Vorhersage.
+- Neu archivierter H015-Fotoscan: GBASEPDF22, ISN0021/00003710-00003713
+  zeigt beide H010-Terme, datierte Kopfzeilen1982; keine Fremdausfuehrung.
+  Daher kein erstmals spaeter Pascal/C-Eingriff. H006-Abweichungsursache offen.
+- H013/H014 neue N3-Form zu H007B8 lokal verbunden, nicht mit altem xi-Term fusioniert.
+- Zwei Quellenagenten/drei Reviews, Root-Gegenlesung, sechs neue exakte Tests.
+  Zehn Rechenchecks, Quellhashes, 133 Tests und Registervalidator bestanden.
+  FIND-030, nun 30 Befundgruppen/keine 30 Fehler; alte Rechner/Inputs/Snapshots erhalten.
+- Naechste konkrete Frage: Tragfaehigkeit der Potential-/Variationsannahmen
+  und Bestimmtheit empirischer A/B-Wahl. Originalnaehe-Exponentenanker
+  H015PDF39/41 separat vorgemerkt, nicht vorzeitig als Erratum behandelt.
+
 ## 2026-09-06 - Siebzehnte Etappe: H006/H010-Elektronvergleich
 
 - Formel-/Konstanten-/Rundungsreviews getrennt, keine fremden Programme ausgefuehrt.

@@ -3,6 +3,13 @@
 Stand: 2026-09-06, Etappe 17 ab `99a2efa`. Vertrag vor Rechnung:
 `ca9abb1`. Enger Umfang: H006-x2/e-, N=0; keine anderen Teilchen.
 
+Nachtrag Etappe18: [Die Quellenverfolgung](ALPHA3_ORIGIN_2026-09-06.md)
+belegt beide H010-alpha3-Terme im BuchII275/278 und im fotografierten
+FORTRAN-Listing mit Datumszeilen1982 (H015PDF22). Die unten genannten
+Unterschiede zu H006 bleiben; eine erst spaete Programmaenderung darf
+daraus nicht abgeleitet werden. Alte Eingaben, Rechnungen und Snapshots
+sind unveraendert. Die Buchkoeffizienten sind ausdruecklich empirisch gewaehlt.
+
 ## Ergebnis
 
 Wir koennen den **archivierten spaeteren Programmwert** fuer diesen einen

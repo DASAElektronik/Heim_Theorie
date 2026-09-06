@@ -2,12 +2,47 @@
 
 Aktualisiert: 2026-09-06.
 
-## Aktuell: achtzehnte Etappe in Arbeit
+## Aktuell: achtzehnte Etappe abgeschlossen
 
-Ausgang a989f03. Enger Auftrag ALPHA3_ORIGIN_PLAN.md: Herkunft und
-Herleitung der zwei alpha3-Korrekturterme; Root Original-/Formelblattspur,
-book_derivation Buch, alpha_versions spaetere Manuskripte. Keine neuen
-Massenzielwerte oder stillen Profilwechsel. Ergebnisse vor Fortsetzung pruefen.
+Ausgang a989f03, Plancheckpoint c9beca4. Bericht:
+`06_docs/ALPHA3_ORIGIN_2026-09-06.md`, Quellenumfang:
+`03_notes/ALPHA3_ORIGIN_SOURCES_2026-09-06.md`.
+Abschlusscommit-Nachricht: `Trace alpha3 book construction and dated FORTRAN source`.
+Bei Fortsetzung HEAD/Remote pruefen. Keine laufenden Agenten erforderlich.
+
+- H004 BuchII271-275 und278/(98c) traegt exakt die zwei H010-alpha3-Terme.
+  (1+sqrt(d)) ausserhalb2k+1; (2*xi*d)^k ohne Wurzel.
+- Heim setzt alpha3=f-qF, F=H+G; diese H/G sind nicht die Massenpolynome.
+  Potential-/Variationsansaetze teils spekulativ. A_i/B_i werden auf275
+  ausdruecklich an Elektron/Proton angepasst, nicht von uns nachgefittet.
+  Der letzte elementare Exponentialschritt stimmt; keine Bestaetigung aller
+  metronischen Voraussetzungen oder Eindeutigkeit der empirischen Wahl.
+- Neue Quelle H015: 43seitiger Archivscan mit fotografierten FORTRAN-Listings.
+  PDF22/GBASE/ISN0021/00003710-00003713 zeigt bereits beide H010-Terme;
+  Kommentar17/03/82, Compilerkopf82.223/09.22.05. ISN0022/00004100: AN3=2ALF3.
+  Root und alpha_versions unabhaengig gegengelesen, kein Programm ausgefuehrt.
+  Keine forensische Echtheitspruefung; nicht das verifizierte Formelblatt1978.
+- H004 ist Ausgabe1996. Ursache/Absicht von H006-Abweichung bleibt offen:
+  keine autorisierte Korrektur oder sichere Redaktionsfehlergeschichte.
+- H013/H014(8c) und H007B8 sind eine neue logarithmische N3-Form ohne xi;
+  ueber u=2pi*e,3omega=4c lokal formgleich, keine Herleitung alter Terme.
+- Zwei Quellenagenten, drei ALPHA3*-Reviews; Root-Bildkontrolle plus
+  sechs neue exakte Fraction-Tests. Alle 133 Tests, zehn alte Rechenchecks und
+  Quellhashes bestanden; FIND-030/30 Befundgruppen, keine 30 Fehler.
+  Alle alten Rechner/Inputs/Snapshots und 49 CSV-Zeilen unveraendert.
+- H015PDF/Arbeitsbilder lokal, gitignoriert. Reproduzierbarer Abruf per
+  registrierter URL und SHA256 in Quellennotiz; Original nicht veraendert.
+
+Naechster enger Auftrag: H004272-275 Potential-/Variationsansaetze einzeln
+auf Voraussetzungen, Bestimmtheit und empirische Festlegungen pruefen.
+Kein neuer Fit und keine Formelwahl nach Treffer. Kurzer konkreter
+Nebenanker vor weiterer originalbezogener Fehleraussage: H015PDF39/Druck4
+und PDF41/Druck5 gegen H006XIV/XXVI und FIND-027 unabhaengig lesen; der
+Originalnaehe-Scan zeigt offenbar schon den(1-2k)-Gesamtnumerator.
+Noch nicht als neuer Befund oder als stiller Fix verbucht.
+Ungepruefte spaetere2009-N3-Korrespondenz nur als gespeicherte Spur in
+Quellennotiz; kein autorisiertes Erratum, nicht mit alter alpha3 fusionieren.
+Breite moderne Empirie und allgemeines Spektrum bleiben nachgeordnet.
 
 ## Verlauf: siebzehnte Etappe abgeschlossen
 
