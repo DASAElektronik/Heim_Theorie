@@ -2,7 +2,15 @@
 
 Aktualisiert: 2026-09-06.
 
-## Aktuell: neunundzwanzigste Etappe abgeschlossen
+## Aktuell: dreissigste Etappe in Arbeit
+
+Ausgang `00180ec`, Vertrag `BOOK_PSEUDOSINGLET_PLAN.md`.
+Buchinterne Eingaben fuer aktives N0-Pseudosingulett und direkte
+G_j-/delta_jG_j-Strukturbedingungen vor einer neuen Auswahl festlegen.
+Keine H006/H010-Konstantenmischung, Masse oder Y9-Zielwertwahl.
+Drei neue BOOK_PSEUDOSINGLET*-Reviews; alte Rechner/Inputs/Snapshots erhalten.
+
+## Verlauf: neunundzwanzigste Etappe abgeschlossen
 
 Ausgang `3a779e5`, Plancheckpoint `4da02b3`, Vertrag `BOOK_SELECTION_PLAN.md`.
 Bericht: `06_docs/BOOK_SELECTION_2026-09-06.md`.
