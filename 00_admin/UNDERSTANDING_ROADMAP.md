@@ -25,23 +25,23 @@ Ergebnis; sie werden nicht als stillschweigende Definitionen behandelt.
 
 ## Naechste begrenzte Arbeitseinheit
 
-1. Aus II Druck276/277,297-301 und Manuskript1981 Seiten1-5 ein explizites
-   H-Wellenproblem rekonstruieren: Variable, Wellentyp, Radius, Randbedingungen
-   und Bezugssystem. Fehlt ein Schritt, als fehlend markieren.
-2. Ein-Wellenlaengen-Auswahl, c/lambda und Meridianregel darauf beziehen;
-   keine passende moderne Atomgleichung ohne Quellbruecke hineinlesen.
-3. Anschluss von E_k=pc an die Energie-/Arbeitsbilanz weiter offen fuehren;
-   Skalar/Form-Unterscheidung und statische Kreisdiagnose sind abgeschlossen.
-4. Eigenstaendiger Quellenvergleich: Manuskript p5 A=4C/freie
-   Integrationskonstante/Y gegen Buchfassung/Y3; keine identische
-   Parameterfreiheit oder Normalisierung voraussetzen. Fruehere Ausgabe
-   oder Erratum zum I-p21-Matrixblock suchen, falls zugaenglich.
-5. Danach Voraussetzungen von L*Delta=k und Auswahlbegrenzung(98a) verfolgen;
+1. II Druck160/161 und (76) zu zyklischem Fluss, Eigenfrequenz und
+   Aggregatdurchmesser eng verfolgen: Existiert eine begruendete Bruecke
+   zur H-Welle? Keine allgemeine Wellenrelation still zum H-Operator machen.
+2. Integrations-/Korrelationsannahmen hinter A=4A1A2 und die unabhaengige
+   Festlegung von C/Y3 verfolgen; Versionsunterschiede bewahren. Falls
+   offen, eine Unterbestimmtheitsbilanz statt weiterer Zielwertfits erstellen.
+3. Anschluss von E_k=pc an die Energie-/Arbeitsbilanz und physikalische
+   Meridianregel bleiben offen. Der eigene skalare Ring schliesst diese
+   Quellenluecken nicht, obwohl seine Mathematik ausgearbeitet ist.
+4. Fruehere Ausgabe/Erratum zum I-p21-Matrixblock suchen, falls zugaenglich.
+5. Danach L*Delta=k und Auswahl(98a), Massenblocker und Verstaendnisbilanz;
    Quellen-/Mathematikreview und Checkpoint je begrenzter Einheit.
 
-Abgeschlossene Etappe5: `06_docs/AUTHOR_RATIONALE_2026-09-06.md`.
-Heims Motivation wurde gefunden, auch in einer auf1981 datierten
-Manuskriptfassung; die konkrete physikalische Schliessung bleibt offen.
+Abgeschlossene Etappe6: `06_docs/WAVE_CLOSURE_2026-09-06.md`.
+Eigene Ringperiodizitaet bestimmt nicht N1, Radius, Dispersion oder Zweig.
+Phasen-/Impulsidentifikation und ungefittete Konsequenzen getrennt.
+Manuskript/Buch-A_k sind versionsverschieden; C/Y3 nicht geschlossen.
 Die Quelle benutzt wiederholt pc; eine lokale Vorzeichenreparatur allein
 begruendet weder diesen Energieansatz noch die Kreiswellenkonstruktion.
 

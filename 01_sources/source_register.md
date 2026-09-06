@@ -58,6 +58,7 @@ Gesamtvalidierung der Quellen oder der darin behaupteten Physik.
 | M002 | Konstanten | NIST/CODATA 2022 recommended values, Datenstand NIST Mai 2025 | https://physics.nist.gov/cuu/Constants/ | gefunden |
 | M003 | HEP-Datentabellen | HEPData repository for publication-related High-Energy Physics data | https://www.hepdata.net/ | gefunden |
 | M004 | Rohdaten | CERN Open Data Portal | https://opendata.cern.ch/ | gefunden |
+| M005 | Historische Primaerreferenz, englische Fassung | Louis de Broglie: The wave nature of the electron, Nobel Lecture12.12.1929 | https://www.nobelprize.org/uploads/2016/04/broglie-lecture.pdf | Druck247-249/PDF4-6 visuell geprueft; Hash/Umfang in03_notes/WAVE_REFERENCE_2026-09-06.md |
 
 ## Prioritaet fuer lokale Ablage
 

@@ -18,7 +18,14 @@ alpha audit is executable; it does not implement the complete mass spectrum.
 Gate result: the isolated ALPHA audit is scoped by `NORM-ALPHA-AUDIT-001`.
 Full mass reconstruction remains blocked and lacks complete dependency coverage;
 closing the two listed blockers alone would not establish implementation readiness.
-Decision register: 44 resolved, two blocked (46 total).
+Decision register: 45 resolved, two blocked (47 total).
+
+Sixth-stage addition: `NORM-WAVE-CLOSURE-001` scopes our scalar periodic
+ring and conditional phase/closure diagnostics. Source shell/ring meanings
+and manuscript/book Ak remain separate. Two numeric boundary defects were
+locally fixed and independently reviewed;69 tests pass. Neither the source
+H-wave operator nor C/Y3 is thereby physically derived. Existing profiles
+and the two historical mass blockers remain unchanged.
 
 Fifth-stage addition: `NORM-LORENTZ-MEANING-001` scopes exact rational
 boost, simultaneity and source-literal matrix diagnostics. The local

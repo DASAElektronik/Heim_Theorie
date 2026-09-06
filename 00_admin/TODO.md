@@ -18,7 +18,10 @@
 - [x] p21-Matrixdruck getrennt von p56-Kontext algebraisch gegenpruefen.
 - [ ] Operative Energie-/Arbeitszuordnung im vollstaendigen Quellenmodell.
 - [ ] H-Wellenproblem mit Randbedingungen, Kreisform und Wellenzuordnung.
-- [ ] Manuskript1981 p5: A=4C/freie Integrationskonstante/Y getrennt mit Buch/Y3 vergleichen.
+- [x] Eigene skalare Ringdiagnose: Moden, Phase, bedingte Schliessung und Tests.
+- [x] Manuskript1981 p4/5: A_k, A=4C und Y getrennt mit Buch/Y3 vergleichen.
+- [ ] II160/161 und (76): zyklischer Fluss/Eigenfrequenz als moegliche H-Bruecke.
+- [ ] Unabhaengige Bestimmung C/Y3 oder konkrete Unterbestimmtheit bilanzieren.
 - [ ] Fruehere Ausgabe/Erratum zum p21-Matrixdruck suchen, falls zugaenglich.
 - [ ] Physikalische Begruendung L*Delta=k, Auswahl(98a), historischer Rechenweg.
 - [ ] Danach fehlende Massenabhaengigkeiten sowie B50 und Gamma/Q_N bearbeiten.

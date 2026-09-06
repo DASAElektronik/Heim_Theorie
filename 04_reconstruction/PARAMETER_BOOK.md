@@ -41,10 +41,18 @@ physikalische Auswahl. Source-p21-Matrix und Standardreferenz bleiben
 verschiedene Profile; EC-MATRIX-01 waere eine diskrete eigene Aenderung,
 wird jedoch nicht in die Quellen oder Alpha-Rechnung eingesetzt.
 
-Neue Quellenfrage, noch nicht normalisiert: Manuskript1981 H011 p5 erwaegt
-A=4C unter Hinweis auf die frei verfuegbare Integrationskonstante A und
-schreibt Y. Nicht automatisch dieselbe Freiheit wie Buch-Y3 oder ein
-nachgewiesener numerischer Fit. Erst den Versionsvergleich durchfuehren.
+Etappe6 Versionsvergleich abgeschlossen: Manuskript1981 H011 p4/5 definiert
+A_k mit eta^+1, Buch mit eta^-1/2. A=4C wird einmal mit Integrationsfreiheit,
+einmal mit vier Zonen motiviert, jeweils modal. Y und Y3 bleiben getrennt;
+kein neuer Manuskript-Recheninput ohne dessen eigene eta-Definitionen.
+
+Eigene Wellen-Diagnose: skalares S1, periodische Randbedingungen, N=|n|>=1
+und zeta=v_phase/c sind ausdrueckliche Zusatzentscheidungen. Die Nullmode
+ist im raeumlichen Problem erlaubt; N1, Radius, Zeitdynamik und Zweigwahl
+folgen nicht aus Periodizitaet. f=beta und y=R*s werden nur bedingt behalten.
+Ein eigener Faktor rho in C_eff=rho*P_Buch*Y3 zeigt Produktentartung; dies
+sind keine zwei aus derselben Alpha-Zahl bestimmbaren Quellenparameter.
+Alle gewaehlten Beispiele sind fitfrei; noch keine geschlossene Atomtheorie.
 
 Etappe4: `audit_energy_kinematics.py` hat keine angepassten Parameter.
 Y3=1 ist die unveraenderte Quellenspezialisierung, nicht neu bestimmt.

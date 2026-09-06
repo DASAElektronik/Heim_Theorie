@@ -43,6 +43,17 @@ right-hand factor cannot change the complementary-root identity.
 
 ## Constants and discrete choices
 
+Sixth-stage addition (2026-09-06): `audit_wave_closure.py` introduces an
+explicitly separate scalar periodic S1 problem, signed modes and a spatial
+zero mode. Periodicity does not choose N=1, radius, dispersion or a beta
+branch. Conditional K=N*zeta*f*s retains unproved geometry and energy.
+The same-wave momentum substitution zeta=1/beta retains pc and changes the
+equation to K=N*s; it is not a completed bound-state or dispersion solution.
+Own effective rho*P_book*Y3 examples demonstrate product degeneracy, no fit.
+Manuscript Ak and Y are not normalized onto the book. Independent review
+found and confirmed fixes for two branch-boundary rounding defects;69 tests
+pass,13 new. Old calculators/snapshots unchanged; no physics validation.
+
 Fifth-stage addition (2026-09-06): `audit_lorentz_meaning.py` uses exact
 Fraction arithmetic at preselected rational boosts, no experimental input.
 The passive real-coordinate reference, static-circle geometry and literal

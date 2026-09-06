@@ -65,6 +65,14 @@ physikalisch motivierte Aenderung nicht aus.
 
 ## Nutzen fuer andere Projekte
 
+Etappe6: `audit_wave_closure.py` formuliert ein eigenes skalares periodisches
+Ringproblem. Es liefert lambda=2*pi*R/N, aber keine physikalische Auswahl
+N1, Radius oder Dispersion. Erzwingt man gleiche Teilwelle/Energie/Impuls,
+folgt bedingt zeta=1/beta; bei beibehaltenem pc und y=R*s wird K=N*s.
+Das ist eine isolierte, ungefittete Ersetzung, keine neue Atomtheorie.
+Die effektive eigene rho*P_Buch*Y3-Familie macht die Proportionalitaetsluecke
+sichtbar, schliesst EC-ALPHA-03 jedoch nicht. Keine neue bestaetigte Physik.
+
 EC-MATRIX-01 (Etappe5): Entfernen der zwei zusaetzlichen i-Faktoren aus
 dem gedruckten EDM1-p21-Block waere eine eigene lokale Reparaturhypothese.
 Die andere R6-Matrix auf p56 liefert Kontext, aber keine Autorenkorrektur.

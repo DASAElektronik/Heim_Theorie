@@ -40,8 +40,14 @@ Sicherungsworkflow bleibt bestehen.
 
 ## Abschlussnachweise
 
-- [ ] Quellen/Randbedingungen und Versionsunterschiede eng geprueft.
-- [ ] Eigene Ringherleitung mit klarer Annahmenbilanz.
-- [ ] Ungefittete Rechnung, Tests und unabhaengige Review.
-- [ ] Bericht mit Aussagegrenzen und naechstem Wiedereinstieg.
-- [ ] Zwischenstand und Abschluss gesichert.
+- [x] Quellen/Randbedingungen und Versionsunterschiede eng geprueft.
+- [x] Eigene Ringherleitung mit klarer Annahmenbilanz.
+- [x] Ungefittete Rechnung, Tests und unabhaengige Review.
+- [x] Bericht mit Aussagegrenzen und naechstem Wiedereinstieg.
+- [x] Zwischenstand gesichert; Abschlussdateien fertig.
+
+Ergebnis: `06_docs/WAVE_CLOSURE_2026-09-06.md`,69 Tests/4 Quellhashes,
+drei Reviews. Plan7e69b13, Rechen-/Berichtcheckpoint e88f000 gepusht.
+Abschlusscommit-Nachricht: `Complete wave closure findings and reproducible handoff`.
+Die Luecke der Originalherleitung ist nicht geschlossen; das eigene
+Randwertproblem zeigt die dafuer benoetigten Zusatzannahmen und ihre Folgen.

@@ -3,7 +3,21 @@
 Isolierter, reproduzierbarer Konsistenztest der 1982/1989-Alpha-Bloecke in den
 lokalen IGW-Wiedergaben. Python >= 3.10; nur Standardbibliothek erforderlich.
 
-## Fuenfte Etappe: Autorenbegruendung und Invarianz (aktueller Stand)
+## Sechste Etappe: eigene Wellen-Schliessung (aktueller Stand)
+
+```powershell
+py -3.13 scripts/audit_wave_closure.py --check --verify-sources
+py -3.13 -m unittest discover -s tests -q
+```
+
+69 Tests, davon13 neue. Skalares Ring-Randwertproblem und Phase-/Impuls-
+identifikation sind eigene bedingte Diagnosen, keine Heim-H-Eigenloesung.
+MS/Buch-A_k und Y/Y3 getrennt; alte Rechner/Inputs/Snapshots unveraendert.
+`--write` erneuert nur `05_analysis/wave_closure_diagnostics.json`.
+Report: `06_docs/WAVE_CLOSURE_2026-09-06.md`. Quellhashpruefung braucht
+zusaetzlich H011-Manuskript und deBroglie1929-PDF; ohne PDFs nur `--check`.
+
+## Fuenfte Etappe: Autorenbegruendung und Invarianz
 
 ```powershell
 py -3.13 scripts/audit_lorentz_meaning.py --check --verify-sources

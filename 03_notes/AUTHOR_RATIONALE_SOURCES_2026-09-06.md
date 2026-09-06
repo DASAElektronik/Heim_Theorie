@@ -51,3 +51,9 @@ des Fraction-Rechners; die neuen PDFs wurden nicht in dessen Quellprofil
 eingemischt. Die breitere Suchbilanz mit H002/H005 und vermittelten Hinweisen
 steht in `04_reconstruction/alpha_audit/reviews/AUTHOR_RATIONALE_SEARCH_2026-09-06.md`.
 Negative Suchbefunde betreffen nur den dort genannten Umfang.
+
+Nachtrag Etappe6: Manuskript p4/5 und Buch Druck299/302 haben unterschiedliche
+A_k-Definitionen (eta^+1 gegen eta^-1/2). Der eng gepruefte Vergleich steht
+in `04_reconstruction/alpha_audit/reviews/CLOSURE_VERSION_REVIEW_2026-09-06.md`.
+Hauptagent hat die entsprechenden Potenzen am Scan ebenfalls kontrolliert.
+Kein byte- oder formelidentischer Recheninput wurde daraus gemacht.

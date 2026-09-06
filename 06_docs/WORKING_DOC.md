@@ -10,6 +10,14 @@ Ein Teilchenbeschleuniger oder Detektor-Rohdaten sind erst relevant, wenn die Th
 
 ## Aktueller Stand 2026-09-06
 
+Etappe6: `WAVE_CLOSURE_2026-09-06.md`. Eigenes periodisches Ringproblem
+hergeleitet, keine behauptete Schliessung des Heim-H-Modells. N1, Radius,
+Dispersion und Zweig bleiben Zusatzentscheidungen; Phase-/Impulsbruecke
+und ihre algebraischen Folgen fitfrei durchgerechnet.69 Tests, drei Reviews.
+MS-A_k und Buch-A_k sind versionsverschieden; Energieordnungs-Konflikt
+schon1981 belegt. Naechster Einstieg: II160/161, zyklischer Fluss/(76),
+Bruecke zur H-Welle und unabhaengige C/Y3-Bestimmung. Alte Stufen sind Verlauf.
+
 Etappe5: `AUTHOR_RATIONALE_2026-09-06.md` dokumentiert gefundene eigene
 Motivationen Heims und die Grenzen der Ableitung. pc, Forminvarianz und
 Skalarinvarianz getrennt; bekannte Alpha-Abweichung und duale Kreiswelle

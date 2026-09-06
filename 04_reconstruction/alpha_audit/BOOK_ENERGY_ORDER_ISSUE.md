@@ -67,3 +67,12 @@ Austausch waere eine weitergehende Aenderung als EC-ENERGY-01 und wird nur
 als getrennte Vorwaertsdiagnose untersucht. Die Energieordnungsreparatur
 loest weder die pc/T-Frage noch die Kreiswellenzuordnung. Naechster Schritt:
 A_--Bedeutung, operative Energiebilanz und explizite Kreisgeometrie.
+
+Nachtrag Etappe6: Der visuell gepruefte Manuskriptscan H011 von1981 druckt
+auf p4 bereits W<=X<=V sowie -E_k=integral(W to V,dX)=V-W. Hauptagent und
+Versionsreview bestaetigen dieselbe lokale Unvereinbarkeit fuer E_k>0.
+Das Integral darf rueckwaerts orientiert sein; problematisch ist die daneben
+geschriebene numerische Ordnung. Kein Beweis einer erst1996 entstandenen
+Druckpanne oder einer bestimmten Autorenabsicht. Die nachfolgende Bilanz
+e^2*(1-C)=4*pi*epsilon0*y*E_k bleibt algebraisch mit dem Integral vereinbar.
+Review: `reviews/CLOSURE_VERSION_REVIEW_2026-09-06.md`.

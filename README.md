@@ -71,6 +71,13 @@ Eine auf21.12.1981 datierte Manuskriptfassung liefert einen weiteren
 direkten Beleg fuer die Motivation; ihre Unterschiede zur Buchfassung
 und die Grenzen der Scan-Provenienz bleiben ausdruecklich dokumentiert.
 
+Die sechste Etappe prueft moegliche Ergaenzungen der Kreiswelle:
+[Wellen-Schliessung](06_docs/WAVE_CLOSURE_2026-09-06.md). Das eigene skalare
+Ringproblem liefert ganzzahlige Moden, keine automatische Auswahl N1 oder
+Heim-H-Eigenloesung. Phase-/Impulsidentifikation und Versionsunterschiede
+der A_k bleiben getrennt.69 Tests und drei unabhaengige Reviews; keine
+angefittete Verbesserung oder pauschale Widerlegung der Gesamttheorie.
+
 Wir bauen zuerst eine Formelbibliothek unter `04_reconstruction/formula_library/`.
 Jede Formel bekommt eine ID, Quelle, Status, Abhaengigkeiten, Outputs und Audit-Risiken.
 Erst wenn eine Formel `source_checked` und `normalized` ist, soll sie implementiert werden.

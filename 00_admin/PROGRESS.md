@@ -1,5 +1,30 @@
 # Fortschritt
 
+## 2026-09-06 - Sechste Etappe: explizite Wellen-Schliessung
+
+- Nutzer erlaubt begruendete Ergaenzungen und offene negative Ergebnisse;
+  lokale Fehler, Unterbestimmtheit und Gesamtwiderlegung bleiben getrennt.
+- H-Quellensuche: lambda=2*pi*r gesetzt, stehend/Kugeloberflaeche/s-Niveau;
+  kein dort ausgeschriebenes Ring-Eigenproblem. Neuer Kontext II161, (76).
+- Eigener skalarer periodischer Ring vollstaendig hergeleitet: ganzzahlige
+  Moden, Nullmode, keine automatische N1-/Radius-/Dynamikbestimmung.
+- Historische Phasenreferenz deBroglie1929 visuell geprueft/gehasht, M005.
+  Gleiche Welle/Energie/Impuls verlangt bedingt zeta=1/beta, nicht zeta=1.
+- Neuer Rechner K=N*zeta*f*s: ungefittete N1/2/3-Vorwaertsdiagnosen und
+  getrennte Phase-Ersetzung; keine konsistente neue Atomtheorie behauptet.
+- MS/Buch-Ak unterscheiden sich durch eta^+1 gegen eta^-1/2; keine
+  Fassungsidentitaet. A=4C bleibt modal (Integrationsfreiheit vs vier Zonen).
+  Eigene effektive rho*Y3-Diagnose nur fuer das festgehaltene Buchprofil.
+- Energieordnungs-Konflikt schon in MS1981 p4 belegt; keine stille Reparatur.
+- Drei Reviews abgeschlossen, 69 Tests, 192 zusaetzliche rationale
+  Gegenrechnungen. Zwei Randfaelle des neuen Rechners lokal behoben und
+  mit exakten Domaenen-/Doppelwurzelregressionen geprueft.
+- Alte fuenf Rechner/Inputs/Snapshots unveraendert. Register47:45 resolved,
+  2 historische Massenblocker. Plan7e69b13, Checkpointe88f000 gepusht.
+  Abschlusscommit: `Complete wave closure findings and reproducible handoff`.
+- Naechster Einstieg: zyklischer Fluss/Eigenfrequenz (76) und Bruecke zur
+  H-Welle, danach C/Y3-Schliessung. Keine moderne Widerlegungsliteratur jetzt.
+
 ## 2026-09-06 - Fuenfte Etappe: Heims Warum und Invarianz
 
 - Eigene Motivation auf II276/277 gefunden: bekannte Alpha'-Abweichung,

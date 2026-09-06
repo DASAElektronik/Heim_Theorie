@@ -2,7 +2,7 @@
 
 Aktualisiert: 2026-09-06.
 
-## Aktuell: sechste Etappe in Arbeit
+## Aktuell: sechste Etappe abgeschlossen
 
 Ausgangscommit 4155762. Nutzer moechte moegliche Luecken begruendet schliessen,
 neu rechnen und auch negative Ergebnisse offen veroeffentlichen. Kein
@@ -13,7 +13,10 @@ Drei Agenten: Wellenquelle, Versionsvergleich, unabhaengige Mathematik.
 Alte fuenf Rechner/Snapshots unveraendert lassen; kein Messwertfit.
 Eine zusaetzliche Annahme schliesst die Originalherleitung nicht rueckwirkend.
 
-Zwischenstand Etappe6: Plan 7e69b13 gepusht. Neuer Rechner
+Etappe6: Plan 7e69b13 und gepruefter Rechner-/Berichtcheckpoint e88f000
+gepusht. Abschlusscommit-Nachricht:
+`Complete wave closure findings and reproducible handoff`.
+Neuer Rechner
 `scripts/audit_wave_closure.py`, Snapshot und Bericht
 `06_docs/WAVE_CLOSURE_2026-09-06.md`;69 Tests/4 Quellhashes passen.
 Drei Reviews abgeschlossen. Eigene Ringmoden N1/2/3 und Phase-Ersetzung
@@ -21,8 +24,31 @@ aendern die algebraischen Zweige; keine physikalisch bestaetigten Alpha-
 Vorhersagen. Exakte Domaenenpruefung und einmalige Doppelwurzelrundung nach
 Review ergaenzt, alte Rechner unveraendert. MS-Ak hat eta^+1, Buch eta^-1/2;
 gemeinsames eta nur bedingte Vergleichsannahme. Energieordnungsfehler bereits
-im Manuskript p4. Bericht/Quellenkontrolle fertig, Abschlussregister und
-Fortsetzungsdokumente noch zu integrieren.
+im Manuskript p4. Quellen-/Versions-/Mathematikreviews fertig, keine
+laufenden Agenten fuer den Wiedereinstieg noetig. Register47:45 resolved,
+2 historische Massenblocker. Kein vollstaendiger H-Operator rekonstruiert.
+
+Eigene skalare S1-Randbedingungen -> ganzzahliges n, keine Auswahl N=1;
+n=0 gueltige raeumliche Mode, keine endliche Wellenlaenge. Nicht als
+Wasserstoff-s-Zustand interpretieren. Phase und Gruppengeschwindigkeit
+getrennt; deBroglie1929 ist nur freie historische Referenz (neue Quelle M005).
+K=alphaPrime*(1-C)=N*zeta*f*s, mit f=beta fuer pc. Bei gleichem Buch-K
+N1/2/3 inverse kleine beta137.03596/274.07740/411.11761. Erzwingt man
+gleichen Wellen-/Teilchenimpuls, zeta=1/beta -> K=N*s; bei N1
+beta0.999973375371. KEINE neue physikalische Alpha-Vorhersage.
+Eigene effektive Proportionalitaet C_eff=rho*P_Buch*Y3 zeigt nur das Produkt
+rho*Y3 bestimmbar; keine zwei neu behaupteten Heim-Fitparameter.
+
+Naechster Einstieg: EDM2 Druck160/161 und (76), zyklische Fluesse,
+Eigenfrequenz und Aggregatdurchmesser auf eine H-Wellen-Bruecke pruefen.
+Die Annahmen von A=4A1A2, C und Y3 getrennt zurueckverfolgen. Falls keine
+Schliessung gelingt, konkrete Unterbestimmtheit bilanzieren statt immer
+weitere Varianten zu fitten. Alte fuenf Rechner/Inputs/Snapshots unveraendert.
+
+```powershell
+py -3.13 scripts/audit_wave_closure.py --check --verify-sources
+py -3.13 -m unittest discover -s tests -q
+```
 
 ## Verlauf: fuenfte Etappe abgeschlossen
 
