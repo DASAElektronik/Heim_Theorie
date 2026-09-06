@@ -19,8 +19,10 @@ Formel, historische Fehlerursache oder experimentelle Bestaetigung.
 
 Status: getrennte, ausdruecklich nachtraegliche Inversion in
 `scripts/audit_alpha_book.py`. Sie kombiniert die Struktur von Buch (105) mit
-den zwei bereits dokumentierten IGW1982-eta-Profilen; die Indexbruecke ist
-nicht allein aus dem Buch bewiesen.
+den zwei bereits dokumentierten IGW1982-eta-Profilen. Nachtrag Etappe3:
+Die lokale Buch-Indexbruecke ist inzwischen an(98) source-belegt (q,k).
+Die historischen Diagnoseprofile und die abweichende IGW-Schreibweise bleiben
+getrennt; eine physikalische Herleitung folgt aus dem Definitionsfund nicht.
 
 ```text
 R0 = 9*vartheta/(2*pi)^5
@@ -62,6 +64,14 @@ treffen, sind derzeit kein begruendeter Kandidat. Das schliesst eine spaeter
 physikalisch motivierte Aenderung nicht aus.
 
 ## Nutzen fuer andere Projekte
+
+Ergaenzender Korrekturkandidat EC-ENERGY-01: Umkehr der gedruckten
+Energieintervallordnung, siehe `BOOK_ENERGY_ORDER_ISSUE.md`. Diese lokale
+algebraische Reparatur ist keine gesicherte Autorenabsicht und keine
+Loesung des Alpha-Druckwiderspruchs.
+
+Die lambda-Familie in `scripts/audit_charge_averaging.py` dient nur dem
+Verstaendnis der Mittelungsannahme; sie ist kein neuer physikalischer Kandidat.
 
 Bereits uebertragbar ist die Arbeitsmethode: versionierte Annahmen,
 reproduzierbare Rechnung, getrennte Referenzen, unabhaengige Reviews und

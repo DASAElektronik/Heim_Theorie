@@ -62,7 +62,7 @@ Vorhersage. Buch-(105)-Struktur und bestehende IGW1982-eta-Profile werden
 offen kombiniert; die Indexherleitung allein aus dem Buch bleibt unvollstaendig.
 `--write` erneuert nur `05_analysis/alpha_book_diagnostics.json`.
 
-23 Tests insgesamt: 13 fuer den ersten Audit, 10 fuer die Diagnose, inklusive
+Zum Abschluss der zweiten Etappe 23 Tests: 13 fuer den ersten Audit, 10 fuer die Diagnose, inklusive
 unabhaengigem einfachen Inversionsfall, Extremum bei sqrt(2), Intervallen,
 80/120-Stellen-Konvergenz und Regressionen aus der Mathematikreview.
 Die Inversionshelfer verweigern Eingaben, deren Quadrat/Subtraktion nicht
@@ -70,3 +70,17 @@ exakt in die aktuelle Decimal-Praezision passt; Kontextpraezision erhoehen.
 
 Bericht: `06_docs/BOOK_TRACE_2026-09-06.md`.
 Eigene Varianten: `EXTENSION_CANDIDATES.md`.
+
+## Dritte Etappe: Ladungsmittelung
+
+```powershell
+py -3.13 scripts/audit_charge_averaging.py --check --verify-sources
+```
+
+Rekonstruktion der vorlaeufigen BandI-Alpha-Naeherung plus ungefittete
+Gewichtungsdiagnose. Keine modernen Referenzen und keine Y3-Kopplung.
+Snapshot: `05_analysis/charge_averaging_diagnostics.json`; mit `--write`
+bewusst erneuerbar. Zehn neue Tests, nun33 insgesamt.
+Erklaerung: `06_docs/CHARGE_DERIVATION_2026-09-06.md`.
+Quelle BandI erhaelt einen eigenen Hashcheck; alte Inputs/Snapshots bleiben
+unveraendert. Buch-Indexbruecke jetzt geklaert, Energieordnungsfrage getrennt.

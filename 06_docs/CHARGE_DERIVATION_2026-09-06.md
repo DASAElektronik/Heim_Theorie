@@ -191,9 +191,53 @@ vollstaendige Menge moeglicher Alternativen noch eine neue Theorie.
 
 ## 8. Quellenketten und Fortsetzung
 
-Die separate Quellenpruefung verfolgt die zweifache eta-Indizierung und den
-spaeteren Korrelationsschluss. Ihre Ergebnisse werden hier nach Kontrolle
-integriert. Bis dahin keine Aenderung der bisherigen IGW-Indexprofile.
+### Die Indexluecke im Buch ist geschlossen
+
+BandII, Druck266/267, definiert jetzt eindeutig nachvollziehbar:
+
+```text
+eta_qk = pi/fourth_root(pi^4+q^4*(4+k))
+eta_q0=eta_q; eta_1,0=eta.
+```
+
+q ist die Ladungsquantenzahl; k beschreibt die konfigurative innere Struktur.
+k=0 ist hier ein formaler Uebergang zum aeusseren Feld, kein behaupteter
+innerer k=0-Zustand. In Buch(105) meint eta_1k daher q=1 mit k=1 bzw.k=2.
+Die Zweiindexdefinition ist **nicht** selbst bewiesen: Auf Druck265 wird
+der Uebergang ueber L*Delta=k als moeglicher Ansatz eingefuehrt, L=4
+gesetzt und die entsprechende interne Ladungsaenderung eingesetzt.
+
+Die bisherige Luecke war also eine Luecke unserer Quellenrekonstruktion.
+Sie darf nicht weiter als fehlende Definition bei Heim bezeichnet werden.
+Die abweichende IGW1982-Schreibweise in(V) bleibt davon getrennt. Auch das
+heutige Auffinden der Buchstelle legitimiert keine stille Quellkorrektur.
+[Eta-Quellenreview](../04_reconstruction/alpha_audit/reviews/ETA_CONFIGURATION_REVIEW_2026-09-06.md).
+
+### Die zwei verschiedenen Faktoren4
+
+Der spaetere Buchabschnitt, Druck296-302, fuehrt ueber eine empirisch
+motivierte Zuordnung der k=1/2-Grundmuster zu Elektron/Proton zur
+Wasserstoffkorrelation. Fuer interne Komponenten setzt Heim dann den
+ausdruecklich heuristischen Zusammenhang
+`s(varrho)+s(delta)=s(omega)` an. Das erste Zeichen ist varrho, nicht e.
+
+Unter diesen Annahmen ergeben Integration und Komponenten-Einsetzung
+`A=4*A1*A2`. Diese4 ist algebraisch: je ein Faktor2 aus der internen
+Mittelung fuer k=1 und k=2. C wird dagegen an anderer Stelle als W/V
+eingefuehrt. Die weitere Annahme `A=4*C` wird mit vier besetzten
+Konfigurationszonen motiviert. Erst zusammen folgt `C=A1*A2`.
+
+Dass beide Zahlen4 sind, ersetzt keine Begruendung, warum die zwei
+unterschiedlichen Konstruktionen gerade so zusammenhaengen sollen.
+Heim kennzeichnet die verbleibende Unsicherheit mit Y3. Damit ist genauer
+lokalisiert, welche Verbindung eine spaetere theoretische Schliessung
+leisten muesste.
+[Korrelations-Quellenreview](../04_reconstruction/alpha_audit/reviews/CORRELATION_CHAIN_REVIEW_2026-09-06.md).
+
+Die im selben Abschnitt verwendeten Relationen E_k=m*v_H*c und
+lambda_H=2*pi*r_H bleiben zusaetzliche zu verstehende Modellinputs.
+Wir behandeln sie nicht allein wegen ihrer Einheiten als bewiesene
+kinetische Energie-/Wellenlaengenbeziehungen.
 
 Offene Begruendungsfragen fuer unsere weitere Arbeit:
 
@@ -204,6 +248,25 @@ Offene Begruendungsfragen fuer unsere weitere Arbeit:
    haben andere moegliche Komponenten/Kreuzterme?
 4. Wie verbindet die spaetere Korrelationsannahme diese Konstruktion mit
    einer physikalisch definierten beobachtbaren Groesse?
+
+## 9. Ein neuer interner Ordnungswiderspruch
+
+Auf Druck299 stehen W<=X<=V und0<=E<=E_k. Direkt anschliessend, auf
+Druck300, steht -E_k=V-W. Beide Seiten koennen unter den vorherigen
+Ungleichungen nur dann gleich sein, wenn E_k=0 und W=V. Fuer eine positive
+kinetische Energie passt die gedruckte Ordnung also nicht zusammen.
+Zwei Sichtkontrollen und eine unabhaengige algebraische Review bestaetigen
+diesen lokalen Befund; er erfordert keine neuere physikalische Kritik.
+
+Ein moeglicher eigener Korrekturvorschlag waere V<=X<=W. Er repariert
+die Ordnung fuer V<0 und0<C<1 und laesst E_k=-V*(1-C) unveraendert. Er
+ist aber keine gesicherte Autorenabsicht und behebt weder die frueheren
+Alpha-Druckfehler noch die offenen physikalischen Annahmen.
+[Befund und Korrekturkandidat](../04_reconstruction/alpha_audit/BOOK_ENERGY_ORDER_ISSUE.md).
+
+Damit ist der naechste Schritt konkreter: Wir muessen nachvollziehen,
+welche Energie und welche Masse/Wellenlaenge Heim in diesem Abschnitt
+meint, ehe wir seine Aussagen physikalisch bewerten.
 
 ## Reproduzierbarkeit
 
@@ -216,4 +279,5 @@ Rechner und Daten sind vom ersten Alpha-Audit und der Y3-Inversion getrennt.
 Die neue Diagnose importiert keine modernen Referenzwerte, fittet nichts und
 veraendert keine Quellwerte. Normalisierungsentscheidung:
 `NORM-CHARGE-001`; Ergebnisse: `05_analysis/charge_averaging_diagnostics.json`.
-Unabhaengige Mathematikreview ist fuer diesen Zwischenstand noch offen.
+Unabhaengige Mathematikreview abgeschlossen; 10 neue Tests, 33 insgesamt.
+[Review](../04_reconstruction/alpha_audit/reviews/CHARGE_AVERAGING_MATH_REVIEW_2026-09-06.md).

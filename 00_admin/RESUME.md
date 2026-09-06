@@ -2,19 +2,35 @@
 
 Aktualisiert: 2026-09-06.
 
-## Aktuell: dritte Etappe laeuft
+## Aktuell: dritte Etappe abgeschlossen
 
-Auftrag: mit Heim weiterarbeiten, Herleitung erklaeren. Aktiver Plan:
-`00_admin/CHARGE_DERIVATION_PLAN.md`. Quellenagenten verfolgen eta-Konfigurationen
-und Korrelationsschluss; Hauptagent rekonstruiert die Ladungsmittelung.
-Plan-Checkpoint `d53738e` ist gepusht. Neuer Rechner
+Auftrag: mit Heim weiterarbeiten, Herleitung erklaeren. Abgeschlossener Plan:
+`00_admin/CHARGE_DERIVATION_PLAN.md`. Quellen- und Mathematikreviews fertig.
+Plan-Checkpoint `d53738e` und Rechnercheckpoint `59dde16` sind gepusht. Rechner
 `scripts/audit_charge_averaging.py` und Erklaerung
-`06_docs/CHARGE_DERIVATION_2026-09-06.md` liegen als Zwischenstand vor.
+`06_docs/CHARGE_DERIVATION_2026-09-06.md` liegen geprueft vor.
 33 Tests bestehen; Mathematikreview akzeptiert die Rechnung, kleiner
-Vorzeichenwortlaut korrigiert. Quellenagenten arbeiten noch an eta/Korrelation.
+Vorzeichenwortlaut korrigiert. Keine laufenden Agenten erforderlich.
 Keine breite neue Widerlegungsrecherche und keine Hardwareentwicklung.
-Die nachfolgenden Angaben sind der abgeschlossene Ausgangsstand der zweiten
-Etappe. Neue Ergebnisse erst nach Quellenkontrolle/Review integrieren.
+
+Neue Ergebnisse gegenueber der zweiten Etappe:
+
+- BandI(29a) reproduziert: inverseAlphaPrime137.0380300128048, passend zur
+  gedruckten Naeherung137.038. Zwei verschiedene Mittelungsschritte erklaert.
+- Buch-eta-Indexbruecke geschlossen: BandII Druck266/267, (98), eta_qk,
+  eta_q0=eta_q und eta_10=eta. Fruehere Notizen mit offener Buchdefinition
+  sind historischer Stand; die IGW1982(V)-Notation bleibt separat.
+- k-Einfuehrung ueber L*Delta=k und Auswahlbeschraenkung(98a) sind als
+  Annahmen zu verstehen, nicht als bereits bewiesene physikalische Aussagen.
+- Korrelationskette: s(varrho)+s(delta)=s(omega) heuristisch; A=4A1A2
+  algebraisch; A=4C separate Zonen-Zaehlannahme; Y3 bleibt offen.
+- Neuer lokaler Buchkonflikt: W<=X<=V, E_k>=0 und -E_k=V-W lassen nur
+  E_k=0 zu. Quellen- und Algebrareviews bestaetigen den Befund.
+  `BOOK_ENERGY_ORDER_ISSUE.md` dokumentiert getrennten Korrekturkandidaten.
+- Register44 Entscheidungen:42 resolved,2 historische Massenblocker.
+  Der neue Buchbefund ist eine separate Quellenfrage, kein stiller Fix.
+
+Der folgende zweite/erste Etappenstand bleibt als Verlauf erhalten.
 
 ## Zweite Audit-Etappe abgeschlossen
 
@@ -101,12 +117,13 @@ Bei neuer Sitzung vorhandene Review-Dateien zuerst lesen.
 
 ## Naechster konkreter Schritt
 
-Einfach und zweifach indiziertes eta sowie k-Konfigurationen zurueckverfolgen
-(Band I (27)/(28a), Band II, ggf. Begleitheft). Danach Ladungspotential-
-Mittelung und Korrelationsschluss vor (105) in heutiger Notation ausarbeiten.
-Eine Annahmen-/Abhaengigkeitskarte soll zeigen, was folgt und was gesetzt
-wird. Siehe `03_notes/EDM1_ALPHA_DEPENDENCIES_2026-09-06.md` und den neuen
-Verstaendnisplan. B50/Gamma-Q_N sowie vollstaendige Massenrechnung bleiben offen.
+Energiebegriff und kinematische Annahmen vor Buch(105) rueckwaerts verfolgen:
+m(v_H), E_k=m*v_H*c, mc^2=ch/lambda_H, lambda_H=2*pi*r_H und
+Lorentz-/K-Schalen-Konstruktion. Zuerst Bedeutung und interne Konsequenzen
+klarstellen; keine Gleichsetzung mit Standardbegriffen ohne Beleg.
+Danach L*Delta=k und die bedingte k/q-Auswahl(98a) tiefer nachvollziehen.
+Indexsuche nicht neu beginnen: die explizite Buchstelle ist jetzt gefunden.
+B50/Gamma-Q_N und die vollstaendige Massenrechnung bleiben offen.
 
 Bereits verifiziert und nicht neu anfangen: 1982-Fitvariante ist nur naeher,
 1989-(q,k)-Indexkette ist belegt, alle fuenf Druckpaarchecks sind inkompatibel.
@@ -115,6 +132,7 @@ Eine gemeinsame Aenderung der rechten Seite repariert die Zweigidentitaet nicht.
 ```powershell
 py -3.13 scripts/audit_alpha.py --check --verify-sources
 py -3.13 scripts/audit_alpha_book.py --check
+py -3.13 scripts/audit_charge_averaging.py --check --verify-sources
 py -3.13 -m unittest discover -s tests -v
 ```
 
@@ -129,6 +147,8 @@ Python ist ueber `py -3.13` verfuegbar; keine Fremdprogramme aus ZIPs ausfuehren
 - Zweite Etappe Abschluss: Commit-Nachricht
   `Complete reviewed book diagnostics and understanding roadmap`.
   Finalen Hash und Remote-Abgleich mit den folgenden Befehlen feststellen.
+- Dritte Etappe Abschluss: Commit-Nachricht
+  `Complete charge derivation, book index bridge and energy-order findings`.
 - Letzter Nutzerstand: 24.218 verbleibende Credits; keine automatische Live-Abfrage.
 
 ```powershell

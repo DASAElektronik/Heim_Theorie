@@ -34,7 +34,9 @@ e_d = epsilon_pm * (1 - sqrt(eta))
 Damit ist der im Alpha-Audit verwendete **unindizierte** eta-Ausdruck in
 dieser Band-I-Ausgabe explizit belegt. Das einfach indizierte `eta_1` ist
 nicht ohne weiteren Beleg mit `eta_11` der zweifach indizierten Familie
-gleichzusetzen. Die Definition der zwei Indexpositionen bleibt offen.
+gleichzusetzen. Nachtrag aus Etappe3: BandII Druck266/267 klaert die
+Indexbruecke explizit als eta_q0=eta_q und eta_1,0=eta, nicht eta_11=eta.
+Siehe `04_reconstruction/alpha_audit/reviews/ETA_CONFIGURATION_REVIEW_2026-09-06.md`.
 
 Der Text auf Seite 247 motiviert Ladungskomponenten und ihre Potentiale
 aus einer bereits bemerkten Abweichung zwischen theoretischer und gemessener

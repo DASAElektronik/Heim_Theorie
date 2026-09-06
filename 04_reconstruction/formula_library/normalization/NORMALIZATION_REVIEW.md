@@ -18,7 +18,13 @@ alpha audit is executable; it does not implement the complete mass spectrum.
 Gate result: the isolated ALPHA audit is scoped by `NORM-ALPHA-AUDIT-001`.
 Full mass reconstruction remains blocked and lacks complete dependency coverage;
 closing the two listed blockers alone would not establish implementation readiness.
-Decision register: 40 resolved, two blocked (42 total).
+Decision register: 42 resolved, two blocked (44 total).
+
+Third-stage additions: `NORM-CHARGE-001` scopes the EDM1 preliminary-alpha
+charge-mean diagnosis; `NORM-BOOK-ETA-001` resolves the book-only eta(q,k)
+definition chain. Full physical derivations remain open. The separate
+book energy-order issue is in `alpha_audit/BOOK_ENERGY_ORDER_ISSUE.md`,
+not counted among the two historical mass-catalog blockers.
 
 The separate book-structure Y3 diagnosis is scoped by `NORM-BOOK-ALPHA-001`.
 Its inversion is explicitly ex-post and uses the existing IGW1982 eta variants;

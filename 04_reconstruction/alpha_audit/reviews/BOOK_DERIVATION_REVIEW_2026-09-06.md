@@ -2,6 +2,12 @@
 
 ## Scope and source identity
 
+Integration follow-up, third stage on the same date: the bounded search gap
+below was subsequently closed by EDM2 printed266/267, equation(98). See
+`ETA_CONFIGURATION_REVIEW_2026-09-06.md`. That explicit definition supports
+(q,k) for book(105); the original conclusion that the bare(105) notation
+alone is insufficient remains true. The historical review below is retained.
+
 This bounded source review traces the quantities in EDM2 Eq. (105), printed pp. 297-302, only as far backwards as the inspected primary volume permits. It makes no canonical-formula change, calibration, or predictive claim.
 
 Inspected source: Burkhard Heim, *Elementarstrukturen der Materie: Einheitliche strukturelle Quantenfeldtheorie der Materie und Gravitation*, vol. 2. The title page is PDF folio 1. The imprint (PDF folio 4) says copyright 1984 by Andreas Resch Verlag, Innsbruck; total production Andreas Resch Verlag, Innsbruck 1996; ISBN 3-85 382-036-0; manuscript submitted 20 March 1981. The scan metadata alone is not treated as an edition date. “PDF folio” below means the one-based page number of the local 391-folio PDF.

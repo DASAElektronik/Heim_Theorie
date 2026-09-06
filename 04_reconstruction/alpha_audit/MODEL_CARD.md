@@ -1,5 +1,17 @@
 # Model Card: alpha_audit_igw_v1
 
+Third-stage source update (2026-09-06): EDM2 printed266/267, (98), explicitly
+defines the book eta(q,k) family and eta(q,0)=eta_q, eta(1,0)=eta. Thus the
+book-only index gap described in the second-stage section below is now closed
+by NORM-BOOK-ETA-001. IGW1982(V) and the stored diagnostic profiles remain
+unchanged; locating a definition does not prove its physical derivation.
+
+Separate third-stage tool: `audit_charge_averaging.py`, NORM-CHARGE-001,
+reconstructs preliminary EDM1(29a) and an unfitted lambda interpolation.
+No modern data or Y3 enters that tool. Ten additional tests bring the suite
+to33; independent review accepted. `BOOK_ENERGY_ORDER_ISSUE.md` records a
+separate source conflict, not a silent correction to v1.
+
 Date: 2026-09-06.
 
 ## Scope

@@ -8,8 +8,11 @@
 - [x] Buchherleitung von eta/A_k/Y3 begrenzt verfolgen; offene Schritte markieren.
 - [x] 1989 B58-B62 mit oeffentlichen Fassungen/Errata begrenzt abgleichen.
 - [x] Y3-/Praezisionsdiagnose implementieren, unabhaengig pruefen und sichern.
-- [ ] eta-Konfigurationen und Ladungsmittelung/Korrelationsschluss ausarbeiten.
-- [ ] Historischen Rechenweg und fehlende Indexbruecke weiter untersuchen.
+- [x] eta-Buchdefinition und Ladungsmittelung/Korrelationsschluss lokal ausarbeiten.
+- [x] Buch-Indexbruecke an(98) auffinden, ohne IGW(V) still zu korrigieren.
+- [x] Neuen Energieordnungs-Konflikt quellenseitig und algebraisch gegenpruefen.
+- [ ] Energie-/Masse-/Wellenlaengenbegriffe vor(105) zurueckverfolgen.
+- [ ] Physikalische Begruendung L*Delta=k, Auswahl(98a), historischer Rechenweg.
 - [ ] Danach fehlende Massenabhaengigkeiten sowie B50 und Gamma/Q_N bearbeiten.
 - [ ] Verstaendnisbilanz vor breiter Recherche nach neueren Widerlegungen.
 

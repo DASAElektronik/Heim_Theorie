@@ -7,16 +7,21 @@ Eigene Verbesserungen sind erlaubt, Quellen und neue Annahmen bleiben getrennt.
 
 ## Begrenzte Ergebnisse dieser Etappe
 
-- [ ] Einfach/zweiindiziertes eta und k-Konfigurationen an expliziten
+- [x] Einfach/zweiindiziertes eta und k-Konfigurationen an expliziten
   Quellenstellen rueckverfolgen; Indexluecken nicht durch Fit schliessen.
-- [ ] BandI(27b)-(29a) in heutiger Notation schrittweise rekonstruieren,
+- [x] BandI(27b)-(29a) in heutiger Notation schrittweise rekonstruieren,
   Ladungszeichen/Einheiten und Mittelungsannahmen offenlegen.
-- [ ] BandII-Korrelationsschluss vor(105) als Definition, Annahme oder
+- [x] BandII-Korrelationsschluss vor(105) als Definition, Annahme oder
   algebraische Folge klassifizieren.
-- [ ] Mittels einer klar als unsere Diagnose markierten Gewichtungsfamilie
+- [x] Mittels einer klar als unsere Diagnose markierten Gewichtungsfamilie
   zeigen, welche Aussage die Wahl des gleichen Mittelwerts hinzufuegt.
-- [ ] Begrenzte Diagnostik reproduzierbar testen und unabhaengig reviewen.
-- [ ] Verstaendliche Erklaerung, Annahmenkarte und Wiedereinstieg sichern.
+- [x] Begrenzte Diagnostik reproduzierbar testen und unabhaengig reviewen.
+- [x] Verstaendliche Erklaerung, Annahmenkarte und Wiedereinstieg sichern.
+
+Abschluss: 33 Tests; drei Quellen-/Mathematikauftraege und zusaetzliche
+Energieordnungs-Gegenpruefung abgeschlossen. Buch-Indexdefinition gefunden,
+Mittelungsrechnung reproduziert, Energieordnungs-Konflikt dokumentiert.
+Die physikalische Begruendung der Annahmen ist damit nicht abgeschlossen.
 
 ## Arbeitsteilung
 

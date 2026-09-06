@@ -1,5 +1,25 @@
 # Fortschritt
 
+## 2026-09-06 - Dritte Etappe: Ladungsmittelung und Quellenbruecken
+
+- BandI(27b)-(29a) schrittweise rekonstruiert; unterschiedliche Ladungs- und
+  Energiemittelung erklaert. inverseAlphaPrime137.038030... reproduziert137.038.
+- Ungefittete lambda-Gewichtungsdiagnose implementiert, ohne moderne Inputs
+  oder Y3.10 neue Tests,33 insgesamt; Mathematikreview samt Grenztests akzeptiert.
+- Buch-Indexbruecke gefunden: EDM2 Druck266/267, (98), eta_qk; eta_q0=eta_q,
+  eta_10=eta. IGW1982(V) bleibt als abweichende lokale Schreibweise erhalten.
+- Vor(105): s(varrho)+s(delta)=s(omega) als Heuristik identifiziert;
+  algebraischer Faktor4 inA=4A1A2 vom angenommenen Faktor4 inA=4C getrennt.
+- Druck299/300: Energieintervalle und-E_k=V-W fuerEk>0 unvereinbar.
+  Zweifache Bildkontrolle und unabhaengige Algebra. Eigenen lokalen
+  Korrekturkandidaten getrennt dokumentiert; keine Autorenabsicht behauptet.
+- Zwei neue Normalisierungen:44 Entscheidungen,42 resolved,2 alte Massenblocker.
+- Report CHARGE_DERIVATION_2026-09-06.md und Wiedereinstieg gepflegt.
+  Checkpoints d53738e/59dde16 gepusht; Abschlusscommit-Nachricht
+  `Complete charge derivation, book index bridge and energy-order findings`.
+- Naechster Schritt: QuellenbegriffeE_k,m(v_H),lambda_H und K-Schalenmodell;
+  weiter keine breite moderne Widerlegungsrecherche.
+
 ## 2026-09-06 - Zweite Etappe: Buchstruktur und Diagnose abgeschlossen
 
 - Quellenreview EDM2 und lokale Fortsetzung in EDM1 dokumentiert. Unindiziertes

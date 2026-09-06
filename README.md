@@ -50,6 +50,11 @@ prueft Y3-Rueckrechnung sowie Rechenpraezision; insgesamt 23 Tests bestehen.
 Neuere Arbeiten auf Widerlegung zu pruefen ist als spaetere Phase vorgesehen:
 zuerst die Herleitung und physikalische Bedeutung verstehen.
 
+Die dritte Etappe reproduziert Heims vorlaeufige Alpha-Naeherung, klaert
+die Buch-Indexreihenfolge und dokumentiert einen lokalen Energieordnungs-
+widerspruch. [Schrittweise Erklaerung](06_docs/CHARGE_DERIVATION_2026-09-06.md).
+33 Tests bestehen; Annahmen und Korrekturkandidaten sind gesondert markiert.
+
 Wir bauen zuerst eine Formelbibliothek unter `04_reconstruction/formula_library/`.
 Jede Formel bekommt eine ID, Quelle, Status, Abhaengigkeiten, Outputs und Audit-Risiken.
 Erst wenn eine Formel `source_checked` und `normalized` ist, soll sie implementiert werden.

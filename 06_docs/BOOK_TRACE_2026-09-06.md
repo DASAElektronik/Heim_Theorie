@@ -3,6 +3,11 @@
 Stand: 2026-09-06. Interne Konsistenz, Quellenprovenienz und offene Annahmen;
 keine Gesamtbewertung von Heims Physik.
 
+Nachtrag aus der dritten Etappe: Die damals noch fehlende lokale Buch-
+Indexbruecke wurde inzwischen in BandII Druck266/267, (98), gefunden.
+Der nachfolgende Bericht dokumentiert den damaligen Kenntnisstand.
+Aktuelle Rekonstruktion: [Ladungsmittelung und Konfigurationen](CHARGE_DERIVATION_2026-09-06.md).
+
 ## Ergebnis
 
 Wir koennen mehr von der Herleitung nachvollziehen, aber noch keine

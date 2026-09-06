@@ -1,7 +1,9 @@
 # NORM-CHARGE-AVERAGING-DIAGNOSTICS
 
 Decision ID: `NORM-CHARGE-001`. Date:2026-09-06.
-Status: scoped diagnostic implementation; independent review pending.
+Status: resolved scoped diagnostic implementation; independent review accepted.
+Review: `alpha_audit/reviews/CHARGE_AVERAGING_MATH_REVIEW_2026-09-06.md`,
+including follow-up on sign wording and two added boundary tests (33 total).
 
 ## Inspected source and source boundary
 

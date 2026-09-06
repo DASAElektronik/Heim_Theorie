@@ -24,6 +24,14 @@ Indexvariante. Diese Diagnose aendert keine kanonischen historischen Inputs.
 Kein einzelnes Y3 kann beide gedruckten Zweigwerte gleichzeitig treffen.
 Details: `alpha_audit/EXTENSION_CANDIDATES.md`.
 
+Etappe3: Buch(98) und Druck266 schliessen die lokale eta-Indexbruecke:
+eta_qk mit erster Position q, zweiter k; eta_10=eta. Die IGW1982(V)-Variante
+bleibt getrennt. Eine Gewichtung lambda variiert in der neuen Diagnose nur
+probeweise die Energiemittelung von BandI(29): lambda=1/2 ist source-belegt;
+die anderen vorab festgelegten Gewichte sind unsere ungefitten Gegenfaelle,
+kein behaupteter weiterer Heim-Parameter. Energieordnungs-Korrekturvarianten
+sind in `alpha_audit/BOOK_ENERGY_ORDER_ISSUE.md` gesondert ausgewiesen.
+
 ## Kontinuierliche Konstanten
 
 | Name | Wert | Einheit | Quelle | Modellversion | Status | Notiz |

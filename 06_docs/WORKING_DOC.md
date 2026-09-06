@@ -10,6 +10,13 @@ Ein Teilchenbeschleuniger oder Detektor-Rohdaten sind erst relevant, wenn die Th
 
 ## Aktueller Stand 2026-09-06
 
+Die dritte Etappe ist in `CHARGE_DERIVATION_2026-09-06.md` erklaert.
+33 Tests bestehen; Buch-Indexbruecke geschlossen, vorlaeufige Alpha-Naeherung
+reproduziert, Mittelungs-/Korrelationsannahmen getrennt und neuer lokaler
+Energieordnungs-Konflikt dokumentiert. Naechster aktueller Einstieg sind
+die Energie-/Masse-/Wellenlaengenbegriffe vor(105). Die folgenden Angaben
+zu Etappe1/2 bleiben als Verlauf erhalten.
+
 Der erste isolierte Alpha-Audit ist implementiert, mit 13 Tests geprueft und
 unabhaengig reviewt. Ergebnis: `ALPHA_AUDIT_2026-09-06.md`.
 Die zweite Etappe ist in `BOOK_TRACE_2026-09-06.md` dokumentiert: Buchstellen,
