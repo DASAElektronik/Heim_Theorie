@@ -1,5 +1,18 @@
 # Skripte
 
+## Etappe38: exakte Massenformel-Identitäten
+
+Kein neuer produktiver Massenrechner; nur synthetische exakte Prüfungen:
+
+```powershell
+py -3.13 -B -m unittest discover -s tests -p test_mass_chain.py -v
+```
+
+K/F/H koeffizientenweise, rationaler Skalen-/phi-Abgleich, Nullränder und
+synthetische Mutation (kein Quellenfehler).12neueTests,354insgesamt;
+12alteSnapshotchecks und5Zusatzchecks bestanden. Bericht
+`06_docs/MASS_CHAIN_2026-09-07.md`; alte Rechner/Inputs bleiben unverändert.
+
 ## Etappe 37: Quellenstatus von (108)
 
 Kein neuer Rechner oder numerischer Input. Bericht

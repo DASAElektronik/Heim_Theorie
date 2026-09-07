@@ -25,6 +25,17 @@ Ergebnis; sie werden nicht als stillschweigende Definitionen behandelt.
 
 ## Naechste begrenzte Arbeitseinheit
 
+Nach [Etappe38](../06_docs/MASS_CHAIN_2026-09-07.md): **Provenienz des
+F_S-Ansatzes**, seiner17 Ausgangspunkte und der Y41-44-Festlegung.
+Zunächst konkrete damalige Quellen und Eingaberollen erfassen; keine
+neue Kalibrierung, freie Parameterwahl oder moderne Datenbewertung.
+
+Etappe38 bestätigt die K/F/H-Polynomzerlegung und die97/phi-Skalierung
+als exakte Algebra. Das bestimmt weder F_S noch Besetzungen und liefert
+keinen eigenständigen physikalischen Vorhersagenachweis.354Tests bestanden.
+
+## Historischer Einzelauftrag der Etappe37 (in Etappe38 bearbeitet)
+
 Nach [Etappe 37](../06_docs/EQ108_STATUS_2026-09-07.md):
 **H004-Massenformel von (98d/e) zu (112) und Rolle von `F_S`.**
 

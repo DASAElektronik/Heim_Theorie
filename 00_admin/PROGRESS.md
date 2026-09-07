@@ -1,5 +1,19 @@
 # Fortschritt
 
+## 2026-09-07 - Etappe38: Massenformelkette algebraisch bestätigt
+
+- (98d/e)->(112): exakte K/F/H-Polynomzerlegung, Faktor4 aus97 und
+  phi-Umgruppierung bestätigt. Keine zusätzliche Herkunft von F_S oder
+  physikalische Auswahl aus dieser Identität abgeleitet.
+- F_S342:17 empirische Ausgangspunkte und gemeinsame vorgeschlagene
+  Funktion, plausible Extrapolation getrennt. Keine Massenrechnung/Fitwahl.
+- Root-Vollsicht253,276-278,323,342-344. K2-Ziffer3 bestätigt; B_v
+  mit xi^(-2); anfängliche Leseartefakte nicht als Fehler gezählt.
+- 12 neue Tests/354gesamt;12alteSnapshotchecks und5Zusatzchecks bestanden.
+  Root wiederholt1841exakteReviewkontrollen. AlteDaten/49CSV unverändert.
+  FIND-048 positive_reproduction; Bericht `06_docs/MASS_CHAIN_2026-09-07.md`.
+- Weiter: Provenienz der17F_S-Punkte und Y41-44-Eingaberollen, ohneFit.
+
 ## 2026-09-07 - Siebenunddreissigste Etappe: (108)-Status und Auswahlanschluss
 
 - H004 Druck322--335 und340--347 vollständig gegengelesen. (108) auf330

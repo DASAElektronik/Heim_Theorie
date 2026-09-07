@@ -2,11 +2,31 @@
 
 Aktualisiert: 2026-09-07.
 
-## Aktuell: Etappe 38 begonnen
+## Aktuell: Etappe 38 abgeschlossen
 
-Ausgang `06952db`; Vertrag `MASS_CHAIN_PLAN.md`. Massenformelkette
-(98d/e) bis (112): Algebra, F_S-Empirie und mögliche K2-Druckabweichung
-auf344 getrennt prüfen. Keine neue Massenkalibrierung oder Parameterwahl.
+Ausgang `06952db`, Plancheckpoint `427868c`; Vertrag `MASS_CHAIN_PLAN.md`.
+Bericht `06_docs/MASS_CHAIN_2026-09-07.md`, Scope
+`03_notes/MASS_CHAIN_SOURCES_2026-09-07.md`.
+
+- (98e) mit x_j=n_j+Q_j und alpha4=1 liefert exakt
+  `4*sum(alpha_j*G_j)=K+F+H`. Buch-N1,N2,N3 aus112b heißen im Bericht
+  c1,c2,c3; nicht mit Besetzungen oder Resonanz-N verwechseln.
+- (97) liefert mu_+=4*mu*alpha_+ und mu_S=(1-r)*mu_+. Mit
+  phi=4(1-r)F_S+4qr folgt112 exakt; keine neue Massenskala oder Näherung.
+- F_S wird342 aus17 zugeordneten empirischen Punkten gewonnen;
+  gemeinsame Funktion vorgeschlagen, Extrapolation davon getrennt.
+  Y41-44 nicht als vier nachgewiesene freie Fitparameter ausgegeben.
+- Beide K-Zeilen344 haben3Q2. B_v auf342 hat xi^(-2), nicht
+  xi^(kappa-2). Zwei Leseartefakte verworfen; kein neuer Quellenfehler.
+- Root las253,276-278,323,342-344 vollständig; drei interne Reviews.
+  Zwölf neue Tests,354 insgesamt;12 alte Snapshotchecks und5 Zusatzchecks
+  bestanden. Root wiederholte den unabhängigen1841-Kontrollenblock.
+  H004-Hash unverändert; keine alte Eingabe/Rechner/Ergebnis/49CSV geändert.
+  FIND-048 ist positive_reproduction;48 Gruppen sind nicht48 Fehler.
+
+Nächster Einzelauftrag: Quellenprovenienz des F_S-Ansatzes: die17
+verwendeten Massenwerte, damalige Belege und Y41-44-Festlegung lokalisieren.
+Zunächst Belege/Eingaberollen, keine neue Kalibrierung oder moderne Empirie.
 
 ## Verlauf: Etappe 37 abgeschlossen
 

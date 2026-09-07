@@ -3,7 +3,16 @@
 Isolierter, reproduzierbarer Konsistenztest der 1982/1989-Alpha-Bloecke in den
 lokalen IGW-Wiedergaben. Python >= 3.10; nur Standardbibliothek erforderlich.
 
-## Etappe 37: Quellenstatus von (108) (aktueller Stand)
+## Etappe38: Massenformelkette (aktueller Stand)
+
+[Bericht](../../06_docs/MASS_CHAIN_2026-09-07.md): Exakte Identität
+4sum(alpha_jG_j)=K+F+H und97/phi-Umformung zu112 bestätigt. F_S bleibt
+empirisch aus17 Ausgangspunkten bestimmt; keine neue Massenkalibrierung.
+KeineK2- oderB_v-Druckabweichung bestätigt.12neueTests/354gesamt,
+alle12altenSnapshotchecks und5Zusatzchecks bestanden; alteInputs/49CSV
+unverändert. FIND-048 positive_reproduction, kein neuer Fehler.
+
+## Etappe 37: Quellenstatus von (108) (vorheriger Stand)
 
 `06_docs/EQ108_STATUS_2026-09-07.md`: (108) ist auf H004 Druck330 als
 formale Selektorgleichheit gedruckt. Die Externzone wird auf322/324 nur

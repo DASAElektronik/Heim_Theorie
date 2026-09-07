@@ -2,7 +2,7 @@
 
 ## Aktueller Einstieg (2026-09-07)
 
-Massgeblich ist Etappe 37 in `RESUME.md`; die aeltere Detailhistorie folgt darunter.
+Massgeblich ist Etappe 38 in `RESUME.md`; die aeltere Detailhistorie folgt darunter.
 
 - [x] Einen H006-N0-Elektronfall getrennt gegen spaetere H010-Programme rechnen.
 - [x] Alpha3-Formeln, Alpha-/Konstanteneingaben und Rundung einzeln dokumentieren.
@@ -47,10 +47,12 @@ Massgeblich ist Etappe 37 in `RESUME.md`; die aeltere Detailhistorie folgt darun
   aber keine finale Restgarantie im engen Umfang; Modellgleichheit, (79b/c)-
   Näherung, Grenzwert-/Y-Aussagen und `F_S` getrennt. FIND-047, kein
   neuer unabhängiger Fehler.
-- [ ] H004-Massenformel von (98d/e) zu (112) und Rolle von `F_S` eng
+- [x] H004-Massenformel von (98d/e) zu (112) und Rolle von `F_S` eng
   rekonstruieren: algebraische Umformung, empirische Bestimmung und
   verbleibende Funktionsannahmen trennen; keine Massenkalibrierung,
-  Rest- oder Zielwertanpassung.
+  Rest- oder Zielwertanpassung. Identitäten bestätigt;FIND-048,354Tests.
+- [ ] Provenienz der17 F_S-Ausgangspunkte und Y41-44-Festlegung suchen;
+  damalige Belege/Eingaberollen, keine neue Kalibrierung oder moderne Empirie.
 - [ ] Echte (79)-Fehlerfortpflanzung nur bei neuer r-/nu-/N4-, Parameter- und Normierungsbruecke aufnehmen; keine erfundene physikalische Fehlerschranke.
 - [ ] Nur bei neuem Beleg: genaue H006-Vorlage/Uebertragungskette oder autorisiertes Erratum klaeren; keine stillen Profilkorrekturen.
 

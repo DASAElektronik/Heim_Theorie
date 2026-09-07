@@ -6,6 +6,13 @@ Dieses Register sammelt Fundstellen. Lokale Kopien sollten nur abgelegt werden, 
 
 ## Enger Pruefstand 2026-09-07
 
+Etappe38: Root-Vollsicht H004 Druck253,276-278,323,342-344; zusätzliche
+Detailkontrolle vonK/112a undB_v. Exakte98e->112-Zerlegung und97-Skala
+bestätigt, empirischerF_S-Ansatz von17 Quellendatenpunkten getrennt.
+BeideK-Zeilen mit3Q2; B_v342 mitxi^(-2), keineκ-Exponentdiskrepanz.
+Keine Originaländerung oder neue Quelle; Scope
+`03_notes/MASS_CHAIN_SOURCES_2026-09-07.md`.
+
 Etappe37: H004 Druck322--335 und340--347 von Root vollständig visuell
 gelesen. (108) auf330 bleibt formale Selektorgleichheit; Externterm-
 Näherung322/324, Grenzwertsubstitution334, TRC-Neuner-Ausnahme341, `delta F_S=0`

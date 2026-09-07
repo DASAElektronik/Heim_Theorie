@@ -33,3 +33,20 @@ Drei neue `MASS_CHAIN_*_REVIEW`-Dateien; Bericht
 `06_docs/MASS_CHAIN_2026-09-07.md`, Quellenbilanz
 `03_notes/MASS_CHAIN_SOURCES_2026-09-07.md`. Kein neues Fremdpaket nötig.
 Regressionssuite, alte Ergebnischecks, Metadatenprüfung und Save.
+
+## Abschluss
+
+Plancheckpoint `427868c`. Root-Vollsicht253,276-278,323,342-344,
+achtSeiten. Zwei ursprüngliche Glyphenverdachte wurden durch Original-
+Detailvergleich verworfen:344 beide3Q2;342 B_v mitxi^(-2), ohneκ.
+Keine Quellenkorrektur vorgenommen. K/F/H und Skalen-/phi-Umformung
+exakt bestätigt; F_S-Provenienz/empirischerStatus getrennt.
+
+Zwölf neueTests in `tests/test_mass_chain.py`;354Gesamttests sowie
+12alteSnapshotchecks und5Zusatzprüfungen bestanden. UnabhängigerReviewblock
+beiRoot mit1841 exaktenKontrollen wiederholt, neuerCode intern gegengelesen.
+H004-SHA256 unverändert. FIND-048 positive_reproduction, kein neuerFehler.
+Metadaten/Staged-Diff vorSave prüfen; endgültigenCommit überGit bestimmen.
+
+Nächster Einzelauftrag: Provenienz der17 verwendeten Massenwerte und
+Y41-44-Festlegung, zunächst Quellenrollen ohne neue Kalibrierung.

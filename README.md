@@ -40,6 +40,15 @@ Kann aus Heims Original- bzw. nahen Quellen eine reproduzierbare, parameterarme 
 
 ## Aktueller Arbeitsmodus
 
+Stand2026-09-07, Etappe38: [Massenformelkette](06_docs/MASS_CHAIN_2026-09-07.md).
+Die Zerlegung4sum(alpha_jG_j)=K+F+H und der Übergang von98d/e zu112
+über97/phi sind exakt algebraisch bestätigt. Die FunktionF_S wird dagegen
+aus empirischen Massen bestimmt und dann durch einen gemeinsamen Ansatz
+beschrieben. Keine neue Masse oder Parameterwahl;354Tests bestanden.
+Weiter: Provenienz der17 F_S-Punkte und Y41-44-Festlegung.
+
+## Verlauf: Etappe37
+
 Stand 2026-09-07, Etappe 37:
 [(108)-Status](06_docs/EQ108_STATUS_2026-09-07.md). H004 druckt (108) als
 formale Selektorgleichheit, verbindet den Externterm aber nur
