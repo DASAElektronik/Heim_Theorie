@@ -2,7 +2,14 @@
 
 Aktualisiert: 2026-09-07.
 
-## Aktuell: Etappe 36 abgeschlossen
+## Aktuell: Etappe 37 begonnen
+
+Ausgang `15d1da3`; Quellenvertrag `EQ108_STATUS_PLAN.md`. Enger Vergleich
+von (108)-Einführung, diskreter Auswahl und F_S-Folgeabschnitt: Gibt es
+eine explizite Projektions-/Restregel? Keine neue Numerik oder Fitwahl;
+Näherungsansatz, Modellgleichheit und Algorithmuserhaltung getrennt halten.
+
+## Verlauf: Etappe 36 abgeschlossen
 
 Ausgang `efb812d`, Plancheckpoint `fa25c42`, Vertrag
 `SATURATION_PLAN.md`. Bericht `06_docs/SATURATION_2026-09-07.md`, Scope
