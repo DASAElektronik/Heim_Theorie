@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "audit_date": "2026-09-07",
+  "base_input_path": "04_reconstruction/alpha_audit/decay_sensitivity_inputs.json",
+  "base_input_canonical_sha256": "36173ed155513a29b8b1834b32a9c1845bb96c9b1083642d1053f9d33f9ac75a",
+  "cells": "all four unchanged stage-35 cells; 1/3 controls, 1/5 saturation extension",
+  "trigger": "certified stage-35 raw_N4>cap, cap=a3*N3; no transfer",
+  "inverse": "raw_N4=-ln(W4)/A consistent with counterfactual E_A",
+  "cap_rule": "t=TRC(cap); N4=t-1 if t>cap else t",
+  "trc_analysis": "own envelope t in {floor(cap),ceil(cap)}; no numerical promotion threshold claimed",
+  "fixed": "all stage-35 input profiles and N1,N2,N3; no new A, g/W, a_j, w or Y",
+  "diagnostics": ["selected_N", "n=N-Q", "direct_107_107a", "weighted_107b_separate", "R_direct", "R_external_identity"],
+  "target_fitting": false,
+  "mass_evaluation": false,
+  "physical_tolerance": false,
+  "historical_program_execution": false
+}

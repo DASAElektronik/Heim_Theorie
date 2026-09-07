@@ -1,5 +1,574 @@
 # Fortschritt
 
+## 2026-09-07 - Siebenunddreissigste Etappe: (108)-Status und Auswahlanschluss
+
+- H004 Druck322--335 und340--347 vollständig gegengelesen. (108) auf330
+  ist eine formale Selektorgleichheit; der Externterm bleibt über322/324
+  an (79b)/(79c) als "überaus gute Näherung" gebunden. Keine der beiden
+  Aussagen still zur allgemeinen Feldexaktheit ausgebaut.
+- Diskrete Auswahl samt internen Restgrößen vorhanden; keine gefundene
+  finale (108)-Restgarantie oder Sättigungs-/TRC-Kompensationsregel.
+  Lokaler Nichtfund, keine Gesamtwerk- oder Autorenabsichtsaussage.
+- Messbarkeit334 (Grenzwertsubstitution) und341 (TRC-Neuner-Ausnahme)
+  sind keine allgemeine R-Toleranz. `delta F_S=0` auf323 und empirische `F_S`-Bestimmung mit17
+  Quellendatenpunkten auf342 erlauben bei festem Zustand keine Restreparatur;
+  die mehrdeutige `f`-Folge343 bleibt offen.
+- Keine Rechner-, Input-, Test- oder49-CSV-Änderung. FIND-047 ist ein
+  `open_justification`-Anschluss, kein neuer unabhängiger Fehler. Bericht
+  `06_docs/EQ108_STATUS_2026-09-07.md`, Scope
+  `03_notes/EQ108_STATUS_SOURCES_2026-09-07.md`, Plancheckpoint `f32f89a`.
+  342 bestehende Tests,12 alte Snapshotchecks und5 Zusatzprüfungen sowie
+  Registervalidator bestanden; H004-Hash unverändert.
+  Weiter: (98d/e)->(112) und `F_S` quellengetreu rekonstruieren, ohne
+  Massenkalibrierung oder Fit.
+
+## 2026-09-07 - Sechsunddreissigste Etappe: Buch-Sattigung im z3-Zweig
+
+- Vier feste Etappe-35-Zellen; Baselines unveraendert, z3 nur mit der auf
+  Druck341 dokumentierten Sattigungsregel fortgesetzt. Kein Parameterfit.
+- Bei `cap=alpha3~=0.97866` ergeben Abschneiden auf0 und moegliche
+  Neuner-Promotion auf1 mit bedingtem Abzug beide `N4=0`. Allgemeines
+  Lemma fuer die zusammengesetzte Regel; kein pauschales `ceil(cap)-1`.
+- z3-Tupel `N=(14,10,1,0)`, `n=(11,7,-1,-1)`. Druck322/328 erlauben
+  negative `n_j` innerhalb `n_j>=-Q_j`; daraus keine vollstaendige
+  physikalische Zulassung abgeleitet.
+- Direkte107a-Bandbreiten `(2359,99,1)` bestanden; separate107b-Groesse
+  `alpha3>0`, trotz `alpha3<1`. Integer- und gewichtete Bedingung getrennt.
+- Gleichungsrest bleibt primaer `0.943249254966522970`, Druckalpha
+  `0.943249258949052267`. Sattigung schliesst die feste Gleichung nicht;
+  kein Massenfehler oder neue Gesamtwiderlegung daraus gemacht.
+- Root-Vollsicht Druck321--323,328--330,340--342; keine neue Empirie.
+  `audit_saturation.py`,11neueTests/342gesamt; alte12 Ergebnischecks,
+  vier Zertifikate, Quellenhash und Registervalidator bestanden. Unabhaengig
+  42 Numerikfelder und14 rationale Rest-/Sigma-Huellen gegengeprueft.
+  FIND-046:46 Befundgruppen,nicht46 Fehler, kein neuer unabhaengiger Fehler.
+- Bericht `06_docs/SATURATION_2026-09-07.md`, Scope
+  `03_notes/SATURATION_SOURCES_2026-09-07.md`, Plancheckpoint `fa25c42`.
+  Weiter: Quellenstatus (108)-Gleichheit versus diskrete Projektion/Restregel,
+  ohne neue A-Suche oder Wiederholung der allgemeinen79-Luecke.
+
+## 2026-09-06 - Fuenfunddreissigste Etappe: beidseitige A-Sensitivitaet
+
+- Vier Zellen vor Rechnung gebunden: beide alten Buch-Alpha-Profile mal
+  `A(k=1)=1/3` und eigene z3-Sensitivitaet `A(k=1)=1/5`. Letztere ist
+  keine Heim-Korrektur; keine Auswahl nach Rest, Masse oder Treffer.
+- Externterm und Geruestreferenz `g/W` gemeinsam geaendert. `a_j`, `w`,
+  A16, eta und Y paarweise pro Alpha-Profil fest; `mu_+`/Masse inaktiv.
+- `1/3`: ordinary-floor-Ausgabe `(14,9,13,7)`, direkte Bandbreite
+  `(2459,-10,6)`. `1/5`: `(14,10,1)`, aber reeller N4-Wert oberhalb der
+  Strukturkappe; Sattigungsgrenze, keine N4-/Transferfortsetzung erfunden.
+- Frische Box `(14,19,26,25)`; je Zelle 1239 Tripel und 9231 ganze Tupel.
+  Keine exakte Loesung mit direkten nichtkollabierten Gates. Enge
+  vertragliche Realdiagnose und zusaetzlicher Bereich bis `N4<N3` getrennt
+  ausgeschlossen; (107b), ordinary floor und Quellen-TRC bleiben getrennt.
+- 15 neue Tests,331 insgesamt; alte12 Ergebnischecks sowie Existenz-,
+  Transport-, Rekurrenz- und Registerchecks bestanden. FIND-045:45
+  Befundgruppen, nicht45 Fehler. Alte
+  Profile/Rechner/Snapshots historisch erhalten; keine Masse/Gesamtwiderlegung.
+- Bericht `06_docs/DECAY_SENSITIVITY_2026-09-06.md`, Scope
+  `03_notes/DECAY_SENSITIVITY_SCOPE_2026-09-06.md`, Plancheckpoint `3a3ad73`.
+  Weiter: gedruckte Buch-Sattigungsregel im erreichten z3-Zweig anwenden
+  und Gleichungserhalt separat pruefen, ohne A-/Y-/Restfit.
+
+## 2026-09-06 - Vierunddreissigste Etappe: xi-Ursprung und Selektorgrenze
+
+- H003 M14 definiert Fibonacci als Auswahlklasse; H004248-251 gewinnt
+  unter F-/Selektorannahmen korrekt xi und die Identitaet mit5. Kein
+  unbegruendeter Zahlenwert, aber keine ausformulierte Feldherleitung.
+- II275: positiver X/Y=xi^2-Anschluss. II324: Sigma darf denselben
+  Selektor gerade nicht voraussetzen, A!=lnxi. II325 bleibt Heuristik;
+  grosser Metronindex und kleiner Teiler z sind verschiedene Rollen.
+- Eigene Rekurrenzpraezisierung fuer alle positiven Starts: exakte
+  Fehlerform und uniforme rationale Huelle. q22=x23/x22 rundet stets
+  auf1.61803399; keine physikalische Index-/Fehlerbudgetzuordnung.
+- Reduzierter skalarer2^n-Zeuge trennt Exponentialform und Selektor;
+  goldene Identitaet plus Teilerbedingungen erlaubt weiterz3 undz5.
+- 12 neue Tests,316 insgesamt,480 unabhaengigeKontrollen wiederholt;
+  alte12Snapshotchecks undZertifikate erhalten. Drei interneReviews,
+  FIND-044:44Befundgruppen,nicht44Fehler. Keine A-/Massenvariation.
+- Bericht `06_docs/XI_ORIGIN_2026-09-06.md`, Plancheckpoint `38377a7`.
+  Weiter: eigene A-Sensitivitaet erst nach fixiertem beidseitigem Vertrag.
+
+## 2026-09-06 - Dreiunddreissigste Etappe: Externnormierung und Fehleranschluss
+
+- H004 175-179 und 322-330: Nullpunkt- und Geruestnormierung explizit
+  rekonstruiert; leeren Zustand, Geruest und Resonanzgrundordnung getrennt.
+- A(1)=1/3 wird auf S. 325 explizit heuristisch aus z=5 motiviert. Die
+  Teilerbedingungen lassen zuvor z=3,5; (96b)-Rueckverweis gezielt offen.
+- Keine quantitative r-/nu-/N4- und Feldamplituden-/Fehlerbruecke im
+  geprueften Anschluss gefunden; alte skalare Asymptote nicht neu gezaehlt.
+- Eigene Dreipunktidentitaet h(N4)-w*h(1)+(w-1)*h(0); konstantes rohes h
+  verschwindet, identische Argumente sind korreliert. w-Intervall rational
+  zertifiziert, aber kein physikalisches Fehlerbudget daraus erfunden.
+- Uniforme Korrektur kleiner als alte Luecke waere ausreichend; grosse
+  Fehlerhuelle beweist keine Loesung. Alte N4<=25-Box nicht ungeprueft
+  nach W-Aenderung verwenden. FIND-042 bleibt bedingt gueltig.
+- 16 neue Tests, 304 insgesamt; 12 alte Checks, alter Quellen-/Existenzcheck,
+  neuer Transportcheck. Drei Reviews; Root wiederholt 179 rationale
+  Kontrollen und unabhaengige Et32-Kette samt w. FIND-043: 43 Gruppen.
+- Bericht `06_docs/EXTERNAL_APPROXIMATION_2026-09-06.md`, Plan `3185574`.
+  Keine neue Masse, keine A-/Y9-/Restwahl, alte Profile und 49 CSV erhalten.
+
+## 2026-09-06 - Zweiunddreissigste Etappe: gekoppelte Nicht-Existenz
+
+- Historische Nutzerfrage gesichert: bewusst offeneF_im/110d-Deduktion,
+  aber kein Beleg fuer Autorenwissen oder Lebensendstand der107-Frage.
+- UnveraenderteBuchprofile,exakte108 plusdirekteungewichtete107-Gates:
+  fuenferschoepfendeFaelle schliessen alleIntegerbesetzungen aus. Nurzwei
+  Gatesnoetig,N4sogarreell>=0. KeinegreedyReparaturoderbestpassendeBesetzung.
+- Budget/Strukturbeweis gibtfiniteObermenge; Fraction-Machin/Taylor/isqrt
+  zertifiziertInputs. GrobeMarge7/5000; unabhaengigenger abs(T-W)>=.057144067635.
+  KeinMassenfehler,keineGesamtwiderlegung/Autorenkorrektur.
+- H004322kennzeichnetExternzoneals79b/79c-Naeherung. NaechsterengerAuftrag:
+  gemeinsameFehler-/NormierungskettezumReferenzterming/W,nichtnurlinkeSeite.
+- DreiReviews,RootwiederholtbeideCodebloecke,16neueTests/288gesamt,
+  12alteSnapshotchecksplusneuerZertifikatscheck. AlteRechnungen/49CSVerhalten.
+  FIND-042,42Gruppennicht42Fehler; Planb56a0af,Rechner851f7da.
+  Bericht06_docs/COUPLED_EXISTENCE_2026-09-06.md.
+
+## 2026-09-06 - Einunddreissigste Etappe: Strukturfehlerbehandlung
+
+- Buch nennt Kollaps bei beta=0, Zone4-Kappe und k2/W5<0-Transfer3->4;
+  kein belegter Reparaturpfad fuer FIND-040 beta3=-10. 107-Verweis ist
+  keine implementierte gekoppelte Neuwahl; keine allgemeine G/delta-Umdefinition.
+- H015 GSTRUC/Caller statisch: kein107-Gate; Sonderzweig W4>1 liest
+  IK4-Vorbestand. NurlokaleDatenflussaussage,keineGarbage-/Autorenbehauptung.
+- H010C/Pascal integerisieren zuvorLog, warnen dann beiW4>1 ohneSperre.
+  K3-NACHwert,eineStufe,keine Buchkappe/Loop/aktuellen107-Gates.
+- GLIMIT hat gewichtete Grenzalgebra,keinen Einzelzustandsfilter.
+  Eigene exakte Gegenbeispiele trennen obereGrenzen undZustandszulaessigkeit.
+- DreiReviews,36eigeneReviewchecks erneut,achtneueTests/272gesamt,
+  12Rechenchecks. FIND-041,41Gruppen; keineMasse/F_S/Y9-Wahl,alte49CSVerhalten.
+  Checkpoints ec5e5a9/0118ae9; Bericht STRUCTURE_HANDLING_2026-09-06.md.
+- NaechsterAuftrag eigene gekoppelte Existenzpruefung unterfixenBuchinputs,
+  erstvollstaendigeGrenzen undGenauigkeitsvertrag;keineErsatzbesetzungperFit.
+
+## 2026-09-06 - Dreissigste Etappe: Buch-Pseudosingulett und direkter Strukturkonflikt
+
+- H004-Eingaben vor Rechnung in05a0bab fixiert: Buch105/Y3=1 und separat
+  Druckalpha; Buch-q,k-Indizes, xi,98c,A16/Y9=1, Q_j und linearerW-Pfad.
+- N=0 nicht n_j=0; aktiver Kanal liefert in beiden Profilen N=(14,9,13,7).
+  Direkte ungewichtete107/107a prueft81>91: beta3=-10, kein Kollapsrand.
+- Spaetere107b-Gewichtung separat; positive108-Reste nicht als Massenfehler.
+  NurN3-Senken bei festen Vorstufen kann Struktur und exakte108 nicht retten.
+- Neuer gebundener Rechner/Tests/Snapshot in4213148; alte Rechner/Inputs/
+  Snapshots/49CSV erhalten. Plan2d53bfc. VierReviews von dreiAgenten,
+  unabhaengige Numerik/1773Strukturchecks vonRoot erneut ausgefuehrt.
+- 17neueTests,264gesamt,12Rechenchecks; FIND-040,40Gruppen,nicht40Fehler.
+  Bericht `06_docs/BOOK_PSEUDOSINGLET_2026-09-06.md`; keine Masse/Fitwahl.
+- Naechster Auftrag: Buch/historische GSTRUC auf explizite Behandlung von
+  Strukturverletzungen pruefen, statisch und versionsgetrennt.
+
+## 2026-09-06 - Neunundzwanzigste Etappe: Buch-Auswahl und A16-Rueckschluss
+
+- H004340-342 samt107/107a/107b/108 visuell rekonstruiert; Vorwaertskette
+  W1->N_(j), TRC-Ausnahme, Kappe und alter Ersttransferwert unterschieden.
+- Wiederholungssumme nur deklarierte Lesart; Rohwertkappe/Nichtnegativitaet
+  und beta4-/Kollapsanschluss nicht als vollstaendigen Solver geglaettet.
+- Feste Restgleichung wird durch Floor/Saettigung/Transfer nicht allgemein
+  erhalten. Transferrest ist streng negativ, unabhaengig von Summenlesart.
+- A16-Auswahl liefert bedingte Intervalle; zwei synthetische Eingaben mit
+  gleichem Tupel belegt. Keine vollstaendigen Heim-Gegenloesungen oder Masse.
+- H006/H015 separat verglichen: Buch genauer, kein rueckwirkendes Erratum.
+- Drei interne Reviews, Root37rationaleZertifikate erneut;13neueTests,
+  247gesamt,elfalteChecks und Quellhashes bestanden. FIND-039,39Gruppen.
+  Alte Rechner/Inputs/Snapshots/49CSV erhalten. Plancheckpoint4da02b3.
+- Naechster Einzelauftrag: rein buchinterner N0-Pseudosingulett-Vertrag;
+  dann nur bei geschlossenen Inputs Auswahl/Struktur/Rest pruefen.
+
+## 2026-09-06 - Achtundzwanzigste Etappe: F16-Bestimmtheit
+
+- H004330-335 Bedingungen statt nur Symbolen gelesen: mu-Ursprung,
+  endlicher reeller Grenzwert, Spinorrolle; kein explizites F16-Randwertproblem.
+- 98/98a/101a/101b/105a liefern Konfigurationen/Parameter, keine F16-Dynamik.
+  Einfuehrung2-3 nennt Deduktion offen;110d340 fasst109b/110c zusammen.
+- Geruestschalter kalibriert A16 nicht. Eigene skalare Folgen beweisen
+  nur reduzierte Nicht-Eindeutigkeit/fehlende uniforme Rate; keine Heim-Loesungen.
+- Positive bedingte108-Inversion bei unabhaengigenT108,g,d,f; ansonsten
+  Kopplung offen. Heuristische Formel mitfestemY9 bleibt berechenbar.
+- Drei interneReviews,Root52exakteChecks erneut;10neueTests,234gesamt,
+  elf alteChecks. FIND-038; alteRechner/Inputs/Snapshots/49CSV erhalten.
+- Plancheckpointc153e02. Naechster Einzelauftrag Buch340-342Exhaustion,
+  getrennt vonH006/H015, keineMasse/Y9-Anpassung oder blindeF16-Suche.
+
+## 2026-09-06 - Siebenundzwanzigste Etappe: A16-Herkunft
+
+- H015-GINIT/PDF21 belegt /(5eta), H004335/PDF341 zusaetzlich Y9 am
+  gesamten A16-Ausdruck. H010 bestaetigt die lokale Klammerung statisch.
+- Buch330-335: F16-Spinorrolle und Grenzwert A16 angeschlossen; konkrete
+  Koeffizienten nach eigener Aussage heuristisch aus Grundzustandsdaten,
+  keine explizite F_im/A_im-Herleitung. Zahlen5/6 und Basis hier nicht deduziert.
+- Y_k=1 nur fuer Tabellenanhang (Druck1/PDF12), kein Fehlerbalken/Fitauftrag.
+- Drei Reviews, eigene exakte P/L-/Y9-Algebra, beide Reviewbloecke erneut
+  ausgefuehrt. Zehn neue Tests,224gesamt; elf alte Snapshotchecks und Register.
+- FIND-037,37Befundgruppen; alte Rechner/Inputs/Snapshots/49CSV-Zeilen erhalten.
+  Plancheckpointf26321a. Naechster Auftrag F16/A16-Bestimmtheit aus expliziten
+  Quellenbedingungen, keine neue Masse oder Auswahl nach kleinerem Rest.
+
+## 2026-09-06 - Sechsundzwanzigste Etappe: quellengebundene Myon-Auswahl
+
+- H006x3-Komponenten: beide x-Indizes geben exakt qx=-1; Pseudosingulett-
+  Identifikation nicht als physikalische Herleitung ausgegeben.
+- W=g(1+d*A16) nach regularem w1/w2-Quellenanschluss; explizitN0/f0.
+- Vorab3x2x2Profile: alle(b),K1..3=(14,9,3); A16-NennerproduktK4=0,
+  LinkassoziationK4=1. Rest nachfloor in beiden positiv; keine Masse.
+- NeueRechnung/Input/Snapshot und drei Reviews; Root80/120 und unabhaengig
+  120/160 stabil. 252FeldergegenRoot<1e-115,keinIntervallzertifikat.
+- 15neueTests,214gesamt,elfSnapshot-/jeweiligeQuellchecks undRegistercheck.
+  FIND-036,jetzt36Befundgruppen. AlteRechner/Inputs/Snapshots/49Normalisierungen
+  unveraendert. QuellenideenHeim,eigeneRekonstruktion/Sensitivitaet getrennt.
+- Plancheckpointd960144. NaechsterAuftrag A16-Fassungs-/Herleitungsanschluss:
+  H010 hat explizit /(5eta); fotografierteH015-Stelle/Buchanker suchen.
+  Noch keine Masse und kein Lesartwechsel nach kleinerem Rest.
+
+## 2026-09-06 - Fuenfundzwanzigste Etappe: K4/W4-Auswahl
+
+- H006p9 und H015 PDF42/Blatt6 visuell geprueft: Sonderfaelle und
+  Ganzzahlvermerk in beiden Quellen, K3-Vor-/Nachwert nicht explizit benannt.
+- Unter alpha3>0 und festem W3/a: endliche Nullrest-Saettigung ist nicht
+  exakt; Logwert vor Abschneiden exakt, danach Rest mit bewiesenen Schranken;
+  W4>1 hat kein nichtnegatives K3/K4-Paar mit ganzzahligem K3 bei gleichem W3.
+- Zaehl-/Endlichkeitsmotivation belegt, diskrete Ersatzinterpretation
+  nicht pauschal widerlegt. Eigene synthetische Zeugen, kein Teilchenmassenfehler.
+- FIND-035 als ein bedingter Befund, jetzt 35 Gruppen. Drei Gegenreviews,
+  Root-Originalseiten/Algebra/Testcode; 14 neue Tests, 199 insgesamt,
+  zehn alte Snapshot-/Quellchecks und Registerintegritaet bestanden.
+- Plancheckpoint28a9edc; alte Rechner/Inputs/Snapshots und Normalisierungen
+  unveraendert. Naechster vorab benannter Kandidat: H006x3/mu-,N0,
+  Eingabe-/W-/Auswahlvertrag ohne Masse, H006S3/(III) als Komponentenanker.
+
+## 2026-09-06 - Vierundzwanzigste Etappe: Verstaendnis- und Versionsbilanz
+
+- Etappen16-23 in UNDERSTANDING_BALANCE_STAGE24_2026-09-06.md zusammengefuehrt:
+  lokaler Rechenanschluss, Formbelege und physikalische Herleitung getrennt.
+- Drei BALANCE24*-Reviews: begrenzte Fassungsbruecken, alle34Befunde einmal,
+  Voraussetzungen und ein konkreter Folgeauftrag. Alte Etappe15 sichtbar
+  ergaenzt, nicht ueberschrieben; Zuschreibungsgrundsatz angewendet.
+- H006-N0-Basisfall bedingt geschlossen, H010-alpha3-Quellenanschluss gefunden,
+  H006XIV lokalisiert. Keine gemeinsame Gesamtfassung oder neue Widerlegung.
+- Zehn alte Rechen-/Quellchecks und185Tests erneut bestanden; Register-
+  und Tabellenintegritaet bestaetigt. Alte Rechner/Inputs/Tests/Snapshots,
+  FINDING_REGISTER und49Normalisierungen unveraendert. Keine neue Rechnung.
+- Plancheckpoint7d60d4b. Naechster Auftrag: H006p9-K4/W4-Faelle samt
+  Ganzzahlregel auf Gleichungserhalt, Rest und Strukturbedingungen pruefen;
+  H015PDF42 separat vergleichen. Noch keine weitere Teilchenmasse.
+
+## 2026-09-06 - Dreiundzwanzigste Etappe: historische Exponenten
+
+- H015-Typoskript zeigt gruppierte Auswahl-/N0-Exponenten, passende
+  Wiederholungen und den zugehoerigen Logarithmusschritt. In der kleinen
+  H006-Kette weicht nur XIV ab; XXVII/XXIX hochaufgeloest nachgeprueft.
+- FIND-027 eingegrenzt: Darstellungsbefund der IGW-Wiedergabe, nicht
+  pauschal der Heim-Urschrift zuzuschreiben. Datum/Signaturabbildung
+  ersetzt keine gesicherte Ueberlieferung; konkrete Fehlerursache offen.
+- Exakt A-B=(2Q4-n4)/(3Q4), Sondergleichheit n4=2Q4; B passt zur
+  Logumkehrung. Keine neue Teilchenmasse oder Korrektur alter Profile.
+- Drei Reviews, Root-Vollseiten/Detailkontrolle, unabhaengiger Code erneut
+  ausgefuehrt. Sieben neue Tests, 185 insgesamt, zehn alte Rechenchecks.
+  Weiterhin 34 Befundgruppen, alte Inputs/Snapshots/Normalisierungen erhalten.
+- Quellen-/Zuschreibungsgrundsatz nach Nutzerwunsch dauerhaft festgehalten.
+  Plancheckpoint125da3a. Naechster Schritt: Verstaendnisbilanz Etappen16-23.
+
+## 2026-09-06 - Zweiundzwanzigste Etappe: gekoppelte Potentiale und Kanaele
+
+- H004(98) liefert eine gekoppelte normierteKurve fuer genauvierH/G-Paare.
+  Bei festenq,k,Radius undepsilon keine freieVariation dieserSkalarwerte.
+- Gemeinsame ungewichteteH-Startkurve scheitert ans0=0 vs1, gewichteter
+  A1-Zielwert liegt ausserhalbroherU-Kurve. NurZusatzlesart ausgeschlossen:
+  Quelle setzt getrennteGrenzen, p-Zonenanteil, Abklingen undW-Komponentenwechsel.
+- Gekoppelte endlicheSpruenge exakt; zwei synthetischeH-Pfade mitgleichen
+  Endkomponenten ergeben16800/21659 vs98000/123261. KeineQuellenpfade/Massen.
+- DreiReviews,RootVollseiten undseparaterFraction-Gegencode. ZehnneueTests,
+  178gesamt undzehnalteRechen-/Quellchecks bestanden. FIND-034 offeneFrage,
+  nun34Befundgruppen,keine34Fehler. Plan79cf5d0;alteProfile/Snapshots erhalten.
+- H/G-Verstaendnisgrenze konkret dokumentiert; neuePfadrechnung brauchtneuenBeleg.
+  Naechster vorgemerkterTextvergleich:H015PDF39/41 gegenH006XIV/XXVI.
+
+## 2026-09-06 - Einundzwanzigste Etappe: Skalierung versus innerer Shift
+
+- M7-innerer Exponentialshift phi-delta_e phi quellenseitig bestaetigt;
+  keine Herleitung seiner Gleichheit mit a*delta auf nichtlinearen Folgen.
+  Exakter3/2vs2-Zeuge und small-a-Grenze trennen Identitaet und Genauigkeit.
+- H004II273 behaelt unskaliertes delta anH/G/X, delta_e anPotentialen.
+  Ein gemeinsames Argumentgitter bleibt unbewiesen. Kleinesx nichtgrossesX.
+- Eigene bedingte positive RekurrenzHn/Hprev=1/(1-S_H) mitganzemLogrest;
+  log-additiver Grundansatz waere anderesModell, keine eingesetzteReparatur.
+- GleicheEndpunkte-Zeuge16/9vs12/7; X-only-Reste mit verschiedenenVorzeichen.
+  Keine tatsaechlichen Potentialpfade oder Massenfehler daraus erschlossen.
+- DreiReviews,Root-Bildkontrolle und Gegenrechnung:10Felder80/120Stellen,
+  max.rel.Differenz2.550612081569e-80.10neueTests,168gesamt undzehnalte
+  Rechen-/Quellchecks bestanden. FIND-033/33Befundgruppen. Plan94a049c.
+- AlteProfile/Snapshots/49CSV-Zeilen unveraendert. NaechsterAnker:(98)-
+  Potentialpfade und gemeinsame Parametrisierung bei festemk.
+
+## 2026-09-06 - Zwanzigste Etappe: metronische Integration
+
+- H003 M2/M2a liefert exakt die H004-lnY-Randstruktur mit z-1; untere
+  Potentialgrenzen erfordern korrekten Nachfolgerindex, im Text unindiziert.
+- M7 ist ausdruecklich approximativ. Unter unskaliertem M2 hat die
+  Fibonacci-X-Folge bleibenden relativen Sprung; grosses z begruendet den
+  Austausch deltaX/X gegen delta lnX nicht. FIND-032 ist bedingter Konflikt,
+  kein berechneter Massenfehler oder Widerspruch jeder Operatorlesart.
+- Vier Potentialquotienten aus(98) und gesetzten Endwerten algebraisch
+  bestaetigt; A/B-Auswahl und Genauigkeit dadurch nicht hergeleitet.
+- Exakte Restform E(r), signierte Schranken und gewichtete Fehlerbilanz;
+  Skalierung und echter Argumentshift getrennt. Voller H/G-Rest noch offen.
+- Zwei Quellenreviews und Mathematikreview, Root-Vollseiten/Gegencode;
+  13Felder80/120Stellen max.rel.Differenz3.072074353802e-80. 14 neue Tests,
+  158gesamt und zehn alte Snapshot-/Quellchecks bestanden.32Befundgruppen.
+- Plancheckpoint2b12a48; alte Rechner/Inputs/Snapshots/49CSV-Zeilen erhalten.
+  Naechster Schritt: delta/delta_e-Pfad und tatsaechliche relative Spruenge.
+
+## 2026-09-06 - Neunzehnte Etappe: Bestimmtheit der alpha3-Koeffizienten
+
+- H004271-275 quellengetreu in Ansatz, gesetzte Potentialgrenzen, Integration
+  und freie empirische A/B-Wahl zerlegt. Kein Vollwerk-Nichtexistenzbeweis.
+- Eigene Verschiebungen A3/B3+1 erhalten gepruefte Minimalbedingungen
+  und sogar fuehrende d->1-Grenzterme, aendern aber H/G. Separate rationale
+  Ankerfamilie demonstriert beschraenkte Information eines Einzelwerts.
+- Ausreichende unabhaengige Bedingungen koennen diese Freiheit beseitigen;
+  keine pauschale Unbestimmbarkeits- oder Sieben-Fitparameterbehauptung.
+- C_k=2^(k-2) dagegen bedingt eindeutig aus vorgegebenem Sigma-Anschluss.
+- Zwei Quellen-/Mathematikreviews, unabhaengiger389-Kontrollblock von Root
+  erneut ausgefuehrt. Elf neue Tests,144 insgesamt; zehn alte Rechenchecks,
+  Quellhashes und Registervalidator bestanden. FIND-031/31 Befundgruppen.
+- Alte Rechner/Inputs/Snapshots und49 Normalisierungszeilen erhalten.
+  Naechster enger Schritt: metronische Integrationsregel und konkrete
+  Potentialverhaeltnisse aus(98), kein neuer Fit und keine Fremdausfuehrung.
+
+## 2026-09-06 - Achtzehnte Etappe: Herkunft der alpha3-Terme
+
+- H004II275/278(98c) traegt beide H010-Formbereiche. H/G-Korrekturen
+  getrennt von gleichnamigen KGH-Massenpolynomen; alpha3=f-qF nachvollzogen.
+- Buch nennt spekulativen Potentialschritt und empirische A/B-Wahl fuer
+  Elektron/Proton. Letzte gewoehnliche Exponentialumformung korrekt,
+  aber keine abgeschlossene Erstprinzipien-Herleitung oder unabh. Vorhersage.
+- Neu archivierter H015-Fotoscan: GBASEPDF22, ISN0021/00003710-00003713
+  zeigt beide H010-Terme, datierte Kopfzeilen1982; keine Fremdausfuehrung.
+  Daher kein erstmals spaeter Pascal/C-Eingriff. H006-Abweichungsursache offen.
+- H013/H014 neue N3-Form zu H007B8 lokal verbunden, nicht mit altem xi-Term fusioniert.
+- Zwei Quellenagenten/drei Reviews, Root-Gegenlesung, sechs neue exakte Tests.
+  Zehn Rechenchecks, Quellhashes, 133 Tests und Registervalidator bestanden.
+  FIND-030, nun 30 Befundgruppen/keine 30 Fehler; alte Rechner/Inputs/Snapshots erhalten.
+- Naechste konkrete Frage: Tragfaehigkeit der Potential-/Variationsannahmen
+  und Bestimmtheit empirischer A/B-Wahl. Originalnaehe-Exponentenanker
+  H015PDF39/41 separat vorgemerkt, nicht vorzeitig als Erratum behandelt.
+
+## 2026-09-06 - Siebzehnte Etappe: H006/H010-Elektronvergleich
+
+- Formel-/Konstanten-/Rundungsreviews getrennt, keine fremden Programme ausgefuehrt.
+- Zwei aktive alpha3-Unterschiede: Potenzklammer und Wurzelfaktor; KGH/Phi/mu
+  im N0-Fall formgleich. H010 setzt nacktes Alpha als Eingabe, nicht als Herleitung.
+- 64 vorab festgelegte Gegenfaktorzellen plus alternative H006-Wurzellesart;
+  alte Rechnung unveraendert. Vorab-Vertrag ca9abb1, Plan f6d7598 gepusht.
+- Eigener H010-Endpunkt0.510998846703200... MeV/c^2 reproduziert gespeicherte
+  Ausgabe innerhalb Druckauflösung; C0.62-Banner/C0.66-Dateigrenze bleibt.
+- Gegen H006 +0.3454876 Prozent, Potenz dominiert beide geprueften Ketten.
+  Beitraege wegen Wechselwirkungen reihenfolgeabhaengig, kein kausaler Prozentfit.
+- Separater n4=-1-Schritt passt zum archivierten Pascal0.61-Wert; keine
+  bitgenaue Laufbehauptung oder allgemeine Rechtfertigung der Code-Offsets.
+- Unabhaengige Machin-/Reihen-/Newtonrechnung: 65 Zellen mal21 Felder,
+  drei Vergleichsgruppen; Root hat alle drei eigenen Reviewbloecke ausgefuehrt.
+- Zehn Rechenchecks, Quellhashes und127 Tests bestanden; 16 neue Tests.
+  Register29 Befundgruppen, keine29 Fehler; Normalisierungs-CSV49 unveraendert.
+- Naechster enger Auftrag: Herkunft/Herleitung der zwei alpha3-Terme;
+  konkrete Spur H010(3-5) und selbstberichtetes Formelblattdatum17.9.1978.
+  Keine breite moderne Widerlegungsrecherche oder neue Hardware noetig.
+
+## 2026-09-06 - Achte Etappe: Konfiguration und Zusammenhangskarte
+
+- Nutzer betont Gesamtzusammenhang vor Urteil. Neue Zusammenhangskarte mit
+  Quellverbindungen, Status und konkreten Anlaessen fuer erneute Pruefung.
+- q-Ganzzahligkeit I244 lokalisiert; k-Konfiguration II263/264, moeglicher
+  Ansatz L*Delta=k/L4 und bedingter Anschluss an eta_qk rekonstruiert.
+- II268/269: gedruckte V/Q-Richtung widerspricht vorheriger F/G-Bedingung;
+  nachfolgende eta-Schranke hat umgekehrte Richtung und anderen Term.
+  Zusammenhaengender lokaler Knoten, keine eindeutige Autorenkorrektur.
+- Q2=sqrt(eta) ohne q nach 3 Lesern/500dpi gesichert; eigene Fehllesung verworfen.
+- Neue Grenzrechnung: u2=1.963489... nicht 2..3; vier positive (q,k)-Paare.
+  Andere gedruckte Bereiche und globale Maxima k2/q3 bleiben; q>=5 rational bewiesen.
+- Beide Buch-Alpha-Paare bleiben erlaubt. 1989 B59 verwendet wirklich eta22,
+  Anwendbarkeit der Buchregel/realer Zustandsstatus aber ungeklaert; keine Vermischung.
+- Neuer isolierter Rechner, Snapshot und 9 Tests; 86 gesamt. 1057 Zahlen/Bool-Felder
+  unabhaengig geprueft. Alte 6 Rechner/Inputs/Snapshots unveraendert, alle 7 Checks OK.
+- Drei Reviews und Berichts-/Registergegenlesung abgeschlossen; Zweig-/Rundungs-
+  wortlaut praezisiert. Register16 Befundgruppen; NORM48/46 resolved/2 blocked.
+- Plan3abd70c und gepruefter Checkpoint033617d gepusht. Abschlusscommit:
+  `Complete configuration audit and context-first research handoff`.
+- Naechster Block: (79)/(79a), Exponentialnaeherung, F/G-Potentialzuordnung;
+  konkrete Querverbindung weiterverfolgen. Moderne Bewertung weiter zurueckgestellt.
+
+## 2026-09-06 - Siebte Etappe: zyklischer Fluss und Befundregister
+
+- (75)/(76)/(76a,b), II157-162 und172-174 visuell rekonstruiert:
+  zyklische Zustandsrueckkehr, Frequenz eta, lambda=w_f/eta als Aggregatdiameter.
+  Zustands-A/C, Integrations-A, Korrelations-C und Matrix-C getrennt.
+- Positive Teilbruecke: H-Stabilitaet II300 -> w=c fuer Im(Y); allgemeiner
+  Fluss II173/174 -> w_f=w. Bei gleicher Objektzuordnung bedingt w_f=c.
+  H-Wellenobjekt, Phasengeschwindigkeit und Moden-/Kreiszuordnung bleiben offen.
+- Proportionalitaet m*lambda=const liefert allein keine absolute Normierung;
+  Heim nennt mc*lambda=h hier selbst empirisch. Kein Verschweigen behauptet.
+- C/Y3-Kette erneut samt Querverweisen geprueft: A bei festen Endwerten
+  gebunden; A=4C separate physikalische Setzung. C=P und Y3=1 sind berechenbar,
+  keine gefundene unabhaengige Begruendung. Manuskriptversion nicht vermischt.
+-13 Befundgruppen mit Quellen, Praemissen, Reichweite, Nichtfolgerungen
+  und Nachweisen; enthaelt auch positive Befunde, keine13 Fehler.
+  Lokale negative Befunde erhalten, kein Gesamturteil und kein Allfehleranspruch.
+- Neuer reiner Metadatenvalidator+8 Tests,77 insgesamt. Alle sechs bisherigen
+  Rechner/Inputs/Snapshots unveraendert und erfolgreich reproduziert/gehasht.
+  Normalisierungsregister weiter47:45 resolved,2 alte Massenblocker.
+- Drei Reviews fertig; rootseitige Sichtung und Register-/Berichtsgegenlesung
+  abgeschlossen. Bibliografische Auflagenangabe in neuer Review korrigiert.
+- Bericht `06_docs/CYCLIC_FLOW_AND_FINDINGS_2026-09-06.md`;
+  Plan6db53b5 und gepruefter Quellen-/Registercheckpoint5199680 gepusht.
+  Abschlusscommit: `Complete reviewed cyclic flow audit and continuity handoff`.
+- Naechster begrenzter Block: L*Delta=k und Auswahl(98a), q/k-Konfigurationen.
+  Keine neue moderne Widerlegungsrecherche und keine Hardwarearbeit jetzt.
+
+## 2026-09-06 - Sechste Etappe: explizite Wellen-Schliessung
+
+- Nutzer erlaubt begruendete Ergaenzungen und offene negative Ergebnisse;
+  lokale Fehler, Unterbestimmtheit und Gesamtwiderlegung bleiben getrennt.
+- H-Quellensuche: lambda=2*pi*r gesetzt, stehend/Kugeloberflaeche/s-Niveau;
+  kein dort ausgeschriebenes Ring-Eigenproblem. Neuer Kontext II161, (76).
+- Eigener skalarer periodischer Ring vollstaendig hergeleitet: ganzzahlige
+  Moden, Nullmode, keine automatische N1-/Radius-/Dynamikbestimmung.
+- Historische Phasenreferenz deBroglie1929 visuell geprueft/gehasht, M005.
+  Gleiche Welle/Energie/Impuls verlangt bedingt zeta=1/beta, nicht zeta=1.
+- Neuer Rechner K=N*zeta*f*s: ungefittete N1/2/3-Vorwaertsdiagnosen und
+  getrennte Phase-Ersetzung; keine konsistente neue Atomtheorie behauptet.
+- MS/Buch-Ak unterscheiden sich durch eta^+1 gegen eta^-1/2; keine
+  Fassungsidentitaet. A=4C bleibt modal (Integrationsfreiheit vs vier Zonen).
+  Eigene effektive rho*Y3-Diagnose nur fuer das festgehaltene Buchprofil.
+- Energieordnungs-Konflikt schon in MS1981 p4 belegt; keine stille Reparatur.
+- Drei Reviews abgeschlossen, 69 Tests, 192 zusaetzliche rationale
+  Gegenrechnungen. Zwei Randfaelle des neuen Rechners lokal behoben und
+  mit exakten Domaenen-/Doppelwurzelregressionen geprueft.
+- Alte fuenf Rechner/Inputs/Snapshots unveraendert. Register47:45 resolved,
+  2 historische Massenblocker. Plan7e69b13, Checkpointe88f000 gepusht.
+  Abschlusscommit: `Complete wave closure findings and reproducible handoff`.
+- Naechster Einstieg: zyklischer Fluss/Eigenfrequenz (76) und Bruecke zur
+  H-Welle, danach C/Y3-Schliessung. Keine moderne Widerlegungsliteratur jetzt.
+
+## 2026-09-06 - Fuenfte Etappe: Heims Warum und Invarianz
+
+- Eigene Motivation auf II276/277 gefunden: bekannte Alpha'-Abweichung,
+  als richtig angenommener Ladungswert, Bindungs-Internstruktur als Ursache;
+  Quantendualismus motiviert die Elektronen-Kreiswelle.
+- Zusaetzlicher Autorenfund: datiertes/unterzeichnetes Manuskript1981,
+  Magnetfeld und Drehimpulsdichte, p1-5 mit derselben Kernkette. H011/H012
+  aufgenommen, URLs/Hashes/Pruefumfang dauerhaft dokumentiert. Kein
+  verifizierter Journalstatus, keine lueckenlose Nachlassrecherche.
+- Manuskript p5: A=4C mit freier Integrationskonstante, Y statt Buch-Y3;
+  Versionen nicht gleichgesetzt, kein stiller Austausch von Recheninputs.
+- A_-/pc-Quellenkette rekonstruiert. Motivation ist nicht Herleitung des
+  konkreten Wellenproblems, der Energiearbeitszuordnung oder Meridianregel.
+- Exakte Fraction-Diagnosen trennen Skalar von Gleichungsform; passive
+  Boosts und simultaner statischer Kreis -> Ellipse mit strikten Schranken.
+- Neuer lokaler Matrixkonflikt I21/PDF29 unter gewoehnlicher komplexer
+  Trigonometrie; Vergleich I56/PDF63 ist Kontexthinweis, kein Erratum.
+  Eigene Variante EC-MATRIX-01 getrennt, Original unveraendert.
+-12 neue Tests,56 insgesamt; unabhaengige Quellen-, Such- und Mathematik-
+  reviews abgeschlossen. Register46:44 resolved,2 historische Massenblocker.
+- Alte vier Rechner/Snapshots unveraendert. Plan cd5cd0b und Checkpoint
+  b34ba7d gepusht; Abschlusscommit-Nachricht:
+  `Complete reviewed author rationale and invariance findings`.
+- Naechste begrenzte Einheit: H-Wellenproblem/Randbedingungen und
+  Versionsunterschied A=4C nachvollziehen. Moderne Gegenbelege spaeter.
+
+## 2026-09-06 - Vierte Etappe: Energie-/Wellenlaengenbegriffe
+
+- Quellanker fuer E=pc, Transversalmasse und drei Wellenkontexte visuell
+  gesichert. Bedeutungen/Modellidentifikationen von Folgerungen getrennt.
+- pc ist nicht die konventionelle Bewegungsenergie T; im kleinen Buchzweig
+  pc/T=274.068273..., h/p relativ zu h/(mc)=137.035960995... . Alles bedingt,
+  ohne Messwerte und ohne neue externe Widerlegungsrecherche.
+- Historische Standarddefinition aus Einstein1905 Druck920 visuell gegengeprueft.
+  Aeltere eigene Bezeichnung von mc^2 als Ruheenergie korrigiert.
+- Quellenmatrix zeigt: Compton-Skala im Neutralteilchenkontext nichtzirkulaer;
+  photonische Kreiswelle ist kein Beweis fuer die Elektronen-Kreiswelle.
+- Dimensionsloser Rechner mit drei offen getrennten Schliessungen K=g*f*s,
+  11 neuen Tests (44 gesamt), unabhaengiger Quellen- und Mathematikreview.
+- Eine scoped Normalisierung hinzugefuegt:45 Entscheidungen,43 resolved,
+  zwei alte Massenblocker. Alte Inputs/Snapshots unveraendert.
+- Plancheckpoint d1e31bc und Rechner-/Berichtcheckpoint c1c6a32 gepusht.
+  Abschlusscommit: `Complete reviewed energy and wavelength reconstruction`.
+- Naechster Einstieg: A_-, invariante Form versus Skalar, Energie/Arbeit,
+  dann explizite Kreisgeometrie. Keine komplette Theorievalidierung.
+
+## 2026-09-06 - Dritte Etappe: Ladungsmittelung und Quellenbruecken
+
+- BandI(27b)-(29a) schrittweise rekonstruiert; unterschiedliche Ladungs- und
+  Energiemittelung erklaert. inverseAlphaPrime137.038030... reproduziert137.038.
+- Ungefittete lambda-Gewichtungsdiagnose implementiert, ohne moderne Inputs
+  oder Y3.10 neue Tests,33 insgesamt; Mathematikreview samt Grenztests akzeptiert.
+- Buch-Indexbruecke gefunden: EDM2 Druck266/267, (98), eta_qk; eta_q0=eta_q,
+  eta_10=eta. IGW1982(V) bleibt als abweichende lokale Schreibweise erhalten.
+- Vor(105): s(varrho)+s(delta)=s(omega) als Heuristik identifiziert;
+  algebraischer Faktor4 inA=4A1A2 vom angenommenen Faktor4 inA=4C getrennt.
+- Druck299/300: Energieintervalle und-E_k=V-W fuerEk>0 unvereinbar.
+  Zweifache Bildkontrolle und unabhaengige Algebra. Eigenen lokalen
+  Korrekturkandidaten getrennt dokumentiert; keine Autorenabsicht behauptet.
+- Zwei neue Normalisierungen:44 Entscheidungen,42 resolved,2 alte Massenblocker.
+- Report CHARGE_DERIVATION_2026-09-06.md und Wiedereinstieg gepflegt.
+  Checkpoints d53738e/59dde16 gepusht; Abschlusscommit-Nachricht
+  `Complete charge derivation, book index bridge and energy-order findings`.
+- Naechster Schritt: QuellenbegriffeE_k,m(v_H),lambda_H und K-Schalenmodell;
+  weiter keine breite moderne Widerlegungsrecherche.
+
+## 2026-09-06 - Zweite Etappe: Buchstruktur und Diagnose abgeschlossen
+
+- Quellenreview EDM2 und lokale Fortsetzung in EDM1 dokumentiert. Unindiziertes
+  eta/vartheta gefunden; zweifache Indexbruecke und physikalische Schliessung offen.
+- Vorwortregel Y_k=1 und Annahmencharakter der Ladungsmittelung sichtbar gemacht.
+- Y3-Inversion getrennt implementiert: ex-post, keine Vorhersage; ein Faktor
+  kann das gedruckte Zweigpaar nicht retten.
+- Cancellation-Pruefung: binary64 viel zu klein; 8 Dezimalstellen koennen
+  Fehler aehnlicher Groessenordnung erzeugen. Historische Ursache bleibt offen.
+- Unabhaengige Mathematikreview fand Randfall bei unzureichender Decimal-
+  Praezision; mit expliziter Ablehnung und zwei Regressionen behoben/reviewt.
+  23 Tests bestehen, beide Ergebnis-Snapshots reproduzierbar.
+- Editions-/Zitatreview: 1989-Rehost identisch, keine alpha-spezifische Errata
+  gefunden; PTB-Messunsicherheit bis Publisherabstract verfolgt; exakte
+  angebliche 1992-Paarung weiter nicht primaer belegt.
+- NORM-BOOK-ALPHA-001 ergaenzt: 42 Entscheidungen, 40 resolved, zwei blocked.
+- Korrektur-/Erweiterungskandidaten mit Parameterzaehlung dokumentiert.
+- Nutzerprioritaet gesichert: zuerst Verstaendnis, danach neuere Gegenbelege.
+- Checkpoints c679891 und b99395e gepusht; Abschlusscommit-Nachricht
+  `Complete reviewed book diagnostics and understanding roadmap`.
+- Fortsetzung: eta-Konfigurationen und Mittelungs-/Korrelationsannahmen,
+  nach `UNDERSTANDING_ROADMAP.md`; kein Gesamtverstaendnis behauptet.
+
+## 2026-09-06 - Alpha-Audit abgeschlossen
+
+- 13 Tests erfolgreich; Mathematikreview akzeptiert, unabhaengige 1989-Zahl
+  als zusaetzliche Regression aufgenommen. Ergebnis-Snapshot reproduzierbar.
+- 1982/1989 ALPHA auf `audit_implemented` gesetzt; Quellstatus bleibt
+  `source_checked`. Keine komplette Massenimplementierung behauptet.
+- Zwei neue scoped Normalisierungen: Alpha-Audit und 1989-eta-Referenzkette.
+  Register: 41 Entscheidungen, davon 39 resolved und zwei blocked.
+- Fuenf Rundungspruefungen dokumentieren widerspruechliche gedruckte Angaben.
+- Frueheren Reproduktionsclaim zur 1982-Fitvariante korrigiert: nur Annaeherung.
+- Buchseiten 301-303 visuell geprueft: gleiches Paar in (105), zusaetzlicher
+  Y3-Faktor fuer die dortige Zahlenrechnung auf 1 gesetzt. Buchdatei gehasht.
+- Bericht, Model Card, Quellenreview, Mathematikreview und Wiedereinstieg
+  gepflegt. Checkpoints `f9eeeee` und `df02845` erfolgreich gepusht;
+  Abschlusscommit folgt mit Nachricht `Complete audited alpha findings and recovery handoff`.
+- Naechster Quellenblock: eta/A_k/Y3-Herleitung und Ausgaben-/Erratavergleich.
+
+## 2026-09-06 - Alpha-Audit, Implementierungscheckpoint
+
+- Auftrag fuer Plan, bedarfsgerechte Agenten und wiederholte Sicherung erhalten.
+- `ALPHA_AUDIT_PLAN.md` und `RESUME.md` mit Checkpoint `f9eeeee` gepusht.
+- Quellenreview (GPT-5.6 Terra) und mathematische Gegenpruefung (GPT-6 Astra)
+  getrennt beauftragt; Hauptagent integriert.
+- 1989-Indexkonvention ueber PDF-Seite 3 / IX auf `(q,k)` zurueckverfolgt.
+- Eigenen Decimal-Rechner, Eingabeprofil, Model Card und Ergebnis-JSON erstellt.
+- 12 Tests bestanden, inklusive 80/120-Stellen-Konvergenz; zwei PDF-Hashes passen.
+- Fuenf gedruckte Paar-/Kehrwertpruefungen zeigen Inkompatibilitaet auch mit
+  Halb-Letzte-Stelle-Intervallen. Das ist ein Befund zur IGW-Darstellung.
+- Unabhaengige Implementierungsreview und Ergebnisbericht noch in Arbeit.
+
 ## 2026-05-14
 
 - Projektordner `Heims_Theorie` angelegt.
@@ -125,3 +694,35 @@ Erster Befund: e, mu, p und n sind in mehreren Heim-nahen Tabellen vorhanden. Ta
   - Erhalten bleiben `M_ν = µα_+ (Φ + φ_0)`, die Zustandsliste `ν_1(1010)` bis `ν_5(2111)`, die barred Antistruktur `\bar{ν}_i` und die Trennung zwischen Heim-interner Neutrino-Interpretation und moderner Validierung.
 
 Naechster harter Schritt: Normalisierungsreview fuer die source-geprueften 1982/1989-Bloecke, bevor eine Implementierung begonnen wird.
+
+## 2026-05-18
+
+- Normalisierungsreview fortgesetzt; Agentenaufrufe waren durch Usage-Limit blockiert, daher lokaler Quellenabgleich plus Critic-Disziplin angewendet.
+- `NORM-1989-NEUTRINO-001` aufgeloest:
+  - Neue Entscheidung `NORM-1989-NEUTRINO-FIELD-MASS-BOUNDARY.md`.
+  - `M_nu` darf nur als Heim-interne Feldmasse modelliert werden.
+  - Moderne Neutrino-Vergleiche muessen in ein separates, datiertes und zitiertes Vergleichsprofil.
+- `NORM-1989-FPHI-001` aufgeloest:
+  - Neue Entscheidung `NORM-1989-FPHI-B49-SCOPE.md`.
+  - Wiederholung von `(B49)` auf `1989_erweiterte_massenformel/page-08.png` stuetzt die Denominator-Product-Lesart fuer `kappa(1-q)/(2 alpha vartheta)`.
+  - Der finale Stack `(Q over 3)` im B49-Tail wird ueber `NORM-STACKED-BINOMIAL` als `choose(Q,3)` normalisiert.
+  - Numerische Auswertung bleibt trotzdem blockiert, weil `BUW^{-1}_{N=0}` separat offen ist.
+- `NORM-1989-FPHI-003` nach Bildabgleich aktualisiert:
+  - `page-03.png` zeigt same-line `--`.
+  - `page-08.png` zeigt dieselbe Stelle als Zeilenumbruch mit Minus am Zeilenende und Minus am Zeilenanfang.
+  - Signwahl bleibt blockiert; single-minus und double-negative bleiben nur explizite Zukunftsvarianten.
+- `NORM-1989-FPHI-002` aufgeloest:
+  - Neue Entscheidung `NORM-1989-FPHI-BUW-PRODUCT-SCOPE.md`.
+  - Der kompakte B49-Cluster wird als `B_1989_B28 * U_B50 * reciprocal(W_N0_1989)` normalisiert.
+  - Belege: `W_N0` aus `(B22)`/`(B48)`, `U` aus `(B50)`, `B` aus `(B28)`, und die Hoch-/Tiefstellung haengt in den Bildern an `W`.
+  - Numerische Auswertung bleibt wegen B50-Signatur blockiert.
+- `NORM-1982-N-003` revalidiert:
+  - Quelle formuliert Gamma/Q_N selbst als offene Beziehung, kein OCR-Drift.
+  - Algorithmusnotiz stuetzt nur `Q = Q(0)` fuer die numerische Tuple-Bestimmung, nicht `Q_N = Q(N)`.
+  - Blocker bleibt P1 bis ein eigener Gamma-Worksheet erstellt ist.
+- Aktueller Entscheidungsstand nach diesem Schritt:
+  - P0 blocked: 1
+  - P0 resolved: 25
+  - P1 blocked: 1
+  - P1 resolved: 11
+  - P2 resolved: 1

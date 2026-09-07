@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "audit_date": "2026-09-06",
+  "normalization_id": "NORM-BOOK-PSEUDOSINGLET",
+  "source": {
+    "id": "H004",
+    "path": "01_sources/heim_primary/Burkhard Heim - 1996 - Elementarstrukuren der Materie 2.pdf",
+    "sha256": "F094F56EC81D22D17C21C93BA248705DD79100828B813C72682F6A6605593849"
+  },
+  "state": {"book_pattern": 3, "k": 1, "P": 1, "Q": 1, "kappa": 1, "C": 0, "epsilon": 1, "qx": -1, "q": 1, "N": 0},
+  "pure_numbers": {"pi": "mathematical", "e": "mathematical", "xi": "(1+sqrt(5))/2"},
+  "Y_values": {"Y3": 1, "Y9": 1},
+  "alpha_profiles": [
+    {"id": "book_eq105_y3_1", "rule": "small_positive_root_of_105"},
+    {"id": "book_printed_alpha_sensitivity", "rule": "printed_decimal_input", "alpha": "0.007297354572"}
+  ],
+  "eta_index_order": "q,k; eta=eta(1,0); A1:eta(1,1); A2:eta(1,2)",
+  "W_path": "108a_linear_and_109a_active_term; W=g*(1+eta11*A16); f(0)=0",
+  "structure_policy": "107/107a from unweighted 98e/323; 107b sigma beta4 separately; no merged state predicate",
+  "selection_policy": "340-342; ordinary TRC branch only; report other branches without inventing their implementation",
+  "comparison_or_fit_inputs": [],
+  "dimensional_constants": {},
+  "target_fitting": false,
+  "mass_evaluation": false
+}

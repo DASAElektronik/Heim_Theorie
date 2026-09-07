@@ -205,10 +205,12 @@ Original label: `(XXIV)` applies to the matrix coefficient proposal.
 - The direct multiline display of `(XVI)` has cramped brace layout near the source label. Use `(XVII)` to `(XIX)` as the safer source for the `w(1)`/`w(2)` decomposition.
 - The printed line break with `* *` in `a_n` is treated as multiplication in the source transcription.
 - The exponent `A34^(1-q_x)` is visually tight but visible on the scan.
+- `NORM-1982-SELECTION-VX-NUX-SCOPING` preserves this record's `nu_x` notation and forbids silent harmonization with the later page-8/page-9 `vx` family.
+- `NORM-1982-WVX-A-MATRIX-SLASH-BINDING` resolves compact A-matrix slash expressions for implementation by denominator-product binding while preserving this source-literal transcription.
 
 ## Risks
 
-- Slash binding in terms such as `A16`, `A24`, `A35`, `A46`, `A64`, and `A65` still needs a normalization decision.
+- Compact slash binding in `A16`, `A24`, `A35`, `A46`, `A64`, `A65`, and same-pattern A-matrix rows is resolved for implementation by `NORM-1982-WVX-A-MATRIX-SLASH-BINDING`; source-literal and left-associative variants remain audit/regression variants.
 - `k^P(1+P+Q+kappa eta^(2-q))` in `b_nu_x` is source transcription only; do not silently change it to `kP(1+P+Q+kappa eta^2-q)`.
-- `A_rs` matrix terms introduce many new symbols and should be cross-linked in the symbol register before implementation.
-
+- `eta_{qk}` uses the source alias normalized by `NORM-1982-ETA-INDEX`; implementation should call `eta_k_q(k,q)` with named arguments.
+- `A_rs` matrix terms and WVX symbol families are registered by `NORM-1982-WVX-SYMBOL-FAMILIES`; slash binding is governed by `NORM-1982-WVX-A-MATRIX-SLASH-BINDING`.

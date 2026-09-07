@@ -1,0 +1,134 @@
+# Zusammenhangskarte: Konfiguration, Ladung und Alpha
+
+Stand2026-09-06. Karte des bisher rekonstruierten Ausschnitts, keine
+vollstaendige Herleitungskarte der Heim-Theorie. Eine Verbindung kann
+quellenbelegt sein, ohne dass ihre physikalische Richtigkeit bewiesen ist.
+
+Die [Verstaendnisbilanz der Etappe 15](../../06_docs/UNDERSTANDING_BALANCE_2026-09-06.md)
+ordnet die Reichweite dieser Verbindungen und bereitet einen fassungsreinen
+N=0-Lehrfall vor. Die folgende Karte verbindet Quellenkontexte; identische
+Zeichen sind nicht automatisch fassungsuebergreifend dieselbe Groesse.
+Insbesondere ist kappa=k^2 im unten genannten Buchkontext nicht die
+Definition des Konfigurations-kappa in H006 (dort bei x2: k=1, kappa=0).
+
+## Durchgaengige Verbindungen
+
+Etappe 16 ergaenzt einen engen H006-Pfad: x2/e--Konfiguration -> w=1 ->
+W=g -> profilgepruefte K=(3,3,2,1) -> n=0 -> bedingte Massensumme.
+Die alte v/nu-Trennung ist quellenbelegt korrigiert. Dieser Weg verwendet
+(XXVI)/Druck9, nicht die abweichende (XIV)-Exponentialklammer.
+[Bericht und Grenzen](../../06_docs/N0_ELECTRON_2026-09-06.md).
+
+| Ausgangspunkt | Verbindung und Quellenanker | Ziel | Status |
+|---|---|---|---|
+| Elementares Ladungsfeld | I244/245: ganzes q>=0, Q=q*epsilon | eta_q | Definition/Quantisierungsannahme in der Quelle |
+| Metronische Strukturstufen | II263/264: positive ganze k, kappa=k^2 | Konfigurationszahl k | Quellenkonstruktion, noch nicht alle Grundlagen rekonstruiert |
+| k und Ladungsaenderung | II265: L*Delta=k, L=4 | epsilon_prime/epsilon | Ausdruecklicher moeglicher Ansatz, dann korrekte Algebra |
+| Interne Protosimplex-Skala | II266/267, (98) | eta_qk | Definierte Familie, q/k-Indexbruecke belegt |
+| Allgemeine Weltselektorgleichung | II98-100 (58)/(58a), explizite Anwendung II268 | K-Spur der C-Struktur | Quellenbruecke belegt; keine vier einzelnen F/G-Skalare daraus rekonstruiert |
+| (79), konstante skalare Parameter | II175-179; eigene E=1-Abbildung | grosse-r-Exponentialrate lambda-a | Rate und Rest kontrolliert; keine Validierung des metronischen Operators |
+| Gewaehlter Parameterzweig a>lambda>0 | II178/179 | exponentielles Abklingen | Im skalaren Abbild korrekt; nicht aus blossen Extremstellen ableitbar |
+| Exponentialprofil der C-Struktur | II269 | angenaeherte Summe F2-F1+G2-G1 | Bedingte Quellannahme; Einzeldefinitionen und Skalenbruecke offen |
+| eta_q, eta_qk | II268/269: V/Q, F/G-Zuordnung | Auswahl(98a) | Spekulative Zuordnung plus lokaler Umformungskonflikt |
+| Gedruckte eta-Schranke B_q | II269: k<u_q | vier berechnete positive Paare | Bedingte Algebra und Zahlentest, u_2-Druckbereich nicht bestaetigt |
+| Buch-Grundmuster Quartett12 | II287-291 (100a)-(101b): abs(q_x)=q, (2330), +2, Delta++ und ausdruecklicher(98a)-Rueckverweis | Konkrete Buchbelegung q2/k2 | Positive Binnenbuchbruecke; besteht vorgelagerte Positivitaet, aber nicht woertliche B-Schranke |
+| Buch-Invarianten k bzw.B | II291: k=B+1; II372/PDF377: Delta++ (1330) und separate M(N=0)-Tabelle | Grundmuster-/N0-Kontext | B1 bedeutet k2; separates Massentupel(2,1,5,1) ist kein eta-Index |
+| Empirische Elektron-/Proton-Zuordnung | II263/264 und295/296 | (q,k)=(1,1),(1,2) | Quellenbelegt, induktiv/heuristisch begruendet |
+| Diese beiden Paare | II299-302: eta_11,eta_12 -> A_1,A_2 | Buch-Alpha(105) | Konkrete Verwendung belegt; beide bestehen B-Auswahl |
+| Korrelation/Welle/Arbeitsbilanz | II299-302, bisherige Etappen | Vollstaendige physikalische Alpha-Herleitung | Mehrere getrennte offene Begruendungen |
+| Undatiertes Autorentyposkript H013 | (7a), q=abs(q_l), TabelleI Delta-Zeile k2/epsilon*q_l2 | eta22 als konkreter tabellierter (2,2)-Familienwert | Definition und Tabellenbelegung belegt, keine physikalische Validierung |
+| eta22-Konstantentabellen H013/H014 | AnhangB Druck54 bzw.41 | eta22=0,84242385 | Direkte Tabellenreproduktion, Fassungsdatierung offen |
+| eta22 in H007 | B47 Existenzzeit, B55 b2, B59 C_prime | Wiederholt verwendete Formelkonstante | Kein Beleg, dass der Delta-Zustand die Alpha-Korrektur verursacht |
+| H013 Lebensdauer(21)/(21f) | Druck29-31/PDF32-34 | Direkter Autorenanschluss zu B47/B55 | Globaler inverser Faktor und lokaler q(2-q)-Term getrennt; keine besondere eta22-Deduktion |
+| B55-Hilfsterm | b2 -> y(B48) -> T(B47) | Lebensdauer, nicht direkte eigenstaendige Massenkorrektur | Lokaler eta22-Koeffizient bei q0/q2 null; gesamte b2-Klammer noch nicht eindeutig normalisiert |
+| H013 Existenzzeitanalyse | (21b)/(21b1): phi/U, phi zuvor in(5e) | Selbstkopplungsanteil der Massenformel | Etappe13: explizites Schema, teilweise empirische Konstantenwahl; unabhaengige Dynamikherleitung nicht gezeigt |
+| H007 B50/B49 | U -> phi -> F_mass(B5) -> M(B3) und phi -> y(B48) -> T(B47) | Gemeinsamer Eingabepfad fuer Masse und Zeit | Kein lokal erzwungener Ausgabe-Kreis; F_mass/F_time und y_W/y_time getrennt, globale Zustandsauswahl nicht geprueft |
+| Fragliches U-Vorzeichen | Variantendifferenz proportional(k-1)(P-Q)(1-q) | Unterschied von U und bedingt phi/M/T | Delta-Kontext P=Q unterscheidet Lesarten nicht; kein Vorzeichenfit oder stilles Erratum |
+| H013/H007-Massenanschluss | (4)/(5c) gegen B3/B5: Alpha-Klammer und N1-Faktor verschieden | Fassungsgetrennte Massenrechnung | Lokale Grenze belegt, keine Gesamtformel fusioniert |
+| H004 stationaere Massenrechnung | II3/347/348/365: (114), Z(N) undq_x(N) unbekannt | Spin-/Ladungsverlauf und allgemeine Bandbreiten | Etappe14: ausdrueckliche Reichweitengrenze, keine Gamma-Zeit-Dynamik |
+| H006 Q(0)-Enumeration | PDF8/9: Gamma/Q_N gefragt, Grundspin als Recheninput | Numerische Besetzungskandidaten | Enger Inputscope; kein Beweis Q_N=Q0 |
+| H007/H013 z=0 | B37/(14c) plus Schluss: unbekannte ganzzahlige Spinverschiebung | Approximate N>0-Massen | Paritaet bestimmt, z nicht; N>0 bleibt angeregt, T_N unbekannt |
+| H013(14d) mit Ergaenzung20a | Positive Massendifferenz nur fuer stufenweise Anregung | NormalesN versus unterstrichenesN | Quellenpraezisierung, keine vollstaendige Uebergangsrate oder Nichtexistenzregel |
+| H013(14e)/21a | K_B als Anzahl, Subrasterabstand laut Quelle9.28718keV | Externfeldanregungen beiK_B>0 | Energieabstand angegeben, aber nicht mit vollerGamma-Breite identifiziert |
+| H01336/37-Tabellenwahl | Passende Massenterme aus groesserer Kandidatenmenge ausgewaehlt | ResonanztafelnIV-Vb | Quellenangabe zur Auswahl, kein vollstaendiger Blindvergleich oder eigener statistischer Befund |
+| H014 Alpha-Internkorrektur | Druck26/PDF28 (21a): Nenner eta11^2 | Andere K_alpha-Fassung als H007B59 | Gemeinsames eta22 macht Formel nicht identisch; Chronologie offen |
+| H013 Alpha-Internkorrektur | Druck33/PDF36 (22a): zusaetzlicher Faktor3/(pi*eta) gegenueber H007 | Dritte K_alpha-Fassung | Quellen- und lokale Zahlenvergleiche, keine neuen Alpha-Zweigprofile |
+| Freies gegen gebundenes Elektron | H013 Druck11/PDF12 und H011/1981 | Motiv einer Strukturkorrektur | Autorenmotiv belegt, spezielle Form C_prime nicht hergeleitet |
+| eta_22 im1989-Rechenprofil | Andere Formelversion und Korrektur C_prime |1989-Alpha | Wert/Algebra reproduziert; Buch(98a)-Anwendbarkeit und spezielle Begruendung offen |
+
+Das ist kein linearer Beweis, dass aus k oder q alleine Alpha folgt.
+Gerade die verschiedenen Eingangsvoraussetzungen muessen erhalten bleiben.
+Die Kurzform k_max=2,q_max=3 ist auch kein kartesisches Produkt aller Paare.
+
+## Offene Verbindungen und konkrete Anlaesse fuer eine erneute Pruefung
+
+| Frage | Gegenwaertiger Stand | Was den Befund erweitern oder aendern koennte |
+|---|---|---|
+| Warum L*Delta=k? | Moeglicher Ansatz aufII265 | Unabhaengige Gleichung, Randbedingung oder expliziter Rueckverweis mit dieser Identifikation |
+| Warum F_i=V_i und G_i=Q_i? | Etappe9: (58)/(58a) und (79)/(79a) geprueft; keine separate F/G-Definition oder Normierung gefunden, II269 bleibt spekulativ | Explizite Zerlegung der Spur in genau diese vier Beitraege mit Einheiten/Normierung; alternative Ausgabe oder Manuskript mit dieser Bruecke |
+| Warum muss a>lambda gelten? | Skalares Abklingen genau dann; positive Extremstellen allein reichen nicht, exaktes Gegenbeispiel dokumentiert | Zusaetzliche metronische Eigenwert-/Randregel oder belegter Uebergang ins skalare Problem; H(infinity)=0 nicht still voraussetzen |
+| E+u^2 versus E-u^2 | II176/178 unterschiedlich gedruckt; im skalaren Abbild ist Plus konsistent | Explizite metronische Bedeutung, autorisiertes Erratum oder andere belegte Ausgabe; keine stille Korrektur |
+| Absolute Feldamplitude | (79) und II178-Naeherung haben im skalaren Abbild verschiedene konstante Vorfaktoren, gleiche Rate | Explizite Amplitudennormierung; bei freiem A kein eigener Fehlerbefund |
+| Richtungen und B/D-Unterschied | Unter den gedruckten Definitionen lokal unvereinbar | Belegte Konventionsaenderung, andere Ausgabe oder autorisiertes Erratum |
+| u_2-Druckbereich und Delta++ | Gedruckte Funktion ergibt1.963489..., nicht2..3; (101a/b) nimmt (2,2) im selben Buch ausdruecklich auf | Belegbar andere beabsichtigte Funktion, Erratum oder historische Rechenunterlagen; nicht durch Alpha-Zielwerte waehlen |
+| Vollstaendige Auswahl aller Zustaende | Einzelne B-Bedingung liefert vier Paare | Alle weiteren Zustandsbedingungen mit denselben Bedeutungen und derselben Version |
+|1989 eta_22 und H013-Zustand | Etappe12 verbindet B47/B55 direkt mit H013(21)/(21f), trennt Rollen und H014-Alpha-Nenner; S00561 benennt fehlende C_prime-Entwicklung | Nur bei konkreter Dynamik-/Normierungsbruecke erneut B59-Begruendung pruefen; keine reine Indexsuche |
+| H013 Delta-Zeile gegen Buchauswahl | N0-Belegung konkret; Etappe11 findet direkte H004-Delta++-Kette, der Buchbefund benoetigt H013 nicht mehr | Historische Fassungsfolge weiter offen; keine Wiederholung derselben Indexsuche, spezielle Dynamik statt blosser Glyphengleichheit pruefen |
+| H-Welle und Flussaggregat | Bedingte w_f=c-Bruecke vorhanden | Explizite Objekt-, Phasen- und Bezugssystemzuordnung; dann alte Wellendiagnosen erneut pruefen |
+| C und Y3 | C=P und Y3=1 mit P=A1*A2 berechenbar, nicht vollstaendig unabhaengig begruendet | Neue Normierungs-/Randbedingung mit Bezug auf dasselbe C, nicht auf ein gleichnamiges Symbol |
+| pc als Arbeitsanteil | Wiederholt verwendet, operative Zuordnung offen | Explizite Arbeits-/Messvorschrift im H-Modell |
+| B50-Vorzeichen | Etappe13 findet auch in H013 zwei Minusglyphen am Umbruch; Fortsetzungslesart plausibel, aber kein belegtes H007-Erratum | Neue Editions-/Rechenunterlagen; nicht erneut gleiche Bilder oder nach Zahlentreffern entscheiden |
+| Phi-Dynamik/Kalibrierung | Explizites Formelschema und Fitvorbehalt in H01337, keine gezeigten dynamischen Zwischenschritte | Herleitung desselben Ausdrucks bzw. nachvollziehbare Datenauswahl und Anpassungsprotokoll |
+| Historischer Gamma/Q_N-Blocker | Etappe14: H004/H006 fragen offen, H007/H013z=0 nurNaeherung, H014z ebenfallsunbekannt | Neue konkreteFunktions-/Dynamikbruecke oder begruendetesFehlerverfahren; keine erneute gleicheVollseitensuche |
+
+Die Karte legt fest, wann eine alte Frage erneut aufgerufen wird. Sie soll
+neue Zusammenhaenge sichtbar machen und zugleich verhindern, dass wir
+dieselbe abgeschlossene Indexsuche oder ungegruendete Variantenrechnung
+immer wieder beginnen. Nicht alle offenen Fragen muessen Fehler sein.
+
+Etappe9: `06_docs/EXPONENTIAL_CONTEXT_2026-09-06.md`. Der Vorzeichenknoten
+FIND-015 wird durch die jetzt geprueften Rueckverweise nicht aufgeloest;
+der Exponentenkoeffizient wird im skalaren Abbild bedingt reproduziert.
+Unser Extremumsgegenbeispiel
+gilt nur fuer die ausdruecklich skalare Abbildung, nicht ungeprueft fuer
+die metronische Theorie.
+
+Etappe10: ETA22_CONTEXT_2026-09-06.md schliesst Definition, Tabellenwert
+und den konkreten H013-Zustandsanschluss. Drei Reviews, unveraenderte
+acht Rechner/Snapshots und98 Tests. Die neue Zustandsbelegung praezisiert
+die fruehe reine H007-Offenheitsbilanz; sie schliesst B59 nicht.
+Der damals geplante H013-Delta/Buchanschluss ist in Etappe11 bearbeitet.
+
+Etappe11: DELTA_SELECTION_2026-09-06.md bestaetigt einen direkten
+Binnenbuchanschluss ueber(100a)-(101b) und den N0-Anhang. Das Paar(2,2)
+liegt zwischen B und D; vorgelagerte Positivitaet erfuellt, gedruckte
+V/Q- und B-Zeilen nicht. Behauptetes u2-Intervall und Maxima bleiben
+getrennt. FIND-016/FIND-019 erweitert, keine neue unabh. Fehlergruppe.
+H006-Grundzustandsfrage, H007-Resonanznaeherung und S006-N0/N>0 getrennt.
+Der angekuendigte Rollenanschluss ist in Etappe12 bearbeitet.
+
+Etappe12: ETA22_ROLES_2026-09-06.md. B47 gemeinsamer inverser eta22-Faktor,
+B55 lokaler Koeffizient mit q(2-q), B59 affine Korrektur. Direkte H013-
+Lebensdauerformeln gefunden; H014 anderer Umfang/Alpha-Nenner. H01337
+verwendet q2 fuer Delta-Resonanzen auch im Text, ueber die alte reine
+Va-Tabellenlesung hinaus. Keine Gesamtvalidierung der Resonanzen.
+FIND-021 Rollen, FIND-022 Fassungsunterschiede:22 Gruppen, keine22 Fehler.
+Der angekuendigte phi/U-Anschluss ist in Etappe13 bearbeitet.
+
+Etappe13: PHI_U_BRIDGE_2026-09-06.md. H013 fuehrt den fruehen phi-Platz
+bis zum expliziten Lebensdauerausdruck; kein M/T-Rueckloesen benoetigt,
+aber Konstantenwahl laut Autor teilweise empirisch. Autorenabsicht spaeterer
+Rueckkorrekturen belegt, deren Durchfuehrung nicht. B50 bleibtblocked;
+Delta-Kontext U=3840/eta22^2 ist vorzeichenunabhaengig. FIND-023 bedingte
+Bruecke, FIND-024 lokale Massen-Fassungsgrenzen:24 Gruppen, keine24 Fehler.
+Naechster konkreter Anschluss: Gamma/Q_N und Anregungs-/Auswahlgrenze,
+dann Verstaendnisbilanz; keine wiederholte B49-/BUW-/2^Z-Suche.
+
+Etappe14: GAMMA_QN_2026-09-06.md. Quellenparametrisierung und deklarierte
+Naeherung schliessen Gamma/Q_N nicht; F(Gamma)=0 ist keine Gamma-Zahl.
+Anregungsfunktion, Massenfolge und Anregungsweg getrennt; H013/H014-
+Ergaenzung verhindert globalen Nichtexistenzschluss aus(14d). K_B-
+Energieabstand vorhanden, aber keine volleBreiten-/Zeitbruecke.
+FIND-025 offeneBestimmung, FIND-026 Quellenregel/Tabellenauswahl:
+26 Befundgruppen, keine26 Fehler. NaechsteEtappe Verstaendnisbilanz,
+noch keine breite moderne Widerlegungssuche oder ganze Massenrechnung.
