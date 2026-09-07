@@ -1,8 +1,8 @@
 # TODO
 
-## Aktueller Einstieg (2026-09-06)
+## Aktueller Einstieg (2026-09-07)
 
-Massgeblich ist Etappe 35 in `RESUME.md`; die aeltere Detailhistorie folgt darunter.
+Massgeblich ist Etappe 36 in `RESUME.md`; die aeltere Detailhistorie folgt darunter.
 
 - [x] Einen H006-N0-Elektronfall getrennt gegen spaetere H010-Programme rechnen.
 - [x] Alpha3-Formeln, Alpha-/Konstanteneingaben und Rundung einzeln dokumentieren.
@@ -37,9 +37,15 @@ Massgeblich ist Etappe 35 in `RESUME.md`; die aeltere Detailhistorie folgt darun
   vertraglich fixieren und alle vier Zellen auswerten: Externterm UND g/W
   gemeinsam, paarweise feste Eingaben, frische Bereiche. `1/5` erreicht
   die Sattigungsgrenze; keine erfundene N4-Ausgabe. FIND-045,331Tests.
-- [ ] Gedruckte Buch-Sattigungsregel auf den im z3-Profil erreichten
-  `raw_N4>alpha3*N3`-Zweig anwenden und den Gleichungserhalt separat
-  pruefen; kein freies A-/Y-/Restfit, keine Masse.
+- [x] Gedruckte Buch-Sattigungsregel auf den z3-Zweig anwenden:
+  `N=(14,10,1,0)`, direkte107a-Gates bestanden, separate107b-Groesse
+  positiv; Gleichungsrest bleibt etwa0.943249. Negative kleine `n_j`
+  definitionsgemaess nicht pauschal verboten. FIND-046,342Tests und alle
+  alten Ergebnis-/Zertifikatschecks bestanden.
+- [ ] Im unmittelbaren Quellenumfeld von (108) dessen Exaktheitsanspruch
+  gegenueber der diskreten Ganzzahlauswahl klaeren: Gibt es eine begruendete
+  Projektions-/Restregel? Keine neue A-Suche, keine Wiederholung des
+  allgemeinen (79)-Fehlerproblems und keine Autorenabsicht unterstellen.
 - [ ] Echte (79)-Fehlerfortpflanzung nur bei neuer r-/nu-/N4-, Parameter- und Normierungsbruecke aufnehmen; keine erfundene physikalische Fehlerschranke.
 - [ ] Nur bei neuem Beleg: genaue H006-Vorlage/Uebertragungskette oder autorisiertes Erratum klaeren; keine stillen Profilkorrekturen.
 

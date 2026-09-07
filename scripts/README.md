@@ -1,5 +1,26 @@
 # Skripte
 
+## Etappe 36: Buch-Sattigung als begrenzte Diagnose
+
+```powershell
+py -3.13 -B scripts/audit_saturation.py --check --verify-sources
+py -3.13 -B -m unittest discover -s tests -p test_saturation.py -v
+```
+
+Bindet die vier unveraenderten Etappe-35-Zellen. Fuer den z3-Zweig wird
+nur die auf H004 Druck341 dokumentierte Kappenregel angewendet. Der Rechner
+behandelt `TRC(cap)=0` und die moegliche Promotion auf1 getrennt; beide
+ergeben nach der bedingten Korrektur `N4=0`. Kein allgemeiner TRC-Solver,
+keine erfundene Messbarkeitsschwelle oder Transferfortsetzung.
+
+Ausgabe z3: `N=(14,10,1,0)`, `n=(11,7,-1,-1)`, direkte Bandbreiten
+`(2359,99,1)`, separate Sigma-Groesse `alpha3>0`. Der positive Rest wird
+aus direkter Gleichung und Externrest gegengeprueft und nicht als
+Massenfehler interpretiert. Baseline-Zellen bleiben Kontrollreproduktionen.
+11 neue Tests,342 insgesamt; alte12 Ergebnischecks, vier Zertifikate,
+Quellenhash und Registervalidator bestanden. Keine neue Empirie oder
+Parameterwahl. Bericht: `06_docs/SATURATION_2026-09-07.md`.
+
 ## Etappe 35: gebundene beidseitige A-Sensitivitaet
 
 ```powershell

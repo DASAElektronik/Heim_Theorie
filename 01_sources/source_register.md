@@ -1,10 +1,18 @@
 # Quellenregister
 
-Stand: 2026-09-06 (Grundinventar: 2026-05-14).
+Stand: 2026-09-07 (Grundinventar: 2026-05-14).
 
 Dieses Register sammelt Fundstellen. Lokale Kopien sollten nur abgelegt werden, wenn die Quelle oeffentlich zugaenglich ist und der Zweck Forschung/Archivierung ist. Bei urheberrechtlich unklaren Quellen reicht ein Link plus Exzerptnotiz.
 
-## Enger Pruefstand 2026-09-06
+## Enger Pruefstand 2026-09-07
+
+Etappe 36: H004 Druck 321-323, 328-330, 340-342 von Root erneut
+vollseitig visuell gelesen. Saettigung/TRC samt bedingtem Minus 1,
+direkte107a- und gewichtete107b-Groesse sowie erlaubte negative n_j
+getrennt. Eigene Anwendung auf den festen z3-Gegenprobefall: N4=0,
+lokale Gates bestanden, exakte Restgleichung nicht. Keine neue Quelle,
+Masse oder Gesamtwiderlegung; H004-Hash erhalten. FIND-046 ist eigene
+Anschlussdiagnose. Umfang: `03_notes/SATURATION_SOURCES_2026-09-07.md`.
 
 Etappe 35: keine neue Originalseitenlektuere oder Quelle. Eigener vorab
 fixierter Vier-Zellen-Vergleich A(k=1)=1/3 versus 1/5 auf Grundlage der

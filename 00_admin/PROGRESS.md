@@ -1,5 +1,30 @@
 # Fortschritt
 
+## 2026-09-07 - Sechsunddreissigste Etappe: Buch-Sattigung im z3-Zweig
+
+- Vier feste Etappe-35-Zellen; Baselines unveraendert, z3 nur mit der auf
+  Druck341 dokumentierten Sattigungsregel fortgesetzt. Kein Parameterfit.
+- Bei `cap=alpha3~=0.97866` ergeben Abschneiden auf0 und moegliche
+  Neuner-Promotion auf1 mit bedingtem Abzug beide `N4=0`. Allgemeines
+  Lemma fuer die zusammengesetzte Regel; kein pauschales `ceil(cap)-1`.
+- z3-Tupel `N=(14,10,1,0)`, `n=(11,7,-1,-1)`. Druck322/328 erlauben
+  negative `n_j` innerhalb `n_j>=-Q_j`; daraus keine vollstaendige
+  physikalische Zulassung abgeleitet.
+- Direkte107a-Bandbreiten `(2359,99,1)` bestanden; separate107b-Groesse
+  `alpha3>0`, trotz `alpha3<1`. Integer- und gewichtete Bedingung getrennt.
+- Gleichungsrest bleibt primaer `0.943249254966522970`, Druckalpha
+  `0.943249258949052267`. Sattigung schliesst die feste Gleichung nicht;
+  kein Massenfehler oder neue Gesamtwiderlegung daraus gemacht.
+- Root-Vollsicht Druck321--323,328--330,340--342; keine neue Empirie.
+  `audit_saturation.py`,11neueTests/342gesamt; alte12 Ergebnischecks,
+  vier Zertifikate, Quellenhash und Registervalidator bestanden. Unabhaengig
+  42 Numerikfelder und14 rationale Rest-/Sigma-Huellen gegengeprueft.
+  FIND-046:46 Befundgruppen,nicht46 Fehler, kein neuer unabhaengiger Fehler.
+- Bericht `06_docs/SATURATION_2026-09-07.md`, Scope
+  `03_notes/SATURATION_SOURCES_2026-09-07.md`, Plancheckpoint `fa25c42`.
+  Weiter: Quellenstatus (108)-Gleichheit versus diskrete Projektion/Restregel,
+  ohne neue A-Suche oder Wiederholung der allgemeinen79-Luecke.
+
 ## 2026-09-06 - Fuenfunddreissigste Etappe: beidseitige A-Sensitivitaet
 
 - Vier Zellen vor Rechnung gebunden: beide alten Buch-Alpha-Profile mal

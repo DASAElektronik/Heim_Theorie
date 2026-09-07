@@ -40,25 +40,36 @@ Kann aus Heims Original- bzw. nahen Quellen eine reproduzierbare, parameterarme 
 
 ## Aktueller Arbeitsmodus
 
-Stand 2026-09-06, Etappe 35:
-[A-Sensitivitaet](06_docs/DECAY_SENSITIVITY_2026-09-06.md).
-Vier vorab festgelegte Zellen vergleichen Heims heuristische Buchwahl
-`A(k=1)=1/3` mit der eigenen z3-Sensitivitaet `A(k=1)=1/5`, jeweils fuer
-beide alten Buch-Alpha-Profile. Externterm und Geruestreferenz `g/W`
-werden gemeinsam geaendert; alle uebrigen Groessen bleiben innerhalb des
-jeweiligen Alpha-Profils fest.
+Stand 2026-09-07, Etappe 36:
+[Sattigungsregel](06_docs/SATURATION_2026-09-07.md).
+Die vier Etappe-35-Zellen bleiben unveraendert. Im eigenen z3-Profil fuehrt
+die gedruckte Kappenregel das Praefix `(14,10,1)` robust zu `N4=0`: Sowohl
+Abschneiden `TRC(cap)=0` als auch eine moegliche Neuner-Promotion auf1 mit
+anschliessendem Abzug ergeben dieselbe Ausgabe.
 
-Bei `1/3` bleibt die ordinary-floor-Ausgabe `(14,9,13,7)` mit direkter
-Bandbreite `(2459,-10,6)`. Bei `1/5` erreicht die Vorwaertsauswahl
-`(N1,N2,N3)=(14,10,1)`, aber der reelle vierte Wert liegt oberhalb der
-Strukturkappe: Sattigungsgrenze, keine erfundene `N4`-Ausgabe. Eine frische
-endliche Suche findet in keiner der vier Zellen eine exakte Loesung mit
-den direkten nichtkollabierten Gates; die enge vorab deklarierte und die
-volle reelle `0<=N4<N3`-Diagnose werden getrennt berichtet. Keine Masse,
-kein A-/Y-/Restfit und keine neue Heim-Fassung. 15 neue Tests,331 insgesamt;
-45 Befundgruppen, nicht45 Fehler. Weiter: die gedruckte Buch-Sattigungsregel
-im erreichten z3-Zweig anwenden und ihren Gleichungserhalt separat pruefen.
+Das volle Tupel `(14,10,1,0)` besteht die direkten ungewichteten Bandbreiten
+`(2359,99,1)`; die separate gewichtete Sigma-Groesse liegt mit
+`alpha3~=0.97866` strikt ueber null. Die feste Gleichung wird durch die
+diskrete Sattigung trotzdem nicht exakt erhalten: Rest in beiden
+Alpha-Profilen etwa `0.943249`. `n=(11,7,-1,-1)` ist nach den
+gedruckten Untergrenzen nicht allein wegen negativer kleiner `n_j`
+verboten, damit aber noch nicht physikalisch realisiert. Keine Masse,
+Empirie oder Parameterwahl. 11 neue Tests,342 insgesamt; alle alten
+Ergebnischecks, vier Zertifikate, Quellenhash und Registercheck bestanden.
+FIND-046 ist eine Anschlussdiagnose, 46 Gruppen sind nicht46 Fehler.
+Weiter: Quellenstatus von (108) als exakte Gleichung gegenueber diskreter
+Auswahl/Projektion und eine etwaige begruendete Restregel gezielt klaeren.
 [Wiedereinstieg](00_admin/RESUME.md), [Arbeitsfolge](00_admin/UNDERSTANDING_ROADMAP.md).
+
+## Verlauf: Etappe 35
+
+[A-Sensitivitaet](06_docs/DECAY_SENSITIVITY_2026-09-06.md): Vier vorab
+festgelegte Zellen vergleichen `A(k=1)=1/3` mit der eigenen
+z3-Sensitivitaet `1/5`; Externterm und g/W werden gemeinsam geaendert.
+`1/5` erreicht die Sattigungsgrenze, ohne erfundene Fortsetzung. Frische
+Integer-/Realpruefungen finden keine exakte Loesung mit direkten
+nichtkollabierten Gates. 331Tests,45 Befundgruppen; keine Masse oder
+neue Heim-Fassung.
 
 ## Verlauf: Etappe 34
 

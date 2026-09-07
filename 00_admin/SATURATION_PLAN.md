@@ -33,8 +33,43 @@ erstellt einen neuen, hashgebundenen Diagnoseaufsatz samt Tests.
 book_derivation prüft Originalregel und Definitionsgrenzen;
 alpha_versions prüft die TRC-/Domänenalgebra;
 data_audit rechnet nach Sicherung des Vertrags unabhängig nach.
-Agenten schreiben jeweils nur neue SATURATION_*_REVIEW-Dateien.
+Die urspruengliche numerische Arbeitsteilung beschraenkte Agenten jeweils
+auf neue `SATURATION_*_REVIEW`-Dateien. Der spaeter ausdruecklich delegierte
+administrative Abschluss aktualisiert zusaetzlich die benannten
+Navigationsdateien.
 
 Neue Ergebnisse: `06_docs/SATURATION_2026-09-07.md` und eigener
 Quellenumfang; Registereintrag als Anschlussdiagnose, kein neuer
 unabhängiger Theoriefehler. Danach Regression und Git-Sicherung.
+
+## Abschlussstatus
+
+Der vorab gesicherte Vertrag wurde ohne Aenderung der vier Zellen
+ausgewertet:
+
+- Baseline-Kontrollen reproduzieren den Etappe-35-Stand.
+- Beide z3-Zellen liefern unter der Buchkappe
+  `N=(14,10,1,0)` und `n=(11,7,-1,-1)`.
+- `TRC(cap)=0` und eine moegliche Promotion `TRC(cap)=1` ergeben wegen der
+  bedingten `>cap`-Korrektur beide `N4=0`. Kein allgemeines TRC oder
+  Messbarkeitsepsilon wurde erfunden.
+- Direkte Bandbreiten `(2359,99,1)` erfuellen107a; die separate gewichtete
+  Sigma-Groesse ist `alpha3~=0.97866>0`. `107a>=1` und `107b>0` bleiben
+  verschiedene Bedingungen.
+- Die festen Reste sind `0.943249254966522970` und
+  `0.943249258949052267`; die Sattigung wird nicht als exakte Restloesung
+  ausgegeben.
+- Druck322 und328 erlauben negative `n_j` bis `-Q_j`. Das aktuelle `n`
+  verletzt diese Untergrenze nicht, ist dadurch aber nicht pauschal als
+  physikalisch realisiert bewiesen.
+- 11 neue Tests,342 insgesamt; alte12 Ergebnischecks, vier Zertifikate,
+  Sattigungs-/Quellencheck und Registervalidator bestanden. Roots
+  unabhaengige Gegenrechnung bestand42 Numerikfelder und14 rationale
+  Rest-/Sigma-Huellen. FIND-046 ist eine eigene Anschlussdiagnose und kein
+  neuer unabhaengiger Fehler;46 Gruppen sind nicht46 Fehler.
+
+Naechster begrenzter Auftrag: Im direkten Quellenumfeld den Status von
+(108) als Gleichheit gegenueber der diskreten Auswahl klaeren und nach
+einer begruendeten Projektions-/Restregel suchen. Keine neue A-Suche,
+keine Wiederholung des allgemeinen (79)-Fehlerproblems und keine
+Autorenabsicht ohne Beleg.

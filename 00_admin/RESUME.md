@@ -2,12 +2,43 @@
 
 Aktualisiert: 2026-09-07.
 
-## Aktuell: Etappe 36 begonnen
+## Aktuell: Etappe 36 abgeschlossen
 
-Ausgang `efb812d`; Vorvertrag `SATURATION_PLAN.md` und
-`saturation_inputs.json`. Feste vier Etappe-35-Zellen: Buch-Sättigungsregel
-auf den erreichten z3-Zweig anwenden, TRC-Ausnahme und direkte/gewichtete
-Gates trennen, Restgleichung prüfen. Keine Masse oder Parameterwahl.
+Ausgang `efb812d`, Plancheckpoint `fa25c42`, Vertrag
+`SATURATION_PLAN.md`. Bericht `06_docs/SATURATION_2026-09-07.md`, Scope
+`03_notes/SATURATION_SOURCES_2026-09-07.md`.
+
+- Vier Etappe-35-Zellen unveraendert. Die beiden Baselines reproduzieren
+  den alten Stand; die beiden z3-Zellen werden nur mit der gedruckten
+  Sattigungs-/Kappenregel fortgesetzt. Keine neue A-/Y-/g-/w-Wahl.
+- Im z3-Zweig bleibt `(N1,N2,N3)=(14,10,1)` und
+  `cap=alpha3*N3~=0.97866`. `TRC(cap)=0` durch Abschneiden ergibt `N4=0`;
+  auch eine moegliche Promotion auf1 aktiviert den bedingten Abzug und
+  ergibt `N4=0`. Keine Messbarkeitsschwelle erfunden.
+- Das volle Tupel ist `N=(14,10,1,0)`, damit
+  `n=N-Q=(11,7,-1,-1)`. Root pruefte H004 Druck322/328 erneut vollseitig:
+  negative `n_j` sind bei `N_j>=0` bis `-Q_j` zugelassen. Das ist kein
+  pauschaler Beleg physikalischer Realisierung.
+- Direkte ungewichtete Bandbreiten `(2359,99,1)` bestehen107a. Die zweite
+  Reihenfolge hat Randmargen `(2644,99,0)`. Die getrennte gewichtete
+  Sigma-Groesse ist `alpha3` und in beiden Profilen strikt positiv, aber
+  kleiner1; (107b)>0 wird nicht mit107a>=1 vermischt.
+- Die feste Gleichung bleibt unerfuellt: Rest primaer
+  `0.943249254966522970`, Druckalpha `0.943249258949052267`. Die Kappenregel
+  ist eine diskrete Auswahl, keine exakte Umkehrung von `W4`.
+- Root las Druck321--323,328--330,340--342 vollstaendig; keine neue Empirie.
+  11 neue Tests,342 insgesamt; alle12 alten Ergebnischecks, vier Zertifikate,
+  neuer Sattigungs-/H004-Quellencheck und Registervalidator bestanden.
+  Roots unabhaengige Numerikkontrolle bestand42 Felder und14 rationale
+  Rest-/Sigma-Huellen. FIND-046 ist ein Anschluss an alte Befunde,
+  46 Gruppen sind nicht46 Fehler; kein neuer unabhaengiger Theoriefehler.
+
+Naechster Einzelauftrag: **Status von (108) gegenueber diskreter Auswahl.**
+Im unmittelbaren Quellenumfeld gezielt pruefen, ob (108) als exakte
+Gleichheit nach Ganzzahlprojektion gelten soll oder eine begruendete
+Projektions-/Restregel angegeben wird. Keine erneute A-Suche, keine
+Wiederholung des allgemeinen (79)-Fehlerproblems und keine Behauptung ueber
+fehlende Autorenabsichten.
 
 ## Verlauf: Etappe 35 abgeschlossen
 

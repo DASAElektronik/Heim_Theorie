@@ -1,6 +1,6 @@
 # Verstaendnis vor externer Bewertung
 
-Stand: 2026-09-06. Ausdrueckliche Nutzerreihenfolge: erst die Theorie verstehen,
+Stand: 2026-09-07. Ausdrueckliche Nutzerreihenfolge: erst die Theorie verstehen,
 danach neuere Arbeiten auf Widerlegung und moegliche neue Ansaetze pruefen.
 Das laufende Projekt beginnt bei Alpha/Massenformel; daraus darf kein bereits
 vollstaendiges Verstaendnis der Gesamttheorie abgeleitet werden.
@@ -12,7 +12,7 @@ vollstaendiges Verstaendnis der Gesamttheorie abgeleitet werden.
 | Quellen und Versionen | Original, spaetere Abschrift, Erweiterung, offene Herkunft | Etappen18/23: lokale Buch-/Listing-/Typoskriptbruecken belegt; keine gemeinsame vollstaendige 1982-Fassung, Ueberlieferung teilweise offen |
 | Alpha-Grundkette | eta, vartheta, A_k, Ladungsmittelung, Korrelation, Y3 und Zweige | Buchindizes/Mittelung rekonstruiert; Energie/Wellenkontexte getrennt, Kinematik und physikalische Schliessung offen |
 | Grundbegriffe | Heim-eigene Raum-/Strukturbegriffe, metronische Operationen, messbare Zuordnung | M2/M2a-Endpunkte und M7-Ausdruck lokal rekonstruiert; gemeinsames Operatorgitter, reale Potentialpfade und Gesamtgrundlagen offen |
-| Massenformel | Einheiten, Konstanten, Quantenzahlen, Auswahlregeln, ein vollstaendiger Rechenfall | Enger Elektron-N0-Pfad/H010-Vergleich reproduziert. Etappen27-30 A16-Herleitungsgrenze, Buch-Auswahl und fixierte Buchinputs getrennt; N=(14,9,13,7) verletzt direkte107/107a. Etappe35 aendert A beidseitig vorab: z3 erreicht einen Sattigungszweig, aber keine der vier Zellen loest exakte108 plus direkte nichtkollabierte Gates. Keine Myonmasse; Sattigungs-Gleichungserhalt, Dynamik und physikalische Auswahlbegruendung offen |
+| Massenformel | Einheiten, Konstanten, Quantenzahlen, Auswahlregeln, ein vollstaendiger Rechenfall | Enger Elektron-N0-Pfad/H010-Vergleich reproduziert. Etappen27-30 A16-Herleitungsgrenze, Buch-Auswahl und fixierte Buchinputs getrennt; N=(14,9,13,7) verletzt direkte107/107a. Etappe35 aendert A beidseitig vorab; Etappe36 fuehrt den z3-Sattigungszweig robust zu N=(14,10,1,0), das direkte Gates besteht, aber exakte108 nicht erhaelt. Keine Myonmasse; Quellenstatus von Gleichheit versus Projektion, Dynamik und physikalische Auswahlbegruendung offen |
 | Reichweite | Was sind Modellannahmen, reale Beobachtungen und rein interne Groessen? | Insbesondere Neutrino-Feldmassen und Zweigbedeutung abzugrenzen |
 | Verstaendnisbilanz | Herleitungskarte und verbleibende Luecken gemeinsam beurteilen | Etappe24 aktualisiert Etappe15; alle34Befundgruppen eingeordnet, kein vollstaendiges Theorieverstaendnis |
 | Externe Bewertung | Passende neuere Primaerarbeiten, Messgroessen, Gueltigkeitsbereiche | Bewusst zurueckgestellt |
@@ -25,24 +25,34 @@ Ergebnis; sie werden nicht als stillschweigende Definitionen behandelt.
 
 ## Naechste begrenzte Arbeitseinheit
 
-Nach [Etappe 35](../06_docs/DECAY_SENSITIVITY_2026-09-06.md):
-**Gedruckte Buch-Sattigungsregel im erreichten z3-Zweig.**
+Nach [Etappe 36](../06_docs/SATURATION_2026-09-07.md):
+**Quellenstatus von (108) gegenueber diskreter Auswahl und Rest.**
 
-1. Fuer die bei `A(k=1)=1/5` erreichte Grenze
-   `raw_N4>alpha3*N3` nur die auf Druck 341 bereits beschriebene
-   Sattigungsregel anwenden; ordinary floor, Quellen-TRC und Kappe trennen.
-2. Danach separat pruefen, ob die so gewaehlte Besetzung die feste
-   Gleichung (108) erhaelt und welche direkten107-/107b-Bedingungen gelten.
-3. Kein freies A-/Y-/Restfit, keine Masse und keine aus der Sensitivitaet
-   behauptete Heim-Revision. Bei fehlender Regeldefinition Grenze benennen,
-   nicht durch Transfer oder Toleranz ergaenzen.
+1. Im unmittelbaren Anschluss von (108)/(108a) und Druck340--342 gezielt
+   pruefen, ob die Gleichheit nach der Ganzzahlprojektion als exakt gelten
+   soll oder ob eine begruendete Projektions-, Rest- oder Naeherungsregel
+   fuer die diskrete Auswahl angegeben wird.
+2. Exponentialumkehrung, TRC-/Kappenausgabe und physikalische Naeherung
+   getrennt halten. Ein positiver Rest ist nicht automatisch ein Fehler,
+   solange der behauptete Exaktheitsstatus nicht geklaert ist.
+3. Keine erneute freie A-/Y-/Restwertsuche, keine Wiederholung der
+   allgemeinen (79)-Fehlerbruecke und keine Aussage ueber Heims Absicht
+   oder spaetere Kenntnis ohne Beleg.
 
-Etappe35 hat vier vorab gebundene Zellen mit beidseitiger A-Aenderung
-ausgewertet. `A=1/3` behaelt `(14,9,13,7)` und beta3=-10; `A=1/5`
-erreicht nach `(14,10,1)` die Sattigungsgrenze und liefert im begrenzten
-Rechner bewusst kein N4. Frische Integer- und reelle Existenzpruefungen
-finden keine Loesung fuer exakte108 plus direkte nichtkollabierte Gates.
-331Tests,45 Befundgruppen; keine Masse oder Gesamtwiderlegung.
+Etappe36 wendet die gedruckte Sattigungsregel im festen z3-Zweig an:
+Beide TRC-Faelle liefern `N4=0`; das Tupel `(14,10,1,0)` besteht die
+direkten107a-Gates und die separate positive107b-Bedingung, behaelt aber
+einen positiven Rest etwa0.943249. Negative `n3,n4` liegen innerhalb der
+gedruckten Untergrenzen, ohne damit physikalische Realisierung zu beweisen.
+342Tests samt alten Ergebnis-/Zertifikatschecks bestanden,46 Befundgruppen;
+kein neuer unabhaengiger Fehler.
+
+## Historischer Folgeauftrag der Etappe 35 (in Etappe 36 bearbeitet)
+
+Die auf Druck341 dokumentierte Kappenregel wurde ohne neuen Transfer oder
+TRC-Schwellwert auf den festen z3-Zweig angewendet. Sie bestimmt robust
+`N4=0`, erhaelt die feste Gleichung aber nicht exakt. Das ist die neue
+Anschlussfrage, kein A-/Y-Fit oder Massenresultat.
 
 ## Historischer Folgeauftrag der Etappe 34 (in Etappe 35 bearbeitet)
 

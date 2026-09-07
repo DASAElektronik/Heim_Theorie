@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-09-06",
+  "updated": "2026-09-07",
   "scope": "Bisher gepruefter Alpha-/H-Ausschnitt. Befundgruppen sind weder Fehlerzaehlung noch statistisch unabhaengige Experimente. Kein Gesamturteil zur Heim-Theorie.",
   "findings": [
     {
@@ -587,6 +587,19 @@
       "evidence_paths": ["00_admin/DECAY_SENSITIVITY_PLAN.md", "04_reconstruction/alpha_audit/decay_sensitivity_inputs.json", "06_docs/DECAY_SENSITIVITY_2026-09-06.md", "03_notes/DECAY_SENSITIVITY_SCOPE_2026-09-06.md", "scripts/audit_decay_sensitivity.py", "tests/test_decay_sensitivity.py", "04_reconstruction/alpha_audit/reviews/DECAY_NUMERICS_REVIEW_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/DECAY_EXISTENCE_REVIEW_2026-09-06.md", "04_reconstruction/alpha_audit/reviews/DECAY_CONTRACT_REVIEW_2026-09-06.md"],
       "reproduction": "py -3.13 -B scripts/audit_decay_sensitivity.py --check --verify-sources;15neueTests/331gesamt. Zwoelf alte Ergebnischecks und drei alte Zertifikate erhalten. Numerikreview mit eigener Input-/Intervallkette ohne Root-Import, Decimal120/160 und eigenem Endpunktausschluss; Existenzreview nutzt transparent alte Input-/Intervallhilfe, nicht neuen Rechner. Root wiederholt ausfuehrbare Bloecke; Code-/Vertragsgegenreview. Interne Reviews kein externes Peer Review. Alte Inputs/Rechner/Snapshots/49CSV unveraendert; neuer Rechner schreibt keine Dateien.",
       "next_check": "Bereits belegte Buch-Saettigungsregeln auf den neu erreichten1/5-Zweig beziehen; Definitionsbereich, Quellenvorschrift und Erhaltung der exakten Skalarrelation getrennt pruefen. Kein freier Ersatzalgorithmus oder A/Y/Restfit. Physikalische Fehlerbruecke bleibt ein eigener offener Auftrag."
+    },
+    {
+      "finding_id": "FIND-046",
+      "kind": "own_diagnostic",
+      "claim": "Heims bedingte Sättigungsregel liefert bei eigener Anwendung auf beide unveränderten A(k=1)=1/5-Gegenprobezellen eindeutig N=(14,10,1,0). Dieses Tupel besteht die geprüften direkten Strukturbedingungen und die separate positive 107b-Diagnose, löst aber wegen R=1-W4>0 nicht die feste exakte Skalarrelation.",
+      "source_ids": ["H004"],
+      "source_locator": "Erneute Root-Vollsicht H004 Druck 321-323/PDF327-329:107,n_j-Minima,Externapproximation,direkte deltaG; 328-330/PDF334-336:107a,107b,108; 340-342/PDF346-348:Exhaustion,TRC,bedingte Sättigung,Transfergrenze,n=N-Q. Quellenagent zusätzlich hochauflösendes Bild347.",
+      "assumptions": "Vorvertrag fa25c42; vier alte Etappe35-Zellen unverändert, zwei1/3-Kontrollen und zwei1/5-Sättigungsfortsetzungen. a_j,w,Y,g/W und N1-3 fest. Gegenfaktuale Inversion -ln(W4)/A von der gedruckten1/3-Spezialisierung getrennt. Eigene TRC-Hülle floor/ceil, keine Promotionsschwelle erfunden. Direkte107/107a-Gates und gewichtete107b-Größe getrennt; keine globale Zustandszulassung.",
+      "scope": "cap=a3*N3 mit N3=1 und0<cap<1: TRC0 bleibt0; selbst hypothetische TRC1 wird wegen1>cap auf0 korrigiert. Eigenes bedingtes Kappenlemma ergibt floor(cap), nicht allgemein ceil(cap)-1. Direkte beta=(2359,99,1), zweite Reihe(2644,99,0),Zentrum2744. sigma107b=a3 in(0,1) erfüllt>0. n=(11,7,-1,-1) respektiert die auf322/328 ausdrücklich erlaubten Minima -Q. Rprimary=.943249254966522970...,Rdruck=.943249258949052267...; direkte und Restidentitätsintervalle positiv. Alte1/3-Kontrollen behalten N=(14,9,13,7) und beta3=-10.",
+      "not_established": "Keine von Heim publizierte1/5-Fassung, vollständige TRC-/Transfer-/Kollapsimplementierung, L_j-Prüfung, physikalische Realisierung, Masse, physikalische Fehlerschranke oder Gesamtwiderlegung. Negative kleine n_j sind hier nicht allein ein Verbot; separate sigma<1 nicht mit direktem Integerbeta>=1 vermischen. Keine allgemeine Klärung des beta4-Definitionsanschlusses. FIND046 konkretisiert den inFIND045 bereits enthaltenen Kandidaten;46Befundgruppen sind nicht46unabhängigeFehler. Keine Autorenabsicht oder Lebensendkenntnis behauptet.",
+      "evidence_paths": ["00_admin/SATURATION_PLAN.md", "04_reconstruction/alpha_audit/saturation_inputs.json", "06_docs/SATURATION_2026-09-07.md", "03_notes/SATURATION_SOURCES_2026-09-07.md", "scripts/audit_saturation.py", "tests/test_saturation.py", "04_reconstruction/alpha_audit/reviews/SATURATION_SOURCE_REVIEW_2026-09-07.md", "04_reconstruction/alpha_audit/reviews/SATURATION_CONTRACT_REVIEW_2026-09-07.md", "04_reconstruction/alpha_audit/reviews/SATURATION_NUMERICS_REVIEW_2026-09-07.md"],
+      "reproduction": "py -3.13 -B scripts/audit_saturation.py --check --verify-sources;11neueTests. Rationale Intervallrechnung, beide TRC-Ausgänge, synthetische Ganzzahlränder, getrennte Restwege, unveränderte alte Ausgaben. Drei interne Reviews, unabhängige Numerik und Codegegenprüfung; kein externes Peer Review. Alte Eingaben, Rechner, Snapshots und49CSV bleiben unverändert. Gesamtregression und Ergebnischecks im Abschlussprotokoll.",
+      "next_check": "Quellenstatus von108 gegenüber nachfolgender diskreter Auswahl bilanzieren: Ist eine Projektions- oder Restregel ausdrücklich begründet? Konkreten Anschluss prüfen, nicht erneut freieA/Y/Massenwerte suchen oder Autorenabsichten ergänzen. Quantitative physikalische Näherungsbrücke bleibt gesondert offen."
     }
   ]
 }

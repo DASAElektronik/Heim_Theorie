@@ -3,7 +3,33 @@
 Isolierter, reproduzierbarer Konsistenztest der 1982/1989-Alpha-Bloecke in den
 lokalen IGW-Wiedergaben. Python >= 3.10; nur Standardbibliothek erforderlich.
 
-## Etappe 35: vorab gebundene A-Sensitivitaet (aktueller Stand)
+## Etappe 36: Buch-Sattigung im festen z3-Zweig (aktueller Stand)
+
+`06_docs/SATURATION_2026-09-07.md`: Die vier Etappe-35-Zellen und ihre
+Inputs bleiben unveraendert. Fuer beide z3-Zellen gilt nach
+`(N1,N2,N3)=(14,10,1)` die Buchkappe `cap=alpha3*N3` mit `0<cap<1`.
+Abschneiden liefert `TRC(cap)=0`; selbst eine moegliche Promotion auf1
+wird durch die gedruckte `TRC(cap)>cap`-Korrektur wieder zu `N4=0`.
+
+Das resultierende `N=(14,10,1,0)` hat direkte Bandbreiten
+`(2359,99,1)` und besteht den nichtkollabierten107a-Zweig. Die separate
+107b-Groesse ist `alpha3~=0.97866>0`; ihr wird kein ungewichteter
+Integer-Schwellwert untergeschoben. Die festen Reste bleiben positiv:
+`0.943249254966522970` im primaeren und `0.943249258949052267` im
+Druckalpha-Profil. Sattigung ist daher eine diskrete Auswahl, keine exakte
+logarithmische Umkehrung.
+
+`n=(11,7,-1,-1)` respektiert die gedruckte Untergrenze `n_j>=-Q_j`;
+negative kleine `n_j` sind nicht fuer sich verboten, beweisen aber keine
+physikalische Realisierung. `scripts/audit_saturation.py --check
+--verify-sources`, 11 neue Tests/342 insgesamt; alle12 alten Ergebnischecks,
+vier Zertifikate, Sattigungs-/Quellencheck und Registervalidator bestanden.
+FIND-046: eigene Anschlussdiagnose,46 Gruppen nicht46 Fehler; kein neuer
+unabhaengiger Fehler, keine Masse oder Empirie. Weiter: (108)-Exaktheit
+gegen diskrete Auswahl/Projektion und eine etwaige Quellen-Restregel eng
+pruefen, ohne neue A-Suche.
+
+## Etappe 35: vorab gebundene A-Sensitivitaet (vorheriger Stand)
 
 `06_docs/DECAY_SENSITIVITY_2026-09-06.md`: vier vorab festgelegte Zellen,
 beide alten Buch-Alpha-Profile mal `A(k=1)=1/3` (Buchwahl z5) und
