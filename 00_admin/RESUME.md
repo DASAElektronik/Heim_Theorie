@@ -2,7 +2,13 @@
 
 Aktualisiert: 2026-09-07.
 
-## Aktuell: Etappe 37 abgeschlossen
+## Aktuell: Etappe 38 begonnen
+
+Ausgang `06952db`; Vertrag `MASS_CHAIN_PLAN.md`. Massenformelkette
+(98d/e) bis (112): Algebra, F_S-Empirie und mögliche K2-Druckabweichung
+auf344 getrennt prüfen. Keine neue Massenkalibrierung oder Parameterwahl.
+
+## Verlauf: Etappe 37 abgeschlossen
 
 Ausgang `15d1da3`, Plancheckpoint `f32f89a`, Quellenvertrag
 `EQ108_STATUS_PLAN.md`. Bericht `06_docs/EQ108_STATUS_2026-09-07.md`,
