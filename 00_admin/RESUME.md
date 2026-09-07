@@ -1,8 +1,15 @@
 # Wiedereinstieg
 
-Aktualisiert: 2026-09-06.
+Aktualisiert: 2026-09-07.
 
-## Aktuell: Etappe 35 abgeschlossen
+## Aktuell: Etappe 36 begonnen
+
+Ausgang `efb812d`; Vorvertrag `SATURATION_PLAN.md` und
+`saturation_inputs.json`. Feste vier Etappe-35-Zellen: Buch-Sättigungsregel
+auf den erreichten z3-Zweig anwenden, TRC-Ausnahme und direkte/gewichtete
+Gates trennen, Restgleichung prüfen. Keine Masse oder Parameterwahl.
+
+## Verlauf: Etappe 35 abgeschlossen
 
 Ausgang `22001a2`, Plancheckpoint `3a3ad73`, Vertrag
 `DECAY_SENSITIVITY_PLAN.md`. Bericht:
