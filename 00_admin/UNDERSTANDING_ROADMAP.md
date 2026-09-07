@@ -12,7 +12,7 @@ vollstaendiges Verstaendnis der Gesamttheorie abgeleitet werden.
 | Quellen und Versionen | Original, spaetere Abschrift, Erweiterung, offene Herkunft | Etappen18/23: lokale Buch-/Listing-/Typoskriptbruecken belegt; keine gemeinsame vollstaendige 1982-Fassung, Ueberlieferung teilweise offen |
 | Alpha-Grundkette | eta, vartheta, A_k, Ladungsmittelung, Korrelation, Y3 und Zweige | Buchindizes/Mittelung rekonstruiert; Energie/Wellenkontexte getrennt, Kinematik und physikalische Schliessung offen |
 | Grundbegriffe | Heim-eigene Raum-/Strukturbegriffe, metronische Operationen, messbare Zuordnung | M2/M2a-Endpunkte und M7-Ausdruck lokal rekonstruiert; gemeinsames Operatorgitter, reale Potentialpfade und Gesamtgrundlagen offen |
-| Massenformel | Einheiten, Konstanten, Quantenzahlen, Auswahlregeln, ein vollstaendiger Rechenfall | Enger Elektron-N0-Pfad/H010-Vergleich reproduziert. Etappen27-30 A16-Herleitungsgrenze, Buch-Auswahl und fixierte Buchinputs getrennt; N=(14,9,13,7) verletzt direkte107/107a. Etappe35 aendert A beidseitig vorab; Etappe36 fuehrt den z3-Sattigungszweig robust zu N=(14,10,1,0), das direkte Gates besteht, aber exakte108 nicht erhaelt. Keine Myonmasse; Quellenstatus von Gleichheit versus Projektion, Dynamik und physikalische Auswahlbegruendung offen |
+| Massenformel | Einheiten, Konstanten, Quantenzahlen, Auswahlregeln, ein vollstaendiger Rechenfall | Enger Elektron-N0-Pfad/H010-Vergleich reproduziert. Etappen27-30 A16-Herleitungsgrenze, Buch-Auswahl und fixierte Buchinputs getrennt; N=(14,9,13,7) verletzt direkte107/107a. Etappe35 aendert A beidseitig vorab; Etappe36 fuehrt den z3-Sattigungszweig robust zu N=(14,10,1,0), das direkte Gates besteht, aber die feste108-Diagnose nicht erhaelt. Etappe37 findet keine Quellenregel, die einen diskreten108-Rest projiziert oder toleriert; Naeherungsstatus, dynamische Auswahl und physikalische Begruendung bleiben offen. Keine Myonmasse |
 | Reichweite | Was sind Modellannahmen, reale Beobachtungen und rein interne Groessen? | Insbesondere Neutrino-Feldmassen und Zweigbedeutung abzugrenzen |
 | Verstaendnisbilanz | Herleitungskarte und verbleibende Luecken gemeinsam beurteilen | Etappe24 aktualisiert Etappe15; alle34Befundgruppen eingeordnet, kein vollstaendiges Theorieverstaendnis |
 | Externe Bewertung | Passende neuere Primaerarbeiten, Messgroessen, Gueltigkeitsbereiche | Bewusst zurueckgestellt |
@@ -25,27 +25,22 @@ Ergebnis; sie werden nicht als stillschweigende Definitionen behandelt.
 
 ## Naechste begrenzte Arbeitseinheit
 
-Nach [Etappe 36](../06_docs/SATURATION_2026-09-07.md):
-**Quellenstatus von (108) gegenueber diskreter Auswahl und Rest.**
+Nach [Etappe 37](../06_docs/EQ108_STATUS_2026-09-07.md):
+**H004-Massenformel von (98d/e) zu (112) und Rolle von `F_S`.**
 
-1. Im unmittelbaren Anschluss von (108)/(108a) und Druck340--342 gezielt
-   pruefen, ob die Gleichheit nach der Ganzzahlprojektion als exakt gelten
-   soll oder ob eine begruendete Projektions-, Rest- oder Naeherungsregel
-   fuer die diskrete Auswahl angegeben wird.
-2. Exponentialumkehrung, TRC-/Kappenausgabe und physikalische Naeherung
-   getrennt halten. Ein positiver Rest ist nicht automatisch ein Fehler,
-   solange der behauptete Exaktheitsstatus nicht geklaert ist.
-3. Keine erneute freie A-/Y-/Restwertsuche, keine Wiederholung der
-   allgemeinen (79)-Fehlerbruecke und keine Aussage ueber Heims Absicht
-   oder spaetere Kenntnis ohne Beleg.
+1. Die algebraische Kette, alle still verwendeten Funktionen und die
+   Bestimmung der Koeffizienten quellengetreu auseinanderziehen.
+2. Empirische `F_S`-Bestimmung, feste Zustandsableitung `delta F_S=0` und
+   offene Funktions-/Auswahlannahmen nicht mit einer neuen Kalibrierung
+   verbinden.
+3. Keine Rest-, A-/Y- oder Massenwertanpassung. Ein weiterer Rechenfall
+   erst nach einem klaren Eingabe- und Geltungsvertrag.
 
-Etappe36 wendet die gedruckte Sattigungsregel im festen z3-Zweig an:
-Beide TRC-Faelle liefern `N4=0`; das Tupel `(14,10,1,0)` besteht die
-direkten107a-Gates und die separate positive107b-Bedingung, behaelt aber
-einen positiven Rest etwa0.943249. Negative `n3,n4` liegen innerhalb der
-gedruckten Untergrenzen, ohne damit physikalische Realisierung zu beweisen.
-342Tests samt alten Ergebnis-/Zertifikatschecks bestanden,46 Befundgruppen;
-kein neuer unabhaengiger Fehler.
+Etappe37 trennt die formale Gleichheit (108) von der auf322/324 genannten
+Externzonennaeherung. Die Auswahlregel ist vorhanden, im engen Seitenumfang
+aber keine finale Restgarantie gefunden. Grenzwert-/Unsicherheitsaussagen
+und die empirische `F_S`-Bestimmung sind keine allgemeine Resttoleranz.
+FIND-047 ist ein Anschlussbefund, nicht ein neuer unabhaengiger Fehler.
 
 ## Historischer Folgeauftrag der Etappe 35 (in Etappe 36 bearbeitet)
 

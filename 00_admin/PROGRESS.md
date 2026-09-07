@@ -1,5 +1,27 @@
 # Fortschritt
 
+## 2026-09-07 - Siebenunddreissigste Etappe: (108)-Status und Auswahlanschluss
+
+- H004 Druck322--335 und340--347 vollständig gegengelesen. (108) auf330
+  ist eine formale Selektorgleichheit; der Externterm bleibt über322/324
+  an (79b)/(79c) als "überaus gute Näherung" gebunden. Keine der beiden
+  Aussagen still zur allgemeinen Feldexaktheit ausgebaut.
+- Diskrete Auswahl samt internen Restgrößen vorhanden; keine gefundene
+  finale (108)-Restgarantie oder Sättigungs-/TRC-Kompensationsregel.
+  Lokaler Nichtfund, keine Gesamtwerk- oder Autorenabsichtsaussage.
+- Messbarkeit334 (Grenzwertsubstitution) und341 (TRC-Neuner-Ausnahme)
+  sind keine allgemeine R-Toleranz. `delta F_S=0` auf323 und empirische `F_S`-Bestimmung mit17
+  Quellendatenpunkten auf342 erlauben bei festem Zustand keine Restreparatur;
+  die mehrdeutige `f`-Folge343 bleibt offen.
+- Keine Rechner-, Input-, Test- oder49-CSV-Änderung. FIND-047 ist ein
+  `open_justification`-Anschluss, kein neuer unabhängiger Fehler. Bericht
+  `06_docs/EQ108_STATUS_2026-09-07.md`, Scope
+  `03_notes/EQ108_STATUS_SOURCES_2026-09-07.md`, Plancheckpoint `f32f89a`.
+  342 bestehende Tests,12 alte Snapshotchecks und5 Zusatzprüfungen sowie
+  Registervalidator bestanden; H004-Hash unverändert.
+  Weiter: (98d/e)->(112) und `F_S` quellengetreu rekonstruieren, ohne
+  Massenkalibrierung oder Fit.
+
 ## 2026-09-07 - Sechsunddreissigste Etappe: Buch-Sattigung im z3-Zweig
 
 - Vier feste Etappe-35-Zellen; Baselines unveraendert, z3 nur mit der auf

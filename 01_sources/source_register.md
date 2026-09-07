@@ -6,6 +6,15 @@ Dieses Register sammelt Fundstellen. Lokale Kopien sollten nur abgelegt werden, 
 
 ## Enger Pruefstand 2026-09-07
 
+Etappe37: H004 Druck322--335 und340--347 von Root vollständig visuell
+gelesen. (108) auf330 bleibt formale Selektorgleichheit; Externterm-
+Näherung322/324, Grenzwertsubstitution334, TRC-Neuner-Ausnahme341, `delta F_S=0`
+auf323 und empirische `F_S`-Bestimmung342 mit17 Quellendatenpunkten
+bleiben getrennt. Diskrete Auswahl vorhanden, im engen Umfang aber keine
+ausgewiesene finale Restgarantie. FIND-047 ist `open_justification`, keine neue
+unabhängige Fehlerzahl; keine neue Quelle, Numerik oder Originaländerung.
+Umfang: `03_notes/EQ108_STATUS_SOURCES_2026-09-07.md`.
+
 Etappe 36: H004 Druck 321-323, 328-330, 340-342 von Root erneut
 vollseitig visuell gelesen. Saettigung/TRC samt bedingtem Minus 1,
 direkte107a- und gewichtete107b-Groesse sowie erlaubte negative n_j

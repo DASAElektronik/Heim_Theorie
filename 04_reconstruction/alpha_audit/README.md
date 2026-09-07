@@ -3,31 +3,25 @@
 Isolierter, reproduzierbarer Konsistenztest der 1982/1989-Alpha-Bloecke in den
 lokalen IGW-Wiedergaben. Python >= 3.10; nur Standardbibliothek erforderlich.
 
-## Etappe 36: Buch-Sattigung im festen z3-Zweig (aktueller Stand)
+## Etappe 37: Quellenstatus von (108) (aktueller Stand)
 
-`06_docs/SATURATION_2026-09-07.md`: Die vier Etappe-35-Zellen und ihre
-Inputs bleiben unveraendert. Fuer beide z3-Zellen gilt nach
-`(N1,N2,N3)=(14,10,1)` die Buchkappe `cap=alpha3*N3` mit `0<cap<1`.
-Abschneiden liefert `TRC(cap)=0`; selbst eine moegliche Promotion auf1
-wird durch die gedruckte `TRC(cap)>cap`-Korrektur wieder zu `N4=0`.
+`06_docs/EQ108_STATUS_2026-09-07.md`: (108) ist auf H004 Druck330 als
+formale Selektorgleichheit gedruckt. Die Externzone wird auf322/324 nur
+über (79b)/(79c) als Näherung angeschlossen. Im eng geprüften Nachlauf
+ist eine diskrete Vorschrift vorhanden, aber keine quantitative finale
+Restgarantie oder TRC-/Sättigungskompensation für (108) gefunden.
 
-Das resultierende `N=(14,10,1,0)` hat direkte Bandbreiten
-`(2359,99,1)` und besteht den nichtkollabierten107a-Zweig. Die separate
-107b-Groesse ist `alpha3~=0.97866>0`; ihr wird kein ungewichteter
-Integer-Schwellwert untergeschoben. Die festen Reste bleiben positiv:
-`0.943249254966522970` im primaeren und `0.943249258949052267` im
-Druckalpha-Profil. Sattigung ist daher eine diskrete Auswahl, keine exakte
-logarithmische Umkehrung.
+Die Grenzwert-/Unsicherheitsaussagen für `F_im`, `A_im` und `Y_k` sind
+kein `R`-Budget. `delta F_S=0` bei festem Zustand und die empirische
+`F_S`-Bestimmung werden nicht zu einer Restreparatur umgedeutet. Keine
+neue Numerik, Eingabe, Test- oder49-CSV-Änderung;342 bestehende Tests,
+12 Snapshotchecks und5 Zusatzprüfungen bestanden. FIND-047 ist ein `open_justification`-
+Anschluss, nicht ein neuer unabhängiger Fehler. Weiter: (98d/e)->(112)
+und `F_S` quellengetreu rekonstruieren, ohne Massenkalibrierung oder Fit.
 
-`n=(11,7,-1,-1)` respektiert die gedruckte Untergrenze `n_j>=-Q_j`;
-negative kleine `n_j` sind nicht fuer sich verboten, beweisen aber keine
-physikalische Realisierung. `scripts/audit_saturation.py --check
---verify-sources`, 11 neue Tests/342 insgesamt; alle12 alten Ergebnischecks,
-vier Zertifikate, Sattigungs-/Quellencheck und Registervalidator bestanden.
-FIND-046: eigene Anschlussdiagnose,46 Gruppen nicht46 Fehler; kein neuer
-unabhaengiger Fehler, keine Masse oder Empirie. Weiter: (108)-Exaktheit
-gegen diskrete Auswahl/Projektion und eine etwaige Quellen-Restregel eng
-pruefen, ohne neue A-Suche.
+Vorheriger Stand: [Etappe36, Sättigung](../../06_docs/SATURATION_2026-09-07.md)
+mit `N=(14,10,1,0)`, direkten positiven Bandbreiten und weiter positivem
+Skalarrest; eigene1/5-Fortsetzung, keine Massenabweichung.
 
 ## Etappe 35: vorab gebundene A-Sensitivitaet (vorheriger Stand)
 

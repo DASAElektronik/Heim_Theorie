@@ -40,26 +40,30 @@ Kann aus Heims Original- bzw. nahen Quellen eine reproduzierbare, parameterarme 
 
 ## Aktueller Arbeitsmodus
 
-Stand 2026-09-07, Etappe 36:
-[Sattigungsregel](06_docs/SATURATION_2026-09-07.md).
-Die vier Etappe-35-Zellen bleiben unveraendert. Im eigenen z3-Profil fuehrt
-die gedruckte Kappenregel das Praefix `(14,10,1)` robust zu `N4=0`: Sowohl
-Abschneiden `TRC(cap)=0` als auch eine moegliche Neuner-Promotion auf1 mit
-anschliessendem Abzug ergeben dieselbe Ausgabe.
+Stand 2026-09-07, Etappe 37:
+[(108)-Status](06_docs/EQ108_STATUS_2026-09-07.md). H004 druckt (108) als
+formale Selektorgleichheit, verbindet den Externterm aber nur
+näherungsweise mit (79b)/(79c). Eine diskrete Auswahlregel ist vorhanden;
+im eng geprüften Anschluss wurde aber keine finale Restgarantie oder
+Kompensation für (108) gefunden. Das ist ein Quellenstatus, kein neuer
+unabhängiger Fehler und keine Gesamtwiderlegung.
 
-Das volle Tupel `(14,10,1,0)` besteht die direkten ungewichteten Bandbreiten
-`(2359,99,1)`; die separate gewichtete Sigma-Groesse liegt mit
-`alpha3~=0.97866` strikt ueber null. Die feste Gleichung wird durch die
-diskrete Sattigung trotzdem nicht exakt erhalten: Rest in beiden
-Alpha-Profilen etwa `0.943249`. `n=(11,7,-1,-1)` ist nach den
-gedruckten Untergrenzen nicht allein wegen negativer kleiner `n_j`
-verboten, damit aber noch nicht physikalisch realisiert. Keine Masse,
-Empirie oder Parameterwahl. 11 neue Tests,342 insgesamt; alle alten
-Ergebnischecks, vier Zertifikate, Quellenhash und Registercheck bestanden.
-FIND-046 ist eine Anschlussdiagnose, 46 Gruppen sind nicht46 Fehler.
-Weiter: Quellenstatus von (108) als exakte Gleichung gegenueber diskreter
-Auswahl/Projektion und eine etwaige begruendete Restregel gezielt klaeren.
+Grenzwert-/Unsicherheitsaussagen für `F_im`, Koeffizienten und `Y_k` sind
+keine allgemeine Toleranz der beiden Seiten von (108). Bei festem Zustand
+bleibt `delta F_S=0`; die empirische `F_S`-Bestimmung wird nicht zur
+Restreparatur verwendet. Keine neue Masse, Empirie, Eingabe oder
+Parameterwahl; die49 Normalisierungs-CSV-Zeilen bleiben unverändert.
+FIND-047 bezeichnet 47 Befundgruppen, nicht47 Fehler. Weiter:
+Massenformelkette (98d/e)->(112) und `F_S` quellengetreu rekonstruieren,
+ohne Kalibrierung oder Zielwertfit.
 [Wiedereinstieg](00_admin/RESUME.md), [Arbeitsfolge](00_admin/UNDERSTANDING_ROADMAP.md).
+
+## Verlauf: Etappe 36
+
+[Sättigungsregel](06_docs/SATURATION_2026-09-07.md): Eigene Anwendung auf
+den festen1/5-Gegenprobefall ergibt robust `N=(14,10,1,0)`. Direkte
+Strukturgates und separate positive Sigma-Größe bestehen; die feste
+Skalargleichung bleibt unerfüllt. Keine Massenabweichung daraus abgeleitet.
 
 ## Verlauf: Etappe 35
 

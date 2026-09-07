@@ -1,5 +1,18 @@
 # Skripte
 
+## Etappe 37: Quellenstatus von (108)
+
+Kein neuer Rechner oder numerischer Input. Bericht
+`06_docs/EQ108_STATUS_2026-09-07.md` trennt Näherungsmodell, formale
+Gleichheit und diskrete Auswahl. Die 342 bestehenden Tests, zwölf alten
+Snapshotchecks und fünf Zusatzprüfungen wurden unverändert bestanden.
+Das prüft Regressionen, nicht die Wahrheit der Quelleninterpretation.
+FIND-047 ist ein offener Begründungsanschluss; Registervalidierung:
+
+```powershell
+py -3.13 -B scripts/validate_finding_register.py
+```
+
 ## Etappe 36: Buch-Sattigung als begrenzte Diagnose
 
 ```powershell

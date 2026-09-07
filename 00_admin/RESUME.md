@@ -2,12 +2,38 @@
 
 Aktualisiert: 2026-09-07.
 
-## Aktuell: Etappe 37 begonnen
+## Aktuell: Etappe 37 abgeschlossen
 
-Ausgang `15d1da3`; Quellenvertrag `EQ108_STATUS_PLAN.md`. Enger Vergleich
-von (108)-Einführung, diskreter Auswahl und F_S-Folgeabschnitt: Gibt es
-eine explizite Projektions-/Restregel? Keine neue Numerik oder Fitwahl;
-Näherungsansatz, Modellgleichheit und Algorithmuserhaltung getrennt halten.
+Ausgang `15d1da3`, Plancheckpoint `f32f89a`, Quellenvertrag
+`EQ108_STATUS_PLAN.md`. Bericht `06_docs/EQ108_STATUS_2026-09-07.md`,
+Scope `03_notes/EQ108_STATUS_SOURCES_2026-09-07.md`.
+
+- H004 Druck322--335 sowie340--347 vollständig von Root gelesen.
+  Druck330 schreibt (108) als formale Gleichheit im Selektormodell;
+  Druck322/324 verknüpft den Externterm dagegen mit (79b)/(79c) nur in
+  "überaus guter Näherung". Beides weder zur vollen Feldexaktheit noch zu
+  einer freien Resttoleranz zusammenziehen.
+- Im geprüften Anschluss ist eine diskrete Auswahlvorschrift vorhanden,
+  aber keine quantitative Garantie für den endgültigen (108)-Rest oder
+  Regel zu seiner Kompensation nach TRC/Sättigung gefunden. Dies ist ein
+  lokaler Quellen-Nichtfund, keine Aussage über das Gesamtwerk oder eine
+  Autorenabsicht.
+- Messbarkeit334 betrifft Grenzwertsubstitution bei korrekt bestimmten
+  Koeffizienten; Messbarkeit341 nur die TRC-Neuner-Ausnahme. Keine
+  allgemeine Resttoleranz. `F_S` ist auf323 mit `delta F_S=0` geführt
+  und auf342 empirisch aus17 Quellendatenpunkten bestimmt; daraus folgt
+  keine Reparatur eines festen Gleichungsrests. Die mehrdeutige
+  `f`-Fortsetzung auf343 wird nicht als Freipass verwendet.
+- Keine neue Numerik, Eingabe, Test- oder CSV-Änderung. 342 bestehende
+  Tests,12 Snapshotchecks und5 Zusatzprüfungen bestanden; Root bestätigt
+  H004-Hash und Registermetadaten. Die49 Normalisierungs-CSV-Zeilen bleiben
+  unverändert. FIND-047 ist ein `open_justification`-Anschlussbefund,
+  kein neuer unabhängiger Fehler;47 Gruppen sind nicht47 Fehler.
+
+Naechster Einzelauftrag: **Massenformel von (98d/e) zu (112) und Rolle von
+`F_S` rekonstruieren.** Algebraische Umformung, empirische Bestimmung und
+offene Funktionsschritte trennen; keine neue Massenkalibrierung oder
+Zielwertanpassung.
 
 ## Verlauf: Etappe 36 abgeschlossen
 

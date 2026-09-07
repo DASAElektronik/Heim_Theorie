@@ -34,3 +34,27 @@ Agenten schreiben zunächst nur neue `EQ108_STATUS_*_REVIEW`-Dateien.
 Bericht `06_docs/EQ108_STATUS_2026-09-07.md`, Quellenumfang in `03_notes/`,
 Wiedereinstieg und Befundregister. Quellenbefund ist kein neuer unabhängiger
 Fehler. Bestehende Regressionsprüfungen; neue Tests nur bei neuem Rechencode.
+
+## Abschluss 2026-09-07
+
+Plancheckpoint `f32f89a`. Root las H004 Druck322-335 und340-347 vollständig
+visuell (22 Seiten); Quellenagent zusätzlich321. Ergebnisbericht und
+`03_notes/EQ108_STATUS_SOURCES_2026-09-07.md` dokumentieren die Fundstellen.
+Drei interne Reviews wurden gelesen und gegengeprüft. Mehrdeutiges kleines
+f auf343 ist ausdrücklich keine Grundlage des F_S-Schlusses.
+
+Ergebnis: formale Gleichheit im Näherungsmodell und vorhandene diskrete
+Vorschrift, aber im geprüften Anschluss keine ausdrückliche finale
+Restgarantie. Messbarkeit334/341 betrifft unterschiedliche Schritte;
+F_S fällt unter323 bei fester Besetzungsvariation heraus. FIND-047 ist
+ein offener Begründungsanschluss, kein neuer unabhängiger Fehler.
+
+Read-only Regression am2026-09-07:342 bestehende Tests sowie12 alte
+Snapshotchecks und5 weitere Zertifikats-/Diagnosechecks bestanden (je
+Exit0). Keine neuen Tests, Eingaben, Rechner oder numerischen Snapshots.
+H004-SHA256 erneut unverändert. Root prüft Registermetadaten und Staged
+Diff vor dem abschließenden Save; finalen Commit über Git bestimmen,
+keinen eigenen Commit-Hash in sich selbst eintragen.
+
+Nächster Einzelauftrag: Massenformel98d/e bis112 und F_S-Rolle, zunächst
+algebraisch und quellenkritisch ohne neue Massenkalibrierung.
