@@ -45,6 +45,29 @@ und [drei Grafiken mit Erläuterungen](07_outputs/figures/README.md)
 fassen die Etappen39/40 zusammen. Die PDF ist eine datierte Übersicht;
 die vollständigen Quellen- und Rechendetails stehen in den Berichten.
 
+Stand 2026-10-18, Etappe 42:
+[Elektronen-Grundzustand im fotografierten Programm](06_docs/H015_ELECTRON_2026-10-18.md).
+Mit dem eigenen H015-Konstantensatz ergeben sich die gedruckten Besetzungen
+und0.5110032557257554 MeV gegenüber0.51100326 im Ausdruck, innerhalb
+der angenommenen Druckrundung. Der letzte Ganzzahlschritt ist analytisch
+abgesichert; keine historische Compileremulation oder unabhängige physikalische
+Vorhersage behauptet.369 Tests bestanden; alte Ergebnisse erhalten.
+Weiter: Versionsbilanz desselben Elektronfalls über H006/H015/H010/H004.
+
+## Verlauf: Etappe41
+
+Stand 2026-10-18, Etappe 41:
+[Fotografierter Konstantensatz und Ausgabe](06_docs/HISTORICAL_CONSTANTS_2026-10-18.md).
+Alle17 geprüften Initialisierungszeilen des H015-FORTRAN-Ausdrucks lassen
+sich innerhalb der Druckrundung reproduzieren. Darunter sind feste Eingaben;
+ALFA/BETA werden als Kehrwerte zugewiesen, nicht dort aus105 berechnet.
+Der Konstantensatz unterscheidet sich vom korrigierten Buchanhang.
+Dessen kleine Ladungsabweichung und vollständige Kalibrierung bleiben offen.
+364 Tests bestanden; bisherige Profile und datierte Grafiken erhalten.
+Weiter: Elektron-N0-Zweig dieses H015-Stands gegen seinen Ausdruck prüfen.
+
+## Verlauf: Etappe40
+
 Stand 2026-10-18, Etappe 40:
 [Konstantenkorrektur und Elektronenanker](06_docs/CONSTANTS_ANCHOR_2026-10-18.md).
 H004349/371 beschreibt ausdrücklich die Rückrechnung aus gemessener Masse

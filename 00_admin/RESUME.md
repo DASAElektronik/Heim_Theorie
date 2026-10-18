@@ -7,7 +7,55 @@ Grafischer Einstieg: `output/pdf/Heim_Audit_Ueberblick_2026-10-18.pdf`
 Generator `scripts/build_audit_overview.py`; eigene Übersicht zu Etappen39/40,
 keine neue Forschungsrechnung. PDF-Seiten visuell geprüft.
 
-## Aktuell: Etappe 40 abgeschlossen
+## Aktuell: Etappe 42 abgeschlossen
+
+Ausgang `b2c1113` plus erhaltener Etappe41. Vertrag `H015_ELECTRON_PLAN.md`;
+Bericht `06_docs/H015_ELECTRON_2026-10-18.md`, Quellenumfang
+`03_notes/H015_ELECTRON_SOURCES_2026-10-18.md`.
+
+- H015-Elektron: K=PG=QG=1,KAPPA=0,EPS=1,IX=2,N=0. Aus MAIN folgen
+  CS=0,QX=-1,KQ=1. GBASE/GSTRUC ergeben K=(3,3,2,1),n=(0,0,0,0).
+- W4=exp(-1/3) liefert den letzten Ganzzahlschritt analytisch. Eigene
+  reelle Rekonstruktion, keine bitgenaue historische Compilerwiederholung.
+- GMASS mit unveränderten H015-Eingaben liefert0.5110032557257554 MeV;
+  Ausdruck0.51100326 innerhalb angenommener Druckrundung reproduziert.
+  Kein moderner Messdatenvergleich oder Nachweis unabhängiger Vorhersage.
+- Fünf neue Tests,369 insgesamt bestanden. FIND-052 positiv;51 Altbefunde
+  und alte Rechner/Inputs/Ergebnisse/Grafiken erhalten; Quellhash bestätigt.
+- Etappen41/42 noch nicht committet/gepusht. Datierte PDF bleibt39/40.
+
+Nächster Einzelauftrag: Versionsbilanz desselben Elektronfalls über H006,
+H015,H010 und korrigierten H004-Anhang. Formeln, Eingaben, Ganzzahlbehandlung
+und offene Übergänge trennen. Keine neue Kalibrierung/Zielwertwahl.
+
+## Verlauf: Etappe 41 abgeschlossen
+
+Ausgang `b2c1113` (Etappen39/40 und Grafiken bereits gepusht).
+Vertrag `HISTORICAL_CONSTANTS_PLAN.md`; Bericht
+`06_docs/HISTORICAL_CONSTANTS_2026-10-18.md`, Quellenumfang
+`03_notes/HISTORICAL_CONSTANTS_SOURCES_2026-10-18.md`.
+
+- H015 PDF5/21: fotografierter GINIT-Konstantensatz; PDF18: MAIN-Aufruf;
+  PDF27: Ausdruck. Alle17 Initialisierungszeilen innerhalb Druckrundung
+  reproduziert, darunter feste Eingaben. Keine17 unabhängigen Vorhersagen.
+- ALFA/BETA sind feste Kehrwerte; GINIT berechnet sie nicht aus105.
+  ETA/THETA/EQ/AMU/ALFP/ALFM werden aus dem festen Satz berechnet.
+- H015 verwendet andere Konstanten als H004371. Ladungsformel entspricht29;
+  Ursache der kleinen Buchabweichung und H004-Kalibrierungsinputs weiter offen.
+- Banner26/7/82, Kommentar17/03/82 und Compilerkopf82.223 getrennt;
+  Identität mit dem Buch-Kontrolllauf nicht bewiesen. Spätere H010-Ausgaben
+  behalten den alten Banner trotz anderer Konstanten.
+- Vier neue Tests,364 insgesamt bestanden. FIND-051 positive_reproduction;
+ 50 Altbefunde und alte Profile/Ergebnisse/Grafiken erhalten. Ein Agent.
+  Eigene Decimal-Nachrechnung, keine historische Compileremulation.
+  Diese Etappe noch nicht committet/gepusht.
+
+Nächster Einzelauftrag: H015-Elektron-N0-Zweig quellengebunden rekonstruieren.
+Zustand, GBASE/GMASS und Umrechnung vorab fixieren, dann fotografierten
+Ausdruck prüfen. Historische Reproduktion, keine unabhängige Vorhersage.
+H004-Kalibrierung und ursprüngliche F_S-Datenprovenienz bleiben separat offen.
+
+## Verlauf: Etappe 40 abgeschlossen
 
 Ausgang `442adf7` plus uncommittierter Etappe39; beide erhalten.
 Vertrag `CONSTANTS_ANCHOR_PLAN.md`; Bericht

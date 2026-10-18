@@ -1,0 +1,112 @@
+{
+  "profile": "H015_photographed_GINIT_initialization_only",
+  "input_path": "04_reconstruction/alpha_audit/historical_constants_inputs.json",
+  "scope": "Static formulas replayed in Decimal; no historical program executed, no particle mass or matrix evaluation",
+  "rounding_assumption": "Assumed nearest-last-digit rounding, half-unit intervals; outputs seen before replay, no blind prediction",
+  "rows": [
+    {
+      "name": "PI",
+      "printed": "3.14159265",
+      "reconstructed": "3.141592653500000E+0",
+      "within_assumed_print_rounding": true
+    },
+    {
+      "name": "EBN",
+      "printed": "2.71828183",
+      "reconstructed": "2.718281828459045E+0",
+      "within_assumed_print_rounding": true
+    },
+    {
+      "name": "HQ",
+      "printed": "0.10545887Q-33",
+      "reconstructed": "1.054588700000000E-34",
+      "within_assumed_print_rounding": true
+    },
+    {
+      "name": "C",
+      "printed": "0.29979246Q+09",
+      "reconstructed": "2.997924580000000E+8",
+      "within_assumed_print_rounding": true
+    },
+    {
+      "name": "GAM",
+      "printed": "0.66732000Q-10",
+      "reconstructed": "6.673200000000000E-11",
+      "within_assumed_print_rounding": true
+    },
+    {
+      "name": "RG",
+      "printed": "376.73037659",
+      "reconstructed": "3.767303765900000E+2",
+      "within_assumed_print_rounding": true
+    },
+    {
+      "name": "S0",
+      "printed": "1.00000000",
+      "reconstructed": "1.000000000000000E+0",
+      "within_assumed_print_rounding": true
+    },
+    {
+      "name": "FAKMEV",
+      "printed": "0.56095450Q+30",
+      "reconstructed": "5.609545000000000E+29",
+      "within_assumed_print_rounding": true
+    },
+    {
+      "name": "ETA",
+      "printed": "0.98998964Q+00",
+      "reconstructed": "9.899896408182263E-1",
+      "within_assumed_print_rounding": true
+    },
+    {
+      "name": "THETA",
+      "printed": "0.79399127Q+01",
+      "reconstructed": "7.939912666907718E+0",
+      "within_assumed_print_rounding": true
+    },
+    {
+      "name": "EQ",
+      "printed": "0.16021775Q-18",
+      "reconstructed": "1.602177452229043E-19",
+      "within_assumed_print_rounding": true
+    },
+    {
+      "name": "ALFA",
+      "printed": "0.72973511Q-02",
+      "reconstructed": "7.297351069406458E-3",
+      "within_assumed_print_rounding": true
+    },
+    {
+      "name": "BETA",
+      "printed": "0.99998589Q+00",
+      "reconstructed": "9.999858901990893E-1",
+      "within_assumed_print_rounding": true
+    },
+    {
+      "name": "AMU",
+      "printed": "0.22590219Q-30",
+      "reconstructed": "2.259021874177218E-31",
+      "within_assumed_print_rounding": true
+    },
+    {
+      "name": "ALFP",
+      "printed": "0.18322115Q-01",
+      "reconstructed": "1.832211507605286E-2",
+      "within_assumed_print_rounding": true
+    },
+    {
+      "name": "ALFM",
+      "printed": "0.81283449Q-02",
+      "reconstructed": "8.128344941398045E-3",
+      "within_assumed_print_rounding": true
+    },
+    {
+      "name": "XI",
+      "printed": "0.16180340Q+01",
+      "reconstructed": "1.618033990000000E+0",
+      "within_assumed_print_rounding": true
+    }
+  ],
+  "all_rows_match": true,
+  "not_established": "IBM REAL*16 emulation, complete original executable, exact July26 run, book371 constant calibration, or empirical validity"
+}

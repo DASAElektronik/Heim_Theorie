@@ -2,7 +2,7 @@
 
 ## Aktueller Einstieg (2026-10-18)
 
-Massgeblich ist Etappe 40 in `RESUME.md`; die aeltere Detailhistorie folgt darunter.
+Massgeblich ist Etappe 42 in `RESUME.md`; die aeltere Detailhistorie folgt darunter.
 
 - [x] Einen H006-N0-Elektronfall getrennt gegen spaetere H010-Programme rechnen.
 - [x] Alpha3-Formeln, Alpha-/Konstanteneingaben und Rundung einzeln dokumentieren.
@@ -59,10 +59,19 @@ Massgeblich ist Etappe 40 in `RESUME.md`; die aeltere Detailhistorie folgt darun
 - [x] Konstantenkorrektur nach115 und Elektronenanker des Vermerks371:
   Eingaberollen und bedingte Inversion rekonstruiert; c-Druckkonsistenz positiv,
  29-Ladungsabweichung unter Editionsbrücke dokumentiert. FIND-050,360Tests.
-- [ ] Als nächste Einheit: ursprünglichen Konstantensatz und frühe29-/
-  Tabellenfassung lokalisieren, einschließlich Spur der Nachrechnung26.7.1982.
-  Ursache der Ladungsabweichung und vollständiger D_e-Inputvertrag offen;
-  keine stillen Korrekturen oder neue Kalibrierung mit Kandidatenwerten.
+- [x] Frühen H015-Konstantensatz und Ladungsformel im fotografierten GINIT
+  lokalisieren;17 Initialisierungszeilen innerhalb Druckrundung reproduziert.
+  ALFA/BETA feste Eingaben; FIND-051,364Tests. Keine vollständige Fassungsgleichheit.
+- [ ] Originale H004-Kalibrierung und genaue Verbindung zum Kontrolllauf26.7.1982
+  belegen. Ursache der Ladungsabweichung und vollständiger D_e-Inputvertrag
+  weiter offen; keine passenden Ersatzwerte oder stillen Korrekturen.
+- [x] H015-Elektron-N0-Zweig mit vorab fixiertem Zustand, GBASE/GSTRUC/GMASS
+  und Umrechnung gegen den fotografierten Ausdruck geprüft: Besetzungen und
+  Masse innerhalb Druckrundung reproduziert. Letzter Integer analytisch;
+  keine Compileremulation oder unabhängige physikalische Prüfung. FIND-052,369Tests.
+- [ ] Als nächste Einheit: Versionsbilanz desselben Elektronfalls über
+  H006/H015/H010 und korrigierten H004-Anhang. Belegte Eingaben/Formeln,
+  Ganzzahlbehandlung und fehlende Übergänge trennen; keine Zielwertkalibrierung.
 - [ ] Echte (79)-Fehlerfortpflanzung nur bei neuer r-/nu-/N4-, Parameter- und Normierungsbruecke aufnehmen; keine erfundene physikalische Fehlerschranke.
 - [ ] Nur bei neuem Beleg: genaue H006-Vorlage/Uebertragungskette oder autorisiertes Erratum klaeren; keine stillen Profilkorrekturen.
 

@@ -1,0 +1,39 @@
+{
+  "profile": "H015_photographed_GINIT_initialization_only",
+  "source": "H015 PDF5, GINIT1 ISN0006-0023; output PDF27; dates are inscriptions, not authentication",
+  "source_sha256": "C242599F7AAF68BB8E2F3C7756A24687E86FAD879E4D0E22C00585A32403317F",
+  "scope": "Static formulas replayed in Decimal; no historical program executed, no particle mass or matrix evaluation",
+  "inputs": {
+    "PI": "3.1415926535Q0",
+    "HQ": "1.0545887Q-34",
+    "C": "2.99792458Q8",
+    "GAM": "6.6732Q-11",
+    "RG": "376.73037659Q0",
+    "S0": "1.Q0",
+    "FAKMEV": "0.05609545Q31",
+    "XI": "1.61803399Q0",
+    "ALFA_inverse": "137.03602725Q0",
+    "BETA_inverse": "1.00001411Q0"
+  },
+  "printed_outputs": {
+    "PI": "3.14159265",
+    "EBN": "2.71828183",
+    "HQ": "0.10545887Q-33",
+    "C": "0.29979246Q+09",
+    "GAM": "0.66732000Q-10",
+    "RG": "376.73037659",
+    "S0": "1.00000000",
+    "FAKMEV": "0.56095450Q+30",
+    "ETA": "0.98998964Q+00",
+    "THETA": "0.79399127Q+01",
+    "EQ": "0.16021775Q-18",
+    "ALFA": "0.72973511Q-02",
+    "BETA": "0.99998589Q+00",
+    "AMU": "0.22590219Q-30",
+    "ALFP": "0.18322115Q-01",
+    "ALFM": "0.81283449Q-02",
+    "XI": "0.16180340Q+01"
+  },
+  "comparison": "Assumed nearest-last-digit rounding, half-unit intervals; outputs seen before replay, no blind prediction",
+  "not_established": "IBM REAL*16 emulation, complete original executable, exact July26 run, book371 constant calibration, or empirical validity"
+}

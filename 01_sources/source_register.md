@@ -6,6 +6,19 @@ Dieses Register sammelt Fundstellen. Lokale Kopien sollten nur abgelegt werden, 
 
 ## Enger Prüfstand 2026-10-18
 
+Etappe42: H015 PDF4/18 MAIN,5/21 GINIT,7/22 GBASE,23 GSTRUC,
+24 GMASS/ETAQK und27 E-Ausgabe vollständig visuell geprüft. Geladener
+Elektron-N0-Zweig mit festen H015-Inputs und analytischem letzten Integer
+lokal reproduziert. Keine Originaländerung; Hash bestätigt. Umfang:
+`03_notes/H015_ELECTRON_SOURCES_2026-10-18.md`.
+
+Etappe41: H015 PDF5/21 (GINIT),18 (MAIN),27 (Ausdruck) vollständig visuell
+geprüft, weitere Kontextseiten im Quellenumfang verzeichnet. Fotografierter
+Konstantensatz und17 Initialisierungszeilen lokal reproduziert; ALFA/BETA
+feste Kehrwerte. Unterschied zu H004371 und späterem H010 getrennt.
+Keine neue Quelle oder Originaländerung; Umfang und bestätigte Hashes:
+`03_notes/HISTORICAL_CONSTANTS_SOURCES_2026-10-18.md`.
+
 Etappe40: H004253,301-302,344,348-349,371; H003242,247-248;
 M00615 vollständig visuell geprüft. Rückrechnung mit empirischem e/m_e
 belegt, bedingte29-Editionsbrücke getrennt dokumentiert. Quellen unverändert;

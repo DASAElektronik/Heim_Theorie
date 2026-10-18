@@ -3,7 +3,26 @@
 Isolierter, reproduzierbarer Konsistenztest der 1982/1989-Alpha-Bloecke in den
 lokalen IGW-Wiedergaben. Python >= 3.10; nur Standardbibliothek erforderlich.
 
-## Etappe40: Konstantenkorrektur (aktueller Stand)
+## Etappe42: H015-Elektron-N0 (aktueller Stand)
+
+[Bericht](../../06_docs/H015_ELECTRON_2026-10-18.md): Eigene Rekonstruktion
+aus MAIN/GINIT/GBASE/GSTRUC/GMASS ergibt die fotografierten Besetzungen
+und0.5110032557257554 MeV gegenüber0.51100326 im Ausdruck. Druckrundung
+vereinbar; letzter Integer aus exakter W4-Identität, keine Compileremulation.
+Fünf neue Tests/369gesamt; FIND-052 positiv. Alte Profile bleiben erhalten.
+Weiter: Versionsbilanz desselben Elektronfalls H006/H015/H010/H004.
+
+## Etappe41: Fotografierter Konstantensatz (vorheriger Stand)
+
+[Bericht](../../06_docs/HISTORICAL_CONSTANTS_2026-10-18.md): H015 GINIT und
+Ausdruck lokal verbunden;17 Initialisierungszeilen innerhalb Druckrundung
+reproduziert. ALFA/BETA sind feste Kehrwerte. Ladungsformel entspricht29,
+Konstantensatz weicht vom korrigierten Buchanhang ab; dessen Kalibrierung
+und kleine Ladungsdifferenz bleiben offen. Separater Rechner/Input/Ergebnis,
+vier neue Tests/364gesamt, FIND-051 positiv; alte Profile erhalten.
+Weiter: H015-Elektron-N0-Zweig gegen den fotografierten Ausdruck prüfen.
+
+## Etappe40: Konstantenkorrektur (vorheriger Stand)
 
 [Bericht](../../06_docs/CONSTANTS_ANCHOR_2026-10-18.md): Rückrechnung aus
 gemessenem e,m_e,hbar,c ausdrücklich belegt; bedingte Massenskaleninversion

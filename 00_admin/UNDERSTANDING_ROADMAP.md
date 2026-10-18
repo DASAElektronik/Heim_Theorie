@@ -25,6 +25,25 @@ Ergebnis; sie werden nicht als stillschweigende Definitionen behandelt.
 
 ## Naechste begrenzte Arbeitseinheit
 
+Nach [Etappe42](../06_docs/H015_ELECTRON_2026-10-18.md): **Versionsbilanz
+desselben Elektronfalls** über H006, fotografiertes H015, spätere H010-
+Programme und korrigierten H004-Anhang. Formeln, Eingaben und Integerregeln
+von offenen Übergängen trennen. H015-Ausgabe und Besetzungen sind lokal
+reproduziert;369Tests bestanden. Das erklärt noch nicht die H004-Kalibrierung
+oder ursprüngliche F_S-Datenprovenienz. Keine neue Zielwertanpassung.
+
+## Historischer Einzelauftrag der Etappe41 (in Etappe42 bearbeitet)
+
+Nach [Etappe41](../06_docs/HISTORICAL_CONSTANTS_2026-10-18.md): **Elektron-N0-
+Zweig des fotografierten H015-Programms**. Zustand, GBASE/GMASS und Umrechnung
+vorab quellengebunden festhalten, dann gegen den historischen Ausdruck prüfen.
+Der Initialisierungsblock ist mit17 passenden Druckzeilen reproduziert;
+ALFA/BETA bleiben feste Eingaben.364Tests bestanden. Das bestätigt lokal
+den Rechenstand, liefert aber keinen unabhängigen physikalischen Vorhersagetest.
+Die H004-Kalibrierung und F_S-Eingabeprovenienz bleiben separat offen.
+
+## Historischer Einzelauftrag der Etappe40 (in Etappe41 teilweise bearbeitet)
+
 Nach [Etappe40](../06_docs/CONSTANTS_ANCHOR_2026-10-18.md): **Originalen
 Konstantensatz und frühe29-/Tabellenfassung lokalisieren**, einschließlich
 der auf371 genannten Nachrechnung26.7.1982. Die Rückrechnung mit gemessener
