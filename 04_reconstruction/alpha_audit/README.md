@@ -3,7 +3,26 @@
 Isolierter, reproduzierbarer Konsistenztest der 1982/1989-Alpha-Bloecke in den
 lokalen IGW-Wiedergaben. Python >= 3.10; nur Standardbibliothek erforderlich.
 
-## Etappe38: Massenformelkette (aktueller Stand)
+## Etappe40: Konstantenkorrektur (aktueller Stand)
+
+[Bericht](../../06_docs/CONSTANTS_ANCHOR_2026-10-18.md): Rückrechnung aus
+gemessenem e,m_e,hbar,c ausdrücklich belegt; bedingte Massenskaleninversion
+rekonstruiert. Druckrundung erlaubt c/epsilon0/mu0, erklärt aber die kleine
+Ladungsabweichung unter der H003(29)-Brücke nicht. Keine empirische Widerlegung
+oder vollständige numerische Kalibrierung behauptet. Neuer separater
+Diagnosecode, sechs neue Tests/360gesamt; alte Profile erhalten.
+Weiter: originaler Konstantensatz und frühe29-/Tabellenfassung.
+
+## Etappe39: F_S-Provenienz (vorheriger Stand)
+
+[Bericht](../../06_docs/FS_PROVENANCE_2026-10-18.md):17 Komponenten anhand
+101a/b identifiziert, PDG1974-Massen als historische Referenz transkribiert.
+Die genaue ursprüngliche F_S-Eingabeliste bleibt offen. Y41-44=1 ist
+Tabellenannahme der Einführung, keine unabhängige Deduktion oder freie
+Fitwahl. Kein neuer Rechner, keine geänderten Inputs oder Ergebnisse.
+Weiter: Konstantenkorrektur nach115 mit Elektronenanker aus371.
+
+## Etappe38: Massenformelkette (vorheriger Stand)
 
 [Bericht](../../06_docs/MASS_CHAIN_2026-09-07.md): Exakte Identität
 4sum(alpha_jG_j)=K+F+H und97/phi-Umformung zu112 bestätigt. F_S bleibt

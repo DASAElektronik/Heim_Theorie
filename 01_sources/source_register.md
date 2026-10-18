@@ -1,10 +1,25 @@
 # Quellenregister
 
-Stand: 2026-09-07 (Grundinventar: 2026-05-14).
+Stand: 2026-10-18 (Grundinventar: 2026-05-14).
 
 Dieses Register sammelt Fundstellen. Lokale Kopien sollten nur abgelegt werden, wenn die Quelle oeffentlich zugaenglich ist und der Zweck Forschung/Archivierung ist. Bei urheberrechtlich unklaren Quellen reicht ein Link plus Exzerptnotiz.
 
-## Enger Pruefstand 2026-09-07
+## Enger Prüfstand 2026-10-18
+
+Etappe40: H004253,301-302,344,348-349,371; H003242,247-248;
+M00615 vollständig visuell geprüft. Rückrechnung mit empirischem e/m_e
+belegt, bedingte29-Editionsbrücke getrennt dokumentiert. Quellen unverändert;
+Umfang und Hashes: `03_notes/CONSTANTS_ANCHOR_SOURCES_2026-10-18.md`.
+
+Etappe39: H004 Einführung1-3,288-291,335-336,339,342-343,355,
+Tabellenanhang371-376 und Impressum vollständig visuell geprüft.
+17 Komponenten identifiziert; Y41-44=1 für Tabellen belegt. M006 neu
+aus offiziellem Archiv importiert, Titel/Einführung und Stable Particle
+Table1-3 samt Fußnoten5 visuell gelesen. Referenzwerte keine gesicherten
+originalen F_S-Eingaben. Umfang, Dateipfad, Abrufdatum und Hash:
+`03_notes/FS_PROVENANCE_SOURCES_2026-10-18.md`. H004 unverändert.
+
+## Vorheriger enger Pruefstand 2026-09-07
 
 Etappe38: Root-Vollsicht H004 Druck253,276-278,323,342-344; zusätzliche
 Detailkontrolle vonK/112a undB_v. Exakte98e->112-Zerlegung und97-Skala
@@ -280,6 +295,7 @@ Keine neuen Quellen oder stillen Rechenprofilwechsel; Umfang/Hashes:
 | M003 | HEP-Datentabellen | HEPData repository for publication-related High-Energy Physics data | https://www.hepdata.net/ | gefunden |
 | M004 | Rohdaten | CERN Open Data Portal | https://opendata.cern.ch/ | gefunden |
 | M005 | Historische Primaerreferenz, englische Fassung | Louis de Broglie: The wave nature of the electron, Nobel Lecture12.12.1929 | https://www.nobelprize.org/uploads/2016/04/broglie-lecture.pdf | Druck247-249/PDF4-6 visuell geprueft; Hash/Umfang in03_notes/WAVE_REFERENCE_2026-09-06.md |
+| M006 | Historische Messdatenzusammenstellung | Particle Data Group: Review of Particle Properties, Physics Letters50B Nr.1, April1974 | https://pdg.lbl.gov/rpp-archive/files/Physics-Letters-B-1974-v50.pdf | Abgerufen2026-10-18; lokal mainstream_reference/PDG_1974_Review_of_Particle_Properties.pdf; Grundmassentabelle visuell geprüft; kein Beweis der originalen F_S-Eingaben; Hash/Scope in03_notes/FS_PROVENANCE_SOURCES_2026-10-18.md |
 
 ## Prioritaet fuer lokale Ablage
 

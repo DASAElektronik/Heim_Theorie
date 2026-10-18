@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-09-07",
+  "updated": "2026-10-18",
   "scope": "Bisher gepruefter Alpha-/H-Ausschnitt. Befundgruppen sind weder Fehlerzaehlung noch statistisch unabhaengige Experimente. Kein Gesamturteil zur Heim-Theorie.",
   "findings": [
     {
@@ -626,6 +626,40 @@
       "evidence_paths": ["00_admin/MASS_CHAIN_PLAN.md", "06_docs/MASS_CHAIN_2026-09-07.md", "03_notes/MASS_CHAIN_SOURCES_2026-09-07.md", "04_reconstruction/alpha_audit/reviews/MASS_CHAIN_SOURCE_REVIEW_2026-09-07.md", "04_reconstruction/alpha_audit/reviews/MASS_CHAIN_FS_REVIEW_2026-09-07.md", "04_reconstruction/alpha_audit/reviews/MASS_CHAIN_ALGEBRA_REVIEW_2026-09-07.md", "tests/test_mass_chain.py"],
       "reproduction": "py -3.13 -B -m unittest discover -s tests -p test_mass_chain.py -v:12 neueTests;354Gesamttests,12alteSnapshotchecks und5Zusatzchecks bestanden. Root wiederholt unabhängigen1841-Kontrollenblock; neuerCode benutzt zusätzliche Polynom-Multiplikation und rationale Zeugen, intern gegengelesen. Acht Root-Originalseiten, dreiReviews, Abschlussgegenreview; H004-SHA256 unverändert. Alte Rechner/Inputs/Snapshots/49CSV erhalten. Keine neue externe Quelle oder PeerReview; Tests und Metadatenvalidator beweisen keine physikalische Wahrheit.",
       "next_check": "Konkrete Quellenprovenienz der17 F_S-Ausgangswerte und Y41-44-Festlegung erfassen: damalige Massenbelege, Eingaberollen und gemeinsame Funktionsannahmen. Zunächst keine neue Kalibrierung, freie Rest-/A-/Y-Wahl oder moderne Messdatenbewertung."
+    },
+    {
+      "finding_id": "FIND-049",
+      "kind": "source_definition",
+      "claim": "Die17 aufH004342 genannten F_S-Komponenten sind aus101a/b nachzählbar. Für die Buchtabellen gilt ausdrücklich Y41-44=1. Eine passende PDG1974-Massentabelle ist lokalisiert; die originale zeilenweise F_S-Eingabeliste ist damit noch nicht nachgewiesen.",
+      "source_ids": [
+        "H004",
+        "M006"
+      ],
+      "source_locator": "H004 Einführung1-3/PDF12-14;288-291/PDF294-297;335-336/PDF341-342;339/PDF345;342-343/PDF348-349;355/PDF361;371-376/PDF376-381;Impressum/PDF4. M006 Titel/Einführung PDF2-3;Stable Particle Table Druck1-3/PDF20-22 und Fußnoten Druck5/PDF24. Alle genannten Seiten vollständig visuell gelesen.",
+      "assumptions": "Quellenzählung mit mu- als einmaligem Pseudosingulett, Ausschluss von e0 und v11/12. Historische PDG-Tabelle als Referenzkandidat, nicht als freigegebener F_S-Rechnerinput. Allgemeine Y_k=1-Annahme der Einführung auf111a/b bezogen; keine unabhängige Deduktion behauptet.",
+      "scope": "17 Komponenten ergeben16 Buch-Masseneinträge wegen gemeinsamem pi±. Die1974-Verweise betreffen Koeffizienten/Resonanzen und liefern keine explizite F_S-Zeilenprovenienz. H004371-376 enthält theoretische Ergebnisse;371 nennt eine Konstantenkorrektur mithilfe29/112 für das Elektron. Y41-44 stehen in F2,Fq,F_kappa,B_v und sind für den Tabellenstand1. Numerische Annahme von physikalischer Herleitung und ursprünglicher Funktionsauswahl getrennt.",
+      "not_established": "Kein vollständiger originaler F_S-Datensatz, keine statistische Unabhängigkeit17fach, kein Nachweis vier frei optimierter Parameter, keine Rekonstruktion der Konstantenkorrektur, keine neue Masse oder moderne Datenbewertung. Keine Identität des späteren Druckstands mit dem1981 eingereichten Manuskript. Keine neue Theoriefehlerzählung, kein unabhängiger Vorhersagetest oder PeerReview.",
+      "evidence_paths": [
+        "00_admin/FS_PROVENANCE_PLAN.md",
+        "06_docs/FS_PROVENANCE_2026-10-18.md",
+        "03_notes/FS_PROVENANCE_SOURCES_2026-10-18.md",
+        "01_sources/source_register.md"
+      ],
+      "reproduction": "Ein Agent,20 H004-Seiten und6 PDG-Seiten vollseitig visuell gelesen. Massen/Fehler/S-Faktoren gegenPDG-Scan transkribiert,17-Komponentenliste gegen101b kontrolliert. H004-Hash unverändert; M006-Hash und Abruf dokumentiert. Keine neue Testlogik, kein alter Rechner/Input/Snapshot und keine49Normalisierungen geändert. Metadatenprüfung und bestehende Regression prüfen Integrität, nicht die Wahrheit der Quelleninterpretation.",
+      "next_check": "H004-Konstantenkorrektur nach115 und Elektronenanker des Vermerks371 quellengetreu rekonstruieren. Nach ursprünglicher F_S-Arbeitstabelle samt verwendeter Koeffizienten-/Konstantenfassung suchen. Erst danach gegebenenfalls begrenzten Rückrechnungsvertrag festlegen; keine freie Kalibrierung oder moderne Ersatzdaten."
+    },
+    {
+      "finding_id": "FIND-050",
+      "kind": "source_definition",
+      "claim": "H004349/371 beschreibt ausdrücklich eine Konstantenrückrechnung aus empirischer Elektronenmasse und Ladung mit hbar,c. Eine anschließende Reproduktion dieser Anker ist kein unabhängiger Vorhersagetest. Die bedingte algebraische Inversion ist rekonstruierbar; vollständige historische Eingaben bleiben offen.",
+      "source_ids": ["H003", "H004", "M006"],
+      "source_locator": "Vollständige visuelle Sicht: H004253/PDF259 (97),301-302/PDF307-308 (29/105),344/PDF350 (112),348-349/PDF354-355 (115/Rückrechnung),371/PDF376 (Endwerte). H003242/PDF248 (R_-),247-248/PDF253-254 (eta/29). M00615/PDF34 (Konstanten und Standardunsicherheiten).",
+      "assumptions": "Eigener dimensionsloser Faktor D_e=alpha_+(K_e+phi_e)>0 bedingt fest, s0=1m. Keine neue F_S-Extraktion; diese könnte D_e ändern. H0031998(29) als ausdrücklich benannte Brücke zu H0041996. Gedruckte Endwerte hypothetisch zur nächsten letzten Stelle gerundet, keine Messfehlerintervalle. Historisches c ausPDG1974 als Referenz, nicht als bewiesener Originalinput.",
+      "scope": "gamma=pi^(7/2)hbar^5D_e^6/(3c^3s0^4m_e^6); R_-=9vartheta hbar/(8pi^4e^2), epsilon0=1/(cR_-), mu0=R_-/c. Exakter rationaler Druckbereich erlaubt c²epsilon0mu0=1. Bedingte29-Brücke liefert aus371-Endwerten e=1.60218938759e-19 statt1.602188e-19C, etwa0.866ppm; numerisch keine Überlappung der angenommenen Rundungsbereiche. Kleiner als damalige Ladungsunsicherheit, keine empirische Widerlegung.105 korrigiert29a;29 wird301 weiterverwendet. Sensitivitäten belegen keine automatische gleiche Genauigkeit.",
+      "not_established": "Keine vollständige numerische Reproduktion der gamma-Korrektur, originaler ungerundeter Eingabensatz, unabhängige D_e-Herleitung, neue Masse oder Kalibrierung. Ursache der bedingten Ladungsabweichung, exakte historische Editionsbrücke, autorisiertes Erratum und Kovarianzen offen. Keine Gesamtwiderlegung, keine moderne Datenbewertung oder unabhängige Begutachtung.50 Befundgruppen sind nicht50 Fehler.",
+      "evidence_paths": ["00_admin/CONSTANTS_ANCHOR_PLAN.md", "03_notes/CONSTANTS_ANCHOR_SOURCES_2026-10-18.md", "06_docs/CONSTANTS_ANCHOR_2026-10-18.md", "scripts/audit_constants_anchor.py", "tests/test_constants_anchor.py", "05_analysis/constants_anchor_results.json"],
+      "reproduction": "Elf vollständige Originalseiten, drei Quellhashes bestätigt. Sechs neue Tests,360 insgesamt bestanden; Inversion gegen ursprüngliche97 mit synthetischen Werten und Dimensionen geprüft. Diagnose bei60/90 Dezimalstellen stabil; unquadrierte29 separat mit math gegengerechnet. c-Produktbereich rational exakt; irrationale Endpunkte keine zertifizierte Intervallrechnung.49 vorherige Registereinträge exakt erhalten; alte Rechner/Inputs/Ergebnisse/49CSV unverändert. Ein Agent; Quelleninterpretation wird nicht durch Tests bewiesen.",
+      "next_check": "Ursprünglichen Konstantensatz und29-/Tabellenfassung des frühen Rechenstands lokalisieren, einschließlich der auf371 genannten Nachrechnung vom26.7.1982. Bedingte Ladungsabweichung auf Editions-/Übertragungsursache prüfen. Vollständigen D_e-/Inputvertrag vor numerischer historischer Kalibrierung belegen; keine passenden Ersatzwerte wählen."
     }
   ]
 }

@@ -62,3 +62,6 @@ coverage/
 *.xlsx
 *.doc
 *.docx
+
+# Curated project-authored overview; third-party source PDFs remain ignored.
+!output/pdf/Heim_Audit_Ueberblick_2026-10-18.pdf

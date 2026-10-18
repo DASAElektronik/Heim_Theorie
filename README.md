@@ -40,6 +40,32 @@ Kann aus Heims Original- bzw. nahen Quellen eine reproduzierbare, parameterarme 
 
 ## Aktueller Arbeitsmodus
 
+[Grafischer Überblick als PDF](output/pdf/Heim_Audit_Ueberblick_2026-10-18.pdf)
+und [drei Grafiken mit Erläuterungen](07_outputs/figures/README.md)
+fassen die Etappen39/40 zusammen. Die PDF ist eine datierte Übersicht;
+die vollständigen Quellen- und Rechendetails stehen in den Berichten.
+
+Stand 2026-10-18, Etappe 40:
+[Konstantenkorrektur und Elektronenanker](06_docs/CONSTANTS_ANCHOR_2026-10-18.md).
+H004349/371 beschreibt ausdrücklich die Rückrechnung aus gemessener Masse
+und Ladung. Der spätere Elektronentreffer ist damit kein unabhängiger Test.
+Massenskaleninversion rekonstruiert; c/epsilon0/mu0 bei Druckrundung vereinbar.
+Die bedingte29-Editionsbrücke liefert eine kleine Ladungsabweichung zur
+Tabelle, keine empirische Widerlegung.360Tests bestanden.
+Weiter: originalen Konstantensatz und frühe29-/Tabellenfassung belegen;
+vollständige historische Kalibrierung bleibt offen.
+
+## Verlauf: Etappe39
+
+Stand 2026-10-18, Etappe 39: [F_S-Provenienz](06_docs/FS_PROVENANCE_2026-10-18.md).
+Die 17 Komponenten sind über101a/b nachgezählt; historische Massen und
+Fehler aus PDG1974 als Referenzkandidaten erfasst. Die genaue ursprüngliche
+F_S-Eingabeliste bleibt offen. Y41-44=1 ist durch die allgemeine
+Tabellenannahme der Einführung belegt, keine unabhängige Deduktion.
+Weiter: Konstantenkorrektur nach115 und Elektronenanker des Vermerks371.
+
+## Verlauf: Etappe38
+
 Stand2026-09-07, Etappe38: [Massenformelkette](06_docs/MASS_CHAIN_2026-09-07.md).
 Die Zerlegung4sum(alpha_jG_j)=K+F+H und der Übergang von98d/e zu112
 über97/phi sind exakt algebraisch bestätigt. Die FunktionF_S wird dagegen

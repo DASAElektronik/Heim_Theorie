@@ -1,8 +1,69 @@
 # Wiedereinstieg
 
-Aktualisiert: 2026-09-07.
+Aktualisiert: 2026-10-18.
 
-## Aktuell: Etappe 38 abgeschlossen
+Grafischer Einstieg: `output/pdf/Heim_Audit_Ueberblick_2026-10-18.pdf`
+(zwei Seiten), drei SVGs mit Erläuterungen unter `07_outputs/figures/`.
+Generator `scripts/build_audit_overview.py`; eigene Übersicht zu Etappen39/40,
+keine neue Forschungsrechnung. PDF-Seiten visuell geprüft.
+
+## Aktuell: Etappe 40 abgeschlossen
+
+Ausgang `442adf7` plus uncommittierter Etappe39; beide erhalten.
+Vertrag `CONSTANTS_ANCHOR_PLAN.md`; Bericht
+`06_docs/CONSTANTS_ANCHOR_2026-10-18.md`, Quellenumfang
+`03_notes/CONSTANTS_ANCHOR_SOURCES_2026-10-18.md`.
+
+- H004349/371 beschreibt die Rückrechnung aus empirischem e,m_e,hbar,c.
+  Nachkalibrierter Elektronentreffer ist kein unabhängiger Vorhersagetest.
+- Eigene Inversion: gamma=pi^(7/2) hbar^5 D_e^6/(3 c^3 s0^4 m_e^6),
+  nur bei festem D_e. F_S-Neuextraktion kann diese Voraussetzung ändern.
+- Über die benannte H003(29)-Editionsbrücke folgt R_- aus e,hbar;
+  epsilon0=1/(cR_-), mu0=R_-/c. H004301 verwendet29 weiterhin.
+- Gedruckte epsilon0/mu0 sind mit historischem c bei Druckrundung vereinbar.
+ 29 liefert dagegen e≈1.60218938759e-19 statt1.602188e-19 C:
+  etwa0.866 ppm, keine Überlappung der angenommenen Druckrundungsbereiche.
+  Bedingter Darstellungsbefund, kleiner als damalige Messunsicherheit;
+  keine stille Korrektur, kein bestätigtes Erratum oder empirische Widerlegung.
+- Originale ungerundete Eingaben und vollständiger D_e-Rechenstand offen.
+  Keine neue Massenkalibrierung oder numerische Reproduktion von gamma behauptet.
+- Elf vollständige Originalseiten gelesen; drei Quellhashes bestätigt.
+  Sechs neue Tests,360 insgesamt bestanden.49 Altbefunde erhalten;
+  FIND-050 Quellenbefund, keine neue Fehlerzählung. Ein Agent.
+  Alte Rechner/Inputs/Ergebnisse/49CSV erhalten. Kein Commit/Push.
+
+Nächster Einzelauftrag: ursprünglichen Konstantensatz und29-/Tabellenfassung
+des frühen Rechenstands lokalisieren, auch zur auf371 erwähnten Nachrechnung
+vom26.7.1982. Editions-/Rundungserklärung prüfen, ohne passende Werte zu wählen.
+Erst mit vollständigem D_e-/Inputvertrag historische Kalibrierung nachrechnen.
+
+## Verlauf: Etappe 39 abgeschlossen
+
+Ausgang `442adf7`; Vertrag `FS_PROVENANCE_PLAN.md`.
+Bericht `06_docs/FS_PROVENANCE_2026-10-18.md`, Quellenumfang
+`03_notes/FS_PROVENANCE_SOURCES_2026-10-18.md`.
+
+- 17 Komponenten anhand101a/b nachgezählt; e0 und v11/12 ausgeschlossen.
+  pi± ist ein gemeinsamer Masseneintrag; keine17 unabhängigen Messungen behauptet.
+- M006: offizielle PDG-Ausgabe April1974 lokal importiert. Passende Massen
+  und Fehler als historische Referenz transkribiert, nicht als Rechnerinput.
+  Die ausdrücklichen1974-Verweise betreffen Koeffizienten/Resonanzen;
+  genaue F_S-Einzelwertprovenienz bleibt offen.
+- Einführung1 setzt für die Buchtabellen alleY_k=1, damit auchY41-44.
+  Deren numerische Tabellenannahme geklärt; Deduktion und Fitgeschichte offen.
+- Anhang371-376 enthält theoretische Ausgaben.371 nennt Konstantenkorrektur
+  mit29/112 für das Elektron; keine Herkunft der17 empirischen F_S-Werte.
+- 20 H004-Seiten und6 PDG-Seiten vollständig visuell geprüft, ein Agent.
+  H004-Hash erhalten. FIND-049 dokumentiert Provenienz, keinen neuen Fehler.
+  Keine alten Rechner, Inputs, Ergebnisse oder49 Normalisierungen geändert.
+- 354 bestehende Tests und Registervalidator bestanden;48 Altbefunde
+  exakt erhalten, Diff und neue lokale Links geprüft. Kein Commit/Push.
+
+Nächster Einzelauftrag: Konstantenkorrektur nach115 und Elektronenanker
+des Vermerks371 quellengetreu rekonstruieren. Nach ursprünglicher
+F_S-Arbeitstabelle weiter suchen; keine Rückrechnung mit ungeklärten Inputs.
+
+## Verlauf: Etappe 38 abgeschlossen
 
 Ausgang `06952db`, Plancheckpoint `427868c`; Vertrag `MASS_CHAIN_PLAN.md`.
 Bericht `06_docs/MASS_CHAIN_2026-09-07.md`, Scope

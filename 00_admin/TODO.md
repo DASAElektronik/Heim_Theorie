@@ -1,8 +1,8 @@
 # TODO
 
-## Aktueller Einstieg (2026-09-07)
+## Aktueller Einstieg (2026-10-18)
 
-Massgeblich ist Etappe 38 in `RESUME.md`; die aeltere Detailhistorie folgt darunter.
+Massgeblich ist Etappe 40 in `RESUME.md`; die aeltere Detailhistorie folgt darunter.
 
 - [x] Einen H006-N0-Elektronfall getrennt gegen spaetere H010-Programme rechnen.
 - [x] Alpha3-Formeln, Alpha-/Konstanteneingaben und Rundung einzeln dokumentieren.
@@ -51,8 +51,18 @@ Massgeblich ist Etappe 38 in `RESUME.md`; die aeltere Detailhistorie folgt darun
   rekonstruieren: algebraische Umformung, empirische Bestimmung und
   verbleibende Funktionsannahmen trennen; keine Massenkalibrierung,
   Rest- oder Zielwertanpassung. Identitäten bestätigt;FIND-048,354Tests.
-- [ ] Provenienz der17 F_S-Ausgangspunkte und Y41-44-Festlegung suchen;
-  damalige Belege/Eingaberollen, keine neue Kalibrierung oder moderne Empirie.
+- [x] F_S-Komponenten über101a/b nachzählen und Y41-44-Tabellenannahme
+  prüfen:17 Komponenten, alleY=1. PDG1974 als historische Referenz mit
+  Massen/Fehlern erfasst; keine bewiesene originale F_S-Eingabeliste. FIND-049.
+- [ ] Ursprüngliche F_S-Arbeitstabelle samt tatsächlich benutzten Messwerten,
+  Konstanten und Koeffizientenfassung belegen; keine Kandidatendaten als gesichert einsetzen.
+- [x] Konstantenkorrektur nach115 und Elektronenanker des Vermerks371:
+  Eingaberollen und bedingte Inversion rekonstruiert; c-Druckkonsistenz positiv,
+ 29-Ladungsabweichung unter Editionsbrücke dokumentiert. FIND-050,360Tests.
+- [ ] Als nächste Einheit: ursprünglichen Konstantensatz und frühe29-/
+  Tabellenfassung lokalisieren, einschließlich Spur der Nachrechnung26.7.1982.
+  Ursache der Ladungsabweichung und vollständiger D_e-Inputvertrag offen;
+  keine stillen Korrekturen oder neue Kalibrierung mit Kandidatenwerten.
 - [ ] Echte (79)-Fehlerfortpflanzung nur bei neuer r-/nu-/N4-, Parameter- und Normierungsbruecke aufnehmen; keine erfundene physikalische Fehlerschranke.
 - [ ] Nur bei neuem Beleg: genaue H006-Vorlage/Uebertragungskette oder autorisiertes Erratum klaeren; keine stillen Profilkorrekturen.
 

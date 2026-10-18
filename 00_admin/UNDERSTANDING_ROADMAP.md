@@ -1,6 +1,6 @@
 # Verstaendnis vor externer Bewertung
 
-Stand: 2026-09-07. Ausdrueckliche Nutzerreihenfolge: erst die Theorie verstehen,
+Stand: 2026-10-18. Ausdrueckliche Nutzerreihenfolge: erst die Theorie verstehen,
 danach neuere Arbeiten auf Widerlegung und moegliche neue Ansaetze pruefen.
 Das laufende Projekt beginnt bei Alpha/Massenformel; daraus darf kein bereits
 vollstaendiges Verstaendnis der Gesamttheorie abgeleitet werden.
@@ -24,6 +24,25 @@ sinnvoll und unabhaengige Gegenpruefung. Dokumentierte Luecken sind ein
 Ergebnis; sie werden nicht als stillschweigende Definitionen behandelt.
 
 ## Naechste begrenzte Arbeitseinheit
+
+Nach [Etappe40](../06_docs/CONSTANTS_ANCHOR_2026-10-18.md): **Originalen
+Konstantensatz und frühe29-/Tabellenfassung lokalisieren**, einschließlich
+der auf371 genannten Nachrechnung26.7.1982. Die Rückrechnung mit gemessener
+Elektronenmasse/Ladung ist belegt und algebraisch rekonstruiert. Ein
+vollständiger historischer D_e-/Inputvertrag fehlt. Gedrucktes c/epsilon0/mu0
+bei Rundung konsistent; bedingte29-Ladungsabweichung bleibt zu erklären.
+Keine neue Kalibrierung oder Auswahl passender Ersatzwerte.360Tests bestanden.
+
+## Historischer Einzelauftrag der Etappe39 (in Etappe40 bearbeitet)
+
+Nach [Etappe39](../06_docs/FS_PROVENANCE_2026-10-18.md): **Konstantenkorrektur
+nach(115) und ihr Elektronenanker**, mit dem Vermerk auf371 verbinden.
+Die17 Komponenten sind identifiziert, Y41-44=1 als Tabellenannahme belegt.
+PDG1974 liefert historische Referenzwerte; Heims tatsächlich verwendete
+F_S-Einzelwerte und ihr vollständiger Rechenvertrag bleiben offen.
+Keine neue Kalibrierung oder moderne Messdatenbewertung.
+
+## Historischer Einzelauftrag der Etappe38 (in Etappe39 bearbeitet)
 
 Nach [Etappe38](../06_docs/MASS_CHAIN_2026-09-07.md): **Provenienz des
 F_S-Ansatzes**, seiner17 Ausgangspunkte und der Y41-44-Festlegung.
