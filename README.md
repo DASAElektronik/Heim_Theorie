@@ -45,7 +45,13 @@ und [drei Grafiken mit Erläuterungen](07_outputs/figures/README.md)
 fassen die Etappen39/40 zusammen. Die PDF ist eine datierte Übersicht;
 die vollständigen Quellen- und Rechendetails stehen in den Berichten.
 
-Stand 2026-10-18, Etappe46:
+Stand 2026-10-18, Etappe47:
+[Xi-Integerfehler eingegrenzt](06_docs/XI_INTEGER_2026-10-18.md):
+Die vorgezogene Division ergibt0 statt1/2; nur Xi weicht unter zwölf
+Grundmustern von der CS-/Ladungstabelle ab. KQ-Eingaben werden vertauscht;
+Massenfolgen noch separat zu prüfen.55 Befunde,377 Tests bestanden.
+
+Vorheriger Stand, Etappe46:
 [DESY-Bestand nach Dokumenten getrennt](06_docs/DESY_COLLECTION_2026-10-18.md):
 127 Fotos gehasht, fünf Formelblätter H015 zugeordnet. Programmfassungen
 unterscheiden sich; ein Xi-Korrekturblatt eröffnet eine konkrete Integerprüfung.

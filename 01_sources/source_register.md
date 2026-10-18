@@ -6,6 +6,10 @@ Dieses Register sammelt Fundstellen. Lokale Kopien sollten nur abgelegt werden, 
 
 ## Enger Prüfstand 2026-10-18
 
+Etappe47: H01748/57/59/103, H006 PDF2/3 und H015 PDF18/24 vollständig
+visuell gelesen; Xi-Integerpfad mit zwölf Tabellenzeilen verglichen.
+Umfang: `06_docs/XI_INTEGER_2026-10-18.md`. H006/H015-Hashes bestätigt.
+
 Etappe46: H017 mit127 Archivfotos inventarisiert und gehasht;19 ganze Fotos
 gelesen, übrige als Navigationsübersichten. H015 PDF39–43 visuell zugeordnet;
 Programmstände getrennt. Umfang: `06_docs/DESY_COLLECTION_2026-10-18.md`.

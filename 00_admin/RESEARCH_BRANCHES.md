@@ -36,3 +36,7 @@ Messgrößenzuordnung ist eine alternative Verständnisfrage vor externer Bewert
 Einheit46: H01757 nennt einen Xi-Programmierfehler. Vorrangiger konkreter
 Abzweig: Integerauswertung von MAIN ISN0030/0035 samt KQ-Datenfluss prüfen.
 Die alternative Neutrino-Messgrößenfrage bleibt danach offen.
+
+Einheit47: Xi-Integerursache exakt bestätigt; von zwölf Grundmustern nur x9
+betroffen. Rückkehrpunkt: KQ-Umordnung nachweisen oder zusätzliche
+Komponentenabhängigkeit finden, bevor eine Massenänderung behauptet wird.
