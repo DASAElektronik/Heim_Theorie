@@ -45,7 +45,12 @@ und [drei Grafiken mit Erläuterungen](07_outputs/figures/README.md)
 fassen die Etappen39/40 zusammen. Die PDF ist eine datierte Übersicht;
 die vollständigen Quellen- und Rechendetails stehen in den Berichten.
 
-Stand 2026-10-18, Etappe51:
+Stand 2026-10-18, Etappe52:
+[Buchinterner Faktor-zwei-Befund](06_docs/NEUTRINO_BOOK_ALGEBRA_2026-10-18.md):
+111 und118b stimmen für e/mu überein; beim pi-Zustand weicht nur der
+nichtkonstante Anteil ab.58 Befunde;385 Tests bestanden.
+
+Vorheriger Stand, Etappe51:
 [Buchzustände und historischer Messverweis](06_docs/NEUTRINO_BOOK_2026-10-18.md):
 Der Portfilter hat ein Quellenmotiv im Buch. Der dort zitierte Versuch
 liefert eine bedingte Obergrenze, keinen gemessenen Treffer bei4,006eV.

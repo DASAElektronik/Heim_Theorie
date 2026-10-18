@@ -60,3 +60,7 @@ Nächster Quellenweg: H004351-354, Neutrinointerpretation und Messverweis.
 Einheit51: Buchfilter begründet, historischer Messverweis als Obergrenze
 identifiziert. Messgrößenbrücke und M007-Volltext offen. Nächste konkrete
 Prüfung: H004111 zu118b, bevor neue historische Zahlen berechnet werden.
+
+Einheit52: pi-Vorfaktor111/118b bei Y1 lokal inkonsistent, e/mu als
+Kontrollen passend. Keine vollständige Masse verdoppeln. Weiter: eine
+skalenfreie Tabellenrelation kann die verwendete Lesart eingrenzen.

@@ -1308,6 +1308,27 @@
       ],
       "reproduction": "Quellen-/Metadatenprüfung;56 Altbefunde erhalten. Numerischer Stand381 Tests unverändert. Ein Agent.",
       "next_check": "H004111/111a gegen118b bei den angegebenen neutralen Zuständen prüfen; Port und H007 separat halten."
+    },
+    {
+      "finding_id": "FIND-058",
+      "kind": "local_contradiction",
+      "claim": "H004111/111a liefert im neutralen k1-P2-Q0-kappa0-Zustand beim belegten Y=1-Profil den pi-Vorfaktor8, während118b4 druckt. Der additive2B_v-Term bleibt gleich; e/mu stimmen als Kontrollen überein.",
+      "source_ids": [
+        "H004"
+      ],
+      "source_locator": "Druck342/343,352/353 und Einführung1, PDF348/349,358/359,12 erneut vollständig visuell gelesen.",
+      "assumptions": "k=1,q=0,Y41=Y43=1; gemeinsames B_v einschließlich Y44; Y42 fällt aus. Positive A_v,eta11,xi,B_v und0<alpha<3. Drei explizit auf352 benannte Zustände.",
+      "scope": "Differenz4*A_v*(3-alpha)*sqrt(eta11)/(1+4*xi)>0. Faktor2 nur im nichtkonstanten pi-Term; Gesamtverhältnis bei B_v>0 strikt zwischen1 und2. Kein Portvergleich.",
+      "not_established": "Keine Entscheidung über die zu korrigierende Druckstelle, historische Programmausführung, korrigierte Masse, unabhängige Vorhersage, allgemeines Y-Profil oder physikalisches Gesamturteil.",
+      "evidence_paths": [
+        "00_admin/NEUTRINO_BOOK_ALGEBRA_PLAN.md",
+        "06_docs/NEUTRINO_BOOK_ALGEBRA_2026-10-18.md",
+        "scripts/audit_neutrino_book_algebra.py",
+        "tests/test_neutrino_book_algebra.py",
+        "05_analysis/neutrino_book_algebra_results.json"
+      ],
+      "reproduction": "Exakte Fraction-Rechnung und vier neue Tests: Kontrollzustände, additive Invarianz, nennerfreie Zustandsrelation, Domain. Snapshot mit --check reproduzierbar;57 Altbefunde unverändert. Ein Agent.",
+      "next_check": "Skalenfreie Tabellenrelation mit buchseitig festem xi prüfen; keine passende Massenskala oder Y-Anpassung wählen."
     }
   ]
 }
