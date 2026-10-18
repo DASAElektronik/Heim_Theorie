@@ -25,6 +25,13 @@ Ergebnis; sie werden nicht als stillschweigende Definitionen behandelt.
 
 ## Naechste begrenzte Arbeitseinheit
 
+Nach Etappe44: zur F_S-/Massen-Kalibrierungsprovenienz zurückkehren.
+H011 belegt die frühen H015-Literale; gemeinsame mathematische Herleitung
+bleibt inkonsistent, originale Zwischenrechnung fehlt. Keine freie Y-/
+Präzisionssuche. Quellenverzweigungen in `RESEARCH_BRANCHES.md`.
+
+## Historischer Einzelauftrag der Etappe43 (in Etappe44 bearbeitet)
+
 Nach Etappe43: Herkunft des H015-ALFA-Literals prüfen. Keine freie Anpassung.
 Wenn diese Quellenspur keinen Beleg liefert, zur Frage der unabhängigen
 Eingaben zurückkehren und F_S-/Kalibrierungsprovenienz konkret verfolgen.

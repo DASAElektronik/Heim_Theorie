@@ -1,5 +1,7 @@
 # Der fotografierte Konstantensatz und seine Ausgabe
 
+Nachtrag Etappe44: [H0111981 enthält exakt das H015-Alpha/Beta-Paar](ALPHA_LITERAL_ORIGIN_2026-10-18.md). Früher Zahlenbeleg gefunden; gemeinsame Herleitung damit nicht bestätigt. Die folgende Rechnung bleibt unverändert.
+
 2026-10-18, Etappe41. Ausgang `b2c1113`.
 [Vertrag](../00_admin/HISTORICAL_CONSTANTS_PLAN.md),
 [Quellenumfang und Hashes](../03_notes/HISTORICAL_CONSTANTS_SOURCES_2026-10-18.md).

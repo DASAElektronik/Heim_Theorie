@@ -3,7 +3,14 @@
 Isolierter, reproduzierbarer Konsistenztest der 1982/1989-Alpha-Bloecke in den
 lokalen IGW-Wiedergaben. Python >= 3.10; nur Standardbibliothek erforderlich.
 
-## Etappe43: Elektronen-Versionsbilanz (aktueller Stand)
+## Etappe44: Alpha-Literal-Herkunft (aktueller Stand)
+
+[Bericht](../../06_docs/ALPHA_LITERAL_ORIGIN_2026-10-18.md): H0111981 druckt
+exakt das H015-Paar. Früher Quellenbeleg, andere A_k-Definition als Buch;
+gemeinsame Paaridentität auch mit Druckrundung verletzt.373Tests, alte Profile
+unverändert. Weiter über F_S-/Kalibrierungsspur statt freier Zielwertsuche.
+
+## Etappe43: Elektronen-Versionsbilanz (vorheriger Stand)
 
 [Bericht](../../06_docs/ELECTRON_VERSIONS_2026-10-18.md): H015-H010-Verhältnis
 in Skala, D und Umrechnung zerlegt; MeV-Differenz -8.6281692ppm ist ein

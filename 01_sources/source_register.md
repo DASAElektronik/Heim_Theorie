@@ -6,6 +6,11 @@ Dieses Register sammelt Fundstellen. Lokale Kopien sollten nur abgelegt werden, 
 
 ## Enger Prüfstand 2026-10-18
 
+Etappe44: H011 PDF1-6/20 und H004 Druck301-302 vollständig visuell gelesen.
+H011 enthält genau die H015-Alpha/Beta-Literale als behauptetes Theorieergebnis;
+A_k-Definition vom Buch getrennt, Paaridentität unabhängig davon geprüft.
+H011-Hash bestätigt. Umfang `03_notes/ALPHA_LITERAL_ORIGIN_SOURCES_2026-10-18.md`.
+
 Etappe43: Versionssynthese auf bestehenden Quellenreviews, keine neue
 PDF-Lektüre. H010-Pascal GVALUES/GINIT erneut gelesen; Sch-Alpha wird
 später überschrieben. H015-H010-Faktordiagnose separat, keine neue Quelle.

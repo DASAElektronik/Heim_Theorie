@@ -1,5 +1,7 @@
 # Vier Fassungen desselben Elektronenfalls
 
+Nachtrag Etappe44: [H0111981 enthält exakt das H015-Alpha/Beta-Paar](ALPHA_LITERAL_ORIGIN_2026-10-18.md). Früher Zahlenbeleg gefunden; gemeinsame Herleitung damit nicht bestätigt. Die folgende Rechnung bleibt unverändert.
+
 2026-10-18, Etappe43, Ausgang f241ee1.
 [Vertrag](../00_admin/ELECTRON_VERSIONS_PLAN.md).
 

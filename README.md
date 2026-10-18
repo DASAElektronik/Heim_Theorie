@@ -45,6 +45,15 @@ und [drei Grafiken mit Erläuterungen](07_outputs/figures/README.md)
 fassen die Etappen39/40 zusammen. Die PDF ist eine datierte Übersicht;
 die vollständigen Quellen- und Rechendetails stehen in den Berichten.
 
+Stand 2026-10-18, Etappe 44:
+[Früher Beleg des Alpha-/Beta-Zahlenpaars](06_docs/ALPHA_LITERAL_ORIGIN_2026-10-18.md).
+Ein auf21.12.1981 datiertes Manuskript druckt genau die H015-Eingabewerte.
+Die Herkunft ist damit enger belegt; die gemeinsame mathematische Herleitung
+bleibt inkonsistent. Der positive Elektronen-Reproduktionstest bleibt erhalten.
+373 Tests bestanden. Weiter: konkrete F_S-/Kalibrierungsprovenienz.
+
+## Verlauf: Etappe43
+
 Stand 2026-10-18, Etappe 43:
 [Versionsbilanz des Elektronfalls](06_docs/ELECTRON_VERSIONS_2026-10-18.md).
 H015-H010-Unterschied durch Skala und Umrechnung nahezu vollständig erklärt;

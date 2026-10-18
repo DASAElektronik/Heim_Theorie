@@ -2,7 +2,7 @@
 
 ## Aktueller Einstieg (2026-10-18)
 
-Massgeblich ist Etappe 43 in `RESUME.md`; die aeltere Detailhistorie folgt darunter.
+Massgeblich ist Etappe 44 in `RESUME.md`; die aeltere Detailhistorie folgt darunter.
 
 - [x] Einen H006-N0-Elektronfall getrennt gegen spaetere H010-Programme rechnen.
 - [x] Alpha3-Formeln, Alpha-/Konstanteneingaben und Rundung einzeln dokumentieren.
@@ -72,8 +72,10 @@ Massgeblich ist Etappe 43 in `RESUME.md`; die aeltere Detailhistorie folgt darun
 - [x] Versionsbilanz desselben Elektronfalls über
   H006/H015/H010 und korrigierten H004-Anhang. Belegte Eingaben/Formeln,
   Ganzzahlbehandlung und fehlende Übergänge getrennt; FIND-053, keine Zielwertkalibrierung.
-- [ ] H015-Alpha-Literal auf konkrete Herkunft prüfen; bei fehlendem Beleg
-  zur F_S-/Kalibrierungsprovenienz wechseln. Autonome Commit-/Pull-Checkpoints.
+- [x] H015-Alpha/Beta-Literale in H0111981 gefunden; gemeinsame Paarherleitung
+  inkonsistent. FIND-054,373Tests. Keine freie Präzisions-/Y-Suche.
+- [ ] Nach diesem Quellenfortschritt F_S-/Kalibrierungsprovenienz konkret
+  weiterverfolgen; Verzweigungsprotokoll und autonome Commit-/Pull-Checkpoints.
 - [ ] Echte (79)-Fehlerfortpflanzung nur bei neuer r-/nu-/N4-, Parameter- und Normierungsbruecke aufnehmen; keine erfundene physikalische Fehlerschranke.
 - [ ] Nur bei neuem Beleg: genaue H006-Vorlage/Uebertragungskette oder autorisiertes Erratum klaeren; keine stillen Profilkorrekturen.
 

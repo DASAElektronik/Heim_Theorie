@@ -7,7 +7,19 @@ Grafischer Einstieg: `output/pdf/Heim_Audit_Ueberblick_2026-10-18.pdf`
 Generator `scripts/build_audit_overview.py`; eigene Übersicht zu Etappen39/40,
 keine neue Forschungsrechnung. PDF-Seiten visuell geprüft.
 
-## Aktuell: Etappe 43 abgeschlossen
+## Aktuell: Etappe 44 abgeschlossen
+
+Ausgang2802434. Bericht `06_docs/ALPHA_LITERAL_ORIGIN_2026-10-18.md`.
+H011 Seite6 druckt genau H015-Alpha/Beta; Datum21.12.1981 auf20.
+Früher Zahlenbeleg gefunden, keine bloße spätere Messwertkopie unterstellt.
+H011-A_k unterscheidet sich vom Buch. Bedingte Vorwärtsrechnung trifft den
+kleinen Druckwert nicht exakt; das Paar verletzt eta-/Y-unabhängig a²+b²=1.
+FIND-054 Quellenfortschritt, gleicher Fehlertyp wieFIND-001; keine Fehlerzählung.
+Vier neue Tests,373gesamt.53 Altbefunde/alte Profile erhalten.
+Keine unbelegte Präzisions-/Y-Suche: numerische Herkunftsspur parken,
+zur F_S-/Kalibrierungsprovenienz wechseln. Siehe `RESEARCH_BRANCHES.md`.
+
+## Verlauf: Etappe 43 abgeschlossen
 
 Ausgang f241ee1 (Etappen41/42 gesichert; Pull aktuell). Versionsbilanz
 `06_docs/ELECTRON_VERSIONS_2026-10-18.md`, Vertrag `ELECTRON_VERSIONS_PLAN.md`.
