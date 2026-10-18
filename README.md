@@ -45,7 +45,15 @@ und [drei Grafiken mit Erläuterungen](07_outputs/figures/README.md)
 fassen die Etappen39/40 zusammen. Die PDF ist eine datierte Übersicht;
 die vollständigen Quellen- und Rechendetails stehen in den Berichten.
 
-Stand 2026-10-18, Etappe47:
+Stand 2026-10-18, Etappe48:
+[Xi-Folgen und spätere Übertragungen](06_docs/XI_DOWNSTREAM_2026-10-18.md):
+Zusätzliche QX-Terme fallen für Xi weg; bei wohldefinierter Auswertung
+werden die beiden Massenpfade nur umgeordnet. Ein alter IK4-Vorbestand
+verhindert eine pauschale Aussage über jeden Originallauf. Pascal/C
+vermeiden den frühen Divisionsverlust bereits.55 Befunde,377 Tests
+im unveränderten Rechenstand.
+
+Vorheriger Stand, Etappe47:
 [Xi-Integerfehler eingegrenzt](06_docs/XI_INTEGER_2026-10-18.md):
 Die vorgezogene Division ergibt0 statt1/2; nur Xi weicht unter zwölf
 Grundmustern von der CS-/Ladungstabelle ab. KQ-Eingaben werden vertauscht;

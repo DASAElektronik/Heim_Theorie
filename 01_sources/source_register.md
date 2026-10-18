@@ -6,6 +6,10 @@ Dieses Register sammelt Fundstellen. Lokale Kopien sollten nur abgelegt werden, 
 
 ## Enger Prüfstand 2026-10-18
 
+Etappe48: H015 PDF7/22/23/24 vollständig visuell auf Xi-Abhängigkeiten
+gelesen; H010-Pascal/C MAIN und GBASE/GMASS statisch verglichen.
+Umfang/Hashes in `06_docs/XI_DOWNSTREAM_2026-10-18.md`.
+
 Etappe47: H01748/57/59/103, H006 PDF2/3 und H015 PDF18/24 vollständig
 visuell gelesen; Xi-Integerpfad mit zwölf Tabellenzeilen verglichen.
 Umfang: `06_docs/XI_INTEGER_2026-10-18.md`. H006/H015-Hashes bestätigt.

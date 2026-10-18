@@ -40,3 +40,9 @@ Die alternative Neutrino-Messgrößenfrage bleibt danach offen.
 Einheit47: Xi-Integerursache exakt bestätigt; von zwölf Grundmustern nur x9
 betroffen. Rückkehrpunkt: KQ-Umordnung nachweisen oder zusätzliche
 Komponentenabhängigkeit finden, bevor eine Massenänderung behauptet wird.
+
+Einheit48: Xi-QX-Zusatzterme verschwinden; bedingte Umordnung, aber
+H015-IK4-Vorbestand (FIND-041) verhindert eine allgemeine Laufbehauptung.
+Pascal/C vermeiden die frühe Integerdivision. Ohne Xi-Zustands-/Ausdruckbeleg
+numerische Fortsetzung geparkt. Nächster unabhängiger Zweig: Neutrino-Größe
+H016 zu Messgrößen zuordnen; keine aktuelle Massentabelle vorschnell anlegen.
