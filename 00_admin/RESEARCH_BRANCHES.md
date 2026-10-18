@@ -18,7 +18,7 @@ Funktionsbestimmung, Kalibrierungsankern und zurückgehaltenen Testgrößen.
 | Vollständige H004-Konstantenkorrektur | Anker m_e/e belegt, ursprünglicher D_e-/Inputvertrag fehlt | Numerische Auswertung geparkt; nur bei konkreter neuer Quellenbrücke wieder aufnehmen |
 | H015-Alpha/Beta-Herkunft | H0111981 enthält genau beide Zahlen; andere A_k-Definition als Buch | Positiver Quellenfortschritt44 |
 | Exakte historische Rechnung hinter H011-Paar | Paaridentität verletzt; bedingter kleiner Zweig nahe, nicht exakt | Keine freie Präzisions-/Y-Suche; originale Rechenblätter oder konkrete Korrektur nötig |
-| Ursprüngliche F_S-/Massen-Kalibrierung | 17 Komponenten,16 Masseneinträge und Y=1 belegt; genaue Arbeitstabelle offen | Einheit45: H016-Schlussseiten ohne Arbeitstabelle;127 DESY-Seitenlinks inventarisiert. Nächster Quellenauftrag Blattabgleich; numerischer Zweig wartet auf Inputbeleg |
+| Ursprüngliche F_S-/Massen-Kalibrierung | 17 Komponenten,16 Masseneinträge und Y=1 belegt; genaue Arbeitstabelle offen | Einheit45: H016-Schlussseiten ohne Arbeitstabelle;127 DESY-Seitenlinks inventarisiert. Einheit46:127 Fotos gruppiert, fünf bekannte Formelblätter zugeordnet; keine neue Arbeitstabelle im Detailumfang. Numerischer Zweig wartet auf Inputbeleg |
 
 ## Wiederaufnahmebedingungen
 
@@ -32,3 +32,7 @@ sein. Noch ungeklärte Herkunft wird nicht durch moderne Ersatzdaten ersetzt.
 
 Einheit45: H016 grenzt Neutrino-Größen gegen Ruhemassen ab. Eine konkrete
 Messgrößenzuordnung ist eine alternative Verständnisfrage vor externer Bewertung.
+
+Einheit46: H01757 nennt einen Xi-Programmierfehler. Vorrangiger konkreter
+Abzweig: Integerauswertung von MAIN ISN0030/0035 samt KQ-Datenfluss prüfen.
+Die alternative Neutrino-Messgrößenfrage bleibt danach offen.

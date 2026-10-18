@@ -45,7 +45,14 @@ und [drei Grafiken mit Erläuterungen](07_outputs/figures/README.md)
 fassen die Etappen39/40 zusammen. Die PDF ist eine datierte Übersicht;
 die vollständigen Quellen- und Rechendetails stehen in den Berichten.
 
-Stand 2026-10-18, Etappe45:
+Stand 2026-10-18, Etappe46:
+[DESY-Bestand nach Dokumenten getrennt](06_docs/DESY_COLLECTION_2026-10-18.md):
+127 Fotos gehasht, fünf Formelblätter H015 zugeordnet. Programmfassungen
+unterscheiden sich; ein Xi-Korrekturblatt eröffnet eine konkrete Integerprüfung.
+54 Befunde, zuletzt373 Tests. [Git-Synchronisierung](00_admin/GIT_SYNC.md):
+Push wieder möglich, Pull durch lokale FETCH_HEAD-Schreibsperre begrenzt.
+
+Vorheriger Stand, Etappe45:
 [Begrenzte Archivprüfung](06_docs/FS_ARCHIVE_2026-10-18.md): zusätzlicher
 1995er Überblick gesichert; Kalibrierung weiter offen. DESY-Seiteninventar
 für gezielte Fortsetzung, keine neue Anpassung.54 Befunde;373 Tests im
