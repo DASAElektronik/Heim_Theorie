@@ -1265,6 +1265,28 @@
       ],
       "reproduction": "py -3.13 scripts/audit_xi_integer.py --check; vier neue Tests für Rundung, Xi-Reduktion, zwölf Tabellenzeilen und Elektron/Domain. Vorherige54 Befundobjekte unverändert. Ein Agent.",
       "next_check": "Statisch prüfen, ob nach KQ die Komponentenziffer IX/X oder CS/QX noch die Xi-Massenrechnung beeinflusst. Erst dann zwischen bloßer Umordnung und veränderten Massen unterscheiden; Originalprofile erhalten."
+    },
+    {
+      "finding_id": "FIND-056",
+      "kind": "version_difference",
+      "claim": "H007/B65 und die Feldextraktion FIK des H010-C-Ports sind keine identische Funktion: H0071110/1111 sind bei neutraler leerer Struktur gleich, während die eigene hypothetische neutrale Leerraumprojektion des C-Ausdrucks eine positive Differenz B*(1+T) behält.",
+      "source_ids": [
+        "H007",
+        "H010"
+      ],
+      "source_locator": "H007 PDF2/3/7/8 vollständig visuell: B3-B14/B49/B50; PDF10 B63-B65 aus49. H010 C0.66 GMASS998-1027 statisch. Bestehende B13-/B49-Normalisierung beachtet.",
+      "assumptions": "k=P=Q=1,q=0; endliches definiertes B*U/W, W ungleich0. sigma=-Qsigma, Qm=Qn=3 und choose(1,3)=0. Positive pi,eta,eta11,xi;0<alpha<3,r=alpha_minus/alpha_plus<1. Die C-Projektion bei kappa1 ist kein behaupteter erreichbarer MAIN-Elternzustand.",
+      "scope": "B49 verschwindet in dieser regulären Einschränkung unabhängig vom B50-Vorzeichen. H007-Term 2N5+2N6 unabhängig von KAPPA; projizierter Port D versus B*(1+T)+D. Eltern-/Leerraumunterschied bei kappa0 gleich B. Synthetische rationale Zeugen, keine physikalischen Konstantenwahl oder Masse.",
+      "not_established": "Keine historische Neutrinomasse, numerische Portabweichung bei Originalprofilen, globale B50-Auflösung, gesamte B65-Implementierung, Messgrößenzuordnung oder physikalische Widerlegung. Kein Originalprogramm ausgeführt oder verändert; aktive C-Labels bleiben eigener Vertrag.",
+      "evidence_paths": [
+        "00_admin/NEUTRINO_FIELD_BRIDGE_PLAN.md",
+        "06_docs/NEUTRINO_FIELD_BRIDGE_2026-10-18.md",
+        "scripts/audit_neutrino_field_bridge.py",
+        "tests/test_neutrino_field_bridge.py",
+        "05_analysis/neutrino_field_bridge_results.json"
+      ],
+      "reproduction": "py -3.13 scripts/audit_neutrino_field_bridge.py --check. Vier neue rationale Kontrollen;381 Tests insgesamt bestanden.55 alte Befundobjekte unverändert. Ein Agent, keine externe Begutachtung.",
+      "next_check": "Neutrino-/Feldmassenstellen H004351-354 samt empirischem Verweis lesen. Quellenversionen getrennt halten; keine numerische Anpassung zur B65-Port-Gleichsetzung."
     }
   ]
 }

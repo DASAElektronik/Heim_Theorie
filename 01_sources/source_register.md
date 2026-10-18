@@ -6,6 +6,10 @@ Dieses Register sammelt Fundstellen. Lokale Kopien sollten nur abgelegt werden, 
 
 ## Enger Prüfstand 2026-10-18
 
+Etappe50: H007 PDF2/3/7/8 vollständig visuell, B65 aus49 und
+H010-C-GMASS statisch verglichen. B49 nur auf regulärer leerer k1-Domain
+reduziert, allgemeiner B50-Blocker bleibt. Bericht `06_docs/NEUTRINO_FIELD_BRIDGE_2026-10-18.md`.
+
 Etappe49: H016 PDF9 und H007 PDF1/9/10 vollständig visuell gelesen;
 H010-C-Namenszweige, GMASS, Speicherfilter und Eingabebereich statisch
 geprüft. H007/H016-Hashes bestätigt.

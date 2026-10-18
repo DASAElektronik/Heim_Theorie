@@ -52,3 +52,7 @@ Aktive e-/mu-/tau-Liste ersetzt ausgeschaltete Fünferliste; zusätzliche
 Speicherbedingung. Mu-/tau-Feldgrößen im Port algebraisch gleich.
 Konkreter nächster Vertrag: H007 B49/B65 bei unteren Schranken gegen
 C-FIK vergleichen; danach Messbrücke, weiterhin keine Ersatzmassentabelle.
+
+Einheit50: B65-Port-Gleichsetzung algebraisch widerlegt, ohne Massenfit.
+Reguläre B49-Einschränkung für k1 leer möglich; B50 bleibt allgemein offen.
+Nächster Quellenweg: H004351-354, Neutrinointerpretation und Messverweis.

@@ -45,7 +45,13 @@ und [drei Grafiken mit Erläuterungen](07_outputs/figures/README.md)
 fassen die Etappen39/40 zusammen. Die PDF ist eine datierte Übersicht;
 die vollständigen Quellen- und Rechendetails stehen in den Berichten.
 
-Stand 2026-10-18, Etappe49:
+Stand 2026-10-18, Etappe50:
+[B65 und C-Feldextraktion algebraisch getrennt](06_docs/NEUTRINO_FIELD_BRIDGE_2026-10-18.md):
+Eine quellenbelegte Gleichheit zweier Zustände bleibt im projizierten Port
+nicht erhalten. Keine Massenziele eingesetzt; B50 bleibt allgemein offen.
+56 Befunde,381 Tests bestanden.
+
+Vorheriger Stand, Etappe49:
 [Neutrino-Größen und Port-Zuordnung](06_docs/NEUTRINO_OBSERVABLE_2026-10-18.md):
 H007 nennt fünf mögliche Feldzustände; C0.66 verwendet aktiv andere
 e-/mu-/tau-Deskriptoren und einen zusätzlichen Speicherfilter. Seine
