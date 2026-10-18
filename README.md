@@ -45,6 +45,15 @@ und [drei Grafiken mit Erläuterungen](07_outputs/figures/README.md)
 fassen die Etappen39/40 zusammen. Die PDF ist eine datierte Übersicht;
 die vollständigen Quellen- und Rechendetails stehen in den Berichten.
 
+Stand 2026-10-18, Etappe 43:
+[Versionsbilanz des Elektronfalls](06_docs/ELECTRON_VERSIONS_2026-10-18.md).
+H015-H010-Unterschied durch Skala und Umrechnung nahezu vollständig erklärt;
+der dimensionslose Term bleibt nahezu gleich. H006-Lesart und korrigierter
+H004-Anhang bleiben eigene Verträge. Weiter: Herkunft der Alpha-Eingabe,
+danach bei fehlender Spur F_S-/Kalibrierungsprovenienz.
+
+## Verlauf: Etappe42
+
 Stand 2026-10-18, Etappe 42:
 [Elektronen-Grundzustand im fotografierten Programm](06_docs/H015_ELECTRON_2026-10-18.md).
 Mit dem eigenen H015-Konstantensatz ergeben sich die gedruckten Besetzungen

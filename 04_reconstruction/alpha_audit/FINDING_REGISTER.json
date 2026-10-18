@@ -686,6 +686,29 @@
       "evidence_paths": ["00_admin/H015_ELECTRON_PLAN.md", "03_notes/H015_ELECTRON_SOURCES_2026-10-18.md", "06_docs/H015_ELECTRON_2026-10-18.md", "04_reconstruction/alpha_audit/h015_electron_inputs.json", "scripts/audit_h015_electron.py", "tests/test_h015_electron.py", "05_analysis/h015_electron_results.json"],
       "reproduction": "py -3.13 -B scripts/audit_h015_electron.py --check --verify-sources. Fünf neue Tests,369 insgesamt bestanden.60/90-Stellenstabilität bei16 signifikanten Ausgabestellen, separate rohe Abschneidediagnose, Produkt-/Polynom-/Umrechnungsidentitäten und unabhängige binary64-Rechnung mit anderer Skalenform. H015-Hash bestätigt;51 Altbefunde und bisherige Rechner/Inputs/Ergebnisse/Grafiken erhalten. Ein Agent, keine unabhängige Begutachtung oder physikalische Wahrheitsprüfung durch Tests.",
       "next_check": "Versionsbilanz desselben Elektronfalls über H006-Darstellung, fotografiertes H015, spätere H010-Programme und korrigierten H004-Anhang. Belegte Formeln, Eingaben und Ganzzahlbehandlung von fehlenden Übergängen trennen. Keine neue Kalibrierung oder Auswahl nach Massenziel; H004-Kalibrierung und F_S-Provenienz separat offen halten."
+    },
+    {
+      "finding_id": "FIND-053",
+      "kind": "own_diagnostic",
+      "claim": "Die feste H015-H010-Elektronendifferenz zerfällt in Massenskala, dimensionslosen Term und kg-MeV-Umrechnung. Der D-Term ändert sich nur um0.0000692195ppm; die MeV-Differenz von-8.6281692063ppm wird fast vollständig durch Skala und Umrechnung erklärt. Kein neuer empirischer Massenfehler.",
+      "source_ids": [
+        "H006",
+        "H010",
+        "H015",
+        "H004"
+      ],
+      "source_locator": "Synthese der quellengeprüften Etappen17/18/40/41/42; keine neue PDF-Lektüre. Pascal GVALUES/GINIT141-215 statisch erneut gelesen. H015-Input und eigener Elektronenrechner, H010-Endpunkt63 des unveränderten historischen64-Zellen-Snapshots.",
+      "assumptions": "Unveränderte feste Endpunkte, M=mu*D und D=alpha_plus*(KGH+FIG); gleiches c,s0. PI-H015 literal, PI-H010 mathematisch. Keine Zwischenprofile, Massenziele, neue Kalibrierung oder aktuellen Messdaten. H006 bedingte Lesart und H004-Kalibrierung getrennt.",
+      "scope": "mu-Verhältnis aus pi^(7/12)*hbar^(5/6)*gamma^(-1/6) bestätigt. Relative Faktorenänderungen mu:-16.5075352963ppm,D:+0.0000692195ppm,Umrechnung:+7.8794269410ppm; Produkt kg:-16.5074660779ppm,MeV:-8.6281692063ppm. Nur Logbeiträge additiv/reihenfolgeunabhängig. H010-gamma als Dröscher2002 kommentiert, nicht pauschal CODATA. Fehlendes m_e-Argument beweist keine unabhängige vorgelagerte Kalibrierung.",
+      "not_established": "Keine historische Änderungskausalität, allgemeine D-Unempfindlichkeit, unabhängige Mehrfachvorhersage, vollständige H004-Eingabeliste, H004-Massenreproduktion, neue F_S-Provenienz oder moderne empirische Bewertung. Lokale Versionsbilanz ersetzt keine Theorieherleitung.",
+      "evidence_paths": [
+        "00_admin/ELECTRON_VERSIONS_PLAN.md",
+        "06_docs/ELECTRON_VERSIONS_2026-10-18.md",
+        "scripts/audit_electron_versions.py",
+        "05_analysis/electron_versions_results.json"
+      ],
+      "reproduction": "py -3.13 -B scripts/audit_electron_versions.py --check.90/110-Stellenkontrolle, separate Skalen-/Produkt-/Logidentitäten unter1e-65. Alte H006/H010/H015-Snapshots frisch nachgerechnet, unverändert;52 Altbefunde erhalten. Ein Agent, keine externe Begutachtung.",
+      "next_check": "Herkunft des H015-ALFA-Literals137.03602725 prüfen; spätere Wiederholung nicht als Herleitung ausgeben. Falls lokal keine tragende Herkunft: an Eingabeunabhängigkeitsfrage zurückkehren und konkrete F_S-/Kalibrierungsprovenienz verfolgen. H004-D_e-Lücke nicht durch passenden Ersatz schließen."
     }
   ]
 }

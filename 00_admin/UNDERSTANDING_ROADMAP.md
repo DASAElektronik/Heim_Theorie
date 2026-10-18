@@ -25,6 +25,14 @@ Ergebnis; sie werden nicht als stillschweigende Definitionen behandelt.
 
 ## Naechste begrenzte Arbeitseinheit
 
+Nach Etappe43: Herkunft des H015-ALFA-Literals prüfen. Keine freie Anpassung.
+Wenn diese Quellenspur keinen Beleg liefert, zur Frage der unabhängigen
+Eingaben zurückkehren und F_S-/Kalibrierungsprovenienz konkret verfolgen.
+[Versionsbilanz](../06_docs/ELECTRON_VERSIONS_2026-10-18.md): H015-H010
+quantitativ erklärt; H004-Inputbrücke bleibt offen.
+
+## Historischer Einzelauftrag der Etappe42 (in Etappe43 bearbeitet)
+
 Nach [Etappe42](../06_docs/H015_ELECTRON_2026-10-18.md): **Versionsbilanz
 desselben Elektronfalls** über H006, fotografiertes H015, spätere H010-
 Programme und korrigierten H004-Anhang. Formeln, Eingaben und Integerregeln

@@ -7,7 +7,18 @@ Grafischer Einstieg: `output/pdf/Heim_Audit_Ueberblick_2026-10-18.pdf`
 Generator `scripts/build_audit_overview.py`; eigene Übersicht zu Etappen39/40,
 keine neue Forschungsrechnung. PDF-Seiten visuell geprüft.
 
-## Aktuell: Etappe 42 abgeschlossen
+## Aktuell: Etappe 43 abgeschlossen
+
+Ausgang f241ee1 (Etappen41/42 gesichert; Pull aktuell). Versionsbilanz
+`06_docs/ELECTRON_VERSIONS_2026-10-18.md`, Vertrag `ELECTRON_VERSIONS_PLAN.md`.
+H006/H015/H010/H004 getrennt; H015-H010-Differenz quantitativ zerlegt:
+Skala -16.5075353ppm, D +0.0000692ppm, Umrechnung +7.8794269ppm,
+MeV-Produkt -8.6281692ppm. Keine neue Kalibrierung oder empirische Bewertung.
+FIND-053 eigene Diagnose; alte52 Befunde und Profile erhalten.
+Nächste Spur: Ursprung des H015-Alpha-Literals; bei fehlendem Beleg zurück
+zur F_S-/Kalibrierungsprovenienz. Autonome Fortsetzung samt Commit/Pull autorisiert.
+
+## Verlauf: Etappe 42 abgeschlossen
 
 Ausgang `b2c1113` plus erhaltener Etappe41. Vertrag `H015_ELECTRON_PLAN.md`;
 Bericht `06_docs/H015_ELECTRON_2026-10-18.md`, Quellenumfang

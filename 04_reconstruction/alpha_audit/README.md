@@ -3,7 +3,14 @@
 Isolierter, reproduzierbarer Konsistenztest der 1982/1989-Alpha-Bloecke in den
 lokalen IGW-Wiedergaben. Python >= 3.10; nur Standardbibliothek erforderlich.
 
-## Etappe42: H015-Elektron-N0 (aktueller Stand)
+## Etappe43: Elektronen-Versionsbilanz (aktueller Stand)
+
+[Bericht](../../06_docs/ELECTRON_VERSIONS_2026-10-18.md): H015-H010-Verhältnis
+in Skala, D und Umrechnung zerlegt; MeV-Differenz -8.6281692ppm ist ein
+Versionsvergleich, kein empirischer Fehler. Alte Profile und Befunde erhalten.
+Weiter: H015-Alpha-Herkunft, bei Sackgasse F_S-/Kalibrierungsspur.
+
+## Etappe42: H015-Elektron-N0 (vorheriger Stand)
 
 [Bericht](../../06_docs/H015_ELECTRON_2026-10-18.md): Eigene Rekonstruktion
 aus MAIN/GINIT/GBASE/GSTRUC/GMASS ergibt die fotografierten Besetzungen

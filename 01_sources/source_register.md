@@ -6,6 +6,11 @@ Dieses Register sammelt Fundstellen. Lokale Kopien sollten nur abgelegt werden, 
 
 ## Enger Prüfstand 2026-10-18
 
+Etappe43: Versionssynthese auf bestehenden Quellenreviews, keine neue
+PDF-Lektüre. H010-Pascal GVALUES/GINIT erneut gelesen; Sch-Alpha wird
+später überschrieben. H015-H010-Faktordiagnose separat, keine neue Quelle.
+Umfang im Bericht `06_docs/ELECTRON_VERSIONS_2026-10-18.md`.
+
 Etappe42: H015 PDF4/18 MAIN,5/21 GINIT,7/22 GBASE,23 GSTRUC,
 24 GMASS/ETAQK und27 E-Ausgabe vollständig visuell geprüft. Geladener
 Elektron-N0-Zweig mit festen H015-Inputs und analytischem letzten Integer
