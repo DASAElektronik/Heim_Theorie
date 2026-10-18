@@ -2,8 +2,11 @@
 
 ## Aktueller Einstieg (2026-10-18)
 
-Massgeblich ist Etappe 44 in `RESUME.md`; die aeltere Detailhistorie folgt darunter.
+Massgeblich ist Etappe 45 in `RESUME.md`; die aeltere Detailhistorie folgt darunter.
 
+- [x] H016-Schlussseiten und DESY-Kataloginventar begrenzt prüfen; Suchumfang dokumentieren.
+- [ ] DESY-Seiten mit H015 abgleichen; nur konkrete zusätzliche Eingabekarten/Kalibrierungsblätter weiterverfolgen.
+- [ ] Neutrino-Größen vor empirischem Vergleich quellenbasiert messbaren Größen zuordnen.
 - [x] Einen H006-N0-Elektronfall getrennt gegen spaetere H010-Programme rechnen.
 - [x] Alpha3-Formeln, Alpha-/Konstanteneingaben und Rundung einzeln dokumentieren.
 - [x] 64 vorab feste Kombinationen plus Wurzellesartsensitivitaet unabhaengig pruefen.

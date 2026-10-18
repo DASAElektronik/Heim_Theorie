@@ -25,7 +25,11 @@ Ergebnis; sie werden nicht als stillschweigende Definitionen behandelt.
 
 ## Naechste begrenzte Arbeitseinheit
 
-Nach Etappe44: zur F_S-/Massen-Kalibrierungsprovenienz zurückkehren.
+Nach Etappe45: F_S-/Massen-Kalibrierungsprovenienz bleibt offen.
+H016-Schlussseiten und DESY-Inventar sind im Bericht
+`06_docs/FS_ARCHIVE_2026-10-18.md` eingegrenzt. Nächster Quellenauftrag:
+DESY-Blätter gegen H015 zuordnen; alternative Verständnisfrage ist die
+Zuordnung der Neutrino-Größen zu Messgrößen.
 H011 belegt die frühen H015-Literale; gemeinsame mathematische Herleitung
 bleibt inkonsistent, originale Zwischenrechnung fehlt. Keine freie Y-/
 Präzisionssuche. Quellenverzweigungen in `RESEARCH_BRANCHES.md`.

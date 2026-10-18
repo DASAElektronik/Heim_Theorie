@@ -3,7 +3,14 @@
 Isolierter, reproduzierbarer Konsistenztest der 1982/1989-Alpha-Bloecke in den
 lokalen IGW-Wiedergaben. Python >= 3.10; nur Standardbibliothek erforderlich.
 
-## Etappe44: Alpha-Literal-Herkunft (aktueller Stand)
+## Etappe45: begrenzte Archivprüfung (aktueller Stand)
+
+[Bericht](../../06_docs/FS_ARCHIVE_2026-10-18.md): H016 gesichert und
+Schlussseiten geprüft; ursprüngliche Kalibrierung weiterhin offen.
+127 DESY-Seitenlinks inventarisiert, noch kein vollständiger Bildabgleich.
+Keine neue Rechnung oder Befundnummer;54 Befunde erhalten.
+
+## Etappe44: Alpha-Literal-Herkunft (vorheriger Stand)
 
 [Bericht](../../06_docs/ALPHA_LITERAL_ORIGIN_2026-10-18.md): H0111981 druckt
 exakt das H015-Paar. Früher Quellenbeleg, andere A_k-Definition als Buch;

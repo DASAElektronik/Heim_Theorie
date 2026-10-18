@@ -7,7 +7,20 @@ Grafischer Einstieg: `output/pdf/Heim_Audit_Ueberblick_2026-10-18.pdf`
 Generator `scripts/build_audit_overview.py`; eigene Übersicht zu Etappen39/40,
 keine neue Forschungsrechnung. PDF-Seiten visuell geprüft.
 
-## Aktuell: Etappe 44 abgeschlossen
+## Aktuell: Etappe 45, begrenzte Archivprüfung abgeschlossen
+
+Ausgang ce0d311. Bericht `06_docs/FS_ARCHIVE_2026-10-18.md`.
+H016 neu gesichert, PDF1/8/9/10 vollständig visuell gelesen; keine originale
+F_S-Arbeitstabelle in diesen Seiten. Andere Seiten nur Textnavigation.
+DESY-Katalog:127 nummerierte Seitenlinks inventarisiert, Sammlung noch nicht
+bildlich mit H015 abgeglichen. Keine Behauptung, Kalibrierungsblätter fehlten.
+Neutrino-Größen in H016 ausdrücklich keine Ruhemassen; Messgrößenzuordnung
+als alternative Verständnisfrage. Keine neue Anpassung;54 Befunde unverändert.
+Letzter Rechenteststand373 erfolgreich; reine Quellen-/Dokumentationsarbeit.
+Nächster gezielter Quellenauftrag: DESY-Blattzuordnung, dann Eingabekarten/
+Kalibrierung prüfen. Numerischen F_S-Zweig ohne Inputbeleg nicht öffnen.
+
+## Verlauf: Etappe 44 abgeschlossen
 
 Ausgang2802434. Bericht `06_docs/ALPHA_LITERAL_ORIGIN_2026-10-18.md`.
 H011 Seite6 druckt genau H015-Alpha/Beta; Datum21.12.1981 auf20.

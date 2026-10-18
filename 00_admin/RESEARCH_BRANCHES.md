@@ -3,7 +3,7 @@
 Stand2026-10-18. Nutzerauftrag: autonom nützliche Spuren verfolgen,
 Zwischenstände committen und pullen; bei Sackgassen zur letzten sachlichen
 Verzweigung zurückkehren. Keine historischen Ergebnisse löschen oder Git
-destruktiv zurücksetzen. Gesicherte Einheiten41/42:f241ee1,43:2802434.
+destruktiv zurücksetzen. Gesicherte Einheiten41/42:f241ee1,43:2802434,44:ce0d311.
 
 ## Ausgangsfrage: Was kann unabhängig geprüft werden?
 
@@ -18,7 +18,7 @@ Funktionsbestimmung, Kalibrierungsankern und zurückgehaltenen Testgrößen.
 | Vollständige H004-Konstantenkorrektur | Anker m_e/e belegt, ursprünglicher D_e-/Inputvertrag fehlt | Numerische Auswertung geparkt; nur bei konkreter neuer Quellenbrücke wieder aufnehmen |
 | H015-Alpha/Beta-Herkunft | H0111981 enthält genau beide Zahlen; andere A_k-Definition als Buch | Positiver Quellenfortschritt44 |
 | Exakte historische Rechnung hinter H011-Paar | Paaridentität verletzt; bedingter kleiner Zweig nahe, nicht exakt | Keine freie Präzisions-/Y-Suche; originale Rechenblätter oder konkrete Korrektur nötig |
-| Ursprüngliche F_S-/Massen-Kalibrierung | 17 Komponenten,16 Masseneinträge und Y=1 belegt; genaue Arbeitstabelle offen | Aktiver nächster Zweig: konkrete Primär-/Archivstellen für Messwerte und Funktionsfestlegung |
+| Ursprüngliche F_S-/Massen-Kalibrierung | 17 Komponenten,16 Masseneinträge und Y=1 belegt; genaue Arbeitstabelle offen | Einheit45: H016-Schlussseiten ohne Arbeitstabelle;127 DESY-Seitenlinks inventarisiert. Nächster Quellenauftrag Blattabgleich; numerischer Zweig wartet auf Inputbeleg |
 
 ## Wiederaufnahmebedingungen
 
@@ -29,3 +29,6 @@ zuerst gelesen und einem eigenen Vertrag zugeordnet, dann gerechnet.
 
 Ein späterer unabhängiger Test muss von den Kalibrierungsdaten getrennt
 sein. Noch ungeklärte Herkunft wird nicht durch moderne Ersatzdaten ersetzt.
+
+Einheit45: H016 grenzt Neutrino-Größen gegen Ruhemassen ab. Eine konkrete
+Messgrößenzuordnung ist eine alternative Verständnisfrage vor externer Bewertung.

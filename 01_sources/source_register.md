@@ -297,6 +297,7 @@ Keine neuen Quellen oder stillen Rechenprofilwechsel; Umfang/Hashes:
 | H013 | Autorbezeichneter Typoskriptscan, undatiert | Heim: Ausgewaehlte Ergebnisse einer einheitlichen Quantenfeldtheorie der Materie und Gravitation, J0033-b,61 PDF-Seiten | https://heim-theory.com/wp-content/uploads/2026/07/J0033-Heim_Ausgewaehlte-Ergebnisse-b.pdf | Motivation/H-Alpha und AnhangB eng geprueft; kein nachgewiesenes1989-Faksimile |
 | H014 | Autorbezeichneter Typoskriptscan, undatiert | Gleichnamige Fassung J0032-a,50 PDF-Seiten, andere Paginierung | https://heim-theory.com/wp-content/uploads/2026/07/J0032-Heim_Ausgewaehlte-Ergebnisse-a.pdf | Titel/AnhangB und Navigationsseiten eng geprueft; keine gesicherte Chronologie |
 | H015 | Primaerdokument-Kandidat: fotografierte Listings/Typoskript | Archivtitel1982 Heim DESY sortiert OCR,43 PDF-Seiten; heutige Digitalisierung | https://burkhardheim.de/media/f/c57c27a0-3692-5fae-920d-5ba89ad58349 | GBASE-ALF3 auf PDF22 bildlich geprueft; Datums-/Echtheitsgrenzen und SHA256 in03_notes/ALPHA3_ORIGIN_SOURCES_2026-09-06.md; kein Programmlauf |
+| H016 | Autorbezeichneter Überblicksscan mit späteren Bearbeitungsspuren | Über die Herleitung der Heimschen Massenformel, Deckblatt1995;10 PDF-Seiten | https://burkhardheim.de/media/f/2ba6776a-dec9-5062-8cba-b098e763e555 | PDF1/8/9/10 vollständig visuell gelesen; Umfang und Datierungsgrenzen in06_docs/FS_ARCHIVE_2026-10-18.md, SHA256 in05_analysis/fs_archive_sources.json |
 
 ## Einordnung und Rekonstruktion
 
