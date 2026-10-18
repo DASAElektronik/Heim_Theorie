@@ -6,6 +6,10 @@ Dieses Register sammelt Fundstellen. Lokale Kopien sollten nur abgelegt werden, 
 
 ## Enger Prüfstand 2026-10-18
 
+Etappe53: H004 Druck275/376 vollständig visuell erneut gelesen;
+skalenfreie Tabellenrelation mit festem xi und Druckrundung geprüft.
+Umfang: `06_docs/NEUTRINO_TABLE_2026-10-18.md`.
+
 Etappe52: H004 Einführung1,342/343,352/353 vollständig visuell erneut
 gelesen;111 zu118b bei drei neutralen Zuständen exakt geprüft. Umfang:
 `06_docs/NEUTRINO_BOOK_ALGEBRA_2026-10-18.md`.

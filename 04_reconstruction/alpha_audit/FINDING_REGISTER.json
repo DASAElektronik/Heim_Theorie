@@ -1329,6 +1329,27 @@
       ],
       "reproduction": "Exakte Fraction-Rechnung und vier neue Tests: Kontrollzustände, additive Invarianz, nennerfreie Zustandsrelation, Domain. Snapshot mit --check reproduzierbar;57 Altbefunde unverändert. Ein Agent.",
       "next_check": "Skalenfreie Tabellenrelation mit buchseitig festem xi prüfen; keine passende Massenskala oder Y-Anpassung wählen."
+    },
+    {
+      "finding_id": "FIND-059",
+      "kind": "positive_reproduction",
+      "claim": "Die skalenfreie Relation aus H004111 trifft den pi-Neutrinotabellenwert innerhalb der Druckrundung; die gedruckte118b-Relation nicht. Das stützt die Korrekturhypothese8 statt4 im nichtkonstanten pi-Term.",
+      "source_ids": [
+        "H004"
+      ],
+      "source_locator": "H004 Druck275/PDF281 und Anhang376/PDF381 erneut vollständig visuell;111/118a/118b aus52.",
+      "assumptions": "Tabellen-nu(e0) dem neutralen e-Feldzustand zugeordnet. Gemeinsame positive Skala, xi=(1+sqrt5)/2. Zwei Tabellenwerte sind Inputs. Primär Rundung ±0.0005eV, separat Sensitivität ±0.001eV; keine experimentellen Fehlerbalken.",
+      "scope": "Mit beta4.006eV und e-Feld5375.675eV liefert a2 aus111 den Relationswert1441.792740592116eV, kompatibel mit pi1441.793eV. a1 aus118b liefert722.899370296058eV, disjunkte Rundungshülle. Exakte rationale Intervallzertifizierung.",
+      "not_established": "Keine unabhängige Massenvorhersage, ursprüngliche Programmausführung, gesamte Buchmassenreproduktion, eindeutige historische Fehlerursache oder Messgrößenbrücke. Positive Präzisierung vonFIND-058, kein zusätzlicher unabhängiger Fehler.",
+      "evidence_paths": [
+        "00_admin/NEUTRINO_TABLE_PLAN.md",
+        "06_docs/NEUTRINO_TABLE_2026-10-18.md",
+        "scripts/audit_neutrino_table.py",
+        "tests/test_neutrino_table.py",
+        "05_analysis/neutrino_table_results.json"
+      ],
+      "reproduction": "py -3.13 scripts/audit_neutrino_table.py --check; vier Tests für Wurzelschranken, Intervall-Eckpunkte, Rundungsentscheidung und Skalenelimination.58 alte Befundobjekte unverändert. Ein Agent.",
+      "next_check": "Korrekturhypothese getrennt vom Original erhalten. Absolute Rechnung nur mit Quellenvertrag; empirischer Zweig nur mit Messgrößenbrücke. Keine weiteren Tabellenfaktorvarianten suchen."
     }
   ]
 }

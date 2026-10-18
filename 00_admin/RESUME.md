@@ -7,7 +7,25 @@ Grafischer Einstieg: `output/pdf/Heim_Audit_Ueberblick_2026-10-18.pdf`
 Generator `scripts/build_audit_overview.py`; eigene Übersicht zu Etappen39/40,
 keine neue Forschungsrechnung. PDF-Seiten visuell geprüft.
 
-## Aktuell: Etappe 45, begrenzte Archivprüfung abgeschlossen
+## Aktuell: Etappe 53, Neutrinotabellenrelation geklärt
+
+Bericht `06_docs/NEUTRINO_TABLE_2026-10-18.md`;59 Befunde,389 Tests.
+Etappe46 DESY-Fotos klassifiziert;47/48 Xi-Integerfehler und Folgen;
+49/50 Neutrino-Begriffe und B65-Port-Nichtidentität;51 Buchfilter und
+historische Obergrenze;52/53 lokaler pi-Faktor und positive Tabellenrelation.
+Die111-Relation trifft1441,793eV innerhalb der Druckrundung,118b nicht.
+Zwei Tabellenwerte als Inputs: keine unabhängige Massenvorhersage.
+Alle alten Profile erhalten; Einzelberichte und `RESEARCH_BRANCHES.md`
+halten Umfang, offene Bedingungen und Rückkehrpunkte fest.
+
+Keine weitere Faktor-/Y-Suche. Absolute Rechnung braucht den fehlenden
+Konstantenvertrag; empirische Bewertung eine Heim-seitige Messgleichung.
+M007 nur APS-Abstract/Bibliografie, kein Volltext. C-Port nicht mit
+H007/B65 oder Buch identifizieren. Git-Push funktioniert über
+`scripts/git_remote.py`; Pull-Schreibsperre siehe `GIT_SYNC.md`.
+Autonome Fortsetzung und regelmäßige Commits/Pushs sind autorisiert.
+
+## Verlauf: Etappe 45, begrenzte Archivprüfung abgeschlossen
 
 Ausgang ce0d311. Bericht `06_docs/FS_ARCHIVE_2026-10-18.md`.
 H016 neu gesichert, PDF1/8/9/10 vollständig visuell gelesen; keine originale

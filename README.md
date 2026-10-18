@@ -45,7 +45,13 @@ und [drei Grafiken mit Erläuterungen](07_outputs/figures/README.md)
 fassen die Etappen39/40 zusammen. Die PDF ist eine datierte Übersicht;
 die vollständigen Quellen- und Rechendetails stehen in den Berichten.
 
-Stand 2026-10-18, Etappe52:
+Stand 2026-10-18, Etappe53:
+[Neutrinotabelle stützt die allgemeine Formel](06_docs/NEUTRINO_TABLE_2026-10-18.md):
+Die skalenfreie111-Relation trifft1441,793eV innerhalb der Druckrundung;
+118b nicht. Zwei Tabellenwerte als Inputs, keine unabhängige Vorhersage.
+59 Befunde;389 Tests bestanden.
+
+Vorheriger Stand, Etappe52:
 [Buchinterner Faktor-zwei-Befund](06_docs/NEUTRINO_BOOK_ALGEBRA_2026-10-18.md):
 111 und118b stimmen für e/mu überein; beim pi-Zustand weicht nur der
 nichtkonstante Anteil ab.58 Befunde;385 Tests bestanden.

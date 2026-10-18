@@ -64,3 +64,8 @@ Prüfung: H004111 zu118b, bevor neue historische Zahlen berechnet werden.
 Einheit52: pi-Vorfaktor111/118b bei Y1 lokal inkonsistent, e/mu als
 Kontrollen passend. Keine vollständige Masse verdoppeln. Weiter: eine
 skalenfreie Tabellenrelation kann die verwendete Lesart eingrenzen.
+
+Einheit53: Skalenfreie Tabellenrelation stützt111 und die Korrekturhypothese
+8 statt4 in118b. Rundung exakt eingeschlossen; keine unabhängige Masse.
+Dieser lokale Zweig ist ausgeschöpft. Absolute Rechnung bleibt an den
+Konstantenvertrag, empirische Bewertung an eine Messgleichung gebunden.
