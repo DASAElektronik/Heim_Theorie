@@ -6,6 +6,11 @@ Dieses Register sammelt Fundstellen. Lokale Kopien sollten nur abgelegt werden, 
 
 ## Enger Prüfstand 2026-10-18
 
+Etappe49: H016 PDF9 und H007 PDF1/9/10 vollständig visuell gelesen;
+H010-C-Namenszweige, GMASS, Speicherfilter und Eingabebereich statisch
+geprüft. H007/H016-Hashes bestätigt.
+Umfang: `06_docs/NEUTRINO_OBSERVABLE_2026-10-18.md`.
+
 Etappe48: H015 PDF7/22/23/24 vollständig visuell auf Xi-Abhängigkeiten
 gelesen; H010-Pascal/C MAIN und GBASE/GMASS statisch verglichen.
 Umfang/Hashes in `06_docs/XI_DOWNSTREAM_2026-10-18.md`.

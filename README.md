@@ -45,7 +45,15 @@ und [drei Grafiken mit Erläuterungen](07_outputs/figures/README.md)
 fassen die Etappen39/40 zusammen. Die PDF ist eine datierte Übersicht;
 die vollständigen Quellen- und Rechendetails stehen in den Berichten.
 
-Stand 2026-10-18, Etappe48:
+Stand 2026-10-18, Etappe49:
+[Neutrino-Größen und Port-Zuordnung](06_docs/NEUTRINO_OBSERVABLE_2026-10-18.md):
+H007 nennt fünf mögliche Feldzustände; C0.66 verwendet aktiv andere
+e-/mu-/tau-Deskriptoren und einen zusätzlichen Speicherfilter. Seine
+mu-/tau-Feldgrößen sind algebraisch gleich, sofern beide ausgewertet werden.
+Die Zuordnung zu einer Messgröße bleibt offen. Keine neuen Messresiduen;
+55 Befunde,377 Tests im unveränderten Rechenstand.
+
+Vorheriger Stand, Etappe48:
 [Xi-Folgen und spätere Übertragungen](06_docs/XI_DOWNSTREAM_2026-10-18.md):
 Zusätzliche QX-Terme fallen für Xi weg; bei wohldefinierter Auswertung
 werden die beiden Massenpfade nur umgeordnet. Ein alter IK4-Vorbestand

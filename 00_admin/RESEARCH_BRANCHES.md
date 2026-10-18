@@ -46,3 +46,9 @@ H015-IK4-Vorbestand (FIND-041) verhindert eine allgemeine Laufbehauptung.
 Pascal/C vermeiden die frühe Integerdivision. Ohne Xi-Zustands-/Ausdruckbeleg
 numerische Fortsetzung geparkt. Nächster unabhängiger Zweig: Neutrino-Größe
 H016 zu Messgrößen zuordnen; keine aktuelle Massentabelle vorschnell anlegen.
+
+Einheit49: Neutrino-Größen H016/H007 von H010-Portbezeichnungen getrennt.
+Aktive e-/mu-/tau-Liste ersetzt ausgeschaltete Fünferliste; zusätzliche
+Speicherbedingung. Mu-/tau-Feldgrößen im Port algebraisch gleich.
+Konkreter nächster Vertrag: H007 B49/B65 bei unteren Schranken gegen
+C-FIK vergleichen; danach Messbrücke, weiterhin keine Ersatzmassentabelle.
