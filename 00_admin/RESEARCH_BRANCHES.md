@@ -56,3 +56,7 @@ C-FIK vergleichen; danach Messbrücke, weiterhin keine Ersatzmassentabelle.
 Einheit50: B65-Port-Gleichsetzung algebraisch widerlegt, ohne Massenfit.
 Reguläre B49-Einschränkung für k1 leer möglich; B50 bleibt allgemein offen.
 Nächster Quellenweg: H004351-354, Neutrinointerpretation und Messverweis.
+
+Einheit51: Buchfilter begründet, historischer Messverweis als Obergrenze
+identifiziert. Messgrößenbrücke und M007-Volltext offen. Nächste konkrete
+Prüfung: H004111 zu118b, bevor neue historische Zahlen berechnet werden.

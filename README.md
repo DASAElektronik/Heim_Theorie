@@ -45,7 +45,13 @@ und [drei Grafiken mit Erläuterungen](07_outputs/figures/README.md)
 fassen die Etappen39/40 zusammen. Die PDF ist eine datierte Übersicht;
 die vollständigen Quellen- und Rechendetails stehen in den Berichten.
 
-Stand 2026-10-18, Etappe50:
+Stand 2026-10-18, Etappe51:
+[Buchzustände und historischer Messverweis](06_docs/NEUTRINO_BOOK_2026-10-18.md):
+Der Portfilter hat ein Quellenmotiv im Buch. Der dort zitierte Versuch
+liefert eine bedingte Obergrenze, keinen gemessenen Treffer bei4,006eV.
+57 Befunde; Rechenstand unverändert381 erfolgreiche Tests.
+
+Vorheriger Stand, Etappe50:
 [B65 und C-Feldextraktion algebraisch getrennt](06_docs/NEUTRINO_FIELD_BRIDGE_2026-10-18.md):
 Eine quellenbelegte Gleichheit zweier Zustände bleibt im projizierten Port
 nicht erhalten. Keine Massenziele eingesetzt; B50 bleibt allgemein offen.

@@ -1287,6 +1287,27 @@
       ],
       "reproduction": "py -3.13 scripts/audit_neutrino_field_bridge.py --check. Vier neue rationale Kontrollen;381 Tests insgesamt bestanden.55 alte Befundobjekte unverändert. Ein Agent, keine externe Begutachtung.",
       "next_check": "Neutrino-/Feldmassenstellen H004351-354 samt empirischem Verweis lesen. Quellenversionen getrennt halten; keine numerische Anpassung zur B65-Port-Gleichsetzung."
+    },
+    {
+      "finding_id": "FIND-057",
+      "kind": "source_definition",
+      "claim": "H004 begründet die Auswahl k=1 und gerades P+Q für die diskutierte freie Neutrinostrahlung bedingt. Der auf354 zitierte M007-Versuch berichtet eine modellabhängige Obergrenze, keine positive Messung bei4,006eV.",
+      "source_ids": [
+        "H004",
+        "H010",
+        "M007"
+      ],
+      "source_locator": "H004 Druck351–354/PDF357–360 und Anhang376/PDF381 vollständig visuell. M007 APS-Abstract und Bibliografie, kein Volltext. H010-Filter aus49.",
+      "assumptions": "k-Erhaltung als Buchannahme; historische Majorana-Auswertung in M007. Keine Identifikation von Heim-Feldmasse und experimentellem Massenparameter vorausgesetzt.",
+      "scope": "Elf Buchstrukturen von drei weiter diskutierten freien Strukturen und beta-Zerlegung getrennt. C-Filter hat Quellenmotiv, beweist aber keine gesamte Buch-Port-Identität. Gedruckte R/P-Tabellenwerte2,003/2,03 unverändert transkribiert.",
+      "not_established": "Keine Methodenprüfung des M007-Volltexts, Messgleichung, heutige empirische Bewertung, Neutrinomassenreproduktion oder Widerlegung allein aus Artikeltitel. Verträglichkeit ist keine gemessene Bestätigung.",
+      "evidence_paths": [
+        "00_admin/NEUTRINO_BOOK_PLAN.md",
+        "06_docs/NEUTRINO_BOOK_2026-10-18.md",
+        "05_analysis/neutrino_book_sources.json"
+      ],
+      "reproduction": "Quellen-/Metadatenprüfung;56 Altbefunde erhalten. Numerischer Stand381 Tests unverändert. Ein Agent.",
+      "next_check": "H004111/111a gegen118b bei den angegebenen neutralen Zuständen prüfen; Port und H007 separat halten."
     }
   ]
 }

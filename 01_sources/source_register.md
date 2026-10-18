@@ -6,6 +6,10 @@ Dieses Register sammelt Fundstellen. Lokale Kopien sollten nur abgelegt werden, 
 
 ## Enger Prüfstand 2026-10-18
 
+Etappe51: H004 Druck351–354/PDF357–360 und Anhang376/PDF381
+vollständig visuell gelesen. M007 Bibliografie/APS-Abstract geprüft,
+kein Volltext erhalten. Umfang: `06_docs/NEUTRINO_BOOK_2026-10-18.md`.
+
 Etappe50: H007 PDF2/3/7/8 vollständig visuell, B65 aus49 und
 H010-C-GMASS statisch verglichen. B49 nur auf regulärer leerer k1-Domain
 reduziert, allgemeiner B50-Blocker bleibt. Bericht `06_docs/NEUTRINO_FIELD_BRIDGE_2026-10-18.md`.
@@ -342,6 +346,7 @@ Keine neuen Quellen oder stillen Rechenprofilwechsel; Umfang/Hashes:
 | M004 | Rohdaten | CERN Open Data Portal | https://opendata.cern.ch/ | gefunden |
 | M005 | Historische Primaerreferenz, englische Fassung | Louis de Broglie: The wave nature of the electron, Nobel Lecture12.12.1929 | https://www.nobelprize.org/uploads/2016/04/broglie-lecture.pdf | Druck247-249/PDF4-6 visuell geprueft; Hash/Umfang in03_notes/WAVE_REFERENCE_2026-09-06.md |
 | M006 | Historische Messdatenzusammenstellung | Particle Data Group: Review of Particle Properties, Physics Letters50B Nr.1, April1974 | https://pdg.lbl.gov/rpp-archive/files/Physics-Letters-B-1974-v50.pdf | Abgerufen2026-10-18; lokal mainstream_reference/PDG_1974_Review_of_Particle_Properties.pdf; Grundmassentabelle visuell geprüft; kein Beweis der originalen F_S-Eingaben; Hash/Scope in03_notes/FS_PROVENANCE_SOURCES_2026-10-18.md |
+| M007 | Historische Experimentalpublikation | Kirsten/Richter/Jessberger: Rejection of Evidence for Nonzero Neutrino Rest Mass from Double Beta Decay, PRL50,474–477(1983) | https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.50.474 | Bibliografie und APS-Abstract, kein Volltext; Metadaten/Umfang in05_analysis/neutrino_book_sources.json |
 
 ## Prioritaet fuer lokale Ablage
 

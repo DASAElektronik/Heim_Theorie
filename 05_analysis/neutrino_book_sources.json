@@ -1,0 +1,22 @@
+{
+  "source_id": "M007",
+  "title": "Rejection of Evidence for Nonzero Neutrino Rest Mass from Double Beta Decay",
+  "authors": [
+    "T. Kirsten",
+    "H. Richter",
+    "E. Jessberger"
+  ],
+  "doi": "10.1103/PhysRevLett.50.474",
+  "journal": "Physical Review Letters",
+  "volume": "50",
+  "pages": "474-477",
+  "published": "1983-02-14",
+  "retrieved": "2026-10-18",
+  "publisher_url": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.50.474",
+  "metadata_url": "https://inspirehep.net/api/literature/190968",
+  "review_scope": "APS publisher search result plus APS-attributed abstract in INSPIRE metadata; no full text obtained",
+  "fulltext_access": "Publisher open cache miss; public harvest endpoint returned401; no authentication attempted",
+  "abstract_paraphrase": "Redetermined Te128/Te130 DBD rate ratio is compatible with vanishing examined mass and admixture parameters; model-dependent Majorana mass limit approximately5.6eV at95% confidence, not a positive4eV mass measurement.",
+  "book_locator": "H004 printed354 footnote5; field-state discussion351-354; table printed376/PDF381",
+  "not_established": "Full-method review, identity with Heim field quantity, or present-day empirical comparison"
+}
