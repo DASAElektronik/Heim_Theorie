@@ -1,0 +1,96 @@
+{
+  "source": "H004 printed275 and376, plus111/118a/118b reviewed in52",
+  "assignment": "Table nu(e0) assigned to neutral e field state from352",
+  "table_eV": {
+    "e_field": "215027/40",
+    "beta": "2003/500",
+    "pi": "1441793/1000"
+  },
+  "xi_bounds_exact": [
+    "16180339887498948482045868343656381177203/10000000000000000000000000000000000000000",
+    "32360679774997896964091736687312762354407/20000000000000000000000000000000000000000"
+  ],
+  "formula": "m_pi=m_beta+a*(m_e_field-m_beta)/(1+4*xi)",
+  "alternatives": {
+    "1": "printed118b",
+    "2": "111 reduction"
+  },
+  "primary_halfwidth_eV": "1/2000",
+  "sensitivity_halfwidth_eV": "1/1000",
+  "rows": [
+    {
+      "factor": 1,
+      "print_halfwidth_eV": "1/2000",
+      "relation_value_eV_approx": "722.899370296058",
+      "projected_bounds_eV_exact": [
+        "54015986405677508152579338902602062539221154477/74721359549995793928183473374625524708814000",
+        "27008030563518529074186633543037718582372927639/37360679774997896964091736687312762354406000"
+      ],
+      "projected_bounds_eV_approx": [
+        "722.898870296058",
+        "722.899870296058"
+      ],
+      "target_bounds_eV_exact": [
+        "576717/400",
+        "2883587/2000"
+      ],
+      "rounding_envelopes_overlap": false
+    },
+    {
+      "factor": 2,
+      "print_halfwidth_eV": "1/2000",
+      "relation_value_eV_approx": "1441.792740592116",
+      "projected_bounds_eV_exact": [
+        "107732676405677508152579338902602062539221154477/74721359549995793928183473374625524708814000",
+        "53866375563518529074186633543037718582372927639/37360679774997896964091736687312762354406000"
+      ],
+      "projected_bounds_eV_approx": [
+        "1441.792240592116",
+        "1441.793240592116"
+      ],
+      "target_bounds_eV_exact": [
+        "576717/400",
+        "2883587/2000"
+      ],
+      "rounding_envelopes_overlap": true
+    },
+    {
+      "factor": 1,
+      "print_halfwidth_eV": "1/1000",
+      "relation_value_eV_approx": "722.899370296058",
+      "projected_bounds_eV_exact": [
+        "5401594904499773315468237481086537522645880007/7472135954999579392818347337462552470881400",
+        "13504024621929208286567557794453031119377052421/18680339887498948482045868343656381177203000"
+      ],
+      "projected_bounds_eV_approx": [
+        "722.898370296058",
+        "722.900370296058"
+      ],
+      "target_bounds_eV_exact": [
+        "180224/125",
+        "720897/500"
+      ],
+      "rounding_envelopes_overlap": false
+    },
+    {
+      "factor": 2,
+      "print_halfwidth_eV": "1/1000",
+      "relation_value_eV_approx": "1441.792740592116",
+      "projected_bounds_eV_exact": [
+        "10773263904499773315468237481086537522645880007/7472135954999579392818347337462552470881400",
+        "26933197121929208286567557794453031119377052421/18680339887498948482045868343656381177203000"
+      ],
+      "projected_bounds_eV_approx": [
+        "1441.791740592116",
+        "1441.793740592116"
+      ],
+      "target_bounds_eV_exact": [
+        "180224/125",
+        "720897/500"
+      ],
+      "rounding_envelopes_overlap": true
+    }
+  ],
+  "independent_mass_prediction": false,
+  "original_program_execution_proven": false
+}

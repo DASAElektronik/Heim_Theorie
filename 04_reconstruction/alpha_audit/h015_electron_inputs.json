@@ -1,0 +1,21 @@
+{
+  "profile": "H015_photographed_E_charged_N0",
+  "scope": "Single charged E ground state; real-arithmetic reconstruction, not historical binary execution or an empirical prediction test",
+  "source": {
+    "id": "H015",
+    "path": "01_sources/heim_primary/alpha3_origin/Heim_DESY_1982_Archivscan.pdf",
+    "sha256": "C242599F7AAF68BB8E2F3C7756A24687E86FAD879E4D0E22C00585A32403317F",
+    "pages": "4/18 MAIN;5/21 GINIT;7/22 GBASE;23 GSTRUC;24 GMASS/ETAQK;27 output"
+  },
+  "constant_input_path": "04_reconstruction/alpha_audit/historical_constants_inputs.json",
+  "state": {"K": 1, "PG": 1, "QG": 1, "KAPPA": 0, "EPS": 1, "IX": 2, "N": 0},
+  "selection": "Derive first three integers from W=GKQ; certify K4=1 by W4=exp(-1/3). Record raw Decimal truncation separately; no epsilon promotion or binary-emulation claim",
+  "comparison_only": {
+    "printed_mass_MeV": "0.51100326Q+00",
+    "printed_K": [3, 3, 2, 1],
+    "printed_n": [0, 0, 0, 0],
+    "rounding": "Assume nearest last printed digit, inclusive half-unit interval",
+    "known_before_calculation": true
+  },
+  "target_fitting": false
+}

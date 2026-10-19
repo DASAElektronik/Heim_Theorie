@@ -1,0 +1,115 @@
+{
+  "profile": "H015_photographed_E_charged_N0",
+  "scope": "Single charged E ground state; real-arithmetic reconstruction, not historical binary execution or an empirical prediction test",
+  "result": {
+    "state_derived": {
+      "CS": 0,
+      "QX": -1,
+      "KQ": 1,
+      "Q": [
+        3,
+        3,
+        2,
+        1
+      ]
+    },
+    "coefficients": {
+      "d": "9.875639881047455E-1",
+      "a1": "9.968812705528217E-1",
+      "a2": "1.012592613790141E+0",
+      "a3": "9.786588001195214E-1"
+    },
+    "domains": {
+      "A36_denominator": "9.953381701622795E-1",
+      "A41_denominator": "1.952861626785395E+0",
+      "eta": "9.899896408182263E-1",
+      "eta_qk": "9.875639881047455E-1",
+      "alpha": "7.297351069406458E-3",
+      "xi": "1.618033990000000E+0",
+      "ALFP": "1.832211507605286E-2"
+    },
+    "selection": {
+      "GKQ": "3.870297673985029E+1",
+      "WGX_factor": "1.000000000000000E+0",
+      "FN": "0.000000000000000E+15",
+      "steps": [
+        {
+          "integer": 3,
+          "lower_margin": "1.178718243492410E+1",
+          "upper_margin": "2.509742457553030E+1"
+        },
+        {
+          "integer": 3,
+          "lower_margin": "2.673848910812832E+0",
+          "upper_margin": "4.414299385718155E+0"
+        },
+        {
+          "integer": 2,
+          "lower_margin": "7.165313105737893E-1",
+          "upper_margin": "2.621274895457322E-1"
+        }
+      ],
+      "K": [
+        3,
+        3,
+        2,
+        1
+      ],
+      "n": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "W4": "7.165313105737893E-1",
+      "final_identity": "W4=exp(-1/3); -3*ln(W4)=1"
+    },
+    "mass_terms": {
+      "KGH": "2.159999949332885E+2",
+      "FIG": "4.089841733042176E+0",
+      "FIG_reduced": "4.089841733042176E+0",
+      "FIG_product_factors": [
+        "9.609233786536443E-1",
+        "5.563642675718236E-1",
+        "2.000000000000000E+0",
+        "9.975675496435312E-1",
+        "1.000000000000000E+0",
+        "1.000000000000000E+0",
+        "1.975127976209491E+0",
+        "1.093095594365299E+0",
+        "1.000000000000000E+0"
+      ]
+    },
+    "AMU_kg": "2.259021874177218E-31",
+    "ALFP": "1.832211507605286E-2",
+    "conversion": "5.609545000000000E+29",
+    "mass_kg": "9.109531267255284E-31",
+    "mass_MeV": "5.110032557257554E-1"
+  },
+  "precision_diagnostics": [
+    {
+      "precision": 60,
+      "raw_K4": "1.00000000000000000000000000000000000000000000000000000000012",
+      "raw_truncation": 1,
+      "cancellation_residual": "-3.0E-59",
+      "FIG_identity_residual": "2E-59"
+    },
+    {
+      "precision": 90,
+      "raw_K4": "1.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000012",
+      "raw_truncation": 1,
+      "cancellation_residual": "-2.9E-89",
+      "FIG_identity_residual": "0E-89"
+    }
+  ],
+  "comparison": {
+    "printed": "0.51100326Q+00",
+    "lower": "5.110032550000000E-1",
+    "upper": "5.110032650000000E-1",
+    "difference": "-4.274244578348402E-9",
+    "mass_matches": true,
+    "K_matches": true,
+    "n_matches": true
+  },
+  "limits": "Analytic final integer; no historical compiler replay, empirical validation or original input-calibration proof"
+}

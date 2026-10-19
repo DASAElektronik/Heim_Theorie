@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="509" height="190" preserveAspectRatio="xMinYMin meet" viewBox="0 0 509 190" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="509" height="190"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-190)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="0" y="174" style="font-family: sans-serif; font-weight: bold; font-size: 12px;fill: rgb(9%,20%,26%); stroke:none;" transform="translate(0,348) scale(1,-1)">Lichtgeschwindigkeit: Druckwerte sind vereinbar</text>
+			<path d="M 190,53 L 190,145 Z" style="stroke: rgb(84%,88%,89%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="180.921875" y="37" style="font-family: sans-serif; font-size: 8px;fill: rgb(32%,40%,46%); stroke:none;" transform="translate(0,74) scale(1,-1)">-100</text>
+			<path d="M 277.428571,53 L 277.428571,145 Z" style="stroke: rgb(84%,88%,89%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="270.89536830357144" y="37" style="font-family: sans-serif; font-size: 8px;fill: rgb(32%,40%,46%); stroke:none;" transform="translate(0,74) scale(1,-1)">-50</text>
+			<path d="M 364.857143,53 L 364.857143,145 Z" style="stroke: rgb(84%,88%,89%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="362.3122209821429" y="37" style="font-family: sans-serif; font-size: 8px;fill: rgb(32%,40%,46%); stroke:none;" transform="translate(0,74) scale(1,-1)">0</text>
+			<path d="M 452.285714,53 L 452.285714,145 Z" style="stroke: rgb(84%,88%,89%); stroke-linecap: butt; stroke-width: 0.6;"/>
+			<text x="447.1958705357143" y="37" style="font-family: sans-serif; font-size: 8px;fill: rgb(32%,40%,46%); stroke:none;" transform="translate(0,74) scale(1,-1)">50</text>
+			<path d="M 190,53 L 496,53 Z" style="stroke: rgb(32%,40%,46%); stroke-linecap: butt; stroke-width: 0.8;"/>
+			<text x="0" y="130" style="font-family: sans-serif; font-weight: bold; font-size: 9px;fill: rgb(3%,49%,51%); stroke:none;" transform="translate(0,260) scale(1,-1)">Aus epsilon0 und mu0</text>
+			<text x="0" y="116" style="font-family: sans-serif; font-size: 8px;fill: rgb(32%,40%,46%); stroke:none;" transform="translate(0,232) scale(1,-1)">Angenommene Druckrundung</text>
+			<path d="M 219.876091,129 L 458.057749,129 Z" style="stroke: rgb(3%,49%,51%); stroke-linecap: butt; stroke-width: 3;"/>
+			<path d="M 219.876091,124 L 219.876091,134 Z" style="stroke: rgb(3%,49%,51%); stroke-linecap: butt; stroke-width: 1.3;"/>
+			<path d="M 458.057749,124 L 458.057749,134 Z" style="stroke: rgb(3%,49%,51%); stroke-linecap: butt; stroke-width: 1.3;"/>
+			<circle cx="338.9660457468033" cy="129" r="3.4" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(3%,49%,51%); fill-rule: evenodd;"/>
+			<text x="0" y="79" style="font-family: sans-serif; font-weight: bold; font-size: 9px;fill: rgb(67%,39%,12%); stroke:none;" transform="translate(0,158) scale(1,-1)">PDG 1974</text>
+			<text x="0" y="65" style="font-family: sans-serif; font-size: 8px;fill: rgb(32%,40%,46%); stroke:none;" transform="translate(0,130) scale(1,-1)">Messwert +/- 1 Standardabweichung</text>
+			<path d="M 362.758857,78 L 366.955429,78 Z" style="stroke: rgb(67%,39%,12%); stroke-linecap: butt; stroke-width: 3;"/>
+			<path d="M 362.758857,73 L 362.758857,83 Z" style="stroke: rgb(67%,39%,12%); stroke-linecap: butt; stroke-width: 1.3;"/>
+			<path d="M 366.955429,73 L 366.955429,83 Z" style="stroke: rgb(67%,39%,12%); stroke-linecap: butt; stroke-width: 1.3;"/>
+			<circle cx="364.8571428571429" cy="78" r="3.4" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(67%,39%,12%); fill-rule: evenodd;"/>
+			<text x="262.876953125" y="20" style="font-family: sans-serif; font-size: 8px;fill: rgb(32%,40%,46%); stroke:none;" transform="translate(0,40) scale(1,-1)">Abweichung von 299 792 458 m/s [m/s]</text>
+			<text x="0" y="0" style="font-family: sans-serif; font-size: 8px;fill: rgb(32%,40%,46%); stroke:none;" transform="translate(0,0) scale(1,-1)">Rundungsbereich und Messunsicherheit sind unterschiedliche Angaben.</text>
+		</g>
+	</g>
+</svg>

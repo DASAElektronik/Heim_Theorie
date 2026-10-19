@@ -1,0 +1,50 @@
+{
+  "scope": "H015 to H010 fixed endpoints; not an empirical error or historical causal reconstruction",
+  "inputs": [
+    "04_reconstruction/alpha_audit/historical_constants_inputs.json",
+    "05_analysis/historical_n0_results.json"
+  ],
+  "H015": {
+    "mass_kg": "9.109531267255284E-31",
+    "mass_MeV": "5.110032557257554E-1",
+    "D": "4.032511314470189E+0",
+    "conversion": "5.609545000000000E+29"
+  },
+  "H010": {
+    "mass_kg": "9.109380891976904E-31",
+    "mass_MeV": "5.109988467032001E-1",
+    "D": "4.032511314749317E+0",
+    "conversion": "5.609589200000000E+29"
+  },
+  "factors": {
+    "mass_scale_mu": {
+      "ratio": "9.999834924647037E-1",
+      "relative_ppm": "-1.650753529626172E+1",
+      "log_ppm": "-1.650767154712194E+1"
+    },
+    "dimensionless_D": {
+      "ratio": "1.000000000069219E+0",
+      "relative_ppm": "6.921946477386000E-5",
+      "log_ppm": "6.921946477146433E-5"
+    },
+    "conversion": {
+      "ratio": "1.000007879426941E+0",
+      "relative_ppm": "7.879426941044238E+0",
+      "log_ppm": "7.879395898522843E+0"
+    }
+  },
+  "totals": {
+    "kg_ratio": "9.999834925339221E-1",
+    "MeV_ratio": "9.999913718307937E-1",
+    "kg_relative_ppm": "-1.650746607793959E+1",
+    "MeV_relative_ppm": "-8.628169206268292E+0",
+    "MeV_log_ppm": "-8.628206429134328E+0"
+  },
+  "scale_log_ppm": {
+    "pi": "1.667287738405710E-5",
+    "hbar": "-1.351564730350469E+1",
+    "gamma": "-2.992040916494637E+0"
+  },
+  "checks": "Algebraic scale and product/log identities below 1e-65; saved H010 endpoint precision limits comparison",
+  "limits": "Ordinary ppm components are multiplicative; only log contributions add. No new H004 mass inferred."
+}

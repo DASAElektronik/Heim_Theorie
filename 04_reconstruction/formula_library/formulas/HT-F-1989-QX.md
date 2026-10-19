@@ -14,7 +14,7 @@ The same source block gives the angle definition:
 α_Q = π Q [Q + (P/2)]                                               (B1)
 ```
 
-`(P/2)` is a compact transcription of the visibly stacked `P` over `2`; this is a source-glyph transcription, not a validated normalization rule.
+`(P/2)` is a compact transcription of the visibly stacked `P` over `2`; normalization decision `NORM-STACKED-BINOMIAL` maps this notation to `choose(P, 2)` for implementation.
 
 The modified charge-number expression is:
 
@@ -49,7 +49,8 @@ Alle übrigen Konstanten sind in (I) definiert.
 ## Audit Notes
 
 - Source-checked against `1989_erweiterte_massenformel/page-02.png` by two worker packets plus Critic review.
-- The `C/k` instruction is printed as prose before `(B1)` and must stay separate from the visible `+ C` term in `(B2)` until a normalization step explicitly applies it.
+- The `C/k` instruction is printed as prose before `(B1)` and stays separate from the visible `+ C` source transcription in `(B2)`.
+- Normalization decision `NORM-1989-QX-C-OVER-K` defines `C_1989 = C_1982 / k`; the normalized 1989 `(B2)` implementation uses `+ C_1989` without rewriting the source transcription to `+ C/k`.
 - OCR rendered the stacked `(P/2)` glyph in `(B1)` as `2P`; the image supports stacked `P` over `2`, not plain `2P`.
 - The source distinguishes Greek `κ` from Latin `k`; implementation must preserve that distinction.
 
@@ -57,4 +58,5 @@ Alle übrigen Konstanten sind in (I) definiert.
 
 - This formula modifies the 1982 charge expression.
 - A mixed 1982/1989 implementation would be invalid unless explicitly versioned.
-- The canonical encoding of the stacked `P` over `2` in `(B1)` remains a normalization decision.
+- The canonical encoding of the stacked `P` over `2` in `(B1)` is resolved by `NORM-STACKED-BINOMIAL`.
+- The 1989 `C/k` rule is resolved by `NORM-1989-QX-C-OVER-K`; code must prevent double division of `C_1989`.

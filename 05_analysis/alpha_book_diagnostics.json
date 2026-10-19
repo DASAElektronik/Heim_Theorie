@@ -1,0 +1,208 @@
+{
+  "schema_version": 1,
+  "audit_date": "2026-09-06",
+  "input_content_sha256": "aadec77ad294ea8edf0928c29c709933212caa7bdea4c916f08ee1f24bb4f94a",
+  "precision": 80,
+  "pi_profile": "mathematical_pi",
+  "source": "EDM2 printed pp301-302, equation105, Y3=1 numerical example",
+  "source_scope": "Book equation structure combined with explicit IGW1982 eta profiles; not a complete book-only derivation",
+  "normalization": "NORM-BOOK-ALPHA-Y3-DIAGNOSTICS",
+  "diagnostic_scope": "Every inferred Y3 uses its target explicitly; this is calibration/diagnosis, never a prediction",
+  "profiles": [
+    {
+      "model": "1982_source_literal",
+      "original_interpretation_status": "source_literal",
+      "R0": "0.0072972444211768087122598626135646670857369753580076529264552795465695693160300198",
+      "A1_A2": "0.00010803486508237938753513150844874720226102461425056095072585344941047340896496454",
+      "targets": [
+        {
+          "target": "printed_1982_inverse_plus",
+          "input_literal": "137,03596147",
+          "input_interval": [
+            "137.035961465",
+            "137.035961475"
+          ],
+          "input_interval_kind": "conditional_printing_half_last_place",
+          "required_rhs": "0.0072971602725797260328299880900347880480373359839371301598894922974691359947423690",
+          "implied_y3": "0.10673922685753836163682439492026667952577788881245439395093512477240057251696765",
+          "implied_y3_interval": [
+            "0.10673888914795698371783056845684363773284422859036854963079628437543193731476676",
+            "0.10673956456711971491392136910327558321010012285417324115189331031511826127580374"
+          ]
+        },
+        {
+          "target": "printed_1982_inverse_minus",
+          "input_literal": "1,00001363",
+          "input_interval": [
+            "1.000013625",
+            "1.000013635"
+          ],
+          "input_interval_kind": "conditional_printing_half_last_place",
+          "required_rhs": "0.0052209864587272385477708195729850238948126480584318896144563824119628140721925592",
+          "implied_y3": "2633.6525783184019239409826850463811675683798976120538735105675441634319167974494",
+          "implied_y3_interval": [
+            "2632.4380340601543137707756840252122767765039688014493428536553828872343898220576",
+            "2634.8673453993819268371264056329821110631801173636725064520454638287808948612344"
+          ]
+        },
+        {
+          "target": "codata2022_inverse_plus",
+          "input_literal": "137.035999177",
+          "input_interval": [
+            "137.035999156",
+            "137.035999198"
+          ],
+          "input_interval_kind": "reference_plus_minus_one_standard_uncertainty_not_theory_uncertainty",
+          "required_rhs": "0.0072971582647907439851525534172491446871745055257408677294600913983577400901201174",
+          "implied_y3": "0.10928602919372329997267562876424038107127472036509827247737851420234946319094946",
+          "implied_y3_interval": [
+            "0.10928461081426185128129301481580241176024857020849116663428389686903253519215968",
+            "0.10928744757318431398135655399609505558422630997429492846643316238318686210749731"
+          ]
+        }
+      ],
+      "one_y3_can_fit_both_printed_branches": false,
+      "calibrated_companion_inverse": "1.0000266267406613000052399175346755943064798832625996215746665610212829337731036",
+      "calibrated_companion_status": "algebraic consequence of fitting alpha, not an independently validated physical coupling",
+      "cancellation_at_source_y3_1": {
+        "reference_inverse_minus": "1.0000266216158851546304254822186566138415731081125544731337583094759052902070283",
+        "binary64_unstable_inverse_minus": "1.0000266216158529",
+        "binary64_stable_inverse_minus": "1.0000266216158853",
+        "binary64_unstable_error": "-3.22814820697982665523135810292848703669731337583094759052902070283E-14",
+        "binary64_stable_error": "1.370302492563044280564636789670827580268662416905240947097929717E-16",
+        "printed_inverse_minus_error": "-0.0000129916158851546304254822186566138415731081125544731337583094759052902070283",
+        "decimal_cancellation_trials": [
+          {
+            "precision": 8,
+            "inverse_minus": "1.0000162",
+            "error_against_high_precision": "-0.0000104216158851546304254822186566138415731081125544731337583094759052902070283"
+          },
+          {
+            "precision": 10,
+            "inverse_minus": "1.000026568",
+            "error_against_high_precision": "-5.36158851546304254822186566138415731081125544731337583094759052902070283E-8"
+          },
+          {
+            "precision": 12,
+            "inverse_minus": "1.00002661960",
+            "error_against_high_precision": "-2.0158851546304254822186566138415731081125544731337583094759052902070283E-9"
+          },
+          {
+            "precision": 16,
+            "inverse_minus": "1.000026621616094",
+            "error_against_high_precision": "2.088453695745177813433861584268918874455268662416905240947097929717E-13"
+          },
+          {
+            "precision": 24,
+            "inverse_minus": "1.00002662161588515462935",
+            "error_against_high_precision": "-1.0754822186566138415731081125544731337583094759052902070283E-21"
+          }
+        ],
+        "interpretation": "Arithmetic experiments, not a reconstruction of the historical calculator or rounding policy"
+      }
+    },
+    {
+      "model": "1982_printed_alpha_fit_variant",
+      "original_interpretation_status": "our_inference_target_motivated_existing_variant",
+      "R0": "0.0072972444211768087122598626135646670857369753580076529264552795465695693160300198",
+      "A1_A2": "0.000011528093059723821405230608185941427746538882967556392937220069878698722151756774",
+      "targets": [
+        {
+          "target": "printed_1982_inverse_plus",
+          "input_literal": "137,03596147",
+          "input_interval": [
+            "137.035961465",
+            "137.035961475"
+          ],
+          "input_interval_kind": "conditional_printing_half_last_place",
+          "required_rhs": "0.0072971602725797260328299880900347880480373359839371301598894922974691359947423690",
+          "implied_y3": "1.0003005625310162850090508201419387798371374917894606905867328739654368536737351",
+          "implied_y3_interval": [
+            "1.0002973977049802550432964530645435744835904870513880801622848419987018571892609",
+            "1.0003037273570520840446775400886113873544093875455715631729482090770747993147717"
+          ]
+        },
+        {
+          "target": "printed_1982_inverse_minus",
+          "input_literal": "1,00001363",
+          "input_interval": [
+            "1.000013625",
+            "1.000013635"
+          ],
+          "input_interval_kind": "conditional_printing_half_last_place",
+          "required_rhs": "0.0052209864587272385477708195729850238948126480584318896144563824119628140721925592",
+          "implied_y3": "24681.124579619377530824844554178000756605617530170055272577508518002301244925657",
+          "implied_y3_interval": [
+            "24669.742547535096057556936523644835743112186221339426937390784881403774908224709",
+            "24692.508699874157509071144286735686082131113760534801696138212214685160976416075"
+          ]
+        },
+        {
+          "target": "codata2022_inverse_plus",
+          "input_literal": "137.035999177",
+          "input_interval": [
+            "137.035999156",
+            "137.035999198"
+          ],
+          "input_interval_kind": "reference_plus_minus_one_standard_uncertainty_not_theory_uncertainty",
+          "required_rhs": "0.0072971582647907439851525534172491446871745055257408677294600913983577400901201174",
+          "implied_y3": "1.0241677750314521600456462364976246290321464839590595800289681266669575159747092",
+          "implied_y3_interval": [
+            "1.0241544827694137324735213985676759950264773724731698455152503259237173664309019",
+            "1.0241810672934865140136817169371602048080711400027681494087936710601838796740427"
+          ]
+        }
+      ],
+      "one_y3_can_fit_both_printed_branches": false,
+      "calibrated_companion_inverse": "1.0000266267406613000052399175346755943064798832625996215746665610212829337731036",
+      "calibrated_companion_status": "algebraic consequence of fitting alpha, not an independently validated physical coupling",
+      "cancellation_at_source_y3_1": {
+        "reference_inverse_minus": "1.0000266267554997251308536789186952278781050119967194506490163780873387457070107",
+        "binary64_unstable_inverse_minus": "1.000026626755169",
+        "binary64_stable_inverse_minus": "1.0000266267554998",
+        "binary64_unstable_error": "-3.307681693700061335881815123670969576569506490163780873387457070107E-13",
+        "binary64_stable_error": "7.82919682905154580607247239674954680493509836219126612542929893E-17",
+        "printed_inverse_minus_error": "-0.0000129967554997251308536789186952278781050119967194506490163780873387457070107",
+        "decimal_cancellation_trials": [
+          {
+            "precision": 8,
+            "inverse_minus": "1.0000136",
+            "error_against_high_precision": "-0.0000130267554997251308536789186952278781050119967194506490163780873387457070107"
+          },
+          {
+            "precision": 10,
+            "inverse_minus": "1.000026776",
+            "error_against_high_precision": "1.492445002748691463210813047721218949880032805493509836219126612542929893E-7"
+          },
+          {
+            "precision": 12,
+            "inverse_minus": "1.00002662561",
+            "error_against_high_precision": "-1.1454997251308536789186952278781050119967194506490163780873387457070107E-9"
+          },
+          {
+            "precision": 16,
+            "inverse_minus": "1.000026626755648",
+            "error_against_high_precision": "1.482748691463210813047721218949880032805493509836219126612542929893E-13"
+          },
+          {
+            "precision": 24,
+            "inverse_minus": "1.00002662675549972513048",
+            "error_against_high_precision": "-3.736789186952278781050119967194506490163780873387457070107E-22"
+          }
+        ],
+        "interpretation": "Arithmetic experiments, not a reconstruction of the historical calculator or rounding policy"
+      }
+    }
+  ],
+  "modern_reference": {
+    "quantity": "inverse fine-structure constant",
+    "value": "137.035999177",
+    "standard_uncertainty": "0.000000021",
+    "unit": "1",
+    "edition": "CODATA 2022",
+    "retrieved_on": "2026-09-06",
+    "url": "https://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+    "extraction": "NIST complete ASCII listing, row inverse fine-structure constant; manually transcribed and checked",
+    "use": "comparison only; never an input to either equation"
+  }
+}

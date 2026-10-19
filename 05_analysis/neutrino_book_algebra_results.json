@@ -1,0 +1,52 @@
+{
+  "source": "H004 printed342/343,352/353; introduction1",
+  "profile": "k=1,q=0,Y41=Y43=1; B includes common Y44; Y42 drops out",
+  "scope": "Synthetic rational witnesses only, not historical constants or masses",
+  "synthetic_inputs": {
+    "A": "3",
+    "B": "5",
+    "alpha": "1/100",
+    "sqrt_eta11": "2",
+    "xi": "1/2",
+    "eta_squared": "4"
+  },
+  "rows": [
+    {
+      "label": "e",
+      "k": 1,
+      "q": 0,
+      "P": 1,
+      "Q": 1,
+      "kappa": 0,
+      "phi_111": "2044/25",
+      "phi_118b": "2044/25",
+      "difference": "0"
+    },
+    {
+      "label": "mu",
+      "k": 1,
+      "q": 0,
+      "P": 1,
+      "Q": 1,
+      "kappa": 1,
+      "phi_111": "4387/50",
+      "phi_118b": "4387/50",
+      "difference": "0"
+    },
+    {
+      "label": "pi",
+      "k": 1,
+      "q": 0,
+      "P": 2,
+      "Q": 0,
+      "kappa": 0,
+      "phi_111": "1446/25",
+      "phi_118b": "848/25",
+      "difference": "598/25"
+    }
+  ],
+  "pi_difference": "4*A*(3-alpha)*sqrt_eta11/(1+4*xi)",
+  "pi_nonconstant_term_ratio": "2",
+  "total_mass_ratio_is_two": false,
+  "historical_mass_computed": false
+}

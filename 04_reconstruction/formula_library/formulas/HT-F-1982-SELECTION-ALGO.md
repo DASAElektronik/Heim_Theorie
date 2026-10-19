@@ -16,6 +16,8 @@ of `x_v`, not:
 Q_N = Q(N)
 ```
 
+`NORM-1982-SELECTION-QN-Q0-SCOPING` normalizes this as `Q_base_1982 = Q(0)` for the page-9 numerical algorithm only. `Q_N_1982 = Q(N)` remains a reserved unresolved resonance/bandwidth relation.
+
 For a resonance order `N = 0` or `N >= 2`, determine numerically:
 
 ```math
@@ -101,6 +103,8 @@ Therefore in case `(a)` the maximal value is computed as:
 K_4 = \alpha_3K_3
 ```
 
+`NORM-1982-ALGO-W4-CASES` normalizes the three `W_4` cases as source-literal pseudocode. It preserves the printed `K < 0` in case `(c)` and allows only explicitly named `K_4 < 0` interpretation variants.
+
 The occupation numbers follow from:
 
 ```math
@@ -133,6 +137,8 @@ then the identity:
 
 must be used. If the decimal-place sequence differs from this value, the source says not to round up; the decimal places are to be cut off because the `K_j` are counts of structure entities.
 
+`NORM-1982-ALGO-INTEGER-DECIMAL-RULE` normalizes this as a deterministic integerization policy: `K_1`, `K_2`, and `K_3` are maximum nonnegative integers satisfying their residual inequalities; `K_4` uses the source `,99...99` identity exception or otherwise truncates decimal places.
+
 ## Source
 
 - Provenance: `near_primary`
@@ -164,12 +170,14 @@ must be used. If the decimal-place sequence differs from this value, the source 
 - The source line range is `395-435`; the earlier queue range `395-431` cut off part of the `Vermerk`.
 - The next heading `Grenzen der Resonanzspektren` and formula `(XXXII)` are not part of this formula entry.
 - The top-line state is preserved as `Q = Q(0)` of `x_v`, not harmonized to `x_{vx}`.
-- The repeated source-local `vx` glyph family is preserved for `W_{vx}`, `a_{vx}`, `b_{vx}`, `Phi_{vx}`, terminal `x_{vx}`, and `M_N(vx)`. This is not a project-wide normalization decision.
-- The printed line-417 distinction `K < 0` is preserved. Any later replacement with `K_4 < 0` must be marked as normalization or interpretation, not source transcription.
+- The top-line Q convention is normalized by `NORM-1982-SELECTION-QN-Q0-SCOPING`: use `Q_base_1982 = Q(0)` for this algorithm; do not infer `Q_N_1982 = Q_base_1982`.
+- The repeated source-local `vx` glyph family is preserved for `W_{vx}`, `a_{vx}`, `b_{vx}`, `Phi_{vx}`, terminal `x_{vx}`, and `M_N(vx)`. `NORM-1982-SELECTION-VX-NUX-SCOPING` forbids silent cross-record harmonization with `nu_x`.
+- `NORM-1982-ALGO-VX-SCOPING` resolves this record locally: preserve `x_v` in the top-line state and preserve the later `vx`/`x_vx` family as printed.
+- The printed line-417 distinction `K < 0` is preserved. `NORM-1982-ALGO-W4-CASES` forbids silent replacement with `K_4 < 0`; case `(c)` use requires explicit variant metadata.
 - The final noun in the `Vermerk` is preserved as `Strukturentitäten`.
 
 ## Risks
 
-- The algorithm is source-checked only as visible transcription; implementation still requires a separate normalization pass for logarithm notation, inequality handling, integer truncation, and branch/case behavior.
-- The source-local `vx` notation must be reconciled later with nearby `nu/x` notation during normalization.
-- The decimal-place rule is a discrete free choice and must remain visible in any later numerical reproduction.
+- The algorithm is source-checked only as visible transcription; `NORM-1982-ALGO-INTEGER-DECIMAL-RULE` and `NORM-1982-ALGO-W4-CASES` normalize integerization and branch/case behavior, but upstream `W_vx` and Gamma/Q_N dependencies still block full numeric use.
+- Cross-record linkage between `vx` and `nu_x` families remains non-semantic until an explicit alias map is introduced.
+- The decimal-place rule is resolved by `NORM-1982-ALGO-INTEGER-DECIMAL-RULE`; future implementations must log raw `K_4`, integerized `K_4`, numeric precision profile, and whether `,99...99` promotion or truncation was applied.

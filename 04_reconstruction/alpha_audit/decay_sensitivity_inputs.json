@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "audit_date": "2026-09-06",
+  "base_input_path": "04_reconstruction/alpha_audit/book_pseudosinglet_inputs.json",
+  "base_input_canonical_sha256": "8b320903bfe148c2956168e46c2279c1a16cd1b2b1837cb5b6efba47188affb7",
+  "alpha_profiles": ["book_eq105_y3_1", "book_printed_alpha_sensitivity"],
+  "decay_profiles": [
+    {"id": "heim_z5", "A_numerator": 1, "A_denominator": 3, "role": "unchanged_book_choice"},
+    {"id": "counterfactual_z3", "A_numerator": 1, "A_denominator": 5, "role": "own_source_motivated_sensitivity_not_author_correction"}
+  ],
+  "joint_update": "E_A(n)=exp(-A*n); B=27*a1+9*a2+2*a3; g_A=B+E_A(1); W_A=g_A*w",
+  "fixed": ["base_state", "alpha_profile_rules", "a1", "a2", "a3", "eta11", "A16", "w", "Y3", "Y9", "Q_j", "empty_reference_E_A(0)=1"],
+  "evaluations": ["joint_shift_g_W", "ordinary_forward_selection_or_explicit_branch_boundary", "direct_unweighted_structure_diagnostics", "sigma_107b_separate", "certified_finite_integer_existence", "explicitly_nonphysical_real_N4_relaxation"],
+  "integer_domain": "N1,N2,N3,N4 nonnegative integers; first two direct strict gates N1^3>G2(N2),N2^2>G3(N3); N3>N4; second-row ordering and central condition checked separately",
+  "real_relaxation": "Only N4 may be real; impose 0<=N4<=N3-1 and retain first two gates and second-row ordering. This is an own relaxation, not a physical state.",
+  "arithmetic": "rational outward intervals for exclusion and branch certification; independent high-precision Decimal for display/cross-check, never a physical tolerance",
+  "selection_policy": "ordinary floor only if positive W4<=1 and raw_N4<=a3*N3; otherwise report branch boundary without inventing saturation/transfer",
+  "bounds_policy": "derive a fresh finite outer box for every cell from positive coefficients, total W_A and unweighted gates; no inherited cutoff",
+  "target_fitting": false,
+  "mass_evaluation": false,
+  "physical_approximation_error_claim": false,
+  "historical_program_execution": false
+}

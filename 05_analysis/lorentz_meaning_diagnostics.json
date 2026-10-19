@@ -1,0 +1,182 @@
+{
+  "schema_version": 1,
+  "audit_date": "2026-09-06",
+  "normalization_id": "NORM-LORENTZ-MEANING-001",
+  "sources": [
+    {
+      "path": "01_sources/heim_primary/Burkhard Heim - 1998 - Elementarstrukuren der Materie 1.pdf",
+      "sha256": "49C79028C4F5B4FEE97F0541EF1655C37755C3C3C2FD3A10DD6E72CB454DE459",
+      "locator": "printed12/PDF20; printed21/PDF29 literal block; printed56/PDF63 contextual matrix; printed81/PDF88 and288/PDF294 energy"
+    },
+    {
+      "path": "01_sources/heim_primary/Burkhard Heim - 1996 - Elementarstrukuren der Materie 2.pdf",
+      "sha256": "F094F56EC81D22D17C21C93BA248705DD79100828B813C72682F6A6605593849",
+      "locator": "printed276-277/PDF282-283 author motivation; printed300-301/PDF306-307 H construction"
+    },
+    {
+      "path": "01_sources/mainstream_reference/Einstein_1905_Elektrodynamik.pdf",
+      "sha256": "F907CD496A6A1ABF07E7E78C2111A63DAB1E9D8F2491BCC0C391B872CB3C49B4",
+      "locator": "printed902-903/PDF12-13; coordinate boost and equal-time geometry"
+    }
+  ],
+  "arithmetic": "Exact rational fractions; no floating-point arithmetic",
+  "modern_reference_inputs": [],
+  "target_fitting": false,
+  "boost_speed_b": "3/5",
+  "gamma_b": "5/4",
+  "speed_scope": "Relative frame speed, not silently identified with source alpha",
+  "standard_reference": {
+    "status": "our_explicit_reference_not_a_silent_source_matrix_repair",
+    "basis": "(ct,x) or dimensionless (epsilon,q)",
+    "matrix": [
+      [
+        "5/4",
+        "-3/4"
+      ],
+      [
+        "-3/4",
+        "5/4"
+      ]
+    ],
+    "transformed_metric": [
+      [
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "-1"
+      ]
+    ],
+    "preserves_metric": true,
+    "momentum_cases": [
+      {
+        "label": "initially_resting",
+        "before": {
+          "epsilon": "1",
+          "q_signed": "0",
+          "mass_shell": "1",
+          "pc_magnitude_over_m0c2": "0",
+          "T_over_m0c2": "0"
+        },
+        "after": {
+          "epsilon": "5/4",
+          "q_signed": "-3/4",
+          "mass_shell": "1",
+          "pc_magnitude_over_m0c2": "3/4",
+          "T_over_m0c2": "1/4"
+        }
+      },
+      {
+        "label": "boost_into_particle_rest_frame",
+        "before": {
+          "epsilon": "5/4",
+          "q_signed": "3/4",
+          "mass_shell": "1",
+          "pc_magnitude_over_m0c2": "3/4",
+          "T_over_m0c2": "1/4"
+        },
+        "after": {
+          "epsilon": "1",
+          "q_signed": "0",
+          "mass_shell": "1",
+          "pc_magnitude_over_m0c2": "0",
+          "T_over_m0c2": "0"
+        }
+      }
+    ]
+  },
+  "static_circle": {
+    "samples": [
+      {
+        "x": "1",
+        "y": "0",
+        "ct_selected": "3/5",
+        "ct_prime": "0",
+        "x_prime": "4/5",
+        "y_prime": "0"
+      },
+      {
+        "x": "0",
+        "y": "1",
+        "ct_selected": "0",
+        "ct_prime": "0",
+        "x_prime": "0",
+        "y_prime": "1"
+      },
+      {
+        "x": "-1",
+        "y": "0",
+        "ct_selected": "-3/5",
+        "ct_prime": "0",
+        "x_prime": "-4/5",
+        "y_prime": "0"
+      },
+      {
+        "x": "0",
+        "y": "-1",
+        "ct_selected": "0",
+        "ct_prime": "0",
+        "x_prime": "0",
+        "y_prime": "-1"
+      },
+      {
+        "x": "3/5",
+        "y": "4/5",
+        "ct_selected": "9/25",
+        "ct_prime": "0",
+        "x_prime": "12/25",
+        "y_prime": "4/5"
+      }
+    ],
+    "perimeter_bounds": {
+      "uniform_contraction_hypothesis": "4/5",
+      "actual_perimeter_ratio_lower": "9/10",
+      "actual_perimeter_ratio_upper_squared": "41/50",
+      "bounds_strict": true,
+      "scope": "Equal-time image of a static circle, not a rotating Heim shell"
+    }
+  },
+  "book_p21_literal": {
+    "status": "conditional_source_algebra_under_ordinary_complex_trigonometry",
+    "source_locator": "EDM1 printed21/PDF29",
+    "basis": "(x1,x4), x4=ict; not the real (ct,x) reference basis",
+    "printed_block": "[[cos(psi),i*sin(psi)],[-i*sin(psi),cos(psi)]]; tan(psi)=i*b",
+    "substituted_block": [
+      [
+        "5/4",
+        "-3/4"
+      ],
+      [
+        "3/4",
+        "5/4"
+      ]
+    ],
+    "A_times_transpose": [
+      [
+        "17/8",
+        "0"
+      ],
+      [
+        "0",
+        "17/8"
+      ]
+    ],
+    "claimed_orthogonal": true,
+    "is_orthogonal_under_stated_reading": false,
+    "two_by_two_factor": "17/8",
+    "full_four_by_four_diagonal": [
+      "17/8",
+      "1",
+      "1",
+      "17/8"
+    ],
+    "interpretation": "Local printed-matrix issue; no inference about intent or whole-theory validity"
+  },
+  "limits": [
+    "No author intention is computed",
+    "Form invariance is not scalar-value invariance",
+    "The static circle does not determine the circumference of the Heim shell",
+    "The source literal block and standard reference remain separate"
+  ]
+}

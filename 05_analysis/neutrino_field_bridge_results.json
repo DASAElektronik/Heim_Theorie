@@ -1,0 +1,30 @@
+{
+  "scope": "Exact reduced forms only; no historical masses or constants",
+  "source": "H007 PDF3 B6/B10/B13, PDF8 B49, PDF10 B63/B65",
+  "port": "H010 C0.66 GMASS lines998-1027; hypothetical q=0 and n1/Q1=-1 are our diagnostic",
+  "source_pair": "H(1110)=H(1111)=2*N5+2*N6",
+  "port_pair_empty": [
+    "D",
+    "B*(1+T)+D"
+  ],
+  "positive_difference": "B*(1+T)",
+  "synthetic_coefficients": {
+    "B": "3",
+    "T": "2",
+    "D": "5"
+  },
+  "synthetic_rows": [
+    {
+      "kappa": 0,
+      "port_parent_n1_ratio_0": "8",
+      "port_hypothetical_empty_ratio_minus1": "5"
+    },
+    {
+      "kappa": 1,
+      "port_parent_n1_ratio_0": "14",
+      "port_hypothetical_empty_ratio_minus1": "14"
+    }
+  ],
+  "historical_mass_computed": false,
+  "b50_sign_resolved": false
+}

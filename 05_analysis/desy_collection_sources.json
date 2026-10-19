@@ -1,0 +1,1178 @@
+{
+  "source_id": "H017",
+  "retrieved": "2026-10-18",
+  "catalog_url": "https://burkhardheim.de/media/w/e99df44e-175f-5e13-8660-d7da7a9897b1",
+  "description": "Heterogeneous collection; navigation groups are not complete transcriptions or independent authenticity evidence",
+  "pages": [
+    {
+      "page": 1,
+      "bytes": 1461358,
+      "sha256": "8a0bde1c80acc973edf62fff35c0fa8dbd18e41f781458bd9506846f3a7f00f7",
+      "url": "https://burkhardheim.de/media/f/c868164c-7913-5591-8f58-72d1b5f4b8d7",
+      "local_path": "01_sources/heim_primary/desy_collection/page-001.jpg",
+      "navigation_group": "Program listings, outputs, job pages",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 2,
+      "bytes": 1578944,
+      "sha256": "a6310e93204578e8775b552da30bd06080eee2b8a3f81e80412dd1b31d251e8c",
+      "url": "https://burkhardheim.de/media/f/2e4bfa75-6fad-56fd-8734-9862469db732",
+      "local_path": "01_sources/heim_primary/desy_collection/page-002.jpg",
+      "navigation_group": "Program listings, outputs, job pages",
+      "review": "full photograph inspected"
+    },
+    {
+      "page": 3,
+      "bytes": 1313478,
+      "sha256": "a835169c8cd45c412f888a82e62159059aa96f19ed450e1153a5ff88388f6ae8",
+      "url": "https://burkhardheim.de/media/f/f8f20864-d9e7-5dcb-8689-b39d2de8d6aa",
+      "local_path": "01_sources/heim_primary/desy_collection/page-003.jpg",
+      "navigation_group": "Heintze report 1975",
+      "review": "full photograph inspected"
+    },
+    {
+      "page": 4,
+      "bytes": 1183485,
+      "sha256": "da3516bcb4811d02ce6787afe88f5007240f75fe3d1aaef159964d92f00a6061",
+      "url": "https://burkhardheim.de/media/f/22ba8fbc-9a48-5b00-b4ab-69df868385d9",
+      "local_path": "01_sources/heim_primary/desy_collection/page-004.jpg",
+      "navigation_group": "Heintze report 1975",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 5,
+      "bytes": 1453543,
+      "sha256": "818d19185b98211063f9ca28fefd51b33695e87257b7a5994df45657c80a44db",
+      "url": "https://burkhardheim.de/media/f/86fdf405-c897-5fa9-baae-465fe0a686c5",
+      "local_path": "01_sources/heim_primary/desy_collection/page-005.jpg",
+      "navigation_group": "Heintze report 1975",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 6,
+      "bytes": 1103203,
+      "sha256": "0ae7b2f05ff5d97a4b754e577a97c7a0a81c8f61d80cb1995c76172bc260decb",
+      "url": "https://burkhardheim.de/media/f/151b65ce-5681-5e4f-b017-7fe31d5c8f7c",
+      "local_path": "01_sources/heim_primary/desy_collection/page-006.jpg",
+      "navigation_group": "Heintze report 1975",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 7,
+      "bytes": 1203595,
+      "sha256": "b894bf1241dd1ca993f9c1e9a0c73418c05048fb91ca7b4d7f63130891cb1832",
+      "url": "https://burkhardheim.de/media/f/55053fdb-61f1-5f94-8ce7-fe3677e4da03",
+      "local_path": "01_sources/heim_primary/desy_collection/page-007.jpg",
+      "navigation_group": "Heintze report 1975",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 8,
+      "bytes": 1152484,
+      "sha256": "a64cb5f91132746b63b548d1f28665cedebc562f574b21c203aae09aad22359c",
+      "url": "https://burkhardheim.de/media/f/62e658bb-5856-580e-a47a-0e92a20c8a74",
+      "local_path": "01_sources/heim_primary/desy_collection/page-008.jpg",
+      "navigation_group": "Heintze report 1975",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 9,
+      "bytes": 1304805,
+      "sha256": "ab2fa30e76b6c916697d8b58220ff49743bddcda152c6f8279daa332a67f4a21",
+      "url": "https://burkhardheim.de/media/f/742361fe-3612-5fb1-b4b9-e3836963559a",
+      "local_path": "01_sources/heim_primary/desy_collection/page-009.jpg",
+      "navigation_group": "Heintze report 1975",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 10,
+      "bytes": 1156389,
+      "sha256": "99733cb73d0c29d04ca59bc0ff01416df992f0d91a44d359912833fb0d939de0",
+      "url": "https://burkhardheim.de/media/f/d3c7c02e-121f-5acd-9d30-a132cbebf7b2",
+      "local_path": "01_sources/heim_primary/desy_collection/page-010.jpg",
+      "navigation_group": "Heintze report 1975",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 11,
+      "bytes": 1148825,
+      "sha256": "2023792b87a3440b10b02a3cc270a5bfc5f067d90c1391b7d608ee34d4f82514",
+      "url": "https://burkhardheim.de/media/f/0edb0cc4-d64b-5d84-8931-6e9f9802197d",
+      "local_path": "01_sources/heim_primary/desy_collection/page-011.jpg",
+      "navigation_group": "Heintze report 1975",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 12,
+      "bytes": 987728,
+      "sha256": "a9a7e532724e311719a4541395d73a0d7d98eb2df23599427754e1cb7be65ceb",
+      "url": "https://burkhardheim.de/media/f/2e3c246a-0a31-5106-9284-17e78cd571a5",
+      "local_path": "01_sources/heim_primary/desy_collection/page-012.jpg",
+      "navigation_group": "Heintze report 1975",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 13,
+      "bytes": 1243740,
+      "sha256": "c854b784c691206df4de4e35d5eb750c11eae68e6afbbdc48a8e55b6f3658b63",
+      "url": "https://burkhardheim.de/media/f/0e080781-a83d-5432-babb-7bacaefb6eb6",
+      "local_path": "01_sources/heim_primary/desy_collection/page-013.jpg",
+      "navigation_group": "Program listings, outputs, job pages",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 14,
+      "bytes": 1399616,
+      "sha256": "396fe6925ab2947a17fa362cf1daa700f3284af3d5a16efe766a8b172c2321ae",
+      "url": "https://burkhardheim.de/media/f/c18a459e-9b7e-5ad0-8a96-3ba7d4cd9948",
+      "local_path": "01_sources/heim_primary/desy_collection/page-014.jpg",
+      "navigation_group": "Heintze report 1975",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 15,
+      "bytes": 963058,
+      "sha256": "5f1f30734822953938c275abaa12f4b8c547156437c9b4cbd7f636456426940e",
+      "url": "https://burkhardheim.de/media/f/19463909-f763-5f90-8e12-8b1fd7ce9c5b",
+      "local_path": "01_sources/heim_primary/desy_collection/page-015.jpg",
+      "navigation_group": "Heintze report 1975",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 16,
+      "bytes": 1059652,
+      "sha256": "7553d597fc810042776847fe8e7d3bc5f832d67e3750856e36a8109ff8bfd41b",
+      "url": "https://burkhardheim.de/media/f/73eb0b42-1059-5c5c-a395-37d30460bfcb",
+      "local_path": "01_sources/heim_primary/desy_collection/page-016.jpg",
+      "navigation_group": "Heintze report 1975",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 17,
+      "bytes": 1119396,
+      "sha256": "287e449e23479ee68af75045c7dcece0c9cd7c550125b8946cf7b5eef74e421e",
+      "url": "https://burkhardheim.de/media/f/2f89e3ae-55a2-563e-a0eb-c466b225e05d",
+      "local_path": "01_sources/heim_primary/desy_collection/page-017.jpg",
+      "navigation_group": "Heintze report 1975",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 18,
+      "bytes": 987311,
+      "sha256": "bf46cf9f3583f48b662a9d10b7f6e49f01c707af094d835a4a105d5ef623d2c4",
+      "url": "https://burkhardheim.de/media/f/6c03c12d-5cd0-5918-a56e-a2efdbf116a3",
+      "local_path": "01_sources/heim_primary/desy_collection/page-018.jpg",
+      "navigation_group": "Heintze report 1975",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 19,
+      "bytes": 887289,
+      "sha256": "49046ee658ac476605e5073487cc4a77eb16bc58ec39cb7720fb1d274dc588f6",
+      "url": "https://burkhardheim.de/media/f/42be7208-4671-5825-b86f-6a1b8c7d88cf",
+      "local_path": "01_sources/heim_primary/desy_collection/page-019.jpg",
+      "navigation_group": "Heintze report 1975",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 20,
+      "bytes": 1026609,
+      "sha256": "0f66b5e3ffaf9b427a79bde477d11f207a440a6fe1985b43b175438767eef9f6",
+      "url": "https://burkhardheim.de/media/f/9e6dc1c4-5893-5148-b932-4422a6f7868f",
+      "local_path": "01_sources/heim_primary/desy_collection/page-020.jpg",
+      "navigation_group": "Heintze report 1975",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 21,
+      "bytes": 759517,
+      "sha256": "aa812fdecf66cb32136fd828fb6d896d2dd78287da65c265f9fec1472f796872",
+      "url": "https://burkhardheim.de/media/f/0abe555c-e4c4-50a3-8543-e3b78d0fa5ef",
+      "local_path": "01_sources/heim_primary/desy_collection/page-021.jpg",
+      "navigation_group": "Heintze report 1975",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 22,
+      "bytes": 889741,
+      "sha256": "c9d802c08f590e4d2d79929db554f0a10665950e98615c8ac8c1a84ac61805f2",
+      "url": "https://burkhardheim.de/media/f/76c0b0c6-a02a-5bcc-ba67-08992637fa87",
+      "local_path": "01_sources/heim_primary/desy_collection/page-022.jpg",
+      "navigation_group": "Heintze report 1975",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 23,
+      "bytes": 1010158,
+      "sha256": "46eb131305edc2fe31f902c5a2df7a79296b53041a654ce3b5c6d5df19fa41f4",
+      "url": "https://burkhardheim.de/media/f/de5890b0-7777-53fa-90c2-acb5fa137d13",
+      "local_path": "01_sources/heim_primary/desy_collection/page-023.jpg",
+      "navigation_group": "Heintze report 1975",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 24,
+      "bytes": 1295752,
+      "sha256": "4961d590404d5bf3e338d8626e0259d5c88415999cec5aee8d237dd77091b712",
+      "url": "https://burkhardheim.de/media/f/fcb37e57-87a0-519b-8fa3-502cce5a9fb8",
+      "local_path": "01_sources/heim_primary/desy_collection/page-024.jpg",
+      "navigation_group": "Program listings, outputs, job pages",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 25,
+      "bytes": 974054,
+      "sha256": "ee4ffbb52db6ff045e71670657c0cbb52801641f870b4f1fabe7275adb70c0d8",
+      "url": "https://burkhardheim.de/media/f/840c8eef-c67e-54e8-85ba-26682459a70f",
+      "local_path": "01_sources/heim_primary/desy_collection/page-025.jpg",
+      "navigation_group": "Heintze report 1975",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 26,
+      "bytes": 1263706,
+      "sha256": "d95b4eb4b6cee3fe87fcca23cd85640d6ba4f8a54829c19afa5482ee5331c04f",
+      "url": "https://burkhardheim.de/media/f/f3c5fe7d-8e28-5db7-bd53-b58fe279cacc",
+      "local_path": "01_sources/heim_primary/desy_collection/page-026.jpg",
+      "navigation_group": "Heintze report 1975",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 27,
+      "bytes": 1153603,
+      "sha256": "924160aa37cb7400d3b0e78933b5034398ec5b59026a8f971eddf98c54049702",
+      "url": "https://burkhardheim.de/media/f/e8fc7015-c354-598d-9f13-7f275f9839da",
+      "local_path": "01_sources/heim_primary/desy_collection/page-027.jpg",
+      "navigation_group": "Heim formula typescript",
+      "review": "full photograph inspected"
+    },
+    {
+      "page": 28,
+      "bytes": 1221762,
+      "sha256": "bbcfc6c6a69c9e39c2b189cc0aee98791ff5a05f84b18ba1c50f005df3ff893b",
+      "url": "https://burkhardheim.de/media/f/76d1f2e0-987c-5346-ac2b-8c6c8ca8967d",
+      "local_path": "01_sources/heim_primary/desy_collection/page-028.jpg",
+      "navigation_group": "Heim formula typescript",
+      "review": "full photograph inspected"
+    },
+    {
+      "page": 29,
+      "bytes": 1204611,
+      "sha256": "d1e0877e1e0dbdc62c1da8b9b2840251cf37a0a4496452bc49f30cef0f24ff4e",
+      "url": "https://burkhardheim.de/media/f/7d7fa774-5d5e-5248-8902-ec52e4647736",
+      "local_path": "01_sources/heim_primary/desy_collection/page-029.jpg",
+      "navigation_group": "Heim formula typescript",
+      "review": "full photograph inspected"
+    },
+    {
+      "page": 30,
+      "bytes": 1276688,
+      "sha256": "7f5c869d15c13cd33f0d4f658ad9fe21a3e7dde0de6a9181fabde8fc13e7d92a",
+      "url": "https://burkhardheim.de/media/f/89d573ba-e461-572d-bc9e-1138b6dfa8e5",
+      "local_path": "01_sources/heim_primary/desy_collection/page-030.jpg",
+      "navigation_group": "Program listings, outputs, job pages",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 31,
+      "bytes": 1518944,
+      "sha256": "9b8f30063e953c57579b607289bea1902586a35d41a0c0997a2c8546a75197eb",
+      "url": "https://burkhardheim.de/media/f/5dfd7727-576b-55e1-98fa-5e5466da4c32",
+      "local_path": "01_sources/heim_primary/desy_collection/page-031.jpg",
+      "navigation_group": "Program listings, outputs, job pages",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 32,
+      "bytes": 1633745,
+      "sha256": "cc5aa86d29b7941ac8e1088a37fa23cd0cd4f8ea08163c53d70f49df80646982",
+      "url": "https://burkhardheim.de/media/f/743a2440-d9df-5eba-883d-de19b68907f8",
+      "local_path": "01_sources/heim_primary/desy_collection/page-032.jpg",
+      "navigation_group": "Program listings, outputs, job pages",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 33,
+      "bytes": 1242047,
+      "sha256": "4a5ccc5ab39441ff733da562a30c9499d1dd4d9c74b22ea010be8d044fd752d6",
+      "url": "https://burkhardheim.de/media/f/75df4e91-626e-51cc-a7b8-3a7392fd8a8c",
+      "local_path": "01_sources/heim_primary/desy_collection/page-033.jpg",
+      "navigation_group": "Program listings, outputs, job pages",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 34,
+      "bytes": 1474992,
+      "sha256": "7a0b31f7f839e96520e8b4f00c123be4fc6f221f2060361eaa563ee3ec808006",
+      "url": "https://burkhardheim.de/media/f/56b1de5e-46f3-5d2c-bef6-35132044231d",
+      "local_path": "01_sources/heim_primary/desy_collection/page-034.jpg",
+      "navigation_group": "Program listings, outputs, job pages",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 35,
+      "bytes": 1692764,
+      "sha256": "ea429a8dec2337251e99a41e96450d5b3183051a60b46e3d2b5f01601c170964",
+      "url": "https://burkhardheim.de/media/f/47439ed9-c21a-5a6e-8321-3e0211fa31b0",
+      "local_path": "01_sources/heim_primary/desy_collection/page-035.jpg",
+      "navigation_group": "Program listings, outputs, job pages",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 36,
+      "bytes": 1621209,
+      "sha256": "ccf932019f388846ca4509d8392e9ce0e7d0e5a492321076be8409abcce4a1c6",
+      "url": "https://burkhardheim.de/media/f/3cd3f65c-2e16-53e3-accd-3358de93a289",
+      "local_path": "01_sources/heim_primary/desy_collection/page-036.jpg",
+      "navigation_group": "Program listings, outputs, job pages",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 37,
+      "bytes": 1461829,
+      "sha256": "57afc391351c7e1171b168879a11f6fd21799d1d67fb7de31358c8d399c082d3",
+      "url": "https://burkhardheim.de/media/f/634a86e6-b81e-5525-be51-4fda1548274e",
+      "local_path": "01_sources/heim_primary/desy_collection/page-037.jpg",
+      "navigation_group": "Program listings, outputs, job pages",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 38,
+      "bytes": 1317519,
+      "sha256": "eca7f9ebaff3e5fccc323ec56e7fc75c68ac3ca2851ef2c03297b249046b2a04",
+      "url": "https://burkhardheim.de/media/f/ebaeb7f1-6021-5d97-9b7c-46a4c9d1dbf2",
+      "local_path": "01_sources/heim_primary/desy_collection/page-038.jpg",
+      "navigation_group": "Program listings, outputs, job pages",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 39,
+      "bytes": 1522216,
+      "sha256": "affd71dc55eda8385c209a0ac386496e57fff30763fbca6e04958f34a7843e21",
+      "url": "https://burkhardheim.de/media/f/4be3fb92-fdee-53a6-b7a5-de8feb1152fa",
+      "local_path": "01_sources/heim_primary/desy_collection/page-039.jpg",
+      "navigation_group": "Program listings, outputs, job pages",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 40,
+      "bytes": 1107092,
+      "sha256": "18a81ca5a0b2499b92965836c9f057386e041734ae512ffdba2a1cdd0bcf5134",
+      "url": "https://burkhardheim.de/media/f/734a38c9-feff-5e15-8072-f4a2ad8318fa",
+      "local_path": "01_sources/heim_primary/desy_collection/page-040.jpg",
+      "navigation_group": "Program listings, outputs, job pages",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 41,
+      "bytes": 1478126,
+      "sha256": "446a9e7345022f53af2dc4d43bc77c9faa737e0f1e18184b7b748a59e484dbd6",
+      "url": "https://burkhardheim.de/media/f/95e45149-18c7-5513-b03b-00bd125ec646",
+      "local_path": "01_sources/heim_primary/desy_collection/page-041.jpg",
+      "navigation_group": "Program listings, outputs, job pages",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 42,
+      "bytes": 970429,
+      "sha256": "65f429030a94d97965cc5d52a4ff40f905ef74648830880b1a4692035220ed06",
+      "url": "https://burkhardheim.de/media/f/1aacdfe2-2735-5dbb-9a05-087d3cf6a009",
+      "local_path": "01_sources/heim_primary/desy_collection/page-042.jpg",
+      "navigation_group": "Program listings, outputs, job pages",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 43,
+      "bytes": 1267759,
+      "sha256": "dfcefd5c7e9df9bab2cbeb7914eda1a083b32b5e6ecbf4a840d59225eaad4a0f",
+      "url": "https://burkhardheim.de/media/f/f728764c-264d-58c3-8b9d-fef85d8a5b12",
+      "local_path": "01_sources/heim_primary/desy_collection/page-043.jpg",
+      "navigation_group": "Program listings, outputs, job pages",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 44,
+      "bytes": 1159659,
+      "sha256": "69296c9acd170f78e057084ca7692c0315c8bc7b5eb434c9f5321dac8f9916cf",
+      "url": "https://burkhardheim.de/media/f/251c720b-2ba5-5b61-b894-f7b09d6dfc0e",
+      "local_path": "01_sources/heim_primary/desy_collection/page-044.jpg",
+      "navigation_group": "Program listings, outputs, job pages",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 45,
+      "bytes": 1261847,
+      "sha256": "3780575e06e498daab241e4549f172752c8d0cffd1f975c8acdd1c9b772ca55a",
+      "url": "https://burkhardheim.de/media/f/6e47d612-f71b-5f32-b897-e91804bb7efe",
+      "local_path": "01_sources/heim_primary/desy_collection/page-045.jpg",
+      "navigation_group": "Program listings, outputs, job pages",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 46,
+      "bytes": 918802,
+      "sha256": "61336970b93800639b9d852d7cbcdf97632d181135485ebf34317da6452e8081",
+      "url": "https://burkhardheim.de/media/f/4a4f9042-f810-5e55-bc87-575e2e8a78f9",
+      "local_path": "01_sources/heim_primary/desy_collection/page-046.jpg",
+      "navigation_group": "Program listings, outputs, job pages",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 47,
+      "bytes": 1332610,
+      "sha256": "f25cf57cd351c16f433bba7b60a20a9a8746393809fd3e2695636665c81f63a4",
+      "url": "https://burkhardheim.de/media/f/a854c12a-c126-5bfb-bc25-63a73fabb302",
+      "local_path": "01_sources/heim_primary/desy_collection/page-047.jpg",
+      "navigation_group": "Program listings, outputs, job pages",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 48,
+      "bytes": 1458381,
+      "sha256": "6702a08ce56e77402ece9c5c7be6f0be3d775f092e1dbdc08740c70d86b56f09",
+      "url": "https://burkhardheim.de/media/f/3c15a53e-95b0-5083-b6e9-4926988c5e32",
+      "local_path": "01_sources/heim_primary/desy_collection/page-048.jpg",
+      "navigation_group": "Program listings, outputs, job pages",
+      "review": "full photograph inspected"
+    },
+    {
+      "page": 49,
+      "bytes": 1273858,
+      "sha256": "c7959f93b40d9b86a1e17f4a53da31d71442eea5fb150bd3c445b70ea340d7fa",
+      "url": "https://burkhardheim.de/media/f/5c0018ee-be2c-52d5-9991-b8484b9ce1ba",
+      "local_path": "01_sources/heim_primary/desy_collection/page-049.jpg",
+      "navigation_group": "Program listings, outputs, job pages",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 50,
+      "bytes": 1333807,
+      "sha256": "4ff4ab7188f976409ad3285c78a4f67045c6f0353610665015e92ddb115fbbc9",
+      "url": "https://burkhardheim.de/media/f/407ed1eb-001a-5eb7-b633-f51d697d2ac7",
+      "local_path": "01_sources/heim_primary/desy_collection/page-050.jpg",
+      "navigation_group": "Program listings, outputs, job pages",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 51,
+      "bytes": 1230857,
+      "sha256": "fce05e9a5c308d2c57f0e1ada9b33e2abf13eacdf9e7d3105a4be7101d666f26",
+      "url": "https://burkhardheim.de/media/f/26f1e17a-48d2-5616-b38e-626e6fcf06d9",
+      "local_path": "01_sources/heim_primary/desy_collection/page-051.jpg",
+      "navigation_group": "Program listings, outputs, job pages",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 52,
+      "bytes": 1305127,
+      "sha256": "ebd242c000873c33d7db28af0f662f81314aff03548add731076a5dbcaff69b3",
+      "url": "https://burkhardheim.de/media/f/e45c6d31-d719-5461-866b-911f067199e7",
+      "local_path": "01_sources/heim_primary/desy_collection/page-052.jpg",
+      "navigation_group": "Program listings, outputs, job pages",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 53,
+      "bytes": 1223701,
+      "sha256": "2da7c76fda14a02cd064219fce27f316106b6e8e04cf4db9eed24389b6636e8d",
+      "url": "https://burkhardheim.de/media/f/d36f22c9-3ab1-5602-9f32-236098153bba",
+      "local_path": "01_sources/heim_primary/desy_collection/page-053.jpg",
+      "navigation_group": "Program listings, outputs, job pages",
+      "review": "full photograph inspected for output navigation; table not transcribed"
+    },
+    {
+      "page": 54,
+      "bytes": 1453789,
+      "sha256": "6f0134eccc4545bfb233321addad46c67ec61d184e155caf3d033ef05c36c086",
+      "url": "https://burkhardheim.de/media/f/745d2fe4-fd49-5254-94da-eba15e4a572c",
+      "local_path": "01_sources/heim_primary/desy_collection/page-054.jpg",
+      "navigation_group": "Program listings, outputs, job pages",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 55,
+      "bytes": 1828396,
+      "sha256": "9f0706d021bc7b11e05ba42ab14a8aa000f6e3cb45faf51bea8337483fdb9855",
+      "url": "https://burkhardheim.de/media/f/0477c128-5aa7-5a8e-984f-748fec585d5b",
+      "local_path": "01_sources/heim_primary/desy_collection/page-055.jpg",
+      "navigation_group": "Program listings, outputs, job pages",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 56,
+      "bytes": 1198318,
+      "sha256": "a867da0c27dadc7893bf35d274c8f792a6580cb23654b33d111aa5b3d6198a9c",
+      "url": "https://burkhardheim.de/media/f/4190e3e8-b7dc-5933-9ebd-6f3041511d1c",
+      "local_path": "01_sources/heim_primary/desy_collection/page-056.jpg",
+      "navigation_group": "Program listings, outputs, job pages",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 57,
+      "bytes": 958475,
+      "sha256": "de7bf164b2350f5ec87d4950899b39d80794166f75031e6f8226f828216436da",
+      "url": "https://burkhardheim.de/media/f/73d86a9a-0047-55ab-a03b-60d56a855310",
+      "local_path": "01_sources/heim_primary/desy_collection/page-057.jpg",
+      "navigation_group": "Xi correction note",
+      "review": "full photograph inspected"
+    },
+    {
+      "page": 58,
+      "bytes": 1222827,
+      "sha256": "952eefafa0b07f92bd88c38ce9f14485a7358d58489f9a831f765e32981705b2",
+      "url": "https://burkhardheim.de/media/f/013c5743-0ca1-5c10-bd8a-3214f8b68cc5",
+      "local_path": "01_sources/heim_primary/desy_collection/page-058.jpg",
+      "navigation_group": "Program listings, outputs, job pages",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 59,
+      "bytes": 1451925,
+      "sha256": "28c6755278fd04dc9e843111ccc94d3da876a0ff5d8edcfce5815959e6770bb0",
+      "url": "https://burkhardheim.de/media/f/27e9f5d9-73eb-5198-8d7e-72ce555ff93c",
+      "local_path": "01_sources/heim_primary/desy_collection/page-059.jpg",
+      "navigation_group": "Program listings, outputs, job pages",
+      "review": "full photograph inspected"
+    },
+    {
+      "page": 60,
+      "bytes": 1582597,
+      "sha256": "59fc47d8e89eddfec80abe3d15df265822b5a1134a39580a28b5614ce13dd4a7",
+      "url": "https://burkhardheim.de/media/f/4df36ddd-0a32-5da8-8031-2ecdee19a774",
+      "local_path": "01_sources/heim_primary/desy_collection/page-060.jpg",
+      "navigation_group": "Program listings, outputs, job pages",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 61,
+      "bytes": 1414003,
+      "sha256": "34f0feefec94dc7a8c21ba7fdd5144e323aa4e4a1d9bae15f969dafd2d0e5dab",
+      "url": "https://burkhardheim.de/media/f/6c776868-541c-5b79-b7a2-7f063b47aeeb",
+      "local_path": "01_sources/heim_primary/desy_collection/page-061.jpg",
+      "navigation_group": "Program listings, outputs, job pages",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 62,
+      "bytes": 1268170,
+      "sha256": "a1b5063bf89786b279a3f15b2c90507317334e0979d453f05875ca14ff140273",
+      "url": "https://burkhardheim.de/media/f/8e20ef1a-c4bf-536b-b338-e4c8b5f0b0b8",
+      "local_path": "01_sources/heim_primary/desy_collection/page-062.jpg",
+      "navigation_group": "Program listings, outputs, job pages",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 63,
+      "bytes": 1615120,
+      "sha256": "22c498bb11c9c3f69b2bc83898f672aa7f58e4807d6eadeb2e16ce24b0b47331",
+      "url": "https://burkhardheim.de/media/f/482dd43c-2d86-52e8-a88d-b649ed60c4ca",
+      "local_path": "01_sources/heim_primary/desy_collection/page-063.jpg",
+      "navigation_group": "Program listings, outputs, job pages",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 64,
+      "bytes": 1767655,
+      "sha256": "c809e9589085385182c9b3f1d50d2fb08d1a114f4ad376ffc260b4458e5e8230",
+      "url": "https://burkhardheim.de/media/f/4e445e1d-f20f-526e-9cdb-022d415a6bbf",
+      "local_path": "01_sources/heim_primary/desy_collection/page-064.jpg",
+      "navigation_group": "Program listings, outputs, job pages",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 65,
+      "bytes": 1086424,
+      "sha256": "800161d004a553c6d68c194550c58514eed5bbdf4659a35c0adc06cb2452000a",
+      "url": "https://burkhardheim.de/media/f/584aaebd-41ba-5b51-8ad8-cdc95c71125a",
+      "local_path": "01_sources/heim_primary/desy_collection/page-065.jpg",
+      "navigation_group": "Program listings, outputs, job pages",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 66,
+      "bytes": 1607086,
+      "sha256": "aba630b0c9d810bba5e46f1381bb62ca62c259abfaa3c3249f8e53ca75cc0cd5",
+      "url": "https://burkhardheim.de/media/f/8a944560-7c1f-5086-bd69-9798fdb82b88",
+      "local_path": "01_sources/heim_primary/desy_collection/page-066.jpg",
+      "navigation_group": "Program listings, outputs, job pages",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 67,
+      "bytes": 1489477,
+      "sha256": "79632c4161a5a612a0cab77b52f855a1129b02c0ad4f87fbef00bfdb987ed35f",
+      "url": "https://burkhardheim.de/media/f/77928c24-b961-51fe-9204-ee6f4df0a9c8",
+      "local_path": "01_sources/heim_primary/desy_collection/page-067.jpg",
+      "navigation_group": "Program listings, outputs, job pages",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 68,
+      "bytes": 1523442,
+      "sha256": "9f44808903a02a1c669c6a4792498525fcb45e761c5056f794565f38098d1cc5",
+      "url": "https://burkhardheim.de/media/f/861a180a-15d9-5233-a5e9-da1bede5dc83",
+      "local_path": "01_sources/heim_primary/desy_collection/page-068.jpg",
+      "navigation_group": "Program listings, outputs, job pages",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 69,
+      "bytes": 1097479,
+      "sha256": "c228fe53d5c87699707782763fbf2a8d432d959dd0e9c533eb5fdae1eb446f0e",
+      "url": "https://burkhardheim.de/media/f/45afc9ff-9b50-5a86-91ac-b79fe409af67",
+      "local_path": "01_sources/heim_primary/desy_collection/page-069.jpg",
+      "navigation_group": "Program listings, outputs, job pages",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 70,
+      "bytes": 1052773,
+      "sha256": "ed8eb8fd3c60fa62a391f1fc6e4c952217ac31081e297740174c2396640801fd",
+      "url": "https://burkhardheim.de/media/f/6634e3c4-ed19-5f8c-9190-606ba1af3582",
+      "local_path": "01_sources/heim_primary/desy_collection/page-070.jpg",
+      "navigation_group": "Program listings, outputs, job pages",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 71,
+      "bytes": 1461526,
+      "sha256": "a13004bb7000887444d71dd08405abd9fdf042e8efc02ff498d3c21dfa67f6ef",
+      "url": "https://burkhardheim.de/media/f/bb18fac3-dd59-5f8a-919b-8b37f28aaf72",
+      "local_path": "01_sources/heim_primary/desy_collection/page-071.jpg",
+      "navigation_group": "Program listings, outputs, job pages",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 72,
+      "bytes": 1121233,
+      "sha256": "610287c6c75afebb8f51bd8171a3cefb639c03d75ea619ad3c3ffc7c357a8895",
+      "url": "https://burkhardheim.de/media/f/04efc467-d2f5-5da4-932b-8aecc5ff94c4",
+      "local_path": "01_sources/heim_primary/desy_collection/page-072.jpg",
+      "navigation_group": "Program listings, outputs, job pages",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 73,
+      "bytes": 1198560,
+      "sha256": "232c844f469807b70f6b2ff80625e2b820531d62b55ff5af446c5dd0fa557d0b",
+      "url": "https://burkhardheim.de/media/f/af6dfa1f-960d-50f4-8114-0a7163028e13",
+      "local_path": "01_sources/heim_primary/desy_collection/page-073.jpg",
+      "navigation_group": "Program listings, outputs, job pages",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 74,
+      "bytes": 1188209,
+      "sha256": "8b30ca40098e8e624d99ae8a92403eb8a0f5e4bb32e7b8951711654e0271a76a",
+      "url": "https://burkhardheim.de/media/f/63c34d20-f510-5a00-af7b-4491ba0e3b65",
+      "local_path": "01_sources/heim_primary/desy_collection/page-074.jpg",
+      "navigation_group": "Program listings, outputs, job pages",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 75,
+      "bytes": 1332001,
+      "sha256": "cfb6c72e62f391916e3eb18802762fbe4063259a9585f97cf6182c7964e572ad",
+      "url": "https://burkhardheim.de/media/f/f65718b1-be5c-5720-984a-c2d3cb4ae032",
+      "local_path": "01_sources/heim_primary/desy_collection/page-075.jpg",
+      "navigation_group": "Program listings, outputs, job pages",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 76,
+      "bytes": 892929,
+      "sha256": "883d94117ed9c6a7855e39bb30af469de82c8fcb09de6c72b4146e1fc0d479ae",
+      "url": "https://burkhardheim.de/media/f/dc71b933-8421-5376-9f52-fe31f8044bec",
+      "local_path": "01_sources/heim_primary/desy_collection/page-076.jpg",
+      "navigation_group": "Program listings, outputs, job pages",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 77,
+      "bytes": 1435745,
+      "sha256": "bde441834bc773719134c685324ee313037b7f4c05e7ce6522d85808d98fca1d",
+      "url": "https://burkhardheim.de/media/f/40250701-36ef-570a-ad9b-235a3c7772eb",
+      "local_path": "01_sources/heim_primary/desy_collection/page-077.jpg",
+      "navigation_group": "Program listings, outputs, job pages",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 78,
+      "bytes": 1322175,
+      "sha256": "15af0bc9794161b3f37a0c5c8847ef60143359908b8c8d12abb191ff2401da47",
+      "url": "https://burkhardheim.de/media/f/64037418-1a4a-5cf5-a5b8-eb49797d7676",
+      "local_path": "01_sources/heim_primary/desy_collection/page-078.jpg",
+      "navigation_group": "Program listings, outputs, job pages",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 79,
+      "bytes": 1340081,
+      "sha256": "12b2c9295bf16cff913e861359a47e4dac8f8f74e7e7d6f27f885cea78cc7691",
+      "url": "https://burkhardheim.de/media/f/de999314-eee7-5064-a794-9bc8d29015b2",
+      "local_path": "01_sources/heim_primary/desy_collection/page-079.jpg",
+      "navigation_group": "Program listings, outputs, job pages",
+      "review": "full photograph inspected for output navigation; table not transcribed"
+    },
+    {
+      "page": 80,
+      "bytes": 1237318,
+      "sha256": "dfaf4769ed2ea7bd933f2c186cfe689b6c4825a52548831f905615c67198b726",
+      "url": "https://burkhardheim.de/media/f/5147ede5-8bb1-5f08-8de7-88d8ca969f33",
+      "local_path": "01_sources/heim_primary/desy_collection/page-080.jpg",
+      "navigation_group": "Program listings, outputs, job pages",
+      "review": "full photograph inspected for output navigation; table not transcribed"
+    },
+    {
+      "page": 81,
+      "bytes": 1651415,
+      "sha256": "efc4f94b67ade6f6f17111852aac84412264528424dbbc1ea9fce0147068c800",
+      "url": "https://burkhardheim.de/media/f/28578487-ffcd-57ea-82cf-c50951383a3f",
+      "local_path": "01_sources/heim_primary/desy_collection/page-081.jpg",
+      "navigation_group": "Program listings, outputs, job pages",
+      "review": "full photograph inspected"
+    },
+    {
+      "page": 82,
+      "bytes": 1307485,
+      "sha256": "9dbc0ebc71d6b907705510e9357285e1bd22db4b36b91ba8d14262a3dd069e7b",
+      "url": "https://burkhardheim.de/media/f/63ab236c-84cc-5b73-9226-211fedcc9f1e",
+      "local_path": "01_sources/heim_primary/desy_collection/page-082.jpg",
+      "navigation_group": "Program listings, outputs, job pages",
+      "review": "full photograph inspected for output navigation; table not transcribed"
+    },
+    {
+      "page": 83,
+      "bytes": 2044541,
+      "sha256": "702af10330e10c733967fc882bfe881955e946b0d57b2ee4e7586c227f2d0873",
+      "url": "https://burkhardheim.de/media/f/b185a223-8990-563e-97cf-053a526a1f2e",
+      "local_path": "01_sources/heim_primary/desy_collection/page-083.jpg",
+      "navigation_group": "Program listings, outputs, job pages",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 84,
+      "bytes": 1644359,
+      "sha256": "25b2eafaf96b5247e72eca861d7a8f1b064a5f7ca2a8a1ee209cade3e663b657",
+      "url": "https://burkhardheim.de/media/f/6e272cfa-17b9-5188-af39-9051d8ad9a7e",
+      "local_path": "01_sources/heim_primary/desy_collection/page-084.jpg",
+      "navigation_group": "Heintze report 1975",
+      "review": "full photograph inspected"
+    },
+    {
+      "page": 85,
+      "bytes": 1590459,
+      "sha256": "d47401426dcf16157cc800c08bfd81938a20135033181ab2b46beda0ebc6e1af",
+      "url": "https://burkhardheim.de/media/f/e078cfc1-be87-5e41-9847-1c5b964ceb9d",
+      "local_path": "01_sources/heim_primary/desy_collection/page-085.jpg",
+      "navigation_group": "Wiik report and erratum 1975",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 86,
+      "bytes": 1520380,
+      "sha256": "38616e2d399eae93f49a3c3f498f7b435fc017524a9f653f0ad6bebc1789fa73",
+      "url": "https://burkhardheim.de/media/f/2510cadd-1aa9-5658-ad8f-faadf66f698e",
+      "local_path": "01_sources/heim_primary/desy_collection/page-086.jpg",
+      "navigation_group": "Wiik report and erratum 1975",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 87,
+      "bytes": 1180799,
+      "sha256": "10472976fcfc8294a5927eabff02e90a296fc83e58b8c4550becd2e0fd9d4a22",
+      "url": "https://burkhardheim.de/media/f/466fd9b0-0d24-545d-9f42-604c5b626860",
+      "local_path": "01_sources/heim_primary/desy_collection/page-087.jpg",
+      "navigation_group": "Wiik report and erratum 1975",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 88,
+      "bytes": 1432192,
+      "sha256": "52c563132ecb7ac4af534846e0adb4c99f201640279e722d4540d17dd6b92436",
+      "url": "https://burkhardheim.de/media/f/4dbe9069-cc85-581e-8a52-22a4d10481b3",
+      "local_path": "01_sources/heim_primary/desy_collection/page-088.jpg",
+      "navigation_group": "Wiik report and erratum 1975",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 89,
+      "bytes": 1242947,
+      "sha256": "bc3e53db1418a77e94baeaf4a12f66ebdeb8318f4e3167c6027f34a9b5ef460f",
+      "url": "https://burkhardheim.de/media/f/5c41f4af-9f63-5140-8ea5-08f9d0ad20c3",
+      "local_path": "01_sources/heim_primary/desy_collection/page-089.jpg",
+      "navigation_group": "Wiik report and erratum 1975",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 90,
+      "bytes": 1317799,
+      "sha256": "ae83f87f463a69552fc3b123e613a5c337c03427df555ff92eb843a2382c2efb",
+      "url": "https://burkhardheim.de/media/f/16a8e57b-37bf-5ec0-a73b-f225249dcc29",
+      "local_path": "01_sources/heim_primary/desy_collection/page-090.jpg",
+      "navigation_group": "Wiik report and erratum 1975",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 91,
+      "bytes": 1266693,
+      "sha256": "e0ce34f662c9537924684bac89dd603a56ea9a4d24f036cf2da7d3d535407be1",
+      "url": "https://burkhardheim.de/media/f/106edad2-e494-5e8a-bcdf-c8e178708689",
+      "local_path": "01_sources/heim_primary/desy_collection/page-091.jpg",
+      "navigation_group": "Wiik report and erratum 1975",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 92,
+      "bytes": 1566613,
+      "sha256": "12d4acad2964f185b79ccf25a58bedb9bf214d8f55864ec7422152fda5a5b8da",
+      "url": "https://burkhardheim.de/media/f/17c889bf-2585-5660-b8ea-7f20b8e9a27d",
+      "local_path": "01_sources/heim_primary/desy_collection/page-092.jpg",
+      "navigation_group": "Program listings, outputs, job pages",
+      "review": "full photograph inspected"
+    },
+    {
+      "page": 93,
+      "bytes": 1076390,
+      "sha256": "c3c5513adf0776df9458d1f5a90786eb3165a64a75d4161a2b8ac031cf9aa10a",
+      "url": "https://burkhardheim.de/media/f/8a3dc6eb-f849-5dd7-8c8f-0c40f34afdc3",
+      "local_path": "01_sources/heim_primary/desy_collection/page-093.jpg",
+      "navigation_group": "Wiik report and erratum 1975",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 94,
+      "bytes": 1127947,
+      "sha256": "1670ea952bbf26d487e017c4c40b7cb8a666f0acf39b2dbac7d481e9aeadf853",
+      "url": "https://burkhardheim.de/media/f/af648115-1d51-5164-8696-05ab0cf82412",
+      "local_path": "01_sources/heim_primary/desy_collection/page-094.jpg",
+      "navigation_group": "Wiik report and erratum 1975",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 95,
+      "bytes": 1047413,
+      "sha256": "538ba3d88b30ab028c436e760cde06126f16ebc3e9d54eeafa0169a240acbe9b",
+      "url": "https://burkhardheim.de/media/f/2c03e942-7284-568b-9973-46ff14796b8e",
+      "local_path": "01_sources/heim_primary/desy_collection/page-095.jpg",
+      "navigation_group": "Wiik report and erratum 1975",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 96,
+      "bytes": 961677,
+      "sha256": "ec880c8fe50cbba9c4429c6ce672b2f098cafe89f6ac4214c55bf9f82ed67be9",
+      "url": "https://burkhardheim.de/media/f/01067e07-2975-5b96-8c8d-a21bfb1ea3c5",
+      "local_path": "01_sources/heim_primary/desy_collection/page-096.jpg",
+      "navigation_group": "Wiik report and erratum 1975",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 97,
+      "bytes": 1078346,
+      "sha256": "a275726b26e338194b4c10187faa99b4b838a91a48691620facf2e167258a5a3",
+      "url": "https://burkhardheim.de/media/f/b6833e65-b57e-5309-b163-11dd30401a46",
+      "local_path": "01_sources/heim_primary/desy_collection/page-097.jpg",
+      "navigation_group": "Wiik report and erratum 1975",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 98,
+      "bytes": 1082333,
+      "sha256": "a473a1e3d9f017d479e5413cc900bc3beef5b7e800d7f0804beee28ad4926d09",
+      "url": "https://burkhardheim.de/media/f/a72bb713-55d2-559c-9919-89f5459174cc",
+      "local_path": "01_sources/heim_primary/desy_collection/page-098.jpg",
+      "navigation_group": "Wiik report and erratum 1975",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 99,
+      "bytes": 1081029,
+      "sha256": "87bdddc7e2b5c194e5fbae95d6bfe810dfd5fd71882205df76dc88bc94a86596",
+      "url": "https://burkhardheim.de/media/f/daffa8f4-6474-5f05-b5a3-ff74a092841b",
+      "local_path": "01_sources/heim_primary/desy_collection/page-099.jpg",
+      "navigation_group": "Wiik report and erratum 1975",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 100,
+      "bytes": 1045655,
+      "sha256": "ca5765adb88f9adda410e40d46185643947049259a0435e8d5c4a8aae3023a75",
+      "url": "https://burkhardheim.de/media/f/ac838af7-04da-5c12-a158-b988156abf91",
+      "local_path": "01_sources/heim_primary/desy_collection/page-100.jpg",
+      "navigation_group": "Wiik report and erratum 1975",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 101,
+      "bytes": 1074686,
+      "sha256": "c7838e55830fb09357b99dc830c59ad3ea37f31dc064cfc069857bc340fc0c5e",
+      "url": "https://burkhardheim.de/media/f/32387eaa-e318-57c1-86f5-6c06ed2a0a47",
+      "local_path": "01_sources/heim_primary/desy_collection/page-101.jpg",
+      "navigation_group": "Wiik report and erratum 1975",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 102,
+      "bytes": 988389,
+      "sha256": "8ab60f2c00f16a903e3a754caebb15195db8098e5ab5f7adca3bdc6febab3ae3",
+      "url": "https://burkhardheim.de/media/f/a2b265b0-d3f5-5bcf-b349-430654f7f8aa",
+      "local_path": "01_sources/heim_primary/desy_collection/page-102.jpg",
+      "navigation_group": "Wiik report and erratum 1975",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 103,
+      "bytes": 1743338,
+      "sha256": "8f4c9949c1d458ff644f1e016f8f514e57dc9747529b76f6f96207dc71b0ba49",
+      "url": "https://burkhardheim.de/media/f/f1279090-b0e2-5123-8244-6474ee6ef044",
+      "local_path": "01_sources/heim_primary/desy_collection/page-103.jpg",
+      "navigation_group": "Program listings, outputs, job pages",
+      "review": "full photograph inspected"
+    },
+    {
+      "page": 104,
+      "bytes": 1054570,
+      "sha256": "82a2504687f368f7e00682ce0f91002dccc2c80717f9b15f89ab9cfb9e8978a0",
+      "url": "https://burkhardheim.de/media/f/4169acd1-69fd-549b-b892-36de6a5a2f4c",
+      "local_path": "01_sources/heim_primary/desy_collection/page-104.jpg",
+      "navigation_group": "Wiik report and erratum 1975",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 105,
+      "bytes": 1103971,
+      "sha256": "23ce191ac7ce87c5825d8b4bbec0e0231150d14ce3eb82ed9c8fb303e3b10c9a",
+      "url": "https://burkhardheim.de/media/f/4fa6c1cf-2aba-5918-9348-bf2b6b4286ce",
+      "local_path": "01_sources/heim_primary/desy_collection/page-105.jpg",
+      "navigation_group": "Wiik report and erratum 1975",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 106,
+      "bytes": 1234623,
+      "sha256": "0215791cc41d06739a04d589a3b05d86b84a34d4b5f2384d208538f82ec83e4c",
+      "url": "https://burkhardheim.de/media/f/8dfe40ce-acd1-5578-a901-641cc3b76177",
+      "local_path": "01_sources/heim_primary/desy_collection/page-106.jpg",
+      "navigation_group": "Wiik report and erratum 1975",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 107,
+      "bytes": 1076389,
+      "sha256": "b00dc0eb8134dc4a512a54a0de02d53770ff5f399de1feeab3a87865f1b0a56b",
+      "url": "https://burkhardheim.de/media/f/27f54318-f8b6-5f49-a881-2d081ba26a9b",
+      "local_path": "01_sources/heim_primary/desy_collection/page-107.jpg",
+      "navigation_group": "Wiik report and erratum 1975",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 108,
+      "bytes": 1055249,
+      "sha256": "33fe8e429d86a2c3888bff796914d018ebf7d62016269e6afbf891991729f51f",
+      "url": "https://burkhardheim.de/media/f/b3fdc1c1-e6c0-5d65-bd1b-584cad5d1a90",
+      "local_path": "01_sources/heim_primary/desy_collection/page-108.jpg",
+      "navigation_group": "Wiik report and erratum 1975",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 109,
+      "bytes": 1278906,
+      "sha256": "0433872bfa007bc8ceae123db9eed2202c7682ea4433fb68c9001b3105c05bbb",
+      "url": "https://burkhardheim.de/media/f/3db8e1ba-d124-5344-b52a-103570fe034f",
+      "local_path": "01_sources/heim_primary/desy_collection/page-109.jpg",
+      "navigation_group": "Wiik report and erratum 1975",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 110,
+      "bytes": 995172,
+      "sha256": "e76cd8dc568acf924cd10aed71649627cfb8f16376398634d399e7a92d26b452",
+      "url": "https://burkhardheim.de/media/f/8c9b88b5-d38c-596e-bce7-d8e8b20bcd8e",
+      "local_path": "01_sources/heim_primary/desy_collection/page-110.jpg",
+      "navigation_group": "Wiik report and erratum 1975",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 111,
+      "bytes": 952681,
+      "sha256": "d101c12558ef01e5b8bf95124c884a448474e8f05010188bcfed5ec9663745ed",
+      "url": "https://burkhardheim.de/media/f/0eb3e566-3a24-519d-bef3-dbc028318b8b",
+      "local_path": "01_sources/heim_primary/desy_collection/page-111.jpg",
+      "navigation_group": "Wiik report and erratum 1975",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 112,
+      "bytes": 958209,
+      "sha256": "49070f27be2e33441376c3103ccb565d3635b346ff862847932972f279929df0",
+      "url": "https://burkhardheim.de/media/f/03775462-a91a-5559-9a51-c63fdcf71a14",
+      "local_path": "01_sources/heim_primary/desy_collection/page-112.jpg",
+      "navigation_group": "Wiik report and erratum 1975",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 113,
+      "bytes": 1219736,
+      "sha256": "c9214befae403e1a916ccf815ca68cc1021ed4d471637f39ba2e914ff06d6b1a",
+      "url": "https://burkhardheim.de/media/f/227e3d78-f428-5383-8470-9980b982a984",
+      "local_path": "01_sources/heim_primary/desy_collection/page-113.jpg",
+      "navigation_group": "Wiik report and erratum 1975",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 114,
+      "bytes": 1377418,
+      "sha256": "760cc5f6dbe25d2160e7b07ceb0f95a57e36b1ee6d83ce49fba3b41a832385a8",
+      "url": "https://burkhardheim.de/media/f/7b96c6c7-e503-5c4a-9be9-d1874c820cd2",
+      "local_path": "01_sources/heim_primary/desy_collection/page-114.jpg",
+      "navigation_group": "Program listings, outputs, job pages",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 115,
+      "bytes": 1094732,
+      "sha256": "5925de306f731b0ef3fb29d4b23446c3de3d9717c46098b737d79102c6120806",
+      "url": "https://burkhardheim.de/media/f/8794ff38-c64f-58c9-a5b4-264879de599a",
+      "local_path": "01_sources/heim_primary/desy_collection/page-115.jpg",
+      "navigation_group": "Wiik report and erratum 1975",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 116,
+      "bytes": 1052799,
+      "sha256": "dc0707398882760d7de3556346de60df4583158b2031e9130675f8e45711d851",
+      "url": "https://burkhardheim.de/media/f/e6509748-684b-5db6-b836-3c02a338cd2f",
+      "local_path": "01_sources/heim_primary/desy_collection/page-116.jpg",
+      "navigation_group": "Wiik report and erratum 1975",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 117,
+      "bytes": 1070018,
+      "sha256": "aa1d5a5f8f08a4228c64bc89adfb07030eaa20018e1a0272283920e62e68762e",
+      "url": "https://burkhardheim.de/media/f/0f901f6f-9762-5b5a-a9a5-8c3cee5d3015",
+      "local_path": "01_sources/heim_primary/desy_collection/page-117.jpg",
+      "navigation_group": "Wiik report and erratum 1975",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 118,
+      "bytes": 970061,
+      "sha256": "8fd2989534240cf310f47fc9d13baf5a03ac1dfbb8893e23516561bc0024f19d",
+      "url": "https://burkhardheim.de/media/f/7d070abd-22ea-5dba-aac2-d9fe6a554cbc",
+      "local_path": "01_sources/heim_primary/desy_collection/page-118.jpg",
+      "navigation_group": "Wiik report and erratum 1975",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 119,
+      "bytes": 938647,
+      "sha256": "c31e69075035bda41a200673dfbf3d184c85a7a771e15bbbde794d23a2093fc4",
+      "url": "https://burkhardheim.de/media/f/f5b0de00-54ab-583e-a206-4c39d88167d7",
+      "local_path": "01_sources/heim_primary/desy_collection/page-119.jpg",
+      "navigation_group": "Wiik report and erratum 1975",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 120,
+      "bytes": 1193406,
+      "sha256": "a4c431c4e70fc94f98cce867bab8fef268ad92ca2633b86a32708f8bcb16d251",
+      "url": "https://burkhardheim.de/media/f/4f51a2e2-94f4-5f78-ac9b-a2c8f70b24c8",
+      "local_path": "01_sources/heim_primary/desy_collection/page-120.jpg",
+      "navigation_group": "Wiik report and erratum 1975",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 121,
+      "bytes": 1146284,
+      "sha256": "e977fdd91ba3d30d94e6fb3938ff94ce23342a200a1185ff2f94d3d935f8db26",
+      "url": "https://burkhardheim.de/media/f/eb20d13f-ae5e-55aa-8afb-f26ba5f468f1",
+      "local_path": "01_sources/heim_primary/desy_collection/page-121.jpg",
+      "navigation_group": "Wiik report and erratum 1975",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 122,
+      "bytes": 970099,
+      "sha256": "ee9552cc169f0199f9892ba0731371108e07c58f5da4db61ad43d61e73153656",
+      "url": "https://burkhardheim.de/media/f/281b202b-a37d-5728-86ed-4fa3f97f1788",
+      "local_path": "01_sources/heim_primary/desy_collection/page-122.jpg",
+      "navigation_group": "Wiik report and erratum 1975",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 123,
+      "bytes": 1496138,
+      "sha256": "b05f5f63e3d024afd2b406e0f69fb1811f7e27af0f34a33ad6665df8aa93d9fb",
+      "url": "https://burkhardheim.de/media/f/caa55240-dcf5-5fcd-a89b-e84dd2fbc978",
+      "local_path": "01_sources/heim_primary/desy_collection/page-123.jpg",
+      "navigation_group": "Wiik report and erratum 1975",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 124,
+      "bytes": 1748864,
+      "sha256": "3f2a8f585ad38263eb5182b51feec47322a5fe0c7f2982f40c9e5dd0e872af28",
+      "url": "https://burkhardheim.de/media/f/f253e59f-b242-50b3-9869-d6ca094ab292",
+      "local_path": "01_sources/heim_primary/desy_collection/page-124.jpg",
+      "navigation_group": "Wiik report and erratum 1975",
+      "review": "full photograph inspected"
+    },
+    {
+      "page": 125,
+      "bytes": 1154555,
+      "sha256": "b3cfe033017b142944beca53766ec5d11f2747ea3fc5a960936a2c08357af63c",
+      "url": "https://burkhardheim.de/media/f/37f6ac01-4031-5942-897c-d7064f384c96",
+      "local_path": "01_sources/heim_primary/desy_collection/page-125.jpg",
+      "navigation_group": "Heintze report 1975",
+      "review": "contact-sheet navigation only"
+    },
+    {
+      "page": 126,
+      "bytes": 1269065,
+      "sha256": "d7819aaee77781a84bb97c7576635fd6fffb2e7b29a417f0029d90885f0b198b",
+      "url": "https://burkhardheim.de/media/f/2b4d7699-e420-5e21-a084-2bc6ab2097b2",
+      "local_path": "01_sources/heim_primary/desy_collection/page-126.jpg",
+      "navigation_group": "Heim formula typescript",
+      "review": "full photograph inspected"
+    },
+    {
+      "page": 127,
+      "bytes": 1414263,
+      "sha256": "75c810fd5afc39e6d4d15cf4e0c55d6ed9ea87a57d8e5785ee6238f2b1c60197",
+      "url": "https://burkhardheim.de/media/f/28e0fbd2-1310-5b73-b51b-d55fb8e2eaae",
+      "local_path": "01_sources/heim_primary/desy_collection/page-127.jpg",
+      "navigation_group": "Heim formula typescript",
+      "review": "full photograph inspected"
+    }
+  ],
+  "h015_typescript_correspondence": [
+    {
+      "archive_page": 126,
+      "h015_pdf_page": 39,
+      "basis": "same printed page and visible handwritten annotations, different photograph; no forensic physical-sheet identity"
+    },
+    {
+      "archive_page": 27,
+      "h015_pdf_page": 40,
+      "basis": "same printed page and visible handwritten annotations, different photograph; no forensic physical-sheet identity"
+    },
+    {
+      "archive_page": 127,
+      "h015_pdf_page": 41,
+      "basis": "same printed page and visible handwritten annotations, different photograph; no forensic physical-sheet identity"
+    },
+    {
+      "archive_page": 28,
+      "h015_pdf_page": 42,
+      "basis": "same printed page and visible handwritten annotations, different photograph; no forensic physical-sheet identity"
+    },
+    {
+      "archive_page": 29,
+      "h015_pdf_page": 43,
+      "basis": "same printed page and visible handwritten annotations, different photograph; no forensic physical-sheet identity"
+    }
+  ]
+}

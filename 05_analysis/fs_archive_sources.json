@@ -1,0 +1,42 @@
+{
+  "retrieved": "2026-10-18",
+  "source_id": "H016",
+  "path": "01_sources/heim_primary/fs_archive/Heim_1995_Herleitung_Kurzuebersicht.pdf",
+  "url": "https://burkhardheim.de/media/f/2ba6776a-dec9-5062-8cba-b098e763e555",
+  "sha256": "a2acd1ac9ce0e2d1974216b04f1c701c3395321955dd990588e46080faaf103d",
+  "bytes": 14114194,
+  "pdf_pages": 10,
+  "visually_reviewed_pdf_pages": [
+    1,
+    8,
+    9,
+    10
+  ],
+  "other_pages": "Text extraction for navigation only; no complete visual review",
+  "catalog_snapshots": [
+    {
+      "local_path": "tmp/pdfs/fs_archive/Massenformel.html",
+      "sha256": "e918d09e24ebb1b97d21a070d08ca6513167e14c008bfc1096d30ddd774178d6"
+    },
+    {
+      "local_path": "tmp/pdfs/fs_archive/1974.html",
+      "sha256": "b2480b23df5a644c2ac468c1e56105f5bf06c601a8884a0e08ea9d207a770a68"
+    },
+    {
+      "local_path": "tmp/pdfs/fs_archive/Konstanten.html",
+      "sha256": "f219f05c8fc95b83dc2276484814d50bade7607735c52698eaee195ed48d2281"
+    },
+    {
+      "local_path": "tmp/pdfs/fs_archive/Messwerte.html",
+      "sha256": "0acf71349b5d19e78d5c7b91f1227fb4e8c622e5d1eaed5069ea39381deeb77e"
+    },
+    {
+      "local_path": "tmp/pdfs/fs_archive/1995-detail.html",
+      "sha256": "db3bb2b58a36fb3d7adc59d0acad0ca0be648933ffde18472680a27d32ed1b7a"
+    },
+    {
+      "local_path": "tmp/pdfs/fs_archive/desy-detail.html",
+      "sha256": "6be0f58b93d840acc7fe737c3dc09ab3ca2384078f326696c5c6f094a52216a7"
+    }
+  ]
+}

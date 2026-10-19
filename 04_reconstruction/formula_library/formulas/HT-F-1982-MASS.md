@@ -14,7 +14,7 @@ Source formatting notes:
 
 - The formula line is printed in red.
 - `G` is underlined in the source image.
-- The `α+` cluster is source-visible; its exact plus binding is not normalized in this entry.
+- The `α+` cluster is source-visible; its implementation binding is normalized separately by `NORM-1982-MASS-MU-ALPHA-PLUS`, not by the source transcription itself.
 
 ## Source
 
@@ -48,9 +48,11 @@ Source formatting notes:
 
 - This is only an image-vs-OCR source check. It is not normalized, derived, implemented, or validated.
 - The source image is `page-05.png`, not `page-06.png`.
-- The source-visible factor is `µα+`. Treating this as `mu * alpha_plus` is a later normalization step.
-- The underlined `G` is preserved as source formatting; its semantic weight remains unresolved.
-- This is the central 1982 mass expression, but it is not independently usable until `K`, `G`, `H`, `Phi`, `mu`, `alpha_plus`, and the occupation tuple selection rule are normalized.
+- The source-visible factor is `µα+`. Per `NORM-1982-MASS-MU-ALPHA-PLUS`, the implementation-facing 1982 product is `mu_mass_element_1982 * alpha_mass_plus_1982`.
+- The underlined `G` is preserved as source formatting. Per `NORM-1982-MASS-UNDERLINED-G`, it does not create a special weighted term by default.
+- Per `NORM-1982-G-SYMBOL-ROLES`, the `G` in `(K + G + H + Phi)` is the auxiliary mass contribution `G_aux_1982`, not `G_count = k + 1`.
+- Per `NORM-1982-AUX-SYMBOL-ROLES`, the 1982 mass sum uses `K_aux_1982`, `G_aux_1982`, `H_aux_1982`, and `Phi_aux_1982`; its `alpha_mass_plus_1982` multiplier is not the ALPHA branch `alpha_branch_plus_1982`.
+- This is the central 1982 mass expression, but it is not independently usable until the occupation tuple selection rule is normalized.
 
 ## Risks
 

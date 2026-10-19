@@ -1,0 +1,99 @@
+{
+  "source": "H011 PDF5(A),PDF6 reciprocal pair; date PDF20. Pair agrees lexically with H015 GINIT.",
+  "printed_inverses": [
+    "137.03602725",
+    "1.00001411"
+  ],
+  "conditional_formula": "H011 A_k=(1-sqrt(eta_1k))/(eta_1k*(1+sqrt(eta_1k))); Y=1. eta bridge q=1,k=1,2 declared, not silently imported.",
+  "rows": [
+    {
+      "pi_profile": "mathematical_pi",
+      "formula": "29a_base_R_not_a_quadratic_root",
+      "inverse_small": "1.370380300128048E+2",
+      "inverse_large": null,
+      "small_inverse_minus_print": "2.002762804813296E-3",
+      "small_inverse_within_print_rounding": false
+    },
+    {
+      "pi_profile": "mathematical_pi",
+      "formula": "uncorrected_quadratic",
+      "inverse_small": "1.370343811477067E+2",
+      "inverse_large": "1.000026627369479E+0",
+      "small_inverse_minus_print": "-1.646102293331479E-3",
+      "small_inverse_within_print_rounding": false
+    },
+    {
+      "pi_profile": "mathematical_pi",
+      "formula": "H011_A_conditional_eta_bridge",
+      "inverse_small": "1.370360274220375E+2",
+      "inverse_large": "1.000026626729685E+0",
+      "small_inverse_minus_print": "1.720374744151745E-7",
+      "small_inverse_within_print_rounding": false
+    },
+    {
+      "pi_profile": "mathematical_pi",
+      "formula": "1982_existing_local_index",
+      "inverse_small": "1.370491880266640E+2",
+      "inverse_large": "1.000026621615885E+0",
+      "small_inverse_minus_print": "1.316077666396047E-2",
+      "small_inverse_within_print_rounding": false
+    },
+    {
+      "pi_profile": "mathematical_pi",
+      "formula": "1982_existing_swapped_index",
+      "inverse_small": "1.370359609951516E+2",
+      "inverse_large": "1.000026626755500E+0",
+      "small_inverse_minus_print": "-6.625484842225779E-5",
+      "small_inverse_within_print_rounding": false
+    },
+    {
+      "pi_profile": "H015_PI_literal",
+      "formula": "29a_base_R_not_a_quadratic_root",
+      "inverse_small": "1.370380299933363E+2",
+      "inverse_large": null,
+      "small_inverse_minus_print": "2.002743336334219E-3",
+      "small_inverse_within_print_rounding": false
+    },
+    {
+      "pi_profile": "H015_PI_literal",
+      "formula": "uncorrected_quadratic",
+      "inverse_small": "1.370343811282377E+2",
+      "inverse_large": "1.000026627369487E+0",
+      "small_inverse_minus_print": "-1.646121762329005E-3",
+      "small_inverse_within_print_rounding": false
+    },
+    {
+      "pi_profile": "H015_PI_literal",
+      "formula": "H011_A_conditional_eta_bridge",
+      "inverse_small": "1.370360274025686E+2",
+      "inverse_large": "1.000026626729692E+0",
+      "small_inverse_minus_print": "1.525686143346517E-7",
+      "small_inverse_within_print_rounding": false
+    },
+    {
+      "pi_profile": "H015_PI_literal",
+      "formula": "1982_existing_local_index",
+      "inverse_small": "1.370491880071957E+2",
+      "inverse_large": "1.000026621615893E+0",
+      "small_inverse_minus_print": "1.316075719567727E-2",
+      "small_inverse_within_print_rounding": false
+    },
+    {
+      "pi_profile": "H015_PI_literal",
+      "formula": "1982_existing_swapped_index",
+      "inverse_small": "1.370359609756827E+2",
+      "inverse_large": "1.000026626755507E+0",
+      "small_inverse_minus_print": "-6.627431729512145E-5",
+      "small_inverse_within_print_rounding": false
+    }
+  ],
+  "pair": {
+    "exact_lower": "30047796470501283309200000000000000000/30047044635444252298431410632525877929",
+    "exact_upper": "30047796466084129985680000000000000000/30047044030126568177105941170467713641",
+    "lower_decimal": "1.000025021930315E+0",
+    "upper_decimal": "1.000025041929476E+0",
+    "contains_one": false,
+    "implied_large_inverse_from_printed_small": "1.000026626729751E+0"
+  },
+  "limits": "A pair incompatibility independent of eta/Y; no cause, authorship chain, new mass or empirical exclusion established."
+}

@@ -125,14 +125,16 @@ Original label: `(XI)`.
 
 - The OCR text damages most superscripts and several roots; this transcription is from `page-04.png` and `page-05.png`.
 - `(VII)` and `(VIII)` overlap conceptually with `HT-F-1982-ALPHA`; they are repeated here because they are printed in the same auxiliary-function block.
-- `HT-F-1982-ALPHA` separately source-checks the earlier page-03 abbreviation block using source-local `eta_{kq}`. This AUX entry covers later auxiliary-function material and must not silently override `eta_{kq}`/`eta_{qk}` ordering before a normalization decision.
+- `HT-F-1982-ALPHA` separately source-checks the earlier page-03 abbreviation block using source-local `eta_{kq}`. This AUX entry uses source-local `eta_{qk}`. Normalization decision `NORM-1982-ETA-INDEX` maps both aliases to canonical helper `eta_k_q(k,q)` by the printed formula body.
 - In `Phi`, the factor after the binomial term is printed with exponent `-1` on the full bracket.
-- The final multiplicative factor in `Phi` appears in the source with an opening parenthesis and closing square bracket. The display above uses matching brackets for readability; this must be revisited before implementation.
-- This is a source transcription only. It is not normalized, derived, dimension-checked, or implementation-ready.
+- Normalization decision `NORM-1982-AUX-PHI-PRECEDENCE` records the implementation-facing `Phi` factorization as product chain `F1..F9` plus additive terms `A1` and `A2`.
+- The final multiplicative factor in `Phi` appears in the source with an opening parenthesis and closing square bracket. `NORM-1982-AUX-PHI-PRECEDENCE` treats this only as a delimiter-closure typo for that factor, not as scope expansion over the following additive terms.
+- Normalization decision `NORM-1982-AUX-SYMBOL-ROLES` resolves reused symbol roles for implementation. Branch `alpha_(+)`/`alpha_(-)`, AUX unparenthesized `alpha+`/`alpha-`, and selection coefficients `alpha_1..3` are distinct implementation families.
+- The displayed formula block remains the source transcription. Implementation must use the linked normalization decisions; the record is not derived, dimension-checked, or implementation-ready.
 
 ## Risks
 
-- `Phi` remains high risk because a single bracket or exponent changes the result.
+- `Phi` bracket and precedence scope is resolved by `NORM-1982-AUX-PHI-PRECEDENCE`; implementation must also use typed symbol roles from `NORM-1982-AUX-SYMBOL-ROLES`.
 - `G` collides with `G_count`.
-- `eta(1,1)` in `alpha_3` must be mapped explicitly to `eta_qk` at `q=1, k=1` before coding.
-- `P`, `Q`, `q`, `Q_j`, `kappa`, `alpha`, `alpha_plus`, and `alpha_minus` must be disambiguated in the symbol register before implementation.
+- `eta(1,1)` in `alpha_3` maps to `eta_k_q(1,1)` under `NORM-1982-ETA-INDEX`; use named arguments at call sites.
+- Selection tuple and resonance rules remain outside this AUX normalization decision and are still blocked separately.

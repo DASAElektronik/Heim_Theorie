@@ -11,7 +11,7 @@
 ## Immediate Review Flags
 
 1. `HT-F-1982-MU`: image check resolved the damaged OCR; keep historical-constant provenance separate before implementation.
-2. `HT-F-1982-AUX`: `Phi` expression is too fragile for direct coding from OCR.
-3. `HT-F-1989-MASS`: final `alpha_minus` term is source-checked as `4 q alpha_-`; adjacent `(B4)` alpha constants remain a normalization risk.
+2. `HT-F-1982-AUX`: `Phi` precedence and typed symbol roles are decision-scoped; direct coding from OCR remains forbidden.
+3. `HT-F-1989-MASS`: final `alpha_minus` term is source-checked as `4 q alpha_-`; adjacent `(B4)` alpha constants are scoped as dependency inputs by `NORM-1989-MASS-B4-DEPENDENCY-SCOPE`, with executable alpha computation still under `NORM-1989-ALPHA-001`.
 4. `HT-F-1989-FPHI`: source itself says bracket corrections were estimated.
 5. `HT-F-1982-SELECTION`: if this rule is unclear, all mass matching can become cherry picking.

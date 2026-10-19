@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="509" height="255" preserveAspectRatio="xMinYMin meet" viewBox="0 0 509 255" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="509" height="255"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-255)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="0" y="239" style="font-family: sans-serif; font-weight: bold; font-size: 13px;fill: rgb(9%,20%,26%); stroke:none;" transform="translate(0,478) scale(1,-1)">Was geht hinein, was kommt heraus?</text>
+			<rect x="0" y="132" width="148" height="78" rx="7" ry="7" style="stroke: rgb(84%,88%,89%); stroke-linecap: butt; stroke-width: 1; fill: rgb(92%,95%,96%); fill-rule: evenodd;"/>
+			<rect x="0" y="206" width="148" height="4" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,51%); fill-rule: evenodd;"/>
+			<text x="12" y="185" style="font-family: sans-serif; font-weight: bold; font-size: 10px;fill: rgb(3%,49%,51%); stroke:none;" transform="translate(0,370) scale(1,-1)">MESSWERTE</text>
+			<text x="12" y="164" style="font-family: sans-serif; font-size: 9px;fill: rgb(9%,20%,26%); stroke:none;" transform="translate(0,328) scale(1,-1)">Elektronenmasse, Ladung</text>
+			<text x="12" y="149" style="font-family: sans-serif; font-size: 9px;fill: rgb(9%,20%,26%); stroke:none;" transform="translate(0,298) scale(1,-1)">hbar und c</text>
+			<rect x="180" y="132" width="148" height="78" rx="7" ry="7" style="stroke: rgb(84%,88%,89%); stroke-linecap: butt; stroke-width: 1; fill: rgb(92%,95%,96%); fill-rule: evenodd;"/>
+			<rect x="180" y="206" width="148" height="4" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,51%); fill-rule: evenodd;"/>
+			<text x="192" y="185" style="font-family: sans-serif; font-weight: bold; font-size: 10px;fill: rgb(3%,49%,51%); stroke:none;" transform="translate(0,370) scale(1,-1)">MODELL + RÜCKWEG</text>
+			<text x="192" y="164" style="font-family: sans-serif; font-size: 9px;fill: rgb(9%,20%,26%); stroke:none;" transform="translate(0,328) scale(1,-1)">Gleichungen (29), (112)</text>
+			<text x="192" y="149" style="font-family: sans-serif; font-size: 9px;fill: rgb(9%,20%,26%); stroke:none;" transform="translate(0,298) scale(1,-1)">D_e bedingt fest</text>
+			<rect x="360" y="132" width="148" height="78" rx="7" ry="7" style="stroke: rgb(84%,88%,89%); stroke-linecap: butt; stroke-width: 1; fill: rgb(92%,95%,96%); fill-rule: evenodd;"/>
+			<rect x="360" y="206" width="148" height="4" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,51%); fill-rule: evenodd;"/>
+			<text x="372" y="185" style="font-family: sans-serif; font-weight: bold; font-size: 10px;fill: rgb(3%,49%,51%); stroke:none;" transform="translate(0,370) scale(1,-1)">ABGELEITET</text>
+			<text x="372" y="164" style="font-family: sans-serif; font-size: 9px;fill: rgb(9%,20%,26%); stroke:none;" transform="translate(0,328) scale(1,-1)">gamma, epsilon0, mu0</text>
+			<text x="372" y="149" style="font-family: sans-serif; font-size: 9px;fill: rgb(9%,20%,26%); stroke:none;" transform="translate(0,298) scale(1,-1)">nach H004, Seite 349</text>
+			<path d="M 151,171 L 176,171 Z" style="stroke: rgb(3%,49%,51%); stroke-linecap: butt; stroke-width: 1.7;"/>
+			<polygon points="176 171, 170 174, 170 168" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,51%); fill-rule: evenodd;"/>
+			<path d="M 331,171 L 356,171 Z" style="stroke: rgb(3%,49%,51%); stroke-linecap: butt; stroke-width: 1.7;"/>
+			<polygon points="356 171, 350 174, 350 168" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,51%); fill-rule: evenodd;"/>
+			<path d="M 434,128 L 434,105 Z" style="stroke: rgb(3%,49%,51%); stroke-linecap: butt; stroke-width: 1.7;"/>
+			<polygon points="434 105, 431 111, 437 111" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(3%,49%,51%); fill-rule: evenodd;"/>
+			<rect x="180" y="20" width="328" height="78" rx="7" ry="7" style="stroke: rgb(84%,88%,89%); stroke-linecap: butt; stroke-width: 1; fill: rgb(92%,95%,96%); fill-rule: evenodd;"/>
+			<rect x="180" y="94" width="328" height="4" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(67%,39%,12%); fill-rule: evenodd;"/>
+			<text x="192" y="73" style="font-family: sans-serif; font-weight: bold; font-size: 10px;fill: rgb(67%,39%,12%); stroke:none;" transform="translate(0,146) scale(1,-1)">ELEKTRON ERNEUT BERECHNET</text>
+			<text x="192" y="52" style="font-family: sans-serif; font-size: 9px;fill: rgb(9%,20%,26%); stroke:none;" transform="translate(0,104) scale(1,-1)">Rückgabe des Ankers: kein zusätzlicher unabhängiger Test.</text>
+			<text x="192" y="37" style="font-family: sans-serif; font-size: 9px;fill: rgb(9%,20%,26%); stroke:none;" transform="translate(0,74) scale(1,-1)">Andere Größen benötigen einen getrennten Vorhersagetest.</text>
+			<text x="0" y="85" style="font-family: sans-serif; font-size: 9px;fill: rgb(32%,40%,46%); stroke:none;" transform="translate(0,170) scale(1,-1)">D_e fasst den</text>
+			<text x="0" y="71" style="font-family: sans-serif; font-size: 9px;fill: rgb(32%,40%,46%); stroke:none;" transform="translate(0,142) scale(1,-1)">dimensionslosen</text>
+			<text x="0" y="57" style="font-family: sans-serif; font-size: 9px;fill: rgb(32%,40%,46%); stroke:none;" transform="translate(0,114) scale(1,-1)">Elektronenfaktor zusammen.</text>
+			<text x="0" y="0" style="font-family: sans-serif; font-size: 8px;fill: rgb(32%,40%,46%); stroke:none;" transform="translate(0,0) scale(1,-1)">Eigene Darstellung nach H004, Druck 349/371. Keine vollständige Theorieübersicht.</text>
+		</g>
+	</g>
+</svg>

@@ -2,7 +2,65 @@
 
 Zweck: Alle Freiheitsgrade sichtbar machen. Dazu zaehlen nicht nur kontinuierliche Konstanten, sondern auch diskrete Labels, Zweigwahlen, Teilchenzuordnungen, Rundungsregeln und Korrekturen.
 
+## Ergaenzung: isolierter Alpha-Audit 2026-09-06
+
+Model Card: `alpha_audit/MODEL_CARD.md`; maschinenlesbare Profile:
+`alpha_audit/inputs.json`. 1982 lokale eta-Indizes und vorhandene Indexvariante
+sowie 1989-(q,k)-Quellenverweis und (k,q)-Gegenversuch bleiben getrennt.
+Mathematisches pi und gedrucktes pi=3.1415926535 sind separate Profile.
+CODATA-Alpha geht ausschliesslich in den nachfolgenden Vergleich ein.
+
+Im Buch EDM2, Druckseiten 301-302 / PDF-Folios 307-308, wird Y3 als
+Unsicherheitsfaktor in (105) eingefuehrt und fuer die anschliessende Rechnung
+auf 1 gesetzt. Die zweite Etappe bestaetigt: Schon Druckseite 1 bezeichnet
+Y_k als Platzhalter fuer nicht vollstaendig geklaerte Beziehungen und setzt
+sie fuer die Tabellen auf 1. Eine theoretische Festlegung von Y3 wurde nicht
+gefunden. Der erste Alpha-Audit bleibt bei Y3=1 und fitfrei.
+
+Die getrennte Buchstruktur-Diagnose `scripts/audit_alpha_book.py` kehrt die
+Gleichung nach Y3 um. Bei Wahl eines gemessenen Alpha ist das **ein**
+kontinuierlicher Fitparameter, zuzueglich der offen dokumentierten diskreten
+Indexvariante. Diese Diagnose aendert keine kanonischen historischen Inputs.
+Kein einzelnes Y3 kann beide gedruckten Zweigwerte gleichzeitig treffen.
+Details: `alpha_audit/EXTENSION_CANDIDATES.md`.
+
+Etappe3: Buch(98) und Druck266 schliessen die lokale eta-Indexbruecke:
+eta_qk mit erster Position q, zweiter k; eta_10=eta. Die IGW1982(V)-Variante
+bleibt getrennt. Eine Gewichtung lambda variiert in der neuen Diagnose nur
+probeweise die Energiemittelung von BandI(29): lambda=1/2 ist source-belegt;
+die anderen vorab festgelegten Gewichte sind unsere ungefitten Gegenfaelle,
+kein behaupteter weiterer Heim-Parameter. Energieordnungs-Korrekturvarianten
+sind in `alpha_audit/BOOK_ENERGY_ORDER_ISSUE.md` gesondert ausgewiesen.
+
 ## Kontinuierliche Konstanten
+
+Etappe5: Eigener Beispielboost b=3/5 bedeutet Relativgeschwindigkeit von
+Bezugssystemen, nicht eine neue Quellen-alpha-Kalibrierung. Exakte rationale
+Boostfaktoren sind eine Softwarebeschraenkung fuer Lehrbeispiele, keine
+physikalische Auswahl. Source-p21-Matrix und Standardreferenz bleiben
+verschiedene Profile; EC-MATRIX-01 waere eine diskrete eigene Aenderung,
+wird jedoch nicht in die Quellen oder Alpha-Rechnung eingesetzt.
+
+Etappe6 Versionsvergleich abgeschlossen: Manuskript1981 H011 p4/5 definiert
+A_k mit eta^+1, Buch mit eta^-1/2. A=4C wird einmal mit Integrationsfreiheit,
+einmal mit vier Zonen motiviert, jeweils modal. Y und Y3 bleiben getrennt;
+kein neuer Manuskript-Recheninput ohne dessen eigene eta-Definitionen.
+
+Eigene Wellen-Diagnose: skalares S1, periodische Randbedingungen, N=|n|>=1
+und zeta=v_phase/c sind ausdrueckliche Zusatzentscheidungen. Die Nullmode
+ist im raeumlichen Problem erlaubt; N1, Radius, Zeitdynamik und Zweigwahl
+folgen nicht aus Periodizitaet. f=beta und y=R*s werden nur bedingt behalten.
+Ein eigener Faktor rho in C_eff=rho*P_Buch*Y3 zeigt Produktentartung; dies
+sind keine zwei aus derselben Alpha-Zahl bestimmbaren Quellenparameter.
+Alle gewaehlten Beispiele sind fitfrei; noch keine geschlossene Atomtheorie.
+
+Etappe4: `audit_energy_kinematics.py` hat keine angepassten Parameter.
+Y3=1 ist die unveraenderte Quellenspezialisierung, nicht neu bestimmt.
+Zwei diskrete diagnostische Aenderungen werden sichtbar getrennt: pc durch
+T ersetzen; zusaetzlich h/(mc) durch h/p ersetzen. Fuenf feste beta-Lehrwerte
+und der ungefitete kleine Buchzweig sind die Auswertungsstellen. Die
+Gleichsetzung von m(v_H) mit gamma*m0 ist eine bedingte Quellenbruecke.
+Diese Groessen sind keine neuen physikalisch gerechtfertigten Freiheitsgrade.
 
 | Name | Wert | Einheit | Quelle | Modellversion | Status | Notiz |
 |---|---:|---|---|---|---|---|
@@ -32,6 +90,8 @@ Zweck: Alle Freiheitsgrade sichtbar machen. Dazu zaehlen nicht nur kontinuierlic
 | Entscheidung | Optionen | Quelle | Modellversion | Status | Risiko |
 |---|---|---|---|---|---|
 | 1982 vs. 1989b Formel | 1982, 1989b | Heim/IGW/XLSM | TBD | offen | Vermischung von Original und spaeterer Korrektur |
+| Modellversionierung der Massenformel | `model_1982_from_text`, `model_1989_extension` | `NORM-1989-MASS-VERSIONING` | 1982/1989 | entschieden | Keine unversionierte Massenformel verwenden |
+| Konstantenprofil 1982 | `model_1982_igw2003_printed`, modern comparison profile | `NORM-1982-MU-HISTORICAL-CONSTANTS` | 1982/IGW transcription | entschieden | Historische und moderne Konstanten nicht mischen |
 | Klammerkorrekturen 1989 | Original, IGW-Schaetzung | 1989-PDF Einleitung | TBD | offen | Ex-post-Anpassung |
 | K_j Dezimalstellenregel 1982 | `,99...99 = 1`; sonst Dezimalstellen abschneiden, nicht aufrunden | `Massenformel_nach_B_Heim_1982.pdf`, page image `1982_massenformel/page-09.png`, Vermerk lines 431-435 | 1982/IGW transcription | source_checked | Diskrete Rundungs-/Abschneideregel fuer K4/K_j; nicht mit spaeteren Code-Kommentaren vermischen |
 | Alpha-Zweigkuerzung 1982 | `alpha_(+) = alpha`; `alpha_(-) = beta ~= 137 alpha` | `Massenformel_nach_B_Heim_1982.pdf`, page image `1982_massenformel/page-04.png`, lines 141-147 | 1982/IGW transcription | source_checked | Source prints reciprocal numeric branch values; branch aliases nicht mit 1989/XLSM vermischen |

@@ -1,0 +1,589 @@
+{
+  "scope": "H01748 MAIN; same CS expression H015 PDF18. H006 PDF3 table, EPS=+1 only.",
+  "interpretation": "Python exact arithmetic diagnostic, not historical compiler emulation or mass reconstruction.",
+  "rows": [
+    {
+      "multiplet": 1,
+      "state": {
+        "K": 1,
+        "PG": 0,
+        "QG": 0,
+        "KAPPA": 0
+      },
+      "EPS": 1,
+      "source_table": {
+        "CS": 0,
+        "IQX": [
+          0
+        ]
+      },
+      "listing_integer": {
+        "prefactor": "2",
+        "epsp": 1,
+        "epsq": 1,
+        "CS": 0,
+        "IQX": [
+          0
+        ],
+        "KQ": [
+          0
+        ]
+      },
+      "rational_diagnostic": {
+        "prefactor": "2",
+        "epsp": 1,
+        "epsq": 1,
+        "CS": 0,
+        "IQX": [
+          0
+        ],
+        "KQ": [
+          0
+        ]
+      },
+      "integer_matches_table": true,
+      "rational_matches_table": true
+    },
+    {
+      "multiplet": 2,
+      "state": {
+        "K": 1,
+        "PG": 1,
+        "QG": 1,
+        "KAPPA": 0
+      },
+      "EPS": 1,
+      "source_table": {
+        "CS": 0,
+        "IQX": [
+          0,
+          -1
+        ]
+      },
+      "listing_integer": {
+        "prefactor": "2",
+        "epsp": 1,
+        "epsq": 1,
+        "CS": 0,
+        "IQX": [
+          0,
+          -1
+        ],
+        "KQ": [
+          0,
+          1
+        ]
+      },
+      "rational_diagnostic": {
+        "prefactor": "2",
+        "epsp": 1,
+        "epsq": 1,
+        "CS": 0,
+        "IQX": [
+          0,
+          -1
+        ],
+        "KQ": [
+          0,
+          1
+        ]
+      },
+      "integer_matches_table": true,
+      "rational_matches_table": true
+    },
+    {
+      "multiplet": 3,
+      "state": {
+        "K": 1,
+        "PG": 1,
+        "QG": 1,
+        "KAPPA": 1
+      },
+      "EPS": 1,
+      "source_table": {
+        "CS": 0,
+        "IQX": [
+          -1,
+          -1
+        ]
+      },
+      "listing_integer": {
+        "prefactor": "1",
+        "epsp": -1,
+        "epsq": 1,
+        "CS": 0,
+        "IQX": [
+          -1,
+          -1
+        ],
+        "KQ": [
+          1,
+          1
+        ]
+      },
+      "rational_diagnostic": {
+        "prefactor": "1",
+        "epsp": -1,
+        "epsq": 1,
+        "CS": 0,
+        "IQX": [
+          -1,
+          -1
+        ],
+        "KQ": [
+          1,
+          1
+        ]
+      },
+      "integer_matches_table": true,
+      "rational_matches_table": true
+    },
+    {
+      "multiplet": 4,
+      "state": {
+        "K": 1,
+        "PG": 1,
+        "QG": 0,
+        "KAPPA": 1
+      },
+      "EPS": 1,
+      "source_table": {
+        "CS": 1,
+        "IQX": [
+          1,
+          0
+        ]
+      },
+      "listing_integer": {
+        "prefactor": "1",
+        "epsp": 1,
+        "epsq": 1,
+        "CS": 1,
+        "IQX": [
+          1,
+          0
+        ],
+        "KQ": [
+          1,
+          0
+        ]
+      },
+      "rational_diagnostic": {
+        "prefactor": "1",
+        "epsp": 1,
+        "epsq": 1,
+        "CS": 1,
+        "IQX": [
+          1,
+          0
+        ],
+        "KQ": [
+          1,
+          0
+        ]
+      },
+      "integer_matches_table": true,
+      "rational_matches_table": true
+    },
+    {
+      "multiplet": 5,
+      "state": {
+        "K": 1,
+        "PG": 2,
+        "QG": 0,
+        "KAPPA": 0
+      },
+      "EPS": 1,
+      "source_table": {
+        "CS": 0,
+        "IQX": [
+          1,
+          0,
+          -1
+        ]
+      },
+      "listing_integer": {
+        "prefactor": "2",
+        "epsp": 1,
+        "epsq": 1,
+        "CS": 0,
+        "IQX": [
+          1,
+          0,
+          -1
+        ],
+        "KQ": [
+          1,
+          0,
+          1
+        ]
+      },
+      "rational_diagnostic": {
+        "prefactor": "2",
+        "epsp": 1,
+        "epsq": 1,
+        "CS": 0,
+        "IQX": [
+          1,
+          0,
+          -1
+        ],
+        "KQ": [
+          1,
+          0,
+          1
+        ]
+      },
+      "integer_matches_table": true,
+      "rational_matches_table": true
+    },
+    {
+      "multiplet": 6,
+      "state": {
+        "K": 2,
+        "PG": 0,
+        "QG": 1,
+        "KAPPA": 0
+      },
+      "EPS": 1,
+      "source_table": {
+        "CS": -1,
+        "IQX": [
+          0
+        ]
+      },
+      "listing_integer": {
+        "prefactor": "1",
+        "epsp": 1,
+        "epsq": -1,
+        "CS": -1,
+        "IQX": [
+          0
+        ],
+        "KQ": [
+          0
+        ]
+      },
+      "rational_diagnostic": {
+        "prefactor": "1",
+        "epsp": 1,
+        "epsq": -1,
+        "CS": -1,
+        "IQX": [
+          0
+        ],
+        "KQ": [
+          0
+        ]
+      },
+      "integer_matches_table": true,
+      "rational_matches_table": true
+    },
+    {
+      "multiplet": 7,
+      "state": {
+        "K": 2,
+        "PG": 0,
+        "QG": 3,
+        "KAPPA": 0
+      },
+      "EPS": 1,
+      "source_table": {
+        "CS": -3,
+        "IQX": [
+          -1
+        ]
+      },
+      "listing_integer": {
+        "prefactor": "1",
+        "epsp": 1,
+        "epsq": -1,
+        "CS": -3,
+        "IQX": [
+          -1
+        ],
+        "KQ": [
+          1
+        ]
+      },
+      "rational_diagnostic": {
+        "prefactor": "1",
+        "epsp": 1,
+        "epsq": -1,
+        "CS": -3,
+        "IQX": [
+          -1
+        ],
+        "KQ": [
+          1
+        ]
+      },
+      "integer_matches_table": true,
+      "rational_matches_table": true
+    },
+    {
+      "multiplet": 8,
+      "state": {
+        "K": 2,
+        "PG": 1,
+        "QG": 1,
+        "KAPPA": 0
+      },
+      "EPS": 1,
+      "source_table": {
+        "CS": 0,
+        "IQX": [
+          1,
+          0
+        ]
+      },
+      "listing_integer": {
+        "prefactor": "1",
+        "epsp": 1,
+        "epsq": -1,
+        "CS": 0,
+        "IQX": [
+          1,
+          0
+        ],
+        "KQ": [
+          1,
+          0
+        ]
+      },
+      "rational_diagnostic": {
+        "prefactor": "1",
+        "epsp": 1,
+        "epsq": -1,
+        "CS": 0,
+        "IQX": [
+          1,
+          0
+        ],
+        "KQ": [
+          1,
+          0
+        ]
+      },
+      "integer_matches_table": true,
+      "rational_matches_table": true
+    },
+    {
+      "multiplet": 9,
+      "state": {
+        "K": 2,
+        "PG": 1,
+        "QG": 1,
+        "KAPPA": 1
+      },
+      "EPS": 1,
+      "source_table": {
+        "CS": -2,
+        "IQX": [
+          0,
+          -1
+        ]
+      },
+      "listing_integer": {
+        "prefactor": "0",
+        "epsp": -1,
+        "epsq": -1,
+        "CS": 0,
+        "IQX": [
+          1,
+          0
+        ],
+        "KQ": [
+          1,
+          0
+        ]
+      },
+      "rational_diagnostic": {
+        "prefactor": "1/2",
+        "epsp": -1,
+        "epsq": -1,
+        "CS": -2,
+        "IQX": [
+          0,
+          -1
+        ],
+        "KQ": [
+          0,
+          1
+        ]
+      },
+      "integer_matches_table": false,
+      "rational_matches_table": true
+    },
+    {
+      "multiplet": 10,
+      "state": {
+        "K": 2,
+        "PG": 2,
+        "QG": 1,
+        "KAPPA": 0
+      },
+      "EPS": 1,
+      "source_table": {
+        "CS": -1,
+        "IQX": [
+          1,
+          0,
+          -1
+        ]
+      },
+      "listing_integer": {
+        "prefactor": "1",
+        "epsp": -1,
+        "epsq": 1,
+        "CS": -1,
+        "IQX": [
+          1,
+          0,
+          -1
+        ],
+        "KQ": [
+          1,
+          0,
+          1
+        ]
+      },
+      "rational_diagnostic": {
+        "prefactor": "1",
+        "epsp": -1,
+        "epsq": 1,
+        "CS": -1,
+        "IQX": [
+          1,
+          0,
+          -1
+        ],
+        "KQ": [
+          1,
+          0,
+          1
+        ]
+      },
+      "integer_matches_table": true,
+      "rational_matches_table": true
+    },
+    {
+      "multiplet": 11,
+      "state": {
+        "K": 2,
+        "PG": 3,
+        "QG": 1,
+        "KAPPA": 0
+      },
+      "EPS": 1,
+      "source_table": {
+        "CS": -2,
+        "IQX": [
+          1,
+          0,
+          -1,
+          -2
+        ]
+      },
+      "listing_integer": {
+        "prefactor": "1",
+        "epsp": -1,
+        "epsq": 1,
+        "CS": -2,
+        "IQX": [
+          1,
+          0,
+          -1,
+          -2
+        ],
+        "KQ": [
+          1,
+          0,
+          1,
+          2
+        ]
+      },
+      "rational_diagnostic": {
+        "prefactor": "1",
+        "epsp": -1,
+        "epsq": 1,
+        "CS": -2,
+        "IQX": [
+          1,
+          0,
+          -1,
+          -2
+        ],
+        "KQ": [
+          1,
+          0,
+          1,
+          2
+        ]
+      },
+      "integer_matches_table": true,
+      "rational_matches_table": true
+    },
+    {
+      "multiplet": 12,
+      "state": {
+        "K": 2,
+        "PG": 3,
+        "QG": 3,
+        "KAPPA": 0
+      },
+      "EPS": 1,
+      "source_table": {
+        "CS": 0,
+        "IQX": [
+          2,
+          1,
+          0,
+          -1
+        ]
+      },
+      "listing_integer": {
+        "prefactor": "1",
+        "epsp": -1,
+        "epsq": 1,
+        "CS": 0,
+        "IQX": [
+          2,
+          1,
+          0,
+          -1
+        ],
+        "KQ": [
+          2,
+          1,
+          0,
+          1
+        ]
+      },
+      "rational_diagnostic": {
+        "prefactor": "1",
+        "epsp": -1,
+        "epsq": 1,
+        "CS": 0,
+        "IQX": [
+          2,
+          1,
+          0,
+          -1
+        ],
+        "KQ": [
+          2,
+          1,
+          0,
+          1
+        ]
+      },
+      "integer_matches_table": true,
+      "rational_matches_table": true
+    }
+  ],
+  "affected_multiplets": [
+    9
+  ],
+  "all_rational_match": true
+}
